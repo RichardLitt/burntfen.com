@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Morphological induction</title>
+    <meta name="description" content="Ideas from Keshava and Pitler 2005">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Richard Littauer">
+    <meta name="copyright" content="&copy; Richard Littauer 2015">
+    <meta name="description" content="My personal website, where I list all of my main projects and occasionally blog.">
+
+    <meta property="og:description" content="My personal website, where I list all of my main projects and occasionally blog." />
+    <meta property="og:url" content="http://burntfen.com/" />
+    <meta property="og:site_name" content="Richard Littauer" />
+    <meta property="og:title" content="Richard Littauer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://burntfen.com/assets/img/avatar.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="510" />
+    <meta property="og:image:height" content="515" />
+
+    <!-- Twitter: card tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@richlitt" />
+    <meta name="twitter:title" content="Richard Littauer">
+    <meta name="twitter:description" content="My personal website, where I list all of my main projects and occasionally blog.">
+    <meta name="twitter:image" content="http://burntfen.com/assets/img/avatar.png">
+
+    <!-- Open Source Protocol -->
+    <link rel="profile" href="http://osprotocol.com" />
+    <meta property="os:repo" content="https://github.com/RichardLitt/richardlitt.github.com" />
+    <meta property="os:rcs_type" content="git" />
+    <meta property="os:src" content="git@github.com:RichardLitt/richardlitt.github.com.git" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/touch-icon-ipad-retina.png" />
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">RICHARD LITTAUER</a>
+         </div> <!-- /container -->
+       </div> <!-- /navbar-inner -->
+     </div> <!-- /navbar -->
+
+    <div class="wrapper">
+
+    <div class="container subpage">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Morphological induction</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-8 post">
+      
+<p>Thoughts while reading: S. Keshava &amp; E. Pitler (2005). <em>A Simpler,
+Intuitive Approach to Morpheme Induction</em>. Proceedings of
+Morphochallenge 2005, pp. 28-32.</p>
+
+<ul>
+  <li>Goldsmith 2001 seems to be used often to sum up morphological
+induction - what’s the new must-read article for the past decade?</li>
+  <li>This paper was released around the same time as Morfessor 1.0. How do
+they compare?</li>
+  <li>This isn’t good for Arabic or semitic languages (Maltese). How does
+it compare to Poon et al, 2009, NAACL, <em>Unsupervised Morphological Segmentation with Log-Linear Models</em>?</li>
+  <li><strong>Paper idea</strong>: using orthographically cleaned data, could one use historical knowledge of a language, perhaps by using Bayesian analysis of similar languages to find cognates, to bootstrap better morphological induction? Pitfalls, possibilities?</li>
+  <li>“The forward and backward trees allow us to calculate conditional probabilities in O(1) time…” What does this mean exactly?</li>
+  <li>What influence do multiword expressions or complicated NPs have on morphological analysis? Does <em>The Mayor of Boston’s Hat</em> actually do anything?</li>
+  <li>I’m sorry, but I think that using the argument that “19+1 is not arbitrary, as x / x+y = .05” is not a valid argument. .05 is also arbitrary. If you want to go for non-arbitrary, use human-evaluated morpheme to lexeme percentages.</li>
+  <li>What exactly do the other 20%, after 80%~ Recall and precision, look like? Are there regularities to the exceptions? Perhaps etymological / PoS / orthographical? Throwing out the baby with the bathwater.</li>
+  <li>This paper was also run on Finnish. Morfessor was too. Going to have to read both.</li>
+  <li>What about differences between derivational and inflectional morphemes?</li>
+  <li>Good example: <em>widen</em> is <em>wid</em> + <em>en</em>, which is missed by the script. Ideally, one should be able to know that long vowels shortened when there is a following syllabic morpheme (have I written/read this aright?). That should be testable given statistical regularities in Germanic roots or Bayesian inference of likely source language, followed by likely age, followed by intelligent morpheme induction that would treat <em>widen</em> as both <em>wide</em> + <em>en</em> and <em>wid</em> + <em>en</em>.</li>
+  <li><em>passionflowers</em> is arguably on the cusp of being non-compositional. Morpheme induction for this is useful how, exactly?</li>
+  <li>Another Saffran quoting paper! <strong>I need to get that paper of mine out</strong>. <strong>Now</strong>.</li>
+  <li>Read Yang 2004 in response to Saffran 1996.</li>
+  <li>Regarding <em>Future Work</em>: What follow-ups have they had? Why didn’t they utilise Saffran &amp; Aslin earlier, if they knew about it? What sort of phonological information would help them? Why don’t they use collocations? How would batch learning actually change the program recognition (opaque)?</li>
+  <li>“While we do not claim that humans use our algorithm to segment words, we believe that further research along this line has potential to reveal insight into human language processing.” What sort of insight? What other algorithms would humans use? What about subconscious vs. conscious induction? What about linguistically-informed induction vs. first language acquisition? Isn’t it an error to lump all of these together?</li>
+  <li>Hafer and Weiss, 1974. <em>Word segmentation by Letter Successor Varities</em>. Information Storage and Retrieval, 10:371-385. - might be worth reading.</li>
+</ul>
+
+<p>As always, reader, if anything is interesting, don’t hesitate to get into contact.</p>
+
+      <hr>
+      <div class="pagination">
+        <ul>
+        
+          <li class="prev"><a href="/2012-10-02/18-38-some-regex-fun" title="Some Regex Fun">&larr; Previous</a></li>
+        
+          <li><a href="/archive.html">Archive</a></li>
+        
+          <li class="next"><a href="/2012-10-24/13-12-getting-mou-to-run-in-the-terminal" title="Getting Mou to run in the terminal">Next &rarr;</a></li>
+        
+        </ul>
+      </div>
+      <hr>
+      
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'richardlitt'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+    </div>
+    
+    <div class="col-md-4">
+      <h4>Published</h4>
+      <div class="date"><span>24 October 2012</span></div>
+
+    
+      <h4>Tags</h4>
+      <ul class="tag_box">
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#research-ref">research <span>4</span></a></li>
+    
+  
+
+
+
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+
+              <footer>
+              <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+          <p>Richard Littauer &copy; <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>.
+            <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
+          </p>
+        </footer>
+    <div class="push"></div>
+
+    </div> <!-- /container -->
+
+  </div> <!-- /wrapper -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    
+
+  </body>
+</html>
+

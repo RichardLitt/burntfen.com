@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>practice</title>
+    <meta name="description" content="A tool for reminding myself to work daily">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Richard Littauer">
+    <meta name="copyright" content="&copy; Richard Littauer 2015">
+    <meta name="description" content="My personal website, where I list all of my main projects and occasionally blog.">
+
+    <meta property="og:description" content="My personal website, where I list all of my main projects and occasionally blog." />
+    <meta property="og:url" content="http://burntfen.com/" />
+    <meta property="og:site_name" content="Richard Littauer" />
+    <meta property="og:title" content="Richard Littauer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://burntfen.com/assets/img/avatar.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="510" />
+    <meta property="og:image:height" content="515" />
+
+    <!-- Twitter: card tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@richlitt" />
+    <meta name="twitter:title" content="Richard Littauer">
+    <meta name="twitter:description" content="My personal website, where I list all of my main projects and occasionally blog.">
+    <meta name="twitter:image" content="http://burntfen.com/assets/img/avatar.png">
+
+    <!-- Open Source Protocol -->
+    <link rel="profile" href="http://osprotocol.com" />
+    <meta property="os:repo" content="https://github.com/RichardLitt/richardlitt.github.com" />
+    <meta property="os:rcs_type" content="git" />
+    <meta property="os:src" content="git@github.com:RichardLitt/richardlitt.github.com.git" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/touch-icon-ipad-retina.png" />
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">RICHARD LITTAUER</a>
+         </div> <!-- /container -->
+       </div> <!-- /navbar-inner -->
+     </div> <!-- /navbar -->
+
+    <div class="wrapper">
+
+    <div class="container subpage">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>practice</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-8 post">
+      
+<blockquote>
+  <p>“Practice makes the master.” - Patrick Rothfuss, <em>The Name of the Wind</em></p>
+</blockquote>
+
+<p>Skills are hard work. They take a lot of effort, and they take a lot of time. If you really want to be good at something, you have to do it every day - otherwise, your skills begin to rust.</p>
+
+<p>I’ve tried a lot of task management systems. None of them were very good at repeated tasks - probably because no one wants to feel like Sisyphus every day, seeing tasks they just accomplished the night before in their to do list. I don’t like feeling like Sisyphus, either, but there are tasks I do want to do daily. I’ve found the way to stress less about them is to take them outside of my to do list, and to have them in a list of their own, somewhere that reminds me what I need to do.</p>
+
+<p>The best place for me is my window: I sit daily and look outside at Protrero Hill, and writing on the window makes sense. So, I got a glass pen and wrote the four things I try to do every day on it:</p>
+
+<ul>
+  <li>Code</li>
+  <li>Journal</li>
+  <li>Exercise</li>
+  <li>Meditate</li>
+</ul>
+
+<p>The issue is that I don’t <em>always</em> sit at my window. But I am always on my laptop. So, I decided to use an old friend of mine,  <a href="http://projects.tynsoe.org/en/geektool/">GeekTool</a>, to put the four items on my desktop. I made a node module that prints out whatever I haven’t done today into the terminal, and I mirror that on the desktop.</p>
+
+<p>In the process of building this small thing, I learned a lot. For instance, how to use the <code class="highlighter-rouge">bin</code> field in npm’s <code class="highlighter-rouge">package.json</code> file. Having an executable module without having to make an alias is amazing (You may recall I used aliases when I made <a href="github.com/RichardLitt/journall">journall</a>. I also learned about <a href="https://github.com/rvagg/node-levelup">levelup</a>, which is great - this was the first time I actually used a proper database for some small project, and I like it much more than my old .csv file methods.</p>
+
+<p>I also got it working with <a href="http://www.alfredapp.com/">Alfred</a>, which I’ve used 33,000 times in the past 18 months (I highly suggest it). I made a workflow that allows me to send arguments to my node module directly from Alfred, which took a lot more tinkering than I thought, mostly because Alfred doesn’t offer node as an option and I had to jerry rig bash to make it work.</p>
+
+<p>Here’s the bash file I’m using:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash </span>
+
+<span class="nv">task</span><span class="o">=</span><span class="s2">"{query}"</span>
+
+<span class="k">if</span> <span class="o">[[</span> <span class="nv">$task</span> <span class="o">]]</span>
+<span class="k">then</span>
+  /usr/local/bin/node /usr/local/lib/node_modules/practice/bin/index.js <span class="nv">$task</span>
+<span class="k">else</span>
+  /usr/local/bin/node /usr/local/lib/node_modules/practice/bin/index.js
+<span class="k">fi</span>
+</code></pre>
+</div>
+
+<p>So far, the whole set up is working pretty well. I like having a clean desktop, so I work hard each day to do my four things, and then my desktop is clean again.</p>
+
+<p>And the best part is I am getting better at journaling, coding, meditating, and exercising. Here’s to the New Year, eh?</p>
+
+      <hr>
+      <div class="pagination">
+        <ul>
+        
+          <li class="prev"><a href="/2015-01-04/books-from-2014" title="Books from 2014">&larr; Previous</a></li>
+        
+          <li><a href="/archive.html">Archive</a></li>
+        
+          <li class="next"><a href="/2015-02-14/its-ok-richard" title="It's OK, Richard.">Next &rarr;</a></li>
+        
+        </ul>
+      </div>
+      <hr>
+      
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'richardlitt'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+    </div>
+    
+    <div class="col-md-4">
+      <h4>Published</h4>
+      <div class="date"><span>08 January 2015</span></div>
+
+    
+      <h4>Tags</h4>
+      <ul class="tag_box">
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#projects-ref">projects <span>16</span></a></li>
+     
+    	<li><a href="/tags.html#code-ref">code <span>10</span></a></li>
+    
+  
+
+
+
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+
+              <footer>
+              <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+          <p>Richard Littauer &copy; <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>.
+            <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
+          </p>
+        </footer>
+    <div class="push"></div>
+
+    </div> <!-- /container -->
+
+  </div> <!-- /wrapper -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    
+
+  </body>
+</html>
+
