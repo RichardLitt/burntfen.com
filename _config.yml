@@ -99,10 +99,10 @@ JB :
   analytics :
     provider : google 
     google : 
-        #tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
+        tracking_id : 'UA-4124866-15'
+    #getclicky :
+      #site_id : 
+    #mixpanel :
         #token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper. 
