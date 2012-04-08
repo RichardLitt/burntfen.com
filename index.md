@@ -5,7 +5,7 @@ tagline: Puddling thoughts...
 ---
 {% include JB/setup %}
 
-![Avatar](/images/inktank.png)Format:![This is me. In ink.](/images/inktank.png)Welcome to my personal Github site. I hope to integrate this with [Wired In](http://github.com/RichardLitt/wired-in), to create a
+[Avatar](/images/inktank.png) Welcome to my personal Github site. I hope to integrate this with [Wired In](http://github.com/RichardLitt/wired-in), to create a
 semi-automatic terminal-run blog-based time tracking program. As if
 keeping track of myself weren't enough, soon you'll be able to follow
 along. 
