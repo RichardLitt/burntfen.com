@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Stasis Box
-tagline: Open it, there might be a tcheran board.
+title: The Micro Bog
+tagline: Puddling thoughts...
 ---
 {% include JB/setup %}
 
@@ -11,11 +11,11 @@ semi-automatic terminal-run blog-based time tracking program. As if
 keeping track of myself weren't enough, soon you'll be able to follow
 along. 
 
-## Current Posts
+<hr />
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">##{{ post.title }}</a>
     <br />
     <span>{{ post.content }}</span><br />
     <hr />
@@ -23,4 +23,4 @@ along.
   {% endfor %}
 </ul>
 
-That's all for now. Unless you know where I can find the M'Hael?
+And here we come to the end. 
