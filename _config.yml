@@ -79,18 +79,18 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : richardlitt
     #livefyre :
     #  site_id : 123
     #intensedebate :
     #  account : 123abc
-    #facebook:
-    #  appid : 123
-    #  num_posts: 5
-    #  width: 580
-    #  colorscheme: light
+    facebook:
+      appid : 289508827791353
+      num_posts: 5
+      width: 580
+      colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
