@@ -11,6 +11,17 @@ semi-automatic terminal-run blog-based time tracking program. As if
 keeping track of myself weren't enough, soon you'll be able to follow
 along. 
 
+However, that might be a while. For one, I don't want everything I do
+all day to be publicly on the internet, no matter how much I like Open
+Notebooks. So, instead, this microblog will be a solution to another
+problem; namely, keeping track of my thoughts when a commit on a time
+tracker won't do it, and when I don't have the effort to write a full
+blog. All of this is to say that you can expect a lot of microposts
+a couple of paragraphs long here. If I stop at any point, someone remind
+me. I've written more information on my [About](about.html) page, but I
+doubt it'll actually be very helpful. By the way, I am [this
+guy](http://www.burntfen.net).
+
 <hr />
 
 <ul class="posts">
