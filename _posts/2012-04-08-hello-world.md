@@ -2,8 +2,9 @@
 layout: post
 title: "installed jb"
 description: "is a description really necessary?"
-category: this-site
+category: site
 tags: [coding, infrastructure, admin]
+tagline: "But really, is this necessary?"
 ---
 {% include JB/setup %}
 
