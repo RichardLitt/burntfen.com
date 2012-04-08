@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "installed jb"
-description: ""
-category: 
-tags: []
+description: "is a description really necessary?"
+category: "this-site"
+tags: [coding, infrastructure, admin]
 ---
 {% include JB/setup %}
 
