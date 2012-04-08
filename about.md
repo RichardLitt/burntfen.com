@@ -6,9 +6,9 @@ description: "A bout of about."
 ---
 {% include JB/setup %}
 
-###Where God Went Wrong
-
 > _The story so far. In the beginning the universe was created. This made a lot of people very unhappy and has widely been regarded as a bad move._
+
+###Where God Went Wrong
 
 I've grown increasingly tired with Wordpress and anything that even
 comes close to being wysiwyg. For one, I'm always having issues deciding
