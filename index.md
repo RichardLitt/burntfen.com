@@ -42,7 +42,7 @@ doubt it'll actually be very helpful. By the way, I am <a href="http://www.burnt
   </div>
 {% endfor %}
 
-<div style="width:800px;">
+<div style="width:800px;padding-left:100px;">
 <h4>Past posts.</h4>
 <br />
 <ul class="posts">
