@@ -5,22 +5,21 @@ tagline:
 ---
 {% include JB/setup %}
 
-<span style="width:800px;">
+<div style="width:800px;">
 <img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
-Welcome to my personal Github site. I hope to integrate this with [Wired In](http://github.com/RichardLitt/wired-in), to create a
+<p>Welcome to my personal Github site. I hope to integrate this with <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, to create a
 semi-automatic terminal-run blog-based time tracking program. As if
 keeping track of myself weren't enough, soon you'll be able to follow
-along. 
+along.</p>
 
-However, that might be a while. For one, I don't want everything I do
+<p>However, that might be a while. For one, I don't want everything I do
 all day to be publicly on the internet, no matter how much I like Open
 Notebooks. So, instead, this blog will be used to keep track of my thoughts when a commit on a time tracker won't do it, and when I don't have the effort to write a full
 blog on Wordpress. All of this is to say that you can expect a lot of posts
 a couple of paragraphs long here. If I stop at any point, someone remind
-me. I've written more information on my [About](about.html) page, but I
-doubt it'll actually be very helpful. By the way, I am [this
-guy](http://www.burntfen.net).
-</span>
+me. I've written more information on my <a href="about.html">About</a> page, but I
+doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.</p>
+</div>
 
 ####And now for some posts. 
 
@@ -43,7 +42,8 @@ guy](http://www.burntfen.net).
   </div>
 {% endfor %}
 
-####Past posts.
+<div style="width:800px;">
+<h4>Past posts.</h4>
 <br />
 <ul class="posts">
   {% for post in site.posts %}
@@ -57,4 +57,6 @@ guy](http://www.burntfen.net).
     </li>
   {% endfor %}
 </ul>
+
 And here we come to the end. 
+</div>
