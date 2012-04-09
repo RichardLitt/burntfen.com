@@ -25,6 +25,7 @@ guy](http://www.burntfen.net).
 <hr />
 
 {% for post in site.posts limit:5 %}
+  <div style="width:600px;">
   <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a>
   <div style="float:right;">      
     <span>{% for tag in post.tags %} {{ tag }} {% endfor %} </span>
@@ -33,14 +34,17 @@ guy](http://www.burntfen.net).
       {{ post.category }}
     </a></span>
   </div>
-  <br />
+  <br /><br />
   <span>{{ post.content }}</span>
   <br />
   <hr />
+  </div>
 {% endfor %}
 
+####Past posts.
+
 <ul class="posts">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a>
       &raquo;&raquo;
       <span>
