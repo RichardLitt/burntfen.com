@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : The Microbog
+title : micro-bog
 tagline: Puddling thoughts...
 author :
   name : Richard Littauer

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Richard Littauer's Micro Bog
+title: Richard Littauer : Micro Bog
 tagline: fit ex nihilo nihil
 ---
 {% include JB/setup %}
