@@ -24,22 +24,33 @@ guy](http://www.burntfen.net).
 
 <hr />
 
+{% for post in site.posts limit:5 %}
+  <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a>
+  <div style="float:right;">      
+    <span>{% for tag in post.tags %} {{ tag }} {% endfor %} </span>
+    &laquo;&laquo;
+    <span><a href="{{ BASE_PATH }}categories.html#{{ post.category }}-ref">
+      {{ post.category }}
+    </a></span>
+  </div>
+  <br />
+  <span>{{ post.content }}</span>
+  <br />
+  <hr />
+{% endfor %}
+
 <ul class="posts">
   {% for post in site.posts limit:5 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a>
-    <div style="float:right;">      
-      <span>{% for tag in post.tags %} {{ tag }} {% endfor %} </span>
-      &laquo;&laquo;
-      <span><a href="{{ BASE_PATH }}categories.html#{{ post.category }}-ref">
+      &raquo;&raquo;
+      <span>
+      <a href="{{ BASE_PATH }}categories.html#{{ post.category }}-ref">
         {{ post.category }}
-      </a></span>
-    </div>
-    <br />
-    <span>{{ post.content }}</span>
-    <br />
-    <hr />
+      </a>
+      </span>
     </li>
   {% endfor %}
 </ul>
+
 
 And here we come to the end. 
