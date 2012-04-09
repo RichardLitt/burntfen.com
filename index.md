@@ -5,7 +5,7 @@ tagline: Puddling thoughts...
 ---
 {% include JB/setup %}
 
-<img style="float:left;padding-right:30px;" src="images/inktank.png" /> 
+<img style="float:left;padding-right:20px;" src="images/inktank.png" /> 
 Welcome to my personal Github site. I hope to integrate this with [Wired In](http://github.com/RichardLitt/wired-in), to create a
 semi-automatic terminal-run blog-based time tracking program. As if
 keeping track of myself weren't enough, soon you'll be able to follow
@@ -21,6 +21,8 @@ a couple of paragraphs long here. If I stop at any point, someone remind
 me. I've written more information on my [About](about.html) page, but I
 doubt it'll actually be very helpful. By the way, I am [this
 guy](http://www.burntfen.net).
+
+####And now for some posts. 
 
 <hr />
 
