@@ -5,6 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
+<div style="width:800px;">
 <img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
 Welcome to my personal Github site. I hope to integrate this with [Wired In](http://github.com/RichardLitt/wired-in), to create a
 semi-automatic terminal-run blog-based time tracking program. As if
@@ -19,6 +20,7 @@ a couple of paragraphs long here. If I stop at any point, someone remind
 me. I've written more information on my [About](about.html) page, but I
 doubt it'll actually be very helpful. By the way, I am [this
 guy](http://www.burntfen.net).
+</div>
 
 ####And now for some posts. 
 
@@ -41,6 +43,7 @@ guy](http://www.burntfen.net).
   </div>
 {% endfor %}
 
+<div style="width:700px;padding-left:100px;">
 ####Past posts.
 <br />
 <ul class="posts">
@@ -55,6 +58,5 @@ guy](http://www.burntfen.net).
     </li>
   {% endfor %}
 </ul>
-
-
 And here we come to the end. 
+</div>
