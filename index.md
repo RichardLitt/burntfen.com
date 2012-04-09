@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Richard Littauer and the Micro Bog
+title: Richard Littauer's Blog
 tagline: 
 ---
 {% include JB/setup %}
@@ -13,10 +13,8 @@ along.
 
 However, that might be a while. For one, I don't want everything I do
 all day to be publicly on the internet, no matter how much I like Open
-Notebooks. So, instead, this microblog will be a solution to another
-problem; namely, keeping track of my thoughts when a commit on a time
-tracker won't do it, and when I don't have the effort to write a full
-blog. All of this is to say that you can expect a lot of microposts
+Notebooks. So, instead, this blog will be used to keep track of my thoughts when a commit on a time tracker won't do it, and when I don't have the effort to write a full
+blog on Wordpress. All of this is to say that you can expect a lot of posts
 a couple of paragraphs long here. If I stop at any point, someone remind
 me. I've written more information on my [About](about.html) page, but I
 doubt it'll actually be very helpful. By the way, I am [this
