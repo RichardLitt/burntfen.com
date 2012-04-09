@@ -28,7 +28,7 @@ guy](http://www.burntfen.net).
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     <div style="float:right;"><span>{{ post.category }}</span> &raquo; 
-      <span>{% for tag in post.tags %} {{ post.tag }} </span>
+      <span>{% for tag in post.tags %} {{ post.tag }} {% endfor %} </span>
     </div>
     <br />
     <span>{{ post.content }}</span>
