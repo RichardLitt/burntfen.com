@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Micro Bog
-tagline: Puddling thoughts...
+title: Richard Littauer's Micro Bog
+tagline: fit ex nihilo nihil
 ---
 {% include JB/setup %}
 
