@@ -26,9 +26,13 @@ guy](http://www.burntfen.net).
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-    <div style="float:right;"><span>_{{ post.category }}_</span> &raquo;&raquo;
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
+    <div style="float:right;">      
       <span>{% for tag in post.tags %} {{ tag }} {% endfor %} </span>
+      &laquo;&laquo;
+      <span><a href="{{ BASE_PATH }}categories.html#{{ post.category }}-ref">
+        {{ post.category }}
+      </a></span>
     </div>
     <br />
     <span>{{ post.content }}</span>
