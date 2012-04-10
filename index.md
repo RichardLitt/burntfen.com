@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Richard Littauer's Blog
-tagline: 
+title: Richard Littauer's Bog
+tagline: (a mere mirror-mere)
 ---
 {% include JB/setup %}
 
