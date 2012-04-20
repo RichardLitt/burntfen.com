@@ -10,7 +10,7 @@ tags: [linguistics]
 I'm studying for my Foundations exam. I had some stray thoughts that
 might be worth sharing, and that'll help me remember things.
 
-  * \<missed\> is a homophone to \<mist\>. I should write a poem about that.
+  * _missed_ is a homophone to _mist_. I should write a poem about that.
     Why? Because mist is one of my favourite things, and staring into
 it, a lot of things are arbitrarily called to the mind. Cf. TS Eliot's
 poem 'Marina' for what I mean. 
