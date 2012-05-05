@@ -5,6 +5,7 @@ html, body {
 .navbar {
   margin-bottom: 0;
 }
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
 .navbar-inner {
   min-width: 10px;
   height: 20px;
@@ -74,10 +75,16 @@ li {
 }
 
 
+=======
+.container > footer {
+  margin-top: 20px;
+}
+>>>>>>> New
 .container > footer p {
   text-align: center; /* center align it with the container */
 }
 
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
 footer {
   margin: 150px auto 10px auto;
 }
@@ -100,12 +107,33 @@ footer {
   letter-spacing: -1px;
   padding: 0;
   margin: 20px 0 5px 20px;
+=======
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+>>>>>>> New
 }
 
 .topbar .btn {
   border: 0;
 }
 
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
 .wrapper {
   margin-top: 20px;
 }
@@ -123,6 +151,8 @@ h1 {
   -webkit-font-smoothing:antialiased;
   letter-spacing: -1px;
 }
+=======
+>>>>>>> New
 
 /* tag_box ======================================================== */
 
@@ -139,7 +169,11 @@ h1 {
 	float:left;
 }
 .tag_box a {
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
 	padding: 3px auto;
+=======
+	padding: 3px 6px;
+>>>>>>> New
 	margin: 2px;
 	background: #eee;
 	color:#005F6B;
@@ -155,6 +189,7 @@ h1 {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
 
 /* ===================== Manual resets ========================== */
 
@@ -408,3 +443,6 @@ corresponding value from the list below*/
     margin-top: -20px;
   }
 }
+=======
+	
+>>>>>>> New

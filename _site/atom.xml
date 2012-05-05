@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
  <title>a b/og</title>
  <link href="http://richardlitt.github.com/atom.xml" rel="self"/>
  <link href="http://richardlitt.github.com"/>
@@ -9,10 +10,21 @@
  <author>
    <name>Richard Littauer</name>
    <email>richard@burntfen.com</email>
+=======
+ <title>Litt Up</title>
+ <link href="http://richardlitt.github.com/atom.xml" rel="self"/>
+ <link href="http://richardlitt.github.com"/>
+ <updated>2012-04-08T22:37:34+02:00</updated>
+ <id>http://richardlitt.github.com</id>
+ <author>
+   <name>Richard Littauer</name>
+   <email>richard.littauer@gmail.com</email>
+>>>>>>> New
  </author>
 
  
  <entry>
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
    <title>Books I read in 2015</title>
    <link href="http://richardlitt.github.com/2015-12-29/books-i-read-in-2015"/>
    <updated>2015-12-29T00:00:00+00:00</updated>
@@ -3282,10 +3294,22 @@ plausible. I suspect there is some truth in this.&lt;/p&gt;
 &lt;p&gt;Basically, instead of trying to fiddle with that for ages and pushing things here, and then becoming reliant on this site instead of just using the .csv database I am using at the moment (why .csv? Because I didn’t want to learn .sql when I started. That goes to show you how bad at planning us humans are.) Instead, I am going to use this as a microblogging site. More and more recently I realise I have these little burts of writing inspiration, scientific or not, that go nowhere, and I wish I had an easy way of just putting them down and publishing them without consigning them to the ‘Writings’ section of my HD, from which nothing ever returns. So, let’s try this.&lt;/p&gt;
 
 </content>
+=======
+   <title>Settling in...</title>
+   <link href="http://richardlitt.github.com/site/2012/04/08/test"/>
+   <updated>2012-04-08T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/site/2012/04/08/test</id>
+   <content type="html">&lt;p&gt;Well, I think I might be getting some of the hang of it. I&amp;#8217;m not sure how to remove the tagline yet, but I&amp;#8217;ll get there eventually. I do like the way that YAML works, and using Markdown files instead of anything else. I do tend to the Spartan, though - I could use the Wordpress wysiwyg much easier than .md, but I approach .md with a better sense of mind because I feel like I should be able to do more with it. That&amp;#8217;s probably not actually the case. I suspect I prefer it for some prestige reason.&lt;/p&gt;
+
+&lt;p&gt;In any event, I&amp;#8217;m going to see if I can push to this directly. So, next up, set up a symbolic link, and a small python program - a shell program? - to allow me to edit the markdown file as soon as I rake it, and then to commit and push it as soon as that is over. Hypothetically, that&amp;#8217;ll mean a lot easier quick blogging than what I have at the moment, which is nothing. Wordpress is very heavy, twitter doesn&amp;#8217;t do enough, Faebook is the wrong audience, I don&amp;#8217;t use G+ for some reason (distractions? Wide margins? The multiplicity of colours?). But this should do nicely, if only I can manage it, retain my sanity, and always have the internet on me.&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s all for now.&lt;/p&gt;</content>
+>>>>>>> New
  </entry>
  
  <entry>
    <title>Starting with Clojure</title>
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
    <link href="http://richardlitt.github.com/2012-04-08/starting-with-clojure"/>
    <updated>2012-04-08T00:00:00+01:00</updated>
    <id>http://richardlitt.github.com/2012-04-08/starting-with-clojure</id>
@@ -3328,3 +3352,46 @@ much, but it&#39;s easy to appreciate how much easier this is than python&#39;s
  
  
 </feed>
+=======
+   <link href="http://richardlitt.github.com/languages/2012/04/08/starting-with-clojure"/>
+   <updated>2012-04-08T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/languages/2012/04/08/starting-with-clojure</id>
+   <content type="html">&lt;p&gt;
+Ok, so, once again, I'm new to Clojure. Not only that, I am new to
+computational linguistics, and to coding in general. I have some background
+messing around with Python - I've implemented a lot of programs, some of them
+non-trivial (meaning thousands of lines of poor code long). My undergraduate
+was in Linguistics, where when I once asked a professor if I should apply to a
+degree in computational linguistics, I found the shocked and almost appaled
+answer &quot;I didn't know you leant that way.&quot; But, half a year, lots of Python and
+even some attempts at Java, Ruby, Javascript, Luna, and who knows what else
+later, here I am.
+&lt;/p&gt;&lt;p&gt;If you haven't read them yet, Paul Graham's essays on what it means to use
+Lisp are excellent. Lisp is arguably the most powerful language. It is based on
+math, and math, as we all know, doesn't age. (What this means, I have yet to
+really understand, but this is a learning process over here, so help me out.)
+Clojure is a new dialect of Lisp. Ok, I can get all that. So, what's different
+about clojure besides the pretty rainbow brackets, and an annoyingly long
+process of setting it up (Clojure, clojars, leiningen, VimClojure with SLIME -
+you name it, I've fought it, all the way down to things like Mercurial.)&lt;/p&gt;&lt;p&gt;Well, right off of the bat, the syntax is pretty nifty. Take &lt;code&gt;(+ 3 5
+5)&lt;/code&gt; -
+that's multiple arguments, going fine. The syntax, of course, doesn't matter so
+much, but it's easy to appreciate how much easier this is than python's
+&lt;code&gt;3 + 5 + 5&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Some more thoughts that should be sorted:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;Something about brackets being useful&lt;/li&gt;
+  &lt;li&gt;Anonymous functions is nice&lt;/li&gt;
+  &lt;li&gt;Running on the JVM - what does this really mean? Library support? Isn't
+    making a library set then kind of perpendicular to the point of using Clojure?&lt;/li&gt;&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>installed jb</title>
+   <link href="http://richardlitt.github.com/site/2012/04/08/hello-world"/>
+   <updated>2012-04-08T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/site/2012/04/08/hello-world</id>
+   <content type="html">&lt;p&gt;So, I&amp;#8217;ve installed it now. Now I just need to figure out how to automatically add things to the post section, and I&amp;#8217;ll be one step closer to automatic blogging.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
+>>>>>>> New

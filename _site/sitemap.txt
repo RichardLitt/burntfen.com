@@ -1,4 +1,5 @@
 
+<<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
 http://richardlitt.github.com/books/2016
 http://richardlitt.github.com/archive
 http://richardlitt.github.com/atom.xml
@@ -102,3 +103,17 @@ http://richardlitt.github.com/2012-04-10/02-09-simulating-language-codes
 http://richardlitt.github.com/2012-04-09/16-55-jazzy-bill
 http://richardlitt.github.com/2012-04-09/02-00-microbogging-it-down
 http://richardlitt.github.com/2012-04-08/starting-with-clojure
+=======
+http://richardlitt.github.com/about.html
+http://richardlitt.github.com/archive.html
+http://richardlitt.github.com/atom.xml
+http://richardlitt.github.com/categories.html
+http://richardlitt.github.com/index.html
+http://richardlitt.github.com/pages.html
+http://richardlitt.github.com/sitemap.txt
+http://richardlitt.github.com/tags.html
+
+http://richardlitt.github.com/site/2012/04/08/test
+http://richardlitt.github.com/languages/2012/04/08/starting-with-clojure
+http://richardlitt.github.com/site/2012/04/08/hello-world
+>>>>>>> New
