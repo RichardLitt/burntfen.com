@@ -12,7 +12,7 @@ Welcome to my personal Github site. This blog is for:<br/>
  - Talking about projects, like <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, my
 semi-automatic terminal-run blog-based time tracking program.<br />
  - Blog posts when I don't want to use Wordpress on my [normal blog](http://www.burntfen.net)<br />
- - Random thoughts</li>
+ - Random thoughts<br />
  - Cafe reviews, a.l.a. [Edinburgh Cafes](http://www.edinburghcafes.com)<br />
 <br />
 I've written more information on my <a href="about.html">About</a> page, but I
