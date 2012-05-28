@@ -7,19 +7,20 @@ tagline: (a mere mirror-mere)
 
 <div style="width:800px;">
 <img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
+
 Welcome to my personal Github site. This blog is for:  
- * Talking about <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, my
+* Talking about <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, my
 semi-automatic terminal-run blog-based time tracking program.  
- * Blog posts when I don't want to use Wordpress on my [normal
+* Blog posts when I don't want to use Wordpress on my [normal
    blog](http://www.burntfen.net)
- * Random thoughts
- * Cafe reviews, a.l.a. [Edinburgh
-   Cafes](http://www.edinburghcafes.com)
+* Random thoughts
+* Cafe reviews, a.l.a. [Edinburgh
+   Cafes](http://www.edinburghcafes.com)  
 
 I've written more information on my <a href="about.html">About</a> page, but I
 doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.  
 </div>
-
+<br />
 ####And now for some posts completely different. 
 
 <hr />
