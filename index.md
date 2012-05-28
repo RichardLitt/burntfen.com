@@ -7,21 +7,20 @@ tagline: (a mere mirror-mere)
 
 <div style="width:800px;">
 <img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
-<p>Welcome to my personal Github site. I hope to integrate this with <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, to create a
-semi-automatic terminal-run blog-based time tracking program. As if
-keeping track of myself weren't enough, soon you'll be able to follow
-along.</p>
+Welcome to my personal Github site. This blog is for:  
+ * Talking about <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, my
+semi-automatic terminal-run blog-based time tracking program.  
+ * Blog posts when I don't want to use Wordpress on my [normal
+   blog](http://www.burntfen.net)
+ * Random thoughts
+ * Cafe reviews, a.l.a. [Edinburgh
+   Cafes](http://www.edinburghcafes.com)
 
-<p>However, that might be a while. For one, I don't want everything I do
-all day to be publicly on the internet, no matter how much I like Open
-Notebooks. So, instead, this blog will be used to keep track of my thoughts when a commit on a time tracker won't do it, and when I don't have the effort to write a full
-blog on Wordpress. All of this is to say that you can expect a lot of posts
-a couple of paragraphs long here. If I stop at any point, someone remind
-me. I've written more information on my <a href="about.html">About</a> page, but I
-doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.</p>
+I've written more information on my <a href="about.html">About</a> page, but I
+doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.  
 </div>
 
-####And now for some posts. 
+####And now for some posts completely different. 
 
 <hr />
 
