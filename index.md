@@ -10,9 +10,9 @@ tagline: (a mere mirror-mere)
 
 Welcome to my personal Github site. This blog is for:<br/>
  - Talking about projects, like <a href="http://github.com/RichardLitt/wired-in">Wired In</a>.<br />
- - Blog posts when I don't want to use Wordpress on my <a href="http://www.burntfen.net">normal blog</a>.<br />
+ - Blog posts when I don't want to use Wordpress on my <a href="http://www.burntfen.net">old normal blog</a>.<br />
  - Random thoughts<br />
- - Cafe reviews, a.l.a. <a href='http://www.edinburghcafes.com'>Edinburgh Cafes</a>.<br />
+ - Café reviews, à la <a href='http://www.edinburghcafes.com'>Edinburgh Cafés</a>.<br />
 I've written more information on my <a href="about.html">About</a> page, but I
 doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.  
 </div>
