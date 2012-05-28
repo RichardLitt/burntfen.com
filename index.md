@@ -9,12 +9,11 @@ tagline: (a mere mirror-mere)
 <img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
 
 Welcome to my personal Github site. This blog is for:<br/>
-<ul>
-<li>Talking about projects, like <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, my
-semi-automatic terminal-run blog-based time tracking program.</li>
-<li>Blog posts when I don't want to use Wordpress on my [normal blog](http://www.burntfen.net)</li>
-<li>Random thoughts</li>
-<li>Cafe reviews, a.l.a. [Edinburgh Cafes](http://www.edinburghcafes.com)</li></ul>
+ - Talking about projects, like <a href="http://github.com/RichardLitt/wired-in">Wired In</a>, my
+semi-automatic terminal-run blog-based time tracking program.<br />
+ - Blog posts when I don't want to use Wordpress on my [normal blog](http://www.burntfen.net)<br />
+ - Random thoughts</li>
+ - Cafe reviews, a.l.a. [Edinburgh Cafes](http://www.edinburghcafes.com)<br />
 <br />
 I've written more information on my <a href="about.html">About</a> page, but I
 doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.  
