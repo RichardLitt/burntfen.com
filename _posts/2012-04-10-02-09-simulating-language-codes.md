@@ -2,7 +2,7 @@
 layout: post
 title: "Simulating Language Codes"
 description: ""
-category: university
+category: academia
 tags: [code, python, university, github]
 ---
 {% include JB/setup %}

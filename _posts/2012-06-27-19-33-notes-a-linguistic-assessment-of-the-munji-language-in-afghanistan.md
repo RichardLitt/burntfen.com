@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Paper Review: A Linguistic Assessment of the Munji Language in Afghanistan"
+title: "A Linguistic Assessment of the Munji Language in Afghanistan"
 description: "Some thoughts"
-category: review
+category: reviews
 tags: [reviews, minority languages, linguistics]
 ---
 {% include JB/setup %}
