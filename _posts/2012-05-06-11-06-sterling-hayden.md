@@ -2,7 +2,7 @@
 layout: post
 title: "Sterling Hayden"
 description: ""
-category: literature
+category: quotes
 tags: [thoughts, sailing, quotes, literature]
 ---
 {% include JB/setup %}
