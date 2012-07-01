@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Mark Liberman on Automating Phonetic Measurements"
+description: "At the Quantitative Linguistics and Dialectology
+Workshop in Groningen"
+category: academia
+tags: [notes, talks, conferences]
+---
+{% include JB/setup %}
+
+
+
 Over the weekend, I attended a workshop on [Quantitative Linguistics and
 Dialectology](http://www.martijnwieling.nl/workshop) in Groningen, in
 Holland. This was my first time in Groningen - I had friends there from
