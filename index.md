@@ -42,7 +42,7 @@ doubt it'll actually be very helpful. By the way, I am <a href="http://www.burnt
 <h4>Past posts.</h4>
 <br />
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:10 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a>
       &raquo;&raquo;
       <span>
