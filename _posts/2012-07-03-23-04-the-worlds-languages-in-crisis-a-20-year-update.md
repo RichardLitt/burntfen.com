@@ -18,7 +18,7 @@ paper, and now I can't wait to see this used in the literature and to
 help funding grants, and so on. EGIDS already came out in Lewis and
 Simons 2010 (and is an extention of the Fishman scale, and UNESCO's), but this based on the new Ethnologue - with some new figures. The most shocking of these is that Kraus 1992 may have been too dire! Most languages are not dying - only around 19% aren't being passed on. This is of course, not good at all, but it is an improvement. 
 
-Some line item notes:  
+Some line item notes:
  * 'Statistics on language viability are very hard to come by' (Krauss
    1992:4)
  * Fishman 1991 seems like a good book. Anyone read it? I need to get my
