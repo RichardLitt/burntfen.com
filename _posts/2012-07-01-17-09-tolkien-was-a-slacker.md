@@ -2,7 +2,7 @@
 layout: post
 title: "Tolkien was a slacker."
 description: "The first recorded slackline"
-category: thoughts, quotes
+category: quotes
 tags: [thoughts, quotes, sport]
 ---
 {% include JB/setup %}
