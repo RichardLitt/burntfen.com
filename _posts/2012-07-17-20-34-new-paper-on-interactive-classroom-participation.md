@@ -13,17 +13,17 @@ all have a new paper out recently in the 4th International Conference on Educati
 Abstract
 --------
 
-The traditional university classroom paradigm frequently leads to fragmented knowledge dispersal; each student creates, collates, and curates their own notes individually. Here, we present a more holistic approach to student participation, based on experience from a student-initiated experiment using interactive applications in higher education. We explore several methods to help university students work collaboratively: Simultaneous note-taking using an online, interactive notepad; centralised information storage using a dedicated wiki; student-run centralised storage in the cloud; and communication management using a dedicated email list. In this paper, we elaborate on these points, and draw upon relevant previous literature, as well as our experience with implementing this system in several classes with diverse subjects in a graduate level Computational Linguistics degree. We also suggest future avenues to explore, such as slide-and-note integration.
+_The traditional university classroom paradigm frequently leads to fragmented knowledge dispersal; each student creates, collates, and curates their own notes individually. Here, we present a more holistic approach to student participation, based on experience from a student-initiated experiment using interactive applications in higher education. We explore several methods to help university students work collaboratively: Simultaneous note-taking using an online, interactive notepad; centralised information storage using a dedicated wiki; student-run centralised storage in the cloud; and communication management using a dedicated email list. In this paper, we elaborate on these points, and draw upon relevant previous literature, as well as our experience with implementing this system in several classes with diverse subjects in a graduate level Computational Linguistics degree. We also suggest future avenues to explore, such as slide-and-note integration._
 
 Summary
 -------
 
 Our basic goal for this paper was to tell a story. At the beginning of
 the fall semester at the Saarland University, in 2011, all of the
-students were thrown together in a Masters program foundaiton course for computational
+students were thrown together in a Masters program foundation course for computational
 linguistics. We quickly realised that some of us, who took notes by
 computers, could make our work more efficient by working together. Over
-the course of the semester, a spontanteous, organic, and collaborative
+the course of the semester, a spontaneous, organic, and collaborative
 way of taking notes, organising files, and managing our studies formed.
 At heart, there were four main devices we used for this: __simultaneous online notepads, central storage on Dropbox, private class-based wikis, and email lists__. None of these are necessarily new - but we felt that it was a story worth telling, and what we try to do in this paper is to present how we worked together, where we failed, and what we would suggest to teachers and students in the future. This paper is relevant, then, for not only classroom planners and education theorists, but also to students and teachers who can apply the methods used here to their own classrooms.
 
@@ -35,7 +35,7 @@ they were different, and each had different needs; tutorials, seminars,
 projects, and so on. In general, to take notes in these, we used
 Etherpads, based on either the Etherpad site, Riseup, Mozilla, or
 DataONE (which I had used the previous summer to work with, during an
-internship.) An etherpad is a collaborative online notepad that allows multiple users to edit a document simultaneously, and has a chat bar, basic formatting functionality, and stores data for 30 days from the last edit. We basically used one Etherpad to store all of the links to the others, and every day we would check into that, open a new one, paste the link, and start taking notes. Other students in on it would start taking notes at the same time, and our work was cut in half. As well, this gave us the opportunity to see what was important to others, what questions we might have, to share personal notes about the course or anything else, and also the opportunity to ask a question, and listen, instead of scrambling to take notes simultaneously. It worked very well. We go over a lot of the gritty details, as well as show a textual analysis of the type of notes - links, personal comments, slide transcriptions, and so on.
+internship.) An Etherpad is a collaborative online notepad that allows multiple users to edit a document simultaneously, and has a chat bar, basic formatting functionality, and stores data for 30 days from the last edit. We basically used one Etherpad to store all of the links to the others, and every day we would check into that, open a new one, paste the link, and start taking notes. Other students in on it would start taking notes at the same time, and our work was cut in half. As well, this gave us the opportunity to see what was important to others, what questions we might have, to share personal notes about the course or anything else, and also the opportunity to ask a question, and listen, instead of scrambling to take notes simultaneously. It worked very well. We go over a lot of the gritty details, as well as show a textual analysis of the type of notes - links, personal comments, slide transcriptions, and so on.
 
 Wiki
 ----
@@ -61,26 +61,26 @@ Recommendations
 ------------------------------
 
 So, from our experiences, we have several overarching recommendations for future students and
-teachers regarding how to maximise the use of the four methods described above:
+teachers regarding how to maximise the use of the four methods described above:  
  * Spend time after lectures, or during lulls in conversation, to make the notes readable and
 more structured. This leads to a better understanding of the material both during the lecture
-and for later reference.
+and for later reference.  
  * Communicate with lecturers about the use of slides being uploaded before a class. We found
 that does help significantly with following along. It also helps with note-taking, exporting to
 different documents and formats, and provides an impetus to prepare for lectures so that extra
 information can be garnished from the instructor instead of merely following the slides at the
-front of a class. Page numbers, sign-posting, and overview slides are especially helpful.
+front of a class. Page numbers, sign-posting, and overview slides are especially helpful.  
  * Short breaks between sections during a class can be incredibly helpful, even if they seem
 redundant and counter-productive. They allow students to mull over new thoughts, and to
-structure their notes and their understanding.
+structure their notes and their understanding.  
  * Make sure that someone archives and collates the notes together in a central repository, so
 that collaborative work is not lost (for instance, due to the 30-day use limit to the Etherpads).
 crowdsourcing quality assurance and checking the repository is also much easier than having
-one individual doing this alone.
+one individual doing this alone.  
  * Keep systems simple and straightforward to encourage people to contribute regularly.
 Complicated processes and interfaces inhibit students, by causing them to spend the extra
 effort in an already intense study environment. The more seamlessly collaboration can be
-integrated into daily routine, the better.
+integrated into daily routine, the better.  
 
 We hope that these recommendations help with future classes. Another aspect, not mentioned so far
 in this paper, that makes collaborative work suitable for classrooms is that it is very engaging, and in
