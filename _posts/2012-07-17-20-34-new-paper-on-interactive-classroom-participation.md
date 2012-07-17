@@ -62,22 +62,22 @@ Recommendations
 
 So, from our experiences, we have several overarching recommendations for future students and
 teachers regarding how to maximise the use of the four methods described above:  
-* Spend time after lectures, or during lulls in conversation, to make the notes readable and
+1. Spend time after lectures, or during lulls in conversation, to make the notes readable and
 more structured. This leads to a better understanding of the material both during the lecture
 and for later reference.  
-* Communicate with lecturers about the use of slides being uploaded before a class. We found
+2. Communicate with lecturers about the use of slides being uploaded before a class. We found
 that does help significantly with following along. It also helps with note-taking, exporting to
 different documents and formats, and provides an impetus to prepare for lectures so that extra
 information can be garnished from the instructor instead of merely following the slides at the
 front of a class. Page numbers, sign-posting, and overview slides are especially helpful.  
-* Short breaks between sections during a class can be incredibly helpful, even if they seem
+3. Short breaks between sections during a class can be incredibly helpful, even if they seem
 redundant and counter-productive. They allow students to mull over new thoughts, and to
 structure their notes and their understanding.  
-* Make sure that someone archives and collates the notes together in a central repository, so
+4. Make sure that someone archives and collates the notes together in a central repository, so
 that collaborative work is not lost (for instance, due to the 30-day use limit to the Etherpads).
 crowdsourcing quality assurance and checking the repository is also much easier than having
 one individual doing this alone.  
-* Keep systems simple and straightforward to encourage people to contribute regularly.
+5. Keep systems simple and straightforward to encourage people to contribute regularly.
 Complicated processes and interfaces inhibit students, by causing them to spend the extra
 effort in an already intense study environment. The more seamlessly collaboration can be
 integrated into daily routine, the better.  
