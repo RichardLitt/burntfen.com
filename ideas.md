@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ideas"
-category: navigation
+group: navigation
 description: "Random research or project thoughts"
 ---
 {% include JB/setup %}
@@ -14,6 +14,9 @@ the information here, if you're interested in any of it, do let me know,
 as it is possible that I can help explain it or give out more
 information, that I am already working on it privately, or that I want
 to work on it with you. I am particularly open to collaborations. 
+
+For the record, this is unrelated it [ideaotter.com](http://ideaotter.com), although I like that
+place, too. 
 
 Research Ideas
 ---------------
