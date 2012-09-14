@@ -12,6 +12,15 @@ Journal Articles
 ----------------
  * Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (<i>to appear</i>). _Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_. In the International Journal of Data Curation, Vol. 7:2. [bib](http://www.burntfen.net/publications/bib/LittIJDC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)  
 
+Book Chapters
+-------------
+ * Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (<i>to appear</i>). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In:  E. Hovy, M. Johnson and G. Hirst, eds., _The People's Web Meets NLP: Collaboratively Constructed Language Resources._ Springer. [bib](http://www.rlittauer.com/publications/bib/ChiarcosLOD.bib)  
+
+Book Reviews
+------------
+ * Richard Littauer (2012). _Review of H. Schiffman & B. Spooner, eds., Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill._ In: _LINGUIST List_, 23.3183. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=4553348) [bib](http://www.rlittauer.com/publications/bib/LittLinguist.bib)  
+
+
 Peer-reviewed Proceedings
 -------------------------
  * Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). [Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet](http://www.rlittauer.com/publications/LittDH.pdf). In: Jan Christoph Meister, ed., _Digital Humanities 2012 Conference Abstracts_, pp. 268-269, University of Hamburg, July 16-22. Hamburg: Hamburg University Press. [Bib](http://www.rlittauer.com/publications/LittDH.bib)
