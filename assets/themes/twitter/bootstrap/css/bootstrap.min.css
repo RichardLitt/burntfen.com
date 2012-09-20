@@ -4,13 +4,13 @@
 html {
 	height: 100%;
 }
-.wrapper {
+.container {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
 }
-.footer, .push {
+footer, .push {
 	height: 142px; /* .push must be the same height as .footer */
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
