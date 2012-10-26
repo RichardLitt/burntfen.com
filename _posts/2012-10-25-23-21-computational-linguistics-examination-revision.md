@@ -6,7 +6,6 @@ category: academia
 tags: [reviews, research, examination, revision, notes]
 ---
 {% include JB/setup %}
-
 #Computational Linguistics
 
 These are examination preparation notes from the slides for a course I took at the University of Saarland in Saarbrücken in the summer of 2012. The majority of the information here came from the slides for that course, which are available online, but not under any copyright. To save embarassment in case I mistype or misunderstood, I won't cite the lecturers here. Much of this information can be found in better quality in Dan Jurafsky or Chris Mannings books, cited below. 
@@ -195,14 +194,69 @@ According to Song et. Al, 2008, in EMNLP, right binarization on method 3 is the 
 ---
 ##Lecture 4: _Clustering_
 
+The goal of clusting is to group similar items together. To do this, define similarity between samples, define a loss function, and then find an algorithm that minimizes this loss function. These can be used to cluster text, words, images, image regions, and so on.
+
+In __K-means cluster__, when there are no labels to go by, one has to go on the assumption that similar objects will be close to each other in a spatial relation. So, the aim is the find _k_ number of clusters that will classify the data properly. We have to manually supply _k_. So, we randomly assing _k_ number of inital centroids (“mu”), which we will assume to be the center of clusters. We then check _mu_ against the other points using distance measurements, and then assign each point to an imaginary cluster based on these measurements. Then find the meand distance of all of the points of the same cluster, set that as _mu_, and recalculate. Eventually, there should be convergance (optimal clustering). 
+
+Distortion, the sum of the squared distances between each point and it's centroid, should be lessened the tighter a cluster holds together. This levels out after a few iterations. Picking k such that distortion is as small as possible is a good idea - one way to do this is to find a large jump in the value of j for a given amount of Ks - the larger the jump, the more likely that _k_ was the right value. If the number of clusters (k) is equal to the number of elements (n), then the loss function will be 0, but of course, this is not what we want. We want to minimize the number of clusters.
+
+__Soft clustering__ involves no strict assignment of any point _n_ to a cluster. There can be overlapping regions, no class information whatsoever, or soft clustering based on probabilities. There can also be hierarchical clustering, either agglomerative (making clusters from the unclustered data) or divisive (making more clusters from previously clustered data). For text clustering, several options are: word frequency, TF-IDF, stop wording, and stemming. What these last two are is anyone's guess. 
+
+The __Brown algorithm__ clusters words together with similar neighbors, and minimizes perplexity in the training test. This is useful for NE tagging. (For instance, it would identify city names based on prepositional collocations.) 
+
+	start with some initial mapping w -> gw
+		for w in vocabulary:
+			for each class k:
+				tentatively exchange word w from class gw to class k and update counts
+				compare perplexity for this exchange
+			exchange word w from class gw to class k with minimum perplexity
+	do until stopping criterion met 
 
 
+#####Similarity Measures
 
+ * Euclidean distance: pythagorean theorem, in essence.
+ * Manhattan disance: D1(x,y) = ∑|x_k - y_k|. The sum of the absolute value of the x value for each point _k_ minus the y value for said point. Basically the sum of the two distances, or going the long way around a triangle.
+ * Maximum distance: d_inf(x,y) = max_k(|x_k-y_k|). Basically, the maximum possible distance between two points. 
+ 
+ Others include: Cosine, edit distance, Jaccard, kernels. A _distance measure_ is a function from pairs of points to reals such that: 
+ 
+ * d(x,y) ≥ 0 [The distance is greater than zero]  
+ * d(x,y) = 0 iff x=y (If the points are the same, there is no distance)
+ * d(x,y) = d(y,x) (The points should be reversable with the same distance value)
+ * d(x,y) ≤ d(x,z) + d(z,y) (A point further on on either axis will make a longer distance - triangle inequality)
+ 
+---
+##Lecture 5,6,7: _Latent Spaces and Matrix Factorisation_
+####Lecture 5
+The goal is to treat document and word clustering on the same level, and to find low-dimensional representations that can find latent similarities. For document clustering, one can describe each document by a vector containing the frequency of the words. For word clustering, antoher vector containing the frequencies of each word in different documents can be used. These can be added together into a single matrix - the tf-idf measurement.
 
+On the subject of matrices: A matrix is an array with two indices. The transpose is when the indices are swapped. The elements of a product matrix (the product of two matrices) can be calculated by multiplying each against the other like so: c[i,j] = a[i,k]*b[k,j]. When a unit matrix - with 1s on the diagonals, and 0s else, represented as a_i,j = d_i,j - can be used to diagnosed whether a product matrix is a result of two inverse square matrices. 
 
+---
+####Lecture 6
 
+#####Latent semantic analysis (LSA)
+__Latent semantic analysis (LSA)__ is an NLP technique for finding relationshops between a set of documents and the terms therein, by producing concepts related to both which aren't on the surface analysis level (hence, latent). It works on collocations - words that are close in meaning will occur in similar texts. __Singular Value Decomposition (SVD)__ is used to reduce the number of columns while preserving similarity structure among rows (or vice versa). Words are then compared by taking the cosine of the angle between the two vector of any rows. Values close to 1 represent very similar words, while values close to 0 represent very dissimilar words. 
 
+If we have a matrix A, we decompose that such that Ã = TSD^t - in essence, into three matrices, one of which is a transpose. Here, it is best (although I don't know why) to keep |Ã-A|^2 minimal. A is a t•d matrix, T a t•n matrix, S and n•n matrix, and D a d•n matrix. In essence, then, T and D are orthogonal matrices, and S is the diagonal matrix. Document-document similarity can be found by rewriting ÃtA as = (SDt)tSDt. Term term similarity is (TS)(TS)t. 
 
+LSA performance consistently improves recall on standard test collections (precision/recall improved). It has variable performance on larger TREC collections. The dimensionality of the latent space is hard to asses, but 300-1000 seems to work best. The computational cost is high.
 
+#####Probabilistic Latent Semantic Analysis
+Instead of using decompositionality into orthogonal vectors, PLSA works using statistically. The probability of a document is the product of the probability of all terms in that document (uncontroversial). A term frequency matrix would add the sum of the probabilities of a term in a document, for each document.  By introducing a hidden topic in a lower-dimensional space, and then figuring out the probability of a term given that topic times the probability of that topic in a document, the likelihood of the document can be reassessed. P(term|doc)=∑P(t|k)P(k|doc). And the likelihood of the document is then P(doc)=∏{∑P(t|k)P(k|doc)}^A(t,doc). There is a training objective function which maximises with respect to the parameters p(t|k) and p(k|d). 
+
+#####Non-negative Matrix Factorisation
+NMF works by decomposing a non-negative matrix A into two matrices, W and H. A=WH, then. A: N•M (data matrix), W: N•R (source matrix), and H: R•M (mixture matrix). NMF is equivalent to a relaxed form of K-means clustering: matrix factor W contains cluster centroids and H contains cluster membership indicators, when using the least square as NMF objective. This provides theoretical foundation for using NMF for data clustering. This matrix is factored into a term-feature and a feature-document matrix. The features are derived from the contents of the documents, and the feature-document matrix describes data clusters of related documents. 
+
+In essence, when multiplying matrices the factor matrices can be of significantly lower rank than the product matrix and it's this property that forms the basis of NMF. If we can factorize a matrix into factors of significantly lower rank than the original matrix then the column vectors of the first factor matrix can be considered as spanning vectors of the vector space defined by the original matrix.
+
+---
+####Lecture 7
+
+… [ This seems to be a repeat of the previous slides.] …
+
+---
+##Lecture 8: _Probabilistic Parsing_
 
 
