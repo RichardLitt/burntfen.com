@@ -14,7 +14,7 @@ the [Unexus Team](http://www.unexus.org/team), which means that I had
 the chance to hang out out with Justin Brown and Mark Bakacs, the two founders of Unexus, 
 and also  with[Johan Johanssens](http://johan.janssens.me/), cofounder of [Joomla](http://www.joomla.org),
 as well as the current founder of [Nooku](http://nooku.org/). Justin and
-Mark were the ones who enabled me to come; I am now on baord as the new
+Mark were the ones who enabled me to come; I am now on board as the new
 front-end developer for Unexus, which means I will be helping to develop
 the user experience for a social network website with a lot of
 potential. I'll most likely be blogging more about that in the coming
@@ -26,9 +26,9 @@ there were some pretty interesting talks. Most interesting, for me, was
 Johan's talk about FOSS, [Free and Open Source Software](http://en.wikipedia.org/wiki/Free_and_open-source_software).
 He started out with the tagline that _Open Source is
 not like free beer_ - rather, _It's free as in Freedom._
-Another good talk for me was Kamil Salamon's presentation of [TimeCamp](http://www.timecamp.com/),
+Another good talk for me was Kamil Rudniki's presentation of [TimeCamp](http://www.timecamp.com/),
 a time-tracking productivity software that started in the past few years
-and already has a good client base. I'm going to be working with Jamil
+and already has a good client base. I'm going to be working with Kamil
 to integrate my own [Wired/Wyrd In](http://wyrdin.com) startup with his.
 Mine is more focused on task organisation and planning, while his is
 much more about screen-tracking, like RescueTime, and time-tracking.
