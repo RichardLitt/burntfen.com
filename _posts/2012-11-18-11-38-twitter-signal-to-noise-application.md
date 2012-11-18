@@ -7,9 +7,11 @@ tags: [development, app, twitter]
 ---
 {% include JB/setup %}
 
+An interesting post ran across my twitter feed this morning:  
+
 > @cortesi: I want a tool that calculates the cost of following a Twitter user. Something like volume\*signal/noise...  
 
-This ran across my twitter feed this morning. And I started thinking
+I started thinking
 that this is something you could do automatically. Cortesi seems to
 already be working on a side project that would add a _like_ button to
 tweets, so that he can manually manage which ones he likes and help the
