@@ -9,7 +9,7 @@ tags: [development, app, twitter]
 
 An interesting post ran across my twitter feed this morning:  
 
-> @cortesi: I want a tool that calculates the cost of following a Twitter user. Something like volume\*signal/noise...  
+> cortesi: I want a tool that calculates the cost of following a Twitter user. Something like volume\* signal/noise...  
 
 I started thinking
 that this is something you could do automatically. Cortesi seems to
