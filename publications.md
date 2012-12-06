@@ -24,10 +24,7 @@ Book Reviews
 
 Peer-reviewed Proceedings
 -------------------------
- * Richard Littauer (*to appear*). *On Tocharian Exceptionality to the
-    *centum-satem* Isogloss*. In: R. Littauer and T. Williams, eds.,
- *Undergraduate Linguistics Association of Britain 2012 Proceedings*.
-Bristol, UK: online.  
+ * Richard Littauer (*to appear*). *On Tocharian Exceptionality to the* centum-satem *Isogloss*. In: R. Littauer and T. Williams, eds., *Undergraduate Linguistics Association of Britain 2012 Proceedings*. Bristol, UK: online.  
  * Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). [Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet](http://www.rlittauer.com/publications/LittDH.pdf). In: Jan Christoph Meister, ed., _Digital Humanities 2012 Conference Abstracts_, pp. 268-269, University of Hamburg, July 16-22. Hamburg: Hamburg University Press. [Bib](http://www.rlittauer.com/publications/LittDH.bib)
  * Richard Littauer, Antonia Scheidel, March Schulder, Sibel Ciddi (2012). [Crowd sourcing the classroom: Interactive applications in higher learning](http://www.burntfen.net/publications/LittEdulearn.pdf). In Gómez Chova, L., Candel Torres, I., López Martínez, A., eds. _Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)_, pp. 1473-1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED). [bib](http://www.burntfen.net/publications/bib/LittEdulearn.bib)  
  * Christian Chiarcos, Sebastian Hellmann, Sebastian Nordhoff, Steven Moran, Richard Littauer, Judith Eckle-Kohler, Iryna Gurevych, Silvana Hartmann, Michael Matuschek, Christian M. Meyer (2012). [The Open Linguistics Working Group](http://www.burntfen.net/publications/OKFLREC.pdf). In Calzolari, N., Choukri, K., Declerck, T., Doğan, M.U., Maegaard, B., Mariani, J., Odijk, J., and Piperidis, S., eds., _Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12)_. Istanbul, Turkey, 23-25 May, 2012. European Language Resources Association (ELRA). [bib](http://www.burntfen.net/publications/bib/OKFLREC.bib)  
