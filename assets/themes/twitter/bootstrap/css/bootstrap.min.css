@@ -17,16 +17,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
 /*div.container {opacity:0.95;} */
-div.container {
-/* Fallback for web browsers that don't support RGBa */
-background-color: rgb(0, 0, 0);
-/* RGBa with 0.6 opacity */
-background-color: rgba(0, 0, 0, 0.9);
-/* For IE 5.5 - 7*/
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-/* For IE 8*/
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-}
 html{height:100%;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
 a:hover,a:active{outline:0;}
