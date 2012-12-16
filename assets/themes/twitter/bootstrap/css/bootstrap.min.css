@@ -33,7 +33,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 textarea{overflow:auto;vertical-align:top;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
-html,body{background: url(../img/space.jpeg) top;background-size:80% auto;background-attachment:fixed;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:18px;color:#333333;background-color:#ffffff;}
+html,body{background: url(../img/space.jpeg) top;background-attachment:fixed;margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:18px;color:#333333;background-color:#ffffff;}
 a{color:#0088cc;text-decoration:none;}
 a:hover{color:#005580;text-decoration:underline;}
 .row{margin-left:-20px;*zoom:1;}.row:before,.row:after{display:table;content:"";}
