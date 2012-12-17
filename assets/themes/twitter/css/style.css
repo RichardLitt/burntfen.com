@@ -16,7 +16,7 @@ html, body {
 .content {
   background-color: #fff;
   padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  /* margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
@@ -34,6 +34,10 @@ html, body {
 
 .topbar .btn {
   border: 0;
+}
+
+.wrapper {
+  margin-top: 40px;
 }
 
 
@@ -68,4 +72,6 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
+/* ===================== Manual resets ========================== */
+
