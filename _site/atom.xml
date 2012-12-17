@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
+<<<<<<< c8e6ecee410563a5f7c2ecdaf2a3ec059e80bc1d
 <<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
  <title>a b/og</title>
  <link href="http://richardlitt.github.com/atom.xml" rel="self"/>
@@ -12,9 +13,12 @@
    <email>richard@burntfen.com</email>
 =======
  <title>Litt Up</title>
+=======
+ <title>a b/og</title>
+>>>>>>> Added an image of me skiing.
  <link href="http://richardlitt.github.com/atom.xml" rel="self"/>
  <link href="http://richardlitt.github.com"/>
- <updated>2012-04-08T22:37:34+02:00</updated>
+ <updated>2012-12-17T02:10:38+01:00</updated>
  <id>http://richardlitt.github.com</id>
  <author>
    <name>Richard Littauer</name>
@@ -24,6 +28,7 @@
 
  
  <entry>
+<<<<<<< c8e6ecee410563a5f7c2ecdaf2a3ec059e80bc1d
 <<<<<<< ab5e6c99ebf65ed6cd1cf3f50b0789a835f1269f
    <title>Books I read in 2015</title>
    <link href="http://richardlitt.github.com/2015-12-29/books-i-read-in-2015"/>
@@ -31,6 +36,1480 @@
    <id>http://richardlitt.github.com/2015-12-29/books-i-read-in-2015</id>
    <content type="html">
 &lt;p&gt;I read a lot of this books. This year was no exception. Not including a few books which I gave away and can’t remember reading, and a few books that I read on my computer (mostly code books), here is my list of books I read this year, in alphabetical order by first author. I love talking about books; if you’ve read any of these, &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#114;&amp;#105;&amp;#099;&amp;#104;&amp;#097;&amp;#114;&amp;#100;&amp;#064;&amp;#098;&amp;#117;&amp;#114;&amp;#110;&amp;#116;&amp;#102;&amp;#101;&amp;#110;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;drop me a line&lt;/a&gt; and let’s chat! I’ve bolded the ones I found particularly good.&lt;/p&gt;
+=======
+   <title>Twitter Signal to Noise Application?</title>
+   <link href="http://richardlitt.github.com/apps/2012/11/18/11-38-twitter-signal-to-noise-application"/>
+   <updated>2012-11-18T00:00:00+01:00</updated>
+   <id>http://richardlitt.github.com/apps/2012/11/18/11-38-twitter-signal-to-noise-application</id>
+   <content type="html">&lt;p&gt;An interesting post ran across my twitter feed this morning:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;cortesi: I want a tool that calculates the cost of following a Twitter user. Something like volume* signal/noise&amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I started thinking that this is something you could do automatically. Cortesi seems to already be working on a side project that would add a &lt;em&gt;like&lt;/em&gt; button to tweets, so that he can manually manage which ones he likes and help the program predict more. I think that this is a good way to go, but the data deluge may get exhausting training wise, and it depends upon too much of a conscious choice on the part of the tweeter.&lt;/p&gt;
+
+&lt;p&gt;Instead, it might be worthwhile making a program that logs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;when you follow a link on a tweet&lt;/li&gt;
+
+&lt;li&gt;when you reply to a tweet&lt;/li&gt;
+
+&lt;li&gt;when you follow someone new&lt;/li&gt;
+
+&lt;li&gt;when you unfollow someone&lt;/li&gt;
+
+&lt;li&gt;what percentage, of all of these, for each user.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Combined, this should work fairly well to let the app know what sort of information you like on your feed. It doesn&amp;#8217;t work for self-contained tweets which you enjoy, however - in that case, the manual system, worked out by cortesi, would be best. But still, this would be a major bootstrapper.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m thinking about how I would do it. I would log links followed using a browser add-on - I&amp;#8217;m not sure if Twitter development code allows you to log followed links (anyone know?) I would also do a simple reply search to log that, again using the Twitter api. And then perhaps some basic NLP on those posts to see what sort of thing I&amp;#8217;m replying.&lt;/p&gt;
+
+&lt;p&gt;How would you do it?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Richard Littauer, Poet.</title>
+   <link href="http://richardlitt.github.com/poetry/2012/11/17/17-57-richard-littauer-poet"/>
+   <updated>2012-11-17T00:00:00+01:00</updated>
+   <id>http://richardlitt.github.com/poetry/2012/11/17/17-57-richard-littauer-poet</id>
+   <content type="html">&lt;p&gt;I recieved a book in the mail today, called &lt;a href='http://code-poems.com/book.html'&gt;Code {Poems}&lt;/a&gt;. It is the 54th copy out of 100 copies printed in the first edition. On page 18, the following is written:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;IMPORT SOUL  
+
+# This script should save lives  
+
+import soul  
+
+for days in len(life):  
+  print happiness  &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At the bottom of the page is my name, and beneath it, &lt;code&gt;// Python&lt;/code&gt;, the language the poem is written in This marks the first time that I&amp;#8217;ve seen my name in print in a book or a journal of poetry that wasn&amp;#8217;t connected to my educational establishment - in short, today is the first day I am officially a published poet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Me and the book' src='http://24.media.tumblr.com/tumblr_mdn69mtFkQ1qeqp7go1_500.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;To learn more about the book, or to order a copy, go &lt;a href='http://code-poems.com/book.html'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Wroclaw Barcamp</title>
+   <link href="http://richardlitt.github.com/events/2012/11/10/12-04-wroclaw-barcamp"/>
+   <updated>2012-11-10T00:00:00+01:00</updated>
+   <id>http://richardlitt.github.com/events/2012/11/10/12-04-wroclaw-barcamp</id>
+   <content type="html">&lt;p&gt;Last weekend I had the opportunity to go to the &lt;a href='http://barcampwroclaw.org/'&gt;Barcamp in Wroclaw&lt;/a&gt;. A barcamp is an &lt;em&gt;un&lt;/em&gt;-conference event, made more for audience participation than for scheduled talks. This Barcamp was organised by the &lt;a href='http://www.unexus.org/team'&gt;Unexus Team&lt;/a&gt;, which means that I had the chance to hang out out with Justin Brown and Mark Bakacs, the two founders of Unexus, and also with&lt;a href='http://johan.janssens.me/'&gt;Johan Johanssens&lt;/a&gt;, cofounder of &lt;a href='http://www.joomla.org'&gt;Joomla&lt;/a&gt;, as well as the current founder of &lt;a href='http://nooku.org/'&gt;Nooku&lt;/a&gt;. Justin and Mark were the ones who enabled me to come; I am now on board as the new front-end developer for Unexus, which means I will be helping to develop the user experience for a social network website with a lot of potential. I&amp;#8217;ll most likely be blogging more about that in the coming months. I wasn&amp;#8217;t able to meet Mark&amp;#8217;s brother Pete, our designer, but I am going to be working closely with him.&lt;/p&gt;
+
+&lt;p&gt;The Barcamp itself lasted a day; there were around 30 people there, and there were some pretty interesting talks. Most interesting, for me, was Johan&amp;#8217;s talk about FOSS, &lt;a href='http://en.wikipedia.org/wiki/Free_and_open-source_software'&gt;Free and Open Source Software&lt;/a&gt;. He started out with the tagline that &lt;em&gt;Open Source is not like free beer&lt;/em&gt; - rather, &lt;em&gt;It&amp;#8217;s free as in Freedom.&lt;/em&gt; Another good talk for me was Kamil Rudniki&amp;#8217;s presentation of &lt;a href='http://www.timecamp.com/'&gt;TimeCamp&lt;/a&gt;, a time-tracking productivity software that started in the past few years and already has a good client base. I&amp;#8217;m going to be working with Kamil to integrate my own &lt;a href='http://wyrdin.com'&gt;Wired/Wyrd In&lt;/a&gt; startup with his. Mine is more focused on task organisation and planning, while his is much more about screen-tracking, like RescueTime, and time-tracking. Together, along with tools like &lt;a href='http://www.trello.com'&gt;Trello&lt;/a&gt;, we should end up with a pretty solid product. Kamil gave me a ton of good links to follow up, namely:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;www.timecamp.com/auth/register&lt;/li&gt;
+
+&lt;li&gt;www.visikid.com&lt;/li&gt;
+
+&lt;li&gt;www.timeandtracking.com&lt;/li&gt;
+
+&lt;li&gt;www.jerela.com&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://todotxt.com/'&gt;Todo.txt&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://letsfreckle.com/'&gt;LetsFreckle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Johan also gave some good discussion of licensing models, something I&amp;#8217;ve been struggling with researching recently. Importantly, it seems that the license of a software only becomes applicable when you distribute the software. That only happens when the software goes from a copyright holder to a non-copyright holder. In essence, Github is distribution. I am going to have to move Wyrd In off of Github, soon, then - I&amp;#8217;ll probably set up a git repo on my own server to deal with it.&lt;/p&gt;
+
+&lt;p&gt;And that was the weekend, in a nutshell. When I got back, I had a ton of fresh ideas, a good perspective on what I am doing with Unexus, and a cold. That&amp;#8217;s alright though; it was worth it.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Appril</title>
+   <link href="http://richardlitt.github.com/projects/2012/11/07/19-10-appril"/>
+   <updated>2012-11-07T00:00:00+01:00</updated>
+   <id>http://richardlitt.github.com/projects/2012/11/07/19-10-appril</id>
+   <content type="html">&lt;p&gt;My friend &lt;a href='http://piranhabay.co.uk/'&gt;Simon&lt;/a&gt;, the coder and designer who is the main guy behind &lt;a href='http://ideaotter.com/'&gt;IdeaOtter&lt;/a&gt;, a project we&amp;#8217;ve been working on together, has had another pretty awesome idea: &lt;a href='http://www.appril.org'&gt;Appril&lt;/a&gt;. Again, I helped out a tiny bit, but Simon works far too fast for me, so the credit goes entirely to him. I&amp;#8217;m looking forward to helping out in the coming months prepare the site and the event. What am I talking about? Here&amp;#8217;s the blurb from his website.&lt;/p&gt;
+&lt;hr /&gt;&lt;a href='http://www.appril.org'&gt;&lt;img title='www.appril.org' src='https://raw.github.com/RichardLitt/richardlitt.github.com/master/images/appril.png' /&gt;&lt;/a&gt;
+&lt;p&gt;About a week before Github launched their build-a-game competition, I was talking to a couple of friends about an idea I had. Github’s competition got our asses into gear.&lt;/p&gt;
+
+&lt;p&gt;We’ve all attended hackathons, and while I like what they represent - what they achieve is often not much more than a concept roughly initiated. Really, to do something right you need more time. How much more time? That varies on what you’re doing. But I’m willing to bet that for most things it’s somewhere around a month. That’s enough to plan out your idea (find one if you haven’t already), get a team of people that you like together (if you want), learn your tools (if you want to learn new tools), and build that thing.&lt;/p&gt;
+
+&lt;p&gt;So we want to initiate the first ever &lt;a href='http://www.appril.org'&gt;Appril&lt;/a&gt;. Come April, we’re going to get together in teams, and push ourselves to build the apps we’ve been meaning to build. Alongside whatever else we’re planning on doing that month.&lt;/p&gt;
+
+&lt;p&gt;I know April is 5 months away, but man, wouldn’t it be great if a heck of a lot of people knew about this and participated. It’d be a 30 day hackathon taking place all over the world, and at the end of it, there’d be completed, fully functional, well thought out, applications. And all the developers would be well rested at the end of it. That would be neat.&lt;/p&gt;
+
+&lt;p&gt;Obviously, we’d love any help spreading the word.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Matthew 5:42</title>
+   <link href="http://richardlitt.github.com/reading, thoughts/2012/11/06/11-07-matthew-542"/>
+   <updated>2012-11-06T00:00:00+01:00</updated>
+   <id>http://richardlitt.github.com/reading, thoughts/2012/11/06/11-07-matthew-542</id>
+   <content type="html">&lt;p&gt;For years, I have wanted to understand what christianity really is, so that I can more accurately see why the community I grew up in fell so short of the ideal they professed to believe in. This morning, I realised that I had a few deep-seated issues which needed to be addressed before I could actually read the bible again (the most prominent of which was a strong feeling that my mother would burst out of the closet and start crying that I was coming back into the fold, and I would have to then awkwardly and vehemently disabuse her of that notion). I decided, this morning is as good as any to get over these.&lt;/p&gt;
+
+&lt;p&gt;So, I started reading Matthew. Most of the book passed by with just a very raised eyebrow, until I got to this verse, and I had an idea:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Book of Matthew, Chapter 5:38-42&lt;br /&gt;38 “You have heard that it was said, ‘Eye for eye, and tooth for tooth.’&lt;br /&gt;39 But I tell you, do not resist an evil person. If anyone slaps you on the right cheek, turn to them the other cheek also.&lt;br /&gt;40 And if anyone wants to sue you and take your shirt, hand over your coat as well.&lt;br /&gt;41 If anyone forces you to go one mile, go with them two miles.&lt;br /&gt;&lt;b&gt;42 Give to the one who asks you, and do not turn away from the one who wants to borrow from you.&lt;/b&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Needless to say, this is too good an opportunity to miss. So, I dug up my paypal donate button from my old site. I then found out that you need to be a registered charity to use that, and the chargebacks can be annoying, and my &amp;#8216;Shave-the-whales&amp;#8217; campaign probably isn&amp;#8217;t a worthy cause.&lt;/p&gt;
+
+&lt;p&gt;So, my paypal name is also my email, richard dot littauer on gmail.&lt;br /&gt;Please, if you&amp;#8217;re a &lt;i&gt;true&lt;/i&gt; Christian, &lt;u&gt;examine your heart&lt;/u&gt;, and &lt;b&gt;give
+generously&lt;/b&gt;. Consider this a formal proposition to all Christians for monetary donations.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;re an atheist, agnostic, or follower of Shiva, bring some beer when you come over and we can all have a good sacrilegious laugh later.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Computational Linguistics Examination Revision</title>
+   <link href="http://richardlitt.github.com/academia/2012/10/25/23-21-computational-linguistics-examination-revision"/>
+   <updated>2012-10-25T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/academia/2012/10/25/23-21-computational-linguistics-examination-revision</id>
+   <content type="html">&lt;h1 id='computational_linguistics'&gt;Computational Linguistics&lt;/h1&gt;
+
+&lt;p&gt;These are examination preparation notes from the slides for a course I took at the University of Saarland in Saarbrücken in the summer of 2012. The majority of the information here came from the slides for that course, which are available online, but not under any copyright. To save embarassment in case I mistype or misunderstood, I won&amp;#8217;t cite the lecturers here. Much of this information can be found in better quality in Dan Jurafsky or Chris Mannings books, cited below.&lt;/p&gt;
+
+&lt;p&gt;That is all, I think.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_1_course_outline'&gt;Lecture 1: &lt;em&gt;Course Outline&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Textbooks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dan Jurafsky and J. H. Martin: Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition, Prentice-Hall, 2009.&lt;/li&gt;
+
+&lt;li&gt;Chris Manning and H. Schütze: Foundations of Statistical Natural Language Processing, MIT Press, 1999.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='finite_state_automata_lecture_1'&gt;Finite State Automata (Lecture 1)&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deterministic &amp;amp; non-deterministic finite state automata&lt;/li&gt;
+
+&lt;li&gt;Algorithms for recognizing strings&lt;/li&gt;
+
+&lt;li&gt;Aogrithms for determinizing non-deterministic automata&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='grammars_and_parsing_lecture_234'&gt;Grammars and Parsing (Lecture 2,3,4)&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Context free grammars&lt;/li&gt;
+
+&lt;li&gt;Bottom-up parsing (Shift-reduce)&lt;/li&gt;
+
+&lt;li&gt;Chart parsing (CYK)&lt;/li&gt;
+
+&lt;li&gt;Probabilistic grammars and parsing&lt;/li&gt;
+
+&lt;li&gt;Dependency parsing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='distributional_semantics_lecture_5'&gt;Distributional Semantics (Lecture 5)&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Distributional semantics&lt;/li&gt;
+
+&lt;li&gt;Vector space models&lt;/li&gt;
+
+&lt;li&gt;Similarity measures&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='matrix_factorization_lecture_6'&gt;Matrix Factorization (Lecture 6)&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Latent semantic analysis (LSA)&lt;/li&gt;
+
+&lt;li&gt;Non-negative matrix factorization (NMF)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='clustering_lecture_7'&gt;Clustering (Lecture 7)&lt;/h5&gt;
+
+&lt;h5 id='word_sense_disambiguation_lecture_8'&gt;Word Sense Disambiguation (Lecture 8)&lt;/h5&gt;
+
+&lt;h5 id='computational_semantics_lecture_9'&gt;Computational Semantics (Lecture 9)&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Semantics construction&lt;/li&gt;
+
+&lt;li&gt;Scope underspecification&lt;/li&gt;
+
+&lt;li&gt;Dominance graphs and tree automata&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='combining_visual_and_textual_data_lecture_10'&gt;Combining Visual and Textual Data (Lecture 10)&lt;/h5&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_2_finite_state_automata'&gt;Lecture 2: &lt;em&gt;Finite State Automata&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Due to worries about copyright for these slides, I will not be posting images or screenshots from them, unfortunately.&lt;/p&gt;
+
+&lt;h4 id='basic_definitions'&gt;Basic Definitions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An &lt;strong&gt;alphabet ∑&lt;/strong&gt; is a finite set of symbols&lt;/li&gt;
+
+&lt;li&gt;A &lt;strong&gt;string over ∑&lt;/strong&gt; is a sequence of symvols from ∑.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;epsilon&lt;/strong&gt; is the empty string.&lt;/li&gt;
+
+&lt;li&gt;The &lt;strong&gt;length |w|&lt;/strong&gt; is the number of symbols in w.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;∑&lt;em&gt;__ denotes this set of all strings over ∑&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;A &lt;strong&gt;formal language&lt;/strong&gt; is a subset of ∑* for some alphabet ∑&lt;/li&gt;
+
+&lt;li&gt;A &lt;strong&gt;configuration&lt;/strong&gt; is a pair {k,w} which is an element of K•∑&lt;em&gt;, where k is the current state, and w is the unread part of the string to be processed. This is basically where one is in the automata.&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Yields in one step&lt;/strong&gt; means when {k,w} ⊢m {k&amp;#8217;,w&amp;#8217;} iff w = aw&amp;#8217; and ∂(k,a) = k&amp;#8217;.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Yields&lt;/strong&gt; ⊢m* is the reflexive, transitive closure of ⊢m. (_What this means, I don&amp;#8217;t rightly know.)&lt;/li&gt;
+
+&lt;li&gt;A language is &lt;strong&gt;accepted&lt;/strong&gt; if the unread string after going through the machine consists only of epsilon, and the current state is an element of F, the final state. Basically, L(M) = {w | {s,w}⊢m&lt;em&gt;{k,epsilon} for some k element F}. In which case, the entire string ∑ is a subset of the language applied to the machine.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='deterministic_finite_automata'&gt;Deterministic Finite Automata&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;M = {K, ∑, ∂, s, F}&lt;/li&gt;
+
+&lt;li&gt;
+&lt;li&gt;K is a finite set of states (a list)&lt;/li&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;li&gt;∑ is an input alphabet (a list)&lt;/li&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;li&gt;∂ is a transition function. ∂(k, a) means that when the machine M is in state k and reads input a, it goes into state q&amp;#8217;. This is generally a list of several transition functions, the the first state (for instance, q_0) and then an input &lt;em&gt;a&lt;/em&gt; from the alphabet ∑. This then is mapped (or equals) another state. A loop would be the same state.&lt;/li&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;li&gt;s element K is the start state&lt;/li&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;li&gt;F subset K is the set of final (accepting) states&lt;/li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id='automata_as_graphs'&gt;Automata as Graphs&lt;/h5&gt;
+
+&lt;p&gt;To understand automata, you must know that: nodes are states, edges represent the transition function, &amp;gt; marks the start state, and double circles are final states.&lt;/p&gt;
+
+&lt;h5 id='recognition_algorithm_pseudocode'&gt;Recognition Algorithm Pseudo-code&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;function RECOGNIZE(DFA M, STRING input)
+	index ‹- 0
+	state ‹- start state of M
+	while index &amp;lt; length(input) do
+		state ‹- trans[state, input[index]]
+	end
+	if state is a final state of M
+	then return accept
+	else return reject
+end&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='nondeterministic_automata'&gt;Nondeterministic Automata&lt;/h3&gt;
+
+&lt;p&gt;In these, several symbols (or none) can be read at once, and there are several possible next states. M = {K, ∑, ∆, s, F}, where ∆ is a subset of K•∑&lt;em&gt;•K and is a finite transition relation. For DFAs, the next step is always determined - for NFAs, the next state can go either way.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The only real difference seems to be that k&amp;#8217; is included in the original tuple of the transition function, and where there are several options for each transition on occasion. While running, each time there is an accepted string, that is added to the agenda. The configuration continues to run on the first item in the agenda until it returns an empty string (after the string is accepted or rejected). It then goes on to take the next item in the agenda, and so on.&lt;/p&gt;
+
+&lt;p&gt;For every Nondeterministic automata, there is an equivalent Deterministic finite automata. It doesn&amp;#8217;t work the other way around as easily. In NFAs, there is more than one succesful combination which can get to the final state. To implement, use backtracking - if there is a failure, go back to the point you remember last that workd, and use that (on the agenda).&lt;/p&gt;
+
+&lt;h5 id='recognition_algorithm_pseudocode'&gt;Recognition Algorithm Pseudo-code&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;function RECOGNIZE(NFA M, STRING input)		agenda = list of configurations, initially containing only			the configuration (start state of M, input) 
+	while agenda is not empty do			conf ← POP(agenda)			if conf is an accepting configuration then				return accept 
+		else				for all conf’ such that conf ⊢ conf’ do 
+				PUSH(agenda, conf’)				end 
+		end			return reject 
+end&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id='subset_construction_algorithm'&gt;Subset construction algorithm&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;epsilon-closure(s)&lt;/strong&gt; returns the set of NFA states reachable from state &lt;em&gt;s&lt;/em&gt; using Element-transitions&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;epsilon-closure(T)&lt;/strong&gt; returns the set of NFA states reachable from some &lt;em&gt;s&lt;/em&gt; in &lt;em&gt;T&lt;/em&gt; using element-transition&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;move(T,a)&lt;/strong&gt; returns the set of NFA states to which there is transition for input &lt;em&gt;a&lt;/em&gt; Element ∑ from some state &lt;em&gt;s&lt;/em&gt; element &lt;em&gt;T&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_3_parsing'&gt;Lecture 3: Parsing&lt;/h2&gt;
+
+&lt;p&gt;Grammars generate sentences (“words”). Context-free grammars can be thought of as G = {N, T, R, S}, where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N is the nonterminal symbols&lt;/li&gt;
+
+&lt;li&gt;T is all terminal symbols&lt;/li&gt;
+
+&lt;li&gt;S (an element of N) is the start symbol&lt;/li&gt;
+
+&lt;li&gt;R is the finite set of production rules, and is a subset of N•(N•T)*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this case, if &lt;span&gt;x,y,u,v,w,z&lt;/span&gt; is our alphabet (the union of nonterminal symbols and terminal symbols), X =&amp;gt;G y in our grammar iff x = uvw and y = uzw, and v-&amp;gt;z is one of our production rules (is an element of R). A language generated by this grammar is accepted if {w|S =&amp;gt;G* w}, where =&amp;gt;G* is the reflexive, transitive closure of =&amp;gt;G. This works from the left edge of y - If there is a rule S -&amp;gt; NP VP, then the next =&amp;gt;G application of the grammar G would go to DET N VP (if there is a rule such that NP -&amp;gt; DET, for instance). In all cases, end in the terminal symbol, and then move on to the next element to the right of =&amp;gt;G (in y). Although, according to these slides, it doesn&amp;#8217;t matter if you stay consistent with which edge to start from, or which rules to apply where. Leftmost or rightmost derivation is certainly the norm, if not necessary, however. Either should end with the same parse tree.&lt;/p&gt;
+
+&lt;p&gt;The language generated by a grammar G is the set of all of those sequences that can be derived from the start symbol. In this case, derivation is done when you replace one symbol or sequence by a sequence of symbols.&lt;/p&gt;
+
+&lt;p&gt;The derivations themselves are uninteresting - what is interesting is the &lt;strong&gt;parse trees&lt;/strong&gt;. Each node (inner nodes elements in N, leaf nodes elements of T or empty symbols)and its branches correspond to one rule in the grammar. Epsilon is accepted only as the only child of a node.&lt;/p&gt;
+
+&lt;p&gt;If w = w1…wn has two or more parse trees, than the grammar is ambiguous.&lt;/p&gt;
+
+&lt;h4 id='parsing_strategies'&gt;Parsing Strategies&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Top-down parsers&lt;/strong&gt; work by starting with S, and then applying from left to right (like in natural language processing), and trie to match the input sequence. &lt;strong&gt;Bottom-up parsers&lt;/strong&gt; do the opposite, and start with the leaf nodes, going up, looking at subsequences in the input that match the left-hand side of a rule and apply it from right to left.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Shift-Reduce Parsing&lt;/strong&gt; is a bottom-up strategy, with a stack and input {&lt;span&gt;stack&lt;/span&gt;,&lt;span&gt;input in the format w1…1n&lt;/span&gt;}. In each step, there are two options: &lt;strong&gt;shift&lt;/strong&gt; the left-most symbol to the right edge of the stack, or &lt;strong&gt;reduce&lt;/strong&gt; by applying a matching rule to the topmost elements (right-edge, two or more) on the stack. For unambiguous grammars, the shift-reduce decision (which to do when) is automatic.&lt;/p&gt;
+
+&lt;p&gt;Bottom up parsers, however, can&amp;#8217;t deal with some grammars, for instance with trace elements (where the leaf node is an empty symbol), of for cylic rules, or for ambiguous prepositional phrases such as &lt;em&gt;The dog killed the man in the park with a telescope&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A context-free grammar doesn&amp;#8217;t depend on context to know whether a rule applies or not. One way to get around this problem is to use &lt;strong&gt;chart-parsing&lt;/strong&gt;, which stores intermediate results for already analysed constituents in a chart, a compact representation of all possible analyses. Charts (“parse forests”) can contain complete consituents or hypotheses for possible constituents.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CYK Parser&lt;/strong&gt; (Cocke-Younger-Kasami) is a bottom-up chart-based parser. This applies only to grammars in Chomsky normal form, where A -&amp;gt; w (terminal symbol), A -&amp;gt; B C (both non-terminal symbols), and S -&amp;gt; epsilon (S start symbol, only if epsilon is an element of the language).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function CYK(G, w1 ... wn): 
+	for i in 1 ... n do			T[i-1,i]={ A|A→wi ∈ R } 			for j in i - 2 ... 0 do         		T[j, i] = ∅         		for k in j + 1 ... i - 1 do            		T[j, i] = T[j, i] ∪               		{ A | A → B C, B ∈ T[j,k], C ∈ T[k, i] }				done 			done		done	if S ∈ T[0, n] then return True else return False&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The CYK Parser is correct if the sentence is an element in the ordered list of leaf nodes, and complete if S can be derived for each input word. The runtime for this algorithm is very fast - polynomial in the input length O(n^3). However, it requires the Chomsky Normal form, which can be slow due to the size. On the plus side, all parse trees can be saved by storing nodes as elements in an array instead of as booleans, by storing for each category A a list of pointers to other entries in the chart that were used to derive A.&lt;/p&gt;
+
+&lt;p&gt;This can be done by binarizing the output, either using left or right binarization.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;left binarization(G):		while G contains rules A → A1 A2 A3 …Ak,k≥3		delete the rule from G		add rule ⟨A1,…, Ak-1⟩ → A1 … Ak-1 		add rule A → ⟨A1,…,Ak-1⟩ Ak	right binarization(G):		while G contains rules A → A1 A2 A3 …Ak,k≥3		delete the rule from G		add rule ⟨A2,…,Ak⟩ → A2 … Ak 		add rule A → A1 ⟨A2,…,Ak⟩&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are implementation variations of this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Method 1: iterate over all rules A -&amp;gt; B C, and check if B and C are next to each other in the T&lt;/li&gt;
+
+&lt;li&gt;Method 2: iterate over B leaf nodes, then over all A -&amp;gt; B C, and see if C is to the right side of B in T&lt;/li&gt;
+
+&lt;li&gt;Method 3: iterate over C leaf nodes, then over all A -&amp;gt; B C, and see if A is to the left side of C in T&lt;/li&gt;
+
+&lt;li&gt;Method 4: iterate over all B and C leaf nodes, and then see if A -&amp;gt; B C exists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;According to Song et. Al, 2008, in EMNLP, right binarization on method 3 is the most efficient, while for left binarization method 2 is the most efficient.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_4_clustering'&gt;Lecture 4: &lt;em&gt;Clustering&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;The goal of clusting is to group similar items together. To do this, define similarity between samples, define a loss function, and then find an algorithm that minimizes this loss function. These can be used to cluster text, words, images, image regions, and so on.&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;K-means cluster&lt;/strong&gt;, when there are no labels to go by, one has to go on the assumption that similar objects will be close to each other in a spatial relation. So, the aim is the find &lt;em&gt;k&lt;/em&gt; number of clusters that will classify the data properly. We have to manually supply &lt;em&gt;k&lt;/em&gt;. So, we randomly assing &lt;em&gt;k&lt;/em&gt; number of inital centroids (“mu”), which we will assume to be the center of clusters. We then check &lt;em&gt;mu&lt;/em&gt; against the other points using distance measurements, and then assign each point to an imaginary cluster based on these measurements. Then find the meand distance of all of the points of the same cluster, set that as &lt;em&gt;mu&lt;/em&gt;, and recalculate. Eventually, there should be convergance (optimal clustering).&lt;/p&gt;
+
+&lt;p&gt;Distortion, the sum of the squared distances between each point and it&amp;#8217;s centroid, should be lessened the tighter a cluster holds together. This levels out after a few iterations. Picking k such that distortion is as small as possible is a good idea - one way to do this is to find a large jump in the value of j for a given amount of Ks - the larger the jump, the more likely that &lt;em&gt;k&lt;/em&gt; was the right value. If the number of clusters (k) is equal to the number of elements (n), then the loss function will be 0, but of course, this is not what we want. We want to minimize the number of clusters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Soft clustering&lt;/strong&gt; involves no strict assignment of any point &lt;em&gt;n&lt;/em&gt; to a cluster. There can be overlapping regions, no class information whatsoever, or soft clustering based on probabilities. There can also be hierarchical clustering, either agglomerative (making clusters from the unclustered data) or divisive (making more clusters from previously clustered data). For text clustering, several options are: word frequency, TF-IDF, stop wording, and stemming. What these last two are is anyone&amp;#8217;s guess.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Brown algorithm&lt;/strong&gt; clusters words together with similar neighbors, and minimizes perplexity in the training test. This is useful for NE tagging. (For instance, it would identify city names based on prepositional collocations.)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;start with some initial mapping w -&amp;gt; gw
+	for w in vocabulary:
+		for each class k:
+			tentatively exchange word w from class gw to class k and update counts
+			compare perplexity for this exchange
+		exchange word w from class gw to class k with minimum perplexity
+do until stopping criterion met &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id='similarity_measures'&gt;Similarity Measures&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Euclidean distance: pythagorean theorem, in essence.&lt;/li&gt;
+
+&lt;li&gt;Manhattan disance: D1(x,y) = ∑|x_k - y_k|. The sum of the absolute value of the x value for each point &lt;em&gt;k&lt;/em&gt; minus the y value for said point. Basically the sum of the two distances, or going the long way around a triangle.&lt;/li&gt;
+
+&lt;li&gt;Maximum distance: d_inf(x,y) = max_k(|x_k-y_k|). Basically, the maximum possible distance between two points.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Others include: Cosine, edit distance, Jaccard, kernels. A &lt;em&gt;distance measure&lt;/em&gt; is a function from pairs of points to reals such that:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;d(x,y) ≥ 0 &lt;span&gt;The distance is greater than zero&lt;/span&gt;&lt;/li&gt;
+
+&lt;li&gt;d(x,y) = 0 iff x=y (If the points are the same, there is no distance)&lt;/li&gt;
+
+&lt;li&gt;d(x,y) = d(y,x) (The points should be reversable with the same distance value)&lt;/li&gt;
+
+&lt;li&gt;d(x,y) ≤ d(x,z) + d(z,y) (A point further on on either axis will make a longer distance - triangle inequality)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_567_latent_spaces_and_matrix_factorisation'&gt;Lecture 5,6,7: &lt;em&gt;Latent Spaces and Matrix Factorisation&lt;/em&gt;&lt;/h2&gt;
+
+&lt;h4 id='lecture_5'&gt;Lecture 5&lt;/h4&gt;
+
+&lt;p&gt;The goal is to treat document and word clustering on the same level, and to find low-dimensional representations that can find latent similarities. For document clustering, one can describe each document by a vector containing the frequency of the words. For word clustering, antoher vector containing the frequencies of each word in different documents can be used. These can be added together into a single matrix - the tf-idf measurement.&lt;/p&gt;
+
+&lt;p&gt;On the subject of matrices: A matrix is an array with two indices. The transpose is when the indices are swapped. The elements of a product matrix (the product of two matrices) can be calculated by multiplying each against the other like so: c&lt;span&gt;i,j&lt;/span&gt; = a&lt;span&gt;i,k&lt;/span&gt;&lt;em&gt;b&lt;span&gt;k,j&lt;/span&gt;. When a unit matrix - with 1s on the diagonals, and 0s else, represented as a_i,j = d_i,j - can be used to diagnosed whether a product matrix is a result of two inverse square matrices.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4 id='lecture_6'&gt;Lecture 6&lt;/h4&gt;
+
+&lt;h5 id='latent_semantic_analysis_lsa'&gt;Latent semantic analysis (LSA)&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Latent semantic analysis (LSA)&lt;/strong&gt; is an NLP technique for finding relationshops between a set of documents and the terms therein, by producing concepts related to both which aren&amp;#8217;t on the surface analysis level (hence, latent). It works on collocations - words that are close in meaning will occur in similar texts. &lt;strong&gt;Singular Value Decomposition (SVD)&lt;/strong&gt; is used to reduce the number of columns while preserving similarity structure among rows (or vice versa). Words are then compared by taking the cosine of the angle between the two vector of any rows. Values close to 1 represent very similar words, while values close to 0 represent very dissimilar words.&lt;/p&gt;
+
+&lt;p&gt;If we have a matrix A, we decompose that such that Ã = TSD^t - in essence, into three matrices, one of which is a transpose. Here, it is best (although I don&amp;#8217;t know why) to keep |Ã-A|^2 minimal. A is a t•d matrix, T a t•n matrix, S and n•n matrix, and D a d•n matrix. In essence, then, T and D are orthogonal matrices, and S is the diagonal matrix. Document-document similarity can be found by rewriting ÃtA as = (SDt)tSDt. Term term similarity is (TS)(TS)t.&lt;/p&gt;
+
+&lt;p&gt;LSA performance consistently improves recall on standard test collections (precision/recall improved). It has variable performance on larger TREC collections. The dimensionality of the latent space is hard to asses, but 300-1000 seems to work best. The computational cost is high.&lt;/p&gt;
+
+&lt;h5 id='probabilistic_latent_semantic_analysis'&gt;Probabilistic Latent Semantic Analysis&lt;/h5&gt;
+
+&lt;p&gt;Instead of using decompositionality into orthogonal vectors, PLSA works using statistically. The probability of a document is the product of the probability of all terms in that document (uncontroversial). A term frequency matrix would add the sum of the probabilities of a term in a document, for each document. By introducing a hidden topic in a lower-dimensional space, and then figuring out the probability of a term given that topic times the probability of that topic in a document, the likelihood of the document can be reassessed. P(term|doc)=∑P(t|k)P(k|doc). And the likelihood of the document is then P(doc)=∏{∑P(t|k)P(k|doc)}^A(t,doc). There is a training objective function which maximises with respect to the parameters p(t|k) and p(k|d).&lt;/p&gt;
+
+&lt;h5 id='nonnegative_matrix_factorisation'&gt;Non-negative Matrix Factorisation&lt;/h5&gt;
+
+&lt;p&gt;NMF works by decomposing a non-negative matrix A into two matrices, W and H. A=WH, then. A: N•M (data matrix), W: N•R (source matrix), and H: R•M (mixture matrix). NMF is equivalent to a relaxed form of K-means clustering: matrix factor W contains cluster centroids and H contains cluster membership indicators, when using the least square as NMF objective. This provides theoretical foundation for using NMF for data clustering. This matrix is factored into a term-feature and a feature-document matrix. The features are derived from the contents of the documents, and the feature-document matrix describes data clusters of related documents.&lt;/p&gt;
+
+&lt;p&gt;In essence, when multiplying matrices the factor matrices can be of significantly lower rank than the product matrix and it&amp;#8217;s this property that forms the basis of NMF. If we can factorize a matrix into factors of significantly lower rank than the original matrix then the column vectors of the first factor matrix can be considered as spanning vectors of the vector space defined by the original matrix.&lt;/p&gt;
+
+&lt;p&gt;NMF is more easily lent to probabilistic approaches than LSA.&lt;/p&gt;
+
+&lt;p&gt;Some metrics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kullback-Leiber-Divergence: D(A|WH)&lt;/li&gt;
+
+&lt;li&gt;Frobenius Norm: .5|A-WH|ˆ2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h4 id='lecture_7'&gt;Lecture 7&lt;/h4&gt;
+
+&lt;p&gt;Nothing of interest.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_8_probabilistic_parsing'&gt;Lecture 8: &lt;em&gt;Probabilistic Parsing&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;To find the most probable derivation tree when a sentence is ambiguous, we need a probabilistic model of context-free grammar, and methods to estimate probabilities. There are some motivations for this: natural language is ambiguous, it would be useful to be able to automatically induce grammars, efficient search would use the most likely tree first, and robustness. A &lt;strong&gt;probabilistic context-free grammar (PCFG)&lt;/strong&gt; has a context free grammar {V,∑,R,S}, and a function P which assinges a probability value between 0 and 1 to each rule P(A -&amp;gt; B), such that P is the probability of A expanding to B. There are other ways of notating this.&lt;/p&gt;
+
+&lt;p&gt;The probability of a derivation tree T is the product of the probabilities of all the rules that have been used to expand the nodes in T. The probability of a sentence w is the sum of the probabilities of all of its derivation trees. A PCFG grammar is consistent if ∑_(w element of L(G))P(w)=1. Recursion breaks this, and leads to inconsistent grammars. A Catalan number is the number of trees possible for a string of a^(i+1) length (the number = i).&lt;/p&gt;
+
+&lt;p&gt;Language modelling using probabilistic parsing (“inside probabilities”) is done by computing the probability that w is derived from S for for an input by computing the sum of the joint probabilities of w and T. Probabilisitic parsing (“viterbi scores”) compute the most likely derivation tree for w by finding the argmax tree.&lt;/p&gt;
+
+&lt;p&gt;The probability of a subtree is independent of the context in which it occurs, and the nodes which dominate it. It is possible to extend the CYK parser to include the inside probabilities for trees for all substrings because of this. T&lt;span&gt;i,j,A&lt;/span&gt; is the probability of the most likely derivation, while B&lt;span&gt;i,j,A&lt;/span&gt; is the corresponding derivation tree.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function CYK(G, w1 ... wn): 
+  ⟨initialize T and B⟩      for i in 1 ... n do        for all nonterminals A in G do 
+	  T[i-1, i, A] = P(A → wi)        for j in i - 2 ... 0 do          for k in j + 1 ... i - 1 do			for all A → B C do			  pr = T[j, k, B] ⨉ T[k, i, C] ⨉ P(A → B C) 			  if pr &amp;gt; T[j, i, A] then			    T[j, i, A] = pr				B[j, i, A] = ⟨construct subtree⟩ 	  return ⟨B[0, n, S] and T[0, n, S]⟩&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For learing PCFG probabilities, there are two options: either count the frequencies of rules in a syntactically annotated treebank, or use the inside-outside algorithm. For the first, we can construct a grammare from the treebank by identifying the rules with all subtrees of height 1. The probability of a rule is just the number of times that rule has been used, over all rules used in all trees of the corpus. So, the probability of the sentence would then be the product of these rules.&lt;/p&gt;
+
+&lt;p&gt;To evaluate, coverage and accuracy are metrics. Coverage is how many sentences are well-formed according to the grammar. Accuracy is how many sentences are correctly parsed, with regards to the relative correctness of the category label, start and end position (yeild) of all consituents (subtrees). Labelled precision is the percentage of all correct subtrees in the output, while labelled recall is the percentage of all correct subtrees which are in the gold standard.&lt;/p&gt;
+
+&lt;p&gt;The problem with subtree probabilities is that we want to capture lexical and structural dependencies. Lexical dependencies, for instance, are when a verb takes a certain prepositional phrase as its argument. These can be lexicalised by knowing which verbs take which rules. Parent annotation can be used for lexical entries, such as S_(dumped), which would then account more readily for arguments. This leads to much larger grammars and it is harder to estimate the rule probabilities. The complexity causes the runtime to be O(|rules|n^3), and at worst cast |rules| = |nonterminals|^3.&lt;/p&gt;
+
+&lt;p&gt;Structural dependencies are when, for instance, subject-NPs are more likely to have pronouns (which need a different terminal rule NP -&amp;gt; PN instead of NP -&amp;gt; Det Noun) than object-NPs. A way to get around these is to build in parent-annotation such as NP-SBJ. Nodes are then annotated with the label of their parent nodes. This is similar to conditional probabilities, where P(NP^S -&amp;gt; PRP) is the same as P(NP -&amp;gt; PRP|S). Parent annotation can be useful for preterminal nodes, as well. The Penn Treebank makes no distinction beween different sorts of conjunctions, prepositions, or complementizers - these can be ironed out using parent annotation. The drawbacks are that the grammar gets larger, you need more training data, and it is more likely to overfit. For runtime, the worst case is |rules| = |nonterminals|^3•|terminals|^2, where |terminals| are much larger than |nonterminals|, and the runtime is reduced to O(n^5).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_9_dependencybased_parsing'&gt;Lecture 9: &lt;em&gt;Dependency-based Parsing&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;For referencing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;an ESSLLI 2007 course by Joakim Nivre and Ryan McDonald&lt;/li&gt;
+
+&lt;li&gt;an ACL-COLING tutorial by Joakim Nivre and Sandra Kübler&lt;/li&gt;
+
+&lt;li&gt;Sandra Kübler, Ryan McDonald and Joakim Nivre (2009). Dependency Parsing.&lt;/li&gt;
+
+&lt;li&gt;Joakim Nivre (2008). Algorithms for Deterministic Incremental Dependency Parsing. Computational Linguistics 34(4), 513–553.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The absic idea of dependency trees is that syntactic structure equals lexical items linked by relations. They are usually trees, but they don&amp;#8217;t have to be. The relation is H (head) -&amp;gt; D (dependent). Parsers are easy to implement and evaluate, and are suitable for free word order languages, and are close to predicate argument structure (often enough). They are clear for subject, object, and so on, but less clear for complex verb groups, subordinate clauses, coordination, and other complex constructions.&lt;/p&gt;
+
+&lt;p&gt;Criteria for dependency relations between H, D, and C (linguistic construction):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;H determines the syntactic category of C; H can replace C.&lt;/li&gt;
+
+&lt;li&gt;H determines the semantic category of C; D specifies H.&lt;/li&gt;
+
+&lt;li&gt;H is obligatory; D may be optional.&lt;/li&gt;
+
+&lt;li&gt;H selects D and determines whether D is obligatory.&lt;/li&gt;
+
+&lt;li&gt;The form of D depends on H (agreement).&lt;/li&gt;
+
+&lt;li&gt;The linear position of D is specified with reference to H.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A dependency graph G = {V, A, L, &amp;lt;}, where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;V = a set of vertices (nodes)&lt;/li&gt;
+
+&lt;li&gt;A = a set of arcs (directed edges)&lt;/li&gt;
+
+&lt;li&gt;L = a set of edge labels&lt;/li&gt;
+
+&lt;li&gt;&amp;lt; = a linear order on V.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Formal conditions on dependency graphs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;G is weakly connected.&lt;/li&gt;
+
+&lt;li&gt;G is acyclic.&lt;/li&gt;
+
+&lt;li&gt;Every node in G has at most one head.&lt;/li&gt;
+
+&lt;li&gt;G is projective.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A dependency graph G is projective iff if wi -&amp;gt; wj, then wi -&amp;gt;* wk for all wi &lt;/p&gt;
+
+&lt;p&gt;Dependency based parsing is grammar-based and data-driven, based on transitions or graphs. For transition based parsing, there is a configuration C = {S,Q,A}, where S is a stack of partially processed tokens (nodes), Q is a queue of unprocessed input tokens, and A is a set of dependency arcs. The initial configuration would then be {&lt;span&gt;w0&lt;/span&gt;, &lt;span&gt;w1…wn&lt;/span&gt;, &lt;span /&gt;}, where w0 is the root. A terminal configuration that is accepting would be {…, &lt;span /&gt;, …}, with nothing left in the unprocessed tokens. Both Left-Arc and Right-Arc operations can be performed. A Left-Arc operation adds a dependency arc (wj,r,wi) to the arc set A, where wi is the word on top of the stack and wj is the first word in the buffer, and pops the stack. Right arc adds a dependency arc (wi, r, wj) to the arc set A, where wi is the word on top of the stack and wj is the first word in the buffer, and then pops the stock and replaces wj by wi at the head of the buffer. Shift is also an oeration, moving the top word of Q to the right-edge of the stack. It is normal to do all left-arc first, and then all right-arcs left in the stack.&lt;/p&gt;
+
+&lt;p&gt;For deterministic parsing, oracle(c) predicts the next transition. Parse replaces the terminal nodes in some way (I don&amp;#8217;t know C notation used here, so I&amp;#8217;m not sure how). DP has a linear time complexity: the algorithm terminates after 2n steps for input sentences with n words (as it does it both ways). The algorithm is complete and correct for the class of projective dependency trees if for every projective dependency tree T there is a sequence of transitions that generate T, and if every sequence of transition steps generates a projective dependency tree. A way to approximate the orcal is to represent configurations by feature vectors; for instance, the lexical properties, cateogory, or labels of partial dependency trees. (I believe, I&amp;#8217;m not sure.)&lt;/p&gt;
+
+&lt;p&gt;For non-projective parsing, C = {L1,L2, Q, A}, where L1 and L2 are partially processed nodes, Q is the unprocessed input tokens, and A is a set of dependency arcs (as before). Thus, the initial configuration is {&lt;span&gt;w0&lt;/span&gt;,&lt;span /&gt;,&lt;span&gt;w1…wn&lt;/span&gt;,{}}, where w0 = ROOT. The accepting terminal configuration is {&lt;span&gt;wo,…,wn&lt;/span&gt;,&lt;span /&gt;,&lt;span /&gt;,A}. As well as left arc, right arc, and shift, No-Arc is defined as {&lt;span&gt;…,w&lt;/span&gt;,&lt;span&gt;…&lt;/span&gt;,&lt;span&gt;…&lt;/span&gt;,A}, which returns {&lt;span&gt;…&lt;/span&gt;,&lt;span&gt;wi,…&lt;/span&gt;,&lt;span&gt;…&lt;/span&gt;,A}. L1•L2 would be the concatination. This algorithm is sound and complete for the class of dependency forests. The time complexity is O(nˆ2), with at most n Shift-transitions (to the end of the string), and between the ith and i+1th Shift transitions there are at most i transitions (left-arc, no-arc, and right-arc).&lt;/p&gt;
+
+&lt;p&gt;Graph-based parsing is also possible, where the baisc idea is that there is a complete graph where the nodes are the words from the input and edges are annotated with scores. Parsing would then be computing the maximum spanning tree.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_10_11_algorithms_for_scope_underspecification'&gt;Lecture 10, 11: &lt;em&gt;Algorithms for Scope Underspecification&lt;/em&gt;&lt;/h2&gt;
+
+&lt;h4 id='lecture_10'&gt;Lecture 10&lt;/h4&gt;
+
+&lt;p&gt;Dominance graphs are ways of modelling scope ambiguities, and there is an algorithm for solving these. &lt;strong&gt;Truth-functional interpretation&lt;/strong&gt;: The meaning of a declarative sentence is given by its truth conditions. We can represent the meaning of natural language sentences by logical formulae which &amp;#8216;capture&amp;#8217; the truth conditions of the original sentence. &lt;em&gt;Compositionality&lt;/em&gt;: The meaning of a complex expression is a function of the meaning of its parts and of the syntactic rules by which they are combined. The compositional semantic construction is based on the syntactic tree of the natural language expression: the semantic lexicon assigns meaning representations to the lexical (leaf) nodes of the syntax tree, and the semantic representation of an inner node is computed by combining the representations of its child nodes. Every syntax tree is then mapped to a unique semantic representation. However, as always, there are lexical (_Iraqi head seeks arms_) and structural ambiguities (_Every student eats an apple_). Scope ambiguities arise when a sentence contains two or more quantifiers or other scope-taking operations (negations, modals, etc.)&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;strong&gt;combinatorial explosion of readings&lt;/strong&gt; in that the number of readings of a sentence can grow exponentially in the number of scope-taking operators it contains. The way to deal with this are to ignore scopre ambiguities, enumerate all readings and select the right one (needs more complex semantics construction rules and a method to choose, as well as being computationally expensive), or to use &lt;strong&gt;scope underspecification&lt;/strong&gt;. This doesn&amp;#8217;t explicitely enumerate readings, but represents all readings of a sentence by a single compact underspecified representation (USR), from which all individual readings can be enumerated, and on which we can perform inferences directly on the level of underspecified representations.&lt;/p&gt;
+
+&lt;p&gt;Each reading can be represented as a binary tree. Dominance graphs are another way of doing this, with &lt;strong&gt;tree fragments&lt;/strong&gt;, specifying the semantic material common to all readings, connected by &lt;strong&gt;dominance edges&lt;/strong&gt;, which specify constraints as the upper node must dominate the lower one. Dominance edges in &lt;strong&gt;normal dominance graphs (NDG)&lt;/strong&gt; always go from leaves (holes) to roots. An NDG is a graph G = {V, E u D}, where the subgraph {V,E} is a collection of node disjoint trees where the height of each tree is ≤ 1, if {v1,v2} are elements in D, then v1 is a hole and v2 a root, and where every hole has at least one outgoing dominance edge. &lt;strong&gt;Labelled dominance graphs&lt;/strong&gt; are the same, with L a labelling function that assigns a node &lt;em&gt;v&lt;/em&gt; a label with arity &lt;em&gt;n&lt;/em&gt; iff &lt;em&gt;v&lt;/em&gt; is a root with &lt;em&gt;n&lt;/em&gt; outgoing tree edges. A dominance graph G is in &lt;strong&gt;solved form&lt;/strong&gt; if G is a forest. Whenever v1 and v2 are connected by some dominance edge in G&amp;#8217;, there must be a directed path from v1 to v2 in G. Dominance graphs and their solved forms differ only in their sets of dominance edges, and solved forms of connected dominance graphs are always trees.&lt;/p&gt;
+
+&lt;p&gt;There are two problems that need to be attended to: &lt;strong&gt;the solvability problem&lt;/strong&gt;, which askes if a given dominance graph has any solved forms, and the &lt;strong&gt;enumeration problem&lt;/strong&gt;, where given a dominance graph, all (minimal) solved forms must be enumerated. The algorithm to deal with these comes from Bodirsky &amp;amp;al. (2004), and constructs a solved from of a dominance graph G such that:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;nondetermininistically choose a “free fragment” F from G&lt;/li&gt;
+
+&lt;li&gt;remove F from G; this decmoposes the graph G into weakly connected components G1…Gk&lt;/li&gt;
+
+&lt;li&gt;recursively compute a solved form for G1…Gk&lt;/li&gt;
+
+&lt;li&gt;attach the solved from of G1 under the corresponding hole of the free fragment F (for 1 ≤ i ≤k)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A fragment F is &lt;strong&gt;free&lt;/strong&gt; in a NDG G iff the root has no incoming dominance edges, and no distinct holes of F are connected by an undirected path in the graph G&amp;#8217;obtainedfrom G by removing the root of F. If G is a solvable (normal) dominance graph, then F is a free fragment in G, which is equivalent to G has a solved from with top-most fragment F.&lt;/p&gt;
+
+&lt;p&gt;A slightly simplified version working only for connected NDGs would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;solve(G = ⟨V, E ⊎ D⟩) = (*)		choose a free fragment F of G else fail 		let G1, ..., Gk be the WCCs of G\F		let ⟨Vi, Ei ⊎ Di⟩ = solve(Gi) 		return⟨V,E⊎D1 ⊎⋯⊎Dk ⊎D’⟩			where D’ are dominance edges that connect the holes of F with the solved form of 			one of the corresponding Gi&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following are equivalent: solve(g) fails for some nondeterministic choice, G is not solvable, solve(g) fails for all nondeterministic choices. The runtimme for the solver is O(N+M), where N is the number of nodes and M is the number of edges in a dominance graph G. The overall runnint time of solve(G) is in O(N(N+M)) per solved form.&lt;/p&gt;
+
+&lt;p&gt;Extra reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alexander Koller, Manfred Pinkal, and Stefan Thater. Scope Underspecification with Tree Descriptions: Theory and Practice. In: Resource Adaptive Cognitive Processes. Ed. by Matthew Crocker and Jörg Siekmann. Cognitive Technologies Series. Berlin: Springer. 2009. * Manuel Bodirsky, Denys Duchier, Joachim Niehren, and Sebastian Miele (2004). A new algorithm for normal dominance constraints. In the proceedings of the Symposium on Discrete Algorithms (SODA04), 59-67.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h4 id='lecture_11'&gt;Lecture 11&lt;/h4&gt;
+
+&lt;p&gt;A chart based solver can be used to figure out NDGs. The idea is to use dynamic programming techniques and store intermediate results in a chart-like datastructure. The chart records how graphs are decomposed into smaller subgraphs if free fragments are removed. The chart assignes each subgraph a &amp;#8216;split&amp;#8217;, which consists of references to a free fragment F and the weakly connected components of G/F. The notation for this is F(G1…Gn). The complexity for this is comlex (meaning, I don&amp;#8217;t understand it, and I don&amp;#8217;t want to write it down at the moment.)&lt;/p&gt;
+
+&lt;h6 id='hypernormally_connected_dominance_graphs'&gt;Hypernormally connected dominance graphs&lt;/h6&gt;
+
+&lt;p&gt;We are normally interested only in solved forms in which every hole is related to exactly one root (such forms can be called &lt;em&gt;simple&lt;/em&gt;, here). These can be mapped to &lt;em&gt;proper&lt;/em&gt; trees simply by &lt;em&gt;plugging&lt;/em&gt; the hole with the root connected to it by a dominance edge. However, not all problems are simple. So, we need to identify a class of dominance graphs that onle have simple solved forms - these are known as hypernormally connected dominance graphs.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;hypernormal path&lt;/strong&gt; in a normal dominance graph G is a path in the undirected version of G that does not use two dominance edges incident to the same hole. A normal dominance graph G is &lt;strong&gt;hypernormally connected&lt;/strong&gt; if each pair of nodes is connected by some hypernormal path. &lt;strong&gt;lemma&lt;/strong&gt;: if G is a hypernormally connected normal dominance graph with free fragment F, then all WCCs of G/F are hypernormally connected. &lt;strong&gt;proposition:&lt;/strong&gt; if a normal dominance graph is hypernormally connected, then all its (minimal) solved forms are simple.&lt;/p&gt;
+
+&lt;h5 id='tree_automata'&gt;Tree Automata&lt;/h5&gt;
+
+&lt;p&gt;A tree automaton is a tuple A = (Q, ∑, Qf, ∆), where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;∑ is a finite ranked signature&lt;/li&gt;
+
+&lt;li&gt;Q is a finite set of states&lt;/li&gt;
+
+&lt;li&gt;Qf is a subset of q with final accepting states&lt;/li&gt;
+
+&lt;li&gt;∆ is a finaite set of transition rules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some transition rules: F(q1(x1)&amp;#8230;qn(xn)) -&amp;gt; q(f(x1&amp;#8230;xn)), where f is an element in ∑, q&amp;#8230;qn are elements in Q, and x1&amp;#8230;xn are different variables.&lt;/p&gt;
+
+&lt;p&gt;A tree is accepted by an automaton if t -&amp;gt; q(t), and q is an element in Qf. The language L(A) of trees recognized by A is the set of trees accepted by A.&lt;/p&gt;
+
+&lt;p&gt;Basically, charts are tree automata, or can be translated into them, provided that the original dominance graph is hypernormally connected. The class of recognizable languages is closed under union, complement, intersection. We can model certain inferences on the level of dominance charts by intersecting regular tree languages using redundancy elimination and weakest readings.&lt;/p&gt;
+
+&lt;p&gt;Redundancy elimination means that if we have two ambiguous readings that are logically equivalent, we can model the relation between them by rewrite rules, translating these into a tree automaton, and then using redundancy elimination which is the intersection of regular tree languages.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_12_distributional_semantics'&gt;Lecture 12: &lt;em&gt;Distributional Semantics&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;The goal of distributional semantics is to treat document clustering and word clustering on the same footing (the same semantic space), by finding low dimensional representations. Using vector space models of semantics can do this. The advantages are that we can derive semantics from a corpus, and it performs well on tasks that need to measure semantic similarity for words, phrases, and documents. To do this: build a term-document matrix, calculate the distance between vectors representing documents directly, then use LSA. You could also use a word-context matrix. Similarity of relations an be used, as well, by using pairs of words and representing how the patterns establish relations between words, and then measuring the similarity of these patterns.&lt;/p&gt;
+
+&lt;p&gt;Regarding vector-based models of Semantic composition, the meaning of larger units is determined from the meaning of smaller units (compositionality). One way to model this is to use a logic-based view, where one writes down logical expressions for parts, and the logical expressions fro larger units derived from those parts. This is limited by idiomatic or non-compositional multiword expressions. Compositionality can be formalised thusly: P = f(u, v, R, K), where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;u: representation of the meaning of the first constituent&lt;/li&gt;
+
+&lt;li&gt;v: representation of the meaning of the second constituent&lt;/li&gt;
+
+&lt;li&gt;R: syntactic relation&lt;/li&gt;
+
+&lt;li&gt;K: knowledge about the real world&lt;/li&gt;
+
+&lt;li&gt;p: meaning of the composition&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A vector-based approach to this would realise that p, u, and v are vectors in some semantic space. There are linear functions which can be used to analyse the matrix to find rleations: the most general is p = Au + Bv + n, where A and B are matrices. Specific verions of this are additive, Kintsch, and weighted additive. Bilinear multiplicative combination would use p = Cuv, where C is a rank 3 Tensor. At this point, I am starting to wonder if I am sane. I believe I am no longer sane. Tenser, tenser, said the tensor. That is, pk = the sum of c_(k,i,j)u_iv_j. Particular versions of this are multiplication and circular convention.&lt;/p&gt;
+
+&lt;p&gt;Mitchell and Lapata did collected human similarity ratings for adjective-noun, noun-noun, and verb-object phrases. Against these, multiplicative works best, but a theoretical foundation is needed (we don&amp;#8217;t know why, and we&amp;#8217;re certainly not going to tell you.)&lt;/p&gt;
+
+&lt;p&gt;Summary: the playground of distributional semantics. Compositionality. (Again, this is an entire slide. And on that note, I am sliding out of here, as this was the last set of slides.)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id='lecture_13_words_and_images'&gt;Lecture 13: &lt;em&gt;Words and Images&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Correlation concept/region is stronger than color/texture.&lt;/p&gt;
+
+&lt;p&gt;Regional mutial information: the label of a region (grid on an image) and a concept label (face, vehicle, etc) can be found by summing the discrete represenation of color, texture, and edge information. Or something similar.&lt;/p&gt;
+
+&lt;p&gt;Regional Bayes Classifier; use one model per region, such that P(v1…v_r|concept) is the product P_r(v_r|c). So, the probability of certain visterm (discrete representation of color, texture, and edge information) given a concept is the product of the probability with respect to the region of that visterm given the concept. This can be applied to absolute discounting. Smoothing methods include linear interpolation (Jelinek-Mercer Smoothing), with a Dirichlet Prior. The background distribution can be found using a uniform distribution (zerogram), where the probability of visterm given a concept is equal to 1 over the absolute value of the number of visterms. The frequency of visterms (unigram) can be found by looking at the probability of a visterm given a concept, which is equal to N(v) over the sum of N(v). Regional information gives significant improvement.&lt;/p&gt;
+
+&lt;p&gt;Since that doesn&amp;#8217;t make much sense, in summation, one can find patterns by analysis of regional mutual information, region specific modeling is important, the best variants to use are linear interpolation and backing off to background unigram, and this is an extremely simple method of picture identification.&lt;/p&gt;
+
+&lt;p&gt;To generate captions, annotate each image with key words (if scraping the web) by combing the surrounding text, then choose a suitable sentence fromt the text by measuring similarity between sentence and key words describing the image sing word overlap, cosine, and KL-divergence. An abstractive approach would be to pikc the most likely word sequence given the key words by estimating an n-gram based on the surrounding text, keywords, and then combine the two using LM adaption techniques. Including a phrase based constraint can help. In summation, key words and images // caption generation. (That last sentence is a slide. No, seriously. And that&amp;#8217;s the course.)&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting Mou to run in the terminal</title>
+   <link href="http://richardlitt.github.com/code/2012/10/24/13-12-getting-mou-to-run-in-the-terminal"/>
+   <updated>2012-10-24T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/code/2012/10/24/13-12-getting-mou-to-run-in-the-terminal</id>
+   <content type="html">&lt;p&gt;I just tried to get Mou to run in the terminal. &lt;a href='http://mouapp.com/'&gt;Mou&lt;/a&gt; is actually a pretty lovely program that allows you to see what a document with Markdown syntax looks like as you type it, something like an instant TeX compiler. I use Markdown on this blog, and on Github Wikis, so it&amp;#8217;s proven useful. It&amp;#8217;s the main reason I upgraded to Mountain Lion - I wish I hadn&amp;#8217;t, as they killed spaces, which in turn killed my entire productivity flow. I look forward to more updates, as I can&amp;#8217;t do other things anymore, such as have a transparent vim workspace.&lt;/p&gt;
+
+&lt;p&gt;I just tried this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo ln -s /Applications/Mou.app/Contents/MacOS/mou /usr/bin/mou&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This should have worked. Instead, I got this error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;No Info.plist file in application bundle or no NSPrincipalClass in the Info.plist file, exiting&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I then tried using &amp;#8216;echo test &amp;gt; test&amp;#8217; &amp;#8216;open App&amp;#8230;/mou test&amp;#8217;. No dice, as it instead opened test in mvim, and Mou opened nothing. So, basically, I can&amp;#8217;t open things from Mou in the terminal.&lt;/p&gt;
+
+&lt;p&gt;Of course, then I googled it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;open -a Mou test.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And we have it. For future reference, Richard, Google stuff first, you knob.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Morphological induction</title>
+   <link href="http://richardlitt.github.com/research/2012/10/24/12-57-morphological-induction"/>
+   <updated>2012-10-24T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/research/2012/10/24/12-57-morphological-induction</id>
+   <content type="html">&lt;p&gt;Thoughts while reading: S. Keshava &amp;amp; E. Pitler (2005). &lt;em&gt;A Simpler, Intuitive Approach to Morpheme Induction&lt;/em&gt;. Proceedings of Morphochallenge 2005, pp. 28-32.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Goldsmith 2001 seems to be used often to sum up morphological induction - what&amp;#8217;s the new must-read article for the past decade?&lt;/li&gt;
+
+&lt;li&gt;This paper was released around the same time as Morfessor 1.0. How do they compare?&lt;/li&gt;
+
+&lt;li&gt;This isn&amp;#8217;t good for Arabic or semitic languages (Maltese). How does it compare to Poon et al, 2009, NAACL, &lt;em&gt;Unsupervised Morphological Segmentation with Log-Linear Models&lt;/em&gt;?&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Paper idea&lt;/strong&gt;: using orthographically cleaned data, could one use historical knowledge of a language, perhaps by using Bayesian analysis of similar languages to find cognates, to bootstrap better morphological induction? Pitfalls, possibilities?&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;The forward and backward trees allow us to calculate conditional probabilities in O(1) time…&amp;#8221; What does this mean exactly?&lt;/li&gt;
+
+&lt;li&gt;What influence do multiword expressions or complicated NPs have on morphological analysis? Does &lt;em&gt;The Mayor of Boston&amp;#8217;s Hat&lt;/em&gt; actually do anything?&lt;/li&gt;
+
+&lt;li&gt;I&amp;#8217;m sorry, but I think that using the argument that &amp;#8220;19+1 is not arbitrary, as x / x+y = .05&amp;#8221; is not a valid argument. .05 is also arbitrary. If you want to go for non-arbitrary, use human-evaluated morpheme to lexeme percentages.&lt;/li&gt;
+
+&lt;li&gt;What exactly do the other 20%, after 80%~ Recall and precision, look like? Are there regularities to the exceptions? Perhaps etymological / PoS / orthographical? Throwing out the baby with the bathwater.&lt;/li&gt;
+
+&lt;li&gt;This paper was also run on Finnish. Morfessor was too. Going to have to read both.&lt;/li&gt;
+
+&lt;li&gt;What about differences between derivational and inflectional morphemes?&lt;/li&gt;
+
+&lt;li&gt;Good example: &lt;em&gt;widen&lt;/em&gt; is &lt;em&gt;wid&lt;/em&gt; + &lt;em&gt;en&lt;/em&gt;, which is missed by the script. Ideally, one should be able to know that long vowels shortened when there is a following syllabic morpheme (have I written/read this aright?). That should be testable given statistical regularities in Germanic roots or Bayesian inference of likely source language, followed by likely age, followed by intelligent morpheme induction that would treat &lt;em&gt;widen&lt;/em&gt; as both &lt;em&gt;wide&lt;/em&gt; + &lt;em&gt;en&lt;/em&gt; and &lt;em&gt;wid&lt;/em&gt; + &lt;em&gt;en&lt;/em&gt;.&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;passionflowers&lt;/em&gt; is arguably on the cusp of being non-compositional. Morpheme induction for this is useful how, exactly?&lt;/li&gt;
+
+&lt;li&gt;Another Saffran quoting paper! &lt;strong&gt;I need to get that paper of mine out&lt;/strong&gt;. &lt;strong&gt;Now&lt;/strong&gt;.&lt;/li&gt;
+
+&lt;li&gt;Read Yang 2004 in response to Saffran 1996.&lt;/li&gt;
+
+&lt;li&gt;Regarding &lt;em&gt;Future Work&lt;/em&gt;: What follow-ups have they had? Why didn&amp;#8217;t they utilise Saffran &amp;amp; Aslin earlier, if they knew about it? What sort of phonological information would help them? Why don&amp;#8217;t they use collocations? How would batch learning actually change the program recognition (opaque)?&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;While we do not claim that humans use our algorithm to segment words, we believe that further research along this line has potential to reveal insight into human language processing.&amp;#8221; What sort of insight? What other algorithms would humans use? What about subconscious vs. conscious induction? What about linguistically-informed induction vs. first language acquisition? Isn&amp;#8217;t it an error to lump all of these together?&lt;/li&gt;
+
+&lt;li&gt;Hafer and Weiss, 1974. &lt;em&gt;Word segmentation by Letter Successor Varities&lt;/em&gt;. Information Storage and Retrieval, 10:371-385. - might be worth reading.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As always, reader, if anything is interesting, don&amp;#8217;t hesitate to get into contact.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Some Regex Fun</title>
+   <link href="http://richardlitt.github.com/code/2012/10/02/18-38-some-regex-fun"/>
+   <updated>2012-10-02T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/code/2012/10/02/18-38-some-regex-fun</id>
+   <content type="html">&lt;p&gt;Recently I&amp;#8217;ve been trying to do lists the long way instead of the longer way. That is to say, if I have a chunk of text that I need to copy somewhere, and it&amp;#8217;s not in a good format, I take the time to figure out the regex for it so that I get faster at using regex, rather than just doing it manually. In some cases, this is far shorter - I recently converted a very long dictionary easily after around thirty minutes figuring out a regex for it. Just now, I did something similar, but I could have just deleted some segments a lot faster.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:%s/\s\([A-Z][a-z]*\)\s\S*\s\S*\s\S*\s\S*/\1\r/gc&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This basically took a proper noun - in this case, a Japanese town - with for words after it, and removed them, and put it on a new line. As you can tell, I&amp;#8217;m using vim. Favourite thing I learned here? \S - anything but \s. I also love () and \1, but that&amp;#8217;s just a given, innit?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>New Paper on Interactive Classroom participation</title>
+   <link href="http://richardlitt.github.com/research/2012/07/17/20-34-new-paper-on-interactive-classroom-participation"/>
+   <updated>2012-07-17T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/research/2012/07/17/20-34-new-paper-on-interactive-classroom-participation</id>
+   <content type="html">&lt;p&gt;My coauthors, Antonia Scheidel, Marc Schulder, and Sibel Ciddi, and I all have a new paper out recently in the 4th International Conference on Education and New Learning Technologies in Barcelona. It&amp;#8217;s called &lt;strong&gt;Crowd sourcing the classroom: Interactive applications in higher learning&lt;/strong&gt;, and it is available for download &lt;a href='http://www.burntfen.net/publications/LittEdulearn.pdf'&gt;here&lt;/a&gt;, with the appropriate &lt;a href='http://www.burntfen.net/publications/bib/LittEdulearn.bib'&gt;bib file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='abstract'&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The traditional university classroom paradigm frequently leads to fragmented knowledge dispersal; each student creates, collates, and curates their own notes individually. Here, we present a more holistic approach to student participation, based on experience from a student-initiated experiment using interactive applications in higher education. We explore several methods to help university students work collaboratively: Simultaneous note-taking using an online, interactive notepad; centralised information storage using a dedicated wiki; student-run centralised storage in the cloud; and communication management using a dedicated email list. In this paper, we elaborate on these points, and draw upon relevant previous literature, as well as our experience with implementing this system in several classes with diverse subjects in a graduate level Computational Linguistics degree. We also suggest future avenues to explore, such as slide-and-note integration.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id='summary'&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;Our basic goal for this paper was to tell a story. At the beginning of the fall semester at the Saarland University, in 2011, all of the students were thrown together in a Masters program foundation course for computational linguistics. We quickly realised that some of us, who took notes by computers, could make our work more efficient by working together. Over the course of the semester, a spontaneous, organic, and collaborative way of taking notes, organising files, and managing our studies formed. At heart, there were four main devices we used for this: &lt;strong&gt;simultaneous online notepads, central storage on Dropbox, private class-based wikis, and email lists&lt;/strong&gt;. None of these are necessarily new - but we felt that it was a story worth telling, and what we try to do in this paper is to present how we worked together, where we failed, and what we would suggest to teachers and students in the future. This paper is relevant, then, for not only classroom planners and education theorists, but also to students and teachers who can apply the methods used here to their own classrooms.&lt;/p&gt;
+
+&lt;h2 id='notetaking'&gt;Note-Taking&lt;/h2&gt;
+
+&lt;p&gt;We first discuss some details about the courses we attended, and how they were different, and each had different needs; tutorials, seminars, projects, and so on. In general, to take notes in these, we used Etherpads, based on either the Etherpad site, Riseup, Mozilla, or DataONE (which I had used the previous summer to work with, during an internship.) An Etherpad is a collaborative online notepad that allows multiple users to edit a document simultaneously, and has a chat bar, basic formatting functionality, and stores data for 30 days from the last edit. We basically used one Etherpad to store all of the links to the others, and every day we would check into that, open a new one, paste the link, and start taking notes. Other students in on it would start taking notes at the same time, and our work was cut in half. As well, this gave us the opportunity to see what was important to others, what questions we might have, to share personal notes about the course or anything else, and also the opportunity to ask a question, and listen, instead of scrambling to take notes simultaneously. It worked very well. We go over a lot of the gritty details, as well as show a textual analysis of the type of notes - links, personal comments, slide transcriptions, and so on.&lt;/p&gt;
+
+&lt;h2 id='wiki'&gt;Wiki&lt;/h2&gt;
+
+&lt;p&gt;One of our courses had a dedicated MediaWiki that we used to share information about the course itself, a reading list, slides from our presentations, information about the topic, as well as links to notebooks. It wasn&amp;#8217;t the largest wiki - 18 pages in the end - but it did work very well as a reference which we could edit, rather than a closed site that only a secretary somewhere can edit.&lt;/p&gt;
+
+&lt;h2 id='dropbox_and_email_lists'&gt;Dropbox and Email Lists&lt;/h2&gt;
+
+&lt;p&gt;For each course in the program, there was a centralised email list that could be used to talk among other students. Usage patterns differed - for some courses, the lists were barely used. For others, there were often emails several times a week. The topics of conversation varied widely: administration details, homework assignments and questions, requests for papers that were held behind paywalls, questions about specific lectures, mentions of relevant books or research outside of the syllabus, and so on. For the entire program, there was also a centralised list that was used for larger concerns, such as examination procedures.&lt;/p&gt;
+
+&lt;p&gt;As well, in response to early inefficient practices of repeatedly forwarding multiple copies of papers and homework assignments, a centralised Dropbox was set up to gather all of the information in one place. By the time we published, the Dropbox held 814 files, and was 1.07 GB in size. That&amp;#8217;s a lot. There were dozens of relevant articles, answer sheets, past examinations, and notes. Dropbox was chosen because it was free, easy to use, easily synced to the master storage unit in the cloud, easy to moderate (both to allow members and to ensure quality), and because it had version control (for instance, when someone accidentally deleted a file, it could be recalled.) The majority of the students in the department had access to the Dropbox, except a few who had minor security issues, or did not wish to share files with others. We also, for some assignments, used a Github.&lt;/p&gt;
+
+&lt;p&gt;We then go on to discuss, in more detail, each of the topics, before moving on to give our final recommendations. Here&amp;#8217;s that section, verbatim.&lt;/p&gt;
+
+&lt;h2 id='recommendations'&gt;Recommendations&lt;/h2&gt;
+
+&lt;p&gt;So, from our experiences, we have several overarching recommendations for future students and teachers regarding how to maximise the use of the four methods described above:&lt;br /&gt;1. Spend time after lectures, or during lulls in conversation, to make the notes readable and more structured. This leads to a better understanding of the material both during the lecture and for later reference.&lt;br /&gt;2. Communicate with lecturers about the use of slides being uploaded before a class. We found that does help significantly with following along. It also helps with note-taking, exporting to different documents and formats, and provides an impetus to prepare for lectures so that extra information can be garnished from the instructor instead of merely following the slides at the front of a class. Page numbers, sign-posting, and overview slides are especially helpful.&lt;br /&gt;3. Short breaks between sections during a class can be incredibly helpful, even if they seem redundant and counter-productive. They allow students to mull over new thoughts, and to structure their notes and their understanding.&lt;br /&gt;4. Make sure that someone archives and collates the notes together in a central repository, so that collaborative work is not lost (for instance, due to the 30-day use limit to the Etherpads). crowdsourcing quality assurance and checking the repository is also much easier than having one individual doing this alone.&lt;br /&gt;5. Keep systems simple and straightforward to encourage people to contribute regularly. Complicated processes and interfaces inhibit students, by causing them to spend the extra effort in an already intense study environment. The more seamlessly collaboration can be integrated into daily routine, the better.&lt;/p&gt;
+
+&lt;p&gt;We hope that these recommendations help with future classes. Another aspect, not mentioned so far in this paper, that makes collaborative work suitable for classrooms is that it is very engaging, and in some cases, &lt;em&gt;fun&lt;/em&gt; - more so than following a single lecturer without interacting with fellow students.&lt;/p&gt;
+
+&lt;h2 id='conclusion'&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;So, that was basically our paper. None of us could attend the conference for logistical reasons, but we hope that it got our there, and that some people take the time to look at the paper, and perhaps implement Classroom 2.0 technologies in their universities or high schools. Would be fun.&lt;/p&gt;
+
+&lt;p&gt;Feel free to email me or comment here for questions.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Simon Greenhill: Levenshtein Distances Fail to Identify Language Relationships Accurately</title>
+   <link href="http://richardlitt.github.com/2012/07/09/19-26-simon-greenhill-levenshtein-distances-fail-to-identify-language-relationships-accurately"/>
+   <updated>2012-07-09T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/2012/07/09/19-26-simon-greenhill-levenshtein-distances-fail-to-identify-language-relationships-accurately</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>The world's languages in crisis: A 20 year update</title>
+   <link href="http://richardlitt.github.com/reviews/2012/07/03/23-04-the-worlds-languages-in-crisis-a-20-year-update"/>
+   <updated>2012-07-03T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/reviews/2012/07/03/23-04-the-worlds-languages-in-crisis-a-20-year-update</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Note: These are not so much reviews as notes I took after reading. In some cases, they may even be notes merely to myself.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a very interesting paper that tackles the new Ethnologue coming out in 2013, but more importantly, EGIDS, the Expanded Graded Intergenerational Disruption Scale, a new way of classifying language vitality. I was looking for this last week, and then I finally read the paper, and now I can&amp;#8217;t wait to see this used in the literature and to help funding grants, and so on. EGIDS already came out in Lewis and Simons 2010 (and is an extention of the Fishman scale, and UNESCO&amp;#8217;s), but this based on the new Ethnologue - with some new figures. The most shocking of these is that Kraus 1992 may have been too dire! Most languages are not dying - only around 19% aren&amp;#8217;t being passed on. This is of course, not good at all, but it is an improvement.&lt;/p&gt;
+
+&lt;p&gt;Some line item notes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;#8216;Statistics on language viability are very hard to come by&amp;#8217; (Krauss 1992:4)&lt;/li&gt;
+
+&lt;li&gt;Fishman 1991 seems like a good book. Anyone read it? I need to get my hands on it. Same with the UNESCO Experts Meeting on Safeguarding Endangered Languages, Brenzinger et al. 2003. For that matter, also Fishman 2001.&lt;/li&gt;
+
+&lt;li&gt;Ethnicity is not necessarily always equated with a language community, as the marking of EGIDS level 7 seems to imply.&lt;/li&gt;
+
+&lt;li&gt;It is unclear what they did about Latin. Or, for that matter, Volapük.&lt;/li&gt;
+
+&lt;li&gt;Actually, what is the Na&amp;#8217;vi one? I know we got our SIL code rejected - lack of a literature - but sure, I can do that? &lt;strong&gt;Anyone want to work on making a corpus from a forum?&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;Six official languages of the UN: Arabic, Chinese, English, French, Russian, Spanish. What about German and Portuguese?&lt;/li&gt;
+
+&lt;li&gt;Countries are not good determiners of language areas! I need to write a paper on this. Anyone interested, &lt;strong&gt;let me know.&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;&amp;#8216;We have lost 15% of the linguistic stocks (the largest subgroups of related languages that are reconstructable) that had at least one living member in 1950.&amp;#8217; pg. 11&lt;/li&gt;
+
+&lt;li&gt;&amp;#8216;Alarmingly, 2,150 (29%) living languages all around the world are currently at some stage in the process of language loss (EGIDS 6b-9). That is more than the number of languages (1,863, 25%) that have experienced enough language development (EGIDS 0-5) to rise about the default stage of vigorous oral use (EGIDS 67a).&amp;#8217; p.11&lt;/li&gt;
+
+&lt;li&gt;&amp;#8216;Our findings show that Krauss&amp;#8217;s estimate in 1992 that 50% of languages were doomed or dying was too dire.&amp;#8217;&lt;/li&gt;
+
+&lt;li&gt;Who is &lt;a href='http://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;ved=0CE0QFjAA&amp;amp;url=http%3A%2F%2Fhumanities.uchicago.edu%2Ffaculty%2Fmufwene%2Fvl4n2COLONIZATION-GLOBALIZATION.pdf&amp;amp;ei=ymLzT8WbNIbSsgb24NS7BQ&amp;amp;usg=AFQjCNG4RfMQQscKTYw_XWQ8ZqUePLK9Hw'&gt;Mufwene 2002&lt;/a&gt;? Oh.&lt;/li&gt;
+
+&lt;li&gt;The Dari language colonisation was very different from the Russian one. Using diglossia to compare them fails. Just a thought.&lt;/li&gt;
+
+&lt;li&gt;How do we define language, anyway? (Is this a moot comment?)&lt;/li&gt;
+
+&lt;li&gt;&amp;#8216;A correlation analysis of the colonization patterns that were typical of particular regions or countries with the profile of current EGIDS estimates for the languages in each context could be done to develop concrete evidence that support Mufwene&amp;#8217;s hypothesis.&amp;#8217; Yes, that could be done. &lt;strong&gt;and it should be.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sunset poem</title>
+   <link href="http://richardlitt.github.com/poetry/2012/07/03/21-53-sunset-poem"/>
+   <updated>2012-07-03T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/poetry/2012/07/03/21-53-sunset-poem</id>
+   <content type="html">&lt;p&gt;I decided that&lt;br /&gt;now was the&lt;br /&gt;time&lt;br /&gt;to write&lt;br /&gt;that&lt;br /&gt;poem.&lt;/p&gt;
+
+&lt;p&gt;But&lt;br /&gt;the tea &lt;br /&gt;needed&lt;br /&gt;to be brewed.&lt;br /&gt;my bladder&lt;br /&gt;wouldn&amp;#8217;t empty itself.&lt;br /&gt;the sunset&lt;br /&gt;was drooping.&lt;/p&gt;
+
+&lt;p&gt;And it was&lt;br /&gt;then&lt;br /&gt;that I found&lt;br /&gt;my little poem,&lt;br /&gt;about the way&lt;br /&gt;the hills looked,&lt;br /&gt;like Japan,&lt;br /&gt;detailed,&lt;br /&gt;and full of&lt;br /&gt;their own&lt;br /&gt;molded earth,&lt;/p&gt;
+
+&lt;p&gt;my&lt;br /&gt;little&lt;br /&gt;poem,&lt;/p&gt;
+
+&lt;p&gt;was&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;of what was I&lt;br /&gt;thinking &lt;br /&gt;again?&lt;/p&gt;
+
+&lt;p&gt;and why is my&lt;br /&gt;tea&lt;br /&gt;cold?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Tolkien was a slacker.</title>
+   <link href="http://richardlitt.github.com/quotes/2012/07/01/17-09-tolkien-was-a-slacker"/>
+   <updated>2012-07-01T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/quotes/2012/07/01/17-09-tolkien-was-a-slacker</id>
+   <content type="html">&lt;p&gt;I am rereading Lord of the Rings for the 13th time. I keep running across new things - for instance, evidence so strong that I once would have taken it for proof that the Entwives are in the Old Forest. As I was reading along, I came upon this passage with new eyes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8216;There is one of my people yonder across the stream,&amp;#8217; he said, &amp;#8216;though you may not see him.&amp;#8217; He gave a call like the low whistle of a bird, and out of a thicket of young trees an Elf stepped, clad in grey, but with his hood thrown back; his hair glinted like gold in the morning sun. Haldir skilfully cast over the stream a coil of grey rope, and he caught it and bound the end about a tree near the bank.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8216;Celebrant is already a strong stream here, as you see,&amp;#8217; said Haldir, &amp;#8216;and it runs both swift and deep, and is very cold. We do not set foot in it so far north, unless we must. But in these days of watchfulness we do not make bridges. This is how we cross! Follow me!&amp;#8217; He made his end of the rope fast about another tree, and then ran lightly along it, over the river and back again, as if he were on a road.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8216;I can walk this path,&amp;#8217; said Legolas; &amp;#8216;but the others have not this skill. Must they swim?&amp;#8217;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8216;No!&amp;#8217; said Haldir. &amp;#8216;We have two more ropes. We will fasten them above the other, one shoulder-high, and another half-high, and holding these the strangers should be able to cross with care.&amp;#8217;&lt;/p&gt;
+
+&lt;p&gt;When this slender bridge had been made, the Company passed over, some cautiously and slowly, others more easily. Of the hobbits Pippin proved the best for he was sure-footed, and he walked over quickly, holding only with one hand; but he kept his eyes on the bank ahead and did not look down. Sam shuffled along, clutching hard, and looking down into the pale eddying water as if it was a chasm in the mountains.&lt;/p&gt;
+
+&lt;p&gt;He breathed with relief when he was safely across. &amp;#8216;Live and learn! as my gaffer used to say. Though he was thinking of gardening, not of roosting like a bird, nor of trying to walk like a spider. Not even my uncle Andy ever did a trick like that!&amp;#8217;&lt;/p&gt;
+
+&lt;p&gt;When at length all the Company was gathered on the east bank of the Silverlode, the Elves untied the ropes and coiled two of them. Rumil, who had remained on the other side, drew back the last one, slung it on his shoulder, and with a wave of his hand went away, back to Nimrodel to keep watch.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Slacklining has been traditionally taken to have been invented in 1983. Tolkien published Lord of the Rings in 1954.&lt;/p&gt;
+
+&lt;p&gt;And, of course, The Fellowship crossed the Celebrant on January 17th, 3019 of the Shire Reckoning. Take that, Californians.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Anonymous Twitterings</title>
+   <link href="http://richardlitt.github.com/projects/2012/07/01/16-34-anonymous-twitterings"/>
+   <updated>2012-07-01T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/projects/2012/07/01/16-34-anonymous-twitterings</id>
+   <content type="html">&lt;p&gt;Over a year ago (but not much over), a friend and I were sitting in one of my favourite cafés at the time, Black Medicine, in Bruntsfield, Edinburgh. We were talking about Twitter, and about what sort of posts were allowed &amp;#8211; and what sort weren&amp;#8217;t. We began to wonder: what if we had private twitter accounts, and no followers? What would the posts be like?&lt;/p&gt;
+
+&lt;p&gt;A pact began to form. We both set up new accounts, and didn&amp;#8217;t tell the other their names. We promised to never follow anyone; to never tweet at anyone; to never retweet each other or anyone who might be able to identify us; to not talk about it, except in generalities; to tweet when we wanted, but never because we felt obligated to. At the end of the year, we&amp;#8217;d see who had more followers, and what the tweets looked like.&lt;/p&gt;
+
+&lt;p&gt;A year passed.&lt;/p&gt;
+
+&lt;p&gt;My friend, @simonv3 (his public account), won the contest, with four followers. We have no idea why any of them followed him. I had no followers - and frankly, I&amp;#8217;m not surprised.&lt;/p&gt;
+
+&lt;p&gt;No, I&amp;#8217;m not going to give you the name of my account. This is largely because around 95% of my private tweets were swear words. Around 20% of them aren&amp;#8217;t fit for public consumption, and around 10% of them are midly socially incriminating. But in between the drunken rants and swears, there&amp;#8217;s a few very tender moments. Posts about how much I miss people; or home; or a girl. Posts that really show what exactly I was feeling at the time, and some that show how quickly a mood can change. Posts that speak of the heights and lows of last year (one of the most dynamic in my life, I suppose.)&lt;/p&gt;
+
+&lt;p&gt;While I&amp;#8217;m not going to post the twitter handle here; if you&amp;#8217;re a good friend, and are brave enough to risk being told &lt;em&gt;Sorry, No&lt;/em&gt; to (I&amp;#8217;m not giving it out to everyone), feel free to ask for it. If you&amp;#8217;re curious as to what &lt;em&gt;you&lt;/em&gt; might do - well, I suggest setting up your own account. I&amp;#8217;ve learned a lot - mainly, I&amp;#8217;ve learned what social networks really mean, and how the old adage of &amp;#8216;I tweet about my breakfast&amp;#8217; only holds up when you know others are listening.&lt;/p&gt;
+
+&lt;p&gt;For the record: there were no tweets about breakfast.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Mark Liberman on Automating Phonetic Measurements</title>
+   <link href="http://richardlitt.github.com/academia/2012/06/29/17-12-libermans-talk-provisional"/>
+   <updated>2012-06-29T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/academia/2012/06/29/17-12-libermans-talk-provisional</id>
+   <content type="html">&lt;p&gt;Over the weekend, I attended a workshop on &lt;a href='http://www.martijnwieling.nl/workshop'&gt;Quantitative Linguistics and Dialectology&lt;/a&gt; in Groningen, in Holland. This was my first time in Groningen - I had friends there from my Erasmus Mundus program in Language and Communication Technologies, and it was great to meet up with them and to stay with another friend of mine, Jelke, an honorary EMLCT member. The workshop was centred around topics relevant to Martijn Wieling PhD defense, which occured the day before. Several of the speakers were invited for this, and the workshop was supplementary to their appearance. This was certainly the case for Mark Liberman, of UPenn, LDC, and LanguageLog fame. His talk ended the workshop.&lt;/p&gt;
+
+&lt;p&gt;Here are the notes I took (as good as they could be), along with the transcriptions of the question and answer session. I hope I didn&amp;#8217;t annoy too many by typing loudly and too fast. There were most likely many transcription errors.&lt;/p&gt;
+
+&lt;h1 id='mark_liberman__automating_phonetic_measurements'&gt;Mark Liberman - Automating Phonetic Measurements&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Talk at the Quantitative Linguistics and Dialectology Workshop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s a talk about automating phonetic segmentation and manipulation, and why we&amp;#8217;re not using the tools available, and how that may change in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;For most well-defined phonetic detection, classification, and measurement tasks, judicious choice of acoustic features and application of modern machine-learning techniques will produce and automatated annotation system that works about as well as a human annotator.&lt;/strong&gt; (This slide was referred to several times.)&lt;/p&gt;
+
+&lt;p&gt;Two papers that aren&amp;#8217;t really known by many linguists:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Saul Sternberg et al. 1978. The Latency and Duration of Rapid Movement Sequences: Comparisons of Speech and Typewriting.&lt;/li&gt;
+
+&lt;li&gt;Saul Sternberg et al. 1980. Motor Programs in Rapid Speech: Additional Evidence. In Cole, Ed., &lt;em&gt;Perception and Production&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why did they use these? Motivations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accuracy, as human annotators aren&amp;#8217;t the best.&lt;/li&gt;
+
+&lt;li&gt;Freedom from experiment bias.&lt;/li&gt;
+
+&lt;li&gt;Efficiency. (Praat did not exist.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Forward 32 years: &lt;em&gt;Journal of Phonetics&lt;/em&gt;: 45 articles, 4 issues this year.&lt;br /&gt;Use of automated measures? Either 0, or 1, papers.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mooshammer et al, 2012, &amp;#8216;Bridging&amp;#8230;&amp;#8217;: This is a good paper, and I suggest it.&lt;/li&gt;
+
+&lt;li&gt;Schuppler et al, 2012. Used some forced alignment, but eventually returned to Praat for detailed analysis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why does this matter? Well, human judgement means wasted time and effort, slower research, problems with confirmation and experimenter bias. There&amp;#8217;s also a lost opportunity for very-large scale research, especially on &amp;#8216;Found data&amp;#8217;. Also on large-scale laboratory speech collections. Well, is there an alternative?&lt;/p&gt;
+
+&lt;p&gt;So, an example: VOT measurement for voiceless stops. The concept is to use forced alignment to find the approximate region for a measurement. And then use machine-learning methods to classify the region, and to detect relevant events and measure durations, frequencies, amplitudes, etc., as appropriate. This is work in progress by Neville Ryant at Penn, supported by an NSF grant.&lt;/p&gt;
+
+&lt;p&gt;Architecture: at each identified stop region (as localised by forced alignment):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We create a time series of acoustic feature vectors, extracted every ms.&lt;/li&gt;
+
+&lt;li&gt;The decision function of a max-margin stop-burst detector is computed for ever frame.&lt;/li&gt;
+
+&lt;li&gt;The decision function of a max-margin stop-burst detector is computed for every frame following a burst.&lt;/li&gt;
+
+&lt;li&gt;If either the burst onset or voice onset detector fails to find a non-negative peak, VOT measurement fails for this region. Otherwise, it is recorded.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We measured five acoustic features: locally-normalised total energy, low- and high- frequency energy, and spectral entropy and centroid. The details do not matter - what matters is that this is all standard machine-learning guff.&lt;/p&gt;
+
+&lt;p&gt;So, we get good results from these, compared to human annotators. For instance, 1.5ms mean absolute difference between two human phonetician annotators, while 1.89ms between the algorithm and a human annotator.&lt;/p&gt;
+
+&lt;p&gt;So, the statement (_in bold_) above fits.&lt;/p&gt;
+
+&lt;h2 id='questions'&gt;Questions:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;To what extent are you thinking about firing all of the human annotators?&lt;/strong&gt; I mean, well, I don&amp;#8217;t know, the way that it stands now, you certainly wouldn&amp;#8217;t want to apply this sort of thing without a significant check. We need to do random spot checks of the rest of the data to make sure that nothing weird has happened, and similar kinds of problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I have such and such a corpora&amp;#8230;&lt;/strong&gt; (_missed_). There&amp;#8217;s a version which is easy: Say, there&amp;#8217;s a tape with a digital recording, and you know what the word list spoken was, and you want to associate the word list with the region of the tape where it is said, that&amp;#8217;s easy. &lt;strong&gt;Also for two and half hours?&lt;/strong&gt; Well, we&amp;#8217;ve done two (_laughs in the room_). Just how crappy this was, forgive my wording, &lt;em&gt;can be shown by how we did it the application of it&lt;/em&gt; in Swedish. I contacted all of my Swedish phonetician friends, and I came up empty with regards to sound rules or a Swedish pronouncing dictionary. They pointed to everyone else around in the circle; &amp;#8216;mine was mislaid in the wash&amp;#8217;, etc. We didn&amp;#8217;t have anything. So, without knowing anything about Swedish, I made a guess for each letter of the English alphabet what English phoneme it was most like, not even using digraphs, and used models trained on the Supreme Court arguments, 2001, and we were able to properly align it. I think we can deal with your corpora.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I wonder how many class labels this can deal with&lt;/strong&gt; Well, the more classes, the harder the problem. There&amp;#8217;s no technical problem, it&amp;#8217;s just that as the classes increase, the accuracy decreases. Of course, the same tends to be true for human annotators in most classes. We can talk about your problem. You know we&amp;#8217;re &amp;#8230; the claim is of course a bit overstated. But I think there&amp;#8217;s no reason in principle that whatever task can&amp;#8217;t be taken care of. Coming back to the previous question: what would be harder, is what the Nijmegen Schuppler et al paper used forced alignment for, which is not only getting words in the right place, but to figure out what configuration is used in each particular case, which isn&amp;#8217;t fairly perfect, but should work well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What about public approachability for this? Like a wiki?&lt;/strong&gt; Well, we&amp;#8217;ve already done that for the forced alignment. That&amp;#8217;s open source, you can download it. There&amp;#8217;s also a web-based trial. The languages for which we have models, we now have five or six languages, in addition to English: Portuguese, Vietnamese, Chinese&amp;#8230; I forget. For these, you can upload audio and transcript, and after a while, you get emailed a link to a Praat file giving you the alignment. For certain, I would expect, we&amp;#8217;re not there yet, but in the next few years for a number of standard phonetic measurements like VOT - we ought to be able to offer some analogous service, although I would hope that people could learn to do it themselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What about automating this&amp;#8230; Often, when you look at the output, you see different patterns between human and computer errors.&lt;/strong&gt; If the automated analysis is unbiased relative to the analysis of interest for you, you&amp;#8217;ll still be better off. I&amp;#8217;m less concerned about whether there are bizarre errors, which there might be - of course, human&amp;#8217;s do this too, with finger slips and the like - I&amp;#8217;m more concerned as to whether the mistakes there are are biased with respect to the object of interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maybe I could ask about sociolinguistic variation. Some tasks that we regularly have: checking transcription quality and vowel quality.&lt;/strong&gt; Let me take the second first. Starting in 2009, we are working with Bill Labov&amp;#8217;s students, in particular with Kielen Melanini (sp?) We took a Bayesian approach to formant tracking, using a transcript, forced alignment with a sociolinguistic interview, we then select from a transcript the words containing the vowels you want to analyse, perhaps all of the vowels, and then, because you know the environment that you want to get, you know something about where you expect the formants to be. There&amp;#8217;s a prior. Then you take LPC poles, for each set of poles in the appropriate frequency range, you do a joint optimization of the things you need, based on the bandwidth and so on, multiplied by the prior. That eliminates a large percentage of formatting errors. I can show you scatter plots, it&amp;#8217;s been done for a few languages now. Keelin convinced Bill by doing this for the Atlas of North American English. He was able to say quite precise things about what conclusions you&amp;#8217;d come to from using the machine generated numbers, versus the hand stuff. Bill and their students now do all of their measurements using this technique.&lt;/p&gt;
+
+&lt;p&gt;Checking transcripts is a very interesting and difficult problem. One of the dirty little secrets of speech recognition is that confidence measurements are surprisingly poor. One of the major projects at Limsee is making error analysis of confidence better. It&amp;#8217;s true that for transcripts you can find analyses that have been way off, but transcript errors are harder to find.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Applause.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>A Linguistic Assessment of the Munji Language in Afghanistan</title>
+   <link href="http://richardlitt.github.com/reviews/2012/06/27/19-33-notes-a-linguistic-assessment-of-the-munji-language-in-afghanistan"/>
+   <updated>2012-06-27T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/reviews/2012/06/27/19-33-notes-a-linguistic-assessment-of-the-munji-language-in-afghanistan</id>
+   <content type="html">&lt;p&gt;Some notes from: * Beyer and Beck (2011). &lt;em&gt;A Linguistic Assessment of the Munji Language in Afghanistan.&lt;/em&gt; Language Documentation &amp;amp; Conservation, 6; pp. 38-103. http://nflrc.hawaii.edu/ldc/&lt;/p&gt;
+
+&lt;p&gt;This was a generally fascinating paper, and very fun to read alongside with &amp;#8216;A Walk in the Hindu Kush&amp;#8217;, about travels in the area fifty years before. Here are some sections I highlighted in my reading:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;3 LINGUISTIC SITUATION. The national languages of Afghanistan are Dari and Pashto. Both are Indo-European languages, Dari belonging to the West Iranian group of languages and Pashto to the East Iranian group. The Ethnologue (Gordon 2005) lists 46 languages for Afghanistan. Many of these are also spoken in neighboring countries, as borders were drawn without taking into account the locations and boundaries of ethnolinguistic groups. Accoding to the new Constitution of Afghanisatan (in place since 2005), Article 16, the government supports the development and strengthening of minority languages. Even the status of a third national language is ascribed to some languages, in places where the majority speaks them. For example, Pamiri is mentioned as one of them. &lt;strong&gt;Little research has been conducted on the minority languages of Afghanistan, and hardly any information about them is available.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The splitting up of Afghanistan is a fascinating topic, particularly the &lt;a href='http://en.wikipedia.org/wiki/Durand_Line'&gt;Durand Line&lt;/a&gt;. The great game was a ridiculous affair, where European interests basically ignored the locals and carved up the region. This can still be seen today. In the most sobering part of the paper, Medical Situation, there is this quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;As we were walking through the villages, people often asked us for medicine and said, &amp;#8220;Please send us a doctor and an eye doctor. We don&amp;#8217;t have a doctor in the valley, and the people just die.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I suggest reading the paper - it is a very good assessment of the language, and predicts that Munji is not in danger of going extinct soon, thanks to lots of youth learning the language and the people being proud of it. Let&amp;#8217;s hope this continues.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Finding</title>
+   <link href="http://richardlitt.github.com/writings/2012/06/26/23-36-the-finding"/>
+   <updated>2012-06-26T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/writings/2012/06/26/23-36-the-finding</id>
+   <content type="html">&lt;p&gt;I woke, attended classes. When they were finished, and I had finished messing around with my own code during them, I enjoyed the sunshine. Bringing my slackline back with me from home, I set it up, and for twenty-odd minutes in the afternoon sun I walked next to the building where my colleagues and professors studied. The line hung black like a long snake I caught another afternoon, years ago.&lt;/p&gt;
+
+&lt;p&gt;A final class; and then home. I watched a movie, ate dinner, did some work. As the sun set, I realised how much I depended on my sunset cigarette. Now I had no reason to stand on my balcony. So I went out, visited a friend, and finished my final work for the day. Coming back, I hear music from the empty lot behind my house, in the industrial abandon where I once hopped around a fence and saw artwork, trees, and what looked like a commune. No one was there.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;Ah! You&amp;#8217;re Brazilian. Have you ever drunk maté? I love that stuff, but I don&amp;#8217;t have a gourd.&amp;#8221; &amp;#8220;I have one. I bring them with me to give, because there is always someone who wants some.&amp;#8221; &amp;#8220;No shit&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Tonight, I knew there would be people there; Bonobo was drifting through a football field of air to prove that. I filled my maté gourd, and headed out beneath the last blueing of the sky.&lt;/p&gt;
+
+&lt;p&gt;There were lights on in the abandoned garages, but I couldn&amp;#8217;t tell if anyone was there, or if, perhaps, this was a residence and I had not noted. I peered through a fence, and finally, wandered around and past it. I sip cautiously, and return. WHEEEEET - a sharp whistle. My keys rattle as a back off, hoping it&amp;#8217;s not for a dog.&lt;/p&gt;
+
+&lt;p&gt;Twenty metres away, I turn. There&amp;#8217;s a man there, staring at me. I slowly walk towards him; and his hand extends. I shake it.&lt;/p&gt;
+
+&lt;p&gt;He was an Italian, Guilliame. The other, in the large shed, filled to the brim with a spotlight, was Leonard (I think.) They&amp;#8217;re making the stage for a burlesque show, for players from Paris.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;#8220;So what are you doing in life?&amp;#8221; &amp;#8220;Well, a masters.&amp;#8221; &amp;#8220;In what?&amp;#8221; &amp;#8220;Computational linguistics&amp;#8230;But I&amp;#8217;m only here another month, and then I&amp;#8217;m off to Malta.&amp;#8221; &amp;#8220;Malta?&amp;#8221; &amp;#8220;Yes. I&amp;#8217;ve bought a boat, and that&amp;#8217;s what I&amp;#8217;m doing in life.&amp;#8221; &amp;#8220;How long is it?&amp;#8221; &amp;#8220;25 feet. Sorry, och metres.&amp;#8221; &amp;#8220;What about chicks?&amp;#8221; &amp;#8220;There&amp;#8217;s room enough for one.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Where is Kentuky, again?&amp;#8221;_&lt;/p&gt;
+
+&lt;p&gt;I help them saw some boards. I think to myself, &lt;em&gt;my years in the stage taught me when to exit.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#8221;I&amp;#8217;m off. When are you here?&amp;#8221; &amp;#8220;For the next few weeks. Come on th 13th. You can be our guest.&amp;#8221;_&lt;/p&gt;
+
+&lt;p&gt;My hands smelling of sawdust, my lips wet from a shared joint, my maté empty. I&amp;#8217;ll try and follow the music from now on.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Hopcroft and Brzozowski</title>
+   <link href="http://richardlitt.github.com/quotes/2012/06/18/09-45-hopcroft-and-brzozowski"/>
+   <updated>2012-06-18T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/quotes/2012/06/18/09-45-hopcroft-and-brzozowski</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Most coders of automata go through this process: The Hopcroft is a bit longer to code up, so let&amp;#8217;s just go with Brzozowski&amp;#8217;s algorithm, the deterministic reverse deterministic reverse algorithm. In practice, that works well - until one fine morning when they go to minimise something, go get coffee, come back, and it&amp;#8217;s still going on. That&amp;#8217;s when they go with Hopcroft. It turns out that when you&amp;#8217;re really doing serious work with finite state machines, then minimising frequently after a few steps in some machines is better.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Martin Kay (in class)&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Seasons</title>
+   <link href="http://richardlitt.github.com/poetry/2012/06/17/22-13-seasons"/>
+   <updated>2012-06-17T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/poetry/2012/06/17/22-13-seasons</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Standing on my balcony&lt;br /&gt;I begin to wring a poem&lt;br /&gt;From the sunset.&lt;br /&gt;&amp;#8216;Each year, I swallow summer whole&lt;br /&gt;Gulp it down&lt;br /&gt;And each autumn, I begin to choke&amp;#8217;&lt;br /&gt;No, that&amp;#8217;s no good, I say&lt;br /&gt;It&amp;#8217;s not perfect&lt;br /&gt;&amp;#8216;I swallow summer whole&lt;br /&gt;And let it swill there,&lt;br /&gt;Filling me in the winter And each spring,&lt;br /&gt;I find I am hungry again&amp;#8217;&lt;br /&gt;No, not perfect.&lt;br /&gt;While smoke wraps around my fingers&lt;br /&gt;Like the suns last caresses&lt;br /&gt;Six swallows fly overhead&lt;br /&gt;And I begin to laugh.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Pinched</title>
+   <link href="http://richardlitt.github.com/poetry/2012/06/17/21-10-pinched"/>
+   <updated>2012-06-17T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/poetry/2012/06/17/21-10-pinched</id>
+   <content type="html">&lt;p&gt;On the Metro in Paris,&lt;br /&gt;I imagine her thoughts&lt;br /&gt;and her destination.&lt;br /&gt;Then, I see her&lt;br /&gt;fingers&lt;br /&gt;drumming lightly&lt;br /&gt;on the metal pole;&lt;br /&gt;And the wide gulf&lt;br /&gt;between synapses and nerves&lt;br /&gt;opens before me.&lt;/p&gt;
+
+&lt;p&gt;If that hand&lt;br /&gt;held this hand,&lt;br /&gt;this ocean would be&lt;br /&gt;just lightly pinched.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>My Family (poem)</title>
+   <link href="http://richardlitt.github.com/poetry/2012/06/09/16-24-my-family-poem"/>
+   <updated>2012-06-09T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/poetry/2012/06/09/16-24-my-family-poem</id>
+   <content type="html">&lt;p&gt;My family &lt;br /&gt;has a bad &lt;br /&gt;habit of &lt;br /&gt;killing &lt;br /&gt;ourselves.&lt;/p&gt;
+
+&lt;p&gt;My mother&lt;br /&gt;Slammed a smile onto her face&lt;br /&gt;For so many years that it locked itself&lt;br /&gt;I heard her say, once&lt;br /&gt;&amp;#8220;I need to laugh that way&lt;br /&gt;at least once a year.&amp;#8221;&lt;br /&gt;She moved home, south&lt;br /&gt;where it&amp;#8217;s warm beneath the pine trees&lt;/p&gt;
+
+&lt;p&gt;My sister&lt;br /&gt;broke down when she was cut off&lt;br /&gt;At a stop sign in a parking lot&lt;br /&gt;She tried so hard to shelve her childhood&lt;br /&gt;That she forgot it was still there&lt;br /&gt;dusting up and rusting away&lt;br /&gt;She has a child now&lt;br /&gt;And may dust those shelves in time&lt;/p&gt;
+
+&lt;p&gt;My brother&lt;br /&gt;Drove the principal&amp;#8217;s car into a lake&lt;br /&gt;And got sent to juvenile&lt;br /&gt;For two long years&lt;br /&gt;He came back five inches taller&lt;br /&gt;With some white stubble&lt;br /&gt;And free entrance to the low security&lt;br /&gt;mental institution in the local hospital&lt;/p&gt;
+
+&lt;p&gt;My father&lt;br /&gt;Drank and drank and drank&lt;br /&gt;All of the stars into his bones&lt;br /&gt;until they filled his marrow &lt;br /&gt;until he could walk on his reflection&lt;br /&gt;in the night ocean&lt;br /&gt;feet-bottoms touching&lt;/p&gt;
+
+&lt;p&gt;And me&lt;br /&gt;I&amp;#8217;ve written these stories&lt;br /&gt;Until the horizon squalls over&lt;br /&gt;And I remember&lt;br /&gt;And my father can&amp;#8217;t walk on water&lt;br /&gt;And my mother loved her dogs&lt;br /&gt;And my sister&lt;br /&gt;is bringing something useful into the world&lt;br /&gt;And I never had a brother&lt;br /&gt;But it sure kills me to pretend.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Father poem</title>
+   <link href="http://richardlitt.github.com/poetry/2012/06/05/00-34-father-poem"/>
+   <updated>2012-06-05T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/poetry/2012/06/05/00-34-father-poem</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Untitled&lt;/strong&gt; &lt;em&gt;May 28th&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In 2012&lt;br /&gt;My father put on weight.&lt;br /&gt;&amp;#8221;I&amp;#8217;m 210!&amp;#8221; He said,&lt;br /&gt;sniffing like a seal,&lt;br /&gt;mouth set in a clam outline.&lt;br /&gt;He was always skinny,&lt;br /&gt;A crazed, starved prophet.&lt;br /&gt;(Arent&amp;#8217;t all prophets false?)&lt;br /&gt;But now, an incipient week away,&lt;br /&gt;He ate and swallowed and grew,&lt;br /&gt;Until even his pants drew tight.&lt;br /&gt;An old tree,&lt;br /&gt;Growing through a white fence.&lt;br /&gt;Eating and growing&lt;br /&gt;&amp;#8220;Yes. I&amp;#8217;m 210 now. Yep.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Beyond _n_-grams</title>
+   <link href="http://richardlitt.github.com/research/2012/06/04/14-01-beyond-n-grams"/>
+   <updated>2012-06-04T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/research/2012/06/04/14-01-beyond-n-grams</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been reading through some of the papers on &lt;a href='http://www.stanford.edu/~mjkay/'&gt;Martin Kay&amp;#8217;s website&lt;/a&gt;, as he is teaching Basic Algorithms for Computational Linguistics here. He has a paper about &lt;em&gt;n&lt;/em&gt;-grams and the upper limit, and ways of getting past it. In it, he talks about language models, and the current way of using &lt;em&gt;n&lt;/em&gt;-grams to generate natural language. He ends with this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;But could it be that the standard statistic is not only difficult to use, but also not the best one for the job? A very different one, which may be easier to use is the probability of the substring, &lt;em&gt;given the bag of words that make it up.&lt;/em&gt; In other words, it is the number of instances of the substring in the training data, divided by the number of sentences that contain all of the words in it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Consider a string &lt;em&gt;S&lt;/em&gt; that contains substrings &lt;em&gt;s1,s2&amp;#8230;sk&lt;/em&gt;, all of which are also substrings of the training corpus, that are maximal with respect to &lt;em&gt;S&lt;/em&gt;. Might the figure of merit of the substrings &lt;em&gt;f1, f2&amp;#8230;fk&lt;/em&gt;, be assinging in such a way that the fom of &lt;em&gt;S&lt;/em&gt; would be &lt;em&gt;f1 + f2&amp;#8230;+fk&lt;/em&gt;, or something comparably simple?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think this is the right reasoning, but I also think it may not go far enough. One of the interesting things about the &lt;em&gt;n&lt;/em&gt;-gram model is that it is generally used for words, but not necessarily for substrings that are composed of other substrings - as far as I am aware. If this is the case, then it might be possible to train an algorithm that would not only give the best fit strings from the bag of words, but also rank the substrings that are collated as being more probable together. You would need a massive amount of corpora for this to be the case, of course.&lt;/p&gt;
+
+&lt;p&gt;But a way of getting around this block might be to use annotated substrings that have some sort of intelligent understand of the collocations within them, possible using semantic or syntactic annotation. If this were to be done, coreference and anaphoric resolution would be a bootstrapper to predicting the correct choice of substrings, and the current best-first model would be surpassed in favor of a more cohesive output. By taking the the substring with the probability of the words within coming from within the previous bag of words, and then checking this substring against the surrounding substrings &lt;em&gt;against the possibility of these collocations existing in the training data&lt;/em&gt; (and possibly even the already given strings), it should be possible to have more probably generation.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Ballistic Seeds</title>
+   <link href="http://richardlitt.github.com/links/2012/06/03/16-40-ballistic-seed"/>
+   <updated>2012-06-03T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/links/2012/06/03/16-40-ballistic-seed</id>
+   <content type="html">&lt;p&gt;There is a pretty cool video &lt;a href='http://jecologyblog.wordpress.com/2012/05/28/ballistic-seed-dispersal/'&gt;here&lt;/a&gt; on ballistic seed dispersal. If you don&amp;#8217;t know what this is, go check it out - basically, some plants propgate by exploding their seed sacs so that the seeds jump as far from the base as possible. It&amp;#8217;s pretty fun to watch.&lt;/p&gt;
+
+&lt;p&gt;I once read an Arthur C. Clarke story about an astronaut who had died on the moon. Some people went to find out where he had gone, and found that his helmet had been broken in. They couldn&amp;#8217;t figure out why - but they were astounded to notice that he had been in a garden, on the moon, &lt;em&gt;in the open.&lt;/em&gt; The garden was full of cacti. He had found a way to make a plant that would make oxygen, and live in the sterile environment of the moon.&lt;/p&gt;
+
+&lt;p&gt;Just as they figure this out, one of the cacti explodes - and seeds go everywhere. Not caught by the gravity field, they have the same force as bullets, and the mysterious death is explained. Pretty awesome story, I think.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Café Montmarte</title>
+   <link href="http://richardlitt.github.com/2012/06/01/14-20-caf-montmarte"/>
+   <updated>2012-06-01T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/2012/06/01/14-20-caf-montmarte</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Headline Bias</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/05/29/09-35-headline-bias"/>
+   <updated>2012-05-29T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/05/29/09-35-headline-bias</id>
+   <content type="html">&lt;p&gt;I ran across this email from Reuters in my inbox today. &lt;a href='http://www.reuters.com/article/2012/05/24/us-usa-campaign-idUSBRE84H13020120524?feedType=RSS&amp;amp;feedName=domesticNews'&gt;Romney opens new front vs Obama: schools are failing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What shall I think of this? My first thought was &lt;em&gt;Good, I&amp;#8217;m glad that is being talked about.&lt;/em&gt; This was followed almost immediately by &lt;em&gt;Romney must be an OK guy to bring this up, as it is important. Maybe I should reconsider calling him an asshole before I actually look at his issues, just based on his party and what I remember of his assinine comments in the primaries.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, I then realised that this, too, is wrong. There are two biases playing out here: one being a cognitive bias, and the other being the bias of the news team. To understand, consider these questions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How do we know that Romney actually cares?&lt;/li&gt;
+
+&lt;li&gt;Are failing schools in any way connected to Romney?&lt;/li&gt;
+
+&lt;li&gt;Has Obama not being doing enough for schools?&lt;/li&gt;
+
+&lt;li&gt;If he has been doing stuff, then why is this a new front?&lt;/li&gt;
+
+&lt;li&gt;Why is Romney seemingly on the offensive here? Even the language suggests it.&lt;/li&gt;
+
+&lt;li&gt;How, on earth, is this a &lt;em&gt;new&lt;/em&gt; front? Surely schools have been failing America for decades?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Basic point: Be very careful what you think after reading a headline. You&amp;#8217;re probably wrong, at first.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Globe</title>
+   <link href="http://richardlitt.github.com/cafe/2012/05/28/20-37-globe"/>
+   <updated>2012-05-28T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/cafe/2012/05/28/20-37-globe</id>
+   <content type="html">&lt;p&gt;After the Marathon, we came to the Globe.&lt;/p&gt;
+
+&lt;p&gt;The Globe. is awesome.&lt;/p&gt;
+
+&lt;p&gt;There is a really nice selection of books in the bookstore. There are lots of pamphlets and cool things to look at. Myself, I bought &lt;em&gt;what matters most is how well you walk through the fire&lt;/em&gt; by Bukowski. Depressing, but good reading.&lt;/p&gt;
+
+&lt;p&gt;The back bit has a really nice menu, complete with Spinach burgers and Nachos, both of which I tried. I had becherovka, a Czech drink, which, as my friend put it, has &amp;#8216;the taste of Christmas and gasoline.&amp;#8217; You know, he wasn&amp;#8217;t wrong. The Mexican coffee, with Kahlua, is also fantastic. At Czech prices, we&amp;#8217;ve been here all day. I spent most of that reading a paper on the &lt;a href='http://scholarspace.manoa.hawaii.edu/bitstream/handle/10125/4506/beyer_beck.pdf?sequence=1'&gt;Munji language in Afghanistan&lt;/a&gt; (very fun), and a lot of &lt;a href='hpmor.com'&gt;Harry Potter and the Methods of Rationality&lt;/a&gt; (more fun). Smoking is cool inside, and the music ain&amp;#8217;t half bad. Before - James Bond themes. Now - Fatboy Slim.&lt;/p&gt;
+
+&lt;p&gt;Wireless is excellent. Plugs are good. Chairs are comfortable.&lt;/p&gt;
+
+&lt;p&gt;And once again I sacrifice seeing another city for happiness.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Marathon Cafe, Prague</title>
+   <link href="http://richardlitt.github.com/cafe/2012/05/28/14-07-marathon-cafe"/>
+   <updated>2012-05-28T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/cafe/2012/05/28/14-07-marathon-cafe</id>
+   <content type="html">&lt;p&gt;With Andreas and Lemar in the Marathon Café in Prague. I&amp;#8217;ve continually wanted to start a blog talking about all of the different cafés I&amp;#8217;ve been to, but I haven&amp;#8217;t gotten around to it yet. As this blog as so easy to push, this post is going here, although it may eventually go on a new blog, or maybe even on my old &lt;a href='http://www.edinburghcafes.com'&gt;Edinburgh Cafes&lt;/a&gt; blog, which is really only for cafes in Edinburgh.&lt;/p&gt;
+
+&lt;p&gt;So, here&amp;#8217;s the run down:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two cute girls in the corner&lt;/li&gt;
+
+&lt;li&gt;In a confusing building - might be a uni?&lt;/li&gt;
+
+&lt;li&gt;Wireless good. Also, access to Eduroam as a backup.&lt;/li&gt;
+
+&lt;li&gt;Latte alright, a bit too frothy.&lt;/li&gt;
+
+&lt;li&gt;Very lovely music, computer near the door for selection. Conducive to sitting and thining. Think lounge music, but not so ungood.&lt;/li&gt;
+
+&lt;li&gt;Chairs, nice. Lights, nice. General atmosphere: chic.&lt;/li&gt;
+
+&lt;li&gt;Food - not sure, haven&amp;#8217;t had it. Going to another place now.&lt;/li&gt;
+
+&lt;li&gt;Many outlets for computers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rating: 4 out of 5.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>My Stack Overfloweth</title>
+   <link href="http://richardlitt.github.com/writings/2012/05/21/09-25-my-stack-overfloweth"/>
+   <updated>2012-05-21T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/writings/2012/05/21/09-25-my-stack-overfloweth</id>
+   <content type="html">&lt;h2 id='from_psalm_23'&gt;From Psalm 23.&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;By me and Jolene.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Lord is my sysadmin, I shall not grep.&lt;br /&gt;He makes me use languages with many libraries,&lt;br /&gt;he allows me to apt-get many packages,&lt;br /&gt;he clears my cache. &lt;br /&gt;He echoes my global path,&lt;br /&gt;for his user names klout.&lt;br /&gt;Even though I tech-support other people&amp;#8217;s code,&lt;br /&gt;I will fear no project manager,&lt;br /&gt;for you are with me;&lt;br /&gt;your root access and your admin powers,&lt;br /&gt;they comfort me.&lt;br /&gt;You oai-pmh my repository,&lt;br /&gt;in the presence of my 4chan trolls.&lt;br /&gt;You chmod my files as 777,&lt;br /&gt;my stack overfloweth.&lt;br /&gt;Surely your goodness and wireless network will follow me&lt;br /&gt;all the days of my life,&lt;br /&gt;I will subscribe to your mailing list&lt;br /&gt;for(int days = 0; days &amp;lt;= eternity; days++);&lt;br /&gt;I will be in your usergroup.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Right to Offend</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/05/10/10-53-the-right-to-offend"/>
+   <updated>2012-05-10T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/05/10/10-53-the-right-to-offend</id>
+   <content type="html">&lt;p&gt;There&amp;#8217;s a relatively good song by Momus called Rhetoric, and in the &lt;a href='http://www.youtube.com/watch?v=mf4LLPMtSkU'&gt;Youtube video&lt;/a&gt; there&amp;#8217;s this lovely segment of an interview where he explains that art is great because no one has to do it. It is so unnecessary. Sometimes, writing these blogs feels that way.&lt;/p&gt;
+
+&lt;p&gt;Take this one. I opened it yesterday after having a back and forth of around twenty twitter messages with a friend of mine in Edinburgh. She had been castigated the police, calling them all bastards, and so on. I tried to get across to her that the police - even the UK police, who are about as close to V for Vendetta as possible while not letting people catch on too much - do have some useful functions, that they are really actually helpful in some cases, and that they&amp;#8217;re composed of human beings who we should embrace as brothers and not alienate. Sure, I hate the state and the popo, too. But that doesn&amp;#8217;t mean I am going to go around calling all Police scum - they aren&amp;#8217;t, although their office might be. I say this even though I&amp;#8217;ve seen friends arrested, maligned, marginilised, taken away in taxis, and submitted to almost every kind of disgrace. But I still hold that we shouldn&amp;#8217;t demand for their excommunication from life, or from any sort of new world order.&lt;/p&gt;
+
+&lt;p&gt;At one point, my friend, who probably didn&amp;#8217;t get my messages intent as much as I had hoped, partially due to Twitter, told me I didn&amp;#8217;t have the right to tell her what to think or say. I responded with the sentiment from one of my favourite quotes on the freedom of speech. &lt;a href='http://www.youtube.com/watch?v=HQ3VcbAfd4w'&gt;Philip Pullman&lt;/a&gt; states that &amp;#8220;No one has the right to live without being schocked. No one has the right to live without being offended.&amp;#8221; I do have the right to suggest alternative ways of speaking, of telling her I don&amp;#8217;t think her attitude towards our fellow-men-in-black is right.&lt;/p&gt;
+
+&lt;p&gt;I still think that&amp;#8217;s pretty awesome.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sterling Hayden</title>
+   <link href="http://richardlitt.github.com/quotes/2012/05/06/11-06-sterling-hayden"/>
+   <updated>2012-05-06T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/quotes/2012/05/06/11-06-sterling-hayden</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve seen this quote on the web a few places, but it often has errors. I went back to the book and fixed them, and added the paragraph on money and sex that is often not included.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To be truly challenging, a voyage, like a life, must rest on a firm foundation of financial unrest. Otherwise you are doomed to a routine traverse, the kind known to yachtsmen, who play with their boats at sea - &amp;#8220;cruising,&amp;#8221; it is called. Voyaging belongs to seamen, and to the wanderers of the world who cannot, or will not, fit in. If you are contemplating a voyage and you have the means, abandon the venture until your fortunes change. Only then will you know what the sea is all about.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Little has been said or written about the ways a man may blast himself free. Why? I don&amp;#8217;t know, unless the answer lies in our diseased values. A man seldom hesitates to describe his work; he gladly divulges the privacies of alleged sexual conquests. But ask him how much he has in the bank and he recoils into a shocked and stubborn silence.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8221;I&amp;#8217;ve always wanted to sail to the south seas, but I can&amp;#8217;t afford it.&amp;#8221; What these men can&amp;#8217;t afford is &lt;em&gt;not&lt;/em&gt; to go. They are enmeshed in the cancerous discipline of &amp;#8220;security.&amp;#8221; And in the worship of security we fling our lives beneath the wheels of routine - and before we know it our lives are gone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What does a man need - really need? A few pounds of food each day, heat and shelter, six feet to lie down in - and some form of working activity that will yield a sense of accomplishment. That&amp;#8217;s all - in the material sense. And we know it. But we are brainwashed by our economic system until we end up in a tomb beneath a pyramid of time payments, mortgages, preposterous gadgetry, playthings that divert our attention from the sheer idiocy of the charade.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The years thunder by, The dreams of youth grow dim where they lie caked in dust on the shelves of patience. Before we know it, the tomb is sealed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where, then, lies the answer? In choice. Which shall it be: bankruptcy of purse or bankruptcy of life?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8211; Sterling Hayden, &lt;em&gt;Wanderer&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This quote is often on my background, and it is one of the main reasons I embarked recently on a major attempt to save myself from leaping out of windows. More on that later. Obviously, I think you should all read his book, &lt;em&gt;Wanderer&lt;/em&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Fathers</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/05/02/00-33-fathers"/>
+   <updated>2012-05-02T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/05/02/00-33-fathers</id>
+   <content type="html">&lt;p&gt;I watched an episode of the West Wing tonight, and one last night. Both left me more depressed and sober than when I started them. They&amp;#8217;re two episodes in the middle of season three, dealing with President Bartlett, and what it means to be and have fathers. The entire show is more or less a long essay on human relations, but these two episodes struck home. They remind me of my two favourite episodes - the one in the first season where Toby arranges a funeral for a Vietnam veteran, and one later on where CJ Craig goes and visits her father with Alzhiemers.&lt;/p&gt;
+
+&lt;p&gt;In these recent episodes I&amp;#8217;ve been watching, it turns out the Jed Bartlett has major issues with his father never liking him for being smarter than him. He lives his life constantly hoping for the next opportunity to prove himself - straight A&amp;#8217;s, good college, LSE, the Nobel prize, President, etc. His father used to beat him, and now he cannot sleep.&lt;/p&gt;
+
+&lt;p&gt;I cannot sleep tonight. This is largely because I&amp;#8217;ve a project to work on that I&amp;#8217;ve been putting off all day (and longer than that, too.) I started that WW episode in the hope of changing the status quo - something I&amp;#8217;ve never learned how to do in 20 years of education. In high school, I would stare at a blank page for hours, waiting for words. I never learned what words really went on in the parent-teacher meetings, but they must have covered a wide ground. I was still offered a small scholarship to my prep school, I believe; I was graded on more or less my own terms in some cases; and I was never kicked out. Once, my mother threatened to send my to military school if my behavior (I never did figure out what she meant by that, exactly, but that&amp;#8217;s another story) didn&amp;#8217;t change. I later learned my father didn&amp;#8217;t know of this plan, and would have opposed it. That he didn&amp;#8217;t have knowledge or memory of my mother&amp;#8217;s bluffs, and more, that he wasn&amp;#8217;t part of the daily parenting role my mother took on herself in my late teens says a lot about our relationship then. He was a nebulous feature, for me.&lt;/p&gt;
+
+&lt;p&gt;After the divorce, my father metaphorically and literallly changed tack and became a sailor. He moved to the sea, where he worked odd jobs on several yachts as a captain. I spent a month with him on his 53 ft. yacht Cha Cha, in Antigua, in the autumn of 2009. When I first arrived, I found to my great embarassment that he had become a nudist. I think this was one of the first major signs of change.&lt;/p&gt;
+
+&lt;p&gt;When I talk to him now, he is a man of paradoxes. He believes that the world will end tomorrow - the date changes every month or so as he needs to recalibrate his star calendars (always after the fact, of course - after he wakes up and finds himself still here.) He&amp;#8217;s always been prone to this - he fell prey to the 1994 theories, and then Y2K. He still lives off the flour he stored up then, along with oysters from the bay. Enough to make himself gain weight, although that may be due to constant research tracking the footprints of God across the sky. For my own part, I do not understand in the least. It takes 30 minutes to ask a question more than two weeks in advance, partially because he&amp;#8217;s lonely and loves to talk, and partially because he can no longer process hypotheticals, in an almost Piraha-like primitivism. The paradox I mentioned is that it took the end of the world for him to truly enjoy the moment. He loves his bread, and sunshine, and small things - where all should be grey before the coming of Christ. It doesn&amp;#8217;t make much sense to me.&lt;/p&gt;
+
+&lt;p&gt;I, like him, have something of the sea in me. I have not sailed much, and when I have, it was mediocre or horrible for the most part. I&amp;#8217;ve had some good days. I&amp;#8217;ve read of thousands more, and the poetry of the sea calls to me even as I know I will get sea sick (in some respects, I already am.) And I, like him, do not understand finances. Oh, I can balance a checkbook, manage international bank accounts in three countries, save and spend enough to buy what I need and travel where I want. But I don&amp;#8217;t understand the larger things - like student debt, which I have in such abundance I fear that I will never actually be free of it, or, for that matter, able to pay it. Or the reprecussions of not paying it back. What would that mean for me? Never going back to the States? These are things I don&amp;#8217;t know.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>A bit of slack...</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/05/01/23-08-a-bit-of-slack"/>
+   <updated>2012-05-01T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/05/01/23-08-a-bit-of-slack</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been incredibly homesick the past few days. I think that is a legitimate use of the word &amp;#8216;homesick&amp;#8217;, although I don&amp;#8217;t refer back to a single place, least of all to Connecticut, where I grew up and lived for some 14 years, nor to Edinburgh, which was my base of sorts for five years during my undergraduate, and lastly not to Saarbrücken, where I currently am, anyway. No, I&amp;#8217;ve been homesick in another way - the topography of my mind doesn&amp;#8217;t match the longitude and latitude of the physical world. Home is where my friends, beauty, and adventure collide.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Back within the valley.&lt;/p&gt;
+
+&lt;p&gt;Down from the divide.&lt;/p&gt;
+
+&lt;p&gt;No more flaming clouds about,&lt;/p&gt;
+
+&lt;p&gt;O! the soft hillside.&lt;/p&gt;
+
+&lt;p&gt;And the starry night,&lt;/p&gt;
+
+&lt;p&gt;And my cottage light.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Wallace Stevens&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My homesickness manifests itself in several ways. For one, I have an inability to focus on anything. I&amp;#8217;ve never been good at focusing in the first place, but when I&amp;#8217;m low, it&amp;#8217;s much worse. If I am focusing, it&amp;#8217;s on a friend, or a lock of hair, or a journey, or a tumblr. The cycle continues. I even had a party last night which should have broken the monotony. Alas, it didn&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;At 5:00pm today I realised I wasn&amp;#8217;t going to get better, so I watched Game of Thrones while eating dinner, and headed out with my new slackline from REI to the river. It&amp;#8217;s 120 feet - I managed to build a slackline that was around 70 or 80 feet, and walked around half of it. I put it at 5 feet off of the ground, so it was a bit high up, but it still had a bit too much slack in it. Not really a problem, just makes it harder to focus in the middle, when you&amp;#8217;re dropping down another four feet. Some German kids tried it out, and a man helped me tighten it and let out a great laugh when I fell with my legs on either side.&lt;/p&gt;
+
+&lt;p&gt;But then I am back to the computer. I&amp;#8217;ve been trying to get a Github to work, checking out and updating social networks (I actually updated my Tumblr, for once), and that sort of thing. Mostly, though, I&amp;#8217;ve been contemplating this mental map I have. The porch in Portland is tied in with the beach at Truro, the Swiss alps, the midges along the West Highland Way, and all of these other places I&amp;#8217;ve been to and savoured. Distance doesn&amp;#8217;t hold any barrier to reminiscing. But this world is peopled, with friends. There are around 10 of them, and I&amp;#8217;d give a lot to have any of them in Saarbrücken, or to be elsewhere. Since that isn&amp;#8217;t the case, I must be content with blogging half-assedly, trying to map out the topography of my desire, listening to the same songs on repeat, hoping to bring into my night that little bit of wideness that comes from good friends - that feeling that the world is gilded, that opportunities are real, that we&amp;#8217;ll always have enough money for another coffee, that all wrongness is fleeting, etc.&lt;/p&gt;
+
+&lt;p&gt;If I had a friend here, what would I be doing different? I assume little. Slacklining, surfing the net. Staring at sunsets and smoking my lungs away. Well, I guess I&amp;#8217;d settle for that. For now, I have to settle for work. Let&amp;#8217;s hope this semi-rant will break the endless beat.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>EACL Thoughts</title>
+   <link href="http://richardlitt.github.com/2012/04/24/16-10-eacl-thoughts"/>
+   <updated>2012-04-24T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/2012/04/24/16-10-eacl-thoughts</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;How about a tool that looks at language change holistically, combining typological, lexical, morphological, and syntactic databases that have been used to show evolutionary processes?&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&amp;#8220;All we are doing is putting numbers on things.&amp;#8221; Is there a bias towards dealing with percentages and understanding what it really means? Can humans actually compute differences from a gold standard, or fully comprehend what a gold standard actually is?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Stray thoughts</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/04/19/16-55-stray-thoughts"/>
+   <updated>2012-04-19T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/04/19/16-55-stray-thoughts</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;m studying for my Foundations exam. I had some stray thoughts that might be worth sharing, and that&amp;#8217;ll help me remember things.&lt;/p&gt;
+
+&lt;p&gt;* &lt;em&gt;missed&lt;/em&gt; is a homophone to &lt;em&gt;mist&lt;/em&gt;. I should write a poem about that. Why? Because mist is one of my favourite things, and staring into it, a lot of things are arbitrarily called to the mind. Cf. TS Eliot&amp;#8217;s poem &amp;#8216;Marina&amp;#8217; for what I mean.&lt;/p&gt;
+
+&lt;p&gt;* I still think that morphology ought to be more important in language evolution. I wonder what lines of thinking would lead to if you followed down the route that starts with the thought that morphology sits at the interface of lexicon, phonology, and syntax - does that make it a fossil itself? What is the nature of theoretical detritus - is it more likely to be isolated or joined onto existing patterns?&lt;/p&gt;
+
+&lt;p&gt;* I should use regular expressions more in NLP for Wired. For instance, in t = &amp;#8216;two minutes and five seconds&amp;#8217;, I should use \b&lt;span&gt;mM&lt;/span&gt;inutes\b and then split(&amp;#8217; &amp;#8216;) and then use t&lt;span&gt;x-1&lt;/span&gt; to identify, instead of currently saving slots 1 and 4 for retrieval. Just saying.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Becoming Awesome.</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/04/10/11-01-becoming-awesome"/>
+   <updated>2012-04-10T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/04/10/11-01-becoming-awesome</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Through rationality we shall become awesome, and invent and test systematic methods for making people awesome, and plot to optimize everything in sight, and the more fun we have the more people will want to join us.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This morning I have been wrestling with myself, with help from Professor Quirrel. Meaning, with help from &lt;a href='http://en.wikiquote.org/wiki/Eliezer_Yudkowsky'&gt;Eliezer Yudkowsky&lt;/a&gt;. Why? Because I wish to become awesome (cf, above). All of his quotes are good - they are rational, and so it is easier to be awesome because they are probably right. I&amp;#8217;ll just focus on a couple that struck me hard just now.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To confess your fallibility and then do nothing about it is not humble; it is boasting of your modesty.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I do this all of the time. I am endeavoring to change it. If you notice me boasting about my flaws, please point it out to me and tell me to shut up. If I get annoyed by that, use the code word &amp;#8216;Hufflepuff&amp;#8217; and I&amp;#8217;ll understand and fix that.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Do not flinch from experiences that might destroy your beliefs. The thought you cannot think controls you more than thoughts you speak aloud. Submit yourself to ordeals and test yourself in fire. Relinquish the emotion which rests upon a mistaken belief, and seek to feel fully that emotion which fits the facts. If the iron approaches your face, and you believe it is hot, and it is cool, the Way opposes your fear. If the iron approaches your face, and you believe it is cool, and it is hot, the Way opposes your calm. Evaluate your beliefs first and then arrive at your emotions. Let yourself say: “If the iron is hot, I desire to believe it is hot, and if it is cool, I desire to believe it is cool.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My cross to bear is laziness. So:&lt;/p&gt;
+
+&lt;p&gt;If I am lazy, I desire to believe that I am lazy. If I am not lazy, I desire to belive that I am not lazy.&lt;/p&gt;
+
+&lt;p&gt;When I am lazy, I desire to believe that I am lazy. When I am not lazy, I desire to belive that I am not lazy.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Simulating Language Codes</title>
+   <link href="http://richardlitt.github.com/academia/2012/04/10/02-09-simulating-language-codes"/>
+   <updated>2012-04-10T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/academia/2012/04/10/02-09-simulating-language-codes</id>
+   <content type="html">&lt;p&gt;Today, I added all of the codes that were given to me in the Simulating Language course at the University of Edinburgh to my &lt;a href='https://github.com/RichardLitt/CoLitt/tree/master/Simulating%20Language'&gt;CoLitt Github&lt;/a&gt;. I took this course between January and March 2010, and it is still being offered at Edinburgh - I talked for 45 minutes last night with a friend of mine who is taking it. There are some modifications to the course - more with neural networks, some stuff about priors that I don&amp;#8217;t remember, but it is essentially the same. In essence, the teachers hand out lots of code, tell you to fiddle around with it, and that&amp;#8217;s how you learn.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not sure I approve of this technique, which is one of the reasons I loaded the code up. The main reason, of course, is that I am for opening up notes wherever possible (I loaded my notes in, too). I think that the more access you have, the more likely you&amp;#8217;ll use that access, the more you&amp;#8217;ll learn. Back to the technique - this teaches you how to manipulate code, but it doesn&amp;#8217;t teach you how to code per se. Today I was asked a question that a CS child could answer (I&amp;#8217;d rather not embarass myself by admitting what it was.) But because of the fact that I learned haphazardly, I couldn&amp;#8217;t answer. Had I taken a CS course at any point, I would have been able to. I&amp;#8217;ve still got a long way to go.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not saying I disliked the course - I loved it, I recieved my highest mark in it, I&amp;#8217;m publishing my essay from it in a journal (admittedly, a journal for undergrads), and because of that course I went on to do my dissertation in that field, which lead me to go to Kyoto and to Germany. But, I wish I had had access to the code more, that I had been taught how to program and not how to &amp;#8216;break something then fix it&amp;#8217;. In any event, I hope this is useful to someone out there.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Jazzy Bill</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/04/09/16-55-jazzy-bill"/>
+   <updated>2012-04-09T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/04/09/16-55-jazzy-bill</id>
+   <content type="html">&lt;p&gt;The past few days I&amp;#8217;ve been massively hating on my old friend David Leon for introducing me to Harry Potter and the Methods of Rationality in the middle of a very stressful month. Now that I&amp;#8217;ve read all 83 current chapters, I feel much more thankful to David for having done so - he also introduced me, incidentally, to Mark Knopfler, Gene Wolf, and The Rise and Rise of Michael Rimmer, so he can&amp;#8217;t be all bad.&lt;/p&gt;
+
+&lt;p&gt;Get to the point: I&amp;#8217;m reading more and more of &lt;a href='http://lesswrong.com'&gt;Less Wrong&lt;/a&gt;. It&amp;#8217;s a community blog devoted to refining the art of human rationality. If you didn&amp;#8217;t know, I am horrified by my own ability to judge what to do correctly, and suspect that I actually turn away from my better judgement the majority of the time in case I have to change a course of action. In simpler terms, I am not only lazy, I am stupid, when it comes to mental processes. This is the sole reason I have not learned German while living in Germany, and it&amp;#8217;s something this blog is supposed to help me work around, eventually (_now_, my brain is screaming.) So, I very much like Less Wrong, because it&amp;#8217;s all about fixing those inner voices and &lt;em&gt;getting things done&lt;/em&gt;. For instance, right now I should be writing an essay. That I&amp;#8217;m writing this shows that I&amp;#8217;m rationalising long term mental improvement over immediate necessity. This is a common excuse I use, and I&amp;#8217;m looking forward to finding literature on the bias behind it. (_This_, right there, is why I am glad I was up until 5am setting this blog up and populating it enough to use. I hadn&amp;#8217;t been approaching that thought directly - writing is a very powerful means, for me, of realising what I actually think.)&lt;/p&gt;
+
+&lt;p&gt;Now, onto Jazzy bill. I was reading &lt;a href='http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/'&gt;What do we mean by &amp;#8216;Rationality&amp;#8217;&lt;/a&gt;, and ran across this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Sometimes experimental psychologists uncover human reasoning that seems very strange - for example, someone rates the probability &amp;#8220;Bill plays jazz&amp;#8221; as less than the probability &amp;#8220;Bill is an accountant who plays jazz&amp;#8221;. This seems like an odd judgment, since any particular jazz-playing accountant is obviously a jazz player. But to what higher vantage point do we appeal in saying that the judgment is wrong?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Experimental psychologists use two gold standards: probability theory, and decision theory. Since it is a universal law of probability theory that P(A) ≥ P(A &amp;amp; B), the judgment P(&amp;#8220;Bill plays jazz&amp;#8221;) &amp;lt; P(&amp;#8220;Bill plays jazz&amp;#8221; &amp;amp; &amp;#8220;Bill is accountant&amp;#8221;) is labeled incorrect.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To keep it technical, you would say that this probability judgment is non-Bayesian. Beliefs that conform to a coherent probability distribution, and decisions that maximize the probabilistic expectation of a coherent utility function, are called &amp;#8220;Bayesian&amp;#8221;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think that there might be a simple explanation for people saying this, and it doesn&amp;#8217;t have to do with probability or decision theory overmuch. It has to do with the semantic domain of the sentence, or the Grician implicature. I don&amp;#8217;t know the actual words to use here, so I&amp;#8217;m making them up as I go. That&amp;#8217;s ok, this is a formulation blog, and this post is already too long.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Bill plays jazz&amp;#8221; is pretty unambiguous, we can all agree. There&amp;#8217;s an entity, &lt;em&gt;Bill&lt;/em&gt;, such that he plays &lt;em&gt;jazz&lt;/em&gt;. (If you want, you can imagine Clinton on his saxophone here - I am, and it&amp;#8217;s rather amusing.)&lt;/p&gt;
+
+&lt;p&gt;What &lt;em&gt;is&lt;/em&gt; ambiguous is &amp;#8220;Bill is an accountant who plays jazz.&amp;#8221; Not because of the referent of &lt;em&gt;who&lt;/em&gt;, but because of the inability for the written word to put the stress in the right place. Compare:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Bill&lt;/em&gt; is an accountant who plays jazz.&lt;/li&gt;
+
+&lt;li&gt;Bill is an &lt;em&gt;accountant&lt;/em&gt; who plays jazz.&lt;/li&gt;
+
+&lt;li&gt;Bill is an accountant, &lt;em&gt;who plays jazz.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;#8220;who plays &lt;em&gt;jazz&lt;/em&gt;&amp;#8221; would also be acceptable in 3.&lt;/p&gt;
+
+&lt;p&gt;Logically, rationally, if you were to formulate each of these down into a formula (as above) they would all come out as less probable than &amp;#8220;Bill plays jazz.&amp;#8221; However, given the different readings, the mind can construct worlds in which it is more plausible for 2 or 3 to occur than 0 (or 1, which is pretty unambiguous too.) I don&amp;#8217;t mean creating a specific scenario where all accountants play jazz and Bill is normally associated with reggae-only assassins, not accountants. I mean, rather, that (bear with me) with the statement that Bill is an accountant, with a relative clause attached about jazz appended on, one is less likely to view the relative clause as implausible. I think that this might occur because the mind is more likely to accept a fictional world as truth when more information is supplied, and that the more information, the less people suspect that the other objects may in themselves be less plausible. I suspect there is some truth in this.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;d be interested in feedback on this one.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Easter</title>
+   <link href="http://richardlitt.github.com/thoughts/2012/04/09/04-46-easter"/>
+   <updated>2012-04-09T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/thoughts/2012/04/09/04-46-easter</id>
+   <content type="html">&lt;p&gt;There were a remarkable number of remarkable wisdoms my mother tried to pass down to me. Some of them were actually quite sound. As yo can probably guess by my tone, some of them weren&amp;#8217;t. Christianity bundled up many of them. One of her comments regarding this has been revolving in my mind this easter.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;How can you not be a Christian? Many intelligent men were Christian. Are you saying you are smarter than them?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In a word, yes. I think this argument is really fundamentally flawed. Men aren&amp;#8217;t merely intelligent; they are products of their time and culture. C.S. Lewis could doubtless beat me in a game of Chess, but that doesn&amp;#8217;t mean I have to be a Christian. St. Augustine could probably parse longer sentences than I could, but that doesn&amp;#8217;t mean I am foolish for thinking that the earth revolves around the sun. This example is not so foolish as it sounds - for, although we know that this is the case thanks to Galileo, we know this through scientific deduction and reasoning. It is this same process that has lead me to reject Christianity, and it has been applied more rigorously in my own time than in any time before. I am not cognitively swifter (I should say that this is debatable, as a joke), but I may be more enlightened, and by some standards, smarter.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Yes, I really believe that the Lord rose again today.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I find it ironic that my mother would say this today, and use the argument above of smarter men against me yesterday. The mark of a Christian isn&amp;#8217;t intelligence, it is faith - the kind of faith that goes against all logic and says that a man rose from the dead, showing his divinity in doing so, and also curiously freeing all men from fear of death and hell by merely moving his blood in his veins after a three day break. Intelligence ain&amp;#8217;t got nothing to do with it. I can&amp;#8217;t help but wonder if she was merely confused on this point. I&amp;#8217;d ask, but it was hard enough hearing a profession of willful suspension of belief (in logic) the first time today.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>microbogging it down</title>
+   <link href="http://richardlitt.github.com/site/2012/04/09/02-00-microbogging-it-down"/>
+   <updated>2012-04-09T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/site/2012/04/09/02-00-microbogging-it-down</id>
+   <content type="html">&lt;p&gt;Decided I am not going to try to push wired stuff to this directly, at the moment. For one, I don&amp;#8217;t know how to properly sequence os.system() in Python. For instance, what I would like is to do this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if (sys.argv[1] == &amp;quot;bog&amp;quot;):  
+    import os  
+    title = raw_input(&amp;#39; title? &amp;#39;)  
+    os.system(&amp;#39;cd ../richardlitt.github.com&amp;#39;)  
+    os.system(&amp;#39;rake post title=&amp;quot;&amp;#39;+title+&amp;#39;&amp;quot;&amp;#39;)  &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sadly, that doesn&amp;#8217;t actually work (wait - would a symbolic link work?). Neither does using a |. I&amp;#8217;m really not sure why, but it is pretty annoying, because there are a lot of things I could do if that did work. Right now I am trying to figure out how to automate calls to a local installation of WordNet, so if you have any ideas, let me know.&lt;/p&gt;
+
+&lt;p&gt;Basically, instead of trying to fiddle with that for ages and pushing things here, and then becoming reliant on this site instead of just using the .csv database I am using at the moment (why .csv? Because I didn&amp;#8217;t want to learn .sql when I started. That goes to show you how bad at planning us humans are.) Instead, I am going to use this as a microblogging site. More and more recently I realise I have these little burts of writing inspiration, scientific or not, that go nowhere, and I wish I had an easy way of just putting them down and publishing them without consigning them to the &amp;#8216;Writings&amp;#8217; section of my HD, from which nothing ever returns. So, let&amp;#8217;s try this.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Settling in...</title>
+   <link href="http://richardlitt.github.com/site/2012/04/08/test"/>
+   <updated>2012-04-08T00:00:00+02:00</updated>
+   <id>http://richardlitt.github.com/site/2012/04/08/test</id>
+   <content type="html">&lt;p&gt;Well, I think I might be getting some of the hang of it. I&amp;#8217;m not sure how to remove the tagline yet, but I&amp;#8217;ll get there eventually. I do like the way that YAML works, and using Markdown files instead of anything else. I do tend to the Spartan, though - I could use the Wordpress wysiwyg much easier than .md, but I approach .md with a better sense of mind because I feel like I should be able to do more with it. That&amp;#8217;s probably not actually the case. I suspect I prefer it for some prestige reason.&lt;/p&gt;
+>>>>>>> Added an image of me skiing.
 
 &lt;p&gt;The most influential books I read this year were: &lt;em&gt;My Struggle&lt;/em&gt; by Karl-Ove Knausgård, and &lt;em&gt;Of Walking in Ice&lt;/em&gt; by Werner Herzog. They’ve redefined what I thought was possible with writing.&lt;/p&gt;
 
@@ -3394,4 +4873,7 @@ much, but it's easy to appreciate how much easier this is than python's
  
  
 </feed>
+<<<<<<< c8e6ecee410563a5f7c2ecdaf2a3ec059e80bc1d
 >>>>>>> New
+=======
+>>>>>>> Added an image of me skiing.

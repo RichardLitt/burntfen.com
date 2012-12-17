@@ -14,10 +14,12 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ HOME_PATH }}/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -26,6 +28,109 @@
 
   <body>
 
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              {% if page.url == "/about.html" %}<li class="active">{% else %}<li>{% endif %}
+              <a href="{{ site.url }}/about.html">About</a></li>
+
+              {% if page.url == "/archive.html" %}<li class="dropdown active">{% else %}<li class="dropdown">{% endif %}
+                <a href="{{ site.url }}/archive.html" class="dropdown-toggle" data-toggle="dropdown">
+                  Archive
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  {% if page.url == "/archive.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/archive.html">Posts</a></li>
+
+                  {% if page.url == "/categories.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/categories.html">Categories</a></li>
+
+                  {% if page.url == "/tags.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/tags.html">Tags</a></li>
+
+                  {% if page.url == "/pages.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/pages.html">Pages</a></li>
+
+                </ul>
+              </li>
+
+              {% if page.url == "/research.html" %}<li class="dropdown active">{% else %}<li class="dropdown">{% endif %}
+                <a href="{{ site.url }}/research.html" class="dropdown-toggle" data-toggle="dropdown">
+                  Research
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+
+                  {% if page.url == "/publications.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/publications.html">Publications</a></li>
+
+                  {% if page.url == "/low-resource-languages.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/low-resource-languages.html">Low-Resource Languages</a></li>
+
+                  {% if page.url == "/language-change.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/language-change.html">Language Change</a></li>
+
+                  {% if page.url == "/researchresearch/language-policy.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/language-policy.html">Language Policy</a></li>
+
+                  {% if page.url == "/linguistics-and-academia.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/linguistics-and-academia.html">Linguistics & Academia</a></li>
+
+                  {% if page.url == "/other.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/other.html">Other</a></li>
+                </ul>
+              </li>
+
+
+              {% if page.url == "/projects.html" %}<li class="dropdown active">{% else %}<li class="dropdown">{% endif %}
+                <a href="{{ site.url }}/projects.html" class="dropdown-toggle" data-toggle="dropdown">
+                  Projects
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+
+                  {% if page.url == "/projects.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/projects.html">Projects</a></li>
+
+                  {% if page.url == "/fun-stuff.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/fun-stuff.html">Fun Stuff</a></li>
+
+                  {% if page.url == "/language-resource-dev.html" %}<li class="active">{% else %}<li>{% endif %}
+                  <a href="{{ site.url }}/language-resource-dev.html">Language Development</a></li>
+                </ul>
+              </li>
+
+              <li><a href="{{ site.url }}/art.html">Art</a></li>
+
+              <li><a href="{{ site.url }}/atom.xml">RSS</a></li>
+
+              <li><a href="http://www.burntfen.net">Burnt Fen</a></li>
+
+
+            </ul>
+          </div><!--/.nav-collapse -->
+          <form class="navbar-search pull-right" method="get" action="http://google.com/search">
+             <p>
+             <input type="hidden" name="q" value="site:richardlitt.github.com" />
+             <input type="text" class="search-query" name="q" />
+             <button class="btn btn-mini" type="submit"><i class="icon-search"></i></button> 
+             </p>
+           </form>
+         </div> <!-- /container -->
+       </div> <!-- /navbar-inner -->
+     </div> <!-- /navbar -->
+
+
+<!-- Old Navbar
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
@@ -37,10 +142,10 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
-    <div class="wrapper">
+    <div class="wrapper" style="margin-top:40px;">
 
     <div class="container">
 
@@ -61,6 +166,24 @@
 
   </div> <!-- /wrapper -->
 
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
 
     {% include JB/analytics %}
 
