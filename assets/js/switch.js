@@ -4,9 +4,9 @@ mode = 0
    if (mode == 0) {
      switch_inktank ()	
   } else if (mode == 1) {
-     switch_astoria ()
+     switch_green ()
   } else if (mode == 2) {
-     switch_green ()	
+     switch_parrot ()
    }
    mode = (mode + 1) % 3;
  }
@@ -17,15 +17,15 @@ mode = 0
    egg.innerHTML = "But I am not really a sketch."
  }
 
- function switch_astoria () {
-   document.photo.src = 'images/astoria.jpeg'	
-   egg = document.getElementById ("egg")
-   egg.innerHTML = "See?"
- }
-
  function switch_green () {
    document.photo.src = 'images/green.jpg'	
    egg = document.getElementById ("egg")
-   egg.innerHTML = "I am him, too."
+   egg.innerHTML = "I am really this guy."
+ }
+
+ function switch_parrot () {
+   document.photo.src = 'images/parrot.jpg'	
+   egg = document.getElementById ("egg")
+   egg.innerHTML = "PARROT TIME."
  }
 
