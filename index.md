@@ -6,7 +6,7 @@ tagline: (a mere mirror-mere)
 {% include JB/setup %}
 
 <div style="width:800px;">
-<img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
+<img style="float:left;padding-right:15px;" src="images/inktank.png" name="photo" onclick="do_switch()"/> 
 
 <p>I'm Richard Littauer, a computational linguist graduate student. This
 is my blog. I generally talk here about stuff I am doing, things that
@@ -22,7 +22,7 @@ really want to read something.</b></p>
 
 <p>I've written much more information on my <a
 href="about.html">About</a> page. If you want a more visual site, I am
-<a href="http://www.burntfen.net">this guy</a>.</p>  
+<a href="http://www.burntfen.net">this guy</a>. <span id="egg"></span></p>  
 </div> 
 
 
