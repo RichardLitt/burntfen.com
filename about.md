@@ -20,22 +20,8 @@ Edinburgh - since leaving Connecticut when I was 17. I started an
 English & Classics degree in [Edinburgh Uni](http://www.ed.ac.uk/home),
 and somehow, I've ended up being a coder, anyway. This is my blog and
 central repository of information about what projects or research I have
-going on at the moment.
-
-Regarding this blog itself, I had grown increasingly tired with
-Wordpress and anything that even comes close to being wysiwyg (what you
-see is what you get). For one, I'm always having issues deciding on a
-theme, how to best mark up a long document, and where to store images of
-parrots. I'm kind of serious about parrots - [Geoff
-Pullum](http://www.lel.ed.ac.uk/~gpullum/picture_p.html), [Lyle
-Campbell](http://www2.hawaii.edu/~lylecamp/), and another academic I
-don't remember all had parrots on their websites. Where was I going to
-put mine? Luckily, someone created [github
-pages](http://pages.github.com/) and [jekyll
-bootstrapper](http://jekyllbootstrap.com/), so now I can blog suitably
-without the issues of using a large blogging platform. Much of the
-impetus for switching comes from the better coder and scientist [Carl
-Boettiger](http://www.carlboettiger.info/).
+going on at the moment. If you want a more professional outlook on me,
+here is [my CV](/files/Littauer_CV.pdf).
 
 I do a lot of things. Sometimes I make things, and other times I am a
 member of groups of people who do things. Sometimes the output is art,
@@ -46,16 +32,32 @@ entire reason I first made [Burnt Fen](http://www.burntfen.com) - to
 keep track of the tracks I leave all over the web. Sadly, Burnt Fen is
 *no longer enough*. It is now more of a portal to things I have done on
 the web, which is great, and it does an ok job of that. This might do a
-better job, although I don't think it'll scale well. We'll see.
+better job. We'll see
 
 Why is all of this available online? Mostly because it's not pretty
 enough to have it all written on legal pad, but also because sometimes I
 want people to say, *Oh, you're doing that? Cool. You should look into
-doing *this*, or, can I help you maybe?* I like those people. Please, contact me 
-(<richard.littauer@gmail.com>) if you're one of these people. 
+doing* **this***, or, can I help you maybe?* I like those people.
+Please, contact me if you're one of these people, at
+<richard.littauer@gmail.com>.
+
 ###Some More of God's Greatest Mistakes 
-Besides blogging, I'm always
-having this issue, when reading something, or working on my task
+Regarding this blog itself, I had grown increasingly tired with
+Wordpress and anything that even comes close to being wysiwyg (what you
+see is what you get). For one, I'm always having issues deciding on a
+theme, how to best mark up a long document, and where to store images of
+parrots. I'm kind of serious about parrots - [Geoff
+Pullum](http://www.lel.ed.ac.uk/~gpullum/picture_p.html), [Lyle
+Campbell](http://www2.hawaii.edu/~lylecamp/), and another academic I
+don't remember all had parrots on their websites. Where was I going to
+put mine? Luckily, someone created [Github
+Pages](http://pages.github.com/) and [Jekyll
+Bootstrapper](http://jekyllbootstrap.com/), so now I can blog suitably
+without the issues of using a large blogging platform. Much of the
+impetus for switching comes from the better coder and scientist [Carl
+Boettiger](http://www.carlboettiger.info/).
+
+Regarding actual blogging, I'm always having this issue, when reading something, or working on my task
 management program, or eating pasta - the issue being that I start
 thinking. It's a dangerous thing to think, because before you know it,
 you've got half a blog post in your mind that you swear if you just
@@ -79,24 +81,22 @@ Fen](http://www.burntfen.net/merecat) - now I write here.
 
 Since you're here, it is probable that you've met me somewhere. If
 you've run across me online, it's probable you did so in one of these
-places:  
-
-* [facebook](http://www.facebook.com/richard.littauer)    
-* [google+](http://gplus.to/richlitt)    
-* [diaspora](https://joindiaspora.com/u/richardlitt)    
-* [twitter](http://twitter.com/#!/richlitt)    
-* [quora](http://www.quora.com/Richard-Littauer)    
-* [tumblr](http://richfenne.tumblr.com)    
-* [delicious](http://delicious.com/richlitt/)    
-* [dribble](http://dribbble.com/richlitt)    
-* [linkedin](http://uk.linkedin.com/pub/richard-littauer/29/576/197)    
-* [academia](http://edinburgh.academia.edu/RichardLittauer)    
-* [xing](https://www.xing.com/profile/Richard_Littauer)    
-* [researchgate](http://www.researchgate.net/profile/Richard_Littauer/)    
-* [myexperiment](http://www.myexperiment.org/users/16690.html)    
-* [youtube](http://www.youtube.com/user/Rich0Fenn)    
-* [last.fm](http://www.last.fm/user/RichardFenn)    
-* [mendeley](http://www.mendeley.com/profiles/richard-littauer/)    
+places: [facebook](http://www.facebook.com/richard.littauer),
+[google+](http://gplus.to/richlitt),
+[diaspora](https://joindiaspora.com/u/richardlitt),
+[twitter](http://twitter.com/#!/richlitt),
+[quora](http://www.quora.com/Richard-Littauer),
+[tumblr](http://richfenne.tumblr.com),
+[delicious](http://delicious.com/richlitt/),
+[dribble](http://dribbble.com/richlitt),
+[linkedin](http://uk.linkedin.com/pub/richard-littauer/29/576/197),
+[academia](http://edinburgh.academia.edu/RichardLittauer),
+[xing](https://www.xing.com/profile/Richard_Littauer),
+[researchgate](http://www.researchgate.net/profile/Richard_Littauer/),
+[myexperiment](http://www.myexperiment.org/users/16690.html),
+[youtube](http://www.youtube.com/user/Rich0Fenn),
+[last.fm](http://www.last.fm/user/RichardFenn),
+[mendeley](http://www.mendeley.com/profiles/richard-littauer/).
 
 Alternatively, it may have been through the [Undergraduate Linguistics
 Association of Britain](http://www.lingstudents.co.uk/), or maybe
