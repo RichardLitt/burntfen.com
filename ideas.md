@@ -21,7 +21,7 @@ place, too.
 Research Ideas
 ---------------
 
- * Does poetic langauge share stochastic similarities
+ * Does poetic language share stochastic similarities
    cross-linguistically? Use a shallow parser on some developed
 languages to test. 
  * Diglossia in created languages - where do we separate loan words from

@@ -8,16 +8,23 @@ tagline: (a mere mirror-mere)
 <div style="width:800px;">
 <img style="float:left;padding-right:15px;" src="images/inktank.png" /> 
 
-Welcome to my personal Github site. This blog is for:<br/>
- - Talking about projects, like <a href="http://github.com/RichardLitt/wired-in">Wired In</a>.<br />
- - Blog posts when I don't want to use Wordpress on my <a href="http://www.burntfen.net">old normal blog</a>.<br />
- - Random thoughts<br />
- - Café reviews, à la <a href='http://www.edinburghcafes.com'>Edinburgh Cafés</a>.<br />
-I've written more information on my <a href="about.html">About</a> page, but I
-doubt it'll actually be very helpful. By the way, I am <a href="http://www.burntfen.net">this guy</a>.  
-</div>
-<br />
-####And now for some posts completely different. 
+<p>I'm Richard Littauer, a computational linguist graduate student. This
+is my blog. I generally talk here about stuff I am doing, things that
+interest me, or random thoughts. I use this site as a base for
+disseminating my research, which focuses on providing resources for low
+resource languages, among other topics. I also use this site to
+catalogue my many side projects, whether academic, scholastic, or
+artistic.</p>
+
+<p><b>I am currently writing many of the pages listed in the navbar, above.
+Please remain calm and check in again soon, or send me an email if you
+really want to read something.</b></p>
+
+<p>I've written much more information on my <a
+href="about.html">About</a> page. If you want a more visual site, I am
+<a href="http://www.burntfen.net">this guy</a>.</p>  
+</div> 
+
 
 <hr />
 

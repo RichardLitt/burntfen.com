@@ -65,7 +65,7 @@ We miss a lot of dead musicians, though,
 I have an anonymous Twitter account that I use very regularly, to talk
 to myself. It is a great stress reliever. After the initial year's
 challenge, again with Simon, was done, I have opened it to the public,
-but no on seems to follow it. The details are [here](http://richardlitt.github.com/projects/2012/07/01/16-34-anonymous-twitterings/)
+but no on seems to follow it. The details are [here](http://richardlitt.github.com/projects/2012/07/01/16-34-anonymous-twitterings/).
 
 I also tweet occasionally as: [@Appril](http://www.twitter.com/Appril)
 for [Appril](http://www.appril.org),
