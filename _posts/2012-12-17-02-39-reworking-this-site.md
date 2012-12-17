@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Reworking this site"
+description: "An update"
+category: meta
+tags: [meta, site]
+---
+{% include JB/setup %}
+
+I have discontinued use of my old blog, as I haven't posted there in
+months. However, there was a feature on that blog, and on my old
+notebook system where I had a locally-installed Wordpress, which I
+rather miss - namely, project pages. I haven't had a page which keeps
+track of all of my various projects and my various lines of research,
+something which is necessary for me to keep track of all of my
+activities. Yesterdy morning at 4, after trying to bang something out in
+text to figure out how I was going to submit papers worth reading to
+NAACL-HLT and ACL, I realised I needed to make a new site to keep track
+of things again. 
+
+So, I've revamped this one today, and it only took me around 10 hours or
+so. I've redone the navigation bar, as you can see, and I've created
+pages for each of the research areas I am interested in. In each page is
+a list of the subtopics, within that area, that I would like to, have,
+or am currently researching. For projects, I've listed projects I am
+currently on, ones I do for fun, and those I do for language
+development. I am going to fill these pages out, in time. 
+
+Here are pages I wrote tonight:  
+
+ * [About](http://richardlitt.github.com/about.html) this site and me  
+ * [Art](http://richardlitt.github.com/art.html) that I do  
+ * [Fun projects](http://richardlitt.github.com/fun-stuff.html) I've
+   done or do currently.
+
+I will work on filling the others out, and hopefully, this site will
+function as a much more lively place for me to show research that I am
+doing, on a daily basis. This may seem vain or self-important, in that I
+am releasing all of this information into the public domain - for me, I
+think that the benefits from other people seeing projects I am working
+on and possible collaborations coming from that, as well as the benefit
+of feeling connected to a community and being able to use web interfaces
+and grab information I need whenever far outweigh any negative
+reprecussions of having so much information online. 
+
+I'm looking forward to seeing much more use of this site, now that this
+step of completely moving over has occurred. I suspect that, when
+January rolls around, I will move the [Burnt Fen](rlittauer.com) over
+here, as well. Simplify, simplify. 
