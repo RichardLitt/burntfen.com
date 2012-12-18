@@ -21,6 +21,9 @@ to comment on any thing.
    Hawaii, or somewhere else in Europe. If I do a PhD, otherwise, move
 somewhere to work full-time doing something else. 
 
+####Journals
+
+* April 1, [Language Policy](http://linguistlist.org/issues/23/23-5249.html), CFP: Language policies on social network sites - 300 word Abstract due
 
 ### Conferences this year to attend
 
