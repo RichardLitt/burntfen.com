@@ -13,35 +13,34 @@ to comment on any thing.
  * Late January - Examinations
  * Late February/Early March - US Trip for ICLDC, possible stops in San
    Francisco, Washington State, and Washington DC. 
- * April - German, France trip for [Festival Frontieres](http://www.festivalfrontieres.blogspot.com/)
- * April - move Maya from her berth in Pieta harbor
+ * April - German, France trip for [Festival Frontieres](http://www.festivalfrontieres.blogspot.com/), move Maya from her berth in Pieta harbor
  * June - Erasmus Mundus General Assembly in Barcelona
- * July - Thesis submission
+ * July/August - Thesis submission
  * September - Move somewhere new for a PhD. Either California, Seattle,
    Hawaii, or somewhere else in Europe. If I do a PhD, otherwise, move
-somewhere to work full-time doing something else. 
+somewhere to work full-time doing something else. Sell Maya.
 
 ####Journals
 
 * April 1, [Language Policy](http://linguistlist.org/issues/23/23-5249.html), CFP: Language policies on social network sites - 300 word Abstract due
 
-### Conferences this year to attend
+
+### 2013 Conference Dates and Papers
 
 Confirmed:  
-  [ICLDC](http://nflrc.hawaii.edu/ICLDC/2013/) in Hawai'i, US  
+
+ * [ICLDC](http://nflrc.hawaii.edu/ICLDC/2013/) in Hawai'i, US  
 
 Unconfirmed:  
+
 * [ACL 2013](acl2013.org) in Sofia, Bulgaria  
-* [NAACL-HLT 2013](http://naacl2013.naacl.org/) in Atlanta, Georgia, US  
+* [NAACL-HLT 2013](http://naacl2013.naacl.org/) [Student Research Workshop](https://sites.google.com/site/naaclsrw/) in Atlanta, Georgia, US  
 * [STaPS](http://staps.stuts.eu/?page_id=271) in Heidelberg, Germany  
 * [FSMNLP](http://fsmnlp2013.cs.st-andrews.ac.uk/) in St. Andrews,
   Scotland  
 * [ALT 10](http://www.eva.mpg.de/lingua/conference/2013_ALT10/) in
   Leipzig, Germany
 
-
-
-### 2013 Conference Dates and Papers
 
 **Bold** Indicates deadlines. *Italics* indicates submission, pending
 prior submissions having been submitted or accepted. 
@@ -52,38 +51,29 @@ prior submissions having been submitted or accepted.
 * January 15, **ALT 10 Abstracts**  
   The Typology of Infixes and Suffixation  
 * January 18, *ACL SRW Paper with Mentoring*  
-  *Simulating Speech Segmentation*  
-  *Developing Resources for the Low-Resource Language Maltese*  
-* February 9, **NAACL-HLT Demonstrations**  
-  Kelmu - Maltese / adapatable dictionary app  
-  Glossy  - online interface for text lexicons  
-  Eana Eltu - Online, translatable dictionary system  
+* February 1, *NAACL SRW full paper* 
 * February 15, **STaPS Abstract**  
 * February 20, **ACL Long paper**  
   Maltese Morphological Analysis  
 * February 28-March 5, ICLDC in Hawai'i
   Facebook Corpora Creation
-* March 3, *ACL Student Research Workshop*
+* March 3, *ACL Student Research Workshop full paper*
 * April 5-6, STaPS in Heidelberg
-* April 8, **ACL System Demonstrations**
-  *Kelmu - Maltese / adapatable dictionary app*  
-  *Glossy  - online interface for text lexicons*  
-  *Eana Eltu - Online, translatable dictionary system*  
 * April 12, **FSMNLP Paper**  
   *Maltese Morphological Analysis*  
 * April 14, **ACL Short paper**  
   *Maltese Morphological Analysis*  
 * June 2-7, Scaling Up Workshop in Chesapeake Bay
-* June 10-12, NAACL-HTL in Atlanta
+* June 10-12, NAACL-HLT in Atlanta
 * June 13-16, EM-A General Assembly in Barcelona
 * July 14-17, FSMNLP in St. Andrews
 * August 4-9 ACL in Sofia
 * August 15-18, ALT 10 in Leipzig
 * October, EMNLP in Seattle
 
-## Notes
+### 2014 Conferences
 
-I am not sure how much demonstrations should be presentations of tools
-and resources. 
-
-
+* LREC  
+  Kelmu - Maltese / adapatable dictionary app  
+  Glossy  - online interface for text lexicons  
+  Eana Eltu - Online, translatable dictionary system  
