@@ -59,7 +59,7 @@ some of them before they go off, but they aren't available anywhere yet.
 I'm not sure why I'm telling you this. If you're interested in
 recieving one, get in touch.
 
-Belive it or not, I've written a couple of art journalism interviews for
+Believe it or not, I've written a couple of art journalism interviews for
 [Chaos Magazine](http://www.chaos-mag.com/). 
 
 I also write short stories, vignettes, and am writing a couple of books
