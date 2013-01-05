@@ -20,16 +20,36 @@ chatting about them. Without copying the whole conversation verbatim,
 Dick said that: 
 > The line I would take, I think, is that middle verbs must all share some semantic relation which can be separated from the bundle of properties that define other semantic roles; let's call it 'responsible' since that seems to be the thing that distinguishes what I think of as the crucial pair (due to George Lakoff):  
 >   
-> (1)  These books sell well.  
-> (2)  \*These books buy well."  
+> (1)  _These books sell well._  
+> (2)  _\*These books buy well._  
 
 To which my response sums up my approach. I'm still working on making
 this into an actual exposé on middle verbs. Any helps from a competent
 semanticist would be greatly appreciated. 
 
-> Regarding the middle, I think you're right that there's a 'responsible' thematic role going on. However, I would disagree that that's the only event. These books sell well doesn't say much about the books quality that makes it redundant. It's only a hypothetical feature of the books that causes it. However, I think that inherent in this construction is the agent; These books sell well to certain customers seems to me to bea more well-formed construction. Put another way, the 'responsible' roleonly works if there is a role that shows what it is responsible for.However, this network, in this particular syntactic construction,depends on the 'responsible' word to be mentioned explicitly, and as thequalities of the agent (but not the thematic role) are dependent on thefeature of the books, including them is redundant, so it can be excised.For a sentence like, This shirt won't wash clean, there is an implicitassumption that it is either a stained shirt or that the detergent isn'tgood, or some event that can't happen due to some reason. In such acase, the 'responsible' isn't the shirt, in any event - it's the qualityof the shirt that isn't specified in the agent, as the agent isn'tallowed due to wash not being ditransitive."  
->   
-> I think that works. My terminology - allow, dependent, etc. - might not be good, but I think that teases out the issue of having a 'responsible' feature without having a 'responsible for what' issue.  
+> Regarding the middle, I think you're right that there's a
+> 'responsible' thematic role going on. However, I would disagree that
+> that's the only event. _These books sell well_ doesn't say much about
+> the books quality that makes it redundant. It's only a hypothetical
+> feature of the books that causes it. However, I think that inherent in
+> this construction is the agent; _These books sell well to certain
+> customers_ seems to me to be a more well-formed construction. Put
+> another way, the 'responsible' role only works if there is a role that
+> shows what it is responsible for. However, this network, in this
+> particular syntactic construction, depends on the 'responsible' word to
+> be mentioned explicitly, and as the qualities of the agent (but not the
+> thematic role) are dependent on the feature of the books, including
+> them is redundant, so it can be excised. For a sentence like _This
+> shirt won't wash clean_, there is an implicit assumption that it is
+> either a stained shirt or that the detergent isn't good, or some event
+> that can't happen due to some reason. In such a case, the 'responsible'
+> isn't the shirt, in any event - it's the quality of the shirt that
+> isn't specified in the agent, as the agent isn't allowed due to wash
+> not being ditransitive."  
+
+> I think that works. My terminology - allow, dependent, etc. - might
+> not be good, but I think that teases out the issue of having a
+> 'responsible' feature without having a 'responsible for what' issue.  
 
 #####Event Semantics
 
@@ -130,6 +150,6 @@ tell, this has been a fun waste of time.
 
 I am still trying to figure out if this is tool use or not. 
 
-![Ninja Dog!](/images/ninja_dog.gif)
+![Ninja Dog!](images/ninja_dog.gif)
 
 If you made it this far, I am very surprised. 
