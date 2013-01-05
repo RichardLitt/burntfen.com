@@ -54,19 +54,26 @@ semanticist would be greatly appreciated.
 #####Event Semantics
 
 I had an issue with sublexical semantics. In essence, I didn't like the
-way that either Pustejovsky or Rappaport Hovav and Levine approached
-verbs. I also didn't like how my teacher in my undergraduate course, Nik
-Gisbourne, approached them, either. In all cases, it seemed like a big
-mess, although had I known about HPSG or RRG at the time, I don't think
-I would have made a fuss. In order to make everything clear in my head,
-I took a weekend, skimmed a load of papers, and wrote a new theoretical
-system that is more like C than anything else, which is strange, as I
-don't know C, and as I didn't know how to code at the time. I
-occasionally look at this paper, stare blankly at it, and then move on
-to check other things that are more important, like my tax record.
-However, if anyone wants to have a stab at making sense of it, [you're
-free to](files/LexSem.pdf). Nik's comments:  
->there is this brilliant, wierd, utterly inadequately worked through but exciting promising note of an original theory at the end."  
+way that either
+[Pustejovsky](http://en.wikipedia.org/wiki/James_Pustejovsky) or
+[Rappaport
+Hovav](http://www.huji.ac.il/dataj/controller/ihoker/MOP-STAFF_LINK?sno=9548470)
+and [Levin](http://www.stanford.edu/~bclevin/) approached verbs. I also
+didn't like how my teacher in my undergraduate course, [Nik
+Gisborne](http://www.ppls.ed.ac.uk/people/nikolas-gisborne), approached
+them, either. In all cases, it seemed like a big mess, although had I
+known about HPSG or
+[RRG](http://linguistics.buffalo.edu/people/faculty/vanvalin/rrg.html)
+at the time, I don't think I would have made a fuss. In order to make
+everything clear in my head, I took a weekend, skimmed a load of papers,
+and wrote a new theoretical system that is more like C than anything
+else, which is strange, as I don't know C, and as I didn't know how to
+code at the time. I occasionally look at this paper, stare blankly at
+it, and then move on to check other things that are more important, like
+my tax record.  However, if anyone wants to have a stab at making sense
+of it, [you're free to](files/LexSem.pdf). Nik's comments on the paper:  
+>There is this brilliant, wierd, utterly inadequately worked through but
+>exciting promising note of an original theory at the end.  
 I am inclined to agree with him.  
 
 #####Naming conventions in Science Fiction and Fantasy
