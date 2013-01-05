@@ -6,7 +6,7 @@ description: "A list of current publications"
 ---
 {% include JB/setup %}
 
-These are preprints, so it is possible that it may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](http://www.burntfen.net/linguistics/publications.bib) information, at once, if you're really keen.
+These are preprints, so it is possible that it may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](http://www.burntfen.net/linguistics/publications.bib) information, at once, if you're really keen. If you're looking for non-academic publications (poetry, newspaper articles), look in [art](/art.html).
 
 Journal Articles
 ----------------
