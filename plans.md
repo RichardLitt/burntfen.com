@@ -34,42 +34,34 @@ Confirmed:
 Unconfirmed:  
 
 * [ACL 2013](acl2013.org) in Sofia, Bulgaria  
-* [NAACL-HLT 2013](http://naacl2013.naacl.org/) [Student Research Workshop](https://sites.google.com/site/naaclsrw/) in Atlanta, Georgia, US  
 * [STaPS](http://staps.stuts.eu/?page_id=271) in Heidelberg, Germany  
 * [FSMNLP](http://fsmnlp2013.cs.st-andrews.ac.uk/) in St. Andrews,
   Scotland  
-* [ALT 10](http://www.eva.mpg.de/lingua/conference/2013_ALT10/) in
-  Leipzig, Germany
 
 
 **Bold** Indicates deadlines. *Italics* indicates submission, pending
 prior submissions having been submitted or accepted. 
 
-* January 6, **ACL SRW Abstract**  
+* January 18, **ACL SRW Paper with Mentoring**  
   Simulating Speech Segmentation  
-  Developing Resources for the Low-Resource Language Maltese  
-* January 15, **ALT 10 Abstracts**  
-  The Typology of Infixes and Suffixation  
-* January 18, *ACL SRW Paper with Mentoring*  
-* February 1, *NAACL SRW full paper* 
 * February 15, **STaPS Abstract**  
 * February 20, **ACL Long paper**  
   Maltese Morphological Analysis  
-* February 28-March 5, ICLDC in Hawai'i
-  Facebook Corpora Creation
-* March 3, *ACL Student Research Workshop full paper*
-* April 5-6, STaPS in Heidelberg
+  Maltese NLTK Extensions  
+* February 28-March 5, ICLDC in Hawai'i  
+  Facebook Corpora Creation  
+* March 3, *ACL Student Research Workshop full paper*  
+  Developing Resources for Maltese  
+* April 5-6, STaPS in Heidelberg  
 * April 12, **FSMNLP Paper**  
   *Maltese Morphological Analysis*  
 * April 14, **ACL Short paper**  
   *Maltese Morphological Analysis*  
-* June 2-7, Scaling Up Workshop in Chesapeake Bay
-* June 10-12, NAACL-HLT in Atlanta
-* June 13-16, EM-A General Assembly in Barcelona
-* July 14-17, FSMNLP in St. Andrews
-* August 4-9 ACL in Sofia
-* August 15-18, ALT 10 in Leipzig
-* October, EMNLP in Seattle
+* June 2-7, Scaling Up Workshop in Chesapeake Bay  
+* June 13-16, EM-A General Assembly in Barcelona  
+* July 14-17, FSMNLP in St. Andrews  
+* August 4-9 ACL in Sofia  
+* October, EMNLP in Seattle  
 
 ### 2014 Conferences
 
