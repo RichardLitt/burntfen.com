@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Richard Littauer's Bog
-tagline: (a mere mirror-mere)
+title: Richard's Bog
+tagline: 
 ---
 {% include JB/setup %}
 
@@ -16,9 +16,9 @@ resource languages, among other topics. I also use this site to
 catalogue my many side projects, whether academic, scholastic, or
 artistic.</p>
 
-<p><b>I am currently writing many of the pages listed in the navbar, above.
+<p>I am currently writing many of the pages listed in the navbar, above.
 Please remain calm and check in again soon, or send me an email if you
-really want to read something.</b></p>
+really want to read something.</p>
 
 <p>I've written much more information on my <a
 href="about.html">About</a> page. If you want a more visual site, I am
