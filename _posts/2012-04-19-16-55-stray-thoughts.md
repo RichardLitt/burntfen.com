@@ -24,5 +24,5 @@ more likely to be isolated or joined onto existing patterns?
 
   * I should use regular expressions more in NLP for Wired. For
     instance, in t = 'two minutes and five seconds', I should use
-\b[mM]inutes\b and then split(' ') and then use t[x-1] to identify,
+minutes and then split(' ') and then use t\[x-1\] to identify,
 instead of currently saving slots 1 and 4 for retrieval. Just saying. 

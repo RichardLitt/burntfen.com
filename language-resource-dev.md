@@ -9,15 +9,6 @@ These are included here if they aren't being included elsewhere as
 'research.' Basically, if the connection to acedmia is tenuous, or if I
 can't see myself being published anywhere with them. 
 
-###CLARIN-D
-
-I've been working at CLARIN-D for the past year, or so, as a *Hiwi*,
-which is a shortening of the German word *Hilfswissenschaftler*, meaning
-assistant scientist. Much of that time has been given over to me
-learning new things, but I have developed a [WordNet .xml and CQP
-tagger](https://github.com/RichardLitt/clarin/tree/master/wordnet_tagger),
-andbeen working on an annotation tool more recently.
-
 ###Kelmu
 
 I've started making a little Python script applet called
@@ -62,3 +53,11 @@ Tskxe](https://github.com/RichardLitt/kusamea-tskxe), which is Na'vi for
 'Seeing Stone'. It's a quote from the movie, I guess. This may
 eventually be forked onto the [LearnNavi
 Github](https://github.com/LearnNavi).
+
+###CLARIN-D
+
+I worked at CLARIN-D for a year in 2012, or so, as a *Hiwi*,
+which is a shortening of the German word *Hilfswissenschaftler*, meaning
+assistant scientist. Much of that time was given over to me
+learning new things, but I have developed a [WordNet .xml and CQP
+tagger](https://github.com/RichardLitt/clarin/tree/master/wordnet_tagger).

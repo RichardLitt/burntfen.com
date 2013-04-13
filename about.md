@@ -13,9 +13,11 @@ description: "A bout of about."
 ###Where God Went Wrong
 
 Well, first, he let the universe create me. Hi there. I'm Richard
-Littauer, I'm a computational linguistics student, currently based at
-the [University of Malta](http://www.um.edu.mt/ict/). I've lived in
-Europe for 6 years - last year in Germany, and the five years prior in
+Littauer. I'm at least two things: a beginning front-end web developer, 
+and a computational linguistics student. I currently live in Gemrany, although
+I travel a fair amount.
+
+I've lived in Europe for 7 years - last year in Germany and Malta, and the five years prior in
 Edinburgh - since leaving Connecticut when I was 17. I started an
 English & Classics degree in [Edinburgh Uni](http://www.ed.ac.uk/home),
 and somehow, I've ended up being a coder, anyway. This is my blog and
@@ -29,17 +31,11 @@ other times code, and other times research papers.
 
 It is very hard to keep track of all of my things. That is actually the
 entire reason I first made [Burnt Fen](http://www.burntfen.com) - to
-keep track of the tracks I leave all over the web. Sadly, Burnt Fen is
-*no longer enough*. It is now more of a portal to things I have done on
-the web, which is great, and it does an ok job of that. This might do a
-better job. We'll see
+keep track of the tracks I leave all over the web. Now I've combined it 
+with this blog, so I guess this is the central place to go to learn about me.
 
-Why is all of this available online? Mostly because it's not pretty
-enough to have it all written on legal pad, but also because sometimes I
-want people to say, *Oh, you're doing that? Cool. You should look into
-doing* **this***, or, can I help you maybe?* I like those people.
-Please, contact me if you're one of these people, at
-<richard.littauer@gmail.com>.
+If at any point you think - *Oh, you're doing that? Cool. You should look into
+doing* **this***, or, can I help you maybe?* - drop a line. 
 
 ###Some More of God's Greatest Mistakes 
 Regarding this blog itself, I had grown increasingly tired with
@@ -79,24 +75,28 @@ blogs - most notably, I write for amateur evolutionary linguists on [Replicated
 Typo](http://www.replicatedtypo.com) and I used to write for anyone interested in me on [Burnt
 Fen](http://www.burntfen.net/merecat) - now I write here. 
 
+<div id="networks"></div>
 Since you're here, it is probable that you've met me somewhere. If
 you've run across me online, it's probable you did so in one of these
-places: [facebook](http://www.facebook.com/richard.littauer),
-[google+](http://gplus.to/richlitt),
-[diaspora](https://joindiaspora.com/u/richardlitt),
-[twitter](http://twitter.com/#!/richlitt),
-[quora](http://www.quora.com/Richard-Littauer),
-[tumblr](http://richfenne.tumblr.com),
-[delicious](http://delicious.com/richlitt/),
-[dribble](http://dribbble.com/richlitt),
-[linkedin](http://uk.linkedin.com/pub/richard-littauer/29/576/197),
-[academia](http://edinburgh.academia.edu/RichardLittauer),
-[xing](https://www.xing.com/profile/Richard_Littauer),
-[researchgate](http://www.researchgate.net/profile/Richard_Littauer/),
-[myexperiment](http://www.myexperiment.org/users/16690.html),
-[youtube](http://www.youtube.com/user/Rich0Fenn),
-[last.fm](http://www.last.fm/user/RichardFenn),
-[mendeley](http://www.mendeley.com/profiles/richard-littauer/).
+places:  
+
+* [facebook](http://www.facebook.com/richard.littauer)  
+* [google+](http://gplus.to/richlitt)  
+* [twitter](http://twitter.com/#!/richlitt)  
+* [github](https://github.com/RichardLitt)
+* [quora](http://www.quora.com/Richard-Littauer)  
+* [tumblr](http://richfenne.tumblr.com)  
+* [diaspora](https://joindiaspora.com/u/richardlitt)  
+* [delicious](http://delicious.com/richlitt/)  
+* [dribble](http://dribbble.com/richlitt)  
+* [linkedin](http://uk.linkedin.com/pub/richard-littauer/29/576/197)  
+* [academia](http://edinburgh.academia.edu/RichardLittauer)  
+* [xing](https://www.xing.com/profile/Richard_Littauer)  
+* [researchgate](http://www.researchgate.net/profile/Richard_Littauer/)  
+* [myexperiment](http://www.myexperiment.org/users/16690.html)  
+* [youtube](http://www.youtube.com/user/Rich0Fenn)  
+* [last.fm](http://www.last.fm/user/RichardFenn)  
+* [mendeley](http://www.mendeley.com/profiles/richard-littauer/)  
 
 Alternatively, it may have been through the [Undergraduate Linguistics
 Association of Britain](http://www.lingstudents.co.uk/), or maybe
@@ -126,8 +126,8 @@ Na'vi](http://www.learnnavi.org), [Learn
 Dothraki](http://www.dothraki.org), or the [Language Creation
 Society](http://www.conlang.org). Maybe even from [Edinburgh
 Cafés](http://edinburghcafes.com/), or [Wired In](http://wyrdin.com),
-[Unexus](http://www.unexus.org), [IdeaOtter](http://www.ideaotter.com),
-[Appril](http://www.appril.org)... the list goes on.
+[Ideapod](http://www.ideapod.com), [IdeaOtter](http://www.ideaotter.com),
+[Octobuild](http://www.octobuild.com)... the list goes on.
 
 If you've met me on
 [Couchsurfing](http://www.couchsurfing.org/people/richardlitt), that's
@@ -139,7 +139,7 @@ a good time.
 
 If I don't know you from any of those places, or if you came from
 another, I'm genuinely interested in two things; what made you read this
-far, and how you got here. Send me a line! <richard.littauer@gmail.com>
+far, and how you got here. Send me a line!
 
 ###Well, That About Wraps It Up For God
 Yes, I should say so. I'll post here when I can and want, but don't worry, I

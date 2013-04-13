@@ -6,15 +6,15 @@ description: "Otherwise known as the annals of ideas past."
 ---
 {% include JB/setup %}
 
-##Unexus
+##Ideapod
 
-<a href="http://www.unexus.org"><img src="/images/unexus.png"
-style="padding-top:30px;padding-bottom:30px;" title="Unexus" /></a>
+<!-- <a href="http://www.unexus.org"><img src="/images/unexus.png"
+style="padding-top:30px;padding-bottom:30px;" title="Unexus" /></a> -->
 
-I am the front-end web developer for [Unexus](http://www.unexus.org). We
+I am the front-end web developer for [Ideapod](http://www.ideapod.com) (formerly Unexus). We
 are a new social, idea-sharing website, dedicated towards creating a new
 future. You can read more about Unexus at [our
-blog](http://blog.unexus.org), and check out some Tedx talks by other
+blog](http://www.thepowerofideas.com), and check out some TedX talks by other
 members of the team [here](http://tedxbkk.com/2012). I'm not the
 designer, though, so don't blame the beautiful website on me - I just
 code it.  
@@ -49,13 +49,13 @@ a mobile app for the site, but it is fully functional, and you should
 definitely check it out. 
 
 ---
-##Appril
-<a href="http://www.appril.org"><img src="/images/appril_header.png"
-title="Appril" style="padding-top:30px;padding-bottom:30px;" /></a>
+##Octobuild
+<!--a href="http://www.appril.org"><img src="/images/appril_header.png"
+title="Appril" style="padding-top:30px;padding-bottom:30px;" /></a-->
 
 
-Another project with Simon, due to start in April, is
-[Appril](http://www.appril.org/). We hope to see if we can get people to
+Another project with Simon, due to start in October, is
+[Octobuild](http://www.octobuild.com) (formerly Appril). We hope to see if we can get people to
 build apps together, in a month. This is based off of
 [NaNoWriMo](nanowrimo.org), where you write a novel in a month, and we
 hope to see a lot of contestants this year. If you're a developer, go
