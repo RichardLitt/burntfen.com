@@ -8,13 +8,13 @@ description: "A bout of about."
 
 > _The story so far. In the beginning the universe was created. This
 > made a lot of people very unhappy and has widely been regarded as a
-> bad move._
+> bad move._ - Douglas Adams
 
 ###Where God Went Wrong
 
-Well, first, he let the universe create me. Hi there. I'm Richard
-Littauer. I'm at least two things: a beginning front-end web developer, 
-and a computational linguistics student. I currently live in Gemrany, although
+Well, first, he let the universe create me, which as we established above was probably a bad move.
+Hi. I'm Richard Littauer. I'm at least two things: a beginning front-end web developer, 
+and a computational linguistics student. I currently live in Germany, although
 I travel a fair amount.
 
 I've lived in Europe for 7 years - last year in Germany and Malta, and the five years prior in
@@ -97,6 +97,7 @@ places:
 * [youtube](http://www.youtube.com/user/Rich0Fenn)  
 * [last.fm](http://www.last.fm/user/RichardFenn)  
 * [mendeley](http://www.mendeley.com/profiles/richard-littauer/)  
+* [couchsurfing](http://www.couchsurfing.org/people/richardlitt)  
 
 Alternatively, it may have been through the [Undergraduate Linguistics
 Association of Britain](http://www.lingstudents.co.uk/), or maybe
@@ -146,5 +147,5 @@ Yes, I should say so. I'll post here when I can and want, but don't worry, I
 won't ever quote Oolon Colluphid again if I can help it.
 
 ###Everything You Never Wanted to Know About Sex But Have Been Forced to Find Out.
-Paradoxically, there is no text here, although this was one of Oolon's
+Ironically, there is no text here, although this was one of Oolon's
 best sellers. 
