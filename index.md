@@ -42,7 +42,7 @@ tagline:
   <div class="row-fluid">
     <div class="span3 text-box">
       <h4>projects</h4> 
-      <p>><a href="http://www.ideapod.com">IdeaPod</a><br />i am the front-end developer for this idea-sharing site. this is my child right now.</p>
+      <p><a href="http://www.ideapod.com">IdeaPod</a><br />i am the front-end developer for this idea-sharing site. this is my child right now.</p>
       <p><a href="http://wyrdin.com/">Wyrd In</a><br />a Realise It! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
       <p><a href="http://www.ideaotter.com/">idea otter</a><br />a site to share ideas.</p>
       <p><a href="http://www.octobuild.com/">octobuild</a><br />we're working on a month-long appathon, this october</p>
