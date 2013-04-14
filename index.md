@@ -5,23 +5,6 @@ tagline:
 ---
 {% include JB/setup %}
 
-<!-- {% for post in site.posts limit:5 %}
-  <div style="width:700px;padding-left:100px;">
-  <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a>
-  <div style="float:right;">      
-    <span>{% for tag in post.tags %} {{ tag }} {% endfor %} </span>
-    &laquo;&laquo;
-    <span><a href="{{ BASE_PATH }}categories.html#{{ post.category }}-ref">
-      {{ post.category }}
-    </a></span>
-  </div>
-  </p><p>
-  <span>{{ post.content }}</span>
-  <br />
-  <hr />
-  </div>
-{% endfor %} -->
-
 <div class="title" id="blog-posts">
   Recent Posts
 </div> 
