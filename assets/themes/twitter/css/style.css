@@ -160,7 +160,7 @@ h1 {
 
 .hero {
   padding: 40px 0 0 0;
-  margin: 0;
+  margin: 20px 0 0 0;
   background: #000 url('../bootstrap/img/wood-walkway-full.jpg') center bottom no-repeat;
   width: 100%;
   height: 150px;
@@ -170,7 +170,7 @@ h1 {
 
 .hero-index {
   padding: 40px 0 0 0;
-  margin: 0;
+  margin: 20px 0 0 0;
   background: #000 url('../bootstrap/img/wood-walkway-full.jpg') center bottom no-repeat;
   width: 100%;
   height: 600px;
