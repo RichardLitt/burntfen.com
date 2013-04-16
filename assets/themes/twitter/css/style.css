@@ -243,6 +243,10 @@ h1 {
   width: inherit;
 }
 
+.menu a:hover {
+  color: red;
+}
+
 .callout a {
   color:white;
 }

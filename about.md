@@ -26,20 +26,19 @@ outlook on me, here is [my CV](/files/Littauer_CV.pdf).
 
 I do a lot of things. Sometimes I make things, and other times I am a
 member of groups of people who do things. Sometimes the output is art,
-other times code, and other times research papers. 
-
-It is very hard to keep track of all of my things. That is actually the
+other times code, and other times writing. It is very hard to keep 
+track of all of my things. That is actually the
 entire reason I first made a hub-like web site - for myself, to
 keep track of the tracks I leave all over the web. Now I've combined it 
 with this blog, so I guess this is the central place to go to learn about me. 
 
-You can reach this page from [rlittauer.com](rlittauer.com), [burntfen.net](burntfen.net),
-[burntfen.info](burntfen.info), [richardlitt.github.io](richardlitt.github.io), 
-and [richardlitt.github.com](richardlitt.github.com). Some of the stuff is still hosted elsewhere, 
+You can reach this page from [rlittauer.com](http://www.rlittauer.com), [burntfen.net](http://www.burntfen.net),
+[burntfen.info](http://www.burntfen.info), [richardlitt.github.io](http://richardlitt.github.io), 
+and [richardlitt.github.com](http://richardlitt.github.com). Some of the stuff is still hosted elsewhere, 
 if you get confused why it is suddenly burntfen.net. 
 
 If at any point you think - *Oh, you're doing that? Cool. You should look into
-doing* **this***, or, can I help you maybe?* - drop a line. 
+doing* this*, or, can I help you maybe?* - drop me a line. Email's in the header. 
 
 ###Some More of God's Greatest Mistakes 
 Regarding this site itself, I had grown increasingly tired with
