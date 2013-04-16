@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.style1 {font-family: Harrington}
+
+a:link {
+	color: #000000;
+}
+a:visited {
+	color: #006600;
+}
+a:hover {
+	color: #00FF00;
+}
+a:active {
+	color: #00FF00;
+}
+a {
+	font-family: Harrington;
+}
+
+hr {color:#666666}
+body { width: 850px; margin: auto;}
+
+div#list {
+width: 500px;
+}
+
+
+.header { border: solid #000000 thin; width: 420px; margin: auto;}
+.copywrite {font: x-small small-caps;}

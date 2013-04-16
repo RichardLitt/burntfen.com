@@ -1,0 +1,25 @@
+a:link {
+	color: #003300;
+}
+a:visited {
+	color: #666666;
+}
+a:hover {
+	color:#00FF00;
+}
+a {
+	color: #000000;
+	font-size: 14px;
+}
+hr {
+	color:#666666
+}
+body {
+	width: 850px;
+	margin: auto;
+}
+
+.style1 {font-family: Harrington;
+		font-size: 14px;
+		color: #006600;
+}
