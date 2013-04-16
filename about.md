@@ -12,51 +12,46 @@ description: "A bout of about."
 
 ###Where God Went Wrong
 
-Well, first, he let the universe create me, which as we established above was probably a bad move.
-Hi. I'm Richard Littauer. I'm at least two things: a beginning front-end web developer, 
+Hi. I'm Richard Littauer. I'm at least two things: a front-end web developer, 
 and a computational linguistics student. I currently live in Germany, although
 I travel a fair amount.
 
-I've lived in Europe for 7 years - last year in Germany and Malta, and the five years prior in
-Edinburgh - since leaving Connecticut when I was 17. I started an
-English & Classics degree in [Edinburgh Uni](http://www.ed.ac.uk/home),
-and somehow, I've ended up being a coder, anyway. This is my blog and
-central repository of information about what projects or research I have
-going on at the moment. If you want a more professional outlook on me,
-here is [my CV](/files/Littauer_CV.pdf).
+I've lived in Europe for 7 years - last year in Germany and Malta, and for five years in
+Edinburgh, Scotland - since leaving Connecticut when I was 17. I started an
+English & Classics degree in [Edinburgh Uni](http://www.ed.ac.uk/home), graduated with a
+degree in Linguistics, and somehow, I've ended up being a coder, anyway. 
+This is my blog and central repository of information about what projects 
+or research I have going on at the moment. If you want a more professional 
+outlook on me, here is [my CV](/files/Littauer_CV.pdf).
 
 I do a lot of things. Sometimes I make things, and other times I am a
 member of groups of people who do things. Sometimes the output is art,
 other times code, and other times research papers. 
 
 It is very hard to keep track of all of my things. That is actually the
-entire reason I first made [Burnt Fen](http://www.burntfen.com) - to
+entire reason I first made a hub-like web site - for myself, to
 keep track of the tracks I leave all over the web. Now I've combined it 
-with this blog, so I guess this is the central place to go to learn about me.
+with this blog, so I guess this is the central place to go to learn about me. 
+
+You can reach this page from [rlittauer.com](rlittauer.com), [burntfen.net](burntfen.net),
+[burntfen.info](burntfen.info), [richardlitt.github.io](richardlitt.github.io), 
+and [richardlitt.github.com](richardlitt.github.com). Some of the stuff is still hosted elsewhere, 
+if you get confused why it is suddenly burntfen.net. 
 
 If at any point you think - *Oh, you're doing that? Cool. You should look into
 doing* **this***, or, can I help you maybe?* - drop a line. 
 
 ###Some More of God's Greatest Mistakes 
-Regarding this blog itself, I had grown increasingly tired with
-Wordpress and anything that even comes close to being wysiwyg (what you
-see is what you get). For one, I'm always having issues deciding on a
-theme, how to best mark up a long document, and where to store images of
-parrots. I'm kind of serious about parrots - [Geoff
-Pullum](http://www.lel.ed.ac.uk/~gpullum/picture_p.html), [Lyle
-Campbell](http://www2.hawaii.edu/~lylecamp/), and another academic I
-don't remember all had parrots on their websites. Where was I going to
-put mine? Luckily, someone created [Github
-Pages](http://pages.github.com/) and [Jekyll
+Regarding this site itself, I had grown increasingly tired with
+Wordpress and anything that even comes close to being wysiwyg. 
+Luckily, someone created [Github Pages](http://pages.github.com/) and [Jekyll
 Bootstrapper](http://jekyllbootstrap.com/), so now I can blog suitably
-without the issues of using a large blogging platform. Much of the
-impetus for switching comes from the better coder and scientist [Carl
-Boettiger](http://www.carlboettiger.info/).
+without the issues of using a bloated CMS. It's also much easier to customise.
 
 Regarding actual blogging, I'm always having this issue, when reading something, or working on my task
 management program, or eating pasta - the issue being that I start
 thinking. It's a dangerous thing to think, because before you know it,
-you've got half a blog post in your mind that you swear if you just
+you've got half a post in your mind that you swear if you just
 wrote down would become a chapter in a book. The issue is you never
 write these down, because no one likes soggy pasta, and everyone wants
 to know how [Harry Potter and the Methods of
@@ -64,18 +59,17 @@ Rationality](http://hpmor.com/) is actually going to end. Microblogging
 should alleviate this concern - I can just pop down the two paragraphs I
 need to clear my mind, and move on to bigger things, like that third
 book of Douglas Adam's I never actually got around to. (Edit: I have now
-read all of the [Hitch-hiker's
-guides](http://en.wikipedia.org/wiki/Douglas_Adams), and I suggest you
-read them too. That's where the titles of these sections are coming
+read all of the [Hitch-hiker's guides](http://en.wikipedia.org/wiki/Douglas_Adams), 
+and I suggest you read them too. That's where the titles of these sections are coming
 from.)
 
+<div id="networks"></div>
 ###Who is this God Person Anyway?
 I don't know. As I said, I'm Richard. I write about a lot of stuff on a lot of
 blogs - most notably, I write for amateur evolutionary linguists on [Replicated
 Typo](http://www.replicatedtypo.com) and I used to write for anyone interested in me on [Burnt
 Fen](http://www.burntfen.net/merecat) - now I write here. 
 
-<div id="networks"></div>
 Since you're here, it is probable that you've met me somewhere. If
 you've run across me online, it's probable you did so in one of these
 places:  
@@ -98,6 +92,10 @@ places:
 * [last.fm](http://www.last.fm/user/RichardFenn)  
 * [mendeley](http://www.mendeley.com/profiles/richard-littauer/)  
 * [couchsurfing](http://www.couchsurfing.org/people/richardlitt)  
+* [memrise](http://www.memrise.com/user/RichLitt)  
+* [code academy](http://www.codecademy.com/users/richlitt)  
+* [coderwall](https://coderwall.com/richardlitt)  
+* [codepen](http://codepen.io/RichardLitt)  
 
 Alternatively, it may have been through the [Undergraduate Linguistics
 Association of Britain](http://www.lingstudents.co.uk/), or maybe
