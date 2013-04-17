@@ -10,7 +10,7 @@ These are preprints, so it is possible that it may not be on the web yet, but ei
 
 Journal Articles
 ----------------
- * Richard Littauer (<i>to appear</i>). [_Replicating Oliphant's Saussurean Simulations_](http://www.rlittauer.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [http://www.llas.ac.uk/news/3088](http://www.llas.ac.uk/news/3088): LLAS. [bib](http://www.rlittauer.com/publications/bib/LittDebut.bib)  
+ * Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](http://www.rlittauer.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [http://www.studyinglanguages.ac.uk](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](http://www.rlittauer.com/publications/bib/LittDebut.bib)  
  * Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). [_Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_](http://ijdc.net/index.php/ijdc/article/download/222/291). In: _International Journal of Data Curation_, Vol. 7:2, pp. 92-100. [doi:10.2218/ijdc.v7i2.232](http://ijdc.net/index.php/ijdc/article/view/222) [bib](http://www.burntfen.net/publications/bib/LittIJDC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)  
 
 Book Chapters
@@ -24,6 +24,7 @@ Book Reviews
 
 Peer-reviewed Proceedings
 -------------------------
+ * Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (*to appear*). *From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research*. In: L. McCrohon, ed., *Evolang9 Student Volume*. 
  * Richard Littauer (*to appear*). *On Tocharian Exceptionality to the* centum-satem *Isogloss*. In: R. Littauer and T. Williams, eds., *Undergraduate Linguistics Association of Britain 2012 Proceedings*. Bristol, UK: online.  
  * Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). [Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet](http://www.rlittauer.com/publications/LittDH.pdf). In: Jan Christoph Meister, ed., _Digital Humanities 2012 Conference Abstracts_, pp. 268-269, University of Hamburg, July 16-22. Hamburg: Hamburg University Press. [Bib](http://www.rlittauer.com/publications/LittDH.bib)
  * Richard Littauer, Antonia Scheidel, March Schulder, Sibel Ciddi (2012). [Crowd sourcing the classroom: Interactive applications in higher learning](http://www.burntfen.net/publications/LittEdulearn.pdf). In Gómez Chova, L., Candel Torres, I., López Martínez, A., eds. _Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)_, pp. 1473-1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED). [bib](http://www.burntfen.net/publications/bib/LittEdulearn.bib)  
