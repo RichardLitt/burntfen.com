@@ -15,7 +15,7 @@ These are preprints, so it is possible that it may not be on the web yet, but ei
 
 ####Book Chapters
 
- * Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (<i>to appear</i>). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., _The People's Web Meets NLP: Collaboratively Constructed Language Resources._ Springer. [bib](http://www.rlittauer.com/publications/bib/ChiarcosLOD.bib)  
+ * Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., [_The People's Web Meets NLP: Collaboratively Constructed Language Resources,_](https://www.springer.com/education+%26+language/linguistics/book/978-3-642-35084-9) pp. 315-348. Springer. [bib](http://www.rlittauer.com/publications/bib/ChiarcosLOD.bib)  
 
 ####Book Reviews
 
