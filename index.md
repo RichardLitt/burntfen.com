@@ -9,10 +9,18 @@ tagline:
   Recent Posts
 </div> 
 
-<div>
+<div class="hidden-phone">
   <ul class="posts">
     {% for post in site.posts limit:15 %}
       <li class="posts-title"><span class="alignleft"><a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a> (<a href="{{ BASE_PATH }}categories.html#{{ post.category }}-ref">{{ post.category }}</a>)</span> <span class="alignright">{{ post.date | date_to_string }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="visible-phone">
+  <ul class="posts">
+    {% for post in site.posts limit:5 %}
+      <li class="posts-title"><span><a href="{{ BASE_PATH }}{{ post.url }}"><b>{{ post.title }}</b></a></span><br /><span>{{ post.date | date_to_string }}</span></li>
     {% endfor %}
   </ul>
 </div>

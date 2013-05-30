@@ -14,34 +14,32 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/bootstrap/css/responsive.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/font-awesome.min.css">
+    <link href="{{ HOME_PATH }}assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ HOME_PATH }}assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ HOME_PATH }}assets/css/font-awesome.min.css">
 
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/images/touch-icon-iphone.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/images/touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/images/touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ ASSET_PATH }}/images/touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" href="{{ HOME_PATH }}images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ HOME_PATH }}images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ HOME_PATH }}images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ HOME_PATH }}images/touch-icon-ipad-retina.png" />
+
+    <script src="assets/js/random.js"></script>
 
   </head>
-  <script src="assets/js/random.js"></script>
-
   <body>
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
+          <a class="btn btn-navbar hidden-tablet" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="{{ HOME_PATH }}">RICHARD LITTAUER<!--{{ site.title }}--></a>
-          <div class="nav-collapse">
+          <div class="nav-collapse ">
             <ul class="nav">
               {% if page.url == "/about.html" %}<li class="active">{% else %}<li>{% endif %}
               <a href="{{ site.url }}/about.html">About</a></li>
@@ -133,7 +131,7 @@
        </div> <!-- /navbar-inner -->
      </div> <!-- /navbar -->
 
-     <div class="container-fluid row-fluid span12 hero-index">
+     <div class="container-fluid row-fluid span12 hero-index hidden-phone">
 
         <div id="avatar">
           <img src="images/avatar.png" name="photo" /> <!-- onclick="do_switch()"/--> 
@@ -141,7 +139,7 @@
 
         <div id="title"> 
             <p>Front-end developer // Computational linguist // Just this guy <!-- span id="egg"></span --></p>
-        </div>
+        </div>        
 
         <div class="random menu" style="width:80px;"><a href="about.html#networks">networks</a></div>
         <div class="random menu" style="width:60px;"><a href="#blog-posts">posts</a></div>
@@ -149,6 +147,18 @@
         <div class="random menu" style="width:85px;"><a href="#linguistics">linguistics</a></div>
         <div class="random menu" style="width:115px;"><a href="#art">poetry and art</a></div>
         <div class="random menu" style="width:98px;"><a href="#fossils">old projects</a></div>
+
+     </div>     
+     <div class="container-fluid row-fluid span12 hero-index visible-phone">
+
+        <div id="avatar">
+          <img src="images/avatar.png" name="photo" /> 
+        </div>
+
+        <div id="title"> 
+            <p>Front-end developer<br />
+              Computational linguist </p>
+        </div>
 
      </div>
 

@@ -14,18 +14,17 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/bootstrap/css/responsive.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/font-awesome.min.css">
+    <link href="{{ HOME_PATH }}assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ HOME_PATH }}assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ HOME_PATH }}assets/css/font-awesome.min.css">
 
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" href="{{ ASSET_PATH}/images/touch-icon-iphone.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH}/images/touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH}/images/touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ ASSET_PATH}/images/touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" href="{{ HOME_PATH }}images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ HOME_PATH }}images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ HOME_PATH }}images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ HOME_PATH }}images/touch-icon-ipad-retina.png" />
 
   </head>
 
@@ -35,7 +34,6 @@
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
@@ -129,9 +127,7 @@
        </div> <!-- /navbar-inner -->
      </div> <!-- /navbar -->
 
-     <div class="container-fluid row-fluid span12 hero">
-
-     </div>
+     <div class="container-fluid row-fluid span12 hero"></div>
 
 
     <div class="wrapper">
@@ -159,9 +155,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/switch.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/jquery.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/bootstrap.min.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/switch.js"></script>
 
     {% include JB/analytics %}
 
