@@ -62,7 +62,6 @@ tagline:
     <p><a href="http://www.burntfen.com/publications.html">publications</a><br />a list of my current academic publications</p>
     <p><a href="http://scholar.google.com/citations?hl=en&user=X2UD62YAAAAJ">scholar</a><br />my google scholar account</p>
     <p><a href="http://www.slideshare.net/RichLitt">slides</a><br />slides for presentations i've given</p>
-    <p><a href="http://www.burntfen.net/merecat/?page_id=472">current lines</a><br />i keep a list of current research projects on my blog</p>
   </div>
 
   <div class="span3 text-box">
@@ -84,14 +83,15 @@ tagline:
       <p><a href="http://lsacelp.org/">c.e.l.p.</a><br />the linguistics society of america committee for endangered languages and their preservation; i helped set this page up.</p>
       <p><a href="http://groups.google.com/group/ling-outside">linguists outside of academia</a><br />i cofounded this email list and group.</p>
       <p><a href="http://linguistics.okfn.org/">open linguistics</a><br />i'm a member of this working group, part of the open knowledge foundation</p>
-      <p><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a><br/>the undergraduate linguistics association of britain: i helped found it, ran the first conference, and help out as an advisor.</p>
+
   </div>
 
   <div class="span3 text-box">
-    <h4>student representative</h4>
+    <h4>students rep</h4>
       <p><a href="http://www.lagb.org.uk/">l.a.g.b.</a><br />the linguistics association of great britain: i am on the student committee.</p>
       <p><a href="https://lsadc.org/">c.o.s.i.a.c.</a><br />the linguistics society of america committee on student issues and concerns: member</p>
       <p><a href="http://em-a.eu/">erasmus mundus</a><br />i am the representative for the  language and communication technologies course.</p>
+      <p><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a><br/>the undergraduate linguistics association of britain: i helped found it, ran the first conference, and help out as an advisor.</p>
   </div>
 </div>
 
@@ -168,6 +168,9 @@ tagline:
       <h4>blogs</h4>
       <p><a href="https://notebooks.dataone.org/workflows/">workflows</a><br /> my 2011 DataONE internship on scientific workflows.</p>
       <p><a href="http://langsoc.eusa.ed.ac.uk/?cat=4">langsoc blog</a><br/> i blogged a lot about linguistics here as an undergrad.</p>
+      <h4>websites</h4>
+      <br />
+      <p><a href="http://www.sailingschoolmalta.com/">sailing school malta</a><br /> i made this website for a friend of mine in malta. it's pretty hacky.</p>
     </div>
 
     <div class="span3 text-box">
