@@ -5,7 +5,58 @@ tagline:
 ---
 {% include JB/setup %}
 
+<div class="icons-bar">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span1 offset2">
+          <a href="https://github.com/RichardLitt"><i class="icon-github">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://www.facebook.com/richard.littauer"><i class="icon-facebook">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://twitter.com/#!/richlitt"><i class="icon-twitter">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://gplus.to/richlitt"><i class="icon-google-plus">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://richfenne.tumblr.com"><i class="icon-tumblr">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://uk.linkedin.com/pub/richard-littauer/29/576/197"><i class="icon-linkedin">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://www.youtube.com/user/Rich0Fenn"><i class="icon-youtube">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
+          <a href="http://stackoverflow.com/users/1166929/richlitt"><i class="icon-stackexchange">
+          </i>
+        </a>
+      </div>
+      <div class="span2">
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="title" id="blog-posts">
+  <i class="icon-keyboard">
+  </i>
   Recent Posts
 </div> 
 
@@ -26,6 +77,8 @@ tagline:
 </div>
 
 <div class="title" id="projects">
+  <i class="icon-coffee">
+  </i>
   Projects
 </div> 
 
@@ -33,8 +86,8 @@ tagline:
   <div class="row-fluid">
     <div class="span3 text-box">
       <h4>projects</h4> 
-      <p><a href="http://www.ideapod.com">Ideapod</a><br />i am the front-end developer for this idea-sharing site. this is my child right now.</p>
-      <p><a href="http://wyrdin.com/">Wyrd In</a><br />a Realise It! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
+      <p><a href="http://www.ideapod.com">ideapod</a><br />i am the front-end developer for this idea-sharing site. this is my child right now.</p>
+      <p><a href="http://wyrdin.com/">wyrd in</a><br />a realise it! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
       <p><a href="http://www.ideaotter.com/">idea otter</a><br />a site to share ideas.</p>
       <p><a href="http://www.octobuild.com/">octobuild</a><br />we're working on a month-long appathon, this october</p>
     </div>
@@ -61,6 +114,8 @@ tagline:
 </div>
 
 <div class="title" id="linguistics">
+  <i class="icon-book">
+  </i>
   Linguistics
 </div> 
 
@@ -104,6 +159,8 @@ tagline:
 </div>
 
 <div class="title" id="art">
+  <i class="icon-camera-retro">
+  </i>
   Poetry and Art
 </div> 
 
@@ -160,6 +217,8 @@ tagline:
 -->
 
 <div class="title" id="fossils">
+  <i class="icon-beer">
+  </i>
   Past Projects
 </div> 
 

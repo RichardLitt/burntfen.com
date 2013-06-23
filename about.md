@@ -81,7 +81,7 @@ places:
 * [tumblr](http://richfenne.tumblr.com)  
 * [diaspora](https://joindiaspora.com/u/richardlitt)  
 * [delicious](http://delicious.com/richlitt/)  
-* [dribble](http://dribbble.com/richlitt)  
+* [dribbble](http://dribbble.com/richlitt)  
 * [linkedin](http://uk.linkedin.com/pub/richard-littauer/29/576/197)  
 * [academia](http://edinburgh.academia.edu/RichardLittauer)  
 * [xing](https://www.xing.com/profile/Richard_Littauer)  
@@ -95,6 +95,8 @@ places:
 * [code academy](http://www.codecademy.com/users/richlitt)  
 * [coderwall](https://coderwall.com/richardlitt)  
 * [codepen](http://codepen.io/RichardLitt)  
+* [stack overflow](http://stackoverflow.com/users/1166929/richlitt)  
+* [weibo](http://www.weibo.com/2640928093/profile?)  
 
 Alternatively, it may have been through the [Undergraduate Linguistics
 Association of Britain](http://www.lingstudents.co.uk/), or maybe
