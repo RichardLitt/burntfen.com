@@ -19,6 +19,7 @@ These are preprints, so it is possible that it may not be on the web yet, but ei
 
 ####Book Reviews
 
+ * Richard Littauer (2013). _Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., Potentials of Language Documentation: Methods, Analyses, and Utilization. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press._ In: _LINGUIST List_, 24.2604. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=12670360)  
  * Richard Littauer (2012). _Review of H. Schiffman & B. Spooner, eds., Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill._ In: _LINGUIST List_, 23.3183. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=4553348) [bib](http://www.rlittauer.com/publications/bib/LittLinguist.bib)  
 
 
