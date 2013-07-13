@@ -165,7 +165,6 @@ tagline:
 
   <div class="span3 text-box">
     <h4>student representative</h4>
-    <p><a href="http://www.lagb.org.uk/">l.a.g.b.</a><br />the linguistics association of great britain: i am on the student committee.</p>
     <p><a href="https://lsadc.org/">c.o.s.i.a.c.</a><br />the linguistics society of america committee on student issues and concerns: member</p>
   </div>
 
@@ -239,6 +238,7 @@ tagline:
 
     <div class="span3 text-box">
       <h4>societies</h4>
+      <p><a href="http://www.lagb.org.uk/">l.a.g.b.s.c.</a><br />the linguistics association of great britain: i was on the student committee.</p>
       <p><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a><br/>the undergraduate linguistics association of britain: i helped found it, ran the first conference, and help out as an advisor.</p>
       <p><a href="http://langsoc.eusa.ed.ac.uk">langsoc</a><br/> the edinburgh university linguistics and english language society: i started it up again, and was president and webmaster</p>
       <p><a href="http://www.coli.uni-saarland.de/fs-coli/Main/HomePage">fachschaft</a><br />i was a member of the student committee in saarbrücken.</p>
