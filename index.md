@@ -48,7 +48,12 @@ tagline:
           </i>
         </a>
       </div>
-      <div class="span2">
+      <div class="span1">
+        <a href="https://www.gittip.com/richlitt/"><i class="icon-gittip">
+        </i>
+        </a>
+      </div>
+      <div class="span1">
       </div>
     </div>
   </div>
