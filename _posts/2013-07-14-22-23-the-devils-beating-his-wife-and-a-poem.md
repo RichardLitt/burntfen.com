@@ -15,16 +15,16 @@ Americana calls me in. She spits out cliches - "Regular food for regular people"
 
 ---
 
-An old man approaches the waitress. "Do me a favor - when the check comes, only me."
+An old man approaches the waitress. "Do me a favor - when the check comes, only me."  
 
-A city is a million cities. The boundaries bleed into each other. We've given a name to an idea, an abstraction to maintain cohesiveness. There is no New York - legislative zones are protocols for the real thing, a multiplicity of conceptualizations. 8 million spirits.
+A city is a million cities. The boundaries bleed into each other. We've given a name to an idea, an abstraction to maintain cohesiveness. There is no New York - legislative zones are protocols for the real thing, a multiplicity of conceptualizations. 8 million spirits.  
 
-"I wonder if the souls passing through the windows of the hospitals and sick beds to heaven get mangled in the AC unit," I said, at three am. 
+"I wonder if the souls passing through the windows of the hospitals and sick beds to heaven get mangled in the AC unit," I said, at three am.   
 
 ---
 
-"Do you want to get married," she asks, curious.
-"A few times," I reply. "I guess I've never valued the sanctity of marriage."
+"Do you want to get married," she asks, curious.  
+"A few times," I reply. "I guess I've never valued the sanctity of marriage."  
 
 ---
 
@@ -36,17 +36,17 @@ Morsi, go firmly to the window and listen! What God abandons me now? What crowds
 
 ---
 
-Trying to find a path
-through the forest of bloodshot trees
-set against the cloudy sclerae of your eyes.
-Your pupil is a lunar eclipse.
-Behind that black disc
-you've got stars in your eyes. 
+Trying to find a path   
+through the forest of bloodshot trees  
+set against the cloudy sclerae of your eyes.  
+Your pupil is a lunar eclipse.  
+Behind that black disc  
+you've got stars in your eyes.   
 
 ---
 
-Just had breakfast with [redacted]. She woke me up at around 7 with incessant pleas.
-"Everything is happening!"
-"Not me."
+Just had breakfast with [redacted]. She woke me up at around 7 with incessant pleas.  
+"Everything is happening!"  
+"Not me."  
 
 ---
