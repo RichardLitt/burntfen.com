@@ -10,8 +10,7 @@ to comment on any thing. This'll be updated as things change.
 
 ### Generic Plans
 
- * June 13-16, EM-A General Assembly in Barcelona 
- * June 18, Ideapod meeting in New York.  
- * July 11-13, EMLCT Graduations, Saarbrücken.
- * September 16-18, Hopefully be at the OKFC in Geneva (for my birthday).
- * September - Move somewhere new. Either California or New York.
+ * August 1st and on - Moving to Brooklyn
+ * September 16-18, Hopefully be at the OKFC in Geneva.
+ * October on - Living in Brooklyn, working for Ideapod in Manhattan.
+ * 2015 - Walk across South America. 

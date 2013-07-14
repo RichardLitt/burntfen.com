@@ -119,7 +119,7 @@ tagline:
   <div class="row-fluid">
     <div class="span3 text-box">
       <h4>writing</h4>
-      <p><a href="http://www.burntfen.com/categories.html#poetry-ref">poetry</a><br />i blog my new poems here, for the moment</p>
+      <p><a href="categories.html#poetry-ref">poetry</a><br />i blog my new poems here, for the moment</p>
       <p><a href="http://www.burntfen.net/poetry">older poetry</a><br />some poetry i am not entirely ashamed of</p>
       <p><a href="http://www.burntfen.net/prose">prose</a><br />some old prose pieces of mine</p>
     </div>
@@ -128,7 +128,7 @@ tagline:
       <h4>audio</h4>
       <p><a href="http://soundcloud.com/richard-littauer">spoken</a><br />my spoken word poems and some songs.</p>
       <p><a href="http://soundcloud.com/marsalfornication">marsalifornication</a><br />my band from malta, with jan joachimsen and daan henselmans.</p>
-      <p><a href="http://www.burntfen.net/heraclitus">heraclitus</a><br />fragments of heraclitus spoken word story-telling project</p>
+      <p><a href="heraclitus/">heraclitus</a><br />fragments of heraclitus spoken word story-telling project</p>
     </div>
 
     <div class="span3 text-box">

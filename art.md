@@ -24,7 +24,7 @@ I like to record my poetry, and have some
 Soundcloud, but my most ambitious project to date in this vein is based
 around creating a story surrounding fragments of Heraclitus, the greek
 philosopher. I am in no rush with this story - the current recordings
-(I don't upload the text) are available [here](http://burntfen.net/heraclitus/).
+(I don't upload the text) are available [here](heraclitus/).
 
 ###Visual 
 
