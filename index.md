@@ -153,30 +153,26 @@ tagline:
 </div> 
 
 <div class="container-fluid row-fluid">
-  <div class="span3 text-box">
+  <div class="span4 text-box">
     <h4>research</h4>
     <p><a href="http://www.burntfen.com/publications.html">publications</a><br />a list of my current academic publications</p>
     <p><a href="http://scholar.google.com/citations?hl=en&user=X2UD62YAAAAJ">scholar</a><br />my google scholar account</p>
     <p><a href="http://www.slideshare.net/RichLitt">slides</a><br />slides for presentations i've given</p>
   </div>
 
-  <div class="span3 text-box">
+  <div class="span4 text-box">
     <h4>professional societies</h4>
       <p><a href="http://lsacelp.org/">c.e.l.p.</a><br />the linguistics society of america committee for endangered languages and their preservation; i helped set this page up.</p>
       <p><a href="http://groups.google.com/group/ling-outside">linguists outside of academia</a><br />i cofounded this email list and group.</p>
       <p><a href="http://linguistics.okfn.org/">open linguistics</a><br />i'm a member of this working group, part of the open knowledge foundation</p>
-
   </div>
 
-  <div class="span3 text-box">
+  <div class="span4 text-box">
     <h4>student representative</h4>
-    <p><a href="https://lsadc.org/">c.o.s.i.a.c.</a><br />the linguistics society of america committee on student issues and concerns: member</p>
-  </div>
-
-  <div class="span3 text-box">
-    <h4>alumni representative</h4>
+    <p><a href="https://lsadc.org/">c.o.s.i.a.c.</a><br />the linguistics society of america committee on student issues and concerns: webmaster</p>
     <p><a href="http://em-a.eu/">erasmus mundus</a><br />i am the representative for the  language and communication technologies course.</p>
   </div>
+
 </div>
 
 
@@ -238,7 +234,7 @@ tagline:
       <h4>blogs</h4>
       <p><a href="http://www.replicatedtypo.com">replicated typo</a><br />i wrote the occasional research blog here, on the evolution of culture and language.</p>
       <p><a href="http://clojurelx.blogspot.com/">clojurelx</a><br />i explained why clojure is great for linguists</p>
-      <p><a href="https://notebooks.dataone.org/workflows/">workflows</a><br /> my 2011 DataONE internship on scientific workflows.</p>
+      <!-- gone! <p><a href="https://notebooks.dataone.org/workflows/">workflows</a><br /> my 2011 DataONE internship on scientific workflows.</p> -->
     </div>
 
     <div class="span3 text-box">
