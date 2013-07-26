@@ -98,6 +98,7 @@ places:
 * [stack overflow](http://stackoverflow.com/users/1166929/richlitt)  
 * [weibo](http://www.weibo.com/2640928093/profile?)  
 * [gittip](https://www.gittip.com/richlitt/)  
+* [angel](https://angel.co/richlitt)  
 
 Alternatively, it may have been through the [Undergraduate Linguistics
 Association of Britain](http://www.lingstudents.co.uk/), or maybe
