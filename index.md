@@ -156,7 +156,7 @@ tagline:
   <div class="span4 text-box">
     <h4>research</h4>
     <p><a href="http://www.burntfen.com/publications.html">publications</a><br />a list of my current academic publications</p>
-    <p><a href="http://scholar.google.com/citations?hl=en&user=X2UD62YAAAAJ">scholar</a><br />my google scholar account</p>
+    <p><a href="http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ">scholar</a><br />my google scholar account</p>
     <p><a href="http://www.slideshare.net/RichLitt">slides</a><br />slides for presentations i've given</p>
   </div>
 
