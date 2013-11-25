@@ -96,19 +96,21 @@ tagline:
   <div class="row-fluid">
     <div class="span3 text-box">
       <h4>who i am</h4>
-      <p><a href="http://www.ideapod.com">ideapod</a><br />i am the front-end developer for this idea-sharing site, full time, in new york.</p>
+      <p><a href="http://www.ideapod.com">ideapod</a><br />i am the front-end developer for this idea-sharing site, full time, in new york</p>
     </div>
     <div class="span3 text-box">
       <h4>who else i am</h4>
+      <p><a href="http://mellowpageslibrary.com">mellow pages library</a><br />i built a website for my favourite library in bushwick</p>
+      <p><a href="http://www.ideaotter.com/">idea otter</a><br />a site to share ideas; less ambitious than ideapod</p>
+    </div>
+    <div class="span3 text-box">
+      <br /><br />
+      <p><a href="http://www.uklo.org">the u.k. linguistics olympiad</a><br />i'm the webmaster of this organisation for school children to learn linguistics</p>
+      <p><a href="http://www.octobuild.com/">octobuild</a><br />we're working on a month-long appathon. probably next year</p>
+    </div>
+    <div class="span3 text-box">
+      <br /><br />
       <p><a href="http://wyrdin.com/">wyrd in</a><br />a realise it! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
-    </div>
-    <div class="span3 text-box">
-      <br /><br />
-      <p><a href="http://www.ideaotter.com/">idea otter</a><br />a site to share ideas.</p>
-    </div>
-    <div class="span3 text-box">
-      <br /><br />
-      <p><a href="http://www.octobuild.com/">octobuild</a><br />we're working on a month-long appathon, this october</p>
     </div>
   </div>
 </div>
@@ -132,8 +134,8 @@ tagline:
     <div class="span3 text-box">
       <h4>audio</h4>
       <p><a href="http://soundcloud.com/richard-littauer">spoken</a><br />my spoken word poems and some songs.</p>
-      <p><a href="http://soundcloud.com/marsalfornication">marsalifornication</a><br />my band from malta, with jan joachimsen and daan henselmans.</p>
       <p><a href="heraclitus/">heraclitus</a><br />fragments of heraclitus spoken word story-telling project</p>
+      <p><a href="http://soundcloud.com/marsalfornication">marsalifornication</a><br />my band from malta, with jan joachimsen and daan henselmans.</p>
     </div>
 
     <div class="span3 text-box">
@@ -224,7 +226,6 @@ tagline:
     <div class="span3 text-box">
       <h4>web master</h4>
       <p><a href="http://ela.eusa.ed.ac.uk">e.l.a.</a><br />the edinburgh language ambassadors promote multilingualism in scotland; i built their website, back when i used wordpress. </p>
-      <p><a href="http://www.uklo.org">the u.k. linguistics olympiad</a><br />part of an international linguistics olympiad for school children</p>
       <p><a href="http://www.clie.org.uk">the committee for linguistics in education</a><br />promoting linguistics in schools</p>
       <p><a href="http://www.language-alliance.org.uk">the language alliance</a><br />promoting linguistics in the uk</p>
       <p><a href="http://www.sailingschoolmalta.com/">sailing school malta</a><br /> i made this website for a friend of mine in malta. it's pretty hacky.</p>
