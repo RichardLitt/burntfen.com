@@ -7,7 +7,7 @@ tags: [art, emails, other people]
 ---
 {% include JB/setup %}
 
-_So, the same day I completed the [previous blog post](http://www.burntfen.com/projects/2013/11/25/16-17-mellow-pages-library/) about making the Mellow Pages Library site, I got an email from a mysterious email account I have never encountered before, called peterbd99. The title of the email was "richard littauer part I of III: the secret spy".  It appears to be my post from yesterday... slightly edited. This was easily the most confusing email I have ever gotten. After some googling, it seems that peterbd99 is the Banksy of email art - he's done this to a lot of people. I kind of feel, honored?, by having such a confusing experience bestowed upon me. The text is reproduced below.
+_So, the same day I completed the [previous blog post](http://www.burntfen.com/projects/2013/11/25/16-17-mellow-pages-library/) about making the Mellow Pages Library site, I got an email from a mysterious email account I have never encountered before, called peterbd99. The title of the email was "richard littauer part I of III: the secret spy".  It appears to be my post from yesterday... slightly edited. This was easily the most confusing email I have ever gotten. After some googling, it seems that peterbd99 is the Banksy of email art - he's done this to a lot of people. I kind of feel, honored?, by having such a confusing experience bestowed upon me. The text is reproduced below._
 
 ---
 
