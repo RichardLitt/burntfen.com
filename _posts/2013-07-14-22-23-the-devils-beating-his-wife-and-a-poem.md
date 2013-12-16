@@ -45,7 +45,7 @@ you've got stars in your eyes.
 
 ---
 
-Just had breakfast with [redacted]. She woke me up at around 7 with incessant pleas.  
+Just had breakfast with redacted. She woke me up at around 7 with incessant pleas.  
 "Everything is happening!"  
 "Not me."  
 
