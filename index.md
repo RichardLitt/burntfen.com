@@ -8,7 +8,7 @@ tagline:
 <div class="icons-bar">
   <div class="container-fluid">
     <div class="row-fluid">
-      <div class="span1 offset1">
+      <div class="span1">
           <a href="https://github.com/RichardLitt"><i class="icon-github">
           </i>
         </a>
@@ -59,6 +59,14 @@ tagline:
         </a>
       </div>
       <div class="span1">
+        <a href="donate.html"><i class="icon-bitcoin">
+        </i>
+        </a>
+      </div>
+      <div class="span1">
+        <a href="donate.html"><i class="icon-money">
+        </i>
+        </a>
       </div>
     </div>
   </div>
