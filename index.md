@@ -118,7 +118,7 @@ tagline:
     </div>
     <div class="span3 text-box">
       <br /><br />
-      <p><a href="http://wyrdin.com/">wyrd in</a><br />a realise it! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
+      <p><a href="http://www.bushwhich.com/">bushwhich</a><br />recently completed a choose-your-own-adventure photography game around my neighborhood in brooklen</p>
     </div>
   </div>
 </div>
@@ -244,6 +244,7 @@ tagline:
       <p><a href="http://www.tigatag.com/home/">tigatag</a><br />i wrote stuff for this web app company sometimes</p>
       <p><a href="http://glossy.vansintjan.net/">glossy</a><br />my friend simon and i were working on an app for quick sharing of word lists</p>
       <p><a href="http://burntfen.net/healingwords">healing words</a><br />another project with simon to provide word and phrase lists for aid workers</p>
+      <p><a href="http://wyrdin.com/">wyrd in</a><br />a realise it! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
       <br />
       <h4>blogs</h4>
       <p><a href="http://www.replicatedtypo.com">replicated typo</a><br />i wrote the occasional research blog here, on the evolution of culture and language.</p>
