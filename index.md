@@ -109,12 +109,13 @@ tagline:
     <div class="span3 text-box">
       <h4>who else i am</h4>
       <p><a href="http://mellowpageslibrary.com">mellow pages library</a><br />i built a website for my favourite library in bushwick</p>
-      <p><a href="http://www.ideaotter.com/">idea otter</a><br />a site to share ideas; less ambitious than ideapod</p>
+      <p><a href="http://lean.burntfen.com">lean</a><br />i'm working on a task manager app in node + angular. basically, wired in v3.</p>
     </div>
     <div class="span3 text-box">
       <br /><br />
-      <p><a href="http://www.uklo.org">the u.k. linguistics olympiad</a><br />i'm the webmaster of this organisation for school children to learn linguistics</p>
+      <p><a href="http://www.ideaotter.com/">idea otter</a><br />a site to share ideas; less ambitious than ideapod</p>
       <p><a href="http://www.octobuild.com/">octobuild</a><br />we're working on a month-long appathon. probably next year</p>
+      <p><a href="http://www.uklo.org">the u.k. linguistics olympiad</a><br />i'm the webmaster of this organisation for school children to learn linguistics</p>
     </div>
     <div class="span3 text-box">
       <br /><br />
