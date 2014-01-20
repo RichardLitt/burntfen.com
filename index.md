@@ -120,7 +120,8 @@ tagline:
     <div class="span3 text-box">
       <br /><br />
       <p><a href="http://www.bushwhich.com/">bushwhich</a><br />recently completed a choose-your-own-adventure photography game around my neighborhood in brooklen</p>
-      <p><a href="http://www.sadyoundman.com">sad young man</a></p>
+      <p><a href="http://www.sadyoungman.com">sad young man</a><br />
+        says it all really</p>
     </div>
   </div>
 </div>
