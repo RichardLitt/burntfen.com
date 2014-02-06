@@ -120,6 +120,7 @@ tagline:
     <div class="span3 text-box">
       <br /><br />
       <p><a href="http://www.bushwhich.com/">bushwhich</a><br />recently completed a choose-your-own-adventure photography game around my neighborhood in brooklen</p>
+       <p><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a><br />i cofounded this email list and group.</p>
       <p><a href="http://www.sadyoungman.com">sad young man</a><br />
         says it all really</p>
     </div>
@@ -181,7 +182,6 @@ tagline:
   <div class="span4 text-box">
     <h4>professional societies</h4>
       <p><a href="http://lsacelp.org/">c.e.l.p.</a><br />the linguistics society of america committee for endangered languages and their preservation; i helped set this page up.</p>
-      <p><a href="http://groups.google.com/group/ling-outside">linguists outside of academia</a><br />i cofounded this email list and group.</p>
       <p><a href="http://linguistics.okfn.org/">open linguistics</a><br />i'm a member of this working group, part of the open knowledge foundation</p>
   </div>
 
