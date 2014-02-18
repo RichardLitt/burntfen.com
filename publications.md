@@ -25,6 +25,7 @@ These are preprints, so it is possible that it may not be on the web yet, but ei
 
 ####Peer-reviewed Proceedings
 
+ * Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). [Linguistic Resources Enhanced with Geospatial Information](http://www.aclweb.org/anthology/W13-5508). In: C. Chiarcos, P. Cimiano, T. Declerck, J. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53-58. Pisa, Italy: Association for Computational Linguistics. 
  * Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (*to appear*). *From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research*. In: L. McCrohon, ed., *Evolang9 Student Volume*.  
  * Richard Littauer (*to appear*). *On Tocharian Exceptionality to the* centum-satem *Isogloss*. In: R. Littauer and T. Williams, eds., *Undergraduate Linguistics Association of Britain 2012 Proceedings*. Bristol, UK: online.  
  * Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). [Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet](http://www.rlittauer.com/publications/LittDH.pdf). In: Jan Christoph Meister, ed., _Digital Humanities 2012 Conference Abstracts_, pp. 268-269, University of Hamburg, July 16-22. Hamburg: Hamburg University Press. [Bib](http://www.rlittauer.com/publications/LittDH.bib)
