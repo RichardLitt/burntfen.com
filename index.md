@@ -29,32 +29,32 @@ tagline:
         </a>
       </div>
       <div class="span1">
-          <a href="http://richfenne.tumblr.com" rel="me"><i class="icon-tumblr">
+          <a href="http://richfenne.tumblr.com"><i class="icon-tumblr">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://uk.linkedin.com/pub/richard-littauer/29/576/197" rel="me"><i class="icon-linkedin">
+          <a href="http://uk.linkedin.com/pub/richard-littauer/29/576/197"><i class="icon-linkedin">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://www.youtube.com/user/Rich0Fenn" rel="me"><i class="icon-youtube">
+          <a href="http://www.youtube.com/user/Rich0Fenn"><i class="icon-youtube">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://stackoverflow.com/users/1166929/richlitt" rel="me"><i class="icon-stackexchange">
+          <a href="http://stackoverflow.com/users/1166929/richlitt"><i class="icon-stackexchange">
           </i>
         </a>
       </div>
       <div class="span1">
-        <a href="http://www.flickr.com/photos/101526362@N04/" rel="me"><i class="icon-flickr">
+        <a href="http://www.flickr.com/photos/101526362@N04/"><i class="icon-flickr">
         </i>
         </a>
       </div>
       <div class="span1">
-        <a href="https://www.gittip.com/richlitt/" rel="me"><i class="icon-gittip">
+        <a href="https://www.gittip.com/richlitt/"><i class="icon-gittip">
         </i>
         </a>
       </div>
