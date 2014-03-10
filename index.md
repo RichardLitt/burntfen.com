@@ -19,12 +19,12 @@ tagline:
         </a>
       </div> -->
       <div class="span1">
-          <a href="http://twitter.com/#!/richlitt" rel="me"><i class="icon-twitter">
+          <a href="https://twitter.com/#!/richlitt" rel="me"><i class="icon-twitter">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://gplus.to/richlitt" rel="me"><i class="icon-google-plus">
+          <a href="https://gplus.to/richlitt"><i class="icon-google-plus">
           </i>
         </a>
       </div>
