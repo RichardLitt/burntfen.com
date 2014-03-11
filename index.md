@@ -13,11 +13,6 @@ tagline:
           </i>
         </a>
       </div>
-      <!-- <div class="span1">
-          <a href="http://www.facebook.com/richard.littauer" rel="me"><i class="icon-facebook">
-          </i>
-        </a>
-      </div> -->
       <div class="span1">
           <a href="https://twitter.com/#!/richlitt" rel="me"><i class="icon-twitter">
           </i>
@@ -68,7 +63,8 @@ tagline:
         </i>
         </a>
       </div>
-      <div class="span1"></div>
+      <div class="span1">
+      </div>
     </div>
   </div>
 </div>
