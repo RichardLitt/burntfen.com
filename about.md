@@ -12,14 +12,8 @@ description: "A bout of about."
 
 ###Where God Went Wrong
 
-Hi. I'm Richard Littauer. I'm at least two things: a front-end web developer, 
-and a computational linguistics student. I currently live in Germany, although
-I travel a fair amount.
+Hi. I'm Richard Littauer. I am a front end developer, basically an AngularJS guy. I studied and researched computational linguistics in university. I live in Bushwick, Brooklyn, where I collect records and coffee mugs. I've lived in Europe for 7 years - two years in Germany and Malta, and for five years in Edinburgh, Scotland. I left Connecticut, where I grew up, when I was 17. I started an English & Classics degree in [Edinburgh Uni](http://www.ed.ac.uk/home), graduated with a degree in Linguistics, and I've ended up being a coder, anyway.
 
-I've lived in Europe for 7 years - last year in Germany and Malta, and for five years in
-Edinburgh, Scotland - since leaving Connecticut when I was 17. I started an
-English & Classics degree in [Edinburgh Uni](http://www.ed.ac.uk/home), graduated with a
-degree in Linguistics, and somehow, I've ended up being a coder, anyway. 
 This is my blog and central repository of information about what projects 
 or research I have going on at the moment. If you want a more professional 
 outlook on me, here is [my CV](/files/Littauer_CV.pdf).
@@ -30,7 +24,7 @@ other times code, and other times writing. It is very hard to keep
 track of all of my things. That is actually the
 entire reason I first made a hub-like web site - for myself, to
 keep track of the tracks I leave all over the web. Now I've combined it 
-with this blog, so I guess this is the central place to go to learn about me. 
+with this blog, so I guess this is the central place to go to learn about me. If you want to see articles that mentioned me, go to [the Press page](http://www.burntfen.com/press).
 
 You can reach this page from [rlittauer.com](http://www.rlittauer.com), [burntfen.net](http://www.burntfen.net),
 [burntfen.info](http://www.burntfen.info), [richardlitt.github.io](http://richardlitt.github.io), 
