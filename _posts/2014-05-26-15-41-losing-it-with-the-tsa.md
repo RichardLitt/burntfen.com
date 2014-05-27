@@ -27,7 +27,7 @@ The TSA officer, a woman in her late twenties, didn't blink an eye. She told me 
 
 She repeated this several times. After around two minutes of waiting, watching as people passed by me, a man in his sixties with thinning hair and probably weighing twice my weight came over. He was distantly friendly, and I followed him through the gate on the side, avoiding the Machine.
 
-He takes me through to where my bags are - two carryons and a collection or personal items - my camera, hat, iPhone, shoes, and belt.
+He takes me through to where my bags are - two carryons and a collection of personal items - my camera, hat, iPhone, shoes, and belt.
 
 > Is this everything?
 
@@ -47,7 +47,7 @@ The woman TSA officer came over again and asked if I had been patted down.
 
 In my mind, the bit of fear turned into a mountain. I wasn't just dealing with the TSA - I was dealing with straight out incompetency. I started swearing internally.
 
-He took me over to the side, and put on new latex gloves. He then proceeded to explain where he would pat me, and how - using the outside of his hands, the inside of his hands, and so on. He began to pat me down, after asking the woman if she wanted to do it (no). While I'm there, she asks if me if I had put my laptop with the other bags. I said yes. I ask if there were cameras - she nods, and said they will get to that. Meanwhile, the man finishes patting me down. It was far less invasive than I had figured, possibly because I have nothing to hide, although I did sit with these jeans on a porch where people were smoking weed last night (but this is California, and I don't smoke marijuana), and because I really had nothing to fear. I had asked for this, after all.
+He took me over to the side, and put on new latex gloves. He then proceeded to explain where he would pat me, and how - using the outside of his hands, the inside of his hands, and so on. He began to pat me down, after asking the woman if she wanted to do it (no). While I'm there, she asks me if I had put my laptop with the other bags. I said yes. I ask if there were cameras - she nods, and said they will get to that. Meanwhile, the man finishes patting me down. It was far less invasive than I had figured, possibly because I have nothing to hide, although I did sit with these jeans on a porch where people were smoking weed last night (but this is California, and I don't smoke marijuana), and because I really had nothing to fear. I had asked for this, after all.
 
 When the man is done, he bumbles over to the trays, and starts looking through all of them. I'm imagining someone holding my laptop like a child and getting onto the next flight to Kuala Lampur. I'm screwed. While I'm figuring out if I can write this off as a tax deductible insurance loss or something, I see him walk all the way to the front of the belts, and try the containers there.
 
