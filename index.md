@@ -101,12 +101,13 @@ tagline:
   <div class="row-fluid">
     <div class="span3 text-box">
       <h4>who i am</h4>
-      <p><a href="http://www.ideapod.com">ideapod</a><br />i am the front-end developer for this idea-sharing site, full time, in new york</p>
+      <p><a href="http://www.hipcamp.com">hipcamp</a><br />i am currently doing some work for this site that helps you discover and book campsites in california</p>
+      <p><a href="http://www.ideapod.com">ideapod</a><br />i am the front-end developer for this idea-sharing site</p>
     </div>
     <div class="span3 text-box">
       <h4>who else i am</h4>
       <p><a href="http://mellowpageslibrary.com">mellow pages library</a><br />i built a website for my favourite library in bushwick</p>
-      <p><a href="http://lean.burntfen.com">lean</a><br />i'm working on a task manager app in node + angular. basically, wired in v3.</p>
+     <p><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a><br />i cofounded this email list and group.</p>
     </div>
     <div class="span3 text-box">
       <br /><br />
@@ -117,7 +118,6 @@ tagline:
     <div class="span3 text-box">
       <br /><br />
       <p><a href="http://www.bushwhich.com/">bushwhich</a><br />recently completed a choose-your-own-adventure photography game around my neighborhood in brooklen</p>
-       <p><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a><br />i cofounded this email list and group.</p>
       <p><a href="http://www.sadyoungman.com">sad young man</a><br />
         says it all really</p>
     </div>
@@ -245,6 +245,7 @@ tagline:
       <p><a href="http://glossy.vansintjan.net/">glossy</a><br />my friend simon and i were working on an app for quick sharing of word lists</p>
       <p><a href="http://burntfen.net/healingwords">healing words</a><br />another project with simon to provide word and phrase lists for aid workers</p>
       <p><a href="http://wyrdin.com/">wyrd in</a><br />a realise it! sponsored project i'm leading a team on, based on <a href="https://github.com/RichardLitt/wired-in/">wired in</a>, my time keeper and task organiser project</p>
+      <p><a href="http://lean.burntfen.com">lean</a><br />a task manager app in node + angular. basically, wired in v3.</p>
       <br />
       <h4>blogs</h4>
       <p><a href="http://www.replicatedtypo.com">replicated typo</a><br />i wrote the occasional research blog here, on the evolution of culture and language.</p>
