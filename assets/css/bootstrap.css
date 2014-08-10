@@ -5212,6 +5212,9 @@ html,
 body {
   background-color: #eee;
 }
+.content { 
+  padding-bottom: 800px;
+}
 body#index {
   color: #999;
 }
@@ -5219,7 +5222,7 @@ body#index .hero-index {
   box-shadow: none !important;
 }
 body#index .wrapper {
-  background: #888888 url('../img/licata.jpg') no-repeat top;
+  background: #888888 url('../../images/wood-walkway-full.jpg') no-repeat top;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -5363,7 +5366,7 @@ h1 {
 .hero {
   padding: 40px 0 0 0;
   margin: 20px 0 0 0;
-  background: #000000 url('../img/ocean.jpg') center repeat;
+  background: #000000 url('../img/board-walk.png') center repeat;
   width: 120%;
   height: 150px;
   float: none;
@@ -5374,7 +5377,7 @@ h1 {
   margin: 20px 0px 0px 0px;
   width: 100%;
   height: 600px;
-  float: none;
+  /*float: none; */
   box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.75);
 }
 #avatar {
@@ -5420,7 +5423,7 @@ h1 {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   padding: 10 20 10 20;
-  box-shadow: inset 0 0 20px #000000;
+  /* box-shadow: inset 0 0 20px #000000; */
   filter: alpha(opacity=8);
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
