@@ -8,7 +8,7 @@ tagline:
 <div class="icons-bar">
   <div class="container-fluid">
     <div class="row-fluid">
-      <div class="span1 offset1">
+      <div class="span1 offset2">
           <a href="https://github.com/RichardLitt" rel="me"><i class="icon-github">
           </i>
         </a>
@@ -48,7 +48,7 @@ tagline:
         </i>
         </a>
       </div>
-      <div class="span1">
+<!--      <div class="span1">
         <a href="https://www.gittip.com/richlitt/"><i class="icon-gittip">
         </i>
         </a>
@@ -58,12 +58,12 @@ tagline:
         </i>
         </a>
       </div>
-<!--       <div class="span1">
+       <div class="span1">
         <a href="donate.html"><i class="icon-money">
         </i>
         </a>
       </div> -->
-      <div class="span1">
+      <div class="span2">
       </div>
     </div>
   </div>
