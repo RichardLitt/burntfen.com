@@ -167,7 +167,7 @@ tagline:
       <h5><a href="http://www.burntfen.net/themeadows.png">meadows</a></h5><p>a map of the meadows in edinburgh divided into mario characters.</p>
       <h5><a href="http://www.burntfen.net/comic/merch/">fashion</a></h5><p>i sometimes design and sell shirts, among other things</p>
       <h5><a href="http://www.edinburghcafes.com">café</a></h5><p>where i rated various cafes in edinburgh; chris scott and simon too</p>
-      <h5><a href="https://twitter.com/#!/deadguys">deadguys</a></h5><p>i tweeted when musicians died.</p>
+      <h5><a href="https://twitter.com/#!/deadguys">deadguys</a></h5><p>i tweeted when musicians died. <i>discontinued</i></p>
     </div>
   </div>
 </div>

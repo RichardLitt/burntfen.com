@@ -53,21 +53,18 @@ thousands of views.
 
 ### Twitter
 
-Continuing with conlangs, I occasionally tweet as
+I used to have multiple accounts on Twitter. Over time, I've pared them down to just the one, [@richlitt](https://www.twitter.com/richlitt). 
+
+I used to occasionally tweet as
 [@LearnValyrian](http://www.twitter.com/learnvalyrian) - however, as
-David Peterson has now made a language for the film based on Valyrian, I
-am not sure whether this will continue much longer. 
+David Peterson has now made a language for the film based on Valyrian, I've basically stopped using this.
 
-I tweet when musicians die at [@DeadGuys](https://twitter.com/DeadGuys).
-We miss a lot of dead musicians, though,
-[Simon](http://simon.vansintjan.net) and I. 
-
-I have an anonymous Twitter account that I use very regularly, to talk
-to myself. It is a great stress reliever. After the initial year's
+I used to have an anonymous Twitter account that I used very regularly, to talk
+to myself. It was a great stress reliever. After the initial year's
 challenge, again with Simon, was done, I have opened it to the public,
 but no on seems to follow it. The details are [here](http://richardlitt.github.com/projects/2012/07/01/16-34-anonymous-twitterings/).
 
-I also tweet occasionally as: [@Appril](http://www.twitter.com/Appril)
+I used to tweet as: [@Appril](http://www.twitter.com/Appril)
 for [Appril](http://www.appril.org),
 [@EM_LCT](http://www.twitter.com/EM_LCT) for my [Erasmus
 Mundus](lct-master.org) programme,
@@ -78,7 +75,7 @@ Mundus](lct-master.org) programme,
 [@LSA_CELP](http://www.twitter.com/LSA_CELP) for the
 [CELP](http://www.lsacelp.org),
 [@ideaotter](http://www.twitter.com/ideaotter) for [Idea
-Otter](http://www.ideaotter.com), and as
+Otter](http://www.ideaotter.com), @DeadGuys when musicians died (since discontinued), and as
 [@wyrdin](http://www.twitter.com/wyrdin) for my [Wired
 In](http://wyrdin.org) program. 
 
