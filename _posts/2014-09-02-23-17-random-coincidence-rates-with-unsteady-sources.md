@@ -10,7 +10,7 @@ tags: [poetry]
 
 __Random Coincidence Rates with Unsteady Sources__  
 
-Or: _A Collection of Published Paper Titles from Google Scholar by authors named R Littauer, arranged by relevance: A poem_
+Or: _A Collection of Published Paper Titles from Google Scholar by Authors Named R Littauer, Arranged by Relevance: A Poem_
 
 The air war in Indochina  
 Charged Photomesons from Various Nuclei  
