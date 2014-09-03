@@ -8,7 +8,8 @@ tags: [poetry]
 {% include JB/setup %}
 
 
-__Random Coincidence Rates with Unsteady Sources__
+__Random Coincidence Rates with Unsteady Sources__  
+
 Or: _A Collection of Published Paper Titles from Google Scholar by authors named R Littauer, arranged by relevance: A poem_
 
 The air war in Indochina  
