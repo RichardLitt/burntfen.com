@@ -108,8 +108,14 @@ tagline:
       <h5><a href="http://www.ideapod.com">ideapod</a></h5><p>
       i was the front end developer for this idea-sharing site</p>
       
+      <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
+      i am releasing a book of poetry and drawings in december</p>
+
+      <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
+      i administer a month long online hackathon of sorts in october</p>
+
       <h5><a href="http://www.bushwhich.com/">bushwhich</a></h5><p>
-      a choose-your-own-adventure photography game around my old neighborhood in brooklen</p>
+      i made a choose-your-own-adventure photography game around my old neighborhood in brooklyn</p>
       
       <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>a website i built for my favorite library in bushwick</p>
       
@@ -122,7 +128,7 @@ tagline:
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
 
-      <h5><a href="http://wyrdin.com/">wyrd in</a></h5><p>
+      <h5>wyrd in</h5><p>
       i led a team of six in an incubator building a time keeper and task organisor, based on my<a href="https://github.com/RichardLitt/wired-in/">wired in</a> prototype</p>
 
       <h5><a href="http://www.uklo.org">the u.k. linguistics olympiad</a></h5><p>i'm the webmaster and built the site (years ago) of this organisation helping thousands of school children learn linguistics</p>
@@ -225,9 +231,6 @@ tagline:
   <div class="row-fluid">
     <div class="span8 offset2 text-box">
 
-<!--       <h5><a href="http://www.octobuild.com/">octobuild</a></h5><p>
-      we're working on a month-long appathon. probably next year</p> -->
-
       <h5><a href="http://lean.burntfen.com">lean</a></h5><p>a task manager app in node + angular. basically, wired in v3.</p>
 
       <h5><a href="http://www.replicatedtypo.com">replicated typo</a></h5><p>i wrote the occasional research blog here, on the evolution of culture and language.</p>
@@ -264,8 +267,6 @@ tagline:
 
       <h5><a href="http://www.saivus.org">s.a.i.v.u.s.</a></h5><p>the society for advancing the indigenous vernaculars of the united states; i helped out with tech support.</p>
 
-      <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
-      says it all really</p>
     </div>
   </div>
 </div>
