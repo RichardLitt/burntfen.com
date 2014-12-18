@@ -109,7 +109,7 @@ tagline:
       i was the front end developer for this idea-sharing site</p>
       
       <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
-      i am releasing a book of poetry and drawings at some point</p>
+      i am working on a book of poetry and drawings</p>
 
       <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
       i administer a month long online hackathon of sorts in october</p>
