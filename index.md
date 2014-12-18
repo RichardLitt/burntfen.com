@@ -103,13 +103,13 @@ tagline:
   <div class="row-fluid">
     <div class="span8 offset2 text-box">    
       <h5><a href="http://www.hipcamp.com">hipcamp</a></h5><p>
-      i am building this site for discovering parks and booking campsites</p>
+      i worked on this site for discovering parks and booking campsites</p>
       
       <h5><a href="http://www.ideapod.com">ideapod</a></h5><p>
       i was the front end developer for this idea-sharing site</p>
       
       <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
-      i am releasing a book of poetry and drawings in december</p>
+      i am releasing a book of poetry and drawings at some point</p>
 
       <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
       i administer a month long online hackathon of sorts in october</p>
@@ -124,6 +124,10 @@ tagline:
 
       <h5><a href="http://www.ideaotter.com/">idea otter</a></h5><p>
       a site to share ideas; less ambitious than ideapod</p>
+
+      <h5><a href="http://jakinney.com/">j.a. kinney</a></h5><p>
+      i built this portfolio website for an old friend of mine, who is a pretty
+      good photographer</p>
 
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
