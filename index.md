@@ -93,6 +93,10 @@ tagline:
   </ul>
 </div>
 
+<div class="quote" id="quote" style="padding-top:80px; text-align:center;">
+	<i>The perfect way is without difficulty. Strive hard.</i>
+</div>
+
 <div class="title" id="projects">
   <i class="icon-coffee">
   </i>
