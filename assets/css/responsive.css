@@ -1154,8 +1154,16 @@
   .navbar .btn-navbar {
     margin-top: 0px;
     padding-top: 3px;
+    background: none;
+    border: none;
+    box-shadow: none;
   }
-  .navbar .btn-navbar .icon-bar {
+  .navbar .btn-navbar:hover, .navbar .btn-navbar:active {
+    box-shadow: none;
+    background: none;
+    border: none;
+  }
+  .navbar .btn-navbar .icons-bar {
     background-color: red;
   }
   .icons-bar {

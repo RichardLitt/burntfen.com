@@ -9,60 +9,50 @@ tagline:
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span1 offset2">
-          <a href="https://github.com/RichardLitt" rel="me"><i class="icon-github">
+          <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="https://twitter.com/#!/richlitt" rel="me"><i class="icon-twitter">
+          <a href="https://twitter.com/#!/richlitt" rel="me"><i class="fa fa-twitter">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="https://gplus.to/richlitt"><i class="icon-google-plus">
+          <a href="https://gplus.to/richlitt"><i class="fa fa-google-plus">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://richfenne.tumblr.com"><i class="icon-tumblr">
+          <a href="http://richfenne.tumblr.com"><i class="fa fa-tumblr">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://uk.linkedin.com/pub/richard-littauer/29/576/197"><i class="icon-linkedin">
+          <a href="http://uk.linkedin.com/pub/richard-littauer/29/576/197"><i class="fa fa-linkedin">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://www.youtube.com/user/Rich0Fenn"><i class="icon-youtube">
+          <a href="http://www.youtube.com/user/Rich0Fenn"><i class="fa fa-youtube">
           </i>
         </a>
       </div>
       <div class="span1">
-          <a href="http://stackoverflow.com/users/1166929/richlitt"><i class="icon-stackexchange">
+          <a href="http://stackoverflow.com/users/1166929/richlitt"><i class="fa fa-stack-exchange">
           </i>
         </a>
       </div>
       <div class="span1">
-        <a href="http://www.flickr.com/photos/101526362@N04/"><i class="icon-flickr">
-        </i>
-        </a>
-      </div>
-<!--      <div class="span1">
-        <a href="https://www.gittip.com/richlitt/"><i class="icon-gittip">
+        <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr">
         </i>
         </a>
       </div>
       <div class="span1">
-        <a href="donate.html"><i class="icon-bitcoin">
+        <a href="http://www.last.fm/user/RichardFenn"><i class="fa fa-lastfm">
         </i>
         </a>
       </div>
-       <div class="span1">
-        <a href="donate.html"><i class="icon-money">
-        </i>
-        </a>
-      </div> -->
       <div class="span2">
       </div>
     </div>
@@ -71,7 +61,7 @@ tagline:
 
 <!-- 
 <div class="title" >
-  <i class="icon-keyboard">
+  <i class="fa fa-keyboard">
   </i>
   Recent Posts
 </div> 
@@ -98,7 +88,7 @@ tagline:
 </div>
 
 <div class="title" id="projects">
-  <i class="icon-coffee">
+  <i class="fa fa-coffee">
   </i>
   Projects
 </div> 
@@ -161,7 +151,7 @@ tagline:
 
 
 <div class="title" id="art">
-  <i class="icon-camera-retro">
+  <i class="fa fa-camera-retro">
   </i>
   Art
 </div> 
@@ -187,7 +177,7 @@ tagline:
 </div>
 
 <div class="title" id="linguistics">
-  <i class="icon-book">
+  <i class="fa fa-book">
   </i>
   Academia
 </div> 
@@ -230,7 +220,7 @@ tagline:
 -->
 
 <div class="title" id="fossils">
-  <i class="icon-beer">
+  <i class="fa fa-beer">
   </i>
   More Projects
 </div> 
