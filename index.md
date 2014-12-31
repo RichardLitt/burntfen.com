@@ -95,7 +95,11 @@ tagline:
 
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="span8 offset2 text-box">    
+    <div class="span8 offset2 text-box">
+
+      <h5><a href="https://www.github.com/BeagleLab/voyage">beagle</a></h5><p>
+      i work on beagle, building a scientific nagivator for research as a chrome extension, for m.i.t.</p>
+
       <h5><a href="http://www.hipcamp.com">hipcamp</a></h5><p>
       i worked on this site for discovering parks and booking campsites</p>
       
