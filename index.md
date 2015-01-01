@@ -100,12 +100,6 @@ tagline:
       <h5><a href="https://www.github.com/BeagleLab/voyage">beagle</a></h5><p>
       i work on beagle, building a scientific nagivator for research as a chrome extension, for m.i.t.</p>
 
-      <h5><a href="http://www.hipcamp.com">hipcamp</a></h5><p>
-      i worked on this site for discovering parks and booking campsites</p>
-      
-      <h5><a href="http://www.ideapod.com">ideapod</a></h5><p>
-      i was the front end developer for this idea-sharing site</p>
-      
       <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
       i am working on a book of poetry and drawings</p>
 
@@ -114,11 +108,17 @@ tagline:
 
       <h5><a href="http://www.bushwhich.com/">bushwhich</a></h5><p>
       i made a choose-your-own-adventure photography game around my old neighborhood in brooklyn</p>
-      
+
       <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>a website i built for my favorite library in bushwick</p>
       
       <h5><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a></h5><p>
       i cofounded this email list and group.</p>
+
+      <h5><a href="http://www.hipcamp.com">hipcamp</a></h5><p>
+      i worked on this site for discovering parks and booking campsites</p>
+      
+      <h5><a href="http://www.ideapod.com">ideapod</a></h5><p>
+      i was the front end developer for this idea-sharing site</p>
 
       <h5><a href="http://www.ideaotter.com/">idea otter</a></h5><p>
       a site to share ideas; less ambitious than ideapod</p>
@@ -130,8 +130,8 @@ tagline:
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
 
-      <h5>wyrd in</h5><p>
-      i led a team of six in an incubator building a time keeper and task organisor, based on my<a href="https://github.com/RichardLitt/wired-in/">wired in</a> prototype</p>
+      <h5><a href="https://github.com/RichardLitt/wired-in/">wyrd in</a></h5><p>
+      i led a team of six in an incubator building a time keeper and task organisor, based on my prototype</p>
 
       <h5><a href="http://www.uklo.org">the u.k. linguistics olympiad</a></h5><p>i'm the webmaster and built the site (years ago) of this organisation helping thousands of school children learn linguistics</p>
 
