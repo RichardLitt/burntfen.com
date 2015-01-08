@@ -29,11 +29,6 @@ tagline:
         </a>
       </div>
       <div class="span1">
-          <a href="http://uk.linkedin.com/pub/richard-littauer/29/576/197"><i class="fa fa-linkedin">
-          </i>
-        </a>
-      </div>
-      <div class="span1">
           <a href="http://www.youtube.com/user/Rich0Fenn"><i class="fa fa-youtube">
           </i>
         </a>
