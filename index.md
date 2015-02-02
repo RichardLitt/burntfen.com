@@ -125,9 +125,6 @@ tagline:
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
 
-      <h5><a href="http://www.linguisticsociety.org/about/who-we-are/committees/endangered-languages-and-their-preservation-celp">c.e.l.p.</a></h5><p>
-      i am an active member of the committee for endangered language preservation in the linguistics society of america</p>
-
       <h5><a href="http://www.uklo.org">the u.k. linguistics olympiad</a></h5><p>i'm the webmaster and built the site (years ago) of this organisation helping thousands of school children learn linguistics</p>
 
       <h5><a href="https://github.com/RichardLitt/wired-in/">wyrd in</a></h5><p>
