@@ -89,10 +89,10 @@ tagline:
     <div class="span8 offset2 text-box">
 
       <h5><a href="https://www.github.com/BeagleLab/voyage">beagle</a></h5><p>
-      i work on beagle, building a scientific nagivator for research as a chrome extension, for m.i.t.</p>
+      i work on beagle, building a scientific nagivator for research as a chrome extension, for m.i.t</p>
 
       <h5><a href="http://theuserisdrunk.com">the user is drunk</a></h5><p>
-      i occasionally review websites from a ux perspective. i haven't done this one yet.</p>
+      i occasionally review websites from a ux perspective. i haven't done this one yet</p>
 
       <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
       i am working on a book of poetry and drawings</p>
@@ -106,7 +106,7 @@ tagline:
       <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>a website i built for my favorite library in bushwick</p>
       
       <h5><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a></h5><p>
-      i cofounded this email list and group.</p>
+      i cofounded this email list and group</p>
 
       <h5><a href="http://www.hipcamp.com">hipcamp</a></h5><p>
       i worked on this site for discovering parks and booking campsites</p>
@@ -129,20 +129,21 @@ tagline:
       <h5><a href="https://github.com/RichardLitt/wired-in/">wyrd in</a></h5><p>
       i led a team of six in an incubator building a time keeper and task organisor, based on my prototype</p>
 
-      <h5><a href="http://www.learnnavi.org">na'vi</a></h5><p>as 'taronyu', i created the definitive na'vi dictionary for the language from the movie avatar, used by 5000 regular users. i still technically function as an admin of the largest na'vi site in the world.</p>
+      <h5><a href="http://www.learnnavi.org">na'vi</a></h5><p>as 'taronyu', i created the definitive na'vi dictionary for the language from the movie avatar, used by 5000 regular users. i still technically function as an admin of the largest na'vi site in the world</p>
 
       <h5><a href="http://www.dothraki.org">dothraki</a></h5><p>as 'lajaki', i started up the fanbase for david peterson's language, based off of g.r.r. martin's books, now an h.b.o. series</p>
 
       <h5><a href="http://langsoc.eusa.ed.ac.uk">langsoc</a></h5><p> the edinburgh university linguistics and english language society: i started it up again, and was president and webmaster</p>
 
       <h5><a href="http://em-a.eu/">erasmus mundus</a></h5><p>
-      i was the representative for the  language and communication technologies masters course in seven countries, and was a student in germany and malta.</p>
+      i was the representative for the  language and communication technologies masters course in seven countries, and was a student in germany and malta</p>
 
       <h5><a href="http://thelifeemphatic.com">the life emphatic</a></h5><p>
       i built this site to chronicle my ownership and mediterranean voyage of my 25' yacht, maya</p>
 
-      <h5><a href="http://www.burntfen.net/comic/index.html">webcomic</a></h5><p>my old burnt fen comic, which i kept going for around two years. very depressing at times.</p>
+      <h5><a href="http://www.burntfen.net/comic/index.html">webcomic</a></h5><p>my old burnt fen comic, which i kept going for around two years. very depressing at times</p>
 
+      <h5><a href="http://www.edinburghcafes.com">café</a></h5><p>where i rated various cafes in edinburgh; chris scott and simon too</p>
     </div>
   </div>
 </div>
@@ -160,17 +161,19 @@ tagline:
       <h5><a href="heraclitus/">heraclitus</a></h5>
       <p>fragments of heraclitus spoken word story-telling project</p>
       <h5><a href="http://soundcloud.com/marsalfornication">marsalifornication</a></h5>
-      <p>my band from malta, with jan joachimsen and daan henselmans.</p>
+      <p>my band from malta, with jan joachimsen and daan henselmans</p>
       <h5><a href="categories.html#poetry-ref">poetry</a></h5><p>i blog my new poems here, for the moment</p>
       <h5><a href="http://www.burntfen.net/poetry">older poetry</a></h5><p>some poetry i am not entirely ashamed of</p>
       <h5><a href="http://www.burntfen.net/prose">prose</a></h5><p>some old prose pieces of mine</p>
       <h5><a href="http://soundcloud.com/richard-littauer">spoken</a></h5>
-      <p>my spoken word poems and some songs.</p>
-      <h5><a href="http://www.burntfen.net/themeadows.png">meadows</a></h5><p>a map of the meadows in edinburgh divided into mario characters. goes viral every spring.</p>
+      <p>my spoken word poems and some songs</p>
+      <h5><a href="http://www.burntfen.net/themeadows.png">meadows</a></h5><p>a map of the meadows in edinburgh divided into mario characters. goes viral every spring</p>
       <h5><a href="http://www.burntfen.net/comic/merch/">fashion</a></h5><p>i sometimes design and sell shirts, among other things</p>
       <h5><a href="http://code-poems.com">code poems</a></h5><p>i have a couple of poems in this book of code poetry</p>
-      <h5><a href="http://www.edinburghcafes.com">café</a></h5><p>where i rated various cafes in edinburgh; chris scott and simon too</p>
-      <h5><a href="https://twitter.com/#!/deadguys">deadguys</a></h5><p>i tweeted when musicians died. <i>discontinued</i></p>
+      <h5><a href="https://twitter.com/#!/deadguys">deadguys</a></h5><p>i tweeted when musicians died <i>discontinued</i></p>
+      <h5><a href="http://www.redbubble.com/people/richardlitt">t-shirt designs</a></h5><p>i design and sell t-shirts</p>
+      <h5><a href="https://github.com/RichardLitt/the-new-field">the new field</a></h5><p>an attempt at collaborative storytelling on github</p>
+      <h5><a href="http://www.chaos-mag.com/">chaos magazine</a></h5><p>i wrote a couple of art reviews for this fashion magazine</p>
     </div>
   </div>
 </div>
@@ -191,9 +194,19 @@ tagline:
 
     <h5><a href="http://linguistics.okfn.org/">open linguistics</a></h5><p>i'm a member of this working group, part of the open knowledge foundation</p>
 
-    <h5><a href="http://lsacelp.org/">c.e.l.p.</a></h5><p>the linguistics society of america committee for endangered languages and their preservation; i helped set this page up.</p>
+    <h5><a href="http://lsacelp.org/">c.e.l.p.</a></h5><p>the linguistics society of america committee for endangered languages and their preservation; i helped set this page up</p>
 
     <h5><a href="https://lsadc.org/">c.o.s.i.a.c.</a></h5><p>the linguistics society of america committee on student issues and concerns: webmaster</p>
+
+    <h5><a href="http://ela.eusa.ed.ac.uk">e.l.a.</a></h5><p>the edinburgh language ambassadors promote multilingualism in scotland; i built their website, back when i used wordpress</p>
+
+    <h5><a href="http://www.clie.org.uk">the committee for linguistics in education</a></h5><p>promoting linguistics in schools</p>
+
+    <h5><a href="http://www.language-alliance.org.uk">the language alliance</a></h5><p>promoting linguistics in the uk</p>
+
+    <h5><a href="http://www.lagb.org.uk/">l.a.g.b.s.c.</a></h5><p>the linguistics association of great britain: i was on the student committee</p>
+
+    <h5><a href="http://www.coli.uni-saarland.de/fs-coli/Main/HomePage">fachschaft</a></h5><p>i was a member of the student committee in saarbrücken</p>
   </div>
 </div>
 
@@ -207,49 +220,35 @@ tagline:
   <div class="row-fluid">
     <div class="span8 offset2 text-box">
 
-      <h5><a href="http://lean.burntfen.com">lean</a></h5><p>a task manager app in node + angular. basically, wired in v3.</p>
+      <h5><a href="http://lean.burntfen.com">lean</a></h5><p>a task manager app in node + angular. basically, wired in v3</p>
 
-      <h5><a href="http://www.replicatedtypo.com">replicated typo</a></h5><p>i wrote the occasional research blog here, on the evolution of culture and language.</p>
+      <h5><a href="http://www.replicatedtypo.com">replicated typo</a></h5><p>i wrote the occasional research blog here, on the evolution of culture and language</p>
 
-      <h5><a href="http://llama.conlang.org">llárriésh</a></h5><p>my old conlanging site, where i talk about my involvement with na'vi, dothraki, and my language, llárriésh.</p>
+      <h5><a href="http://llama.conlang.org">llárriésh</a></h5><p>my old conlanging site, where i talk about my involvement with na'vi, dothraki, and my language, llárriésh</p>
 
-      <h5><a href="https://twitter.com/#!/learnvalyrian">valyrian</a></h5><p>a twitter to build hype for valyrian, also from game of thrones, before david peterson created it.</p>
+      <h5><a href="https://twitter.com/#!/learnvalyrian">valyrian</a></h5><p>a twitter to build hype for valyrian, also from game of thrones, before david peterson created it</p>
 
-      <h5><a href="http://conlang.org">language creation society</a></h5><p>a professional conlanging association; i served on the board of directors as an advisor.</p>
+      <h5><a href="http://conlang.org">language creation society</a></h5><p>a professional conlanging association; i served on the board of directors as an advisor</p>
 
-      <h5><a href="https://github.com/RichardLitt/keypuk-ninavi">keypuk nìna'vi</a></h5><p>a community project i spearheaded translating facebook into na'vi.</p>
+      <h5><a href="https://github.com/RichardLitt/keypuk-ninavi">keypuk nìna'vi</a></h5><p>a community project i spearheaded translating facebook into na'vi</p>
 
-      <h5><a href="http://learnnavi.org/media">garmin</a></h5><p>i recorded a gps language interface for garmin in na'vi.</p>
+      <h5><a href="http://learnnavi.org/media">garmin</a></h5><p>i recorded a gps language interface for garmin in na'vi</p>
 
-      <h5><a href="https://www.youtube.com/user/LearnDothraki">learn dothraki youtube</a></h5><p>i had a youtube channel with thousands of views about dothraki.</p>
+      <h5><a href="https://www.youtube.com/user/LearnDothraki">learn dothraki youtube</a></h5><p>i had a youtube channel with thousands of views about dothraki</p>
 
-      <h5><a href="http://www.redbubble.com/people/richardlitt">t-shirt designs</a></h5><p>i design and sell t-shirts.</p>
 
-      <h5><a href="https://github.com/RichardLitt/the-new-field">the new field</a></h5><p>an attempt at collaborative storytelling on github.</p>
+      <h5><a href="http://www.sailingschoolmalta.com/">sailing school malta</a></h5><p> i made this website for a friend of mine in malta. it's pretty hacky</p>
 
-      <h5><a href="http://ela.eusa.ed.ac.uk">e.l.a.</a></h5><p>the edinburgh language ambassadors promote multilingualism in scotland; i built their website, back when i used wordpress. </p>
+      <h5><a href="http://www.tigatag.com/home/">tigatag</a></h5><p>i wrote stuff for this web app company sometimes</p>
 
-      <h5><a href="http://www.clie.org.uk">the committee for linguistics in education</a></h5><p>promoting linguistics in schools.</p>
+      <h5><a href="http://glossy.vansintjan.net/">glossy</a></h5><p>my friend simon and i were working on an app for quick sharing of word lists</p>
 
-      <h5><a href="http://www.language-alliance.org.uk">the language alliance</a></h5><p>promoting linguistics in the uk.</p>
+      <h5><a href="http://burntfen.net/healingwords">healing words</a></h5><p>another project with simon to provide word and phrase lists for aid workers</p>
 
-      <h5><a href="http://www.sailingschoolmalta.com/">sailing school malta</a></h5><p> i made this website for a friend of mine in malta. it's pretty hacky.</p>
+      <h5><a href="http://clojurelx.blogspot.com/">clojurelx</a></h5><p>i explained why clojure is great for linguists</p>
 
-      <h5><a href="http://www.tigatag.com/home/">tigatag</a></h5><p>i wrote stuff for this web app company sometimes.</p>
 
-      <h5><a href="http://glossy.vansintjan.net/">glossy</a></h5><p>my friend simon and i were working on an app for quick sharing of word lists.</p>
-
-      <h5><a href="http://burntfen.net/healingwords">healing words</a></h5><p>another project with simon to provide word and phrase lists for aid workers.</p>
-
-      <h5><a href="http://clojurelx.blogspot.com/">clojurelx</a></h5><p>i explained why clojure is great for linguists.</p>
-
-      <h5><a href="http://www.chaos-mag.com/">chaos magazine</a></h5><p>i wrote a couple of art reviews for this fashion magazine.</p>
-
-      <h5><a href="http://www.lagb.org.uk/">l.a.g.b.s.c.</a></h5><p>the linguistics association of great britain: i was on the student committee.</p>
-
-      <h5><a href="http://www.coli.uni-saarland.de/fs-coli/Main/HomePage">fachschaft</a></h5><p>i was a member of the student committee in saarbrücken.</p>
-
-      <h5><a href="https://github.com/RichardLitt/clarin/tree/master/wordnet_tagger">wordnet tagger</a></h5><p>a wordnet .xml and cqp tagger i made while an intern for clarin-d.</p>
+      <h5><a href="https://github.com/RichardLitt/clarin/tree/master/wordnet_tagger">wordnet tagger</a></h5><p>a wordnet .xml and cqp tagger i made while an intern for clarin-d</p>
 
     </div>
   </div>
