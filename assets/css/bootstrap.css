@@ -5400,7 +5400,8 @@ h1 {
   font-weight: 300;
   line-height: 20px;
   letter-spacing: -1px;
-  margin: 20px auto 25%;
+  margin: 20px auto;
+  text-align: center;
   color: #099;
   padding: 10px 100px 3px 100px;
   border-bottom: 3px double #099;
