@@ -1120,6 +1120,12 @@
     width: 200px;
     text-align: center;
     margin: 50px auto;
+    padding: 10px 0px;
+
+  }
+  .title {
+    margin: 50px 0px;
+    text-align: center;
   }
   .posts-title {
     font-size: 15px;
