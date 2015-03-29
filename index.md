@@ -54,14 +54,6 @@ tagline:
   </div>
 </div>
 
-<!-- 
-<div class="title" >
-  <i class="fa fa-keyboard">
-  </i>
-  Recent Posts
-</div> 
- -->
-
 <div class="hidden-phone" id="blog-posts">
   <ul class="posts">
     {% for post in site.posts limit:15 %}
