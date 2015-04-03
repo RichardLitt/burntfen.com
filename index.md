@@ -86,17 +86,17 @@ tagline:
       <h5><a href="http://theuserisdrunk.com">the user is drunk</a></h5><p>
       i occasionally review websites from a ux perspective. i haven't done this one yet</p>
 
-      <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
-      i am working on a book of poetry and drawings</p>
-
       <h5><a href="http://nodeschool.io/bali/">nodeschool</a></h5><p>
       i coorganized the first nodeschool for teaching nodejs in bali, and have mentored nodeschool and nodesummit workshops in san francisco</p>
 
-      <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
-      i administer a month long online hackathon of sorts in october</p>
-
       <h5><a href="http://www.bushwhich.com/">bushwhich</a></h5><p>
       i made a choose-your-own-adventure photography game around my old neighborhood in brooklyn</p>
+
+      <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
+      i am working on a book of poetry and drawings</p>
+
+      <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
+      i administer a month long online hackathon of sorts in october</p>
 
       <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>
       a website i built for my favorite library in bushwick</p>
