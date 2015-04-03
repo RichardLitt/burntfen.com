@@ -89,6 +89,9 @@ tagline:
       <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
       i am working on a book of poetry and drawings</p>
 
+      <h5><a href="http://nodeschool.io/bali/">nodeschool</a></h5><p>
+      i coorganized the first nodeschool for teaching nodejs in bali, and have mentored nodeschool and nodesummit workshops in san francisco</p>
+
       <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
       i administer a month long online hackathon of sorts in october</p>
 
