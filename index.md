@@ -8,7 +8,7 @@ tagline:
 <div class="icons-bar">
   <div class="container-fluid">
     <div class="row-fluid">
-      <div class="span1 offset2">
+      <div class="span1 offset3">
           <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github">
           </i>
         </a>
@@ -19,12 +19,7 @@ tagline:
         </a>
       </div>
       <div class="span1">
-          <a href="https://gplus.to/richlitt"><i class="fa fa-google-plus">
-          </i>
-        </a>
-      </div>
-      <div class="span1">
-          <a href="http://richfenne.tumblr.com"><i class="fa fa-tumblr">
+          <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram">
           </i>
         </a>
       </div>
@@ -33,11 +28,16 @@ tagline:
           </i>
         </a>
       </div>
-      <div class="span1">
+<!--       <div class="span1">
+          <a href="http://richfenne.tumblr.com"><i class="fa fa-tumblr">
+          </i>
+        </a>
+      </div> -->
+<!--       <div class="span1">
           <a href="http://stackoverflow.com/users/1166929/richlitt"><i class="fa fa-stack-exchange">
           </i>
         </a>
-      </div>
+      </div> -->
       <div class="span1">
         <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr">
         </i>
@@ -48,8 +48,8 @@ tagline:
         </i>
         </a>
       </div>
-      <div class="span2">
-      </div>
+<!--       <div class="span4">
+      </div> -->
     </div>
   </div>
 </div>
