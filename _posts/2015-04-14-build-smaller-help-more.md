@@ -8,6 +8,8 @@ date: 2015-04-14-12-45
 ---
 {% include JB/setup %}
 
+_This post was also published [on Medium](https://medium.com/@richlitt/build-smaller-help-more-7101d9933b4f)._
+
 Before I left San Francisco, I saw some graffiti in the Mission which said ‘There are no local tech workers.’ As a web developer, I resonated with that; I often feel disconnected from my community, as I build things for a global audience. I'm also a digital nomad. I haven't lived anywhere longer than a year for the past decade. It's hard to feel connected when I don't have a home to go back to. 
 
 Last week, while traveling in Bali, I realized being disconnected is a conscious choice, and I can change it. I didn't realize this in the middle of a massage, or from a wise old man, or from acting out _Eat Pray Love_. The epiphany occurred in my ride to the airport, with my taxi driver, Nyoman. 
