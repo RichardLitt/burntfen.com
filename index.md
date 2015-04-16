@@ -23,11 +23,17 @@ tagline:
           </i>
         </a>
       </div>
-      <div class="span1">
+<!--       <div class="span1">
           <a href="http://www.youtube.com/user/Rich0Fenn"><i class="fa fa-youtube">
           </i>
         </a>
+      </div> -->
+      <div class="span1">
+          <a href="https://dribbble.com/richlitt"><i class="fa fa-dribbble">
+          </i>
+        </a>
       </div>
+
 <!--       <div class="span1">
           <a href="http://richfenne.tumblr.com"><i class="fa fa-tumblr">
           </i>
