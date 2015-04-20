@@ -101,6 +101,9 @@ tagline:
       <h5><a href="http://www.sadyoungman.com">sad young man</a></h5><p>
       i am working on a book of poetry and drawings</p>
 
+      <h5><a href="http://theuserismymom.com">the user is my mom</a></h5><p>
+      my friend scotty's mom reviews your websites for you. set up as a prospective clone of the user is drunk.</p>
+
       <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
       i administer a month long online hackathon of sorts in october</p>
 
@@ -117,10 +120,10 @@ tagline:
       i was the front end developer for this idea-sharing site</p>
 
       <h5><a href="http://www.ideaotter.com/">idea otter</a></h5><p>
-      a site to share ideas; less ambitious than ideapod</p>
+      simong vansintjan (mostly) and i built this site to share ideas; less ambitious than ideapod</p>
 
       <h5><a href="http://jakinney.com/">j.a. kinney</a></h5><p>
-      i built this portfolio website for an old friend of mine, who is a really good photographer</p>
+      a portfolio website i built for an old friend of mine, who is a really good photographer</p>
 
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
@@ -151,6 +154,35 @@ tagline:
 
       <h5><a href="http://www.edinburghcafes.com">café</a></h5><p>
       i rated various cafes in edinburgh for their wifi and coffee; along with chris scott and simon vansintjan</p>
+
+      <h5><a href="http://www.replicatedtypo.com">replicated typo</a></h5><p>i wrote the occasional research blog here, on the evolution of culture and language</p>
+
+      <h5><a href="http://llama.conlang.org">llárriésh</a></h5><p>my old conlanging site, where i talk about my involvement with na'vi, dothraki, and my language, llárriésh</p>
+
+      <h5><a href="https://twitter.com/#!/learnvalyrian">valyrian</a></h5><p>a twitter to build hype for valyrian, also from game of thrones, before david peterson created it</p>
+
+      <h5><a href="http://conlang.org">language creation society</a></h5><p>a professional conlanging association; i served on the board of directors as an advisor</p>
+
+      <h5><a href="https://github.com/RichardLitt/keypuk-ninavi">keypuk nìna'vi</a></h5><p>a community project i spearheaded translating facebook into na'vi</p>
+
+      <h5><a href="http://learnnavi.org/media">garmin</a></h5><p>i recorded a gps language interface for garmin in na'vi</p>
+
+      <h5><a href="https://www.youtube.com/user/LearnDothraki">learn dothraki youtube</a></h5><p>i had a youtube channel with thousands of views about dothraki</p>
+
+<!--       <h5><a href="http://www.sailingschoolmalta.com/">sailing school malta</a></h5><p> i made this website for a friend of mine in malta. it's pretty hacky</p>
+
+      <h5><a href="http://clojurelx.blogspot.com/">clojurelx</a></h5><p>zoltan varju and i explained why clojure is great for linguists</p>
+
+      <h5><a href="http://www.tigatag.com/home/">tigatag</a></h5><p>i wrote stuff for this web app company sometimes</p>
+
+      <h5><a href="http://glossy.vansintjan.net/">glossy</a></h5><p>my friend simon and i were working on an app for quick sharing of word lists</p>
+      <h5><a href="http://burntfen.net/healingwords">healing words</a></h5><p>another project with simon to provide word and phrase lists for aid workers</p>
+
+      <h5><a href="https://github.com/RichardLitt/clarin/tree/master/wordnet_tagger">wordnet tagger</a></h5><p>a wordnet .xml and cqp tagger i made while an intern for clarin-d</p>
+
+      <h5><a href="http://lean.burntfen.com">lean</a></h5><p>a task manager app in node + angular. basically, wired in v3</p> -->
+
+
     </div>
   </div>
 </div>
@@ -206,33 +238,3 @@ tagline:
     <h5><a href="http://www.coli.uni-saarland.de/fs-coli/Main/HomePage">fachschaft</a></h5><p>i was a member of the student committee in saarbrücken</p>
   </div>
 </div>
-
-<div class="title" id="fossils">
-  <i class="fa fa-beer">
-  </i>
-  More Projects
-</div> 
-
-<div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span8 offset2 text-box">
-
-      <h5><a href="http://lean.burntfen.com">lean</a></h5><p>a task manager app in node + angular. basically, wired in v3</p>
-      <h5><a href="http://www.replicatedtypo.com">replicated typo</a></h5><p>i wrote the occasional research blog here, on the evolution of culture and language</p>
-      <h5><a href="http://llama.conlang.org">llárriésh</a></h5><p>my old conlanging site, where i talk about my involvement with na'vi, dothraki, and my language, llárriésh</p>
-      <h5><a href="https://twitter.com/#!/learnvalyrian">valyrian</a></h5><p>a twitter to build hype for valyrian, also from game of thrones, before david peterson created it</p>
-      <h5><a href="http://conlang.org">language creation society</a></h5><p>a professional conlanging association; i served on the board of directors as an advisor</p>
-      <h5><a href="https://github.com/RichardLitt/keypuk-ninavi">keypuk nìna'vi</a></h5><p>a community project i spearheaded translating facebook into na'vi</p>
-      <h5><a href="http://learnnavi.org/media">garmin</a></h5><p>i recorded a gps language interface for garmin in na'vi</p>
-      <h5><a href="https://www.youtube.com/user/LearnDothraki">learn dothraki youtube</a></h5><p>i had a youtube channel with thousands of views about dothraki</p>
-      <h5><a href="http://www.sailingschoolmalta.com/">sailing school malta</a></h5><p> i made this website for a friend of mine in malta. it's pretty hacky</p>
-      <h5><a href="http://www.tigatag.com/home/">tigatag</a></h5><p>i wrote stuff for this web app company sometimes</p>
-      <h5><a href="http://glossy.vansintjan.net/">glossy</a></h5><p>my friend simon and i were working on an app for quick sharing of word lists</p>
-      <h5><a href="http://burntfen.net/healingwords">healing words</a></h5><p>another project with simon to provide word and phrase lists for aid workers</p>
-      <h5><a href="http://clojurelx.blogspot.com/">clojurelx</a></h5><p>i explained why clojure is great for linguists</p>
-      <h5><a href="https://github.com/RichardLitt/clarin/tree/master/wordnet_tagger">wordnet tagger</a></h5><p>a wordnet .xml and cqp tagger i made while an intern for clarin-d</p>
-
-    </div>
-  </div>
-</div>
-
