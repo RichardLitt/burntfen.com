@@ -92,8 +92,8 @@ tagline:
       <h5><a href="http://theuserisdrunk.com">the user is drunk</a></h5><p>
       i occasionally review websites from a ux perspective. i haven't done this one yet</p>
 
-      <h5><a href="http://nodeschool.io/bali/">nodeschool</a></h5><p>
-      i coorganized the first nodeschool for teaching nodejs in bali, and have mentored nodeschool and nodesummit workshops in san francisco</p>
+      <h5><a href="http://nodeschool.io">nodeschool</a></h5><p>
+      i am organizing the first nodeschool in <a href="http://nodeschool.io/chiang-mai/">chiang mai</a>, coorganized the first nodeschool in <a href="http://nodeschool.io/bali/">bali</a>, and have mentored nodeschool and nodesummit workshops in <a href="http://nodeschool.io/sanfrancisco">san francisco</a></p>
 
       <h5><a href="http://www.bushwhich.com/">bushwhich</a></h5><p>
       i made a choose-your-own-adventure photography game around my old neighborhood in brooklyn</p>
