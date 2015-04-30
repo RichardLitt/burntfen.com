@@ -12,26 +12,7 @@ While building [beagle](https://github.com/BeagleLab/beagle), I've tried to modu
 
 This was a smart move at the time, but it has become increasingly clear that there must be a better way. What this did was require every developer working on the platform to symlink two other git repositories into their `node_modules` folder. I made a shell script to help do this:
 
-```
-    cd ..  
-    printf 'cd to' && pwd  
-    echo 'Cloning BeagleLab/beagle-style'  
-    git clone git@github.com:BeagleLab/beagle-style.git  
-    cd beagle-style   
-    echo 'Installing modules...'  
-    npm install  
-    cd ..  
-    echo 'Cloning BeagleLab/beagle-pdf'  
-    git clone git@github.com:BeagleLab/beagle-pdf.git  
-    cd beagle-pdf  
-    echo 'Installing modules...'  
-    npm install   
-    echo 'Set up symlinks...'  
-    cd ../beagle/node_modules  
-    printf 'cd to' && pwd  
-    ln -s ../../beagle-style  
-    ln -s ../../beagle-pdf  
-```
+<script src="https://gist.github.com/RichardLitt/d668e99f9566dcf386fb.js"></script>
 
 Sure, this is one way to do it. But this means requiring every developer to run this symlink, which is a major barrier to installaton and debugging for people who aren't interested in the entire app, but just want to test it. Further, this goes against the idea of modularity. If I have to have two connected modules, at all times, and they can't be unplugged - than why am I making two modules at all? 
 
