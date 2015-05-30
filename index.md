@@ -106,6 +106,9 @@ tagline:
       <h5><a href="http://nodeschool.io">nodeschool</a></h5><p>
       i organized the first nodeschool in <a href="http://nodeschool.io/chiang-mai/">chiang mai</a>, coorganized the first nodeschool in <a href="http://nodeschool.io/bali/">bali</a>, and have mentored nodeschool and nodesummit workshops in <a href="http://nodeschool.io/sanfrancisco">san francisco</a></p>
 
+      <h5><a href="http://osprotocol.com">os protocol</a></h5><p>
+      i created a protocol for sharing where your website is hosted</p>
+
       <h5><a href="http://www.bushwhich.com/">bushwhich</a></h5><p>
       i made a choose-your-own-adventure photography game around my old neighborhood in brooklyn</p>
 
