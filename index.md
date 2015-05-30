@@ -8,7 +8,7 @@ tagline:
 <div class="icons-bar">
   <div class="container-fluid">
     <div class="row-fluid">
-      <div class="span1 offset3">
+      <div class="span1 offset2">
           <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github">
           </i>
         </a>
