@@ -120,7 +120,7 @@ tagline:
       i was the front end developer for this idea-sharing site</p>
 
       <h5><a href="http://www.ideaotter.com/">idea otter</a></h5><p>
-      simong vansintjan (mostly) and i built this site to share ideas; less ambitious than ideapod</p>
+      simon vansintjan (mostly) and i built this site to share ideas; less ambitious than ideapod</p>
 
       <h5><a href="http://jakinney.com/">j.a. kinney</a></h5><p>
       a portfolio website i built for an old friend of mine, who is a really good photographer</p>
