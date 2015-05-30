@@ -19,6 +19,11 @@ tagline:
         </a>
       </div>
       <div class="span1">
+          <a href="https://medium.com/@richlitt"><i class="fa fa-medium">
+          </i>
+        </a>
+      </div>
+      <div class="span1">
           <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram">
           </i>
         </a>
@@ -58,6 +63,12 @@ tagline:
       </div> -->
     </div>
   </div>
+</div>
+
+<div class="title" id="projects" style="text-align: center; margin: 20px 0px 50px;">
+  <i class="fa fa-keyboard-o">
+  </i>
+  Blog
 </div>
 
 <div class="hidden-phone" id="blog-posts">
