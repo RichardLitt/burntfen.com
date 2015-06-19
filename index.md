@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Richard's Bog
-tagline: 
+tagline:
 ---
 {% include JB/setup %}
 
@@ -91,7 +91,7 @@ tagline:
   <i class="fa fa-coffee">
   </i>
   Projects
-</div> 
+</div>
 
 <div class="container-fluid">
   <div class="row-fluid">
@@ -118,18 +118,21 @@ tagline:
       <h5><a href="http://theuserismymom.com">the user is my mom</a></h5><p>
       my friend scotty's mom reviews your websites for you. set up as a prospective clone of the user is drunk.</p>
 
+      <h5><a href="http://iswindsofwinteroutyet.com">is winds of winter out yet?</a></h5><p>
+      probably my most useful site, on whether grr martin has published the next book yet</p>
+
       <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
       i administer a month long online hackathon of sorts in october</p>
 
       <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>
       a website i built for my favorite library in bushwick</p>
-      
+
       <h5><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a></h5><p>
       i cofounded this email list and group</p>
 
       <h5><a href="http://www.hipcamp.com">hipcamp</a></h5><p>
       i worked on this site for discovering parks and booking campsites</p>
-      
+
       <h5><a href="http://www.ideapod.com">ideapod</a></h5><p>
       i was the front end developer for this idea-sharing site</p>
 
@@ -206,7 +209,7 @@ tagline:
   <i class="fa fa-camera-retro">
   </i>
   Art
-</div> 
+</div>
 
 <div class="container-fluid">
   <div class="row-fluid">
@@ -235,7 +238,7 @@ tagline:
   <i class="fa fa-book">
   </i>
   Academia
-</div> 
+</div>
 
 <div class="container-fluid row-fluid">
   <div class="span8 offset2 text-box">
