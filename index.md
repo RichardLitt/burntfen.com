@@ -163,9 +163,9 @@ tagline:
       <h5><a href="http://em-a.eu/">erasmus mundus</a></h5><p>
       i was the representative for the language and communication technologies masters course in seven countries, and was a student in germany and malta</p>
 
-      <h5><a href="http://thelifeemphatic.com">the life emphatic</a></h5><p>
+<!--       <h5><a href="http://thelifeemphatic.com">the life emphatic</a></h5><p>
       i built this site to chronicle my ownership and mediterranean voyage of my 25' yacht, maya</p>
-
+ -->
       <h5><a href="http://www.burntfen.net/comic/index.html">webcomic</a></h5><p>
       my old burnt fen comic, which i kept going for around two years. very depressing at times. had 100 hits a day when i stopped.</p>
 
