@@ -139,8 +139,8 @@ tagline:
       <h5><a href="http://www.ideaotter.com/">idea otter</a></h5><p>
       simon vansintjan (mostly) and i built this site to share ideas; less ambitious than ideapod</p>
 
-      <h5><a href="http://jakinney.com/">j.a. kinney</a></h5><p>
-      a portfolio website i built for an old friend of mine, who is a really good photographer</p>
+<!--       <h5><a href="http://jakinney.com/">j.a. kinney</a></h5><p>
+      a portfolio website i built for an old friend of mine, who is a really good photographer</p> -->
 
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
