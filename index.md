@@ -98,7 +98,7 @@ tagline:
     <div class="span8 offset2 text-box">
 
       <h5><a href="https://www.github.com/BeagleLab/voyage">beagle</a></h5><p>
-      i work on beagle, building a scientific nagivator for research as a chrome extension, for m.i.t</p>
+      i work on beagle, building a scientific nagivator for research as a chrome extension, for m.i.t.</p>
 
       <h5><a href="http://theuserisdrunk.com">the user is drunk</a></h5><p>
       i occasionally review websites from a ux perspective. i haven't done this one yet</p>
