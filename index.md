@@ -109,6 +109,9 @@ tagline:
       <h5><a href="http://osprotocol.com">os protocol</a></h5><p>
       i created a protocol for sharing where your website is hosted</p>
 
+      <h5><a href="http://wordhoardpress.com">word hoard press</a></h5><p>
+      i founded and run the only literary press publishing original work in old english</p>
+
       <h5><a href="http://www.bushwhich.com/">bushwhich</a></h5><p>
       i made a choose-your-own-adventure photography game around my old neighborhood in brooklyn</p>
 
