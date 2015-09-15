@@ -127,9 +127,6 @@ tagline:
       <h5><a href="http://octobuild.com/">octobuild</a></h5><p>
       i administer a month long online hackathon of sorts in october</p>
 
-      <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>
-      a website i built for my favorite library in bushwick</p>
-
       <h5><a href="http://linguistsoutsideacademia.com">linguists outside of academia</a></h5><p>
       i cofounded this email list and group</p>
 
@@ -144,6 +141,9 @@ tagline:
 
 <!--       <h5><a href="http://jakinney.com/">j.a. kinney</a></h5><p>
       a portfolio website i built for an old friend of mine, who is a really good photographer</p> -->
+
+      <h5><a href="http://mellowpageslibrary.com">mellow pages library</a></h5><p>
+      i built a website for my favorite library in bushwick, which was live for two years. now it redirects, because the library closed. sad times</p>
 
       <h5><a href="http://www.lingstudents.co.uk/blog">u.l.a.b.</a></h5><p>
       the undergraduate linguistics association of britain: i cofounded it, ran the first conference, and help out as an advisor. it currently is in it's fifth year, and has hundreds of members</p>
