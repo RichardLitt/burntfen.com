@@ -172,7 +172,7 @@ tagline:
       <h5><a href="http://www.burntfen.net/comic/index.html">webcomic</a></h5><p>
       my old burnt fen comic, which i kept going for around two years. very depressing at times. had 100 hits a day when i stopped.</p>
 
-      <h5><a href="http://www.edinburghcafes.com">café</a></h5><p>
+      <h5><a href="http://www.edinburghcafes.blogspot.com">edinburgh cafes</a></h5><p>
       i rated various cafes in edinburgh for their wifi and coffee; along with chris scott and simon vansintjan</p>
 
       <h5><a href="http://www.replicatedtypo.com">replicated typo</a></h5><p>i wrote the occasional research blog here, on the evolution of culture and language</p>
