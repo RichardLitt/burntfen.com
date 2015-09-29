@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/richlitt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://burntfen.com
+  * I am richlitt (https://keybase.io/richlitt) on keybase.
+  * I have a public key with fingerprint 1070 2CDC E1A8 61C8 4EC6  B5F1 4EA1 CEF2 3B01 6E42
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101faf1ae727815f61bdccbd08fd0feff9d9386ff7e9aa5259e0b013bac399e32990a",
+            "fingerprint": "10702cdce1a861c84ec6b5f14ea1cef23b016e42",
+            "host": "keybase.io",
+            "key_id": "4ea1cef23b016e42",
+            "kid": "0101faf1ae727815f61bdccbd08fd0feff9d9386ff7e9aa5259e0b013bac399e32990a",
+            "uid": "450a75f1923de3e30ce23d13029a9219",
+            "username": "richlitt"
+        },
+        "service": {
+            "hostname": "burntfen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1443537728,
+    "expire_in": 157680000,
+    "prev": "25c9e4ff722dc4fb4bfef94172394005261c98763cf0fd2fc28d9ee905184fd4",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.46
+Comment: https://keybase.io/crypto
+
+yMIyAnicrVJbaBVHGD5JesQcqTEikpAKZkQNchJnZnfP7hwftIqIEUTEKpaQw+7s
+PydLkt2TPXvSpKdJ9KFJJU3rhSOCD1a8VU3aNAHjBeL1waCoRNJQbxSKzVsrxUuf
+bGetffPReZmZf77v+7//n//GhyWRWNHfG/YGd1Zd21F06+rBXGR77NiaPLI8uxMl
+86gZ3mzQYkM2SDU7NkoiTDARpiAm6FQ3iCYSxLI5t2xsCBsLEILZTDESQujATFOj
+GgNsYaJYJlcYA4Uyhk0UR8Jx0+BnfMcNpCzBOqbc5kBMI0G4oQJPWJogKpiEg6CK
+lEiASiWxycuGDGnOMrNQ53gyJi+pN/begX/PvnP/5dGwqUt/jCo2KKBgDvJEFEyZ
+yShhITALvmu2gkT7Dm9qcYIAdcWRjLY7HMLGhpW8RVg53w0EuHXca5XcjO8FHvda
+5EtTEGSSITHozITIz8BKvdVIWY5ryzZKQjv4WcdzUZJIJA+cUJSoqqIpuk6NOIKO
+jONDygkRmp4wsFxhGmiXklTjDFRZOaU2V4WlWrIfTCU6VZiKsUbljzBDTyhcYGFT
+walhMwCGNWKowlZRWFWb66GkKm2aaSmZddKuGeR8QF3XrjR8ECmKRWZFi8PxisRK
+5/0/dDWNsyOjQ//cg/S3J7YUenYt/bP78CdXH9VGb42VDX2/oqmvsXvZXzc/fW58
+vGbrhuQRpSrvo+ov21KVG6PW/Z8vb0rWTOzIHxhsOf+qZyTdF5+6WHNp4NSS2smD
+gAee0sK56YdFLxZV9O4pOz2nvHhhdW/69vFo2czDO+MlPePPZvZ3LngVmfx89+BX
+J/vPJl9uiU2io4WfTHgdX76v/nz0QHx4uv+2tnbunC+ax7cd6l188q53oXSg/ung
+d8W53LGpjtrlox9FHj/Y/eu8yvKdXbMW/lKo+736j/aVN9bxpX103cjXT6oqSwv9
++ZGJ9cOXAX0z/0h9RcfmqjM/XP9xDDX8tnqQ4Knu/f8Cgzg63g==
+=K18O
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/richlitt
+
+==================================================================
+
