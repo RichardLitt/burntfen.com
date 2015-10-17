@@ -25,5 +25,6 @@ A list of my published creative work
 
 ### Journalism
 
-* _Edinburgh on Foot_, Features, Edinburgh University Student Newspaper, 2008 week 4
-* Art Journalism in Chaos Magazine. www.chaos-mag.com, Vol. I-II. 2008-09.
+* _Edinburgh on Foot_. Features, Edinburgh University Student Newspaper. 2008 week 4.
+* _Emma Sailor_ Artist profile. Chaos Magazine. www.chaos-mag.com, Issue 1, Winter 2008.
+* _Kaspian Shore_ Artist profile. Chaos Magazine. www.chaos-mag.com, Issue 2, Spring 2009.
