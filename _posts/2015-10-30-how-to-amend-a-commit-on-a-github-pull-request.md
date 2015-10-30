@@ -66,12 +66,12 @@ Now comes the part you normally shouldn't do, but since the maintainers have ask
 
 Another option you can do, which is a bit more standard and which you may be used to, is to edit your file, and then make a new commit. You can even make as many commits as you like, really. However - like we said earlier, some maintainers want a clean history. You can clean up your history by squashing commits, and then force pushing.
 
-    echo '1' >> your_file.txt  
-    git add -A && git commit -m 'init'  
-    echo '2' >> your_file.txt  
-    git add -A && git commit -m '1'  
-    echo '3' >> your_file.txt  
-    git add -A && git commit -m '2'  
+    $ echo '1' >> your_file.txt  
+    $ git add -A && git commit -m 'init'  
+    $ echo '2' >> your_file.txt  
+    $ git add -A && git commit -m '1'  
+    $ echo '3' >> your_file.txt  
+    $ git add -A && git commit -m '2'  
 
 What you've just done here is made three commits, with three changes. But say you only want the initial commit to be logged, but you want all of the changes in the subsequent two? So, you want one commit for this final file:
 
