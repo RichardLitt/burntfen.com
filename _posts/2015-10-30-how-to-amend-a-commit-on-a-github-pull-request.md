@@ -10,8 +10,6 @@ date: 2015-10-30-13-18
 
 ## So you need to change your commit
 
-Make sure you're on your branch, on the commit that was used to make this PR.
-
 Here are your options:
 
 * Add another commit on this branch and then push to this branch.  
@@ -22,17 +20,21 @@ Here are your options:
 * Close this PR, commit again on a new branch, open another PR.  
 * Wait for someone else to do this for you, and then have them credit you.  
 
+Make sure you're on your branch, and currently pointing to the commit that was used to make this PR.
+
 ### Option 1: Add another commit and push to your PR branch
 
 This is normally the thing to do. 
 
-    $ echo 'these are some edits' >> your_file.txt  
+    $ echo 'these are some edits' >> your_file.md  
     $ git commit -m 'Edits are the best'  
     $ git push origin HEAD  
 
 What this does is provide you with a very clear history of what was committed where, and anyone can see this in the PR and in the future history of the project if it is merged in. 
 
 However, for things like spelling edits, line removals, or general small nitpicky things that the maintainers want you to do, having an extra commit may not be the best option. Some repositories like to have a very clear history, where each commit shows something meaningful that happened. A second commit removing a space, added by accident in the previous commit, isn't really useful for anyone. 
+
+(On a side note: `git push` is enough if you're on newer git versions and the remote matches local. `git push origin HEAD` is just longhand for pushing to whatever branch you're currently on. If you're using a different naming scheme for `origin` and `upstream`, you will need to update that accordingly, of course.)
 
 ### Option 2: Manually add changes, amend, and force push
 
@@ -42,7 +44,7 @@ A lot of people complain that then the comments made by the maintainers will be 
 
 So, you can manually change your file. 
 
-    $ vi your_file.txt  
+    $ vi your_file.md  
     # Do the edits you need to, here, and then type `:wq`.  
     # There's no reason you can't use your usual editor to edit the file.  
     $ git add -A  
@@ -58,16 +60,16 @@ Now comes the part you normally shouldn't do, but since the maintainers have ask
 
 Another option you can do, which is a bit more standard and which you may be used to, is to edit your file, and then make a new commit. You can even make as many commits as you like, really. However - like we said earlier, some maintainers want a clean history. You can clean up your history by squashing commits, and then force pushing.
 
-    $ echo '1' >> your_file.txt  
+    $ echo '1' >> your_file.md  
     $ git add -A && git commit -m 'init'  
-    $ echo '2' >> your_file.txt  
+    $ echo '2' >> your_file.md  
     $ git add -A && git commit -m '1'  
-    $ echo '3' >> your_file.txt  
+    $ echo '3' >> your_file.md  
     $ git add -A && git commit -m '2'  
 
 What you've just done here is made three commits, with three changes. But say you only want the initial commit to be logged, but you want all of the changes in the subsequent two? So, you want one commit for this final file:
 
-    $ cat your_file.txt  
+    $ cat your_file.md  
     1  
     2  
     3  
@@ -105,18 +107,18 @@ What this will do is squash your commits down to the commit `7bedf0`, but keep a
     Date:   Fri Oct 30 13:01:24 2015 -0400  
       
         init  
-    $ cat your_file.txt   
+    $ cat your_file.md   
     1  
     2  
     3  
 
-Sweet! You now have one commit, but `your_file.txt` looks like you want it to. However, if we run `git diff --cached`, we can see the staged edits:
+Sweet! You now have one commit, but `your_file.md` looks like you want it to. However, if we run `git diff --cached`, we can see the staged edits:
 
     $ git diff --cached  
-    diff --git a/your_file.txt b/your_file.txt  
+    diff --git a/your_file.md b/your_file.md  
     index d00491f..01e79c3 100644  
-    --- a/your_file.txt  
-    +++ b/your_file.txt  
+    --- a/your_file.md  
+    +++ b/your_file.md  
     @@ -1 +1,3 @@  
      1  
     +2  
@@ -124,7 +126,7 @@ Sweet! You now have one commit, but `your_file.txt` looks like you want it to. H
 
 Looks like the changes in the second two commits are staged, but not committed. Well, now we just do `git commit --amend`, save, and then force push. Easy as pie.
 
-But what if you don't want to edit your file manually, like we did in `vi your_file.txt`? Say there are a lot of small changes you have to make, or it's just tedious work.
+But what if you don't want to edit your file manually, like we did in `vi your_file.md`? Say there are a lot of small changes you have to make, or it's just tedious work.
 
 ### Option 4: Interactively checkout and amend
 
@@ -168,7 +170,7 @@ Of course, for some fixes, maintainers can help you, too. This often happens whe
 
     $ git checkout -b your-username-master master  
     $ git pull https://github.com/your-username/repo.git master  
-    $ echo 'This PR needs this line' >> your_file.txt  
+    $ echo 'This PR needs this line' >> your_file.md  
     $ git commit --amend --no-edit  
     $ git checkout master  
     $ git merge your-username-master  
