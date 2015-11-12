@@ -38,8 +38,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ HOME_PATH }}assets/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ HOME_PATH }}assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <link rel="shortcut icon" href="favicon.ico">
@@ -50,52 +49,64 @@
     <link rel="apple-touch-icon" sizes="114x114" href="{{ HOME_PATH }}images/touch-icon-iphone-retina.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="{{ HOME_PATH }}images/touch-icon-ipad-retina.png" />
 
-    <script src="assets/js/random.js"></script>
-
   </head>
   <body id="index">
-
-     <div class="container-fluid row-fluid span12 hero-index hidden-phone">
-
-        <div id="avatar">
-          <img src="assets/img/avatar.png" name="photo" /> <!-- onclick="do_switch()"/-->
-        </div>
-
-        <div id="title">
-            <p>Richard Littauer</p>
-        </div>
-<!--
-        <div class="random menu" style="width:75px;"><a href="#projects">projects</a></div>
-        <div class="random menu" style="width:140px;"><a href="#art">poetry and art</a></div>
-        <div class="random menu" style="width:85px;"><a href="#linguistics">academia</a></div>
-        <div class="random menu" style="width:115px;"><a href="#fossils">old projects</a></div> -->
-
-     </div>
-     <div class="container-fluid row-fluid span12 hero-index visible-phone">
-
-        <div id="avatar">
-          <img src="assets/img/avatar.png" name="photo" />
-        </div>
-
-        <div id="title">
-            <p>Richard Littauer</p>
-        </div>
-
-     </div>
-
     <div class="wrapper">
 
-      <div class="container">
+    <style type="text/css">
+      h1 {
+        font-size: 2em;
+        margin: 10% 0 0 30px;
+        color: #444;
+      }
 
-        <div class="content">
-          {{ content }}
+      h2 {
+        font-size: 1.5em;
+        margin: 0 0 0 30px;
+        color: #666;
+      }
+
+      .quotes {
+        display: none;
+      }
+
+      .social-media {
+        margin: 3% 0 10% 30px;
+      }
+      .social-media a {
+        padding: 0px 8px;
+        color: #000;
+        font-size: 20px;
+      }
+      .social-media a:hover, .social-media a:visited {
+        text-decoration: none;
+      }
+    </style>
+
+      <div class="container">
+        <h1 style="">Richard Littauer</h1>
+        <h2 class="quotes" style="display:block">Developer</h2>
+        <h2 class="quotes">Linguist</h2>
+        <h2 class="quotes">Poet</h2>
+        <h2 class="quotes">UX Designer</h2>
+        <h2 class="quotes">Writer</h2>
+        <h2 class="quotes">Maker</h2>
+
+        <div class='social-media'>
+          <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/#!/richlitt" rel="me"><i class="fa fa-twitter"></i></a>
+          <a href="https://medium.com/@richlitt"><i class="fa fa-medium"></i></a>
+          <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram"></i></a>
+          <a href="https://dribbble.com/richlitt"><i class="fa fa-dribbble"></i></a>
+          <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr"></i></a>
+          <a href="http://www.last.fm/user/RichardFenn"><i class="fa fa-lastfm"></i></a>
         </div>
+
+          {{ content }}
 
          <footer>
          <p>Send me a letter: <a href="mailto:richard.littauer@gmail.com">richard.littauer@gmail.com</a></p>
-          <p>{{ site.author.name }} &copy; <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>.
+          <p>{{ site.author.name }} &copy; <script type="text/javascript">document.write(new Date().getFullYear())</script>.
             <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
           </p>
         </footer>
@@ -110,8 +121,27 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- script src="assets/js/switch.js"></script -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      // code gets installed at the end of the body (after all other HTML)
+      (function() {
+
+          var quotes = $(".quotes")
+          var quoteIndex = -1;
+
+          function showNextQuote() {
+              ++quoteIndex;
+              quotes.eq(quoteIndex % quotes.length)
+                  .fadeIn(2000)
+                  .delay(2000)
+                  .fadeOut(2000, showNextQuote);
+          }
+
+          showNextQuote()
+
+      })()
+    </script>
 
     {% include JB/analytics %}
 
