@@ -9,6 +9,7 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'projects' => File.join(SOURCE, "_projects"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -22,7 +23,8 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :posts => "_posts",
+      :projects => "_projects"
     }
 
     def self.base
@@ -94,6 +96,30 @@ task :page do
     post.puts 'description: ""'
     post.puts "---"
     post.puts "{% include JB/setup %}"
+  end
+end # task :page
+
+# Usage: rake project title="example.html"
+desc "Create a new project in #{CONFIG['projects']}"
+task :project do
+  abort("rake aborted: '#{CONFIG['projects']}' directory not found.") unless FileTest.directory?(CONFIG['projects'])
+  title = ENV["title"] || "new-project"
+  picture = ENV["picture"] || "png"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  filename = File.join(CONFIG['projects'], "#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new project: #{filename}"
+  open(filename, 'w') do |project|
+    project.puts "---"
+    project.puts "layout: project"
+    project.puts "title: \"#{title}\""
+    project.puts "picture: #{slug}.#{picture}"
+    project.puts "---"
+    project.puts "{% include JB/setup %}"
+    project.puts ""
   end
 end # task :page
 
