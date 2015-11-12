@@ -1,14 +1,23 @@
-<div >
-  <img src="../../assets/img/projects/{{ page.picture }}" style="-webkit-filter: opacity(70%); " />
-</div>
+<style type="text/css">
+  .project-image {
+    max-width: 100%
+  }
+  h1 {
+    margin-left: 30px;
+  }
+</style>
+
 
 <h1>{{ page.title }}</h1>
 
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="span8">
-      {{ content }}
-      <hr>
+    <div class="col-sm-4">
+      <img class="project-image" src="../../assets/img/projects/{{ page.picture }}" />
     </div>
+    <div class="col-sm-8">
+      {{ content }}
+    </div>
+    <hr>
   </div>
 </div>
