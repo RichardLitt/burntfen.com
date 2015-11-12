@@ -86,11 +86,13 @@
       <div class="container">
         <h1 style="">Richard Littauer</h1>
         <h2 class="quotes" style="display:block">Developer</h2>
+        <h2 class="quotes">Nomad</h2>
         <h2 class="quotes">Linguist</h2>
         <h2 class="quotes">Poet</h2>
         <h2 class="quotes">UX Designer</h2>
+        <h2 class="quotes">Organizer</h2>
         <h2 class="quotes">Writer</h2>
-        <h2 class="quotes">Maker</h2>
+        <h2 class="quotes">Creator</h2>
 
         <div class='social-media'>
           <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github"></i></a>
@@ -128,14 +130,15 @@
       (function() {
 
           var quotes = $(".quotes")
-          var quoteIndex = -1;
+          var quoteIndex = -1
+          var duration = 1000
 
           function showNextQuote() {
               ++quoteIndex;
               quotes.eq(quoteIndex % quotes.length)
-                  .fadeIn(2000)
-                  .delay(2000)
-                  .fadeOut(2000, showNextQuote);
+                  .fadeIn(duration)
+                  .delay(duration)
+                  .fadeOut(duration, showNextQuote)
           }
 
           showNextQuote()
