@@ -3,45 +3,57 @@ html,
 body {
   background-color: #FFF;
 }
-.content { 
+.content {
   padding-bottom: 200px;
   max-width: 900px;
 }
 body#index {
-  color: #909;
+  .wrapper {
+    background-color: #FFFFFF;
+  }
+  a:hover {
+    text-decoration: none;
+    color: red;
+  }
 }
-body#index .wrapper {
-  background-color: #FFFFFF;
-/*  background: #888888 url('../../images/wood-walkway-full.jpg') no-repeat top;
-  background-attachment: fixed;
-  background-size: cover;*/
-}
-body#index a:hover {
-  text-decoration: none;
-  color: red;
+.wrapper {
+  margin-top: 20px;
+ .container {
+    max-width: 900px;
+  }
 }
 .navbar {
   margin-bottom: 0;
+  a.brand {
+    text-shadow: none;
+    color: #FFF;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    &:hover {
+      color: #666;
+      text-decoration: none;
+    }
+  }
 }
 .navbar-inner {
-  min-width: 10px;
-  height: 20px;
-  min-height: 20px;
-  font-size: 10px;
-  line-height: 10px;
-  color: #fff;
-  font-family: Helvetica;
-  background: #000000;
-  background: rgba(0, 0, 0, 0.85);
-  border: 0;
-  border-radius: 0;
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -o-border-radius: 0;
+  -webkit-border-radius: 0;
+  background-color: #444;
+  background: #000000;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 10px;
+  height: 20px;
+  line-height: 10px;
+  min-height: 20px;
+  min-width: 10px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
-.wrapper .container {
-  max-width: 900px;
-}
+
 .brand {
   font-family: Helvetica;
   font-style: normal;
@@ -50,31 +62,7 @@ body#index a:hover {
   line-height: 100%;
   letter-spacing: -2px;
 }
-.navbar a.brand {
-  text-shadow: none;
-  color: #FFF;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-.navbar a.brand:hover {
-  color: #666;
-  text-decoration: none;
-}
-.nav {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 100%;
-}
-.navbar .nav > li > a {
-  color: #fff;
-  text-shadow: none;
-  padding-top: 0;
-  padding-bottom: 0;
-  letter-spacing: -1px;
-}
-.navbar .nav > li > a:hover {
-  color: red;
-}
+
 li {
   padding: 3px auto;
 }
@@ -109,9 +97,7 @@ footer img {
 .topbar .btn {
   border: 0;
 }
-.wrapper {
-  margin-top: 20px;
-}
+
 .front-header img {
   float: left;
   padding-right: 10px;
@@ -130,37 +116,31 @@ h1 {
   margin: 0;
   padding: 5px 0 ;
   overflow: hidden;
-}
-.tag_box li {
-  line-height: 28px;
-}
-.tag_box.inline li {
-  float: left;
-}
-.tag_box a {
-  padding: 3px auto;
-  margin: 2px;
-  background: #eee;
-  color: #005F6B;
-  border-radius: 3px;
-  text-decoration: none;
-}
-.tag_box a span {
-  vertical-align: super;
-  font-size: 0.8em;
-}
-.tag_box a.active {
-  background: #57A957;
-  border: 1px solid #4C964D;
-  color: #FFF;
+  a {
+    padding: 3px auto;
+    margin: 2px;
+    background: #eee;
+    color: #005F6B;
+    border-radius: 3px;
+    text-decoration: none;
+    &.active {
+      background: #57A957;
+      border: 1px solid #4C964D;
+      color: #FFF;
+    }
+    span {
+      vertical-align: super;
+      font-size: 0.8em;
+    }
+  }
+  li {
+    line-height: 28px;
+  }
+  &.inline li {
+    float: left;
+  }
 }
 /* ===================== Manual resets ========================== */
-
-.navbar-inner {
-  padding-top: 20px;
-  padding-bottom: 40px;
-  background-color: #444;
-}
 
 #avatar {
   width: 200px;
@@ -180,14 +160,6 @@ h1 {
   color: #099;
   padding: 10px 100px 3px 100px;
   border-bottom: 3px double #099;
-/*  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  box-shadow: inset 0 0 20px #000000;
-  filter: alpha(opacity=8);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;*/
 }
 .menu {
   margin: 5px 0px;
@@ -201,17 +173,15 @@ h1 {
   -khtml-opacity: 0.8;
   opacity: 0.8;
 }
-.menu a {
+a {
   color: #990;
-}
-.menu a {
   text-decoration: none;
   letter-spacing: 0px;
   padding: 10px;
   width: inherit;
-}
-.menu a:hover {
-  color: red;
+  &:hover {
+    color: red;
+  }
 }
 .random {
   position: relative;
@@ -234,10 +204,6 @@ h1 {
 }
 
 @media (max-width: 767px) {
-  body {
-    padding-right: -20px;
-    padding-left: -20px;
-  }
   .wrapper {
     margin-left: 0px;
     padding-left: 0px;
@@ -267,11 +233,13 @@ h1 {
     border-bottom: none;
     text-align: center;
   }
-  .text-box h4 {
-    text-align: center;
-    padding-top: 20px;
-  }
-  .text-box p {
-    padding-top: 10px;
+  .text-box {
+    h4 {
+      text-align: center;
+      padding-top: 20px;
+    }
+    p {
+      padding-top: 10px;
+    }
   }
 }
