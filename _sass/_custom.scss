@@ -177,6 +177,7 @@ h1 {
 a {
   color: black;
   cursor: pointer;
+  font-weight: 600;
   text-decoration: none;
   &:hover {
     color: red;
@@ -197,10 +198,7 @@ a {
   letter-spacing: -1px;
   border-bottom: 1px thick #33666;
 }
-.posts {
-  list-style: none;
-  color: #0088cc;
-}
+
 
 @media (max-width: 767px) {
   .wrapper {
@@ -223,13 +221,6 @@ a {
   }
   .title {
     margin: 50px 0px;
-    text-align: center;
-  }
-  .posts-title {
-    font-size: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: none;
     text-align: center;
   }
   .text-box {
