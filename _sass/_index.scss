@@ -1,6 +1,52 @@
 $leftPadding: 15px;
 
 #index {
+  h1 {
+    font-size: 2em;
+    margin: 10% 0 0 $leftPadding;
+    color: #444;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0 0 0 $leftPadding;
+    color: #666;
+  }
+
+  .quotes {
+    display: none;
+  }
+
+  .social-media {
+    margin: 3% 0 3% $leftPadding;
+  }
+  .social-media a {
+    padding: 0 20px 0 0;
+    color: #000;
+    font-size: 20px;
+  }
+  .social-media a:hover, .social-media a:visited {
+    text-decoration: none;
+  }
+
+  .posts {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: $leftPadding;
+    a {
+      color: #666;
+      font-weight: 400;
+      &.more {
+        color: #888;
+        font-weight: 600;
+      }
+      &:hover, &.more:hover {
+        color: red;
+      }
+    }
+  }
+
+
   .card-image {
     max-width: 100%;
     position: absolute;
@@ -21,7 +67,8 @@ $leftPadding: 15px;
     }
   }
 
-  .project-title {
+  a.project-title {
+    font-weight: 400;
     text-align: center;
     h4 {
       padding: 10px 0;
@@ -44,49 +91,6 @@ $leftPadding: 15px;
       }
     }
   }
-
-
-  h1 {
-    font-size: 2em;
-    margin: 10% 0 0 $leftPadding;
-    color: #444;
-  }
-
-  h2 {
-    font-size: 1.5em;
-    margin: 0 0 0 $leftPadding;
-    color: #666;
-  }
-
-  h3.blog {
-    font-size: 1.3em;
-    margin-bottom: 50px;
-    padding-left: $leftPadding;
-    a {
-      padding-left: 0px;
-      color: #444;
-      &:hover {
-        text-decoration: none;
-        color: red;
-      }
-    }
-  }
-
-  .quotes {
-    display: none;
-  }
-
-  .social-media {
-    margin: 3% 0 10px $leftPadding;
-  }
-  .social-media a {
-    padding: 0 20px 0 0;
-    color: #000;
-    font-size: 20px;
-  }
-  .social-media a:hover, .social-media a:visited {
-    text-decoration: none;
-  }
 }
 
 @media (max-width: 767px) {
@@ -100,7 +104,7 @@ $leftPadding: 15px;
         padding: 0 15px 0 0;
       }
     }
-    .project-title {
+    a.project-title {
       h4 {
         height: 60px;
         overflow: hidden;

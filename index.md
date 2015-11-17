@@ -5,6 +5,13 @@ tagline:
 ---
 {% include JB/setup %}
 
+<div class="posts">
+  {% for post in site.posts limit:3 %}
+  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><br />
+  {% endfor %}
+  <a class="more" href="/archive">More posts...</a>
+</div>
+
 <div class="row col-md-12 projects">
   {% assign projects = (site.projects | sort: 'ranking') %}
   {% for project in projects %}
