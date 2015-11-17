@@ -200,7 +200,7 @@ echo "<img id=\"img_main\" name=\"img_main\" src=\"$current_string	.png\" title=
 
 </script>
 
-<p style="font-family:verdana;font-size:60%"><br />cheers heaps to my mate richard for hooking me up with the server space. <br />coincidentally, he happens to have a comic of his own on this very server: <a href=http://www.burntfen.net/comic/>www.burntfen.net</a><br /><br /></p>
+<p style="font-family:verdana;font-size:60%"><br />cheers heaps to my mate richard for hooking me up with the server space. <br />coincidentally, he happens to have a comic of his own on this very server: <a href=http://www.burntfen.com/comic/>www.burntfen.net</a><br /><br /></p>
 
 </div>
 
