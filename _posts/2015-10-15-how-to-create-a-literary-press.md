@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Create A Literary Press"
+title: "How to create a literary press"
 description: "Or, how I learned to not be afraid and love Beowulf"
 category: projects
 tags: [projects, poetry]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Not Doing a Project"
+title: "On not doing a project"
 description: "Or how learned to not build a coworking website"
 category: journal
 tags: [projects, writing]
