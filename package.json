@@ -1,0 +1,19 @@
+{
+  "name": "richardlitt.github.com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "-",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardLitt/richardlitt.github.com.git"
+  },
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/richardlitt.github.com/issues"
+  },
+  "homepage": "https://github.com/RichardLitt/richardlitt.github.com#readme"
+}

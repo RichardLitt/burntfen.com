@@ -5,3 +5,4 @@ _site/*
 _site
 serve/*
 .sass-cache
+node_modules
