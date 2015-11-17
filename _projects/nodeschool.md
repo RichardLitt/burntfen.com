@@ -3,6 +3,10 @@ layout: project
 title: "NodeSchool"
 ranking: 4
 picture: nodeschool.png
+status: ongoing
+stub: "Coding Schools"
+role: "Organizer"
+outbound: http://nodeschool.io
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,10 @@ layout: project
 title: "Beagle"
 ranking: 2
 picture: beagle.jpg
+status: ongoing
+stub: PDF Annotator & Chrome Extension
+role: Developer
+outbound: https://github.com/BeagleLab/beagle
 ---
 {% include JB/setup %}
 
