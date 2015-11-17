@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-<div class="container row col-md-12" style="margin-left: 0px;">
+<div class="row col-md-12 projects">
   {% assign projects = (site.projects | sort: 'ranking') %}
   {% for project in projects %}
     {% assign loopindex = forloop.index | modulo: 3 %}

@@ -1,4 +1,7 @@
 #index {
+
+  $leftPadding: 15px;
+
   .card-image {
     max-width: 100%;
     position: absolute;
@@ -46,20 +49,20 @@
 
   h1 {
     font-size: 2em;
-    margin: 10% 0 0 30px;
+    margin: 10% 0 0 $leftPadding;
     color: #444;
   }
 
   h2 {
     font-size: 1.5em;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 $leftPadding;
     color: #666;
   }
 
   h3.blog {
     font-size: 1.3em;
     margin-bottom: 50px;
-    padding-left: 30px;
+    padding-left: $leftPadding;
     a {
       padding-left: 0px;
       color: #444;
@@ -75,7 +78,7 @@
   }
 
   .social-media {
-    margin: 3% 0 10px 30px;
+    margin: 3% 0 10px $leftPadding;
   }
   .social-media a {
     padding: 0 20px 0 0;
@@ -84,5 +87,30 @@
   }
   .social-media a:hover, .social-media a:visited {
     text-decoration: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #index {
+    .projects {
+
+    }
+    .social-media {
+      margin: 20px 0 20px $leftPadding;
+      a {
+        padding: 0 15px 0 0;
+      }
+    }
+    .project-title {
+      h4 {
+        height: 60px;
+        overflow: hidden;
+      }
+      p {
+        font-size: 12px;
+        height: 80px;
+        margin-bottom: 0px;
+      }
+    }
   }
 }
