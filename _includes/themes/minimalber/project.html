@@ -13,9 +13,13 @@
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="col-sm-4">
-      <img class="project-image" src="../../assets/img/projects/{{ page.picture }}" />
+      <a href="{{ page.outbound }}">
+        <img class="project-image" src="../../assets/img/projects/{{ page.picture }}" />
+      </a>
     </div>
     <div class="col-sm-8">
+      <h4>{{ page.stub}}<br />
+      {{ page.role }}</h4>
       {{ content }}
     </div>
     <hr>
