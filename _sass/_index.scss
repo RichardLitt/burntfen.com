@@ -1,0 +1,88 @@
+#index {
+  .card-image {
+    max-width: 100%;
+    position: absolute;
+    -webkit-filter: opacity(100%);
+    -webkit-transition: -webkit-filter .25s;
+    transition: -webkit-filter .25s;
+  }
+
+  .img-container {
+    position: relative;
+    overflow:hidden;
+    padding-bottom: 100%;
+    &:hover {
+      -webkit-filter: opacity(60%);
+    }
+    a {
+      padding: 0px;
+    }
+  }
+
+  .project-title {
+    text-align: center;
+    h4 {
+      padding: 10px 0;
+      margin: 0;
+      text-transform: uppercase;
+      color: #404040;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      letter-spacing: .06em;
+      height: auto;
+      text-decoration: none;
+    }
+    p {
+      color: #666;
+      margin: 0 0 60px 0;
+      .status {
+        font-style: italic;
+        color: #888;
+      }
+    }
+  }
+
+
+  h1 {
+    font-size: 2em;
+    margin: 10% 0 0 30px;
+    color: #444;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0 0 0 30px;
+    color: #666;
+  }
+
+  h3.blog {
+    font-size: 1.3em;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    a {
+      padding-left: 0px;
+      color: #444;
+      &:hover {
+        text-decoration: none;
+        color: red;
+      }
+    }
+  }
+
+  .quotes {
+    display: none;
+  }
+
+  .social-media {
+    margin: 3% 0 10px 30px;
+  }
+  .social-media a {
+    padding: 0 20px 0 0;
+    color: #000;
+    font-size: 20px;
+  }
+  .social-media a:hover, .social-media a:visited {
+    text-decoration: none;
+  }
+}
