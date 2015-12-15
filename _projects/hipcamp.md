@@ -10,4 +10,4 @@ outbound: http://hipcamp.com
 ---
 {% include JB/setup %}
 
-i built a petition website for a coalition of 50+ organizations committed to increasing access to public land through open data.
+I worked as the sole developer for Hipcamp in 2014. Hipcamp is dedicated towards making going outside easier to do, by allowing people to find and reserve campsites without difficulty. I was tasked with building out their site and converting it from an old jQuery mash-up to Angular.

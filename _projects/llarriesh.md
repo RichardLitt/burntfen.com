@@ -10,4 +10,4 @@ outbound: http://llama.conlang.org
 ---
 {% include JB/setup %}
 
-my old conlanging site, where i talk about my involvement with na'vi, dothraki, and my language, llárriésh
+After I had built the [Na'vi Dictionary](../learn-navi) and was working on [Dothraki](../dothraki), I wanted to try building my own language. The result was Llárriésh, a strange language that is almost impossible to speak. I built it during a couple of months when I was trapped in Princeton, NJ, working at an ice cream shop.

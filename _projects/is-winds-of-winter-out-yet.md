@@ -10,4 +10,4 @@ outbound: http://iswindsofwinteroutyet.com
 ---
 {% include JB/setup %}
 
-probably my most useful site, on whether grr martin has published the next book yet
+This is probably my most useful site, on whether GRR Martin has published his next book in the _Game of Thrones_ series yet. I bought and made this as a joke, and so far, it has served admirably at that role.

@@ -10,4 +10,4 @@ outbound: http://turing.io/
 ---
 {% include JB/setup %}
 
-I mentor at this school
+Turing School is a developer school in Boulder, CO. I volunteer to remotely mentor students in JavaScript a couple of hours a week. I also mentor students as part of my work with [Nodeschool](../nodeschool).

@@ -10,4 +10,4 @@ outbound: http://sadyoungman.com
 ---
 {% include JB/setup %}
 
-i am working on a book of poetry and drawings
+I am working on a book of poetry and drawings, a follow up for my [comic](../the-burnt-fen-maunderings). I am not in a rush, but will eventually update this site.

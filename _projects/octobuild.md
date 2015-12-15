@@ -10,4 +10,6 @@ outbound: http://octobuild.com
 ---
 {% include JB/setup %}
 
-i administer a month long online hackathon of sorts in october
+Collaborators: _Simon Vansintjan_
+
+Every year, I administer and run a month-long online hackathon of sorts in October. It is small in scope, so far, but always fun to see what people make.

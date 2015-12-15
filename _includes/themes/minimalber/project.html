@@ -1,16 +1,8 @@
-<style type="text/css">
-  .project-image {
-    max-width: 100%
-  }
-  h1 {
-    margin-left: 30px;
-  }
-</style>
+<a href="{{ page.outbound }}">
+  <h1 class="project-page-title">{{ page.title }}</h1>
+</a>
 
-
-<h1>{{ page.title }}</h1>
-
-<div class="container-fluid">
+<div id="project-page" class="container-fluid">
   <div class="row-fluid">
     <div class="col-sm-4">
       <a href="{{ page.outbound }}">
@@ -18,8 +10,8 @@
       </a>
     </div>
     <div class="col-sm-8">
-      <h4>{{ page.stub}}<br />
-      {{ page.role }}</h4>
+      <h4>{{ page.stub}}</h4>
+      <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
       {{ content }}
     </div>
     <hr>

@@ -10,4 +10,6 @@ outbound: http://ideaotter.com
 ---
 {% include JB/setup %}
 
-simon vansintjan (mostly) and i built this site to share ideas; less ambitious than ideapod
+Collaborators: _[Simon Vansintjan](http://simon.vansintjan.net/)_
+
+Simon Vansintjan build out this site to share ideas; I helped him out here and there with decisions on how to do that, and occasionally with code.

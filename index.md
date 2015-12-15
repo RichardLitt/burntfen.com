@@ -22,11 +22,11 @@ tagline:
       <div class="col-xs-6 col-sm-4 col-md-3">
     {% endif %}
         <div class="img-container">
-          <a href="{{ project.outbound }}">
+          <a href="{{ project.url }}">
             <img src="assets/img/projects/{{ project.picture }}" class="card-image"/>
           </a>
         </div>
-        <a class="project-title" href="{{ project.outbound }}">
+        <a class="project-title" href="{{ project.url }}">
           <h4>
             {{ project.title }}
           </h4>

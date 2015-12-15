@@ -10,4 +10,4 @@ outbound: http://wordhoardpress.com
 ---
 {% include JB/setup %}
 
- i founded and run the only literary press publishing original work in old english
+I founded and run the only literary press publishing original work in Old English, and other extinct Germanic languages.

@@ -10,4 +10,6 @@ outbound: http://uklo.org
 ---
 {% include JB/setup %}
 
-i'm the webmaster and built the site (many years ago) of this organisation helping thousands of school children learn linguistics
+While I was still a student at Edinburgh University, I volunteered to help out the United Kingdom Linguistics Olympiad by building them a new site. I was the webmaster for several years, helping out an organisation that teaches high school kids across the UK (and internationally, as part of the Linguistics Olympiad network) about linguistics.
+
+The new site is being developed by a friend of mine, _Simon Vansintjan_, and I have stepped back into more of a mentor role.

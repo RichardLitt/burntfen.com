@@ -10,4 +10,6 @@ outbound: http://www.edinburghcafes.blogspot.com
 ---
 {% include JB/setup %}
 
-i rated various cafes in edinburgh for their wifi and coffee; along with chris scott and simon vansintjan
+Collaborators: _[Simon Vansintjan](http://simon.vansintjan.net/), [Chris Scott](https://twitter.com/chrisdonia)_
+
+I wanted to know which cafes were best to work out of: which had the best coffee, wifi, and so on. So I built a website to do so. It stopped being active around when Simon and I graduated and left Scotland.

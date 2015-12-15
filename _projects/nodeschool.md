@@ -10,4 +10,4 @@ outbound: http://nodeschool.io
 ---
 {% include JB/setup %}
 
-i organized the first nodeschool in <a href="http://nodeschool.io/chiang-mai/">chiang mai</a>, coorganized the first nodeschool in <a href="http://nodeschool.io/bali/">bali</a>, and have mentored nodeschool and nodesummit workshops in <a href="http://nodeschool.io/sanfrancisco">san francisco</a>
+[NodeSchool](http://nodeschool.io) is an autonomous, distributed system of coding camps meant to help teach people how to use Node.js, a JavaScript framework. I organized the first Nodeschool in <a href="http://nodeschool.io/chiang-mai/">Chiang Mai, Thailand</a>, co-organized the first Nodeschool in <a href="http://nodeschool.io/bali/">Bali, Indonesia</a>, and have mentored Nodeschool and NodeSummit workshops in <a href="http://nodeschool.io/sanfrancisco">San Francisco</a>.

@@ -10,4 +10,6 @@ outbound: http://soundcloud.com/marsalfornication
 ---
 {% include JB/setup %}
 
-I was in a band in Malta.
+Collaborators: _Daan Hanselmans (Piano, vocals), Jan Joachimsen (Violin, vocals)_
+
+I was in a band while I was a student in Malta. Mostly it consisted of me and my two friends having a lot of Cisk, the local beer, and fiddling around. I played Ukulele, some piano, and wrote and sang most of the songs.

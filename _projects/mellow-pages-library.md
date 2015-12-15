@@ -10,4 +10,8 @@ outbound: http://mellowpagesibrary.com
 ---
 {% include JB/setup %}
 
- i built a website for my favorite library in bushwick, which was live for two years. now it redirects, because the library closed. sad times
+Mellow Pages Library was a collaborative library that allowed anyone to donate and take out books and become members for free. It existed for two years in Bushwick, Brooklyn, and was run by _Matt Nelson_ and _Jacob Perkins_. I built and maintained their website for them, and hosted at least one reading at the actual space.
+
+[Source code](https://github.com/RichardLitt/mellow-pages).
+
+Mellow Pages later closed, but continues as a library pop-up at Silent Barn, another venue in Bushwick. [Their new website](http://theatlasreview.com/mellow-pages-library/) is now maintained and hosted as part of Atlas Review.
