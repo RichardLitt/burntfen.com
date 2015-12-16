@@ -91,18 +91,22 @@ $leftPadding: 15px;
       }
     }
   }
+  .listen {
+    text-align: right;
+  }
 }
 
 @media (max-width: 767px) {
   #index {
-    .projects {
-
-    }
     .social-media {
       margin: 20px 0 20px $leftPadding;
       a {
         padding: 0 15px 0 0;
       }
+    }
+    .listen {
+      text-align: left;
+      margin-bottom: 50px;
     }
     a.project-title {
       h4 {
