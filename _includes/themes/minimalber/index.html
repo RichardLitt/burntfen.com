@@ -106,8 +106,12 @@
                   {{ project.role }} <span class="status">{{ project.status }}</span></p>
                 </a>
               </div>
-            {% if loopindex == 4 %}
+            {% if forloop.index == 3 %}
               <div class="clearfix visible-sm-block"></div>
+            {% elsif forloop.index == 4 %}
+              <div class="clearfix visible-md-block"></div>
+            {% elsif forloop.index == 12 %}
+              <div class="clearfix visible-md-block"></div>
             {% endif %}
           {% endfor %}
         </div>
