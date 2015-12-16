@@ -94,6 +94,40 @@ $leftPadding: 15px;
   .listen {
     text-align: right;
   }
+
+  #contact {
+    margin-right:0px;
+    background-color:#111;
+    color:#FFF;
+
+    .available {
+      color:#FFF;
+      text-align:center;
+      margin: 50px auto;
+      font-size:25px;
+      line-height:30px;
+    }
+
+    .speak, .listen {
+      color:#999;
+      h1 {
+        margin:100px 0px 50px 0px;
+        color:#fff
+      }
+      p {
+        font-size:25px;
+        line-height:30px;
+
+        >a {
+          font-weight:200;
+          color:#219FFF;
+        }
+      }
+    }
+
+    .speak {
+    }
+  }
 }
 
 @media (max-width: 767px) {
