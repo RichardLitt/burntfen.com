@@ -67,6 +67,12 @@ $leftPadding: 15px;
     }
   }
 
+  h1.section-header {
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:60px;
+  }
+
   a.project-title {
     font-weight: 400;
     text-align: center;
@@ -106,6 +112,9 @@ $leftPadding: 15px;
       margin: 50px auto;
       font-size:25px;
       line-height:30px;
+      &.available-sm {
+        margin-bottom: 100px;
+      }
     }
 
     .speak, .listen {
@@ -122,6 +131,9 @@ $leftPadding: 15px;
           font-weight:200;
           color:#219FFF;
         }
+      }
+      hr {
+        width: 50%;
       }
     }
 

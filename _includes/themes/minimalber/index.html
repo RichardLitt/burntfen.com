@@ -118,7 +118,7 @@
 
         <div class="row col-md-12 press">
           <hr />
-          <h1 style="text-align:center;margin-top:100px;margin-bottom:60px;">Press</h1>
+          <h1 class="section-header">Press</h1>
           {% for press in site.data.press %}
             {% if forloop.index == 7 %}
               <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-2">
@@ -152,7 +152,7 @@
             <p class="visible-xs available">Writing • Talks • UX • Code • Walks • Letters • Collaboration • Ideas • Joy • Design • Projects</p>
           </div>
           <div class="col-sm-5 col-md-5 listen">
-            <hr class="visible-xs" style="width:50%;">
+            <hr class="visible-xs">
             <h1 >Listen</h1>
             <div>
               <p><a href="mailto:richard@burntfen.com">tinyletter.com/richlitt</a></p>
@@ -162,7 +162,7 @@
           </div>
           </div>
         <div class="row col-md-8 col-md-offset-2 hidden-xs">
-          <p class="available" style="margin-bottom: 100px;">Writing • Talks • UX • Code • Walks • Letters • Collaboration • Ideas • Joy • Design • Projects</p>
+          <p class="available available-sm">Writing • Talks • UX • Code • Walks • Letters • Collaboration • Ideas • Joy • Design • Projects</p>
         </div>
       </div>
     </div>
@@ -170,9 +170,8 @@
 
     <div class="wrapper">
       <div class="container">
-
         <div class="row col-md-12 projects">
-          <h1 style="text-align:center;margin-top:100px;margin-bottom:60px;">Other Projects</h1>
+          <h1 class="section-header">Other Projects</h1>
           {% assign projects = (site.projects | sort: 'ranking') %}
           {% for project in projects offset:16 %}
             {% assign loopindex = forloop.index | modulo: 3 %}
