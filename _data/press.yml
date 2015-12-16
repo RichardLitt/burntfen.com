@@ -1,0 +1,50 @@
+- source: boston-globe
+  image: boston-globe.jpg
+  title: "Yes, writing languages for ‘Game of Thrones’ is a real job"
+  url: https://www.bostonglobe.com/ideas/2014/04/05/yes-writing-languages-for-game-thrones-real-job/4eyOZKW5EVL6Mt8qBQJ20L/story.html
+
+- source: gizmodo
+  image: gizmodo.jpg
+  title: "I Paid a UX Expert $100 to Get Drunk and Evaluate Gizmodo's Design"
+  url: http://gizmodo.com/i-paid-a-ux-expert-100-to-get-drunk-and-evaluate-gizmo-1693902126
+
+- source: nyt
+  image: nyt.jpg
+  title: "Athhilezar? Watch Your Fantasy World Language"
+  url: http://www.nytimes.com/2011/12/12/arts/television/in-game-of-thrones-a-language-to-make-the-world-feel-real.html
+
+- source: vice
+  image: vice.jpg
+  title: "For $75, a Real-Life Mom Will Critique Your Website Design"
+  url: http://motherboard.vice.com/read/for-75-a-real-life-mom-will-critique-your-website-designe
+
+- source: cnbc
+  image: cnbc.jpg
+  title: "This mom gets paid to review websites"
+  url: "http://www.cnbc.com/id/102721245"
+
+- source: techco
+  image: techco.png
+  title: "Here’s Why It’s Important to Design Like the User is Drunk"
+  url: http://tech.co/heres-why-its-important-to-design-like-the-user-is-drunk-2015-03
+
+- source: wired
+  image: wired.jpg
+  title: "Scotty Allen’s Mom Will Judge Your Website"
+  url: http://www.wired.com/2015/05/theuserismymom/
+
+- source: fastco
+  image: fastco.jpg
+  title: "Reviewing UX Designs While Drunk Makes Way More Sense Than You Think"
+  url: http://www.fastcodesign.com/3044455/reviewing-ux-designs-while-drunk-makes-way-more-sense-than-you-think
+
+- source: nautilus
+  image: nautilus.png
+  title: "Cracking Avatar's Language Codes"
+  url: http://nautil.us/issue/6/secret-codes/cracking-avatars-language-codes
+
+- source: the-next-web
+  image: the-next-web.png
+  title: "This mom will review your website for $75"
+  url: http://thenextweb.com/dd/2015/05/19/guys-mom-will-review-website-75/
+
