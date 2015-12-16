@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Linguists Outside Academia"
-ranking: 12
+ranking: 10
 picture: linguists-outside-academia.png
 status: ongoing
 stub: "Email List"
