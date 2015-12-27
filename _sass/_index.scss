@@ -29,9 +29,9 @@ $leftPadding: 15px;
     text-decoration: none;
   }
 
-  .posts {
+  .posts, .newsletter {
     list-style: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding-left: $leftPadding;
     a {
       color: #666;
@@ -44,6 +44,10 @@ $leftPadding: 15px;
         color: red;
       }
     }
+  }
+
+  .newsletter {
+    margin-bottom: 50px;
   }
 
 
