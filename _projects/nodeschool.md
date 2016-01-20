@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "NodeSchool"
-ranking: 4
+ranking: 5
 picture: nodeschool.png
 status: ongoing
 stub: "Coding Schools"
