@@ -3,7 +3,7 @@ layout: project
 title: "Of Walking in Snow"
 ranking: 2
 picture: of-walking.png
-status: Forthcoming
+status: Postponed
 stub: Documentary
 role: Film-maker
 outbound: http://ofwalkinginsnow.com
