@@ -10,6 +10,7 @@ These are preprints, so it is possible that it may not be on the web yet, but ei
 
 ####Journal Articles
 
+ * Katz, D. S., Choi, S.-C. T., Wilkins-Diehr, N., Hong, N. C., Venters, C. C., Howison, J., … Littauer, R.. (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://openresearchsoftware.metajnl.com/articles/10.5334/jors.85/#). Journal of Open Research Software, 4(1), e7. DOI: http://doi.org/10.5334/jors.85
  * Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](http://www.rlittauer.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [http://www.studyinglanguages.ac.uk](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](http://www.burntfen.com/publications/bib/LittDebut.bib)  
  * Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). [_Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_](http://ijdc.net/index.php/ijdc/article/download/222/291). In: _International Journal of Data Curation_, Vol. 7:2, pp. 92-100. [doi:10.2218/ijdc.v7i2.232](http://ijdc.net/index.php/ijdc/article/view/222) [bib](http://www.burntfen.com/publications/bib/LittIJDC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)  
 
