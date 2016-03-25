@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Turing School"
-ranking: 5
+ranking: 7
 picture: turing.png
 status: ongoing
 stub: Software School

@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Antinomadic"
-ranking: 7
+ranking: 5
 picture: antinomadic.png
 status: ongoing
 stub: Blog

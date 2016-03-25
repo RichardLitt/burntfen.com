@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Arctic.js"
-ranking: 4
+ranking: 10
 picture: arcticjs.png
 status: January 2016
 stub: JavaScript Conference in Svalbard

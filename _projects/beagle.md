@@ -1,9 +1,9 @@
 ---
 layout: project
 title: "Beagle"
-ranking: 2
+ranking: 9
 picture: beagle.jpg
-status: ongoing
+status: hiatus
 stub: PDF Annotator & Chrome Extension
 role: Developer
 outbound: https://github.com/BeagleLab/beagle
