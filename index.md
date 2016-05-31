@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Richard's Bog
+title: Richard Littauer
 tagline:
 ---
 {% include JB/setup %}
