@@ -263,3 +263,13 @@ a {
 .project-page-title {
   margin-left: 30px;
 }
+
+
+.mbtablestyle {
+        border-collapse: collapse;
+
+   > table, td, th {
+        border: 1px solid #666;
+        padding: 5px 10px;
+        }
+}
