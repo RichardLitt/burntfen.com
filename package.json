@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/RichardLitt/richardlitt.github.com/issues"
   },
-  "homepage": "https://github.com/RichardLitt/richardlitt.github.com#readme"
+  "homepage": "https://github.com/RichardLitt/richardlitt.github.com#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3",
+    "imagemin-pngquant": "^5.0.0"
+  }
 }
