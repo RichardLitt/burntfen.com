@@ -6,10 +6,13 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author.name }}">
-    <meta name="copyright" content="&copy; {{ site.author.name }} 2015">
+    <meta name="copyright" content="&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}">
     <meta name="description" content="My personal website, where I list all of my main projects and occasionally blog.">
+
+    <!-- Security -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:">
 
+    <!-- Open Graph -->
     <meta property="og:description" content="My personal website, where I list all of my main projects and occasionally blog." />
     <meta property="og:url" content="http://burntfen.com/" />
     <meta property="og:site_name" content="Richard Littauer" />
@@ -74,7 +77,7 @@
 
               <footer>
               <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-          <p>{{ site.author.name }} &copy; <span class="year"></span>.
+          <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
             <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
           </p>
         </footer>

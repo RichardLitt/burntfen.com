@@ -10,8 +10,4 @@ function showNextQuote() {
         .delay(duration)
         .fadeOut(duration, showNextQuote)
 }
-
 showNextQuote()
-
-// Update copyright year
-$(".year").text(function() { return new Date().getFullYear()})
