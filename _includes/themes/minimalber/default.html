@@ -8,6 +8,7 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="copyright" content="&copy; {{ site.author.name }} 2015">
     <meta name="description" content="My personal website, where I list all of my main projects and occasionally blog.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:">
 
     <meta property="og:description" content="My personal website, where I list all of my main projects and occasionally blog." />
     <meta property="og:url" content="http://burntfen.com/" />
@@ -40,7 +41,7 @@
     <!-- Le styles -->
     <link href="{{ HOME_PATH }}assets/css/bootstrap.css" rel="stylesheet">
     <link href="{{ HOME_PATH }}assets/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -73,9 +74,7 @@
 
               <footer>
               <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-          <p>{{ site.author.name }} &copy; <script type="text/javascript">
-            document.write(new Date().getFullYear());
-          </script>.
+          <p>{{ site.author.name }} &copy; <span class="year"></span>.
             <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
           </p>
         </footer>
@@ -88,9 +87,9 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="{{ HOME_PATH }}assets/js/jquery.js"></script>
     <script src="{{ HOME_PATH }}assets/js/bootstrap.min.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/quotes.js"></script>
 
     {% include JB/analytics %}
 
