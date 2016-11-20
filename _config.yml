@@ -21,6 +21,9 @@ author :
   twitter : RichLitt
   #feedburner : feedname
 
+whitelist:
+  - jekyll-redirect-from
+
 collections:
   projects:
     output: true
