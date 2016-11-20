@@ -7,6 +7,9 @@ status: 2010-2015
 stub: "Academic Research"
 role: Researcher
 outbound: "http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ"
+redirect_from:
+  - /publications
+  - /publications/
 ---
 {% include JB/setup %}
 
@@ -14,23 +17,25 @@ I have published several academic papers. Most of them can be found on [Google S
 
 These are preprints, so it is possible that a paper may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](http://www.burntfen.com/publications/bib/publications.bib) information, at once, if you're really keen.
 
-####Journal Articles
+#### Journal Articles
 
+ * Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://dx.doi.org/10.5334/jors.85). In: Journal of Open Research Software, 4: e7, DOI: http://dx.doi.org/10.5334/jors.85
  * Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](http://www.rlittauer.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [http://www.studyinglanguages.ac.uk](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](http://www.burntfen.com/publications/bib/LittDebut.bib)  
  * Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). [_Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_](http://ijdc.net/index.php/ijdc/article/download/222/291). In: _International Journal of Data Curation_, Vol. 7:2, pp. 92-100. [doi:10.2218/ijdc.v7i2.232](http://ijdc.net/index.php/ijdc/article/view/222) [bib](http://www.burntfen.com/publications/bib/LittIJDC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)  
 
-####Book Chapters
+#### Book Chapters
 
  * Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., [_The People's Web Meets NLP: Collaboratively Constructed Language Resources,_](https://www.springer.com/education+%26+language/linguistics/book/978-3-642-35084-9) pp. 315-348. Springer. [bib](http://www.burntfen.com/publications/bib/ChiarcosLOD.bib)  
 
-####Book Reviews
+#### Book Reviews
 
  * Richard Littauer (2013). _Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., Potentials of Language Documentation: Methods, Analyses, and Utilization. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press._ In: _LINGUIST List_, 24.2604. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=12670360)  
  * Richard Littauer (2012). _Review of H. Schiffman & B. Spooner, eds., Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill._ In: _LINGUIST List_, 23.3183. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=4553348) [bib](http://www.burntfen.com/publications/bib/LittLinguist.bib)  
 
 
-####Peer-reviewed Proceedings
+#### Peer-reviewed Proceedings
 
+ * Richard Littauer, Hugh Paterson III (2016). [Open Source Code Serving Endangered Languages](https://github.com/RichardLitt/endangered-languages/raw/master/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf). In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, Eveline Wandl-Vogt, eds., In Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop. Portorož, Slovenia, 23 May, 2012.
  * Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). *From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research*. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp.121-132. Tokyo, Japan: Evolang 9 Organizing Committee. [bib](http://www.burntfen.com/publications/bib/LittEvoC.bib)  
  * Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). [Linguistic Resources Enhanced with Geospatial Information](http://www.aclweb.org/anthology/W13-5508). In: C. Chiarcos, P. Cimiano, T. Declerck, J. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53-58. Pisa, Italy: Association for Computational Linguistics. [bib](http://www.burntfen.com/publications/bib/LittLDL.bib)  
  * Richard Littauer (*to appear*). *On Tocharian Exceptionality to the* centum-satem *Isogloss*. In: R. Littauer and T. Williams, eds., *Undergraduate Linguistics Association of Britain 2012 Proceedings*. Bristol, UK: online.  
