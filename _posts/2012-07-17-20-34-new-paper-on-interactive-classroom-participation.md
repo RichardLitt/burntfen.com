@@ -8,7 +8,7 @@ tags: [research, publication]
 {% include JB/setup %}
 
 My coauthors, Antonia Scheidel, Marc Schulder, and Sibel Ciddi, and I
-all have a new paper out recently in the 4th International Conference on Education and New Learning Technologies in Barcelona. It's called __Crowd sourcing the classroom: Interactive applications in higher learning__, and it is available for download [here](http://www.burntfen.net/publications/LittEdulearn.pdf), with the appropriate [bib file](http://www.burntfen.net/publications/bib/LittEdulearn.bib). 
+all have a new paper out recently in the 4th International Conference on Education and New Learning Technologies in Barcelona. It's called __Crowd sourcing the classroom: Interactive applications in higher learning__, and it is available for download [here](https://www.burntfen.com/publications/LittEdulearn.pdf), with the appropriate [bib file](https://www.burntfen.com/publications/bib/LittEdulearn.bib).
 
 Abstract
 --------
@@ -45,7 +45,7 @@ information about the course itself, a reading list, slides from our
 presentations, information about the topic, as well as links to
 notebooks. It wasn't the largest wiki - 18 pages in the end - but it did
 work very well as a reference which we could edit, rather than a closed
-site that only a secretary somewhere can edit. 
+site that only a secretary somewhere can edit.
 
 Dropbox and Email Lists
 ------------------------
@@ -93,6 +93,6 @@ So, that was basically our paper. None of us could attend the conference
 for logistical reasons, but we hope that it got our there, and that some
 people take the time to look at the paper, and perhaps implement
 Classroom 2.0 technologies in their universities or high schools. Would
-be fun. 
+be fun.
 
-Feel free to email me or comment here for questions. 
+Feel free to email me or comment here for questions.

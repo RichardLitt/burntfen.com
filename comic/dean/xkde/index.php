@@ -126,7 +126,7 @@ else if ($current == 18) $comment = "suddenly biking uphill doesnt seem so hard.
 else if ($current == 19) $comment = "";
 else if ($current == 20) $comment = "climbing mountains is great for perspective...";
 else if ($current == 21) $comment = "tests conducted by comparing with a half full box of muslei.";
-else if ($current == 22) $comment = "it could have been worse. it could have been ´the song that never ends´";
+else if ($current == 22) $comment = "it could have been worse. it could have been ï¿½the song that never endsï¿½";
 else if ($current == 23) $comment = "itchy in a touchy area...";
 else if ($current == 24) $comment = "ahhh, the autobus. why walk for 8 hours when you can get there by bus in 20 minutes? or am i missing the point?";
 else if ($current == 25) $comment = "not really sure how this happened. i was just trying to ask if he wanted some bread...";
@@ -200,7 +200,7 @@ echo "<img id=\"img_main\" name=\"img_main\" src=\"$current_string	.png\" title=
 
 </script>
 
-<p style="font-family:verdana;font-size:60%"><br />cheers heaps to my mate richard for hooking me up with the server space. <br />coincidentally, he happens to have a comic of his own on this very server: <a href=http://www.burntfen.com/comic/>www.burntfen.com</a><br /><br /></p>
+<p style="font-family:verdana;font-size:60%"><br />cheers heaps to my mate richard for hooking me up with the server space. <br />coincidentally, he happens to have a comic of his own on this very server: <a href=https://www.burntfen.com/comic/>www.burntfen.com</a><br /><br /></p>
 
 </div>
 

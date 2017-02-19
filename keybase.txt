@@ -4,7 +4,7 @@ https://keybase.io/richlitt
 
 I hereby claim:
 
-  * I am an admin of http://burntfen.com
+  * I am an admin of https://burntfen.com
   * I am richlitt (https://keybase.io/richlitt) on keybase.
   * I have a public key with fingerprint 1070 2CDC E1A8 61C8 4EC6  B5F1 4EA1 CEF2 3B01 6E42
 

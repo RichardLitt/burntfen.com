@@ -6,7 +6,7 @@ picture: the-burnt-fen-maunderings.png
 status: 2008-2011
 stub: Webcomic
 role: Creator
-outbound: http://burntfen.com/comic/
+outbound: https://burntfen.com/comic/
 ---
 {% include JB/setup %}
 

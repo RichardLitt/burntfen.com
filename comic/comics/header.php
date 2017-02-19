@@ -8,5 +8,5 @@
 <body>
 <center>
 <div class="header">
-<a href=http://www.burntfen.com/comic/><img src=http://www.burntfen.com/comic/minutiae/banner2.png /></img></a>
+<a href=https://www.burntfen.com/comic/><img src=https://www.burntfen.com/comic/minutiae/banner2.png /></img></a>
 </div>

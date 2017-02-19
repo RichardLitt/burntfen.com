@@ -28,7 +28,7 @@ include('../inc/header.php');
 <div align="right" style="margin-top:60px;padding-right:30px;"><div id="box" align="left" style="width:400px;">
 <p><a href="H00_Intro.mp3">An Introduction</a></p>
 <p>Please send comments to me via twitter, facebook, email, or raven.<br />If nothing is up here for a while - don't worry. I'm working on it. Better is better than swifter.</p>
-<a href="http://www.burntfen.com">Home</a>
+<a href="https://www.burntfen.com">Home</a>
 </div>
 </div>
 </div>

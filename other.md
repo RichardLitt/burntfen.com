@@ -17,7 +17,7 @@ literature. I am the webmaster for the [UKLO](http://www.uklo.org), and
 at some point a couple of years ago [Dick
 Hudson](http://www.phon.ucl.ac.uk/home/dick/home.htm) and I started
 chatting about them. Without copying the whole conversation verbatim,
-Dick said that: 
+Dick said that:
 > The line I would take, I think, is that middle verbs must all share some semantic relation which can be separated from the bundle of properties that define other semantic roles; let's call it 'responsible' since that seems to be the thing that distinguishes what I think of as the crucial pair (due to George Lakoff):  
 >   
 > (1)  _These books sell well._  
@@ -25,7 +25,7 @@ Dick said that:
 
 To which my response sums up my approach. I'm still working on making
 this into an actual exposé on middle verbs. Any helps from a competent
-semanticist would be greatly appreciated. 
+semanticist would be greatly appreciated.
 
 > Regarding the middle, I think you're right that there's a
 > 'responsible' thematic role going on. However, I would disagree that
@@ -84,7 +84,7 @@ of [the Wheel of Time](en.wikipedia.org/wiki/The_Wheel_of_Time) for the
 sixth time, underlining all of the words from the Old Tongue, a made up
 language used by Robert Jordan, and meant to be something like a
 predecessor for English (although, it clearly isn't genetically). I did
-the same thing for Game of Thrones, which resulted in [this wiki page](http://wiki.dothraki.org/dothraki/Other_languages). The references are a bit... revealing of what I did in the summer of 2009, while working at an ice cream shop in Princeton. 
+the same thing for Game of Thrones, which resulted in [this wiki page](http://wiki.dothraki.org/dothraki/Other_languages). The references are a bit... revealing of what I did in the summer of 2009, while working at an ice cream shop in Princeton.
 
 What I am interested in is this: how do fantasy authors think of names
 for their characters, and what approaches do they take towards making
@@ -106,21 +106,21 @@ texts so that I can analyse them computationally, and that I am unsure
 what literature exists about conlangs already, and how to approach
 writing new literature for it.  
 
-#####Multiword Expressions
+##### Multiword Expressions
 
 Let's just say, for now, that I am interested in these, and am still
 teasing out how I mean to say anything useful about them. In this case,
 _interested_ means I took a course on them and continue to download and
-read the odd paper. 
+read the odd paper.
 
 ##Non-Linguistic
 
 I am interested in other research besides language, because research and
 publication is a way to give back to the world by filling it with more
 useful information, and it can all be done from the safety of one's living
-room. 
+room.
 
-#####Mammalian Reintroductions in Great Britain 
+#####Mammalian Reintroductions in Great Britain
 
 I am very interested in the curious case of beavers in Scotland, and,
 more recently, raccoon dogs in Wales. I am curious, but less interested
@@ -135,7 +135,7 @@ effects on the local environment.
 
 #####Mung (Or Pylaiella and Macroalgal Blooms)
 
-I summed up my interest in this area in a [Research Blog](http://researchblogging.com/) post, and got an Editor Selection award of which I am still proud. Just [read this](http://www.burntfen.net/merecat/?p=418) if you like seaweed and the ocean and Cape Cod. 
+I summed up my interest in this area in a [Research Blog](http://researchblogging.com/) post, and got an Editor Selection award of which I am still proud. Just [read this](http://www.burntfen.net/merecat/?p=418) if you like seaweed and the ocean and Cape Cod.
 
 #####Wetlands
 
@@ -151,12 +151,12 @@ I think that says it all. [This says more](http://replicatedtypo.com/crows/4784.
 
 I have been spending a few years on and off trying to find similarities
 between aspen root networks and language networks. As far as anyone can
-tell, this has been a fun waste of time. 
+tell, this has been a fun waste of time.
 
 #####Tool Use in Canids
 
-I am still trying to figure out if this is tool use or not. 
+I am still trying to figure out if this is tool use or not.
 
 ![Ninja Dog!](images/ninja_dog.gif)
 
-If you made it this far, I am very surprised. 
+If you made it this far, I am very surprised.
