@@ -97,7 +97,7 @@ This is easy. What you need to do is to find the SHA for the commit you want. Ty
 
 Copy the final commit SHA. As with all git SHAs, you can actually just copy the first 6 letters. Then, type this:
 
-    $ git squash 7bedf0  
+    $ git reset --soft 7bedf0d  
 
 What this will do is squash your commits down to the commit `7bedf0`, but keep all of the subsequent changes (in the staging area). Let's take a look:
 
