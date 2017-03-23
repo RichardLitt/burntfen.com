@@ -1,0 +1,36 @@
+<div class="litt-logo container-fluid">
+  <div class="row-fluid">
+    <div class="col-sm-12">
+      <a href="../">
+        <p>The</p>
+        <h1>Litt Review</h1>
+      </a>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-sm-12">
+    <h1 class="review-page-title">{{ page.title }}</h1>
+    <h4>By {{ page.author }}</h4>
+    {% if page.date != null %}
+    <p class="date">Posted on {{ page.date | date: "%b %-d, %Y"}}.</p>
+    {% endif %}
+    </div>
+  </div>
+</div>
+
+<div id="review-page" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-sm-8">
+      {{ content }}
+    </div>
+    <div class="col-sm-4">
+      <a href="{{ page.outbound }}">
+        <img class="project-image" src="../../assets/img/review/{{ page.picture }}" />
+      </a>
+    </div>
+    <hr>
+  </div>
+</div>

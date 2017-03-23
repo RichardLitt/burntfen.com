@@ -199,8 +199,6 @@ a {
   border-bottom: 1px thick #33666;
 }
 
-
-
 #project-page {
   .project-image {
     max-width: 100%
@@ -428,4 +426,67 @@ form.tlemailform {
     box-shadow: none;
     outline-color: none;
   }
+}
+
+/* The Litt review */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.review-page-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+.litt-logo {
+  margin-top: 100px;
+  a:hover, a:focus, a:visited, a:active {
+    text-decoration: none;
+  }
+  p {
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: -30px;
+    font-style: italic;
+  }
+  h1 {
+    font-family: serif;
+    font-size: 60px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+    line-height: 70px;
+  }
+}
+
+.litt-list {
+
+  #mc_embed_signup{
+    background:#fff;
+    clear:left;
+    font:14px "Libre Baskerville";
+    width:100%;
+    margin: 30px 0px 50px;
+  }
+
+  .mc-hidden {
+    position: absolute;
+    left: -5000px;
+  }
+
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  ul {
+    list-style: circle;
+  }
+  .date {
+    color: #999;
+  }
+}
+
+#review-page {
+  @extend #project-page;
+  font-family: "Libre Baskerville";
+  font-size: 20px;
 }

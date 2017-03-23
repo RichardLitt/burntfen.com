@@ -30,12 +30,14 @@ tagline: My personal website, where I list all of my main projects and occasiona
       <a href="https://angel.co/richlitt"><i class="fa fa-angellist"></i></a>
     </div>
 
+    <!--
     <div class="posts">
       {% for post in site.posts limit:3 %}
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><br />
       {% endfor %}
       <a class="more" href="/archive">More posts...</a>
     </div>
+    -->
 
     <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
       <span class="input input--madoka">
@@ -50,6 +52,8 @@ tagline: My personal website, where I list all of my main projects and occasiona
       </span>
       <button class="btn btn-subscribe" type="submit" value="Subscribe">Start reading my weekly newsletter</button>
     </form>
+
+    <div class="posts"><a href="/the-litt-review/">...or check out what I am reading at The Litt Review.</a></div>
 
 
     <div class="row col-md-12 projects">
