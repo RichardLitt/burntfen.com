@@ -5,26 +5,9 @@ description: "I'm in the news"
 permalink: /the-litt-review/index.html
 ---
 {% include JB/setup %}
+{% include themes/minimalber/litt-review-email-subscribe.html %}
 
-Do you want to get book reviews and notes from books I read in your inbox? Sign up! I'll include a summary, my favorite quotes from the book, and any vocabulary I found interesting or didn't know already.
-
-<!-- Begin MailChimp Signup Form -->
-<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<div id="mc_embed_signup">
-<form action="//burntfen.us9.list-manage.com/subscribe/post?u=54a70a2c82373a0980e031871&amp;id=dd50cf0034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div class="mc-hidden"> aria-hidden="true"><input type="text" name="b_54a70a2c82373a0980e031871_dd50cf0034" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-<ul>
+<ul class="litt-list">
 {% assign pages_list = site.reviews %}
 {% for node in pages_list %}
   {% if node.title != null %}

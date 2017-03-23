@@ -459,7 +459,10 @@ form.tlemailform {
   }
 }
 
-.litt-list {
+#litt-review-email-subscribe {
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 20px;
 
   #mc_embed_signup{
     background:#fff;
@@ -473,7 +476,9 @@ form.tlemailform {
     position: absolute;
     left: -5000px;
   }
+}
 
+.litt-list {
   margin-top: 30px;
   line-height: 30px;
   font-size: 20px;

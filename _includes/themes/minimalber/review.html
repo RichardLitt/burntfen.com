@@ -5,18 +5,17 @@
         <p>The</p>
         <h1>Litt Review</h1>
       </a>
-  </div>
+    </div>
   </div>
 </div>
 
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="col-sm-12">
-    <h1 class="review-page-title">{{ page.title }}</h1>
-    <h4>By {{ page.author }}</h4>
-    {% if page.date != null %}
-    <p class="date">Posted on {{ page.date | date: "%b %-d, %Y"}}.</p>
-    {% endif %}
+      <h1 class="review-page-title">{{ page.title }}</h1>
+      <h4>By {{ page.author }}</h4> {% if page.date != null %}
+      <p class="date">Posted on {{ page.date | date: "%b %-d, %Y"}}.</p>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -31,6 +30,16 @@
         <img class="project-image" src="../../assets/img/review/{{ page.picture }}" />
       </a>
     </div>
-    <hr>
+  </div>
+  <div class="col-sm-12">
+    <hr />
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-sm-12">
+      {% include themes/minimalber/litt-review-email-subscribe.html %}
+    </div>
   </div>
 </div>
