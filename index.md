@@ -37,9 +37,20 @@ tagline: My personal website, where I list all of my main projects and occasiona
       <a class="more" href="/archive">More posts...</a>
     </div>
 
-    <div class="newsletter">
-      <a class="more" href="https://tinyletter.com/richlitt">Start reading my weekly newsletter</a></p>
-    </div>
+    <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <span class="input input--madoka">
+          <input type="hidden" value="1" name="embed" />
+          <input class="input__field input__field--madoka" name="email" type="text" id="tlemail" />
+          <label class="input__label input__label--madoka" for="tlemail">
+          <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+          <path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
+          </svg>
+          <span class="input__label-content input__label-content--madoka">Email</span>
+      </label>
+      </span>
+      <button class="btn btn-subscribe" type="submit" value="Subscribe">Start reading my weekly newsletter</button>
+    </form>
+
 
     <div class="row col-md-12 projects">
       {% assign projects = (site.projects | sort: 'ranking') %}
