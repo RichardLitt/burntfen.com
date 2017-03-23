@@ -2,18 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <title>Burnt Fen | {{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.tagline }}">
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author.name }}">
     <meta name="copyright" content="&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}">
-    <meta name="description" content="My personal website, where I list all of my main projects and occasionally blog.">
 
     <!-- Security -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:">
 
     <!-- Open Graph -->
-    <meta property="og:description" content="My personal website, where I list all of my main projects and occasionally blog." />
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+    <meta property="og:description" content="{{ site.tagline }}" />
+    {% endif %}
     <meta property="og:url" content="https://burntfen.com/" />
     <meta property="og:site_name" content="Richard Littauer" />
     <meta property="og:title" content="Richard Littauer" />
@@ -27,7 +34,11 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@richlitt" />
     <meta name="twitter:title" content="Richard Littauer">
-    <meta name="twitter:description" content="My personal website, where I list all of my main projects and occasionally blog.">
+    {% if page.description %}
+    <meta property="twitter:description" content="{{ page.description }}" />
+    {% else %}
+    <meta property="twitter:description" content="{{ site.tagline }}" />
+    {% endif %}
     <meta name="twitter:image" content="https://burntfen.com/assets/img/avatar.png">
 
     <!-- Open Source Protocol -->
