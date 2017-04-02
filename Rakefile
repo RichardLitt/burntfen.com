@@ -2,6 +2,7 @@ require "rubygems"
 require 'rake'
 require 'yaml'
 require 'time'
+require './lib/rake_helper'
 
 SOURCE = "."
 CONFIG = {
@@ -10,6 +11,7 @@ CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
   'projects' => File.join(SOURCE, "_projects"),
+  'reviews' => File.join(SOURCE, "_reviews"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -24,7 +26,8 @@ module JB
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
       :posts => "_posts",
-      :projects => "_projects"
+      :projects => "_projects",
+      :reviews => "_reviews"
     }
 
     def self.base
@@ -48,17 +51,8 @@ task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  begin
-    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-    date_time = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d-%H-%M')
-  rescue Exception => e
-    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
-    exit -1
-  end
-  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
-  if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-  end
+  date, date_time = RakeHelper.date_time
+  filename = RakeHelper.check_filename('posts', "#{date}-#{slug}.#{CONFIG['post_ext']}")
 
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
@@ -106,10 +100,7 @@ task :project do
   title = ENV["title"] || "new-project"
   picture = ENV["picture"] || "png"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  filename = File.join(CONFIG['projects'], "#{slug}.#{CONFIG['post_ext']}")
-  if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-  end
+  filename = RakeHelper.check_filename('projects', "#{slug}.#{CONFIG['post_ext']}")
 
   puts "Creating new project: #{filename}"
   open(filename, 'w') do |project|
@@ -120,6 +111,32 @@ task :project do
     project.puts "---"
     project.puts "{% include JB/setup %}"
     project.puts ""
+  end
+end # task :page
+
+# Usage: rake review title="title" image-ext="png" author="author" [date="2012-02-09"]
+desc "Create a new review in #{CONFIG['reviews']}"
+task :review do
+  abort("rake aborted: '#{CONFIG['reviews']}' directory not found.") unless FileTest.directory?(CONFIG['reviews'])
+  title = ENV["title"] || "untitled"
+  picture = ENV["image-ext"] || "png"
+  author = ENV["author"] || ""
+  date, date_time = RakeHelper.date_time
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  filename = RakeHelper.check_filename('reviews', "#{slug}.#{CONFIG['post_ext']}")
+
+  puts "Creating new review: #{filename}"
+  open(filename, 'w') do |review|
+    review.puts "---"
+    review.puts "layout: review"
+    review.puts "title: \"#{title}\""
+    review.puts "description: \"A book review by Richard\""
+    review.puts "picture: #{slug}.#{picture}"
+    review.puts "author: \"#{author}\""
+    review.puts "date: #{date}"
+    review.puts "---"
+    review.puts "{% include JB/setup %}"
+    review.puts ""
   end
 end # task :page
 
