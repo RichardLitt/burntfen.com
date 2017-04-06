@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Make Good Art"
-description: "A book review by Richard"
+description: "A book review of Make Good Art by Richard"
 picture: MakeGoodArt.jpg
 author: "Neil Gaiman"
 date: "2017-04-05"

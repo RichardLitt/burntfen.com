@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "The Restaurant at the End of the Universe"
-description: "A book review by Richard"
+description: "A book review The Restaurant at the End of the Universe by Richard"
 picture: RestaurantAtTheEndOfTheUniverse.jpg
 author: "Douglas Adams"
 date: "2017-03-23"

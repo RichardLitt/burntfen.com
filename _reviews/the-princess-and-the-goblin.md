@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "The Princess and the Goblin"
-description: "A book review by Richard"
+description: "A book review The Princess and the Goblin by Richard"
 picture: "440px-Princess_and_the_Goblin.jpg"
 author: "George Macdonald"
 date: "2017-04-06"
