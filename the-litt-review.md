@@ -8,7 +8,7 @@ permalink: /the-litt-review/index.html
 {% include themes/minimalber/litt-review-email-subscribe.html %}
 
 <ul class="litt-list">
-{% assign pages_list = site.reviews %}
+{% assign pages_list = site.reviews | reverse %}
 {% for node in pages_list %}
   {% if node.title != null %}
     {% if page.url == node.url %}
