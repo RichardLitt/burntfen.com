@@ -18,5 +18,6 @@ I regularly speak at meetups about code, mostly about JavaScript. The image you 
   - Papers We Love Boston, March 24, 2016. Title: The Moral Character of Cryptographic Work, by Phillip Rogaway.
   - NodeLive Washington DC, October 26, 2016. Title: Standardizing READMEs for Great Good.
   - NodeFest Japan in Tokyo, November 13, 2016. Title: Why to Standardize your READMEs.
+  - JSMontreal, Montreal, April 11, 2017. Also about Standard Readme.
 
 I also have given dozens of academic talks about linguistics: for a list of publications, go [here](/projects/publications/).
