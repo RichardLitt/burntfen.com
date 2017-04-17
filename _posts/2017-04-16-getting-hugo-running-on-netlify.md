@@ -5,6 +5,7 @@ description: "How to get a static site up and running easily"
 category: code
 tags: [code, hugo, netlify, static]
 date: 2017-04-16-18-11
+canonicalUrl: 'https://www.burntfen.com/2017-04-16/getting-hugo-running-on-netlify'
 ---
 {% include JB/setup %}
 
