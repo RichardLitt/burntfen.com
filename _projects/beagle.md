@@ -10,7 +10,7 @@ outbound: https://github.com/BeagleLab/beagle
 ---
 {% include JB/setup %}
 
-Collaborators: _Adam Marblestone_, _Ed Boyden_ from the [Synthetic Neurobiology](https://www.media.mit.edu/research/groups/synthetic-neurobiology) research group at the [MIT Media Lab](https://www.media.mit.edu); _[Juan Benet](http://juan.benet.ai/)_ of [IPFS](https://ipfs.io/).
+Collaborators: _Adam Marblestone_, _Ed Boyden_ from the [Synthetic Neurobiology](https://www.media.mit.edu/groups/synthetic-neurobiology/overview/) research group at the [MIT Media Lab](https://www.media.mit.edu/); _[Juan Benet](http://juan.benet.ai/)_ of [IPFS](https://ipfs.io/).
 
 [Source Code](github.com/BeagleLab/beagle/).
 

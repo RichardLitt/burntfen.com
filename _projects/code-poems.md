@@ -6,7 +6,7 @@ picture: code-poems.png
 status: 2012
 stub: Poetry Anthology
 role: Poet
-outbound: https://code-poems.com
+outbound: http://code-poems.com
 ---
 {% include JB/setup %}
 

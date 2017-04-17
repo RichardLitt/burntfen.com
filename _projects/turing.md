@@ -6,7 +6,7 @@ picture: turing.png
 status: 2015-ongoing
 stub: Software School
 role: Code Mentor
-outbound: https://turing.io/
+outbound: https://www.turing.io/
 ---
 {% include JB/setup %}
 
