@@ -148,8 +148,6 @@ Instead, `touch .gitmodules`, and add this:
 
 Why not in `.git/config`? Because you can't add that to GitHub, which means Netlify won't see it.
 
-This should work. TODO - This isn't working because it needs Hugo v2
-
 ### Editing your theme
 
 What if you want to edit your theme?
@@ -170,7 +168,7 @@ Note: If you try to add the submodule using `git submodule add`, you'll need to 
 
 ### Knowing which version of Hugo you're running
 
-Make sure you're using the correct version of hugo.  By default, Netlify is currently running hugo `v0.17` but other versions are available: as for instance 'hugo_0.20'. 
+Make sure you're using the correct version of hugo.  By default, Netlify is currently running hugo `v0.17` but other versions are available: as for instance 'hugo_0.20'.
 
 How would you know what version they are running? Their logs currently don't tell you. The best thing to do, in this case, is to add your own logging information. I did this by making my own Makefile, and then having Netlify build that instead of building hugo directly:
 
