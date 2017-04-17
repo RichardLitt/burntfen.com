@@ -29,13 +29,13 @@ cd themes
 git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
 ```
 
-### Hiccup: Moving the config.toml
+### Moving the config.toml
 
 Now, you have a theme installed. What you need to do is copy the `config.toml` from the `exampleSite` folder to your base folder. This is a bit strange - but it's generally the easiest way I've seen to ensure that your config has all of the settings needed for the installed theme to work. This means that each time you change a theme, you need to change all of the metadata in the config, too. Keep that in mind - it's hard to change themes.
 
 Once you've copied it, go back to your directory - in my case, `~/src/interrupted-fern/`, and edit the `config.toml` there to match what you want.
 
-### Hiccup: Adding empty folders to git
+### Adding empty folders to git
 
 Now, you should add this stuff to GitHub. (I use [`hub`](http://github.com/github/hub) and [`git-extras`](https://github.com/tj/git-extras), if any of these commands look weird).
 
@@ -112,7 +112,7 @@ git up
 
 At this point, it should build. Maybe. 
 
-### Hiccup: Git submodules
+### Git submodules
 
 Gitmodules are fun and powerful, but they are also confusing to set up and run with. It's possible, at this point, that you failed to add the theme as a Git module. (I've been following these steps as I go, and that was my issue). You can see this in the build log:
 
@@ -165,20 +165,37 @@ Let's try that. Fork hugo-tranquilpeak-theme, add some commits, and then commit 
   url = https://github.com/RichardLitt/hugo-tranquilpeak-theme.git
 ```
 
-Note: If you try to add the submodule using `git submodule add`, you'll need to delete the theme from `themes` _and_ push. Otherwise, it'll think it's still in the index. 
+Note: If you try to add the submodule using `git submodule add`, you'll need to delete the theme from `themes` _and_ push. Otherwise, it'll think it's still in the index.
 
 ### Knowing which version of Hugo you're running
 
-Make sure you're using the correct version of hugo.  By default, Netlify is currently running hugo `v0.17` but other versions are available: as for instance 'hugo_0.2'.  I know there was some new functionality in 0.19 that is not backwards compatible.
+Make sure you're using the correct version of hugo.  By default, Netlify is currently running hugo `v0.17` but other versions are available: as for instance 'hugo_0.20'. 
 
 How would you know what version they are running? Their logs currently don't tell you. The best thing to do, in this case, is to add your own logging information. I did this by making my own Makefile, and then having Netlify build that instead of building hugo directly:
 
 ```
 all:
 	hugo version
-	hugo_0.2 -v
+	hugo -v
 ```
 
 This way, it will print the current version before it runs Hugo, so you know which version it is running
 
-TODO - This doesn't work, because I don't know how to use Hugo 2.0
+How do you change the version? There are [two ways](https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/). You can set `HUGO_VERSION` as an environmental variable in Netlify, or you can upload a `netlify.toml` file:
+
+```
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.20"
+```
+
+That should do it for you.
+
+### Ensuring HTTPS
+
+I had an issue at this point where the CSS files weren't being loaded. I had set the `baseurl` in my `config.toml` to `https://interruptedfern.com`, instead of to `http`. But SSL wasn't being enforced, so the site wasn't loading the CSS. A quick switch on Netlify to enable SSL fixed this.
+
+### All done
+
+At this point, the site is up and running. You can edit your own theme, you have Hugo compiling well, and you've got SSL enabled.
+
+Worth the effort.
