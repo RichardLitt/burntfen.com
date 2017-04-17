@@ -25,11 +25,13 @@
     <div class="col-sm-8">
       {{ content }}
     </div>
+    {% if page.picture %}
     <div class="col-sm-4">
-      <a href="{{ page.outbound }}">
+      {% if page.outbound %}<a href="{{ page.outbound }}">{% endif %}
         <img class="project-image" src="../../assets/img/review/{{ page.picture }}" />
-      </a>
+        {% if page.outbound %}</a>{% endif %}
     </div>
+    {% endif %}
   </div>
 </div>
 
