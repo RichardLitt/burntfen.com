@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Native Guard"
-description: "A book review of \"Native Guard\" by Natasha Trethewey"
+description: "My review of 'Native Guard' by Natasha Trethewey"
 picture: native-guard.jpeg
 author: "Natasha Trethewey"
 date: "2017-04-29"
