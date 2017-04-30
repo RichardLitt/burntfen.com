@@ -132,7 +132,7 @@ task :review do
     review.puts "---"
     review.puts "layout: review"
     review.puts "title: \"#{title}\""
-    review.puts "description: \"My review of '#{title}' by '#{author}'\""
+    review.puts "description: \"My review of '#{title}' by #{author}\""
     review.puts "picture: #{slug}.#{picture}"
     review.puts "author: \"#{author}\""
     review.puts "date: \"#{date}\""

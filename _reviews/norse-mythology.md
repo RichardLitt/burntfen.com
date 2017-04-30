@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Norse Mythology"
-description: "My review of 'Norse Mythology' by 'Neil Gaiman'"
+description: "My review of 'Norse Mythology' by Neil Gaiman"
 picture: norse-mythology.jpeg
 author: "Neil Gaiman"
 date: "2017-04-30"
