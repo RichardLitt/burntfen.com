@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Burnt Fen | {{ page.title }}</title>
+    <title>{% if page.layout == 'review' %}The Litt Review{% else %}Burnt Fen{% endif %} | {{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}<meta name="description" content="{{ site.tagline }}">{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author.name }}">
@@ -15,7 +15,7 @@
     {% if page.description %}<meta property="og:description" content="{{ page.description }}" />{% else %}<meta property="og:description" content="{{ site.tagline }}" />{% endif %}
     <meta property="og:url" content="https://burntfen.com/" />
     <meta property="og:site_name" content="Richard Littauer" />
-    <meta property="og:title" content="Richard Littauer" />
+    <meta property="og:title" content="{% if page.layout == 'review' %}The Litt Review{% else %}Richard Littauer{% endif %}" />
     <meta property="og:type" content="website" />
     {% if page.picture %}<meta property="og:image" content="https://burntfen.com/assets/img/{% if page.layout %}{{ page.layout }}{% endif %}/{{ page.picture }}">{% else %}<meta property="og:image" content="https://burntfen.com/assets/img/avatar.png" />
     <meta property="og:image:type" content="image/png" />
@@ -26,7 +26,7 @@
     <!-- Twitter: card tags -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@richlitt" />
-    <meta name="twitter:title" content="Richard Littauer">
+    <meta name="twitter:title" content="{% if page.layout == 'review' %}The Litt Review{% else %}Richard Littauer{% endif %}">
     {% if page.description %}<meta property="twitter:description" content="{{ page.description }}" />{% else %}<meta property="twitter:description" content="{{ site.tagline }}" />{% endif %}
     {% if page.picture %}<meta name="twitter:image" content="https://burntfen.com/assets/img/{% if page.layout %}{{ page.layout }}{% endif %}/{{ page.picture }}">{% else %}<meta name="twitter:image" content="https://burntfen.com/assets/img/avatar.png">{% endif %}
 
