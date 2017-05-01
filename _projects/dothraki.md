@@ -10,7 +10,7 @@ outbound: https://dothraki.org
 ---
 {% include JB/setup %}
 
-After my work on [LearnNavi.org](../learn-navi), I was pretty excited to hear that _[David Peterson](http://dedalvs.com/)_ had been contracted through the [Language Creation Society](http://conlang.org/) (I used to be on the board) to build Dothraki and other Languages for HBO's _Game of Thrones_. So, with some help from other people at LearnNavi, I set up [Dothraki.org](http://www.dothraki.org/) to be a fan community for the language. Most of my immediate work went into building the [wiki](http://www.dothraki.org/). However, I soon moved on to focus on my Master's program, and have not been active in the community for some time.
+After my work on [LearnNavi.org](../learn-navi), I was pretty excited to hear that _[David Peterson](http://dedalvs.com/)_ had been contracted through the [Language Creation Society](http://conlang.org/) (I used to be on [the board](http://conlang.org/about-the-lcs/officers-directors/)) to build Dothraki and other Languages for HBO's _Game of Thrones_. So, with some help from other people at LearnNavi, I set up [Dothraki.org](http://www.dothraki.org/) to be a fan community for the language. Most of my immediate work went into building the [wiki](http://www.dothraki.org/). However, I soon moved on to focus on my Master's program, and have not been active in the community for some time.
 
 #### Press
 
