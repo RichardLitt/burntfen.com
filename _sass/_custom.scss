@@ -434,9 +434,22 @@ form.tlemailform {
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
-.review-page-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+.review-page-header {
+  .rp-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+  }
+  .rp-author {
+    font-size: 20px;
+  }
+  .rp-date {
+    border-bottom: 1px solid #000;
+    padding: 20px 0px;
+    a {
+      text-decoration: underline;
+      font-weight: 400;
+    }
+  }
 }
 
 .litt-logo {
@@ -493,5 +506,16 @@ form.tlemailform {
   @extend #project-page;
   font-family: "Libre Baskerville";
   font-size: 20px;
+  line-height: 30px;
   margin: 50px auto;
+  a {
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  .project-image {
+    float: right;
+    width: 40%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
 }

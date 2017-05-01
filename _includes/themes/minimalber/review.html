@@ -1,20 +1,9 @@
-<div class="litt-logo container-fluid">
-  <div class="row-fluid">
-    <div class="col-sm-12">
-      <a href="../">
-        <p>The</p>
-        <h1>Litt Review</h1>
-      </a>
-    </div>
-  </div>
-</div>
-
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="col-sm-12">
-      <h1 class="review-page-title">{{ page.title }}</h1>
-      <h4>By {{ page.author }}</h4> {% if page.date != null %}
-      <p class="date">Posted on {{ page.date | date: "%b %-d, %Y"}}.</p>
+    <div class="col-sm-12 review-page-header">
+      <h1 class="rp-title">{{ page.title }}</h1>
+      <p class="rp-author">By {{ page.author }}</p> {% if page.date != null %}
+      <p class="rp-date">Reviewed {{ page.date | date: "%b %-d, %Y"}} on <a href="../">The Litt Review</a>.</p>
       {% endif %}
     </div>
   </div>
@@ -22,16 +11,14 @@
 
 <div id="review-page" class="container-fluid">
   <div class="row-fluid">
-    <div class="col-sm-8">
+    <div class="col-sm-12">
+      {% if page.picture %}
+        {% if page.outbound %}<a href="{{ page.outbound }}">{% endif %}
+          <img class="project-image" style="float:right; width:20%;" src="../../assets/img/review/{{ page.picture }}" />
+          {% if page.outbound %}</a>{% endif %}
+      {% endif %}
       {{ content }}
     </div>
-    {% if page.picture %}
-    <div class="col-sm-4">
-      {% if page.outbound %}<a href="{{ page.outbound }}">{% endif %}
-        <img class="project-image" src="../../assets/img/review/{{ page.picture }}" />
-        {% if page.outbound %}</a>{% endif %}
-    </div>
-    {% endif %}
   </div>
 </div>
 
