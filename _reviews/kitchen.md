@@ -5,6 +5,7 @@ description: "My review of 'Kitchen' by Banana Yoshimoto"
 picture: kitchen.jpg
 author: "Banana Yoshimoto"
 date: "2017-05-01"
+outbound: "http://amzn.to/2pOFdow"
 ---
 {% include JB/setup %}
 

@@ -5,6 +5,7 @@ description: "My review of 'Norse Mythology' by Neil Gaiman"
 picture: norse-mythology.jpeg
 author: "Neil Gaiman"
 date: "2017-04-30"
+outbound: "http://amzn.to/2qpbEad"
 ---
 {% include JB/setup %}
 
