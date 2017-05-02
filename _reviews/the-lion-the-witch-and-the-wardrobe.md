@@ -1,0 +1,47 @@
+---
+layout: review
+title: "The Lion, the Witch, and the Wardrobe"
+description: "My review of 'The Lion, the Witch, and the Wardrobe' by CS Lewis"
+picture: the-lion-the-witch.jpg
+author: "CS Lewis"
+date: "2017-05-02"
+---
+{% include JB/setup %}
+
+After reading [_The Man Who Was Thursday_](https://en.wikipedia.org/wiki/The_Man_Who_Was_Thursday) by Chesterton, [_Spirits in Bondage_](https://www.burntfen.com/the-litt-review/spirits-in-bondage/) by Lewis, and [_The Princess and the Goblin_](https://www.burntfen.com/the-litt-review/the-princess-and-the-goblin/) by MacDonald, I was pretty excited to come across a cheap copy of [_The Lion, The Witch, and the Wardrobe_](http://amzn.to/2qyWhLJ) in a second-hand bookshop. Winter was ending when I read it, but I still remember the long snows of Canada, and running past very lamppost-esque lampposts that line the streets there. So, I picked it up and read it for the fiftieth odd time.
+
+This is a book that does not age well. I found it to be condescending, ridiculous, and somewhat small. The Christian overtones were so overbearing that I agreed with Tolkien - allegory is a horrible kind of fiction. It was hard to enjoy the story. Eventually, I started taking my pen to it, enjoying writing up what I disagreed with here and there.
+
+For one, Lewis shows himself to be an inveterate sexist, ableist, and all around bigot in how he portrays the side of evil. There's no depth to evil if all you have to be is to be born a Hag, or an "evil tree", or an "ape". I found the broad brushstrokes in which entire sets of creatures were labelled as evil to be silly and simple. Where is the redemption for the minotaurs? Or for the Wooses? Or Efreets? Aslan is a pretty poor sacrifice if he can only save one human child, and not the damned who just happen to exist there.
+
+Of course, I'm biased. I grew up reading these books as a Christian, and somewhere along the line bucked the trend and became an agnostic. Because of this, I tend to judge this book a bit harshly. For instance, let's take a look at Aslan's sacrifice. It doesn't make sense. There's some deeper magic that needs to be appeased - why? Why was the world set up that way? Couldn't an all powerful God change the world, anyway? (And if he can't - why not?) Aslan could have walked away Scot-free.
+
+In the original story, Jesus was sentenced and did actually need to die. He had been setting himself up as a revolutionary icon, and claiming lordship, which pretty blatantly goes against Roman rule. But Aslan hadn't - he simply was. Being "King of the Jews" is an offense against Roman sovereignty. Being a sacrificial lamb isn't exactly a crime. This bit confused me.
+
+Moving past that, there were some interesting things I took away in this reading. For instance, the giants appear to speak Scots.
+
+> "Blowed if I ain't all in a muck sweat", said the Giant, puffing like the largest railway engine. "Comes of being out of condition. I suppose neither of you young ladies has such a thing as a pocket-handkerchee about you?"
+
+At least, I'm pretty sure that _muck_ as an adjective is a Scots term. It was hard to google.
+
+Another interesting part is when Lewis describes Lucy and Susan after Aslan is dead.
+
+> I hope no one who reads this book has been quite as miserable as Susan and Lucy were that night; but if you have been--if you've been up all night and cried till you have no more tears left in you--you will know that there comes in the end a sort of quietness. You feel as it nothing was every going to happen again. At any rate that was how it felt to these two. Hours and hours seemed to go by in this dead calm, and they hardly noticed that they were getting colder and colder.
+
+It is clear that he is drawing on real experience, from the trenches, where most of his best friends died when he was young. He is, in effect, describing grief and shellshock. 
+
+Another thing I liked was the small jibes at using the wrong pronominal form for subject complements.
+
+> 'Come out, Mrs. Beaver. Come out, Sons and Daughters of Adam. It's all right! It isn't _Her_!' This was bad grammar of course, but that is how beavers talk when they are excited.
+
+And later, appropriately:
+
+> "Think how you'd feel if you were he."
+
+The 'correct' version sounds bizarre to me. There's more written up about this, [here](https://en.wikipedia.org/wiki/Subject_complement). It was interesting to see my old lecturer's name, Geoff Pullum, in the Wikipedia article for this - but of course it's there.
+
+Small points aside, the book was a fun read, if only because I was able to rip into Lewis and enjoy the parts where he does get it right. Some passages were beautiful.
+
+> But this is a mount that doesn't need to be guided and never grows tired. He rushes on and on, never missing his footing, never hesitating, threading his way with perfect skill between tree trunks, jumping over bush and briar and the smaller streams, wading the larger, swimming the largest of all. And you are riding not on a road nor in a park nor even on the downs, but right across Narnia, in spring, down solemn avenues of beech and across sunny glades of oak, through wild orchards of snow-white cherry trees, past roaring waterfalls and mossy rocks and echoing caverns, up windy slopes alight with gorse bushes, and across the shoulders of heathery mountains and along giddy ridges and down, down, down again into wild valleys and out into acres of blue flowers.
+
+See? That's nice.
