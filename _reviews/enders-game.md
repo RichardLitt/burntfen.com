@@ -44,7 +44,7 @@ What he gets wrong is his representation of gender. There aren’t many girls at
   
 > “They don't often pass the tests to get in. Too many centuries of evolution working against them."
 
-This is an odd statement. It may be that a lack of excessive testosterone may lead to a preference against certain offensive military leadership styles. Men are probably more suited to aggression, which may have a crucial role in this particular type of military fighting. However, by stating it thus, and by providing only a limited set of war options, Card has completely shut down the conversation about what sorts of military or civilian engagements might be particularly suited for women. This also leads to the excessive machismo of Battle Schoo, which is frankly unpalatable at times. 
+This is an odd statement. It may be that a lack of excessive testosterone may lead to a preference against certain offensive military leadership styles. Men are probably more suited to aggression, which may have a crucial role in this particular type of military fighting. However, by stating it thus, and by providing only a limited set of war options, Card has completely shut down the conversation about what sorts of military or civilian engagements might be particularly suited for women. This also leads to the excessive machismo of Battle School, which is frankly unpalatable at times. 
   
 But this is Card’s story. So why do I have an issue with it? Because of the way he portrayed women, in general. Valentine is brilliant, admittedly - but consistently described as too soft, and too caring. And Petra, the only girl of note in Battle School, gets the short end of the stick later on when she has a mental breakdown.
 
