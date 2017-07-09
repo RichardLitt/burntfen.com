@@ -13,7 +13,7 @@
 
     <!-- Open Graph -->
     {% if page.description %}<meta property="og:description" content="{{ page.description }}" />{% else %}<meta property="og:description" content="{{ site.tagline }}" />{% endif %}
-    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:url" content="{{ HOME_PATH }}{{page.url}}" />
     <meta property="og:site_name" content="Richard Littauer" />
     <meta property="og:title" content="{% if page.layout == 'review' %}The Litt Review{% else %}Richard Littauer{% endif %}" />
     <meta property="og:type" content="website" />
