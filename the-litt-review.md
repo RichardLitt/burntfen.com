@@ -1,7 +1,7 @@
 ---
 layout: review-index
 title: "The Litt Review"
-description: "I'm in the news"
+description: "Where I review books"
 permalink: /the-litt-review/index.html
 ---
 {% include JB/setup %}
