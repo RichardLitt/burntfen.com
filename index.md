@@ -6,6 +6,7 @@ description: "Where I review books"
 {% include JB/setup %}
 {% include themes/minimalber/litt-review-email-subscribe.html %}
 
+<div class="wrapper">
 <ul class="litt-list">
 {% assign pages_list = site.reviews | reverse %}
 {% for node in pages_list %}
@@ -23,6 +24,7 @@ description: "Where I review books"
 {% assign pages_list = nil %}
 {% assign group = nil %}
 </ul>
+</div>
 
 <hr />
 
@@ -30,7 +32,7 @@ description: "Where I review books"
 
 I've been keeping track of what books I read for years. Here are lists set up before the Litt Review.
 
-- [2017](https://www.burntfen.com/books/2017)
-- [2016](https://www.burntfen.com/2017-02-08/books-i-read-in-2016)
-- [2015](https://www.burntfen.com/2015-12-29/books-i-read-in-2015)
-- [2014](https://www.burntfen.com/2015-01-04/books-from-2014)
+- [2017](/books/2017)
+- [2016](/2017-02-08/books-i-read-in-2016)
+- [2015](/2015-12-29/books-i-read-in-2015)
+- [2014](/2015-01-04/books-from-2014)
