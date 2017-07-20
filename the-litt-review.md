@@ -5,7 +5,7 @@ description: "Where I review books"
 permalink: /the-litt-review/index.html
 ---
 {% include JB/setup %}
-{% include themes/minimalber/litt-review-email-subscribe.html %}
+{% include themes/minimalber/the-litt-review/subscribe.html %}
 
 <ul class="litt-list">
 {% assign pages_list = site.reviews | reverse %}

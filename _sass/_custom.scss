@@ -1,19 +1,10 @@
 /* Override some defaults */
-html,
-body {
+html, body {
   background-color: #FFF;
 }
+
 .content {
   padding-bottom: 200px;
-}
-body#index {
-  .wrapper {
-    background-color: #FFFFFF;
-  }
-  a:hover {
-    text-decoration: none;
-    color: red;
-  }
 }
 
 .subpage {
@@ -23,6 +14,7 @@ body#index {
 .wrapper {
   margin-top: 20px;
 }
+
 .navbar {
   margin-bottom: 0;
   a.brand {
@@ -74,9 +66,9 @@ li {
 footer {
   margin: 0px auto 20px auto;
   text-align: center;
-}
-footer img {
-  margin-bottom: 20px;
+  img {
+    margin-bottom: 20px;
+  }
 }
 .container {
   -webkit-border-radius: 6px 6px 6px 6px;
@@ -84,6 +76,7 @@ footer img {
   border-radius: 6px 6px 6px 6px;
   min-width: 20px;
 }
+
 /* Page header tweaks */
 .page-header h1 {
   font-family: Helvetica, sans-serif;
@@ -111,7 +104,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   letter-spacing: -1px;
 }
-/* tag_box ======================================================== */
+
 .tag_box {
   list-style: none;
   margin: 0;
@@ -141,27 +134,7 @@ h1 {
     float: left;
   }
 }
-/* ===================== Manual resets ========================== */
 
-#avatar {
-  width: 200px;
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 3px double #099;
-}
-#title {
-  width: 530px;
-  font-size: 21px;
-  font-family: Helvetica;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: -1px;
-  margin: 20px auto;
-  text-align: center;
-  color: #099;
-  padding: 10px 100px 3px 100px;
-  border-bottom: 3px double #099;
-}
 .menu {
   margin: 5px 0px;
   -moz-border-radius: 20px;
@@ -183,34 +156,6 @@ a {
     color: red;
   }
 }
-.random {
-  position: relative;
-  margin-top: 30px;
-  font-family: Helvetica;
-  font-weight: 200;
-  font-size: 17px;
-}
-.title {
-  margin: 80px auto 25px 100px;
-  font-size: 30px;
-  font-family: Helvetica;
-  font-weight: 200;
-  letter-spacing: -1px;
-  border-bottom: 1px thick #33666;
-}
-
-#project-page {
-  .project-image {
-    max-width: 100%
-  }
-  h4 {
-    margin-top: 0;
-  }
-  .role {
-    font-size: 18px;
-    font-weight: 200;
-  }
-}
 
 @media (max-width: 767px) {
   .wrapper {
@@ -221,20 +166,7 @@ a {
   .brand {
     text-align: center;
   }
-  #avatar {
-    margin-top: 50px;
-  }
-  #title {
-    width: 200px;
-    text-align: center;
-    margin: 50px auto;
-    padding: 10px 0px;
 
-  }
-  .title {
-    margin: 50px 0px;
-    text-align: center;
-  }
   .text-box {
     h4 {
       text-align: center;
@@ -242,14 +174,6 @@ a {
     }
     p {
       padding-top: 10px;
-    }
-  }
-  #project-page {
-    h4 {
-      margin-top: 20px;
-    }
-    .project-image {
-      max-width: 300px;
     }
   }
 }
@@ -278,245 +202,4 @@ a {
 
 .display-first {
   display: block;
-}
-
-.input {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	margin: 1em;
-	max-width: 400px;
-	width: calc(100% - 2em);
-	vertical-align: top;
-}
-
-.input__field {
-	position: relative;
-	display: block;
-	float: right;
-	padding: 0.8em;
-	width: 60%;
-	border: none;
-	border-radius: 0;
-	background: #f0f0f0;
-	color: #aaa;
-	font-weight: bold;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	-webkit-appearance: none; /* for box shadows to show on iOS */
-}
-
-.input__field:focus {
-	outline: none;
-}
-
-.input__label {
-	display: inline-block;
-	float: right;
-	padding: 0 1em;
-	width: 40%;
-	color: #6a7989;
-	font-weight: bold;
-	font-size: 70.25%;
-	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-.input__label-content {
-	position: relative;
-	display: block;
-	padding: 1.6em 0;
-	width: 100%;
-}
-
-.graphic {
-	position: absolute;
-	top: 0;
-	left: 0;
-	fill: none;
-}
-
-.icon {
-	color: #ddd;
-	font-size: 150%;
-}
-
-
-/* Madoka */
-.input--madoka {
-	margin: 1.1em;
-}
-
-.input__field--madoka {
-	width: 100%;
-	background: transparent;
-	color: red;
-}
-
-.input__label--madoka {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	color: #666;
-	text-align: left;
-	cursor: text;
-}
-
-.input__label-content--madoka {
-	-webkit-transform-origin: 0% 50%;
-	transform-origin: 0% 50%;
-	-webkit-transition: -webkit-transform 0.3s;
-	transition: transform 0.3s;
-}
-
-.graphic--madoka {
-	-webkit-transform: scale3d(1, -1, 1);
-	transform: scale3d(1, -1, 1);
-	-webkit-transition: stroke-dashoffset 0.3s;
-	transition: stroke-dashoffset 0.3s;
-	pointer-events: none;
-
-	stroke: #7A7593;
-	stroke-width: 4px;
-	stroke-dasharray: 962;
-	stroke-dashoffset: 558;
-}
-
-.input__field--madoka:focus + .input__label--madoka,
-.input--filled .input__label--madoka {
-	cursor: default;
-	pointer-events: none;
-}
-
-.input__field--madoka:focus + .input__label--madoka .graphic--madoka,
-.input--filled .graphic--madoka {
-	stroke-dashoffset: 0;
-}
-
-.input__field--madoka:focus + .input__label--madoka .input__label-content--madoka,
-.input--filled .input__label-content--madoka {
-	-webkit-transform: scale3d(0.81, 0.81, 1) translate3d(0, 4em, 0);
-	transform: scale3d(0.81, 0.81, 1) translate3d(0, 4em, 0);
-}
-
-form.tlemailform {
-  margin-bottom:60px;
-  padding:3px;
-}
-
-.btn-subscribe {
-  background: none;
-  color: #666;
-  border: 1px #666 solid;
-  border-left: 2px #666 solid;
-  border-right: 2px #666 solid;
-  border-radius: 0px;
-  padding: 10px;
-  margin: 16px 15px;
-  line-height: 20px;
-  &:hover, &:active, &:focus {
-    color: red;
-    border-color: red;
-    border-width: 1px 5px;
-    box-shadow: none;
-    outline-color: none;
-  }
-}
-
-/* The Litt review */
-
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-
-.review-page-header {
-  .rp-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-  }
-  .rp-author {
-    font-size: 20px;
-  }
-  .rp-date {
-    border-bottom: 1px solid #000;
-    padding: 20px 0px;
-    a {
-      text-decoration: underline;
-      font-weight: 400;
-    }
-  }
-}
-
-.litt-logo {
-  margin-top: 100px;
-  a:hover, a:focus, a:visited, a:active {
-    text-decoration: none;
-  }
-  p {
-    font-family: serif;
-    font-size: 20px;
-    margin-bottom: -30px;
-  }
-  h1 {
-    font-family: serif;
-    font-size: 60px;
-    border-bottom: 2px solid #000;
-    padding-bottom: 20px;
-    line-height: 70px;
-  }
-}
-
-#litt-review-email-subscribe {
-  margin-top: 30px;
-  line-height: 30px;
-  font-size: 20px;
-
-  #mc_embed_signup{
-    background:#fff;
-    clear:left;
-    font:14px "Libre Baskerville";
-    width:100%;
-    margin: 30px 0px 50px;
-  }
-
-  .mc-hidden {
-    position: absolute;
-    left: -5000px;
-  }
-}
-
-.litt-list {
-  margin: 30px 0px 60px;
-  line-height: 30px;
-  font-size: 20px;
-  ul {
-    list-style: circle;
-  }
-  .date {
-    color: #999;
-  }
-}
-
-#review-page {
-  @extend #project-page;
-  font-family: "Libre Baskerville";
-  font-size: 20px;
-  line-height: 34px;
-  margin: 50px auto;
-  text-indent: 40px;
-  a {
-    font-weight: 400;
-    text-decoration: underline;
-  }
-  .project-image {
-    float: right;
-    width: 40%;
-    margin-left: 30px;
-    margin-bottom: 30px;
-  }
 }

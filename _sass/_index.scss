@@ -1,6 +1,13 @@
 $leftPadding: 15px;
 
 #index {
+  .wrapper {
+    background-color: #FFFFFF;
+  }
+  a:hover {
+    text-decoration: none;
+    color: red;
+  }
   h1 {
     font-size: 2em;
     margin: 10% 0 0 $leftPadding;

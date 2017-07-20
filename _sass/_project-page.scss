@@ -1,0 +1,23 @@
+#project-page {
+  .project-image {
+    max-width: 100%
+  }
+  h4 {
+    margin-top: 0;
+  }
+  .role {
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 767px) {
+  #project-page {
+    h4 {
+      margin-top: 20px;
+    }
+    .project-image {
+      max-width: 300px;
+    }
+  }
+}
