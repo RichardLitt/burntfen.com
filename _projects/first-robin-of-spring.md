@@ -6,7 +6,7 @@ picture: first-robin-of-spring.png
 status: ongoing
 stub: Ornithology Appreciation
 role: Creator
-outbound: http://firstrobinofspring.com
+outbound: http://firstrobinofspring.tumblr.com/
 ---
 {% include JB/setup %}
 
