@@ -78,7 +78,12 @@
   font-size: 20px;
   line-height: 34px;
   margin: 50px auto;
-  text-indent: 40px;
+  p, blockquote {
+    margin-bottom: 40px;
+  }
+  blockquote p {
+    margin-bottom: 0px;
+  }
   a {
     font-weight: 400;
     text-decoration: underline;
