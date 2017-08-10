@@ -61,9 +61,9 @@ tagline: My personal website, where I list all of my main projects and occasiona
       {% for project in projects limit:16 %}
         {% assign loopindex = forloop.index | modulo: 3 %}
         {% if loopindex == 1 %}
-          <div class="col-xs-6 col-sm-4 col-md-3 no-left-margin">
+          <div class="project col-xs-6 col-sm-4 col-md-3 no-left-margin">
         {% else %}
-          <div class="col-xs-6 col-sm-4 col-md-3">
+          <div class="project col-xs-6 col-sm-4 col-md-3">
         {% endif %}
             <div class="img-container">
               <a href="{{ project.url }}">
@@ -153,9 +153,9 @@ tagline: My personal website, where I list all of my main projects and occasiona
       {% for project in projects offset:16 %}
         {% assign loopindex = forloop.index | modulo: 3 %}
         {% if loopindex == 1 %}
-          <div class="col-xs-6 col-sm-4 col-md-3 no-left-margin" >
+          <div class="project col-xs-6 col-sm-4 col-md-3 no-left-margin" >
         {% else %}
-          <div class="col-xs-6 col-sm-4 col-md-3">
+          <div class="project col-xs-6 col-sm-4 col-md-3">
         {% endif %}
             <div class="img-container">
               <a href="{{ project.url }}">
