@@ -1,10 +1,10 @@
 ---
 layout: review
 title: "Here"
-description: "My review of 'Here' by Wislawa Szymborska"
-picture: here.png
-author: "Wislawa Szymborska"
-date: "2017-07-20"
+description: "My review of 'Here' by Wisława Szymborska"
+picture: here.jpg
+author: "Wisława Szymborska"
+date: "2017-08-28"
 ---
 {% include JB/setup %}
 
