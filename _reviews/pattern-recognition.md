@@ -4,7 +4,7 @@ title: "Pattern Recognition"
 description: "My review of 'Pattern Recognition' by William Gibson"
 picture: pattern-recognition.jpg
 author: "William Gibson"
-date: "2017-09-05"
+date: "2017-09-04"
 ---
 {% include JB/setup %}
 
