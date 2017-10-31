@@ -1,0 +1,27 @@
+---
+layout: review
+title: "Starship Titanic"
+description: "My review of 'Starship Titanic' by Terry Jones"
+picture: starship-titanic.jpg
+author: "Terry Jones"
+date: "2017-10-31"
+---
+{% include JB/setup %}
+
+The back of this book states:
+
+> Terry Jones of Monty Python wrote the book. In the nude! Parents be warned! Most of the words in this book were written by a naked man!
+
+And the book goes roughly the same amount of hill - that is, neither up nor down - from there. Depending on how you look at it, this is a blessing or a curse.
+
+_Starship Titanic_ is one of the silliest books I have read. It is not quite the same as reading Douglas Adams' books, who came up with the idea in the first place, and is much more like reading the scripts for a Monty Python sketch. There's even a parrot, and there is, gasp!, lost of nudity. Actually, the book is mostly about humans not knowing what to do with their bodies in confused situations, so, really, you could argue that not only did Terry Jones write it in the nude, but he also wrote the book as a nude book.
+
+If you like that sort of slap-stick, then this is a good book. I laughed aloud at several points. I think my largest guffaw came from:
+
+> "Oh, God!" she cried, feeling the blood draining down into her lower abdomen like a rush of seagulls onto the last herring.
+
+Which made me seriously wonder if we can suggest post-humous books for the [Bad Sex in Fiction Awards](https://literaryreview.co.uk/bad-sex-in-fiction-award) (which are, delightfully, a real thing.)
+
+Oh, yes, and there was some space involved. And spacecraft. But that's like saying that there are bleachers involved in a football game - everyone is there for the hotdogs, cheerleaders, and watching men run around and debate how to do stupid things properly. No one actually goes to a game to view the bleachers. That'd be silly.
+
+This book was in no way intellectually stimulating or fulfilling. However, I did learn the word vol-au-vents (a small round case of puff pastry filled with a savory mixture, typically of meat or fish in a richly flavored sauce), so, that's something, at least.
