@@ -3,9 +3,6 @@
 permalink: /:year-:month-:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "node_modules", "src"]
-# auto: true
-gems:
-  - jekyll-redirect-from
 highlander: true
 markdown: kramdown
 
@@ -20,6 +17,10 @@ author :
   github : RichardLitt
   twitter : RichLitt
   #feedburner : feedname
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
 
 whitelist:
   - jekyll-redirect-from

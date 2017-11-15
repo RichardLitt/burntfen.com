@@ -3,3 +3,4 @@ gem 'jekyll'
 gem 'jekyll-redirect-from'
 # gem 'github-pages', group: :jekyll_plugins
 gem 'rake'
+gem 'jekyll-feed'
