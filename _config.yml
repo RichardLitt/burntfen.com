@@ -112,6 +112,7 @@ JB :
   #
   analytics :
     provider : google
+    # I set this manually
     google :
         tracking_id : 'UA-4124866-15'
     #getclicky :
