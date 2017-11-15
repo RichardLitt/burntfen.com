@@ -1,5 +1,7 @@
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
+  // Hardcoded because I think it was turned off by the SSL issue.
+  // You could have jekyll do this, somehow, but it is complicated and not necessary
+  _gaq.push(['_setAccount', 'UA-4124866-15']);
   _gaq.push(['_trackPageview']);
 
   (function() {
