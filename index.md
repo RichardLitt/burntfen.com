@@ -57,7 +57,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
 
     <div class="row col-md-12 projects">
-      {% assign projects = (site.projects | sort: 'ranking') %}
+      {% assign projects = site.projects | sort: 'ranking' %}
       {% for project in projects limit:16 %}
         {% assign loopindex = forloop.index | modulo: 3 %}
         {% if loopindex == 1 %}
@@ -149,7 +149,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
     <div class="row col-md-12 projects">
       <h1 class="section-header">Other Projects</h1>
-      {% assign projects = (site.projects | sort: 'ranking') %}
+      {% assign projects = site.projects | sort: 'ranking' %}
       {% for project in projects offset:16 %}
         {% assign loopindex = forloop.index | modulo: 3 %}
         {% if loopindex == 1 %}
