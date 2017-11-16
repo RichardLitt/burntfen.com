@@ -35,3 +35,9 @@ I've been keeping track of what books I read for years. Here are lists set up be
 - [2016](https://www.burntfen.com/2017-02-08/books-i-read-in-2016)
 - [2015](https://www.burntfen.com/2015-12-29/books-i-read-in-2015)
 - [2014](https://www.burntfen.com/2015-01-04/books-from-2014)
+
+### Interested in a book review?
+
+I've had requests from several people for book reviews, so I've set up a portal for people to pay for reviews. If you want a review of your book, [get in touch](mailto:richard@burntfen.com).
+
+As always, if you'd like me to just read a book, email me with your suggestion.
