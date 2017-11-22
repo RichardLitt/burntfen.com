@@ -95,3 +95,14 @@
     margin-bottom: 30px;
   }
 }
+
+@media (max-width: 767px) {
+  #review-page {
+    font-size: 14px;
+    line-height: 20px;
+    blockquote p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
