@@ -1,0 +1,53 @@
+---
+layout: review
+title: "Eats, Shoots, And Leaves"
+description: "My review of 'Eats Shoots And Leaves' by Lynne Truss"
+picture: eats-shoots-and-leaves.jpg
+author: "Lynne Truss"
+date: "2017-12-10"
+---
+{% include JB/setup %}
+
+I've seen this book on countless bookshelves, for the better part of the past decade. This is largely because I was fortunate enough to pursue a degree in Linguistics at the University of Edinburgh, and the kind of person most likely to buy a British book on punctuation is also the kind of person to invite me around to their parlor for tea. And, while I've always been curious, and owned the book several times, I only recently had the displeasure of actually opening it.
+
+What a mistake.
+
+Truss should be sent to jail for crimes against literacy everywhere. This was one of the worst written, least edifying, and most overblown books I have read. Why? Because Truss spends most of the book coming up with obscure examples of non-standardized punctuation, and then spitting angrily at her manuscript in self-righteous rage. As a fine review of the book in the New Yorker [points out](https://www.newyorker.com/magazine/2004/06/28/bad-comma):
+
+> "Eats, Shoots & Leaves" is really a "decline of print culture" book disguised as a style manual (poorly disguised).
+
+Truss explains how some punctuation marks ought to be used, but doesn't nearly come close to a comprehensive analysis, and many of her reasonings fall down under scrutiny.
+
+I'll give an example. She mentions that apostrophes can be used to "indicate strange, non-standard English", and goes on to quote a passage of eye dialect from _Lady Chatterly's Lover_, where apostrophes are used to replace dropped sounds such as initial /h/ or a final /g/. That's fine. But she then goes on to say:
+
+> "Why don't you speak ordinary English?" Lady Chatterly inquires, saucily.
+
+...before she moves on to the next point, with no more explanation. What she's doing here is giving a bad title to a usage - say that the apostrophe is used for dropped sounds, for instance, instead - and then using her poor example as a means of upholding the status quo of southern, Received Pronunciation as the only English worth writing in print. (This is not the worst example. The worst example gave me a headache.) She does this on pretty much every page, and the effort of piecing together what she might actually mean is exhausting.
+
+> _Eats, Shoots & Leaves_ is not a book about grammar. I am not a grammarian.
+
+That's fine. However, if only she had stopped writing there.
+
+> So if this book doesn't instruct about punctuation, what does it do? Well, you know those self-help books that give you permission to love yourself? This one gives you permission to love punctuation... mainly it's about making sticklers feel good about their seventh-sense ability to see dead punctuation. ... Yes, some of use were born to be punctuation vigilantes.
+
+(Notice the extra comma after "well" that isn't there after "so"? I did.)
+
+The book could have been a long screed about how the youth today are degenerate, how no one learns how to use the sardonic mark, or how to adequately tell off an Oxford comma, and I wouldn't have minded. However, it isn't. Instead, this book is clearly - by her own admittance, above - about reveling in ignorance.
+
+> What a great line[:] _I would like to learn how to spell Connecticut._ If you've similarly always wanted to know where to use an apostrophe, it means you never will, doesn't it? If only because it's so extremely easy to find out.
+
+Mind-bogglingly, Truss says this directly above saying this book isn't about punctuation. She admits that you can find information on how to use apostrophes pretty much anywhere else. This shows at least a modicum of intelligence. Unfortunately, she fails to note a second point: Being punctilious without bothering to justify yourself isn't sanctimonious. It just makes you an asshole.
+
+Don't read this book. This is the only book I've intentionally stopped reading in years. It's that bad.
+
+P.S. Connecticut = connect + I + cut. I know this, because I lived there most of my life. It's not hard.
+
+## Vocabulary
+
+- bathetic, adj. producing an unintentional effect of anticlimax
+- lag, n. a person who has been frequently convicted and sent to prison
+- come a cropper, phrase. suffer a defeat or disaster
+- stet, let it stand (Latin)
+- positura, n. a 7-shaped mark marking the end of a passage
+- virgula suspensiva, n. slash or slash with a midpoint dot for types of pauses
+- grison, n. a weasel-like mammal with dark fur and a white stripe across the forehead, found in Central and South America.
