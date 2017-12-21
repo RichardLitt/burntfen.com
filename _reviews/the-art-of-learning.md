@@ -1,0 +1,24 @@
+---
+layout: review
+title: "The Art of Learning"
+description: "My review of 'The Art of Learning' by Josh Waitzkin"
+picture: the_art_of_learning.jpg
+author: "Josh Waitzkin"
+date: "2017-12-21"
+---
+{% include JB/setup %}
+
+
+I have read this book perhaps three times now. Each time, I find within it new gems and a way of thinking that is refreshing, relevant, and new. Most of my pursuits are solitary. I tend to write alone, think alone, and spend much of my work life facing issues on my own with no clear opponent. Seeing how a competitive athlete thinks through problems with clear competition gives me a valuable perspective that I otherwise would only barely skim.
+
+This book covers Josh Waitzkin's trek from being a kid wizard at chess, to being a global star after the release of _Searching for Bobby Fisher_, to winning the World Championship in Tai Chi in Taiwan. But rather than a biography, this is a collection of essays on how to learn, and how to master anything.
+
+> My vision of the road to mastery - You start with the fundamentals, get a solid foundation fueled by understanding the principles of your discipline, then you expand and refine your repertoire, guided by your individual predispositions, while keeping in touch, however abstractly, with what you feel to be the essential core of the art. What results is a network of deeply internalized, interconnected knowledge that expands from a central, personal locus point. The question of intuition relates to how that network is navigated and used as fuel for creative insight.
+
+My main takeaways, this time, involve focusing on resilience and learning how to unlearn habits and how to flip a disadvantage into an advantage. However, quoting individual sentences doesn't feel right to me, at the moment. The book represents a world-view, not a motivational poster. Rather than quoting them piecemeal, I am going to simply leave it that these things are covered, and if that if you are in need of a new view on learning and performing under pressure, this is the book for you.
+
+One passage, at least, is worth quoting in full, on presence.
+
+> In every discipline, the ability to be clearheaded, present, cool under fire is much of what separates the best from the mediocre. In competition, the dynamic is often painfully transparent. If one player is serenely present while the other is being ripped apart by internal issues, the outcome is already clear. The prey is no longer objective, makes compounding mistakes, and the predator movies in for the kill. While more subtle, this issue is perhaps even more critical in solitary pursuits such as writing, painting, scholarly thinking, or learning. In the absence of continual external reinforcement, we must be our own monitor, and quality of presence is the best gauge. We cannot expect to touch excellence if “going through the motions” is the norm of our lives. On the other hand, deep, fluid presence becomes second nature, the life, art and learning take on a richness that will continually surprise and delight. Those who excel are the ones who maximize each moment’s creative potential – for these masters of living, presence to the day-to-day learning is akin to that purity of focus that others dream of achieving in rare climactic moments when everything is on the line.
+
+> The secret is that everything is always on the line. The more present we are at practice, the more present we will be in competition, in the boardroom, at the exam, the operating table, the big stage. If we have any hope of attaining excellence, let alone of showing what we've got under pressure, we have to be prepared by a lifestyle of reinforcement. Presence must be like breathing.
