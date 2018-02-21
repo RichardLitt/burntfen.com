@@ -3,6 +3,14 @@ html, body {
   background-color: #FFF;
 }
 
+h3, h4 {
+  margin-top: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
 .content {
   padding-bottom: 200px;
 }
@@ -203,3 +211,25 @@ a {
 .display-first {
   display: block;
 }
+
+.page-full-width {
+  margin-bottom: 100px;
+  p {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 2em;
+    margin: 40px 0px 20px;
+  }
+  .current-project {
+    border: 1px solid #999;
+    text-align: center;
+    padding: 50px;
+    margin: 40px 0px;
+    h1 {
+      font-family: serif;
+      font-size: 35px;
+    }
+  }
+}
+
