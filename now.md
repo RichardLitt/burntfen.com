@@ -8,4 +8,4 @@ description: "What am I up to, now?"
 
 Currently, I am focusing on:
 
-- [IPFS](/projects/ipfs/): _I am working full time making a better, permanent internet. Wouldn't trade this job for the world._
+- [My Thesis](https://github.com/RichardLitt/thesis), titled _Open Source Code and Low Resource Languages_, for my MSc in Computational Linguistics at the Saarland University in Germany. Follow along on that repository.
