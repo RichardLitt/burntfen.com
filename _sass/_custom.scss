@@ -186,8 +186,16 @@ a {
   }
 }
 
-.post p>img {
-  max-width: 100%;
+.post {
+  p>img {
+    max-width: 100%;
+  }
+  p, li {
+    font-size: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+  }
 }
 
 .project-page-title {
@@ -233,3 +241,12 @@ a {
   }
 }
 
+.pagination ul li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.tag_box ul li {display: inline;}
+
+.published { margin-bottom: 30px; }
