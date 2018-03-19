@@ -2,20 +2,18 @@
   <h1 class="project-page-title">{{ page.title }}</h1>
 </a>
 
-<div id="project-page" class="container-fluid">
-  <div class="row-fluid">
-    <div class="col-sm-4">
-      <a href="{{ page.outbound }}">
-        <img class="project-image" src="../../assets/img/project/{{ page.picture }}" />
-      </a>
-    </div>
-    <div class="col-sm-8">
-      <h4>{{ page.stub}}</h4>
-      <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
-      {{ content }}
-      
-      {% if page.outbound %}<p><a href="{{ page.outbound }}">Check it out.</a></p>{% endif %}
-    </div>
-    <hr>
+<div id="project-page">
+  <div class="col-sm-4">
+    <a href="{{ page.outbound }}">
+      <img class="project-image" src="../../assets/img/project/{{ page.picture }}" />
+    </a>
   </div>
+  <div class="col-sm-8">
+    <h4>{{ page.stub}}</h4>
+    <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
+    {{ content }}
+
+    {% if page.outbound %}<p><a href="{{ page.outbound }}">Check it out.</a></p>{% endif %}
+  </div>
+  <hr>
 </div>

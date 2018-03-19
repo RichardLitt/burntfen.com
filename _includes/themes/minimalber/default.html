@@ -65,23 +65,17 @@
      </div> <!-- /navbar -->
 
     <div class="wrapper">
+      <div class="container-fluid content">
+        {{ content }}
+      </div>
 
-      <div class="container subpage">
-
-        <div class="content">
-          {{ content }}
-        </div>
-
-
-        <div class="push"></div>
-
-      </div> <!-- /container -->
-    <footer>
-      <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-      <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
-        <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
-      </p>
-    </footer>
+      <footer>
+        <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+        <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
+          <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
+        </p>
+      </footer>
+    </div> <!-- /container -->
 
   </div> <!-- /wrapper -->
 

@@ -13,9 +13,6 @@ p {
 
 .content {
   padding-bottom: 200px;
-}
-
-.subpage {
   max-width: 900px;
 }
 
@@ -94,7 +91,6 @@ footer {
   line-height: 100%;
   letter-spacing: -1px;
   padding: 0;
-  margin: 50px 0 5px 20px;
 }
 .topbar .btn {
   border: 0;
@@ -199,7 +195,7 @@ a {
 }
 
 .project-page-title {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 
@@ -254,5 +250,6 @@ a {
 
 img.art {
   // Used on the art.md page only
+  width: 100%;
   margin: 100px 0px;
 }
