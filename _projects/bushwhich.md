@@ -6,7 +6,7 @@ picture: bushwhich.png
 status: 2013
 stub: "Choose-Your-Own-Adventure Game"
 role: Creator
-outbound: http://bushwhich.com
+outbound: https://richardlitt.github.io/bushwhich
 ---
 {% include JB/setup %}
 
