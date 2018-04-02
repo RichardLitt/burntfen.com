@@ -11,7 +11,8 @@ var paths = {
   jsMin: ['src/js/**/*.min.js'],
   img: ['src/img/**/*.png', 'src/img/**/*.jpg'],
   imgDest: 'assets/img',
-  projectImg: ['src/img/project/*.png', 'src/img/project/*.jpg']
+  projectImg: ['src/img/project/*.png', 'src/img/project/*.jpg'],
+  pressImg: ['src/img/press/*.png', 'src/img/press/*.jpg']
 }
 
 gulp.task('js', function () {
@@ -43,7 +44,30 @@ gulp.task('project-img', function () {
     ))
     .pipe(changed(paths.imgDest))
     .pipe(rename({ suffix: '-200' }))
-    .pipe(gulp.dest('src/img/project'))
+    .pipe(gulp.dest('assets/img/project'))
+})
+
+gulp.task('press-img', function () {
+  return gulp.src(paths.pressImg)
+    .pipe(imageResize({
+      width : 150,
+      crop : false,
+      upscale : false,
+    }))
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngcrush()]
+    }))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 3}),
+      ],
+      {verbose: true}
+    ))
+    .pipe(changed(paths.imgDest))
+    // .pipe(rename({ suffix: '' }))
+    .pipe(gulp.dest('assets/img/press'))
 })
 
 gulp.task('img', function () {
