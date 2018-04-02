@@ -56,6 +56,8 @@
   </head>
   <body>
 
+    <div class="wrapper">
+
     <div class="navbar navbar-static-top">
       <div class="navbar-inner">
         <div class="container">
@@ -64,20 +66,17 @@
        </div> <!-- /navbar-inner -->
      </div> <!-- /navbar -->
 
-    <div class="wrapper">
-      <div class="container-fluid content">
+    <div class="container-fluid content">
         {{ content }}
       </div>
+    </div>
 
-      <footer>
-        <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-        <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
-          <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
-        </p>
-      </footer>
-    </div> <!-- /container -->
-
-  </div> <!-- /wrapper -->
+    <footer>
+      <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+      <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
+        <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
+      </p>
+    </footer>
 
     <!-- Le javascript
     ================================================== -->

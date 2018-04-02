@@ -1,6 +1,26 @@
-/* Override some defaults */
-html, body {
-  background-color: #FFF;
+/* Sticky Footer */
+html,
+body {
+  background-color: white;
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 0 -80px auto;
+  /* Pad bottom by footer height */
+  padding: 0 0 80px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 80px;
+  background-color: white;
+  text-align: center;
 }
 
 h3, h4 {
@@ -12,12 +32,8 @@ p {
 }
 
 .content {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   max-width: 900px;
-}
-
-.wrapper {
-  margin-top: 20px;
 }
 
 .navbar {
@@ -67,13 +83,6 @@ li {
 .container > footer p {
   text-align: center;
   /* center align it with the container */
-}
-footer {
-  margin: 0px auto 20px auto;
-  text-align: center;
-  img {
-    margin-bottom: 20px;
-  }
 }
 .container {
   -webkit-border-radius: 6px 6px 6px 6px;

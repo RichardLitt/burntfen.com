@@ -1,6 +1,9 @@
 $leftPadding: 15px;
 
 #index {
+  footer {
+    background: #E5E5E5;
+  }
   .project {
     min-height: 400px;
   }
@@ -153,9 +156,6 @@ $leftPadding: 15px;
       hr {
         width: 50%;
       }
-    }
-
-    .speak {
     }
   }
 }

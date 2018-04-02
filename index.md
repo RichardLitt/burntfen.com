@@ -90,7 +90,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
   </div>
 </div>
 
-<div class="wrapper" id="contact" >
+<div id="contact" >
   <div class="container">
     <div class="row col-md-12 press" >
       <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 speak">
@@ -117,34 +117,32 @@ tagline: My personal website, where I list all of my main projects and occasiona
 </div>
 
 
-<div class="wrapper">
-  <div class="container">
+<div class="container">
 
-    <div class="row col-md-12 press">
-      <h1 class="section-header">Press</h1>
-      {% for press in site.data.press %}
-        {% if forloop.index == 7 %}
-          <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-2">
-        {% elsif forloop.index == 9 %}
-          <div class="col-xs-4 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-0">
-        {% elsif forloop.index == 10 %}
-          <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0 col-md-2">
-        {% else %}
-          <div class="col-xs-4 col-sm-3 col-md-2">
-        {% endif %}
-          <div class="img-container">
-            <a href="{{ press.url }}" title="{{ press.title }}">
-              <img src="assets/img/press/{{ press.image }}" class="card-image">
-            </a>
-          </div>
+  <div class="row col-md-12 press">
+    <h1 class="section-header">Press</h1>
+    {% for press in site.data.press %}
+      {% if forloop.index == 7 %}
+        <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-2">
+      {% elsif forloop.index == 9 %}
+        <div class="col-xs-4 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-0">
+      {% elsif forloop.index == 10 %}
+        <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0 col-md-2">
+      {% else %}
+        <div class="col-xs-4 col-sm-3 col-md-2">
+      {% endif %}
+        <div class="img-container">
+          <a href="{{ press.url }}" title="{{ press.title }}">
+            <img src="assets/img/press/{{ press.image }}" class="card-image">
+          </a>
         </div>
-      {% endfor %}
-    </div>
-
+      </div>
+    {% endfor %}
   </div>
+
 </div>
 
-<div class="wrapper" id="other-projects">
+<div id="other-projects">
   <div class="container">
 
     <div class="row col-md-12 projects">
@@ -181,15 +179,12 @@ tagline: My personal website, where I list all of my main projects and occasiona
           {% endif %}
       {% endfor %}
     </div>
+  </div>
+</div>
 
-     <footer>
-     <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-      <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
-        <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
-      </p>
-    </footer>
-  <div class="push"></div>
-
-</div> <!-- /container -->
-
-</div> <!-- /wrapper -->
+<footer>
+  <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+  <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
+    <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
+  </p>
+</footer>
