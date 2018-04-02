@@ -17,7 +17,7 @@ if(isset($header_meta)) {
 	<link rel="alternate stylesheet" type="text/css" href="/style/back2.css" title="Marsh" />
 	<link rel="alternate stylesheet" type="text/css" href="/style/back4.css" title="Me" />
 	<script type="text/javascript" src="/style/styleswitcher.js"></script>  
-	<script type="text/javascript" src="/style/jquery.js"></script>
+	<script type="text/javascript" src="/style/jquery.min.js"></script>
     <script type="text/javascript" src="/style/tooltip.js"></script>
     <!--script type="text/javascript" src="/inc/line.js"></script -->
 	<style>
