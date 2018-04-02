@@ -184,8 +184,6 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
      <footer>
      <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-     <p><a href='http://webring.dinhe.net/prev/burntfen.com'>Previous</a> (<a href="http://webring.dinhe.net/">Join the retronaut webring.</a>) <a href='http://webring.dinhe.net/next/burntfen.com'>Next</a>
-      </p>
       <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
         <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
       </p>
