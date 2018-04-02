@@ -110,6 +110,7 @@ task :project do
     project.puts "layout: project"
     project.puts "title: \"#{title}\""
     project.puts "picture: #{slug}.#{picture}"
+    project.puts "picture-small: #{slug}-200.#{picture}"
     project.puts "---"
     project.puts "{% include JB/setup %}"
     project.puts ""
