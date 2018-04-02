@@ -18,7 +18,12 @@
   "homepage": "https://github.com/RichardLitt/richardlitt.github.com#readme",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-image-resize": "^0.13.0",
     "gulp-imagemin": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngcrush": "^5.1.0",
     "imagemin-pngquant": "^5.0.0"
   }
 }
