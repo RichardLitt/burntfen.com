@@ -92,26 +92,18 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
 <div id="contact" >
   <div class="container">
-    <div class="row col-md-12 press" >
-      <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 speak">
-        <h1 >Speak</h1>
-        <p><a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-        <p>I build things, make art, code tools, write words, have fun.</p>
-        <p>I am available for…</p>
-        <p class="visible-xs available">Writing • Talks • UX • Code • Walks • Letters • Collaboration • Ideas • Joy • Design • Projects</p>
+    <div class="row press" >
+      <div class="col-sm-8 col-sm-offset-2 speak">
+
+        <p>Burnt Fen Creative LLC is the vessel where Richard Littauer and his team exercises their creative muscles. From <a href="https://www.burntfen.com/projects/maintainer-mountaineer/">Maintainer Mountaineer</a> to <a href="https://www.burntfen.com/projects/the-user-is-drunk/">The User is Drunk</a>, from <a href="https://www.burntfen.com/projects/bushwhich/">Bushwhich</a> to <a href="https://www.burntfen.com/projects/wordhoard-press/">Word Hoard Press</a>, we focus on new ways to understand art and media, the internet and words, markets and businesses.</p>
+
+        <p>Richard is available for talks, consulting, and collaboration.</p>
+
+        <p><a href="https://tinyletter.com/richlitt">Follow Richard's weekly newsletter</a></p>
+
+        <p>Or send him an email: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+
       </div>
-      <div class="col-sm-5 col-md-5 listen">
-        <hr class="visible-xs">
-        <h1 >Listen</h1>
-        <div>
-          <p><a href="https://tinyletter.com/richlitt">tinyletter.com/richlitt</a></p>
-          <p>I write a weekly newsletter, from me to your inbox.</p>
-          <p class="hidden-xs">I write about…</p>
-        </div>
-      </div>
-      </div>
-    <div class="row col-md-8 col-md-offset-2 hidden-xs">
-      <p class="available available-sm">Writing • Talks • UX • Code • Walks • Letters • Collaboration • Ideas • Joy • Design • Projects</p>
     </div>
   </div>
 </div>
