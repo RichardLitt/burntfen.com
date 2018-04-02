@@ -26,6 +26,7 @@ gulp.task('js', function () {
 
 gulp.task('project-img', function () {
   return gulp.src(paths.projectImg)
+    .pipe(changed('src/img/project'))
     .pipe(imageResize({
       width : 250,
       crop : false,
