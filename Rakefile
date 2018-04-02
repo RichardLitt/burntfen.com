@@ -101,6 +101,7 @@ task :project do
   abort("rake aborted: '#{CONFIG['projects']}' directory not found.") unless FileTest.directory?(CONFIG['projects'])
   title = ENV["title"] || "new-project"
   picture = ENV["picture"] || "png"
+  website = ENV["website"]
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   filename = RakeHelper.check_filename('projects', "#{slug}.#{CONFIG['post_ext']}")
 
@@ -111,6 +112,13 @@ task :project do
     project.puts "title: \"#{title}\""
     project.puts "picture: #{slug}.#{picture}"
     project.puts "picture-small: #{slug}-200.#{picture}"
+    if website
+      project.puts "outbound: #{website}"
+    end
+    project.puts "status: "
+    project.puts "role: "
+    project.puts "stub: "
+    project.puts "ranking: "
     project.puts "---"
     project.puts "{% include JB/setup %}"
     project.puts ""

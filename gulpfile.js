@@ -43,13 +43,13 @@ gulp.task('project-img', function () {
       ],
       {verbose: true}
     ))
-    .pipe(changed(paths.imgDest))
     .pipe(rename({ suffix: '-200' }))
     .pipe(gulp.dest('assets/img/project'))
 })
 
 gulp.task('press-img', function () {
   return gulp.src(paths.pressImg)
+    .pipe(changed('src/img/press'))
     .pipe(imageResize({
       width : 150,
       crop : false,
@@ -94,4 +94,4 @@ gulp.task('img', function () {
         .pipe(gulp.dest(paths.imgDest))
 })
 
-gulp.task('default', ['js', 'img'])
+gulp.task('default', ['js', 'img', 'project-img', 'press-img'])
