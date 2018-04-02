@@ -13,7 +13,6 @@ var paths = {
   imgDest: 'assets/img'
 }
 
-// Disabled. Currently, only minified files are used anyway
 gulp.task('js', function () {
   gulp.src(paths.js)
     .pipe(uglify())

@@ -18,6 +18,9 @@ author :
   twitter : RichLitt
   #feedburner : feedname
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
