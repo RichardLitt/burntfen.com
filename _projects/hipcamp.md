@@ -3,6 +3,7 @@ layout: project
 title: "Hipcamp"
 ranking: 13
 picture: hipcamp.png
+picture-small: hipcamp-200.png
 status: 2014
 stub: Startup
 role: Developer

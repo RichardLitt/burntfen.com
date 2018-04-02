@@ -3,6 +3,7 @@ layout: project
 title: "Antinomadic"
 ranking: 5
 picture: antinomadic.png
+picture-small: antinomadic-200.png
 status: ongoing
 stub: Blog
 role: Writer

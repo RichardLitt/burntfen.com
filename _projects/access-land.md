@@ -3,6 +3,7 @@ layout: project
 title: "accessland.org"
 ranking: 14
 picture: access-land.png
+picture-small: access-land-200.png
 status: 2014
 stub: Petition Site
 role: Developer

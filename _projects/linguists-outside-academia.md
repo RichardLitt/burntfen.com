@@ -3,6 +3,7 @@ layout: project
 title: "Linguists Outside Academia"
 ranking: 10
 picture: linguists-outside-academia.png
+picture-small: linguists-outside-academia-200.png
 status: ongoing
 stub: "Email List"
 role: Cofounder

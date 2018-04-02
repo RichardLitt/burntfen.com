@@ -10,7 +10,8 @@ var paths = {
   js: ['src/js/**/*.js', '!src/js/**/*.min.js'],
   jsMin: ['src/js/**/*.min.js'],
   img: ['src/img/**/*.png', 'src/img/**/*.jpg'],
-  imgDest: 'assets/img'
+  imgDest: 'assets/img',
+  projectImg: ['src/img/project/*.png', 'src/img/project/*.jpg']
 }
 
 gulp.task('js', function () {
@@ -20,6 +21,29 @@ gulp.task('js', function () {
     .pipe(gulp.dest('assets/js'))
   gulp.src(paths.jsMin)
     .pipe(gulp.dest('assets/js'))
+})
+
+gulp.task('project-img', function () {
+  return gulp.src(paths.projectImg)
+    .pipe(imageResize({
+      width : 250,
+      crop : false,
+      upscale : false,
+    }))
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngcrush()]
+    }))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 3}),
+      ],
+      {verbose: true}
+    ))
+    .pipe(changed(paths.imgDest))
+    .pipe(rename({ suffix: '-200' }))
+    .pipe(gulp.dest('src/img/project'))
 })
 
 gulp.task('img', function () {

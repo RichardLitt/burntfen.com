@@ -3,6 +3,7 @@ layout: project
 title: "Bushwhich"
 ranking: 7
 picture: bushwhich.png
+picture-small: bushwhich-200.png
 status: 2013
 stub: "Choose-Your-Own-Adventure Game"
 role: Creator

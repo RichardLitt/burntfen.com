@@ -3,6 +3,7 @@ layout: project
 title: "Wordhoard Press"
 ranking: 6
 picture: wordhoardpress.png
+picture-small: wordhoardpress-200.png
 status: ongoing
 stub: Literary Journal
 role: Founder

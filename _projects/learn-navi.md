@@ -3,6 +3,7 @@ layout: project
 title: "Learn Na'vi"
 ranking: 22
 picture: learn-navi.png
+picture-small: learn-navi-200.png
 status: 2009-2011
 stub: Conlang Community
 role: Lexicographer

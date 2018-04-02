@@ -3,6 +3,7 @@ layout: project
 title: "UKLO"
 ranking: 19
 picture: uklo.png
+picture-small: uklo-200.png
 status: 2011-2014
 stub: "UK Linguistics Olympiad"
 role: Developer

@@ -3,6 +3,7 @@ layout: project
 title: "Meetups"
 ranking: 3
 picture: meetups.png
+picture-small: meetups-200.png
 status: Ongoing
 stub: JavaScript and Science Meetups
 role: Speaker

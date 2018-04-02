@@ -3,6 +3,7 @@ layout: project
 title: "Octobuild"
 ranking: 11
 picture: octobuild.png
+picture-small: octobuild-200.png
 status: ongoing
 stub: "Seasonal Hackathon"
 role: Cofounder

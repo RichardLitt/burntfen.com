@@ -3,6 +3,7 @@ layout: project
 title: "LAGB Student Committee"
 ranking: 20
 picture: lagb.png
+picture-small: lagb-200.png
 status: 2010-2012
 stub: Academic Society
 role: Committee Member

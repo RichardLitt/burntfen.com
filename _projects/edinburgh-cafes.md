@@ -3,6 +3,7 @@ layout: project
 title: "Edinburgh Cafes"
 ranking: 23
 picture: edinburgh-cafes.png
+picture-small: edinburgh-cafes-200.png
 status: 2010-2012
 stub: Café Reviews
 role: Founder

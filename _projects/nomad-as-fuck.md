@@ -3,6 +3,7 @@ layout: project
 title: "Nomad As Fuck"
 ranking: 5
 picture: nomadasfuck.png
+picture-small: nomadasfuck-200.png
 status: ongoing
 stub: "Interview website"
 role: "Creator"

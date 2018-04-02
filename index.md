@@ -67,7 +67,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
         {% endif %}
             <div class="img-container">
               <a href="{{ project.url }}">
-                <img src="assets/img/project/{{ project.picture }}" class="card-image"/>
+                <img src="assets/img/project/{{ project.picture-small }}" class="card-image"/>
               </a>
             </div>
             <a class="project-title" href="{{ project.url }}">
@@ -159,7 +159,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
         {% endif %}
             <div class="img-container">
               <a href="{{ project.url }}">
-                <img src="assets/img/project/{{ project.picture }}" class="card-image"/>
+                <img src="assets/img/project/{{ project.picture-small }}" class="card-image"/>
               </a>
             </div>
             <a class="project-title" href="{{ project.url }}">

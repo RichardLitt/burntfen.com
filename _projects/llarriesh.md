@@ -3,6 +3,7 @@ layout: project
 title: "Llárriésh"
 ranking: 25
 picture: llarriesh.png
+picture-small: llarriesh-200.png
 status: 2010
 stub: Constructed Language
 role: Creator

@@ -3,6 +3,7 @@ layout: project
 title: "Soundcloud"
 ranking: 20
 picture: soundcloud.png
+picture-small: soundcloud-200.png
 status: 2011-2014
 stub: Poetry & Music
 role: Creator

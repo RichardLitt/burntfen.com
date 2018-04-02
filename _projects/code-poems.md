@@ -3,6 +3,7 @@ layout: project
 title: "Code Poems"
 ranking: 20
 picture: code-poems.png
+picture-small: code-poems-200.png
 status: 2012
 stub: Poetry Anthology
 role: Poet

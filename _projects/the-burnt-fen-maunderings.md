@@ -3,6 +3,7 @@ layout: project
 title: "The Burnt Fen Maunderings"
 ranking: 20
 picture: the-burnt-fen-maunderings.png
+picture-small: the-burnt-fen-maunderings-200.png
 status: 2008-2011
 stub: Webcomic
 role: Creator

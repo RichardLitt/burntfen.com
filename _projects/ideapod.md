@@ -3,6 +3,7 @@ layout: project
 title: "Ideapod"
 ranking: 15
 picture: ideapod.png
+picture-small: ideapod-200.png
 status: 2012-2014
 stub: Startup
 role: Developer

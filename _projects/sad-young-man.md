@@ -3,6 +3,7 @@ layout: project
 title: "Sad Young Man"
 ranking: 8
 picture: sad-young-man.png
+picture-small: sad-young-man-200.png
 status: ongoing
 stub: "Poetry & Art"
 role: Poet

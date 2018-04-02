@@ -3,6 +3,7 @@ layout: project
 title: "Node.js"
 ranking: 10
 picture: node.png
+picture-small: node-200.png
 status: Summer 2017
 stub: Node.js CommComm
 role: Member
