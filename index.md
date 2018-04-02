@@ -95,7 +95,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
     <div class="row press" >
       <div class="col-sm-8 col-sm-offset-2 speak">
 
-        <p>Burnt Fen Creative LLC is the vessel where Richard Littauer and his team exercises their creative muscles. From <a href="https://www.burntfen.com/projects/maintainer-mountaineer/">Maintainer Mountaineer</a> to <a href="https://www.burntfen.com/projects/the-user-is-drunk/">The User is Drunk</a>, from <a href="https://www.burntfen.com/projects/bushwhich/">Bushwhich</a> to <a href="https://www.burntfen.com/projects/wordhoard-press/">Word Hoard Press</a>, we focus on new ways to understand art and media, the internet and words, markets and businesses.</p>
+        <p>Burnt Fen Creative is the vessel where Richard Littauer and his team exercises their creative muscles. From <a href="https://www.burntfen.com/projects/maintainer-mountaineer/">Maintainer Mountaineer</a> to <a href="https://www.burntfen.com/projects/the-user-is-drunk/">The User is Drunk</a>, from <a href="https://www.burntfen.com/projects/bushwhich/">Bushwhich</a> to <a href="https://www.burntfen.com/projects/wordhoard-press/">Word Hoard Press</a>, we focus on new ways to understand art and media, the internet and words, markets and businesses.</p>
 
         <p>Richard is available for talks, consulting, and collaboration.</p>
 
