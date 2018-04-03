@@ -114,21 +114,15 @@ tagline: My personal website, where I list all of my main projects and occasiona
   <div class="row col-md-12 press">
     <h1 class="section-header">Press</h1>
     {% for press in site.data.press %}
-      {% if forloop.index == 7 %}
-        <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-2">
-      {% elsif forloop.index == 9 %}
-        <div class="col-xs-4 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-0">
-      {% elsif forloop.index == 10 %}
-        <div class="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0 col-md-2">
-      {% else %}
+      {% if press.hide != true %}
         <div class="col-xs-4 col-sm-3 col-md-2">
-      {% endif %}
-        <div class="img-container">
-          <a href="{{ press.url }}" title="{{ press.title }}">
-            <img src="assets/img/press/{{ press.image }}" class="card-image">
-          </a>
+          <div class="img-container">
+            <a href="{{ press.url }}" title="{{ press.title }}">
+              <img src="assets/img/press/{{ press.image }}" class="card-image">
+            </a>
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 
