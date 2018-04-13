@@ -1,5 +1,5 @@
-<a href="{{ page.outbound }}">
-  <h1 class="project-page-title">{{ page.title }}</h1>
+<a href="{{ page.outbound }}" class="project-page-title">
+  <h1>{{ page.title }}</h1>
 </a>
 
 <div id="project-page">
@@ -13,7 +13,11 @@
     <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
     {{ content }}
 
-    {% if page.outbound %}<p><a href="{{ page.outbound }}">Check it out.</a></p>{% endif %}
+    {% if page.outbound %}<p>
+      <a href="{{ page.outbound }}" class="btn btn-check-it-out" role="button">
+        Check it out
+      </a>
+    </p>{% endif %}
   </div>
   <hr>
 </div>
