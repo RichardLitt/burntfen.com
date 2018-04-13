@@ -49,7 +49,7 @@ gulp.task('project-img', function () {
 
 gulp.task('press-img', function () {
   return gulp.src(paths.pressImg)
-    .pipe(changed('src/img/press'))
+    // .pipe(changed('src/img/press'))
     .pipe(imageResize({
       width : 150,
       crop : false,
