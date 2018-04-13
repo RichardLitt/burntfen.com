@@ -1,9 +1,11 @@
 $leftPadding: 15px;
 
 #index {
-  footer {
-    background: #E5E5E5;
+
+  .press {
+    margin-bottom: 100px;
   }
+
   .project {
     min-height: 400px;
   }
@@ -14,6 +16,7 @@ $leftPadding: 15px;
     text-decoration: none;
     color: red;
   }
+
   h1 {
     font-size: 2em;
     margin: 10% 0 0 $leftPadding;
@@ -26,17 +29,13 @@ $leftPadding: 15px;
     color: #666;
   }
 
-  .quotes {
-    display: none;
-  }
-
   .social-media {
-    margin: 3% 0 3% $leftPadding;
+    margin: 3% 0;
   }
   .social-media a {
     padding: 0 20px 0 0;
-    color: #000;
-    font-size: 20px;
+    color: #FFF;
+    font-size: 26px;
   }
   .social-media a:hover, .social-media a:visited {
     text-decoration: none;
@@ -47,7 +46,7 @@ $leftPadding: 15px;
     margin-bottom: 50px;
     padding-left: $leftPadding;
     a {
-      color: #666;
+      color: #FFF;
       font-weight: 400;
       &.more {
         color: #888;
@@ -70,6 +69,7 @@ $leftPadding: 15px;
     -webkit-filter: opacity(100%);
     -webkit-transition: -webkit-filter .25s;
     transition: -webkit-filter .25s;
+    width: 100%;
   }
 
   .img-container {
@@ -124,6 +124,7 @@ $leftPadding: 15px;
 
   #contact {
     margin-right:0px;
+    margin-bottom: 100px;
     background-color:#111;
     color:#FFF;
 
@@ -140,7 +141,7 @@ $leftPadding: 15px;
 
     .speak {
       color:#FFF;
-      padding: 130px 0 100px;
+      padding: 130px 0px;
       h1 {
         margin:100px 0px 50px 0px;
         color:#fff
@@ -161,8 +162,17 @@ $leftPadding: 15px;
 
 @media (max-width: 767px) {
   #index {
+
+    .btn-subscribe {
+      margin: 0px;
+    }
+
+    #contact .speak {
+      padding: 100px 30px;
+    }
+
     .social-media {
-      margin: 20px 0 20px $leftPadding;
+      margin: 20px 0;
       a {
         padding: 0 15px 0 0;
       }

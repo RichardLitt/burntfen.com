@@ -1,11 +1,16 @@
 /* Madoka
 	From: https://github.com/codrops/TextInputEffects
 */
+
+$primaryColor: #fff;
+$secondaryColor: #219FFF;
+
 .input {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
 	margin: 1em;
+	margin-left: 0px;
 	max-width: 400px;
 	width: calc(100% - 2em);
 	vertical-align: top;
@@ -69,19 +74,20 @@
 
 .input--madoka {
 	margin: 1.1em;
+	margin-left: 0px;
 }
 
 .input__field--madoka {
 	width: 100%;
 	background: transparent;
-	color: red;
+	color: $secondaryColor;
 }
 
 .input__label--madoka {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	color: #666;
+	color: $primaryColor;
 	text-align: left;
 	cursor: text;
 }
@@ -130,17 +136,17 @@ form.tlemailform {
 
 .btn-subscribe {
   background: none;
-  color: #666;
-  border: 1px #666 solid;
-  border-left: 2px #666 solid;
-  border-right: 2px #666 solid;
+  color: $primaryColor;
+  border: 1px $primaryColor solid;
+  border-left: 2px $primaryColor solid;
+  border-right: 2px $primaryColor solid;
   border-radius: 0px;
   padding: 10px;
   margin: 16px 15px;
   line-height: 20px;
   &:hover, &:active, &:focus {
-    color: red;
-    border-color: red;
+    color: $secondaryColor;
+    border-color: $secondaryColor;
     border-width: 1px 5px;
     box-shadow: none;
     outline-color: none;
