@@ -1,17 +1,14 @@
 $leftPadding: 15px;
 
 #index {
-
   .press {
     margin-bottom: 100px;
   }
 
-  .project {
-    min-height: 400px;
-  }
   .wrapper {
     background-color: #FFFFFF;
   }
+
   a:hover {
     text-decoration: none;
     color: red;
@@ -21,6 +18,11 @@ $leftPadding: 15px;
     font-size: 2em;
     margin: 10% 0 0 $leftPadding;
     color: #444;
+    &.section-header {
+      text-align:center;
+      margin-top:50px;
+      margin-bottom:50px;
+    }
   }
 
   h2 {
@@ -31,15 +33,16 @@ $leftPadding: 15px;
 
   .social-media {
     margin: 3% 0;
+    a {
+      padding: 0 20px 0 0;
+      color: #FFF;
+      font-size: 26px;
+      &:hover, &:visited {
+        text-decoration: none;
+      }
+    }
   }
-  .social-media a {
-    padding: 0 20px 0 0;
-    color: #FFF;
-    font-size: 26px;
-  }
-  .social-media a:hover, .social-media a:visited {
-    text-decoration: none;
-  }
+
 
   .posts, .newsletter {
     list-style: none;
@@ -58,86 +61,12 @@ $leftPadding: 15px;
     }
   }
 
-  .newsletter {
-    margin-bottom: 50px;
-  }
-
-
-  .card-image {
-    max-width: 100%;
-    position: absolute;
-    -webkit-filter: opacity(100%);
-    -webkit-transition: -webkit-filter .25s;
-    transition: -webkit-filter .25s;
-    width: 100%;
-  }
-
-  .img-container {
-    position: relative;
-    overflow:hidden;
-    padding-bottom: 100%;
-    &:hover {
-      -webkit-filter: opacity(60%);
-    }
-    a {
-      padding: 0px;
-    }
-  }
-
-  h1.section-header {
-    text-align:center;
-    margin-top:50px;
-    margin-bottom:50px;
-  }
-
-  a.project-title {
-    font-weight: 400;
-    text-align: center;
-    h4 {
-      padding: 10px 0;
-      margin: 0;
-      text-transform: uppercase;
-      color: #404040;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 300;
-      letter-spacing: .06em;
-      height: auto;
-      text-decoration: none;
-    }
-    p {
-      color: #666;
-      margin: 0 0 30px 0;
-      .status {
-        font-style: italic;
-        color: #888;
-      }
-    }
-  }
-  .listen {
-    text-align: right;
-  }
-
-  #other-projects {
-    background-color: #E5E5E5;
-  }
-
   #contact {
+
     margin-right:0px;
     margin-bottom: 100px;
     background-color:#111;
     color:#FFF;
-
-    // .available {
-    //   color:#FFF;
-    //   text-align:center;
-    //   margin: 50px auto;
-    //   font-size:25px;
-    //   line-height:30px;
-    //   &.available-sm {
-    //     margin-bottom: 100px;
-    //   }
-    // }
 
     .speak {
       color:#FFF;
@@ -162,7 +91,6 @@ $leftPadding: 15px;
 
 @media (max-width: 767px) {
   #index {
-
     .btn-subscribe {
       margin: 0px;
     }
@@ -176,24 +104,6 @@ $leftPadding: 15px;
       a {
         padding: 0 15px 0 0;
       }
-    }
-    .listen {
-      text-align: left;
-      margin-bottom: 50px;
-    }
-    a.project-title {
-      h4 {
-        height: 60px;
-        overflow: hidden;
-      }
-      p {
-        font-size: 12px;
-        height: 80px;
-        margin-bottom: 0px;
-      }
-    }
-    .project {
-      min-height:350px;
     }
   }
 }

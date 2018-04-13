@@ -77,7 +77,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
 </div>
 
 <div class="container">
-  <div class="row col-md-12 press">
+  <div class="row press">
     <h1 class="section-header">Press</h1>
     {% for press in site.data.press %}
       {% if press.hide != true %}
