@@ -43,7 +43,7 @@ gulp.task('project-img', function () {
       {verbose: true}
     ))
     .pipe(rename({ suffix: '-200' }))
-    .pipe(gulp.dest('src/img/project'))
+    .pipe(gulp.dest('assets/img/project'))
 })
 
 gulp.task('press-img', function () {
