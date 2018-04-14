@@ -26,7 +26,6 @@ gulp.task('js', function () {
 
 gulp.task('project-img', function () {
   return gulp.src(paths.projectImg)
-    .pipe(changed('assets/img/project'))
     .pipe(imageResize({
       width : 250,
       crop : false,
@@ -44,7 +43,7 @@ gulp.task('project-img', function () {
       {verbose: true}
     ))
     .pipe(rename({ suffix: '-200' }))
-    .pipe(gulp.dest('assets/img/project'))
+    .pipe(gulp.dest('src/img/project'))
 })
 
 gulp.task('press-img', function () {

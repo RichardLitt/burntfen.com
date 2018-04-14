@@ -1,25 +1,25 @@
+<div id="project-page">
   <a href="{{ page.outbound }}" class="project-page-title">
     <h1>{{ page.title }}</h1>
   </a>
 
-  <div id="project-page">
-    <div class="col-sm-4">
-      <a href="{{ page.outbound }}">
-        <img class="project-image" src="../../assets/img/project/{{ page.picture }}" />
-      </a>
-    </div>
-    <div class="col-sm-8">
-      <h4>{{ page.stub}}</h4>
-      <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
-      {{ content }}
-
-      {% if page.outbound %}<p>
-        <a href="{{ page.outbound }}" class="btn btn-check-it-out" role="button">
-          Check it out
-        </a>
-      </p>{% endif %}
-    </div>
+  <div class="col-sm-4">
+    <a href="{{ page.outbound }}">
+      <img class="project-image" src="../../assets/img/project/{{ page.picture }}" />
+    </a>
   </div>
+  <div class="col-sm-8">
+    <h4>{{ page.stub}}</h4>
+    <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
+    {{ content }}
+
+    {% if page.outbound %}<p>
+      <a href="{{ page.outbound }}" class="btn btn-check-it-out" role="button">
+        Check it out
+      </a>
+    </p>{% endif %}
+  </div>
+</div>
 
 </div> <!-- Close wrapper -->
 
