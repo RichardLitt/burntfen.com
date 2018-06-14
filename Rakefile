@@ -126,15 +126,15 @@ task :project do
 end # task :page
 
 # Usage: rake review title="title" image-ext="png" author="author" [date="2012-02-09"]
-desc "Create a new review in #{CONFIG['drafts']}"
+desc "Create a new review in #{CONFIG['reviews']}"
 task :review do
-  abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+  abort("rake aborted: '#{CONFIG['reviews']}' directory not found.") unless FileTest.directory?(CONFIG['reviews'])
   title = ENV["title"] || "untitled"
   picture = ENV["image-ext"] || "png"
   author = ENV["author"] || ""
   date, date_time = RakeHelper.date_time
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  filename = RakeHelper.check_filename('drafts', "#{slug}.#{CONFIG['post_ext']}")
+  filename = RakeHelper.check_filename('reviews', "#{slug}.#{CONFIG['post_ext']}")
 
   puts "Creating new review: #{filename}"
   open(filename, 'w') do |review|
