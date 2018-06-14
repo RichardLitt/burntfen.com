@@ -26,10 +26,11 @@ gulp.task('js', function () {
 
 gulp.task('project-img', function () {
   return gulp.src(paths.projectImg)
+    .pipe(changed('assets/img/project'))
     .pipe(imageResize({
-      width : 250,
-      crop : false,
-      upscale : false,
+      width: 250,
+      crop: false,
+      upscale: false
     }))
     .pipe(imagemin({
       progressive: true,
@@ -38,9 +39,9 @@ gulp.task('project-img', function () {
     }))
     .pipe(imagemin([
       imagemin.jpegtran({progressive: true}),
-      imagemin.optipng({optimizationLevel: 3}),
-      ],
-      {verbose: true}
+      imagemin.optipng({optimizationLevel: 3})
+    ],
+    {verbose: true}
     ))
     .pipe(rename({ suffix: '-200' }))
     .pipe(gulp.dest('assets/img/project'))
@@ -48,11 +49,11 @@ gulp.task('project-img', function () {
 
 gulp.task('press-img', function () {
   return gulp.src(paths.pressImg)
-    // .pipe(changed('src/img/press'))
+    .pipe(changed('assets/img/press'))
     .pipe(imageResize({
-      width : 150,
-      crop : false,
-      upscale : false,
+      width: 150,
+      crop: false,
+      upscale: false
     }))
     .pipe(imagemin({
       progressive: true,
@@ -61,36 +62,35 @@ gulp.task('press-img', function () {
     }))
     .pipe(imagemin([
       imagemin.jpegtran({progressive: true}),
-      imagemin.optipng({optimizationLevel: 3}),
-      ],
-      {verbose: true}
+      imagemin.optipng({optimizationLevel: 3})
+    ],
+    {verbose: true}
     ))
-    .pipe(changed(paths.imgDest))
     // .pipe(rename({ suffix: '' }))
     .pipe(gulp.dest('assets/img/press'))
 })
 
 gulp.task('img', function () {
   return gulp.src(paths.img)
-        .pipe(changed('assets/img'))
-        .pipe(imageResize({
-          width : 2000,
-          crop : false,
-          upscale : false,
-        }))
-        .pipe(imagemin({
-          progressive: true,
-          svgoPlugins: [{removeViewBox: false}],
-          use: [pngcrush()]
-        }))
-        .pipe(imagemin([
-          imagemin.jpegtran({progressive: true}),
-          imagemin.optipng({optimizationLevel: 3}),
-          ],
-          {verbose: true}
-        ))
-        .pipe(changed(paths.imgDest))
-        .pipe(gulp.dest(paths.imgDest))
+    .pipe(changed('assets/img'))
+    .pipe(imageResize({
+      width: 2000,
+      crop: false,
+      upscale: false
+    }))
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngcrush()]
+    }))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 3})
+    ],
+    {verbose: true}
+    ))
+    .pipe(gulp.dest(paths.imgDest))
 })
 
+gulp.task('images', ['img', 'project-img', 'press-img'])
 gulp.task('default', ['js', 'img', 'project-img', 'press-img'])
