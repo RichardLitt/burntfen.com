@@ -130,7 +130,7 @@ desc "Create a new review in #{CONFIG['reviews']}"
 task :review do
   abort("rake aborted: '#{CONFIG['reviews']}' directory not found.") unless FileTest.directory?(CONFIG['reviews'])
   title = ENV["title"] || "untitled"
-  picture = ENV["image-ext"] || "png"
+  picture = ENV["image-ext"] || "jpg"
   author = ENV["author"] || ""
   date, date_time = RakeHelper.date_time
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
