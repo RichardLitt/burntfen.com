@@ -4,11 +4,13 @@ title: "Four Months to a Four-Hour Marathon"
 description: "My review of 'Four Months to a Four-Hour Marathon' by David Kuehls"
 picture: four-months.jpg
 author: "David Kuehls"
-date: "2018-06-14"
+date: "2018-06-25"
 ---
 {% include JB/setup %}
 
-I buy a lot of random marathon training books in used bookstores. This was one of those - $2.50 on the shelf. At the time, this seems like a stupid purchase. Why should I throw these into my cart, when I've got others at home and I may not even get to it? Consider if I do set aside time to skim it. If I learn one good tip, something that changes how I think and what I do, would that be worth the $2.50? Almost certainly. Nonfiction books, and particularly how to books, are, from this standpoint, a great investment.
+I buy a lot of random marathon training books in used bookstores. This was one of those - $2.50 on the shelf. At the time, this seems like a stupid purchase. Why should I throw these into my cart, when I've got others at home and I may not even get to it?
+
+Consider if I do set aside time to skim it. If I learn one good tip, something that changes how I think and what I do, would that be worth the $2.50? Almost certainly. Nonfiction books, and particularly how-to books, are, from this standpoint, a great investment.
 
 Even if they are run of the mill, middle of the road books like this one. Kuehls wasn't preaching to the Olympic trainers, but to your average joe. He didn't want to make anyone change to a fad diet ("A word about fad diets while you are training for your 4-hour marathon: DON'T") or try a different type of new shoe. All of the advice here is what you'd find in a couple of blogs on Runner's World, if you were looking for your most conservative running advice. And not if you were trying to be **elite** (a word he bolds, too.) For instance, when talking about runners drinking before a marathon: "They [are] Olympic runners. Their metabolisms are different than ours."
 
