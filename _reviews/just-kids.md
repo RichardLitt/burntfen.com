@@ -36,7 +36,7 @@ Last week, in Berlin, I had the bizarre experience of explaining to an expatriat
 
 I've thought about that exchange a fair amount, since. It's rare for me to praise New York. I like it, sure, but I also hated much of my existence there. I was drunk for a lot of it, if I recall, and not in a particularly pleasant way. But since reading _Just Kids_, something of the city has returned to me. And I want to go back. I want to re-enter the city, years ago, and see it again, new and raw. No one expecting me, nowhere to be.
 
-To put it bluntly; this book reshaped a year of my life, rewrote my own myths to the point where I'm willing to annoy a Berliner with encomium for a cesspool. I wouldn't have guessed that this book would do that for me. But it did. It doesn't matter that I don't particularly like some of her music ("Jesus died for someone's sins, but not mine" being a heavenly exception), or that an literati friend of mine told me that the book was as much a work of Smith's editor as her own, garbled writing. What matters is that it gives a glimpse of what it means to be a New Yorker, and an artist, and young. And, for me, those images were as febrile as summer heat, as sweet and refreshing as lemonade.
+To put it bluntly; this book reshaped a year of my life, rewrote my own myths to the point where I'm willing to annoy a Berliner with encomium for a cesspool. I wouldn't have guessed that this book would do that for me. But it did. It doesn't matter that I don't particularly like some of her music ("Jesus died for someone's sins, but not mine" being a heavenly exception), or that a literati friend of mine told me that the book was as much a work of Smith's editor as her own, garbled writing. What matters is that it gives a glimpse of what it means to be a New Yorker, and an artist, and young. And, for me, those images were as febrile as summer heat, as sweet and refreshing as lemonade.
 
 ## Vocabulary
 
@@ -45,8 +45,8 @@ _Some words I didn't know or don't use enough._
 - **callow**, adj. inexperienced
 - **wedgies**, n. a shoe with a wedge heel.
 - **Jean Genet**, person. (French: [ʒɑ̃ ʒənɛ]; 19 December 1910 – 15 April 1986) was a French novelist, playwright, poet, essayist, and political activist. Early in his life he was a vagabond and petty criminal, but he later took to writing. His major works include the novels The Thief's Journal and Our Lady of the Flowers, and the plays The Balcony, The Maids and The Screens.
-- **Tissue guards**, n. small tissues set opposite a plate to keep the lithograph from being damaged.
-- **Gravures**, n. intaglio printing
+- **tissue guards**, n. small tissues set opposite a plate to keep the lithograph from being damaged.
+- **gravures**, n. intaglio printing
 - **foxing**, n. an age-related process of deterioration that causes spots and browning on old paper
 - **onionskin**, n. very fine smooth translucent paper
 - **kilim**, n. a flat-woven carpet or rug made in Turkey, Kurdistan, and neighbouring areas
