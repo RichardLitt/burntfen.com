@@ -39,14 +39,22 @@ p {
 .navbar {
   margin-bottom: 0;
   a.brand {
-    text-shadow: none;
     color: #FFF;
     padding-top: 1px;
     padding-bottom: 1px;
-    &:hover {
-      color: #666;
-      text-decoration: none;
+    svg {
+      height: 40px;
+      width: 40px;
+      margin-top: -10px;
+      fill: white;
+      &:hover {
+        fill: green;
+        text-decoration: none;
+        transform: rotate(-90deg);
+        transition: transform .4s ease;
+      }
     }
+
   }
 }
 .navbar-inner {
@@ -66,15 +74,6 @@ p {
   min-width: 10px;
   padding-bottom: 40px;
   padding-top: 20px;
-}
-
-.brand {
-  font-family: Helvetica;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 100%;
-  letter-spacing: -2px;
 }
 
 li {
@@ -269,4 +268,15 @@ img.art {
     color: red;
     border-color: red;
   }
+}
+
+blockquote.latin {
+  font-family: Times;
+  font-size: 2em;
+  background-color: #dcdcdc;
+  font-style: italic;
+  color: #333;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

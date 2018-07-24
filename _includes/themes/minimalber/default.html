@@ -57,13 +57,7 @@
   <body>
 
     <div class="wrapper">
-      <div class="navbar navbar-static-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <a class="brand" href="{{ HOME_PATH }}">RICHARD LITTAUER</a>
-           </div> <!-- /container -->
-         </div> <!-- /navbar-inner -->
-       </div> <!-- /navbar -->
+      {% include navbar.html %}
 
       <div class="container-fluid content">
         {{ content }}
