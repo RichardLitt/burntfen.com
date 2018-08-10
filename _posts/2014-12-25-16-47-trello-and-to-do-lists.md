@@ -25,6 +25,6 @@ This loosely follows the [Get Things Done](http://hamberg.no/gtd/) philosophy, w
 
 Another thing I should start doing - well, that I have started doing since I started writing this post - is to organize my daily tasks better. I’ve just made a little node module called [Practice](https://github.com/RichardLitt/practice), which prints out the keys to an object if their values are false - that is, if I haven’t done a task yet, it lets me know. I’ve set  this up with GeekTool so that I can actually see the items on my desktop, where I’ll notice them. I hate having things on my desktop, so this will be pretty good motivation to do my daily tasks. 
 
-<img style="max-width:500px;padding: 30px 5px;" src="http://i.imgur.com/MlXIwqu.png" />
+<img style="max-width:500px;padding: 30px 5px;" src="https://i.imgur.com/MlXIwqu.png" />
 
 So, here’s to shaking up my to do lists. 

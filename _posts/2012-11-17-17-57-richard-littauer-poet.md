@@ -26,6 +26,6 @@ seen my name in print in a book or a journal of poetry that wasn't
 connected to my educational establishment - in short, today is the first
 day I am officially a published poet.  
 
-![Me and the book](http://24.media.tumblr.com/tumblr_mdn69mtFkQ1qeqp7go1_500.jpg)
+![Me and the book](https://24.media.tumblr.com/tumblr_mdn69mtFkQ1qeqp7go1_500.jpg)
 
 To learn more about the book, or to order a copy, go [here](http://code-poems.com/book.html). 
