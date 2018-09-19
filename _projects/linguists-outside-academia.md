@@ -4,7 +4,7 @@ title: "Linguists Outside Academia"
 ranking: 10
 picture: linguists-outside-academia.png
 picture-small: linguists-outside-academia-200.png
-status: ongoing
+status: 2012-2018
 stub: "Email List"
 role: Cofounder
 outbound: http://linguistsoutsideacademia.com
