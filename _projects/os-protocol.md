@@ -3,10 +3,11 @@ layout: project
 title: "OS Protocol"
 ranking: 5
 picture: osprotocol.png
+picture-small: osprotocol-200.png
 status: ongoing
 stub: Metadata Protocol
 role: Creator
-outbound: http://osprotocol.com
+outbound: https://osprotocol.com
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,7 @@ layout: project
 title: "NodeSchool"
 ranking: 5
 picture: nodeschool.png
+picture-small: nodeschool-200.png
 status: ongoing
 stub: "Coding Schools"
 role: "Organizer"

@@ -1,0 +1,21 @@
+---
+layout: review
+title: "Here in Berlin"
+description: "My review of 'Here in Berlin' by Cristina Garciá"
+picture: here-in-berlin.jpg
+author: "Cristina García"
+date: "2018-06-03"
+---
+{% include JB/setup %}
+
+This book was not intended for a long flight from Boston to Berlin, with a stop in Reykjavik. I can tell this wasn't the case because there's no mention of Reykjavik or Boston in it, although San Francisco gets a passing glance somewhere near page 40. I can also tell this because that's when I read it, and I fell asleep. I don't blame the book.
+
+I bought this book for $2 as an advanced reader's copy. I knew I was coming to Berlin, and figured why not. It said "A Novel" on the front; but that's quite the misnomer. It's a collection of mostly unrelated stories, some good - the one about the Cuban who spent six months in a submarine was quite funny - and some of them less so. The author has written many books; this one read like she was given an apartment in Berlin and decided to write about it. That's fine, that's what we all want to do, but I wish she had seen more of the city than the shadow of the Nazis, who populate almost all of the stories.
+
+> She'd come to Berlin for stories, and the city had been more than generous. Mostly, she'd listened. There was, she knew, poetry in listening. She didn't belong here but there was room for her. Maybe that was enough
+> ...
+> What did she want? Quiet, resplendent days in the light. Her daughter a breath away. And a butterfly net with which to swipe the air, trapping bits of flying color here and there. Yes, she might spend the rest of her life doing nothing more than that.
+
+Yes, she did manage this; there are bits of color here and there. And I liked reading it for that. "The family is a police state" was good; or, "Every morning begins the same way: with the dull thud of a bird hitting a window of my high-rise apartment in Mitte." But, on the whole, I found the stories wanting. I'm admittedly sick of Nazis, and I also don't view Berlin this way. For me, Berlin is a city of hipsters and hackers, cheap beers and friends, LCD Soundsystem's keening cry drawing away the Brooklynites to something a bit more international. For me, I remember Berlin the way I first saw it: two days spent sitting in the Hauptbahnhof waiting for a friend to check his phone, sleeping in Tiergarten in a camouflaged tent and sharing a collective German misery. I don't see the Gestapo everywhere, and no one I've met has cared that I'm related to residents in Bergen-Belsen.
+
+Overall, I think I just read this book at the wrong time. I had just finished two lively fantasy books, and switching to poetry that works at a slow pace wasn't ideal. García certainly did manage to catch bits of butterfly color, and I think a slower read would bring those to life. For now, though, I'm just going to enjoy Berlin over some coffee, and leave this book here at the bookstore I'm drinking coffee at, and hope that someone will enjoy it.

@@ -3,6 +3,7 @@ layout: project
 title: "Publications"
 ranking: 20
 picture: publications.png
+picture-small: publications-200.png
 status: 2010-2015
 stub: "Academic Research"
 role: Researcher

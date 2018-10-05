@@ -1,8 +1,9 @@
 ---
 layout: project
 title: "First Robin of Spring"
-ranking: 8
+ranking: 20
 picture: first-robin-of-spring.png
+picture-small: first-robin-of-spring-200.png
 status: ongoing
 stub: Ornithology Appreciation
 role: Creator

@@ -1,0 +1,23 @@
+---
+layout: review
+title: "The Ghost Brigades and The Last Colony"
+description: "My review of 'The Ghost Brigades' and 'The Last Colony' by John Scalzi"
+picture: the-ghost-brigades.jpg
+author: "John Scalzi"
+date: "2018-06-14"
+---
+{% include JB/setup %}
+
+John Scalzi's _Old Man's War_ has already been reviewed here; I absolutely loved that book, so much so that I've read it again a couple of times since I first picked it up. It's a quick read. _The Ghost Brigades_, the sequel, may be a quick read, but I wouldn't know; it took me the better part of ten hours, because I slowed down and listened to it entirely by audiobook. I don't have adequate notes from that one - vocabulary, great quotes - largely because I didn't write them down, and didn't think to dogear the audio file. But for _The Last Colony_, I picked up the physical copy again. Here's what I thought: I loved them both.
+
+Scalzi is a good writer. He's entertaining, there's always a twist that you may not have seen coming. I'm not saying he's writing Holmes novels, where facts that you couldn't possible know and aren't mentioned are later included in the denouement, but rather, what happens you might have guess at if you were smart enough to imagine what others are thinking, and when you do learn how actions are playing out, you feel satisfied if you guessed and satisfied if it's a surprise. Either way, as a reader, you win. Scalzi also somehow manages to populate his world with enthusiastically sardonic characters, which is just great. And I mean that.
+
+<img class="project-image" style="float:right; width:20%;" src="../../assets/img/review/the-last-colony.jpg" />
+
+Spoilers ahoy.
+
+The Conclave, a grouping of alien races who band together to mutually colonize new worlds and to stop war, is an interesting concept, something like the Federation of United Planets, minus the human overtones, largely because humans aren't in it. I love that. I think Scalzi demonises humanity a bit more than he needs to do, but in all fairness he is mostly concerned with the governing body being jerks, which matches our own current political situation quite nicely. There are some arguments against humans joining the Conclave - larger, more aggressive species in it may get more say, it's unclear on the voting rights, humanity could probably take anyone but the Consu in a free-for-all as it is - but I like how these arguments kind of fall beside the wayside in the face of simply math. Too many alien species together against humanity means that we should probably just roll over. That having been said, I'm glad there are no Vulcans in this series; there isn't really a similar race that matches the humans super well, although there are some allies. Instead, the universe of Scalzi is just a giant prisoner's dilemma. I like that.
+
+On a small note, I love the idea of Mennonite terraformers, but mostly because I like the idea of Mennonites in general (minus the whole, albeit indispensable, God thing they've got going on).
+
+There were some issues here and there - what happens to the other intelligent race on Roanoke? Why did the Counter-Conclave fail? - but they're basically moot in the face of just super-fun and exciting writing. The main issue I have with the books is that I started _The Last Colony_ this morning, and I've got around ten hours of flights to Berlin still ahead of me, and I'm all out of Scalzi to keep reading, because they're just too damn short. Maybe I'll just start them all over again. I can live with that.

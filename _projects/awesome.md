@@ -3,6 +3,7 @@ layout: project
 title: "awesome-* lists"
 ranking: 9
 picture: awesome.png
+picture-small: awesome-200.png
 status: ongoing
 stub: Collaborative databases
 role: Maintainer

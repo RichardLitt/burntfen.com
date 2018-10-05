@@ -101,6 +101,7 @@ task :project do
   abort("rake aborted: '#{CONFIG['projects']}' directory not found.") unless FileTest.directory?(CONFIG['projects'])
   title = ENV["title"] || "new-project"
   picture = ENV["picture"] || "png"
+  website = ENV["website"]
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   filename = RakeHelper.check_filename('projects', "#{slug}.#{CONFIG['post_ext']}")
 
@@ -110,6 +111,14 @@ task :project do
     project.puts "layout: project"
     project.puts "title: \"#{title}\""
     project.puts "picture: #{slug}.#{picture}"
+    project.puts "picture-small: #{slug}-200.#{picture}"
+    if website
+      project.puts "outbound: #{website}"
+    end
+    project.puts "status: "
+    project.puts "role: "
+    project.puts "stub: "
+    project.puts "ranking: "
     project.puts "---"
     project.puts "{% include JB/setup %}"
     project.puts ""
@@ -117,15 +126,15 @@ task :project do
 end # task :page
 
 # Usage: rake review title="title" image-ext="png" author="author" [date="2012-02-09"]
-desc "Create a new review in #{CONFIG['drafts']}"
+desc "Create a new review in #{CONFIG['reviews']}"
 task :review do
-  abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+  abort("rake aborted: '#{CONFIG['reviews']}' directory not found.") unless FileTest.directory?(CONFIG['reviews'])
   title = ENV["title"] || "untitled"
-  picture = ENV["image-ext"] || "png"
+  picture = ENV["image-ext"] || "jpg"
   author = ENV["author"] || ""
   date, date_time = RakeHelper.date_time
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  filename = RakeHelper.check_filename('drafts', "#{slug}.#{CONFIG['post_ext']}")
+  filename = RakeHelper.check_filename('reviews', "#{slug}.#{CONFIG['post_ext']}")
 
   puts "Creating new review: #{filename}"
   open(filename, 'w') do |review|

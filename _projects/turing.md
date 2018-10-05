@@ -3,6 +3,7 @@ layout: project
 title: "Turing School"
 ranking: 15
 picture: turing.png
+picture-small: turing-200.png
 status: 2015-ongoing
 stub: Software School
 role: Code Mentor

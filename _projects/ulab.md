@@ -3,6 +3,7 @@ layout: project
 title: "ULAB"
 ranking: 18
 picture: ulab.png
+picture-small: ulab-200.png
 status: 2010-2011
 stub: Student Association
 role: Cofounder

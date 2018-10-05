@@ -1,15 +1,16 @@
 ---
 layout: project
 title: "Octobuild"
-ranking: 11
+ranking: 20
 picture: octobuild.png
-status: ongoing
+picture-small: octobuild-200.png
+status: 2014-2016
 stub: "Seasonal Hackathon"
 role: Cofounder
 outbound: http://octobuild.com
 ---
 {% include JB/setup %}
 
-Collaborators: _Simon Vansintjan_
+Collaborators: [_Simon Vansintjan_](http://simon.vansintjan.net/)
 
-Every year, I administer and run a month-long online hackathon of sorts in October. It is small in scope, so far, but always fun to see what people make.
+Every year, I administered and ran a month-long online hackathon of sorts in October. It was small in scope, so far, but was always fun to see what people made.

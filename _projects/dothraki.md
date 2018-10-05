@@ -3,6 +3,7 @@ layout: project
 title: "Learn Dothraki"
 ranking: 26
 picture: dothraki.png
+picture-small: dothraki-200.png
 status: 2011
 stub: Conlang Community
 role: Cofounder

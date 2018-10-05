@@ -3,6 +3,7 @@ layout: project
 title: "Maintainer Mountaineer"
 ranking: 1
 picture: maintainer.png
+picture-small: maintainer-200.png
 status: Ongoing
 stub: Start Up
 role: Founder

@@ -3,6 +3,7 @@ layout: project
 title: "Francis Bacon and Eggs"
 ranking: 6
 picture: bacon.png
+picture-small: bacon-200.png
 status: Ongoing
 stub: Cooking show
 role: Creator

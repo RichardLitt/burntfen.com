@@ -31,7 +31,7 @@
     {% if page.picture %}<meta name="twitter:image" content="https://burntfen.com/assets/img/{% if page.layout %}{{ page.layout }}{% endif %}/{{ page.picture }}">{% else %}<meta name="twitter:image" content="https://burntfen.com/assets/img/avatar.png">{% endif %}
 
     <!-- Open Source Protocol -->
-    <link rel="profile" href="http://osprotocol.com" />
+    <link rel="profile" href="https://osprotocol.com" />
     <meta property="os:repo" content="https://github.com/RichardLitt/richardlitt.github.com" />
     <meta property="os:rcs_type" content="git" />
     <meta property="os:src" content="git@github.com:RichardLitt/richardlitt.github.com.git" />
@@ -42,7 +42,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ HOME_PATH }}assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ HOME_PATH }}assets/css/bootstrap.min.css"  rel="stylesheet">
     <link href="{{ HOME_PATH }}assets/css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -56,39 +56,20 @@
   </head>
   <body>
 
-    <div class="navbar navbar-static-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">RICHARD LITTAUER</a>
-         </div> <!-- /container -->
-       </div> <!-- /navbar-inner -->
-     </div> <!-- /navbar -->
-
     <div class="wrapper">
+      {% include navbar.html %}
 
-      <div class="container subpage">
+      <div class="container-fluid content">
+        {{ content }}
+      </div>
+    </div>
 
-        <div class="content">
-          {{ content }}
-        </div>
-
-
-        <div class="push"></div>
-
-      </div> <!-- /container -->
-    <footer>
-      <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-      <p>{{ site.author.name }} &copy; {{ site.time | date: '%Y' }}.
-        <a href="https://github.com/RichardLitt/richardlitt.github.com">Source</a>.
-      </p>
-    </footer>
-
-  </div> <!-- /wrapper -->
+    {% include footer.html %}
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ HOME_PATH }}assets/js/jquery.js"></script>
+    <script src="{{ HOME_PATH }}assets/js/jquery.min.js"></script>
     <script src="{{ HOME_PATH }}assets/js/bootstrap.min.js"></script>
     {% include JB/analytics %}
   </body>

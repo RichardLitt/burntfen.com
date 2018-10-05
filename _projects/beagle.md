@@ -3,6 +3,7 @@ layout: project
 title: "Beagle"
 ranking: 9
 picture: beagle.jpg
+picture-small: beagle-200.jpg
 status: hiatus
 stub: PDF Annotator & Chrome Extension
 role: Developer

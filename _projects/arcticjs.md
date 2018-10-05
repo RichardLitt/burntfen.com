@@ -3,6 +3,7 @@ layout: project
 title: "Arctic.js"
 ranking: 10
 picture: arcticjs.png
+picture-small: arcticjs-200.png
 status: January 2016
 stub: JavaScript Conference in Svalbard
 role: Speaker

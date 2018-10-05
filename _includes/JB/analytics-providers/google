@@ -1,1 +1,1 @@
-<script src="{{ HOME_PATH }}assets/js/googleAnalytics.js"></script>
+<script src="{{ HOME_PATH }}assets/js/googleAnalytics.min.js"></script>

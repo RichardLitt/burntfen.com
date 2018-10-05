@@ -1,5 +1,6 @@
 - source: boston-globe
   image: boston-globe.jpg
+  date: April 6, 2014
   title: "Yes, writing languages for ‘Game of Thrones’ is a real job"
   url: https://www.bostonglobe.com/ideas/2014/04/05/yes-writing-languages-for-game-thrones-real-job/4eyOZKW5EVL6Mt8qBQJ20L/story.html
 
@@ -10,6 +11,7 @@
 
 - source: nyt
   image: nyt.jpg
+  date: December 11, 2011
   title: "Athhilezar? Watch Your Fantasy World Language"
   url: http://www.nytimes.com/2011/12/12/arts/television/in-game-of-thrones-a-language-to-make-the-world-feel-real.html
 
@@ -40,6 +42,7 @@
 
 - source: nautilus
   image: nautilus.png
+  date: October 17, 2013
   title: "Cracking Avatar's Language Codes"
   url: http://nautil.us/issue/6/secret-codes/cracking-avatars-language-codes
 
@@ -48,3 +51,31 @@
   title: "This mom will review your website for $75"
   url: http://thenextweb.com/dd/2015/05/19/guys-mom-will-review-website-75/
 
+- source: cbc
+  image: CBC_Radio-Canada_logo.png
+  title: "CBC Daybreak - Silent Book Club host interview"
+  url: https://silentbook.club
+
+- source: "Heart Breakfast (Bath)"
+  hide: true
+
+- source: 6pr.au
+  hide: true
+
+- source: "The Sun"
+  hide: true
+  date: "April 26, 2010"
+  title: "Avatar fan speaks film lingo Na'vi"
+  url: http://www.thesun.co.uk/sol/homepage/news/2946833/Avatar-fan-speaks-film-lingo-Navi.html
+
+- source: "Bushwick Daily"
+  hide: true
+  date:  "January 2, 2014"
+  title: "Bushwick Newsy Round Up: Post-Holidays edition"
+  url: http://bushwickdaily.com/2014/01/bushwick-newsy-round-up-post-holidays-edition
+
+- source: STV
+  hide: true
+  date: "April 18, 2014"
+  title: "Mario Meadows Map Gives Edinburgh Park Nintendo Names"
+  url: http://edinburgh.stv.tv/articles/272112-mario-meadows-map-gives-edinburgh-park-nintendo-names/?fromstreampost=100166

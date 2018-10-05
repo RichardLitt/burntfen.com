@@ -3,6 +3,7 @@ layout: project
 title: "Idea Otter"
 ranking: 16
 picture: ideaotter.png
+picture-small: ideaotter-200.png
 status: 2011-2016
 stub: Idea-Sharing Site
 role: Developer

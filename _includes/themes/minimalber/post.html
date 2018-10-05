@@ -1,42 +1,33 @@
-<div class="page-header">
-  <h1>{{ page.title }}</h1>
+<div class="col-md-12">
+  <div class="page-header">
+    <h1>{{ page.title }}</h1>
+  </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row-fluid">
-    <div class="col-md-8 post">
-      {{ content }}
-      <hr>
-      <div class="pagination">
-        <ul>
-        {% if page.previous %}
-          <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-        {% else %}
-          <li class="prev disabled"><a>&larr; Previous</a></li>
-        {% endif %}
-          <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-        {% if page.next %}
-          <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-        {% else %}
-          <li class="next disabled"><a>Next &rarr;</a>
-        {% endif %}
-        </ul>
-      </div>
-      <hr>
-      {% include JB/comments %}
-    </div>
-    
-    <div class="col-md-4">
-      <h4>Published</h4>
-      <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
-
-    {% unless page.tags == empty %}
-      <h4>Tags</h4>
-      <ul class="tag_box">
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-      </ul>
-    {% endunless %}  
-    </div>
+<div class="col-md-12 post">
+  <p class="published"><i>Published on <span class="date">{{ page.date | date_to_long_string }}</span></i></p>
+  {{ content }}
+  <hr>
+  <div class="pagination">
+    <ul>
+    {% if page.previous %}
+      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+    {% else %}
+      <li class="prev disabled"><a>&larr; Previous</a></li>
+    {% endif %}
+      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+    {% if page.next %}
+      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+    {% endif %}
+    </ul>
   </div>
+  <hr />
+  <div class="tag_box">
+    {% unless page.tags == empty %}
+      {% assign tags_list = page.tags %}
+      <p>Tagged: <ul>{% include JB/tags_list %}</ul></p>
+    {% endunless %}
+  </div>
+  <hr>
+  {% include JB/comments %}
 </div>

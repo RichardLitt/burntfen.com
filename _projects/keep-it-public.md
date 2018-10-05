@@ -2,6 +2,7 @@
 layout: project
 title: "Keep It Public"
 picture: keep-it-public.png
+picture-small: keep-it-public-200.png
 ranking: 5
 status: ongoing
 stub: Charity

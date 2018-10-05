@@ -3,6 +3,7 @@ layout: project
 title: "endangered-languages"
 ranking: 9
 picture: endangered-languages.png
+picture-small: endangered-languages-200.png
 status: ongoing
 stub: Collaborative database
 role: Creator

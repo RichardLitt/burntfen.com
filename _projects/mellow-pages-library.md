@@ -3,6 +3,7 @@ layout: project
 title: "Mellow Pages Library"
 ranking: 17
 picture: mellow-pages-library.png
+picture-small: mellow-pages-library-200.png
 status: 2013-2015
 stub: Community Library
 role: Developer

@@ -3,6 +3,7 @@ layout: project
 title: "The User Is Drunk"
 ranking: 3
 picture: the-user-is-drunk.png
+picture-small: the-user-is-drunk-200.png
 status: ongoing
 stub: "UX Consultancy"
 role: Founder

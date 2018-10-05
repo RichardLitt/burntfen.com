@@ -3,6 +3,7 @@ layout: project
 title: "Wired In"
 ranking: 21
 picture: wired-in.png
+picture-small: wired-in-200.png
 status: 2012-2013
 stub: Productivity Tool
 role: Developer

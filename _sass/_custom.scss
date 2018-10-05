@@ -1,6 +1,26 @@
-/* Override some defaults */
-html, body {
-  background-color: #FFF;
+/* Sticky Footer */
+html,
+body {
+  background-color: white;
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 0 -80px auto;
+  /* Pad bottom by footer height */
+  padding: 0 0 80px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 80px;
+  background-color: white;
+  text-align: center;
 }
 
 h3, h4 {
@@ -12,28 +32,29 @@ p {
 }
 
 .content {
-  padding-bottom: 200px;
-}
-
-.subpage {
+  padding-bottom: 100px;
   max-width: 900px;
-}
-
-.wrapper {
-  margin-top: 20px;
 }
 
 .navbar {
   margin-bottom: 0;
   a.brand {
-    text-shadow: none;
     color: #FFF;
     padding-top: 1px;
     padding-bottom: 1px;
-    &:hover {
-      color: #666;
-      text-decoration: none;
+    svg {
+      height: 40px;
+      width: 40px;
+      margin-top: -10px;
+      fill: white;
+      &:hover {
+        fill: green;
+        text-decoration: none;
+        transform: rotate(-90deg);
+        transition: transform .4s ease;
+      }
     }
+
   }
 }
 .navbar-inner {
@@ -55,28 +76,12 @@ p {
   padding-top: 20px;
 }
 
-.brand {
-  font-family: Helvetica;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 100%;
-  letter-spacing: -2px;
-}
-
 li {
   padding: 3px auto;
 }
 .container > footer p {
   text-align: center;
   /* center align it with the container */
-}
-footer {
-  margin: 0px auto 20px auto;
-  text-align: center;
-  img {
-    margin-bottom: 20px;
-  }
 }
 .container {
   -webkit-border-radius: 6px 6px 6px 6px;
@@ -94,7 +99,6 @@ footer {
   line-height: 100%;
   letter-spacing: -1px;
   padding: 0;
-  margin: 50px 0 5px 20px;
 }
 .topbar .btn {
   border: 0;
@@ -186,12 +190,16 @@ a {
   }
 }
 
-.post p>img {
-  max-width: 100%;
-}
-
-.project-page-title {
-  margin-left: 30px;
+.post {
+  p>img {
+    max-width: 100%;
+  }
+  p, li {
+    font-size: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+  }
 }
 
 
@@ -221,6 +229,7 @@ a {
     font-size: 2em;
     margin: 40px 0px 20px;
   }
+  // Used in the Status page
   .current-project {
     border: 1px solid #999;
     text-align: center;
@@ -233,3 +242,41 @@ a {
   }
 }
 
+.pagination ul li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.tag_box ul li {display: inline;}
+
+.published { margin-bottom: 30px; }
+
+
+img.art {
+  // Used on the art.md page only
+  width: 100%;
+  margin: 100px 0px;
+}
+
+.btn-check-it-out {
+  border: 2px solid #000;
+  border-radius: 0px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  &:hover {
+    color: red;
+    border-color: red;
+  }
+}
+
+blockquote.latin {
+  font-family: Times;
+  font-size: 2em;
+  background-color: #dcdcdc;
+  font-style: italic;
+  color: #333;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

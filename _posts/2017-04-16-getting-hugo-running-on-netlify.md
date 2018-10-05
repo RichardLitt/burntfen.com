@@ -11,7 +11,7 @@ canonicalUrl: 'https://www.burntfen.com/2017-04-16/getting-hugo-running-on-netli
 
 Running [Hugo](https://gohugo.io/) on [Netlify](https://www.netlify.com/) is satisfyingly great. You can get a static website running with almost no operating costs (unless you're at major scale), and you're also able to quickly deploy by pushing to GitHub, as well as getting SSL through LetsEncrypt automatically at the push of a button. All told, you can have a website up and running in around 30 minutes from domain purchase. It's fast.
 
-I have [First Impressions](https://firstimpressions.io), [58Liters](https://58liters.com) and [Maintainer Mountaineer](https://maintainer.io) all running on Netlify, using Hugo. (I have half a dozen sites on Netlify using Jekyll, too.)
+I have [58Liters](https://58liters.com) and [Maintainer Mountaineer](https://maintainer.io) all running on Netlify, using Hugo. (I have half a dozen sites on Netlify using Jekyll, too.)
 
 But, there are a few hitches. Without going into huge detail, here is the standard way of getting something up and running. Since I'll be going through this, I'll use a site I've been meaning to build - interruptedfern.com. I already have the domain pointed to Netlify, with these settings:
 

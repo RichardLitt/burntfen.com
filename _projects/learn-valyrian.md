@@ -3,6 +3,7 @@ layout: project
 title: "@LearnValyrian & @AynRandAlThor"
 ranking: 24
 picture: learn-valyrian.png
+picture-small: learn-valyrian-200.png
 status: ongoing
 stub: Novelty Twitter Accounts
 role: Joker

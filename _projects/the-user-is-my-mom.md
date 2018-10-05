@@ -3,6 +3,7 @@ layout: project
 title: "The User Is My Mom"
 ranking: 9
 picture: the-user-is-my-mom.png
+picture-small: the-user-is-my-mom-200.png
 status: 2015
 stub: "UX Consultancy"
 role: Cofounder

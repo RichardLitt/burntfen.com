@@ -1,21 +1,54 @@
-<a href="{{ page.outbound }}">
-  <h1 class="project-page-title">{{ page.title }}</h1>
-</a>
+<div id="project-page">
+  <a href="{{ page.outbound }}" class="project-page-title">
+    <h1>{{ page.title }}</h1>
+  </a>
 
-<div id="project-page" class="container-fluid">
-  <div class="row-fluid">
-    <div class="col-sm-4">
-      <a href="{{ page.outbound }}">
-        <img class="project-image" src="../../assets/img/project/{{ page.picture }}" />
+  <div class="col-sm-4">
+    <a href="{{ page.outbound }}">
+      <img class="project-image" src="../../assets/img/project/{{ page.picture }}" />
+    </a>
+  </div>
+  <div class="col-sm-8">
+    <h4>{{ page.stub}}</h4>
+    <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
+    {{ content }}
+
+    {% if page.outbound %}<p>
+      <a href="{{ page.outbound }}" class="btn btn-check-it-out" role="button">
+        Check it out
       </a>
-    </div>
-    <div class="col-sm-8">
-      <h4>{{ page.stub}}</h4>
-      <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
-      {{ content }}
-      
-      {% if page.outbound %}<p><a href="{{ page.outbound }}">Check it out.</a></p>{% endif %}
-    </div>
-    <hr>
+    </p>{% endif %}
+  </div>
+</div>
+
+</div> <!-- Close wrapper -->
+
+<div class="container other-projects">
+  <div class="row col-xs-12">
+    <hr />
+    <h1 class="section-title">Other Projects</h1>
+  </div>
+  <div class="row projects">
+    {% assign projects = site.projects | sort: 'ranking' %}
+    {% for project in projects %}
+      {% if page.id == project.id %}
+        {% continue %}
+      {% endif %}
+        <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+          <div class="img-container">
+            <a href="{{ project.url }}">
+              <img src="../../assets/img/project/{{ project.picture-small }}" class="card-image"/>
+            </a>
+          </div>
+          <a class="project-title" href="{{ project.url }}">
+            <h4>
+              {{ project.title }}
+            </h4>
+            <p>{{ project.stub}}<br />
+            {{ project.role }} <span class="status">{{ project.status }}</span></p>
+          </a>
+        </div>
+      <div class="clearfix visible-sm-block"></div>
+    {% endfor %}
   </div>
 </div>
