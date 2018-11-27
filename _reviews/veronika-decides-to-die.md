@@ -1,0 +1,35 @@
+---
+layout: review
+title: "Veronika Decides To Die"
+description: "My review of 'Veronika Decides To Die' by Paulo Coelho"
+picture: veronika-decides-to-die.jpg
+author: "Paulo Coelho"
+date: "2018-11-27"
+---
+{% include JB/setup %}
+
+There are a host of little free libraries on stilts in Montréal - small, house-like cupboards on the street where you can pick up free books. Stopping by one last week, I picked up _Veronika Decides to Die_. I hadn't read any Paulo Coelho before, and this introduction was mostly due to the fact that the title was gripping enough to make me wonder what was in it.
+
+It is a short, easily consumable book. The plot follows a woman who decides to die (no surprises there), but who wakes up in an insane asylum after being discovered before the overdose could be effective. There, a psychiatrist with a novel theory decides to tell her she has a week to live. The rest of the book is about her realizing that life is worth living, mostly through taking chances she hadn't taken before, and rediscovering her life's dream of playing the piano. As "a novel of redemption" is written on the cover of my version, none of this was a shock.
+
+At times, reading about a woman in an insane asylum wasn't exactly what I wanted to do with my afternoons, but I got through it. There were some odd moments - for instance, when she masturbates in front of a schizophrenic man who doesn't respond to her - or when the doctor rambles on in monologues about his ideas concerning a bitter poison known as 'vitriol.' But the best part of the book is arguably the small 'meet the author' section included at the back of mine, where it becomes apparent that Coelho wrote this book because he, too, had been committed to an insane asylum.
+
+> _Veronika Decides to Die_ came out in Brazil in August 1998. By September I had received more than twelve hundred e-mails and letters relating similar experiences. In October, some of the themes touched on in the book—depression, panic attacks, suicide—were discussed in a seminar that had national repercussions. On January 22, 1999, Senator Eduardo Suplicy read passages from my book aloud to other senators and managed to win approval for a law forbidding arbitrary admissions into mental institutions they had been trying to get through the Brazilian Congress for the last ten years.
+
+This makes the entire book less of a random diversion by a novelist without meaning, and more of a fictional representation of actual experiences. And, in that light, it is quite a good book. Questions are asked: what is madness? What is suicide? Is it better to live knowing you will die, and to not care, or to live in a state of denial to this most basic of facts?
+
+There are a few good lines. For instance:
+
+> And am I not going to die? Where is my soul that I might play the music of my own life with such enthusiasm?
+
+And:
+
+> She closed her eyes and felt him doing the same. And a deep, dreamless sleep came upon her. Death was sweet; it smelled of wine and stroked her hair.
+
+Which is somewhat reminiscent of Mishima's "Victory, as anyone knows, is bitter stuff," at the end of _The Sailor Who Fell from Grace with the Sea._
+
+But these are few and far between. Mostly, the book is just a nice, thoughtful, easy read.
+
+#### New Vocabulary
+
+- **sangfroid**, n. composure or coolness, sometimes excessive, as shown in danger or under trying circumstances. mid 18th century: from French sang-froid, literally ‘cold blood’.
