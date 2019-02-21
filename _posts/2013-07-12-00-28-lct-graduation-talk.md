@@ -3,7 +3,7 @@ layout: post
 title: "LCT Graduation Talk"
 description: "A transcript of my short speech"
 category: academia
-tags: [uni, coli]
+tags: [university, coli]
 ---
 {% include JB/setup %}
 

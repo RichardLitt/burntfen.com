@@ -2,8 +2,8 @@
 layout: post
 title: "EMLCT Masters Call for Students"
 description: "Applications now open for EMLCT Masters. "
-category: uni
-tags: [uni, linguistics]
+category: university
+tags: [university, linguistics]
 ---
 {% include JB/setup %}
 

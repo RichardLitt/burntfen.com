@@ -1,0 +1,19 @@
+---
+layout: page
+title : Blog Posts
+header : Blog Posts
+group: navigation
+---
+{% include JB/setup %}
+
+<p>Here is a listing of all of the blog posts I currently have hosted on this site. I have in the past used other blogs - many of them. However, to make things simpler for everyone, I'm defaulting down to this blog for now, for all new posts. This blog is <i>not</i> a simple, cut-and-dry, one-topic journal. It was never meant to be. It is simply a repository for Richard Littauer's writings.</p>
+<p>Any <a href="https://tinyletter.com/richlitt/">interesting pieces</a> will be mentioned in <a href="https://tinyletter.com/richlitt/">my newsletter</a>, normally posted on some Fridays.</p>
+<p>Any <a href="https://tinyletter.com/practice/">daily pieces</</a> will be cross-posted on <a href="https://tinyletter.com/practice/">my daily practice newsletter</a>.</p>
+<p>Any <b>Maintainer Mountaineer or Open Source</b> related content will be cross-posted to <a href="https://tinyletter.com/maintainer">my Maintainer Mountaineer newsletter</a>, at most once a week.</p>
+
+<p>You can see posts arranged by tags <a href="{{ BASE_PATH }}/tags">here</a>. Here is <a href="https://www.burntfen.com/feed.xml">the RSS Feed</a>.</p>
+
+<hr />
+
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}

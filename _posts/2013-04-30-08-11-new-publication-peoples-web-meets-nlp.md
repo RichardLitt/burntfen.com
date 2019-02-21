@@ -3,7 +3,7 @@ layout: post
 title: "New Publication: People's Web Meets NLP"
 description: "New book with a chapter with my name in it."
 category: academia
-tags: [publication, uni]
+tags: [publication, university]
 ---
 {% include JB/setup %}
 

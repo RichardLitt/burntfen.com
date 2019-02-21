@@ -3,7 +3,7 @@ layout: post
 title: "Starting with Clojure"
 description: "A draft post"
 category: languages
-tags: [clojure, coding]
+tags: [clojure, code]
 ---
 {% include JB/setup %}
 

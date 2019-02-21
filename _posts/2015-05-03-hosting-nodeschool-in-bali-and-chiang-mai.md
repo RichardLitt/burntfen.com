@@ -3,7 +3,7 @@ layout: post
 title: "Hosting NodeSchool in Bali and Chiang Mai"
 description: ""
 category: 
-tags: []
+tags: [code, nodeschool]
 date: 2015-05-03-15-41
 ---
 {% include JB/setup %}

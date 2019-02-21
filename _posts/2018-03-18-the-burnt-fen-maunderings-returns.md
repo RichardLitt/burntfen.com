@@ -12,24 +12,24 @@ Today I did something I've been meaning to do for a long time. I drew some more 
 
 All of these are for sale. Let me know if you're interested.
 
-![1]({{ site.url}}/assets/img/art/1.jpg)  
+![1]({{ BASE_PATH }}/assets/img/art/1.jpg)  
 
 <hr />
 
-![2]({{ site.url}}/assets/img/art/2.jpg)  
+![2]({{ BASE_PATH }}/assets/img/art/2.jpg)  
 
 <hr />
 
-![3]({{ site.url}}/assets/img/art/3.jpg)  
+![3]({{ BASE_PATH }}/assets/img/art/3.jpg)  
 
 <hr />
 
-![4]({{ site.url}}/assets/img/art/4.jpg)  
+![4]({{ BASE_PATH }}/assets/img/art/4.jpg)  
 
 <hr />
 
-![5]({{ site.url}}/assets/img/art/5.jpg)  
+![5]({{ BASE_PATH }}/assets/img/art/5.jpg)  
 
 <hr />
 
-![6]({{ site.url}}/assets/img/art/6.jpg)
+![6]({{ BASE_PATH }}/assets/img/art/6.jpg)

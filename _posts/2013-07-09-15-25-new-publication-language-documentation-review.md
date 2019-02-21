@@ -3,7 +3,7 @@ layout: post
 title: "New Publication: Language Documentation Review"
 description: "New publciation time"
 category: academia
-tags: [publication, uni, linguistics]
+tags: [publication, university, linguistics]
 ---
 {% include JB/setup %}
 

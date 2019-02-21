@@ -3,7 +3,7 @@ layout: post
 title: "microbogging it down"
 description: ""
 category: site
-tags: [site, admin, python, languages, code]
+tags: [meta, admin, python, languages, code]
 ---
 {% include JB/setup %}
 

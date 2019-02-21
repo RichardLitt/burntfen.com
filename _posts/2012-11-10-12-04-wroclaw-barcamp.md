@@ -3,7 +3,7 @@ layout: post
 title: "Wroclaw Barcamp"
 description: "Unexus and Coding wrap-up"
 category: events
-tags: [coding, startup, conferences]
+tags: [code, startup, conferences]
 ---
 {% include JB/setup %}
 
