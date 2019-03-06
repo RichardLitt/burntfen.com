@@ -45,6 +45,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    scout_apm (2.4.21)
 
 PLATFORMS
   ruby
@@ -54,6 +55,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-redirect-from (= 0.11.0)
   rake
+  scout_apm
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
