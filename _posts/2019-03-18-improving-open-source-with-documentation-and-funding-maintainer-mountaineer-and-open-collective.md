@@ -26,6 +26,6 @@ We're going to start with a few hand-picked projects from Open Collective and Gi
 
 This is experimental, and we're going into this with more questions than answers. It'll take a good amount of elbow grease. You can follow along at my personal blog on [burntfen.com/blog](https://burntfen.com/blog) and on Twitter at [@richlitt](https://twitter.com/richlitt). If you're a newsletter person, you can sign up at on [Maintainer's TinyLetter](https://tinyletter.com/maintainer).
 
-Got ideas? Tweet at me! Want to be part of the trial? Send an email. Got funds you don't know what to do with (yes, this actually happens)? Drop a line.
+Got ideas? Tweet at me! Want to be part of the trial? [Send an email](mailto:richard@maintainer.io). Got funds you don't know what to do with (yes, this actually happens)? Drop a line.
 
 Let's go!
