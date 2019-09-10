@@ -18,13 +18,13 @@
   },
   "homepage": "https://github.com/RichardLitt/richardlitt.github.com#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-changed": "^3.2.0",
-    "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0",
-    "imagemin-pngcrush": "^5.1.0",
-    "imagemin-pngquant": "^6.0.0"
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.1",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-pngcrush": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0"
   }
 }

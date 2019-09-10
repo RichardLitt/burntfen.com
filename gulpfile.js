@@ -92,5 +92,5 @@ gulp.task('img', function () {
     .pipe(gulp.dest(paths.imgDest))
 })
 
-gulp.task('images', ['img', 'project-img', 'press-img'])
-gulp.task('default', ['js', 'img', 'project-img', 'press-img'])
+gulp.task('images', gulp.series('img', 'project-img', 'press-img'))
+gulp.task('default', gulp.series('js', 'img', 'project-img', 'press-img'))
