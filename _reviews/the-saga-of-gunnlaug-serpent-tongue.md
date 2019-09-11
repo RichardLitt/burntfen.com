@@ -1,8 +1,8 @@
 ---
 layout: review
-title: "The Saga of Gunnlaugh Serpent-tongue"
-description: "My review of 'The Saga of Gunnlaugh Serpent-tongue' by An Anonymous Icelander"
-picture: the-saga-of-gunnlaugh-serpent-tongue.jpg
+title: "The Saga of Gunnlaug Serpent-tongue"
+description: "My review of 'The Saga of Gunnlaug Serpent-tongue' by An Anonymous Icelander"
+picture: the-saga-of-gunnlaug-serpent-tongue.jpg
 author: "An Anonymous Icelander"
 date: "2019-09-11"
 ---
