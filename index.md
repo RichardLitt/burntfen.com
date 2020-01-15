@@ -78,6 +78,21 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
 <div class="container">
   <div class="row press">
+    <h1 class="section-header">Past Clients</h1>
+    {% for client in site.data.clients %}
+      {% if clients.hide != true %}
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/{{ client.image }}" title="{{ client.client }}" class="card-image">
+        </div>
+      </div>
+      {% endif %}
+    {% endfor%}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row press">
     <h1 class="section-header">Press</h1>
     {% for press in site.data.press %}
       {% if press.hide != true %}

@@ -12,7 +12,8 @@ var paths = {
   img: ['src/img/**/*.png', 'src/img/**/*.jpg'],
   imgDest: 'assets/img',
   projectImg: ['src/img/project/*.png', 'src/img/project/*.jpg'],
-  pressImg: ['src/img/press/*.png', 'src/img/press/*.jpg']
+  pressImg: ['src/img/press/*.png', 'src/img/press/*.jpg'],
+  clientImg: ['src/img/clients/*.png', 'src/img/clients/*.jpg']
 }
 
 gulp.task('js', function () {
@@ -68,6 +69,29 @@ gulp.task('press-img', function () {
     ))
     // .pipe(rename({ suffix: '' }))
     .pipe(gulp.dest('assets/img/press'))
+})
+
+gulp.task('client-img', function () {
+  return gulp.src(paths.clientImg)
+    // .pipe(changed('assets/img/clients'))
+    .pipe(imageResize({
+      width: 150,
+      crop: false,
+      upscale: false
+    }))
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngcrush()]
+    }))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 3})
+    ],
+    {verbose: true}
+    ))
+    // .pipe(rename({ suffix: '' }))
+    .pipe(gulp.dest('assets/img/clients'))
 })
 
 gulp.task('img', function () {

@@ -1,0 +1,76 @@
+- client: Gilt
+  image: gilt.png
+  project: The User Is Drunk
+
+- client: GitHub
+  image: github.png
+  project: Maintainer Mountaineer
+
+- client: Gizmodo
+  image: gizmodo.png
+  project: The User Is Drunk
+
+- client: Haja Networks
+  image: haja.png
+  project: Maintainer Mountaineer
+
+- client: Hipcamp
+  image: hipcamp.jpg
+  project: Burnt Fen Creative
+
+- client: Homeaway
+  image: homeaway.png
+  project: The User Is Drunk
+
+- client: Hubspot
+  image: hubspotlogo.png
+  project: The User Is Drunk
+
+#- client: Mellow Pages Library
+#  image: mellow-pages-library logo.png
+#  project: Burnt Fen Creative
+
+- client: MIT Media Lab
+  image: mit.png
+  project: Burnt Fen Creative
+
+- client: Nock
+  image: nock.png
+  project: Maintainer Mountaineer
+
+- client: Ok Grow!
+  image: okgrow.png
+  project: Maintainer Mountaineer
+
+
+- client: Protocol Labs
+  image: protocol labs.png
+  project: Burnt Fen Creative
+
+- client: Read The Docs
+  image: rtd.png
+  project: Maintainer Mountaineer
+
+- client: Sears
+  image: sears.png
+  project: The User Is Drunk
+
+- client: Shelter
+  image: shelter.png
+  project: Burnt Fen Creative
+
+- client: Shutterstock
+  image: shutterstock.png
+  project: Maintainer Mountaineer
+
+- client: Storj
+  image: storj.png
+  project: Maintainer Mountaineer
+
+- client: VWO
+  image: vwo.png
+  project: The User Is Drunk
+
+- client: The Zcash Foundation
+  image: zcash.png
+  project: Burnt Fen Creative
