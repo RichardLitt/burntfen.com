@@ -84,3 +84,15 @@
   image: vox.png
   title: "It’s not your fault online shopping is confusing. It’s a design problem."
   url: https://www.vox.com/the-goods/2018/10/5/17879072/ecommerce-ux-design-problems
+
+- source: "The Bridge"
+  url: https://montpelierbridge.org/2020/02/sorsha-anderson-plays-shakespeares-liveliest-heroine/?fbclid=IwAR3fLD3jEa4JTMG47WY-jR04CGCATADzK32Z0a-H1q-aFLMo8EOgu1zDVjs
+  title: "Orlando in As You Like It"
+  date: "February 2020"
+  hide: true
+
+- source: "The Times Argus"
+  url: https://www.timesargus.com/features/vermont_arts/as-you-like-it-why-does-rosalind-enjoy-tormenting-orlando/article_e7f780e4-a298-510a-95ae-6eeb27c63880.html
+  title: "Orlando in As You Like It"
+  date: "February 2020"
+  hide: true
