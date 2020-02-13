@@ -7,7 +7,7 @@ picture-small: of-walking-200.png
 status: Postponed
 stub: Documentary
 role: Film-maker
-outbound: http://ofwalkinginsnow.com
+outbound: https://richardlitt.github.io/of-walking-in-snow/
 ---
 {% include JB/setup %}
 
@@ -17,4 +17,4 @@ outbound: http://ofwalkinginsnow.com
 
 > Every day, he will stop into cafes for a few hours to work and blog, answer emails, and prepare the next leg. Every night, he'll sleep in his bivouac in a park. He's  bringing along a camera, and will make a documentary film from the footage. He'll post updates here.
 
-I walked 25 miles the first day; however, I was forced to call off the event due to a 50-year record breaking cold snap, where temperatures went to -10°F. I hope to take this project up again at some point in the future.
+I walked 25 miles the first day; however, I was forced to call off the event due to record subzero (Fahrenheit) temperatures, which I unfortunately hadn't prepared for. I hope to take this project up again at some point in the future. As my father doesn't winter on the Cape anymore, I'll have to find another reason to walk.
