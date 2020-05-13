@@ -1,10 +1,10 @@
 ---
 layout: project
 title: "The User Is Drunk"
-ranking: 3
+ranking: 6
 picture: the-user-is-drunk.png
 picture-small: the-user-is-drunk-200.png
-status: ongoing
+status: 2015-2019
 stub: "UX Consultancy"
 role: Founder
 outbound: http://theuserisdrunk.com
