@@ -7,7 +7,7 @@ status: ongoing
 role: Organizer
 stub: Fund raising for FOSS during COVID-19
 ranking: 2
-outbound: https://fossresponder.com
+outbound: https://fossresponders.com
 ---
 {% include JB/setup %}
 
