@@ -56,6 +56,8 @@ You see that we added the edits to git's staging area, with `git add -A`. (If yo
 
 Now comes the part you normally shouldn't do, but since the maintainers have asked you, and since you know it is to your own branch, and since you're not too worried about being a Sith lord: `git push -f origin HEAD`. This will tell git to not care that this is a different commit. Git will overwrite the remote commit with your commit, and now you'll see that the PR has also automatically been updated on GitHub. The old comments telling you to change stuff are now in an outdated diff, the code shows the most recent version, and you're ready to merge. Everyone wins.
 
+Note: Since this post was first publishes, `--force-with-lease` has entered the Git core. It's very convenient: force pushes that use lease won't overwrite the branch if other committers have added commits to the branch, since. This is safer than `--force`, and should be used if possible.
+
 ### Option 3: Committing and squashing
 
 Another option you can do, which is a bit more standard and which you may be used to, is to edit your file, and then make a new commit. You can even make as many commits as you like, really. However - like we said earlier, some maintainers want a clean history. You can clean up your history by squashing commits, and then force pushing.
