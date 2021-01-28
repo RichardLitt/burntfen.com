@@ -7,7 +7,6 @@ picture-small: the-burnt-fen-maunderings-200.png
 status: 2008-2011
 stub: Webcomic
 role: Creator
-outbound: https://burntfen.com/comic/
 ---
 {% include JB/setup %}
 
