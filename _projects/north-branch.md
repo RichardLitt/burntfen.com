@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "North Branch Nature Center"
-picture: north-branch.jpg
-picture-small: north-branch-200.jpg
+picture: north-branch.png
+picture-small: north-branch-200.png
 status: ongoing
 role: Board Member
 stub: Vermont Non-profit
