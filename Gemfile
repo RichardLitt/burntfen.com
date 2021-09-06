@@ -5,3 +5,4 @@ gem 'jekyll-redirect-from', '0.11.0'
 gem 'rake'
 gem 'jekyll-feed'
 gem 'scout_apm'
+gem "kramdown-parser-gfm"
