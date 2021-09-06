@@ -3,10 +3,10 @@ layout: project
 title: "FOSS Responders"
 picture: fossresponders.png
 picture-small: fossresponders-200.png
-status: ongoing
+status: 2020
 role: Organizer
 stub: Fund raising for FOSS during COVID-19
-ranking: 2
+ranking: 5
 outbound: https://fossresponders.com
 ---
 {% include JB/setup %}
