@@ -20,5 +20,6 @@ I regularly speak at meetups about code, mostly about JavaScript. The image you 
   - NodeLive Washington DC, October 26, 2016. Title: Standardizing READMEs for Great Good.
   - NodeFest Japan in Tokyo, November 13, 2016. Title: Why to Standardize your READMEs.
   - JSMontreal, Montreal, April 11, 2017. Also about Standard Readme.
+  - SeaGL, Seattle, November 6, 2021. Title: Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software.
 
 I also have given dozens of academic talks about linguistics: for a list of publications, go [here](/projects/publications/).
