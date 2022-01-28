@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VBRC checker"
-description: "A tool to help people spot birds that should be reported to the Vermont Rare Birds Committee"
+description: "A tool to help people spot birds that should be reported to the Vermont Bird Records Committee"
 category: birding
 tags: [birding, birds]
 date: 2022-01-27-21-23
