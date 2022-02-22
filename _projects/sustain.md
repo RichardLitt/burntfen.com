@@ -1,12 +1,12 @@
 ---
 layout: project
 title: "Sustain"
-ranking: 3
+ranking: 2
 picture: sustain.jpg
 picture-small: sustain-200.jpg
 status: ongoing
-stub: Podcast and Conference
-role: Cohost and Organizer
+stub: Tech Community
+role: Podcast Host and Organizer
 outbound: https://sustain.codefund.fm
 ---
 {% include JB/setup %}
