@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Bonnie Prince Charlie Trail"
-picture: bonnie-prince-charlie-trail.png
+picture: bpctrail.svg
 picture-small: bpctrail.svg
 status: Planning
 role: Adventurer
