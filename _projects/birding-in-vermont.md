@@ -7,7 +7,7 @@ status: Ongoing
 role: Creator
 stub: Community Birding Website
 ranking: 4
-outgoing: https://birdinginvermont.com
+outbound: https://birdinginvermont.com
 ---
 {% include JB/setup %}
 

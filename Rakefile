@@ -119,7 +119,7 @@ task :project do
     project.puts "role: "
     project.puts "stub: "
     project.puts "ranking: "
-    project.puts "outgoing: "
+    project.puts "outbound: "
     project.puts "---"
     project.puts "{% include JB/setup %}"
     project.puts ""
