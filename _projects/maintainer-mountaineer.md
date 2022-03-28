@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Maintainer Mountaineer"
-ranking: 1
+ranking: 2
 picture: maintainer.png
 picture-small: maintainer-200.png
 status: Ongoing
@@ -11,6 +11,6 @@ outbound: https://maintainer.io
 ---
 {% include JB/setup %}
 
-I run a company that helps people and organizations maintain their open source projects. As far as I know, it's one of the only examples of a company doing this.
+I run a consultancy that helps people, communities and organizations maintain, build, and grow their open source projects.
 
 I wrote about launching it, [on Medium](https://medium.com/@richlitt/oss-maintenance-as-a-service-helping-maintainers-maintain-their-code-f9717e4990ad).
