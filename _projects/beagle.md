@@ -4,7 +4,7 @@ title: "Beagle"
 ranking: 9
 picture: beagle.jpg
 picture-small: beagle-200.jpg
-status: hiatus
+status: 2014-2016
 stub: PDF Annotator & Chrome Extension
 role: Developer
 outbound: https://github.com/BeagleLab/beagle

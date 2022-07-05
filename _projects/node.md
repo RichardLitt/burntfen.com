@@ -4,7 +4,7 @@ title: "Node.js"
 ranking: 10
 picture: node.png
 picture-small: node-200.png
-status: ongoing
+status: 2015-2020
 stub: Node.js
 role: Member
 outbound: http://nodejs.org

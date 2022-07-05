@@ -4,7 +4,7 @@ title: "First Robin of Spring"
 ranking: 20
 picture: first-robin-of-spring.png
 picture-small: first-robin-of-spring-200.png
-status: ongoing
+status: 2014
 stub: Ornithology Appreciation
 role: Creator
 outbound: http://firstrobinofspring.tumblr.com/

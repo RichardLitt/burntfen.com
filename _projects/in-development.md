@@ -4,7 +4,7 @@ ranking: 8
 title: "In Development"
 picture: in-development.png
 picture-small: in-development-200.png
-status: ongoing
+status: 2015-2017
 stub: Incubator
 role: Volunteer
 outbound: http://indevelopment.ca

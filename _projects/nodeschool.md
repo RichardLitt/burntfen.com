@@ -4,7 +4,7 @@ title: "NodeSchool"
 ranking: 5
 picture: nodeschool.png
 picture-small: nodeschool-200.png
-status: ongoing
+status: 2013-2018
 stub: "Coding Schools"
 role: "Organizer"
 outbound: http://nodeschool.io
