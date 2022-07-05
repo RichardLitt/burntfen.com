@@ -10,9 +10,9 @@ tagline: My personal website, where I list all of my main projects and occasiona
     <div class="container">
       <div class="row col-sm-8 col-sm-offset-2 speak">
 
-        <p>Burnt Fen Creative is where Richard Littauer and his team exercise their creative muscles. From <a href="https://www.burntfen.com/projects/maintainer-mountaineer/">Maintainer Mountaineer</a> to <a href="https://www.burntfen.com/projects/the-user-is-drunk/">The User is Drunk</a>, from <a href="https://www.burntfen.com/projects/bushwhich/">Bushwhich</a> to <a href="https://www.burntfen.com/projects/wordhoard-press/">Word Hoard Press</a>, we focus on new ways to understand art and media, the internet and words, markets and businesses.</p>
+        <p>Richard Littauer. I do stuff like: holding space for open source communities; creating resources for birders; crafting languages for studios; writing essays on life. Here's some of that stuff, below.</p>
 
-        <p>Richard is available for talks, consulting, and collaboration.</p>
+        <p>Richard is available for consulting, collaboration, and conversations.</p>
 
         <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
           <span class="input input--madoka">
@@ -25,7 +25,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
               <span class="input__label-content input__label-content--madoka">Email</span>
           </label>
           </span>
-          <button class="btn btn-subscribe" type="submit" value="Subscribe">Start reading Richard's weekly newsletter</button>
+          <button class="btn btn-subscribe" type="submit" value="Subscribe">Get Richard's rare newsletter</button>
         </form>
 
         <div class='social-media'>
