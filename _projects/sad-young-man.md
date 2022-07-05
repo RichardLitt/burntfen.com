@@ -4,7 +4,7 @@ title: "Sad Young Man"
 ranking: 8
 picture: sad-young-man.png
 picture-small: sad-young-man-200.png
-status: ongoing
+status: Ongoing
 stub: "Poetry & Art"
 role: Poet
 outbound: http://sadyoungman.com

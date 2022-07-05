@@ -6,7 +6,7 @@ picture-small: carbon-zerow-200.jpg
 status: 2016-2017
 role: Support Crew
 stub: TransAtlantic Neutral Free Row
-ranking: 6
+ranking: 8
 outbound: https://carbonzerow.org
 ---
 {% include JB/setup %}

@@ -5,7 +5,7 @@ picture: birding-in-vermont.png
 picture-small: birding-in-vermont-200.png
 status: Ongoing
 role: Creator
-stub: Community Birding Website
+stub: Birder Website
 ranking: 4
 outbound: https://birdinginvermont.com
 ---

@@ -4,7 +4,7 @@ title: "The User Is Drunk"
 ranking: 6
 picture: the-user-is-drunk.png
 picture-small: the-user-is-drunk-200.png
-status: 2015-2019
+status: Ongoing
 stub: "UX Consultancy"
 role: Founder
 outbound: http://theuserisdrunk.com

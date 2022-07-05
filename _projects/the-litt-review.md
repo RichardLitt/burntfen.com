@@ -3,7 +3,7 @@ layout: project
 title: "The Litt Review"
 picture: the-litt-review.png
 picture-small: the-litt-review-200.png
-ranking: 4
+ranking: 5
 status: ongoing
 stub: Book Reviews
 role: Reviewer

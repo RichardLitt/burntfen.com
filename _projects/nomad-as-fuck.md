@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Nomad As Fuck"
-ranking: 5
+ranking: 6
 picture: nomadasfuck.png
 picture-small: nomadasfuck-200.png
 status: ongoing

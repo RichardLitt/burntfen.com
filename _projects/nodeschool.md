@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "NodeSchool"
-ranking: 5
+ranking: 7
 picture: nodeschool.png
 picture-small: nodeschool-200.png
 status: 2013-2018

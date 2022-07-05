@@ -6,7 +6,7 @@ picture-small: nocturnal-flight-calls-200.png
 status: Ongoing
 role: Dedicated Hobbyist
 stub: NFC and NocMig Research
-ranking: 5
+ranking: 6
 outgoing: https://birdinginvermont.com/nfc-species/
 ---
 {% include JB/setup %}

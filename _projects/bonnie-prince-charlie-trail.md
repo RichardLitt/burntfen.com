@@ -6,7 +6,7 @@ picture-small: bpctrail.svg
 status: 2022
 role: Adventurer
 stub: Tracing the Prince's flight
-ranking: 3
+ranking: 6
 outbound: https://bpctrail.co.uk
 ---
 {% include JB/setup %}

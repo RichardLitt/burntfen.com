@@ -4,8 +4,8 @@ title: "Open Source Collective"
 picture: open-source-collective.png
 picture-small: open-source-collective.png
 status: Ongoing
-role: Community Development Manager
-stub: Funding Open Source Software
+role: Community Gardener
+stub: Funding OSS
 ranking: 1
 outbound: https://www.oscollective.org/
 ---

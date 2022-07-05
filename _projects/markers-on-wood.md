@@ -3,7 +3,7 @@ layout: project
 title: "Markers on Wood"
 picture: markers-on-wood.png
 picture-small: markers-on-wood-200.png
-status: Ongoing
+status: 2018
 role: Artist
 stub: Artwork
 ranking: 8

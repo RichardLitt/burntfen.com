@@ -6,7 +6,7 @@ picture-small: ospo.svg
 status: Ongoing
 role: Organizer
 stub: Community
-ranking: 4
+ranking: 5
 outbound: "https://ospoplusplus.com"
 ---
 {% include JB/setup %}

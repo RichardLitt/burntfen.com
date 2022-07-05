@@ -6,7 +6,7 @@ picture-small: fossresponders-200.png
 status: 2020
 role: Organizer
 stub: Fund raising for FOSS during COVID-19
-ranking: 5
+ranking: 7
 outbound: https://fossresponders.com
 ---
 {% include JB/setup %}

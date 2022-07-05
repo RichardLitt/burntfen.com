@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Maintainer Mountaineer"
-ranking: 4
+ranking: 7
 picture: maintainer.png
 picture-small: maintainer-200.png
 status: 2017-2022

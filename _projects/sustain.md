@@ -5,7 +5,7 @@ ranking: 2
 picture: sustain.jpg
 picture-small: sustain-200.jpg
 status: ongoing
-stub: Tech Community
+stub: Community
 role: Podcast Host and Organizer
 outbound: https://sustain.codefund.fm
 ---

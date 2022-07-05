@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Meetups"
-ranking: 5
+ranking: 7
 picture: meetups.png
 picture-small: meetups-200.png
 status: Ongoing

@@ -4,7 +4,7 @@ title: "Turing School"
 ranking: 15
 picture: turing.png
 picture-small: turing-200.png
-status: 2015-ongoing
+status: 2015-2017
 stub: Software School
 role: Code Mentor
 outbound: https://www.turing.io/
