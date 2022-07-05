@@ -10,9 +10,9 @@ tagline: My personal website, where I list all of my main projects and occasiona
     <div class="container">
       <div class="row col-sm-8 col-sm-offset-2 speak">
 
-        <p>Richard Littauer. I do stuff like: holding space for open source communities; creating resources for birders; crafting languages for studios; writing essays on life. Here's some of that stuff, below.</p>
+        <p>Richard Littauer's site. I do stuff like: holding space for open source communities; creating resources for birders; crafting languages for studios; writing essays on life. Here's some of that stuff, below.</p>
 
-        <p>Richard is available for consulting, collaboration, and conversations.</p>
+        <p>Available for consulting, collaboration, and conversations.</p>
 
         <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
           <span class="input input--madoka">
