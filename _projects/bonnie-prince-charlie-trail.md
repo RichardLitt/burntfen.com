@@ -3,7 +3,7 @@ layout: project
 title: "Bonnie Prince Charlie Trail"
 picture: bpctrail.svg
 picture-small: bpctrail.svg
-status: Completed
+status: 2022
 role: Adventurer
 stub: Tracing the Prince's flight
 ranking: 3
