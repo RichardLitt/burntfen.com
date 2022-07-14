@@ -33,10 +33,10 @@ tagline: My personal website, where I list all of my main projects and occasiona
           <a href="https://twitter.com/richlitt" rel="me"><i class="fa fa-twitter"></i></a>
           <a href="https://medium.com/@richlitt"><i class="fa fa-medium"></i></a>
           <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram"></i></a>
-          <a href="https://dribbble.com/richlitt"><i class="fa fa-dribbble"></i></a>
-          <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr"></i></a>
-          <a href="http://www.last.fm/user/RichardFenn"><i class="fa fa-lastfm"></i></a>
-          <a href="https://angel.co/richlitt"><i class="fa fa-angellist"></i></a>
+          <!-- <a href="https://dribbble.com/richlitt"><i class="fa fa-dribbble"></i></a> -->
+          <!-- <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr"></i></a> -->
+          <!-- <a href="http://www.last.fm/user/RichardFenn"><i class="fa fa-lastfm"></i></a> -->
+          <!-- <a href="https://angel.co/richlitt"><i class="fa fa-angellist"></i></a> -->
         </div>
 
         <p><a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
