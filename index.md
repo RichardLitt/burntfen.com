@@ -10,9 +10,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
     <div class="container">
       <div class="row col-sm-8 col-sm-offset-2 speak">
 
-        <p>Richard Littauer's site. I do stuff like: holding space for open source communities; creating resources for birders; crafting languages for studios; writing essays on life. Here's some of that stuff, below.</p>
-
-        <p>Available for consulting, collaboration, and conversations.</p>
+        <p class="name">Richard Littauer.</p>
 
         <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
           <span class="input input--madoka">
@@ -25,22 +23,30 @@ tagline: My personal website, where I list all of my main projects and occasiona
               <span class="input__label-content input__label-content--madoka">Email</span>
           </label>
           </span>
-          <button class="btn btn-subscribe" type="submit" value="Subscribe">Get Richard's rare newsletter</button>
+          <button class="btn btn-subscribe" type="submit" value="Subscribe">Receive rare letters</button>
         </form>
+
+        <p>Blog:</p>
+
+        <div class="posts">
+          {% assign posts = site.posts | where: "public", true %}
+          {% for post in posts %}
+          <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}<span class="date">{{post.date | date: "%b %-m, '%y"}}</span></a></li>
+          {% endfor %}
+          <a class="more" href="/archive">More posts &rarr;</a>
+        </div>
 
         <div class='social-media'>
           <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github"></i></a>
           <a href="https://twitter.com/richlitt" rel="me"><i class="fa fa-twitter"></i></a>
           <a href="https://medium.com/@richlitt"><i class="fa fa-medium"></i></a>
           <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram"></i></a>
+          <a href="mailto:richard@burntfen.com"><i class="fa fa-envelope"></i></a>
           <!-- <a href="https://dribbble.com/richlitt"><i class="fa fa-dribbble"></i></a> -->
           <!-- <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr"></i></a> -->
           <!-- <a href="http://www.last.fm/user/RichardFenn"><i class="fa fa-lastfm"></i></a> -->
           <!-- <a href="https://angel.co/richlitt"><i class="fa fa-angellist"></i></a> -->
         </div>
-
-        <p><a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
-
       </div>
     </div>
   </div>

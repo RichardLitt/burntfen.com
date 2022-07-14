@@ -1,0 +1,42 @@
+I"�
+<blockquote>
+  <p>“Practice makes the master.” - Patrick Rothfuss, <em>The Name of the Wind</em></p>
+</blockquote>
+
+<p>Skills are hard work. They take a lot of effort, and they take a lot of time. If you really want to be good at something, you have to do it every day - otherwise, your skills begin to rust.</p>
+
+<p>I’ve tried a lot of task management systems. None of them were very good at repeated tasks - probably because no one wants to feel like Sisyphus every day, seeing tasks they just accomplished the night before in their to do list. I don’t like feeling like Sisyphus, either, but there are tasks I do want to do daily. I’ve found the way to stress less about them is to take them outside of my to do list, and to have them in a list of their own, somewhere that reminds me what I need to do.</p>
+
+<p>The best place for me is my window: I sit daily and look outside at Protrero Hill, and writing on the window makes sense. So, I got a glass pen and wrote the four things I try to do every day on it:</p>
+
+<ul>
+  <li>Code</li>
+  <li>Journal</li>
+  <li>Exercise</li>
+  <li>Meditate</li>
+</ul>
+
+<p>The issue is that I don’t <em>always</em> sit at my window. But I am always on my laptop. So, I decided to use an old friend of mine,  <a href="http://projects.tynsoe.org/en/geektool/">GeekTool</a>, to put the four items on my desktop. I made a node module that prints out whatever I haven’t done today into the terminal, and I mirror that on the desktop.</p>
+
+<p>In the process of building this small thing, I learned a lot. For instance, how to use the <code class="language-plaintext highlighter-rouge">bin</code> field in npm’s <code class="language-plaintext highlighter-rouge">package.json</code> file. Having an executable module without having to make an alias is amazing (You may recall I used aliases when I made <a href="github.com/RichardLitt/journall">journall</a>. I also learned about <a href="https://github.com/rvagg/node-levelup">levelup</a>, which is great - this was the first time I actually used a proper database for some small project, and I like it much more than my old .csv file methods.</p>
+
+<p>I also got it working with <a href="http://www.alfredapp.com/">Alfred</a>, which I’ve used 33,000 times in the past 18 months (I highly suggest it). I made a workflow that allows me to send arguments to my node module directly from Alfred, which took a lot more tinkering than I thought, mostly because Alfred doesn’t offer node as an option and I had to jerry rig bash to make it work.</p>
+
+<p>Here’s the bash file I’m using:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash 
+
+task="{query}"
+
+if [[ $task ]]
+then
+  /usr/local/bin/node /usr/local/lib/node_modules/practice/bin/index.js $task
+else
+  /usr/local/bin/node /usr/local/lib/node_modules/practice/bin/index.js
+fi
+</code></pre></div></div>
+
+<p>So far, the whole set up is working pretty well. I like having a clean desktop, so I work hard each day to do my four things, and then my desktop is clean again.</p>
+
+<p>And the best part is I am getting better at journaling, coding, meditating, and exercising. Here’s to the New Year, eh?</p>
+:ET

@@ -1,0 +1,17 @@
+I"�
+<p>I maintain and contribute to several awesome-* lists on GitHub. “Awesome” lists, started by <em><a href="https://github.com/sindresorhus">Sindre Sorhus</a></em>, are collaboratively built lists of things that are, well, awesome. They have helped change how the GitHub community curates its ecosystem, allowing for easier entry and recall of important links.</p>
+
+<p>On GitHub, users can ‘star’ repositories to show that they like them and to bookmark them for later use. The stars below are a good metric for user engagement with these lists.</p>
+
+<p>My lists:</p>
+
+<ul>
+  <li><a href="https://github.com/RichardLitt/awesome-conferences">awesome-conferences <img src="https://img.shields.io/github/stars/RichardLitt/awesome-conferences.svg" alt="GitHub stars" /></a> <em>Creator</em></li>
+  <li><a href="https://github.com/RichardLitt/awesome-styleguides">awesome-styleguides <img src="https://img.shields.io/github/stars/RichardLitt/awesome-styleguides.svg" alt="GitHub stars" /></a> <em>Creator</em></li>
+  <li><a href="https://github.com/RichardLitt/awesome-fantasy">awesome-fantasy <img src="https://img.shields.io/github/stars/RichardLitt/awesome-fantasy.svg" alt="GitHub stars" /></a> <em>Creator</em></li>
+  <li><a href="https://github.com/sindresorhus/awesome-scifi">awesome-scifi <img src="https://img.shields.io/github/stars/sindresorhus/awesome-scifi.svg" alt="GitHub stars" /></a> <em>Main maintainer: originally started by <a href="https://github.com/sindresorhus">@sindresorhus</a></em></li>
+  <li><a href="https://github.com/ipfs/awesome-ipfs">awesome-ipfs <img src="https://img.shields.io/github/stars/ipfs/awesome-ipfs.svg" alt="GitHub stars" /></a> <em>Creator: Maintained by <a href="https://github.com/ipfs">the IPFS team</a></em></li>
+</ul>
+
+<p>Two other lists fit the awesome criteria, but have their own pages: <a href="../git-flight-rules">git-flight-rules</a> and <a href="../endangered-languages">endangered-languages</a>.</p>
+:ET

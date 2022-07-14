@@ -2,7 +2,7 @@
 	From: https://github.com/codrops/TextInputEffects
 */
 
-$primaryColor: #fff;
+$primaryColor: green;
 $secondaryColor: #219FFF;
 
 .input {
@@ -87,7 +87,7 @@ $secondaryColor: #219FFF;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	color: $primaryColor;
+	color: white;
 	text-align: left;
 	cursor: text;
 }
@@ -141,9 +141,10 @@ form.tlemailform {
   border-left: 2px $primaryColor solid;
   border-right: 2px $primaryColor solid;
   border-radius: 0px;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 16px 15px;
   line-height: 20px;
+	font-size: 20px;
   &:hover, &:active, &:focus {
     color: $secondaryColor;
     border-color: $secondaryColor;

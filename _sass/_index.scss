@@ -45,15 +45,21 @@ $leftPadding: 15px;
 
 
   .posts, .newsletter {
+    // list-style: url('/assets/img/fern.svg');
     list-style: none;
     margin-bottom: 50px;
-    padding-left: $leftPadding;
+    // padding-left: $leftPadding;
     a {
       color: #FFF;
       font-weight: 400;
+      font-size: 20px;
       &.more {
         color: #888;
         font-weight: 600;
+      }
+      span.date {
+        color: #888;
+        padding-left: $leftPadding;
       }
       &:hover, &.more:hover {
         color: red;
@@ -76,7 +82,10 @@ $leftPadding: 15px;
         color:#fff
       }
       p {
-        font-size:25px;
+        &.name {
+          font-size: 30px;
+        }
+        font-size:26px;
         line-height:30px;
         padding-bottom:30px;
 

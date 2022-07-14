@@ -1,0 +1,25 @@
+I"/
+<h1 id="2014-december-25th">2014 December 25th</h1>
+
+<p>Trello isn’t working for me.</p>
+
+<p>I have an Agile board for my life, which I have been using regularly for around six months. I have these lists:</p>
+
+<ul>
+  <li><strong>Bwat</strong>. This is borrowed from Paul Farmer, who I read about in the amazing book <em>Mountains Beyond Mountains</em>. Basically, he would tick off a box (called <em>bwat</em> in Haitian Creole) whenever he did something. I like this idea, and it reminds me to try and do actually meaningful things (because all of Paul Farmer’s work is, and mine so often isn’t).</li>
+  <li><strong>Today</strong>. This is supposedly what I plan to do that day, but often it is instead simply a list of small tasks that I want to do. It is almost never a list of things I need to do that day, and it never approaches the scope of things I want to do. Instead, it is normally two or three hours worth of random things, after which I do the actual work after those are done. This isn’t efficient. I try and put an amount in that I can do in a day, but most days I forget. The worst part is that I end up with tons of little boxes saying ‘Read Hacker News’, or some other newsletter, which swiftly leads to fatigue as reading a lot of small articles becomes exhausting.</li>
+  <li><strong>Later</strong>. This is more often than not blocked items, or things I want to do tomorrow - right now, there are four of those: <em>code</em>, <em>exercise</em>, <em>journal</em>, and <em>inbox zero</em>. Since I do these daily, I constantly move them between Today and Later, and just create a new ticket each day for each after I complete them. I never look through my archived tickets, so this isn’t so wasteful as it seems.</li>
+  <li><strong>To Do</strong>. This is basically an in folder, where everything goes. And I mean everything that doesn’t go into…</li>
+  <li><strong>Code, Physical To Do, Reading, Writing, Ideas, Blog Lists, Deferred Shopping Lists</strong>, and <strong>Long Term</strong>. Anything that goes in these lists - with the possible exception of coding - is swiftly forgotten about.</li>
+</ul>
+
+<p>So, this isn’t great. And I think I need to change it up. I have a list of projects in my To Do folder (along with a ton of PDFs I will never, ever read). I update it every few months. What I ought to be doing is mixing this in with my Trello list. Instead of segmenting things into ‘do now’, ‘do at some point’, and the ‘do never but nice idea’ categories, I should have cards for each project, and then have lists inside them with actionable items. At the start of each day, I should decide what projects to work on that day (of course, overwhelmingly, this will be my main job, building <a href="https://github.com/BeagleLab/voyage">Beagle</a>). Then, I should decide what actionables for that day are possible, and move them out of the list using the ‘convert to card’ mechanism, and start taking them on.</p>
+
+<p>This loosely follows the <a href="http://hamberg.no/gtd/">Get Things Done</a> philosophy, which I like. Hopefully, it’ll cut down on admin and job bloat.</p>
+
+<p>Another thing I should start doing - well, that I have started doing since I started writing this post - is to organize my daily tasks better. I’ve just made a little node module called <a href="https://github.com/RichardLitt/practice">Practice</a>, which prints out the keys to an object if their values are false - that is, if I haven’t done a task yet, it lets me know. I’ve set  this up with GeekTool so that I can actually see the items on my desktop, where I’ll notice them. I hate having things on my desktop, so this will be pretty good motivation to do my daily tasks.</p>
+
+<p><img style="max-width:500px;padding: 30px 5px;" src="https://i.imgur.com/MlXIwqu.png" /></p>
+
+<p>So, here’s to shaking up my to do lists.</p>
+:ET

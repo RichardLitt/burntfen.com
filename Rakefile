@@ -65,6 +65,7 @@ task :post do
     post.puts "category: "
     post.puts "tags: []"
     post.puts "date: #{date_time}"
+    post.puts "public: true"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end

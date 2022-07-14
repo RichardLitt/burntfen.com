@@ -1,0 +1,10 @@
+I"m
+<blockquote>
+  <p>Most coders of automata go through this process: The Hopcroft is a bit longer to code up, so let’s just go with Brzozowski’s algorithm, the deterministic reverse deterministic reverse algorithm. In practice, that works well - until one fine morning when they go to minimise something, go get coffee, come back, and it’s still going on. That’s when they go with Hopcroft. It turns out that when you’re really doing serious work with finite state machines, then minimising frequently after a few steps in some machines is better.</p>
+</blockquote>
+
+<ul>
+  <li>Martin Kay (in class)</li>
+</ul>
+
+:ET

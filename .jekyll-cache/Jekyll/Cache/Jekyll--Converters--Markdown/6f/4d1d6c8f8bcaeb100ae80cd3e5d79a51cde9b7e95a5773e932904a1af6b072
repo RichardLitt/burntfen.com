@@ -1,0 +1,1383 @@
+I"��
+<div class="wrapper">
+  <div id="contact">
+    <div class="container">
+      <div class="row col-sm-8 col-sm-offset-2 speak">
+
+        <p class="name">Richard Littauer.</p>
+
+        <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+          <span class="input input--madoka">
+              <input type="hidden" value="1" name="embed" />
+              <input class="input__field input__field--madoka" name="email" type="text" id="tlemail" />
+              <label class="input__label input__label--madoka" for="tlemail">
+              <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+              <path d="m0,0l404,0l0,77l-404,0l0,-77z" />
+              </svg>
+              <span class="input__label-content input__label-content--madoka">Email</span>
+          </label>
+          </span>
+          <button class="btn btn-subscribe" type="submit" value="Subscribe">Receive rare letters</button>
+        </form>
+
+        <p>Blog:</p>
+
+        <div class="posts">
+          
+          
+          <li><a href="/2022-01-27/vbrc-checker">VBRC checker<span class="date">Jan 1, '22</span></a></li>
+          
+          <li><a href="/2020-04-21/approaching-an-open-source-ethic">Approaching an Open Source Ethic<span class="date">Apr 4, '20</span></a></li>
+          
+          <li><a href="/2019-02-21/revamping-the-old-blog">Revamping the old blog<span class="date">Feb 2, '19</span></a></li>
+          
+          <a class="more" href="/archive">More posts &rarr;</a>
+        </div>
+
+        <div class="social-media">
+          <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/richlitt" rel="me"><i class="fa fa-twitter"></i></a>
+          <a href="https://medium.com/@richlitt"><i class="fa fa-medium"></i></a>
+          <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram"></i></a>
+          <a href="mailto:richard@burntfen.com"><i class="fa fa-envelope"></i></a>
+          <!-- <a href="https://dribbble.com/richlitt"><i class="fa fa-dribbble"></i></a> -->
+          <!-- <a href="http://www.flickr.com/photos/101526362@N04/"><i class="fa fa-flickr"></i></a> -->
+          <!-- <a href="http://www.last.fm/user/RichardFenn"><i class="fa fa-lastfm"></i></a> -->
+          <!-- <a href="https://angel.co/richlitt"><i class="fa fa-angellist"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row col-md-12 projects">
+      
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/open-source-collective/">
+                <img src="assets/img/project/open-source-collective.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/open-source-collective/">
+              <h4>
+                Open Source Collective
+              </h4>
+              <p>Funding OSS<br />
+              Community Gardener <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/sustain/">
+                <img src="assets/img/project/sustain-200.jpg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/sustain/">
+              <h4>
+                Sustain
+              </h4>
+              <p>Community<br />
+              Podcast Host and Organizer <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/diginf/">
+                <img src="assets/img/project/diginf.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/diginf/">
+              <h4>
+                Digital Infrastructure Fund
+              </h4>
+              <p>Community<br />
+              Facilitator <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+          <div class="clearfix visible-sm-block"></div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/birding-in-vermont/">
+                <img src="assets/img/project/birding-in-vermont-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/birding-in-vermont/">
+              <h4>
+                Birding in Vermont
+              </h4>
+              <p>Birder Website<br />
+              Creator <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/ospo/">
+                <img src="assets/img/project/ospo.svg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/ospo/">
+              <h4>
+                OSPO++
+              </h4>
+              <p>Community<br />
+              Organizer <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/the-litt-review/">
+                <img src="assets/img/project/the-litt-review-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/the-litt-review/">
+              <h4>
+                The Litt Review
+              </h4>
+              <p>Book Reviews<br />
+              Reviewer <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/the-user-is-drunk/">
+                <img src="assets/img/project/the-user-is-drunk-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/the-user-is-drunk/">
+              <h4>
+                The User Is Drunk
+              </h4>
+              <p>UX Consultancy<br />
+              Founder <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/francis-bacon-and-eggs/">
+                <img src="assets/img/project/bacon-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/francis-bacon-and-eggs/">
+              <h4>
+                Francis Bacon and Eggs
+              </h4>
+              <p>Cooking show<br />
+              Creator <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/nocturnal-flight-calls/">
+                <img src="assets/img/project/nocturnal-flight-calls-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/nocturnal-flight-calls/">
+              <h4>
+                Nocturnal Flight Calls
+              </h4>
+              <p>NFC and NocMig Research<br />
+              Dedicated Hobbyist <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/bonnie-prince-charlie-trail/">
+                <img src="assets/img/project/bpctrail.svg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/bonnie-prince-charlie-trail/">
+              <h4>
+                Bonnie Prince Charlie Trail
+              </h4>
+              <p>Tracing the Prince's flight<br />
+              Adventurer <span class="status">2022</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/nomad-as-fuck/">
+                <img src="assets/img/project/nomadasfuck-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/nomad-as-fuck/">
+              <h4>
+                Nomad As Fuck
+              </h4>
+              <p>Interview website<br />
+              Creator <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/wordhoard-press/">
+                <img src="assets/img/project/wordhoardpress-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/wordhoard-press/">
+              <h4>
+                Wordhoard Press
+              </h4>
+              <p>Literary Journal<br />
+              Founder <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/meetups/">
+                <img src="assets/img/project/meetups-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/meetups/">
+              <h4>
+                Meetups
+              </h4>
+              <p>JavaScript and Science Meetups<br />
+              Speaker <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/maintainer-mountaineer/">
+                <img src="assets/img/project/maintainer-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/maintainer-mountaineer/">
+              <h4>
+                Maintainer Mountaineer
+              </h4>
+              <p>Start Up<br />
+              Founder <span class="status">2017-2022</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/bushwhich/">
+                <img src="assets/img/project/bushwhich-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/bushwhich/">
+              <h4>
+                Bushwhich
+              </h4>
+              <p>Choose-Your-Own-Adventure Game<br />
+              Creator <span class="status">2013</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/foss-responders/">
+                <img src="assets/img/project/fossresponders-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/foss-responders/">
+              <h4>
+                FOSS Responders
+              </h4>
+              <p>Fund raising for FOSS during COVID-19<br />
+              Organizer <span class="status">2020</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/nodeschool/">
+                <img src="assets/img/project/nodeschool-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/nodeschool/">
+              <h4>
+                NodeSchool
+              </h4>
+              <p>Coding Schools<br />
+              Organizer <span class="status">2013-2018</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/keep-it-public/">
+                <img src="assets/img/project/keep-it-public-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/keep-it-public/">
+              <h4>
+                Keep It Public
+              </h4>
+              <p>Charity<br />
+              Technical Advisor <span class="status">2015-2017</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/ipfs/">
+                <img src="assets/img/project/ipfs-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/ipfs/">
+              <h4>
+                IPFS
+              </h4>
+              <p>The Permanent Web<br />
+              Developer <span class="status">2015-2017</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/markers-on-wood/">
+                <img src="assets/img/project/markers-on-wood-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/markers-on-wood/">
+              <h4>
+                Markers on Wood
+              </h4>
+              <p>Artwork<br />
+              Artist <span class="status">2018</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/in-development/">
+                <img src="assets/img/project/in-development-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/in-development/">
+              <h4>
+                In Development
+              </h4>
+              <p>Incubator<br />
+              Volunteer <span class="status">2015-2017</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/sad-young-man/">
+                <img src="assets/img/project/sad-young-man-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/sad-young-man/">
+              <h4>
+                Sad Young Man
+              </h4>
+              <p>Poetry &amp; Art<br />
+              Poet <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/carbon-zerow/">
+                <img src="assets/img/project/carbon-zerow-200.jpg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/carbon-zerow/">
+              <h4>
+                Carbon Zerow
+              </h4>
+              <p>TransAtlantic Neutral Free Row<br />
+              Support Crew <span class="status">2016-2017</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/the-user-is-my-mom/">
+                <img src="assets/img/project/the-user-is-my-mom-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/the-user-is-my-mom/">
+              <h4>
+                The User Is My Mom
+              </h4>
+              <p>UX Consultancy<br />
+              Cofounder <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/beagle/">
+                <img src="assets/img/project/beagle-200.jpg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/beagle/">
+              <h4>
+                Beagle
+              </h4>
+              <p>PDF Annotator &amp; Chrome Extension<br />
+              Developer <span class="status">2014-2016</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/awesome/">
+                <img src="assets/img/project/awesome-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/awesome/">
+              <h4>
+                awesome-* lists
+              </h4>
+              <p>Collaborative databases<br />
+              Maintainer <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/endangered-languages/">
+                <img src="assets/img/project/endangered-languages-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/endangered-languages/">
+              <h4>
+                endangered-languages
+              </h4>
+              <p>Collaborative database<br />
+              Creator <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/node/">
+                <img src="assets/img/project/node-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/node/">
+              <h4>
+                Node.js
+              </h4>
+              <p>Node.js<br />
+              Member <span class="status">2015-2020</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/arcticjs/">
+                <img src="assets/img/project/arcticjs-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/arcticjs/">
+              <h4>
+                Arctic.js
+              </h4>
+              <p>JavaScript Conference in Svalbard<br />
+              Speaker <span class="status">2016</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/git-flight-rules/">
+                <img src="assets/img/project/git-flight-rules-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/git-flight-rules/">
+              <h4>
+                git-flight-rules
+              </h4>
+              <p>List<br />
+              Maintainer <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/linguists-outside-academia/">
+                <img src="assets/img/project/linguists-outside-academia-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/linguists-outside-academia/">
+              <h4>
+                Linguists Outside Academia
+              </h4>
+              <p>Email List<br />
+              Cofounder <span class="status">2012-2018</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/north-branch/">
+                <img src="assets/img/project/north-branch-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/north-branch/">
+              <h4>
+                North Branch Nature Center
+              </h4>
+              <p>Vermont Non-profit<br />
+              Board Member <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/os-protocol/">
+                <img src="assets/img/project/osprotocol-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/os-protocol/">
+              <h4>
+                OS Protocol
+              </h4>
+              <p>Metadata Protocol<br />
+              Creator <span class="status">2010-2021</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/hipcamp/">
+                <img src="assets/img/project/hipcamp-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/hipcamp/">
+              <h4>
+                Hipcamp
+              </h4>
+              <p>Startup<br />
+              Developer <span class="status">2014</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/antinomadic/">
+                <img src="assets/img/project/antinomadic-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/antinomadic/">
+              <h4>
+                Antinomadic
+              </h4>
+              <p>Writing journal<br />
+              Founder and writer <span class="status">2015-2017</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/access-land/">
+                <img src="assets/img/project/access-land-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/access-land/">
+              <h4>
+                accessland.org
+              </h4>
+              <p>Petition Site<br />
+              Developer <span class="status">2014</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/ideapod/">
+                <img src="assets/img/project/ideapod-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/ideapod/">
+              <h4>
+                Ideapod
+              </h4>
+              <p>Startup<br />
+              Developer <span class="status">2012-2014</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/turing/">
+                <img src="assets/img/project/turing-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/turing/">
+              <h4>
+                Turing School
+              </h4>
+              <p>Software School<br />
+              Code Mentor <span class="status">2015-2017</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/idea-otter/">
+                <img src="assets/img/project/ideaotter-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/idea-otter/">
+              <h4>
+                Idea Otter
+              </h4>
+              <p>Idea-Sharing Site<br />
+              Developer <span class="status">2011-2016</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/mellow-pages-library/">
+                <img src="assets/img/project/mellow-pages-library-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/mellow-pages-library/">
+              <h4>
+                Mellow Pages Library
+              </h4>
+              <p>Community Library<br />
+              Developer <span class="status">2013-2015</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/ulab/">
+                <img src="assets/img/project/ulab-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/ulab/">
+              <h4>
+                ULAB
+              </h4>
+              <p>Student Association<br />
+              Cofounder <span class="status">2010-2011</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/uklo/">
+                <img src="assets/img/project/uklo-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/uklo/">
+              <h4>
+                UKLO
+              </h4>
+              <p>UK Linguistics Olympiad<br />
+              Developer <span class="status">2011-2014</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/is-winds-of-winter-out-yet/">
+                <img src="assets/img/project/is-winds-of-winter-out-yet-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/is-winds-of-winter-out-yet/">
+              <h4>
+                Is Winds Of Winter Out Yet?
+              </h4>
+              <p>Novelty Website<br />
+              Creator <span class="status">2015-2020</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/lagb/">
+                <img src="assets/img/project/lagb-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/lagb/">
+              <h4>
+                LAGB Student Committee
+              </h4>
+              <p>Academic Society<br />
+              Committee Member <span class="status">2010-2012</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/publications/">
+                <img src="assets/img/project/publications-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/publications/">
+              <h4>
+                Publications
+              </h4>
+              <p>Academic Research<br />
+              Researcher <span class="status">2010-2015</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/redbubble/">
+                <img src="assets/img/project/redbubble-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/redbubble/">
+              <h4>
+                Text on Shirts
+              </h4>
+              <p>T-Shirts<br />
+              Designer <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/silent-book-club/">
+                <img src="assets/img/project/silent-book-club-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/silent-book-club/">
+              <h4>
+                Silent Book Club
+              </h4>
+              <p>Introvert Reading Club<br />
+              Host <span class="status">Spring 2018</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/soundcloud/">
+                <img src="assets/img/project/soundcloud-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/soundcloud/">
+              <h4>
+                Soundcloud
+              </h4>
+              <p>Poetry &amp; Music<br />
+              Creator <span class="status">2011-2014</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/first-robin-of-spring/">
+                <img src="assets/img/project/first-robin-of-spring-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/first-robin-of-spring/">
+              <h4>
+                First Robin of Spring
+              </h4>
+              <p>Ornithology Appreciation<br />
+              Creator <span class="status">2014</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/the-burnt-fen-maunderings/">
+                <img src="assets/img/project/the-burnt-fen-maunderings-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/the-burnt-fen-maunderings/">
+              <h4>
+                The Burnt Fen Maunderings
+              </h4>
+              <p>Webcomic<br />
+              Creator <span class="status">2008-2011</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/inyomancom/">
+                <img src="assets/img/project/inyomancom-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/inyomancom/">
+              <h4>
+                inyoman.com
+              </h4>
+              <p>Website<br />
+              Developer <span class="status">2015</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/octobuild/">
+                <img src="assets/img/project/octobuild-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/octobuild/">
+              <h4>
+                Octobuild
+              </h4>
+              <p>Seasonal Hackathon<br />
+              Cofounder <span class="status">2014-2016</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/of-walking-in-snow/">
+                <img src="assets/img/project/of-walking-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/of-walking-in-snow/">
+              <h4>
+                Of Walking in Snow
+              </h4>
+              <p>Documentary<br />
+              Film-maker <span class="status">Postponed</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/code-poems/">
+                <img src="assets/img/project/code-poems-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/code-poems/">
+              <h4>
+                Code Poems
+              </h4>
+              <p>Poetry Anthology<br />
+              Poet <span class="status">2012</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/wired-in/">
+                <img src="assets/img/project/wired-in-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/wired-in/">
+              <h4>
+                Wired In
+              </h4>
+              <p>Productivity Tool<br />
+              Developer <span class="status">2012-2013</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/learn-navi/">
+                <img src="assets/img/project/learn-navi-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/learn-navi/">
+              <h4>
+                Learn Na'vi
+              </h4>
+              <p>Conlang Community<br />
+              Lexicographer <span class="status">2009-2011</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/edinburgh-cafes/">
+                <img src="assets/img/project/edinburgh-cafes-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/edinburgh-cafes/">
+              <h4>
+                Edinburgh Cafes
+              </h4>
+              <p>Café Reviews<br />
+              Founder <span class="status">2010-2012</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/learn-valyrian/">
+                <img src="assets/img/project/learn-valyrian-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/learn-valyrian/">
+              <h4>
+                @LearnValyrian &amp; @AynRandAlThor
+              </h4>
+              <p>Novelty Twitter Accounts<br />
+              Joker <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/llarriesh/">
+                <img src="assets/img/project/llarriesh-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/llarriesh/">
+              <h4>
+                Llárriésh
+              </h4>
+              <p>Constructed Language<br />
+              Creator <span class="status">2010</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/dothraki/">
+                <img src="assets/img/project/dothraki-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/dothraki/">
+              <h4>
+                Learn Dothraki
+              </h4>
+              <p>Conlang Community<br />
+              Cofounder <span class="status">2011</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/marsalfornication/">
+                <img src="assets/img/project/marsalfornication-200.jpg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/marsalfornication/">
+              <h4>
+                Marsalfornication
+              </h4>
+              <p>Band<br />
+              Vocalist, Ukulele <span class="status">2012-2013</span></p>
+            </a>
+          </div>
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row press">
+    <h1 class="section-header">Past Clients</h1>
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/gilt.png" title="Gilt" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/github.png" title="GitHub" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/gizmodo.png" title="Gizmodo" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/haja.png" title="Haja Networks" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/hipcamp.jpg" title="Hipcamp" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/homeaway.png" title="Homeaway" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/hubspotlogo.png" title="Hubspot" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/mit.png" title="MIT Media Lab" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/nock.png" title="Nock" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/okgrow.png" title="Ok Grow!" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/protocol labs.png" title="Protocol Labs" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/rtd.png" title="Read The Docs" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/sears.png" title="Sears" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/shelter.png" title="Shelter" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/shutterstock.png" title="Shutterstock" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/storj.png" title="Storj" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/vwo.png" title="VWO" class="card-image" />
+        </div>
+      </div>
+      
+    
+      
+      <div class="col-xs-6 col-sm-3 col-md-2">
+        <div class="img-container">
+          <img src="assets/img/clients/zcash.png" title="The Zcash Foundation" class="card-image" />
+        </div>
+      </div>
+      
+    
+  </div>
+</div>
+
+<div class="container">
+  <div class="row press">
+    <h1 class="section-header">Press</h1>
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://gizmodo.com/i-paid-a-ux-expert-100-to-get-drunk-and-evaluate-gizmo-1693902126" title="I Paid a UX Expert $100 to Get Drunk and Evaluate Gizmodo's Design">
+              <img src="assets/img/press/gizmodo.jpg" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://motherboard.vice.com/read/for-75-a-real-life-mom-will-critique-your-website-designe" title="For $75, a Real-Life Mom Will Critique Your Website Design">
+              <img src="assets/img/press/vice.jpg" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://www.cnbc.com/id/102721245" title="This mom gets paid to review websites">
+              <img src="assets/img/press/cnbc.jpg" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://tech.co/heres-why-its-important-to-design-like-the-user-is-drunk-2015-03" title="Here’s Why It’s Important to Design Like the User is Drunk">
+              <img src="assets/img/press/techco.png" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://www.wired.com/2015/05/theuserismymom/" title="Scotty Allen’s Mom Will Judge Your Website">
+              <img src="assets/img/press/wired.jpg" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://www.fastcodesign.com/3044455/reviewing-ux-designs-while-drunk-makes-way-more-sense-than-you-think" title="Reviewing UX Designs While Drunk Makes Way More Sense Than You Think">
+              <img src="assets/img/press/fastco.jpg" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://nautil.us/issue/6/secret-codes/cracking-avatars-language-codes" title="Cracking Avatar's Language Codes">
+              <img src="assets/img/press/nautilus.png" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="http://thenextweb.com/dd/2015/05/19/guys-mom-will-review-website-75/" title="This mom will review your website for $75">
+              <img src="assets/img/press/the-next-web.png" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="https://silentbook.club" title="CBC Daybreak - Silent Book Club host interview">
+              <img src="assets/img/press/CBC_Radio-Canada_logo.png" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <div class="col-xs-6 col-sm-3 col-md-2">
+          <div class="img-container">
+            <a href="https://www.vox.com/the-goods/2018/10/5/17879072/ecommerce-ux-design-problems" title="It’s not your fault online shopping is confusing. It’s a design problem.">
+              <img src="assets/img/press/vox.png" class="card-image" />
+            </a>
+          </div>
+        </div>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+<footer>
+  <p>Send me a letter: <a href="mailto:richard@burntfen.com">richard@burntfen.com</a></p>
+  <p>Richard Littauer &copy; 2022.
+    <a href="https://github.com/RichardLitt/richardlitt.github.com">Website Code <i class="fa fa-github"></i></a>.
+  </p>
+</footer>
+:ET

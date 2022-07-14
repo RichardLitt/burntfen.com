@@ -5,6 +5,7 @@ description: "Starting this thing up again"
 category: "meta"
 tags: [meta]
 date: 2019-02-21-03-38
+public: true
 ---
 {% include JB/setup %}
 

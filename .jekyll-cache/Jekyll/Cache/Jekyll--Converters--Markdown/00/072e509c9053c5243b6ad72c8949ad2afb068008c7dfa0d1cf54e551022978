@@ -1,0 +1,45 @@
+I"6
+
+<p>I’ve been reading through some of the papers on <a href="http://www.stanford.edu/~mjkay/">Martin Kay’s website</a>, as he is teaching Basic Algorithms for Computational Linguistics here. He has a paper about <em>n</em>-grams and the upper limit, and ways of getting past it. In it, he talks about language models, and the current way of using <em>n</em>-grams to generate natural language. He ends with this:</p>
+
+<blockquote>
+  <p>But could it be that the standard statistic is not only difficult to
+use, but also not the best one for the job? A very different one,
+which may be easier to use is the probability of the substring, given
+the bag of words that make it up. In other words, it is the number of
+instances of the substring in the training data, divided by the number
+of sentences that contain all of the words in it.</p>
+</blockquote>
+
+<blockquote>
+  <p>Consider a string S that contains substrings s1,s2…sk, all of
+which are also substrings of the training corpus, that are maximal
+with respect to S. Might the figure of merit of the substrings f1,
+f2…fk, be assinging in such a way that the fom of S would be f1</p>
+  <ul>
+    <li>f2…+fk, or something comparably simple?</li>
+  </ul>
+</blockquote>
+
+<p>I think this is the right reasoning, but I also think it may not go far
+enough. One of the interesting things about the <em>n</em>-gram model is that
+it is generally used for words, but not necessarily for substrings that
+are composed of other substrings - as far as I am aware. If this is the
+case, then it might be possible to train an algorithm that would not
+only give the best fit strings from the bag of words, but also rank the
+substrings that are collated as being more probable together. You would
+need a massive amount of corpora for this to be the case, of course.</p>
+
+<p>But a way of getting around this block might be to use annotated
+substrings that have some sort of intelligent understand of the
+collocations within them, possible using semantic or syntactic
+annotation. If this were to be done, coreference and anaphoric
+resolution would be a bootstrapper to predicting the correct choice of
+substrings, and the current best-first model would be surpassed in favor
+of a more cohesive output. By taking the the substring with the
+probability of the words within coming from within the previous bag of
+words, and then checking this substring against the surrounding
+substrings <em>against the possibility of these collocations existing in
+the training data</em> (and possibly even the already given strings), it
+should be possible to have more probably generation.</p>
+:ET

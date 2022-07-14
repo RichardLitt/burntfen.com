@@ -5,6 +5,7 @@ description: "A tool to help people spot birds that should be reported to the Ve
 category: birding
 tags: [birding, birds]
 date: 2022-01-27-21-23
+public: true
 ---
 {% include JB/setup %}
 

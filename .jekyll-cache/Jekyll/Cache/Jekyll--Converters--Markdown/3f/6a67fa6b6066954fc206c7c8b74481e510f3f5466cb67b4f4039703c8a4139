@@ -1,0 +1,12 @@
+I"M
+<p>I sometimes have an issue choosing what GitHub issue to tackle next. Who doesn’t? Here’s my solution to fixing that problem.</p>
+
+<p>First, install <a href="https://github.com/stephencelis/ghi">ghi</a>. <code class="language-plaintext highlighter-rouge">ghi</code> is a command line client for GitHub issues. <code class="language-plaintext highlighter-rouge">brew install ghi</code> will do it. Try it out in your repo dir by running <code class="language-plaintext highlighter-rouge">ghi</code> - look, all of your open issues.</p>
+
+<p>Next, if you’re using OSX, the <code class="language-plaintext highlighter-rouge">sort</code> command is sadly defficient. It doesn’t allow <code class="language-plaintext highlighter-rouge">--random-sort</code> or <code class="language-plaintext highlighter-rouge">-R</code>, and I don’t know why. To fix this, install GNU coreutils: <code class="language-plaintext highlighter-rouge">brew install coreutils</code>. This will install Linux <code class="language-plaintext highlighter-rouge">sort</code>, with the prefix <code class="language-plaintext highlighter-rouge">g</code>. Now, to randomly choose an issue, just run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ghi | gsort -R | head -n 1
+</code></pre></div></div>
+
+<p>Fun times!</p>
+:ET

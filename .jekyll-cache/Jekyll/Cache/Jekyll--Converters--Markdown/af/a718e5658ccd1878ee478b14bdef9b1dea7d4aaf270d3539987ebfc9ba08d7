@@ -1,0 +1,55 @@
+I"
+<p>The past few days I’ve been massively hating on my old friend David Leon for introducing me to Harry Potter and the Methods of Rationality in the middle of a very stressful month. Now that I’ve read all 83 current chapters, I feel much more thankful to David for having done so - he also introduced me, incidentally, to Mark Knopfler, Gene Wolf, and The Rise and Rise of Michael Rimmer, so he can’t be all bad.</p>
+
+<p>Get to the point: I’m reading more and more of <a href="http://lesswrong.com">Less Wrong</a>. It’s a community blog devoted to refining the art of human rationality. If you didn’t know, I am horrified by my own ability to judge what to do correctly, and suspect that I actually turn away from my better judgement the majority of the time in case I have to change a course of action. In simpler terms, I am not only lazy, I am stupid, when it comes to mental processes. This is the sole reason I have not learned German while living in Germany, and it’s something this blog is supposed to help me work around, eventually (<em>now</em>, my brain is screaming.) So, I very much like Less Wrong, because it’s all about fixing those inner voices and <em>getting things done</em>. For instance, right now I should be writing an essay. That I’m writing this shows that I’m rationalising long term mental improvement over immediate necessity. This is a common excuse I use, and I’m looking forward to finding literature on the bias behind it. (<em>This</em>, right there, is why I am glad I was up until 5am setting this blog up and populating it enough to use. I hadn’t been approaching that thought directly - writing is a very powerful means, for me, of realising what I actually think.)</p>
+
+<p>Now, onto Jazzy bill. I was reading <a href="http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/">What do we mean by ‘Rationality’</a>, and ran across this:</p>
+
+<blockquote>
+  <p>Sometimes experimental psychologists uncover human reasoning that seems very strange - for example, someone rates the probability “Bill plays jazz” as less than the probability “Bill is an accountant who plays jazz”.  This seems like an odd judgment, since any particular jazz-playing accountant is obviously a jazz player.  But to what higher vantage point do we appeal in saying that the judgment is wrong?</p>
+</blockquote>
+
+<blockquote>
+  <p>Experimental psychologists use two gold standards: probability theory, and decision theory.  Since it is a universal law of probability theory that P(A) ≥ P(A &amp; B), the judgment P(“Bill plays jazz”) &lt; P(“Bill plays jazz” &amp; “Bill is accountant”) is labeled incorrect.</p>
+</blockquote>
+
+<blockquote>
+  <p>To keep it technical, you would say that this probability judgment is non-Bayesian.  Beliefs that conform to a coherent probability distribution, and decisions that maximize the probabilistic expectation of a coherent utility function, are called “Bayesian”.</p>
+</blockquote>
+
+<p>I think that there might be a simple explanation for people saying this,
+and it doesn’t have to do with probability or decision theory overmuch. It has to do with the semantic domain of the sentence, or the Grician implicature. I don’t know the actual words to use here, so I’m making them up as I go. That’s ok, this is a formulation blog, and this post is already too long.</p>
+
+<p>“Bill plays jazz” is pretty unambiguous, we can all agree. There’s an
+entity, <em>Bill</em>, such that he plays <em>jazz</em>. (If you want, you can imagine
+Clinton on his saxophone here - I am, and it’s rather amusing.)</p>
+
+<p>What <em>is</em> ambiguous is “Bill is an accountant who plays jazz.” Not
+because of the referent of <em>who</em>, but because of the inability for the
+written word to put the stress in the right place. Compare:</p>
+
+<ol>
+  <li><em>Bill</em> is an accountant who plays jazz.</li>
+  <li>Bill is an <em>accountant</em> who plays jazz.</li>
+  <li>Bill is an accountant, <em>who plays jazz.</em></li>
+</ol>
+
+<p>“who plays <em>jazz</em>” would also be acceptable in 3.</p>
+
+<p>Logically, rationally, if you were to formulate each of these down into
+a formula (as above) they would all come out as less probable than “Bill
+plays jazz.” However, given the different readings, the mind can
+construct worlds in which it is more plausible for 2 or 3 to occur
+than 0 (or 1, which is pretty unambiguous too.) I don’t mean creating
+a specific scenario where all accountants play jazz and Bill is normally
+associated with reggae-only assassins, not accountants. I mean, rather,
+that (bear with me) with the statement that Bill is an accountant, with a
+relative clause attached about jazz appended on, one is less likely to
+view the relative clause as implausible. I think that this might occur
+because the mind is more likely to accept a fictional world as truth
+when more information is supplied, and that the more information, the
+less people suspect that the other objects may in themselves be less
+plausible. I suspect there is some truth in this.</p>
+
+<p>I’d be interested in feedback on this one.</p>
+:ET

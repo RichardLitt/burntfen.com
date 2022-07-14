@@ -1,0 +1,30 @@
+I"p
+<p>Thoughts while reading: S. Keshava &amp; E. Pitler (2005). <em>A Simpler,
+Intuitive Approach to Morpheme Induction</em>. Proceedings of
+Morphochallenge 2005, pp. 28-32.</p>
+
+<ul>
+  <li>Goldsmith 2001 seems to be used often to sum up morphological
+induction - what’s the new must-read article for the past decade?</li>
+  <li>This paper was released around the same time as Morfessor 1.0. How do
+they compare?</li>
+  <li>This isn’t good for Arabic or semitic languages (Maltese). How does
+it compare to Poon et al, 2009, NAACL, <em>Unsupervised Morphological Segmentation with Log-Linear Models</em>?</li>
+  <li><strong>Paper idea</strong>: using orthographically cleaned data, could one use historical knowledge of a language, perhaps by using Bayesian analysis of similar languages to find cognates, to bootstrap better morphological induction? Pitfalls, possibilities?</li>
+  <li>“The forward and backward trees allow us to calculate conditional probabilities in O(1) time…” What does this mean exactly?</li>
+  <li>What influence do multiword expressions or complicated NPs have on morphological analysis? Does <em>The Mayor of Boston’s Hat</em> actually do anything?</li>
+  <li>I’m sorry, but I think that using the argument that “19+1 is not arbitrary, as x / x+y = .05” is not a valid argument. .05 is also arbitrary. If you want to go for non-arbitrary, use human-evaluated morpheme to lexeme percentages.</li>
+  <li>What exactly do the other 20%, after 80%~ Recall and precision, look like? Are there regularities to the exceptions? Perhaps etymological / PoS / orthographical? Throwing out the baby with the bathwater.</li>
+  <li>This paper was also run on Finnish. Morfessor was too. Going to have to read both.</li>
+  <li>What about differences between derivational and inflectional morphemes?</li>
+  <li>Good example: <em>widen</em> is <em>wid</em> + <em>en</em>, which is missed by the script. Ideally, one should be able to know that long vowels shortened when there is a following syllabic morpheme (have I written/read this aright?). That should be testable given statistical regularities in Germanic roots or Bayesian inference of likely source language, followed by likely age, followed by intelligent morpheme induction that would treat <em>widen</em> as both <em>wide</em> + <em>en</em> and <em>wid</em> + <em>en</em>.</li>
+  <li><em>passionflowers</em> is arguably on the cusp of being non-compositional. Morpheme induction for this is useful how, exactly?</li>
+  <li>Another Saffran quoting paper! <strong>I need to get that paper of mine out</strong>. <strong>Now</strong>.</li>
+  <li>Read Yang 2004 in response to Saffran 1996.</li>
+  <li>Regarding <em>Future Work</em>: What follow-ups have they had? Why didn’t they utilise Saffran &amp; Aslin earlier, if they knew about it? What sort of phonological information would help them? Why don’t they use collocations? How would batch learning actually change the program recognition (opaque)?</li>
+  <li>“While we do not claim that humans use our algorithm to segment words, we believe that further research along this line has potential to reveal insight into human language processing.” What sort of insight? What other algorithms would humans use? What about subconscious vs. conscious induction? What about linguistically-informed induction vs. first language acquisition? Isn’t it an error to lump all of these together?</li>
+  <li>Hafer and Weiss, 1974. <em>Word segmentation by Letter Successor Varities</em>. Information Storage and Retrieval, 10:371-385. - might be worth reading.</li>
+</ul>
+
+<p>As always, reader, if anything is interesting, don’t hesitate to get into contact.</p>
+:ET

@@ -1,0 +1,21 @@
+I"�
+<p>Yesterday I published my first two NPM packages. <a href="https://www.npmjs.org/package/natural-gutenberg">natural-gutenberg</a> is a collection of around 20 creative commons texts used in the NLTK python library, now available as node packages so that people using <a href="https://github.com/NaturalNode/natural">natural</a> can use them too. The second one, which is more interesting, is <a href="https://github.com/RichardLitt/journall-public">journall</a>.</p>
+
+<p>I take a lot of notes. I carry around four notebooks with me at all times, five if you count my laptop: one for my drawings (I used to have a webcomic for two years), one for long form writing, one for short form writing that is pocket size, and one that is the size of a passport that I plan to mail to an old friend of mine when I finally finish writing in it.</p>
+
+<p>You can imagine what my computer looks like. Tons of files, everywhere, scattered on the Desktop, in a folder called To Do, on Trello, in Documents, in a folder called Writings, and just randomly around. What I need is organization: a place I can quickly scribble things without thinking about where they end up. So, I made Journall, a small script that does that.</p>
+
+<p>Journall is a node script that uses an entries folder, and saves a file titled with the date - for instance, <code class="language-plaintext highlighter-rouge">2014.09.16.md</code>. It is a lot easier to save things in this format, as they are always alphabetized correctly. Journall won’t make a new file if today’s date is already taken. It also adds in a brief header.</p>
+
+<p>The best thing about it is that it opens the file automatically, in my favorite editor, after being run. The idea is that typing journall automatically constructs the file for you, so you don’t have to build one yourself, and so you always have a markdown file you can write anything in that is persistently saved so you don’t end up with hundreds of random files in a folder called ‘journal’.</p>
+
+<p>Natively, this package supports iA Writer, which is the best Markdown editor I’ve found for OS X. I highly suggest getting it - the full screen mode is absolutely beautiful, the focus mode is amazing, and distraction mode is double amazing. Basically, this program is the closest I have gotten to pretending I am on a typewriter while still having the power of techno-God at my fingertips.</p>
+
+<p>To make everything easier, I added this to my .bash_profile:</p>
+
+<p><code class="language-plaintext highlighter-rouge">alias journall='node /path/to/dir/journall/index.js'</code></p>
+
+<p>This means that every time I want to write something down, now, I just open the terminal (which is almost always open already, and I have a hotkey for it, cmd+ctrl+t), and type <code class="language-plaintext highlighter-rouge">journall</code>. And oi la! I am writing.</p>
+
+<p>Get journall <a href="https://www.npmjs.org/package/journall">here</a>.</p>
+:ET

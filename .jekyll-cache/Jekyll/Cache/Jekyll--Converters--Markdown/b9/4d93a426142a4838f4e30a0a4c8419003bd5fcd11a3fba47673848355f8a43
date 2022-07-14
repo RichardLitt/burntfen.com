@@ -1,0 +1,20 @@
+I"t
+<p><a href="http://code-poems.com/">Code Poems</a> was a project to print a small edition of books of code poetry. I submitted a couple of poems, and one of them got selected. Here is my entry:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Richard Littauer
+# This script should save lives.
+
+import soul
+
+for days in len(life):
+  print "happiness"
+
+'''
+The-Notebook:~ richard$ python import_soul.py
+Traceback (most recent call last):
+  File "import_soul.py", line 1, in &lt;module&gt;
+    import soul
+ImportError: No module named soul
+'''
+</code></pre></div></div>
+:ET

@@ -1,0 +1,81 @@
+I"�%
+<p>Over the weekend, I attended a workshop on <a href="http://www.martijnwieling.nl/workshop">Quantitative Linguistics and
+Dialectology</a> in Groningen, in
+Holland. This was my first time in Groningen - I had friends there from
+my Erasmus Mundus program in Language and Communication Technologies,
+and it was great to meet up with them and to stay with another friend of
+mine, Jelke, an honorary EMLCT member. The workshop was centred around topics relevant to Martijn Wieling PhD defense, which occured the day before. Several of the speakers were invited for this, and the workshop was supplementary to their appearance. This was certainly the case for Mark Liberman, of UPenn, LDC, and LanguageLog fame. His talk ended the workshop.</p>
+
+<p>Here are the notes I took (as good as they could be), along with the transcriptions of the question and answer session. I hope I didn’t annoy too many by typing loudly and too fast. There were most likely many transcription errors.</p>
+
+<h1 id="mark-liberman---automating-phonetic-measurements">Mark Liberman - Automating Phonetic Measurements</h1>
+<p><strong>Talk at the Quantitative Linguistics and Dialectology Workshop</strong></p>
+
+<p>Here’s a talk about automating phonetic segmentation and manipulation, and why we’re not using the tools available, and how that may change in the future.</p>
+
+<p><strong>For most well-defined phonetic detection, classification, and measurement tasks, judicious choice of acoustic features and application of modern machine-learning techniques will produce and automatated annotation system that works about as well as a human annotator.</strong> (This slide was referred to several times.)</p>
+
+<p>Two papers that aren’t really known by many linguists:</p>
+<ul>
+  <li>Saul Sternberg et al. 1978. The Latency and Duration of Rapid Movement Sequences: Comparisons of Speech and Typewriting.</li>
+  <li>Saul Sternberg et al. 1980. Motor Programs in Rapid Speech: Additional Evidence. In Cole, Ed., <em>Perception and Production</em></li>
+</ul>
+
+<p>Why did they use these? Motivations:</p>
+
+<ul>
+  <li>Accuracy, as human annotators aren’t the best.</li>
+  <li>Freedom from experiment bias.</li>
+  <li>Efficiency. (Praat did not exist.)</li>
+</ul>
+
+<p>Forward 32 years: <em>Journal of Phonetics</em>: 45 articles, 4 issues this year.<br />
+Use of automated measures? Either 0, or 1, papers.</p>
+
+<ul>
+  <li>Mooshammer et al, 2012, ‘Bridging…’: This is a good paper, and I suggest it.</li>
+  <li>Schuppler et al, 2012. Used some forced alignment, but eventually returned to Praat for detailed analysis.</li>
+</ul>
+
+<p>Why does this matter? Well, human judgement means wasted time and effort, slower research, problems with confirmation and experimenter bias. There’s also a lost opportunity for very-large scale research, especially on ‘Found data’. Also on large-scale laboratory speech collections. Well, is there an alternative?</p>
+
+<p>So, an example: VOT measurement for voiceless stops. The concept is to use forced alignment to find the approximate region for a measurement. And then use machine-learning methods to classify the region, and to detect relevant events and measure durations, frequencies, amplitudes, etc., as appropriate. This is work in progress by Neville Ryant at Penn, supported by an NSF grant.</p>
+
+<p>Architecture: at each identified stop region (as localised by forced alignment):</p>
+
+<ul>
+  <li>We create a time series of acoustic feature vectors, extracted every ms.</li>
+  <li>The decision function of a max-margin stop-burst detector is computed for ever frame.</li>
+  <li>The decision function of a max-margin stop-burst detector is computed for every frame following a burst.</li>
+  <li>If either the burst onset or voice onset detector fails to find a non-negative peak, VOT measurement fails for this region. Otherwise, it is recorded.</li>
+</ul>
+
+<p>We measured five acoustic features: locally-normalised total energy, low- and high- frequency energy, and spectral entropy and centroid. The details do not matter - what matters is that this is all standard machine-learning guff.</p>
+
+<p>So, we get good results from these, compared to human annotators. For instance, 1.5ms mean absolute difference between two human phonetician annotators, while 1.89ms between the algorithm and a human annotator.</p>
+
+<p>So, the statement (<em>in bold</em>) above fits.</p>
+
+<h2 id="questions">Questions:</h2>
+
+<p><strong>To what extent are you thinking about firing all of the human annotators?</strong> I mean, well, I don’t know, the way that it stands now, you certainly wouldn’t want to apply this sort of thing without a significant check. We need to do random spot checks of the rest of the data to make sure that nothing weird has happened, and similar kinds of problems.</p>
+
+<p><strong>I have such and such a corpora…</strong> (<em>missed</em>). There’s a version which is easy: Say, there’s a tape with a digital recording, and you know what the word list spoken was, and you want to associate the word list with the region of the tape where it is said, that’s easy. <strong>Also for two and half hours?</strong> Well, we’ve done two (<em>laughs in the room</em>). Just how crappy this was, forgive my wording, <em>can be shown by how we did it the application of it</em> in Swedish. I contacted all of my Swedish phonetician friends, and I came up empty with regards to sound rules or a Swedish pronouncing dictionary. They pointed to everyone else around in the circle; ‘mine was mislaid in the wash’, etc. We didn’t have anything. So, without knowing anything about Swedish, I made a guess for each letter of the English alphabet what English phoneme it was most like, not even using digraphs, and used models trained on the Supreme Court arguments, 2001, and we were able to properly align it. I think we can deal with your corpora.</p>
+
+<p><strong>I wonder how many class labels this can deal with</strong> Well, the more classes, the harder the problem. There’s no technical problem, it’s just that as the classes increase, the accuracy decreases. Of course, the same tends to be true for human annotators in most classes. We can talk about your problem. You know we’re … the claim is of course a bit overstated. But I think there’s no reason in principle that whatever task can’t be taken care of. Coming back to the previous question: what would be harder, is what the Nijmegen Schuppler et al paper used forced alignment for, which is not only getting words in the right place, but to figure out what configuration is used in each particular case, which isn’t fairly perfect, but should work well.</p>
+
+<p><strong>What about public approachability for this? Like a wiki?</strong> Well, we’ve already done that for the forced alignment. That’s open source, you can download it. There’s also a web-based trial. The languages for which we have models, we now have five or six languages, in addition to English: Portuguese, Vietnamese, Chinese… I forget. For these, you can upload audio and transcript, and after a while, you get emailed a link to a Praat file giving you the alignment. For certain, I would expect, we’re not there yet, but in the next few years for a number of standard phonetic measurements like VOT - we ought to be able to offer some analogous service, although I would hope that people could learn to do it themselves.</p>
+
+<p><strong>What about automating this… Often, when you look at the output, you see different patterns between human and computer errors.</strong> If the automated analysis is unbiased relative to the analysis of interest for you, you’ll still be better off. I’m less concerned about whether there are bizarre errors, which there might be - of course, human’s do this too, with finger slips and the like - I’m more concerned as to whether the mistakes there are are biased with respect to the object of interest.</p>
+
+<p><strong>Maybe I could ask about sociolinguistic variation. Some tasks that we regularly have: checking transcription quality and vowel quality.</strong> Let me take the second first. Starting in 2009, we are working with Bill Labov’s students, in particular with Kielen Melanini (sp?) We took a Bayesian approach to formant tracking, using a transcript, forced alignment with a sociolinguistic interview, we then select from a transcript the words containing the vowels you want to analyse, perhaps all of the vowels, and then, because you know the environment that you want to get, you know something about where you expect the formants to be. There’s a prior. Then you take LPC poles, for each set of poles in the appropriate frequency range, you do a joint optimization of the things you need, based on the bandwidth and so on, multiplied by the prior. That eliminates a large percentage of formatting errors. I can show you scatter plots, it’s been done for a few languages now. Keelin convinced Bill by doing this for the Atlas of North American English. He was able to say quite precise things about what conclusions you’d come to from using the machine generated numbers, versus the hand stuff. Bill and their students now do all of their measurements using this technique.</p>
+
+<p>Checking transcripts is a very interesting and difficult problem. One of the
+dirty little secrets of speech recognition is that confidence measurements are
+surprisingly poor. One of the major projects at Limsee is making error analysis
+of confidence better. It’s true that for transcripts you can find analyses that
+have been way off, but transcript errors are harder to find.</p>
+
+<p><em>Applause.</em></p>
+
+:ET

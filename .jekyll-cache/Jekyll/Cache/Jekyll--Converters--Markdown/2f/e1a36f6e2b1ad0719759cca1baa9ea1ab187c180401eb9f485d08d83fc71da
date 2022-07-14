@@ -1,0 +1,13 @@
+I"�
+<p>I really like <a href="http://cabinporn.com">cabin porn</a>.</p>
+
+<p>Like, a lot. It’s the only blog that I regularly look at, not counting a lot of comics. I find it relaxing.</p>
+
+<p>And I wanted a way of saving the cabins to my desktop, automatically, so I wouldn’t have to actually go to the website to see the cabins.</p>
+
+<p>So I decided to refresh my python-scrape and osascript-foo and just build one. A few hours into a Saturday night later, and I’ve got it. <a href="https://github.com/RichardLitt/cabin-porn">Here is the code.</a></p>
+
+<p>I would suggest setting up a cronjob to actually make it check every few hours and see if Cabin Porn has posted a new sexy picture, but I don’t actually bother. I’ll just change it when I get tired of the current one. I use 6 desktops, so I’ll keep the other five as random pictures from my trove of thousands (here’s <a href="https://imgur.com/a/L9Y1L">some</a>), but my default is now a cabin.</p>
+
+<p>Hooray!</p>
+:ET
