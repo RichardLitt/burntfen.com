@@ -48,3 +48,9 @@ These are preprints, so it is possible that a paper may not be on the web yet, b
 * Richard Littauer (2012). <a href="https://www.burntfen.com/publications/LittEvoB.pdf">Re-dating the Loss of Laryngeal Air Sacs in <em>Homo Sapiens</em></a>. In Scott-Phillips, T.C. and Tamariz, M. and Cartmill, E.A. and Hurford, J.R., eds., _The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)_, pages 486-487, Singapore. World Scientific. [bib](https://www.burntfen.com/publications/bib/LittEvob.bib)
 * Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). <a href="https://www.burntfen.com/publications/LittIDCC.pdf">Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices.</a> In 7th International Digital Curation Conference Proceedings, Bristol, 7-9 December, 2011. [bib](https://www.burntfen.com/publications/bib/LittIDCC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)   
 * Littauer, Richard (2012). <a href="https://www.burntfen.com/publications/LittEssex.docx">A Reanalysis of Anatomical Changes for Language</a>. In 6th Language at the University of Essex PG Conference Proceedings, Essex, 15-16 June, 2011. [bib](https://www.burntfen.com/publications/bib/LittEssex.bib) [slides](http://www.slideshare.net/RichLitt/a-reanalysis-of-anatomical-changes-for-language)  
+
+#### Posters
+
+_An incomplete list._
+
+* Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
