@@ -1,4 +1,4 @@
-I"Ëº
+I"Ô¿
 <div class="wrapper">
   <div id="contact">
     <div class="container">
@@ -24,6 +24,12 @@
 
         <div class="posts">
           
+          
+          <li><a href="/2022-01-27/vbrc-checker">VBRC checker<span class="date">Jan 1, '22</span></a></li>
+          
+          <li><a href="/2020-04-21/approaching-an-open-source-ethic">Approaching an Open Source Ethic<span class="date">Apr 4, '20</span></a></li>
+          
+          <li><a href="/2019-02-21/revamping-the-old-blog">Revamping the old blog<span class="date">Feb 2, '19</span></a></li>
           
           <a class="more" href="/archive">More posts &rarr;</a>
         </div>
@@ -84,6 +90,25 @@
         
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
+              <a href="/projects/mulefa-language/">
+                <img src="assets/img/project/mulefa-language-200.jpg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/mulefa-language/">
+              <h4>
+                Mulefa Language
+              </h4>
+              <p>TV Series<br />
+              Language Creator <span class="status">2022</span></p>
+            </a>
+          </div>
+        
+          <div class="clearfix visible-sm-block"></div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
               <a href="/projects/diginf/">
                 <img src="assets/img/project/diginf.png" class="card-image" />
               </a>
@@ -97,7 +122,7 @@
             </a>
           </div>
         
-          <div class="clearfix visible-sm-block"></div>
+          <div class="clearfix visible-md-block visible-lg-block"></div>
         
       
         
@@ -115,8 +140,6 @@
               Creator <span class="status">Ongoing</span></p>
             </a>
           </div>
-        
-          <div class="clearfix visible-md-block visible-lg-block"></div>
         
       
         
@@ -149,23 +172,6 @@
               </h4>
               <p>Book Reviews<br />
               Reviewer <span class="status">ongoing</span></p>
-            </a>
-          </div>
-        
-      
-        
-          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
-            <div class="img-container">
-              <a href="/projects/the-user-is-drunk/">
-                <img src="assets/img/project/the-user-is-drunk-200.png" class="card-image" />
-              </a>
-            </div>
-            <a class="project-title" href="/projects/the-user-is-drunk/">
-              <h4>
-                The User Is Drunk
-              </h4>
-              <p>UX Consultancy<br />
-              Founder <span class="status">Ongoing</span></p>
             </a>
           </div>
         
@@ -207,23 +213,6 @@
         
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
-              <a href="/projects/bonnie-prince-charlie-trail/">
-                <img src="assets/img/project/bpctrail.svg" class="card-image" />
-              </a>
-            </div>
-            <a class="project-title" href="/projects/bonnie-prince-charlie-trail/">
-              <h4>
-                Bonnie Prince Charlie Trail
-              </h4>
-              <p>Tracing the Prince's flight<br />
-              Adventurer <span class="status">2022</span></p>
-            </a>
-          </div>
-        
-      
-        
-          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
-            <div class="img-container">
               <a href="/projects/nomad-as-fuck/">
                 <img src="assets/img/project/nomadasfuck-200.png" class="card-image" />
               </a>
@@ -241,6 +230,42 @@
         
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
+              <a href="/projects/bonnie-prince-charlie-trail/">
+                <img src="assets/img/project/bpctrail.svg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/bonnie-prince-charlie-trail/">
+              <h4>
+                Bonnie Prince Charlie Trail
+              </h4>
+              <p>Tracing the Prince's flight<br />
+              Adventurer <span class="status">2022</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/the-user-is-drunk/">
+                <img src="assets/img/project/the-user-is-drunk-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/the-user-is-drunk/">
+              <h4>
+                The User Is Drunk
+              </h4>
+              <p>UX Consultancy<br />
+              Founder <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+          <div class="clearfix visible-md-block visible-lg-block"></div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
               <a href="/projects/wordhoard-press/">
                 <img src="assets/img/project/wordhoardpress-200.png" class="card-image" />
               </a>
@@ -251,25 +276,6 @@
               </h4>
               <p>Literary Journal<br />
               Founder <span class="status">ongoing</span></p>
-            </a>
-          </div>
-        
-          <div class="clearfix visible-md-block visible-lg-block"></div>
-        
-      
-        
-          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
-            <div class="img-container">
-              <a href="/projects/meetups/">
-                <img src="assets/img/project/meetups-200.png" class="card-image" />
-              </a>
-            </div>
-            <a class="project-title" href="/projects/meetups/">
-              <h4>
-                Meetups
-              </h4>
-              <p>JavaScript and Science Meetups<br />
-              Speaker <span class="status">Ongoing</span></p>
             </a>
           </div>
         
@@ -304,6 +310,23 @@
               </h4>
               <p>Choose-Your-Own-Adventure Game<br />
               Creator <span class="status">2013</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/meetups/">
+                <img src="assets/img/project/meetups-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/meetups/">
+              <h4>
+                Meetups
+              </h4>
+              <p>JavaScript and Science Meetups<br />
+              Speaker <span class="status">Ongoing</span></p>
             </a>
           </div>
         
@@ -362,33 +385,16 @@
         
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
-              <a href="/projects/ipfs/">
-                <img src="assets/img/project/ipfs-200.png" class="card-image" />
+              <a href="/projects/sad-young-man/">
+                <img src="assets/img/project/sad-young-man-200.png" class="card-image" />
               </a>
             </div>
-            <a class="project-title" href="/projects/ipfs/">
+            <a class="project-title" href="/projects/sad-young-man/">
               <h4>
-                IPFS
+                Sad Young Man
               </h4>
-              <p>The Permanent Web<br />
-              Developer <span class="status">2015-2017</span></p>
-            </a>
-          </div>
-        
-      
-        
-          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
-            <div class="img-container">
-              <a href="/projects/markers-on-wood/">
-                <img src="assets/img/project/markers-on-wood-200.png" class="card-image" />
-              </a>
-            </div>
-            <a class="project-title" href="/projects/markers-on-wood/">
-              <h4>
-                Markers on Wood
-              </h4>
-              <p>Artwork<br />
-              Artist <span class="status">2018</span></p>
+              <p>Poetry &amp; Art<br />
+              Poet <span class="status">Ongoing</span></p>
             </a>
           </div>
         
@@ -413,16 +419,16 @@
         
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
-              <a href="/projects/sad-young-man/">
-                <img src="assets/img/project/sad-young-man-200.png" class="card-image" />
+              <a href="/projects/ipfs/">
+                <img src="assets/img/project/ipfs-200.png" class="card-image" />
               </a>
             </div>
-            <a class="project-title" href="/projects/sad-young-man/">
+            <a class="project-title" href="/projects/ipfs/">
               <h4>
-                Sad Young Man
+                IPFS
               </h4>
-              <p>Poetry &amp; Art<br />
-              Poet <span class="status">Ongoing</span></p>
+              <p>The Permanent Web<br />
+              Developer <span class="status">2015-2017</span></p>
             </a>
           </div>
         
@@ -447,33 +453,16 @@
         
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
-              <a href="/projects/the-user-is-my-mom/">
-                <img src="assets/img/project/the-user-is-my-mom-200.png" class="card-image" />
+              <a href="/projects/markers-on-wood/">
+                <img src="assets/img/project/markers-on-wood-200.png" class="card-image" />
               </a>
             </div>
-            <a class="project-title" href="/projects/the-user-is-my-mom/">
+            <a class="project-title" href="/projects/markers-on-wood/">
               <h4>
-                The User Is My Mom
+                Markers on Wood
               </h4>
-              <p>UX Consultancy<br />
-              Cofounder <span class="status">Ongoing</span></p>
-            </a>
-          </div>
-        
-      
-        
-          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
-            <div class="img-container">
-              <a href="/projects/beagle/">
-                <img src="assets/img/project/beagle-200.jpg" class="card-image" />
-              </a>
-            </div>
-            <a class="project-title" href="/projects/beagle/">
-              <h4>
-                Beagle
-              </h4>
-              <p>PDF Annotator &amp; Chrome Extension<br />
-              Developer <span class="status">2014-2016</span></p>
+              <p>Artwork<br />
+              Artist <span class="status">2018</span></p>
             </a>
           </div>
         
@@ -508,6 +497,40 @@
               </h4>
               <p>Collaborative database<br />
               Creator <span class="status">ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/the-user-is-my-mom/">
+                <img src="assets/img/project/the-user-is-my-mom-200.png" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/the-user-is-my-mom/">
+              <h4>
+                The User Is My Mom
+              </h4>
+              <p>UX Consultancy<br />
+              Cofounder <span class="status">Ongoing</span></p>
+            </a>
+          </div>
+        
+      
+        
+          <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
+            <div class="img-container">
+              <a href="/projects/beagle/">
+                <img src="assets/img/project/beagle-200.jpg" class="card-image" />
+              </a>
+            </div>
+            <a class="project-title" href="/projects/beagle/">
+              <h4>
+                Beagle
+              </h4>
+              <p>PDF Annotator &amp; Chrome Extension<br />
+              Developer <span class="status">2014-2016</span></p>
             </a>
           </div>
         
