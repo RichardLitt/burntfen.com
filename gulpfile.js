@@ -117,4 +117,5 @@ gulp.task('img', function () {
 })
 
 gulp.task('images', gulp.series('img', 'project-img', 'press-img'))
+gulp.task('resize', gulp.series('project-img'))
 gulp.task('default', gulp.series('js', 'img', 'project-img', 'press-img'))
