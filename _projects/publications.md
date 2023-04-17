@@ -18,7 +18,7 @@ I have published several academic papers. Most of them can be found on [Google S
 
 These are preprints, so it is possible that a paper may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information, at once, if you're really keen.
 
-As well as the below, I occasionally review articles for journals, most notably for [JOSS](https://joss.theoj.org/) and [SIGUL](http://www.elra.info/en/sig/sigul/). 
+As well as the below, I occasionally review articles for journals, most notably for [JOSS](https://joss.theoj.org/), [SIGUL](http://www.elra.info/en/sig/sigul/), and [CCURL](http://sltu-ccurl-2020.ilc.cnr.it/).
 
 #### Journal Articles
 
