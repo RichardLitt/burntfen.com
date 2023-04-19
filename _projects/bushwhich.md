@@ -17,4 +17,4 @@ In total, the game has had over 2500 sessions and over 40k pageviews, which isn'
 
 #### Press
 
-- [Bushwhick Daily](http://bushwickdaily.com/2014/01/bushwick-newsy-round-up-post-holidays-edition/): Bushwick Newsy Round Up: Post-Holidays Edition
+- Bushwhick Daily 2014 January – Bushwick Newsy Round Up: Post-Holidays Edition (_link dead_)
