@@ -168,6 +168,9 @@ a {
   &:hover {
     color: red;
   }
+  &:focus {
+    outline: 0;
+  }
 }
 
 @media (max-width: 767px) {
