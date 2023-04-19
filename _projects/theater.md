@@ -31,4 +31,4 @@ I also acted in some small roles in high school, and in university at [Bedlam Th
 - _[Theater review: 'As You Like It,' Plainfield Little Theatre](https://www.sevendaysvt.com/vermont/theater-review-as-you-like-it-plainfield-little-theatre/Content?oid=29689871)_, Seven Days, February 19 2020
 - _As You Like It Spans Ages_, The Hardwick Gazette, February 19 2020
 
-This work is unrelated to [my IMBD profile](https://www.imdb.com/name/nm14473746/), which was made for my work with [the Mulefa Language](/mulefa-language) in _His Dark Materials_.  
+This work is unrelated to [my IMBD profile](https://www.imdb.com/name/nm14473746/), which was made for my work with [the Mulefa Language](/projects/mulefa-language) in _His Dark Materials_.  
