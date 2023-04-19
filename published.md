@@ -21,7 +21,7 @@ A list of my published creative work
 
 ### Satire
 
-* _[Bushwick Artist Cannot Attend Own Launch Event as he Mistakenly Scheduled Trip to Hamptons Simultaneously](http://burningbushwick.com/bushwick-artist-cannot-attend-own-launch-event-as-he-mistakenly-scheduled-trip-to-hamptons-simultaneously/)_. In Burning Bushwick. http://burningbushwick.com/
+* _[Bushwick Artist Cannot Attend Own Launch Event as he Mistakenly Scheduled Trip to Hamptons Simultaneously](https://web.archive.org/web/20160731233356/http://burningbushwick.com/bushwick-artist-cannot-attend-own-launch-event-as-he-mistakenly-scheduled-trip-to-hamptons-simultaneously/)_. In Burning Bushwick.
 
 ### Journalism
 

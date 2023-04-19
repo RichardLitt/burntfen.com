@@ -7,7 +7,7 @@ picture-small: endangered-languages-200.png
 status: ongoing
 stub: Collaborative database
 role: Creator
-outbound: http://github.com/RichardLitt/endangered-languages
+outbound: https://github.com/RichardLitt/endangered-languages
 ---
 {% include JB/setup %}
 

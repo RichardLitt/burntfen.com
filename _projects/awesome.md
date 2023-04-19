@@ -7,7 +7,7 @@ picture-small: awesome-200.png
 status: ongoing
 stub: Collaborative databases
 role: Maintainer
-outbound: http://github.com/RichardLitt/awesome-fantasy
+outbound: https://github.com/RichardLitt/awesome-fantasy
 ---
 {% include JB/setup %}
 

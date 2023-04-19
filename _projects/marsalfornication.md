@@ -7,7 +7,7 @@ picture-small: marsalfornication-200.jpg
 status: 2012-2013
 stub: Band
 role: Vocalist, Ukulele
-outbound: http://soundcloud.com/marsalfornication
+outbound: https://soundcloud.com/marsalfornication
 ---
 {% include JB/setup %}
 

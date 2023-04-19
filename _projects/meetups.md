@@ -7,7 +7,7 @@ picture-small: meetups-200.png
 status: Ongoing
 stub: JavaScript and Science Meetups
 role: Speaker
-outbound: http://paperswelove.org/
+outbound: https://paperswelove.org/
 ---
 {% include JB/setup %}
 

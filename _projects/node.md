@@ -7,7 +7,7 @@ picture-small: node-200.png
 status: 2015-2020
 stub: Node.js
 role: Member
-outbound: http://nodejs.org
+outbound: https://nodejs.org/en
 ---
 {% include JB/setup %}
 

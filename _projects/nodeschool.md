@@ -7,7 +7,7 @@ picture-small: nodeschool-200.png
 status: 2013-2018
 stub: "Coding Schools"
 role: "Organizer"
-outbound: http://nodeschool.io
+outbound: https://nodeschool.io
 ---
 {% include JB/setup %}
 

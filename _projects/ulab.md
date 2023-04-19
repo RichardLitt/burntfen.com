@@ -7,7 +7,7 @@ picture-small: ulab-200.png
 status: 2010-2011
 stub: Student Association
 role: Cofounder
-outbound: http://www.lingstudents.co.uk
+outbound: https://www.ulab.org.uk/
 ---
 {% include JB/setup %}
 

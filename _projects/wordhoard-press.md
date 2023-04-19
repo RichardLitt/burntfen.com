@@ -7,7 +7,7 @@ picture-small: wordhoardpress-200.png
 status: ongoing
 stub: Literary Journal
 role: Founder
-outbound: http://wordhoardpress.com
+outbound: https://wordhoardpress.com
 ---
 {% include JB/setup %}
 

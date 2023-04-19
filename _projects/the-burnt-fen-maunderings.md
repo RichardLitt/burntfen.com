@@ -17,4 +17,4 @@ One of the comics, dividing a park in Edinburgh into sections named after Mario 
 #### Press
 
 - [STV Edinburgh](http://edinburgh.stv.tv/articles/272112-mario-meadows-map-gives-edinburgh-park-nintendo-names/?fromstreampost=100166): The Mario Meadows map: still the best way to find your pals
-- [The Skinny](http://www.theskinny.co.uk/) _The map was reprinted in print-only edition._
+- [The Skinny](https://www.theskinny.co.uk/) _The map was reprinted in print-only edition._

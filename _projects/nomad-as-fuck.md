@@ -7,7 +7,7 @@ picture-small: nomadasfuck-200.png
 status: ongoing
 stub: "Interview website"
 role: "Creator"
-outbound: http://nomadasfuck.com
+outbound: https://nomadasfuck.com
 ---
 {% include JB/setup %}
 

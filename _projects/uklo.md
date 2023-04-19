@@ -7,7 +7,7 @@ picture-small: uklo-200.png
 status: 2011-2014
 stub: "UK Linguistics Olympiad"
 role: Developer
-outbound: http://uklo.org
+outbound: https://www.uklo.org
 ---
 {% include JB/setup %}
 
