@@ -3,16 +3,16 @@ layout: project
 title: "Digital Infrastructure Fund"
 picture: diginf.png
 picture-small: diginf.png
-status: Ongoing
+status: 2022-2023
 role: Facilitator
 stub: Community
-ranking: 3
+ranking: 4
 outbound: "https://digitalinfrastructure.fund/"
 ---
 {% include JB/setup %}
 
 Collaborators: [Open Source Collective](/projects/open-source-collective)
 
-I help facilitate a community of researchers and practitioners to better understand the problem of what is digital infrastructure, and to work together toward our common goal: a commons of technology, sustainably developed and maintained, for the benefit of everyone.
+I helped facilitate a community of researchers and practitioners working to better understand the problem of what is digital infrastructure, and how it underpins our world. The two million dollar fund was funded by the Ford Foundation, Sloan, Open Society, Mozilla, Open Collective, and Omidyar Network. I ended my tenure here by holding an event at the Ford Foundation building in New York City on May 11th, 2023. 
 
-I also host the [Digital Infrastructure Fund Podcast](https://dif.fireside.fm/).
+As part of this work, I also hosted the [Digital Infrastructure Fund Podcast](https://dif.fireside.fm/).
