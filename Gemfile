@@ -7,3 +7,4 @@ gem 'jekyll-feed'
 gem 'scout_apm'
 gem "kramdown-parser-gfm"
 gem "webrick", "~> 1.8"
+gem "html-proofer"
