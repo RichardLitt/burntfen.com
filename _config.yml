@@ -15,7 +15,7 @@ author :
   name : Richard Littauer
   email : richard@burntfen.com
   github : RichardLitt
-  twitter : RichLitt
+  #twitter : RichLitt
   #feedburner : feedname
 
 sass:
@@ -129,8 +129,8 @@ JB :
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
-  sharing :
-    provider : twitter
+  # sharing :
+  #  provider : twitter
 
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:

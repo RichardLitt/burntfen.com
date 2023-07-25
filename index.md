@@ -38,8 +38,6 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
         <div class='social-media'>
           <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github"></i></a>
-          <a href="https://twitter.com/richlitt" rel="me"><i class="fa fa-twitter"></i></a>
-          <a href="https://medium.com/@richlitt"><i class="fa fa-medium"></i></a>
           <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram"></i></a>
           <a href="mailto:richard@burntfen.com"><i class="fa fa-envelope"></i></a>
         </div>
