@@ -14,7 +14,7 @@ redirect_from:
 ---
 {% include JB/setup %}
 
-I have published several academic papers. Most of them can be found on [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Here is a complete list.
+Most of my academic publications can be found on [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Here is a complete list.
 
 These are preprints, so it is possible that a paper may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information, at once, if you're really keen.
 
@@ -56,3 +56,9 @@ As well as the below, I occasionally review articles for journals, most notably 
 _An incomplete list._
 
 * Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
+
+#### Contributions
+
+I have contributed to these publications, and am listed as a contributor:
+
+* National Academies of Sciences, Engineering, and Medicine. (2021). <a href="https://nap.nationalacademies.org/catalog/26308/developing-a-toolkit-for-fostering-open-science-practices-proceedings-of">Developing a toolkit for fostering open science practices: Proceedings of a workshop.</a>
