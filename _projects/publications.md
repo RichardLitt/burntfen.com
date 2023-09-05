@@ -57,8 +57,14 @@ _An incomplete list._
 
 * Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
 
-#### Contributions
+#### Book Contributions
 
 I have contributed to these publications, and am listed as a contributor:
 
 * National Academies of Sciences, Engineering, and Medicine. (2021). <a href="https://nap.nationalacademies.org/catalog/26308/developing-a-toolkit-for-fostering-open-science-practices-proceedings-of">Developing a toolkit for fostering open science practices: Proceedings of a workshop.</a>
+
+#### Other contributions
+
+I also frequently facilitate discussions. Some of those are listed here:
+
+* Moderator of a Panel on the role of Open Source in Open Science, June 27-29, 2023 at 2023 ACM Conference on Reproducibility and Replicability.
