@@ -67,4 +67,5 @@ I have contributed to these publications, and am listed as a contributor:
 
 I also frequently facilitate discussions. Some of those are listed here:
 
-* Moderator of a Panel on the role of Open Source in Open Science, June 27-29, 2023 at 2023 ACM Conference on Reproducibility and Replicability.
+* Moderator of a Panel on the role of Open Source in Open Science, June 27-29, 2023 at the <a href="https://acm-rep.github.io/2023/">2023 ACM Conference on Reproducibility and Replicability</a>.
+
