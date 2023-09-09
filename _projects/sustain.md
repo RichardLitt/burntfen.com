@@ -4,7 +4,7 @@ title: "Sustain"
 ranking: 2
 picture: sustain.jpg
 picture-small: sustain-200.jpg
-status: ongoing
+status: Ongoing
 stub: Community
 role: Organizer and Podcast Host
 outbound: https://sustainoss.org

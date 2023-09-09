@@ -4,7 +4,7 @@ title: "Wordhoard Press"
 ranking: 6
 picture: wordhoardpress.png
 picture-small: wordhoardpress-200.png
-status: ongoing
+status: Ongoing
 stub: Literary Journal
 role: Founder
 outbound: https://wordhoardpress.com

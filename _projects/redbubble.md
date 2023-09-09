@@ -4,7 +4,7 @@ title: "Text on Shirts"
 ranking: 20
 picture: redbubble.png
 picture-small: redbubble-200.png
-status: ongoing
+status: Ongoing
 stub: T-Shirts
 role: Designer
 outbound: http://www.redbubble.com/people/richardlitt

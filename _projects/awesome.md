@@ -4,7 +4,7 @@ title: "awesome-* lists"
 ranking: 9
 picture: awesome.png
 picture-small: awesome-200.png
-status: ongoing
+status: Ongoing
 stub: Collaborative databases
 role: Maintainer
 outbound: https://github.com/RichardLitt/awesome-fantasy

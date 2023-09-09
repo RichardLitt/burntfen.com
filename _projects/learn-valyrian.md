@@ -4,7 +4,7 @@ title: "@LearnValyrian & @AynRandAlThor"
 ranking: 24
 picture: learn-valyrian.png
 picture-small: learn-valyrian-200.png
-status: ongoing
+status: Ongoing
 stub: Novelty Twitter Accounts
 role: Joker
 outbound: https://twitter.com/learnvalyrian

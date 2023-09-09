@@ -4,7 +4,7 @@ title: "git-flight-rules"
 ranking: 10
 picture: git-flight-rules.png
 picture-small: git-flight-rules-200.png
-status: ongoing
+status: Ongoing
 stub: List
 role: Maintainer
 outbound: https://github.com/k88hudson/git-flight-rules

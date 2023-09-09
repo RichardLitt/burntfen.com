@@ -3,7 +3,7 @@ layout: project
 title: "Mountains"
 picture: mountains.jpg
 picture-small: mountains-200.jpg
-status: Active
+status: Ongoing
 role: Hiker
 stub: mountains
 ranking: 4
