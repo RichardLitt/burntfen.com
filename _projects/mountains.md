@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "Mountains"
-picture: mountains.png
-picture-small: mountains-200.png
+picture: mountains.jpg
+picture-small: mountains-200.jpg
 status: Active
 role: Hiker
 stub: mountains
