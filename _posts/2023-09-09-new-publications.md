@@ -9,7 +9,7 @@ public: true
 ---
 {% include JB/setup %}
 
-I have added a few items to my publications list recently, and I wanted to add them here, too. None of them are peer-reviewed publications, but I thought each merited note there as they represent current work.
+I have added a few items to my [publications list](https://www.burntfen.com/projects/publications/) recently, and I wanted to add them here, too. None of them are peer-reviewed publications, but I thought each merited note there as they represent current work.
 
 ### Book Contributions
 
