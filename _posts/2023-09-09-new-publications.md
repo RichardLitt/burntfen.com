@@ -11,7 +11,7 @@ public: true
 
 I have added a few items to my publications list recently, and I wanted to add them here, too. None of them are peer-reviewed publications, but I thought each merited note there as they represent current work.
 
-#### Book Contributions
+### Book Contributions
 
 I have contributed to these publications, and am listed as a contributor:
 
@@ -19,7 +19,7 @@ I have contributed to these publications, and am listed as a contributor:
 
 The [NAS](https://en.wikipedia.org/wiki/National_Academies_of_Sciences,_Engineering,_and_Medicine) is a congressionally chartered organization that serves as the collective scientific national academy of the United States, according to Wikipedia. I am thrilled that I was able to collaborate on one of their publications, as it may have an influence on future policy regarding open source software.
 
-#### Facilitation
+### Facilitation
 
 Recently, I also facilitated a panel at an ACM conference on open source.
 
