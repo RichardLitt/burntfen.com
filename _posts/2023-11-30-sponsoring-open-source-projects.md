@@ -18,3 +18,5 @@ Yesterday, I had the same thing happened. I was using [osx-learn](https://github
 So I did. I'm out $8, but I feel better about myself, and I feel like I've contributed back a bit more. I don't do this every day, but it's one way of giving back to maintainers while also practicing gratefulness, a gift that really gives back to the person who gives it (this is not news). 
 
 Who would you buy coffee for, today?
+
+*P.S. I've since pointed to this blog on fossfunders.com.  My company, Burnt Fen Creative LLC, has a simple strategy for supporting open source: support maintainers who go out of their way to be nice by donating back to them when you can, what you can. At worst, this is too little and ad hoc; at best, this is more than most.*
