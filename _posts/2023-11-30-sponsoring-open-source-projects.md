@@ -19,4 +19,4 @@ So I did. I'm out $8, but I feel better about myself, and I feel like I've contr
 
 Who would you buy coffee for, today?
 
-*P.S. I've since pointed to this blog on fossfunders.com.  My company, Burnt Fen Creative LLC, has a simple strategy for supporting open source: support maintainers who go out of their way to be nice by donating back to them when you can, what you can. At worst, this is too little and ad hoc; at best, this is more than most.*
+*P.S. I've since pointed to this blog on fossfunders.com.  My company, Burnt Fen Creative LLC (and its subprojects, like Maintainer Mountaineer) has a simple strategy for supporting open source: support maintainers who go out of their way to be nice by donating back to them when you can, what you can. At worst, this is too little and ad hoc; at best, this is more than most.*
