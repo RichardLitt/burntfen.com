@@ -12,7 +12,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
         <p class="name">Richard Littauer.</p>
 
-        <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+<!--         <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
           <span class="input input--madoka">
               <input type="hidden" value="1" name="embed" />
               <input class="input__field input__field--madoka" name="email" type="text" id="tlemail" />
@@ -24,9 +24,9 @@ tagline: My personal website, where I list all of my main projects and occasiona
           </label>
           </span>
           <button class="btn btn-subscribe" type="submit" value="Subscribe">Receive rare letters</button>
-        </form>
+        </form> -->
 
-        <p>Blog:</p>
+        <!-- <p>Blog:</p> -->
 
         <div class="posts">
           {% assign posts = site.posts | where: "public", true %}
