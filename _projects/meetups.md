@@ -22,7 +22,8 @@ I regularly speak at meetups and conferences about code and open source. The ima
   - JSMontreal, Montreal, April 11, 2017. Also about Standard Readme.
   - SeaGL, Seattle, November 6, 2021. Title: Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software.
   - SeaGL, Seattle, November 4, 2023. Title: [Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution ](https://osem.seagl.org/conferences/seagl2022/program/proposals/915) [Recording](https://osem.seagl.org/conferences/seagl2022/program/proposals/915)
-  - Interdisciplinary Open Practices Workshop, Burlington, VT, October 28, 2023. Keynote: A rose by any other $variable. 
+  - Interdisciplinary Open Practices Workshop, Burlington, VT, October 28, 2023. Keynote: A rose by any other $variable.
   - SeaGL, Seattle, November 3, 2023. Title: [Using FLOSS to plan your daily exercise by birding!](https://osem.seagl.org/conferences/seagl2023/program/proposals/1003) [Recording](https://www.youtube.com/live/9-mCsIonljc?si=v1UPT6wME9ahbq1X&t=4868)
+  - Evergreen Annual Conference, Remote, April 23, 2024. Keynote: What is sustainable open source.
 
 I also have given dozens of academic talks about linguistics: for a list of publications, go [here](/projects/publications/).
