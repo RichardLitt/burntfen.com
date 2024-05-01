@@ -30,10 +30,10 @@ tagline: My personal website, where I list all of my main projects and occasiona
 
         <div class="posts">
           {% assign posts = site.posts | where: "public", true %}
-          {% for post in posts %}
+          {% for post in posts limit:5 %}
           <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}<span class="date">{{post.date | date: "%b %-m, '%y"}}</span></a></li>
           {% endfor %}
-          <a class="more" href="/archive">More posts &rarr;</a>
+          <a class="more" href="/blog">More posts &rarr;</a>
         </div>
 
         <div class='social-media'>

@@ -2,7 +2,7 @@
 layout: post
 title: "French toast recipe"
 description: “From my morning”
-category: 
+category:
 tags: [food]
 date: 2023-11-29-17-41
 public: false
