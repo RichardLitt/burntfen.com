@@ -1,10 +1,10 @@
 ---
 layout: project
 title: "Publications"
-ranking: 20
+ranking: 5
 picture: publications.png
 picture-small: publications-200.png
-status: 2010-2015
+status: Ongoing
 stub: "Academic Research"
 role: Researcher
 outbound: "http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ"
@@ -19,6 +19,11 @@ Most of my academic publications can be found on [Google Scholar](http://scholar
 These are preprints, so it is possible that a paper may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information, at once, if you're really keen.
 
 As well as the below, I occasionally review articles for journals, most notably for [JOSS](https://joss.theoj.org/), [SIGUL](http://www.elra.info/en/sig/sigul/), and [CCURL](http://sltu-ccurl-2020.ilc.cnr.it/).
+
+#### In Review
+
+* Meluso, J., Chambers, C., Littauer, R., Llamas N., Long Lingo, E., Mhangami, M., Pitt, B., Splitter, V., and Wang, H. Opening up: Interdisciplinary guidance for managing open ecosystems (May 8, 2024). In Review at Nature Human Behaviour. Preprint available at SSRN: https://ssrn.com/abstract=4821969
+* Littauer, R. The Sooty Shearwater as Melville's Inscrutable Haglet. In Review at [Leviathan](https://www.melvillesociety.org/leviathan).
 
 #### Journal Articles
 
