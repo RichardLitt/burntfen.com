@@ -6,3 +6,4 @@ _site
 serve/*
 .sass-cache
 node_modules
+.obsidian
