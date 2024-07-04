@@ -1,7 +1,7 @@
 ---
 layout: post
-title: South Atlantic Seamount Hotspots on eBird
-description: Where I talk about eBird reviewing in St. Helena, Ascension, and Tristan da Cunha
+title: "South Atlantic Seamount Hotspots on eBird"
+description: "Where I talk about eBird reviewing in St. Helena, Ascension, and Tristan da Cunha"
 category:
 tags: ["birds", "birding", "ebird"]
 date: 2024-07-05-08-01
