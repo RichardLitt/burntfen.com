@@ -3,15 +3,15 @@ layout: project
 title: "Theatre"
 picture: theatre.jpg
 picture-small: theatre-200.jpg
-status: Ongoing
+status: 2018-2020
 role: Actor
 stub: Community Theatre
 ranking: 8
-outbound: 
+outbound:
 ---
 {% include JB/setup %}
 
-I am an occasional actor in local theatre in Vermont. I moved to Vermont in the fall of 2018, and the first week here I auditioned for a role in the Plainfield Little Theater in Shakespeare's _Merchant of Venice_. My lease was until the end of January, and the play was in February, so I extended my lease a month. After the performances, I auditioned and got a role in _Macbeth_, and extended my lease a few more months. And then _Cherry Orchard_. And I haven't left the state yet.
+I was an occasional actor in local theatre in Vermont. I moved to Vermont in the fall of 2018, and the first week there I auditioned for a role in the Plainfield Little Theater in Shakespeare's _Merchant of Venice_. My lease was until the end of January, and the play was in February, so I extended my lease a month. After the performances, I auditioned and got a role in _Macbeth_, and extended my lease a few more months. And then _Cherry Orchard_. And I didn't leave the state for six years.
 
 I also acted in some small roles in high school, and in university at [Bedlam Theatre](https://en.wikipedia.org/wiki/Bedlam_Theatre), including during the [Edinburgh Fringe](https://en.wikipedia.org/wiki/Edinburgh_Festival_Fringe), although in both places I did significantly more as part of the tech crew, particularly as an audio engineer, before I realized the extent of my congenital hearing loss.
 
@@ -31,4 +31,4 @@ I also acted in some small roles in high school, and in university at [Bedlam Th
 - _[Theater review: 'As You Like It,' Plainfield Little Theatre](https://www.sevendaysvt.com/vermont/theater-review-as-you-like-it-plainfield-little-theatre/Content?oid=29689871)_, Seven Days, February 19 2020
 - _As You Like It Spans Ages_, The Hardwick Gazette, February 19 2020
 
-This work is unrelated to [my IMBD profile](https://www.imdb.com/name/nm14473746/), which was made for my work with [the Mulefa Language](/projects/mulefa-language) in _His Dark Materials_.  
+This work is unrelated to [my IMBD profile](https://www.imdb.com/name/nm14473746/), which was made for my work with [the Mulefa Language](/projects/mulefa-language) in _His Dark Materials_.

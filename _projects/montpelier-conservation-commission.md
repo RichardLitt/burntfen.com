@@ -3,7 +3,7 @@ layout: project
 title: "Montpelier Conservation Commission Conservation Fund Advisory Board"
 picture: mcccfab.png
 picture-small: mcccfab-200.png
-status: Ongoing
+status: 2022-2024
 role: Board member
 stub: Civic conservation
 ranking: 8
