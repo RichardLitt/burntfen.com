@@ -6,7 +6,7 @@ picture-small: citizen-science-200.png
 status: Ongoing
 role: Contributor
 stub: "Citizen Science"
-ranking: 4
+ranking: 3
 outbound: https://ebird.org/profile/Mjg0MTUx/world
 ---
 {% include JB/setup %}

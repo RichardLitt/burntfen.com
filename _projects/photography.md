@@ -6,7 +6,7 @@ picture-small: photography-cedw-200.png
 status: Ongoing
 role: Photographer
 stub: 
-ranking: 3
+ranking: 5
 outbound: https://burntfencreativellc.pixieset.com
 ---
 {% include JB/setup %}
