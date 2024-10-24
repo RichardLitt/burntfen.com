@@ -33,12 +33,20 @@ $leftPadding: 15px;
 
   .social-media {
     margin: 3% 0;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 10%;
     a {
       padding: 0 20px 0 0;
       color: #FFF;
       font-size: 26px;
+
       &:hover, &:visited {
         text-decoration: none;
+        color:white;
+      }
+      &:hover {
+        color: red;
       }
     }
   }

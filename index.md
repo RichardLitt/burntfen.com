@@ -26,11 +26,13 @@ tagline: My personal website, where I list all of my main projects and occasiona
           <button class="btn btn-subscribe" type="submit" value="Subscribe">Receive rare letters</button>
         </form> -->
         <p>PhD Student.<br />
+        Open sourceror.<br />
         Executive Director.<br />
-        OSS Community Organizer.<br />
-        Linguist. Classicist. Conlanger.</p>
+        Community Organizer.<br />
+        Conlanger.</p>
 
         <div class="posts">
+          <a class="more" href="/blog">Recent blog posts</a>
           {% assign posts = site.posts | where: "public", true %}
           {% for post in posts limit:5 %}
           <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}<span class="date">{{post.date | date: "%b %-m, '%y"}}</span></a></li>
@@ -39,7 +41,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
         </div>
 
         <div class='social-media'>
-          <a href="mailto:richard@burntfen.com"><i class="fa fa-envelope"></i></a>
+          <a href="./2023-05-30/socials">Reach me.</a>
         </div>
       </div>
     </div>
