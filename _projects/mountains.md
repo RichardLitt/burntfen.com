@@ -6,7 +6,7 @@ picture-small: mountains-200.jpg
 status: Ongoing
 role: Hiker
 stub: mountains
-ranking: 4
+ranking: 5
 outbound: https://peakbagger.com/climber/climber.aspx?cid=31159
 ---
 {% include JB/setup %}

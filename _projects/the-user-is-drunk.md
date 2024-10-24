@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "The User Is Drunk"
-ranking: 6
+ranking: 5
 picture: the-user-is-drunk.png
 picture-small: the-user-is-drunk-200.png
 status: Ongoing

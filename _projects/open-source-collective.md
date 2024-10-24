@@ -6,7 +6,7 @@ picture-small: open-source-collective.png
 status: 2022-2023
 role: Community Development Manager
 stub: Funding OSS
-ranking: 4
+ranking: 5
 outbound: https://www.oscollective.org/
 ---
 {% include JB/setup %}

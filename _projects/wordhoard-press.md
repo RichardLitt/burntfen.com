@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Wordhoard Press"
-ranking: 6
+ranking: 5
 picture: wordhoardpress.png
 picture-small: wordhoardpress-200.png
 status: Ongoing

@@ -6,7 +6,7 @@ picture-small: diginf.png
 status: 2022-2023
 role: Facilitator
 stub: Community
-ranking: 4
+ranking: 5
 outbound: "https://digitalinfrastructure.fund/"
 ---
 {% include JB/setup %}

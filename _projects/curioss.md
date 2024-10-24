@@ -6,7 +6,7 @@ picture-small: curioss-200.png
 status: Ongoing
 role: Organizer
 stub: Community for University OSPOs
-ranking: 2
+ranking: 4
 outbound: https://curioss.org/
 ---
 {% include JB/setup %}

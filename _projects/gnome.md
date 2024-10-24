@@ -6,7 +6,7 @@ picture-small: gnome-200.png
 status: Ongoing
 role: Interim Executive Director
 stub: GNOME
-ranking: 2
+ranking: 3
 outbound: https://foundation.gnome.org/2024/07/12/gnome-foundation-announces-transition-of-executive-director/
 ---
 {% include JB/setup %}

@@ -6,7 +6,7 @@ picture-small: birding-in-vermont-200.png
 status: Ongoing
 role: Creator
 stub: Birder Website
-ranking: 4
+ranking: 6
 outbound: https://birdinginvermont.com
 ---
 {% include JB/setup %}
