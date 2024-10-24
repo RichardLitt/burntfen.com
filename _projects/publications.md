@@ -20,11 +20,6 @@ These are preprints, so it is possible that a paper may not be on the web yet, b
 
 As well as the below, I occasionally review articles for journals, most notably for [JOSS](https://joss.theoj.org/), [SIGUL](http://www.elra.info/en/sig/sigul/), and [CCURL](http://sltu-ccurl-2020.ilc.cnr.it/).
 
-#### In Review
-
-* Meluso, J., Chambers, C., Littauer, R., Llamas N., Long Lingo, E., Mhangami, M., Pitt, B., Splitter, V., and Wang, H. Opening up: Interdisciplinary guidance for managing open ecosystems (May 8, 2024). In Review at Nature Human Behaviour. Preprint available at SSRN: https://ssrn.com/abstract=4821969
-* Littauer, R. The Sooty Shearwater as Melville's Inscrutable Haglet. In Review at [Leviathan](https://www.melvillesociety.org/leviathan).
-
 #### Journal Articles
 
  * Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://dx.doi.org/10.5334/jors.85). In: Journal of Open Research Software, 4: e7. DOI: http://dx.doi.org/10.5334/jors.85. [bib](https://www.burntfen.com/publications/bib/wssspe2.bib)

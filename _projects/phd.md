@@ -7,7 +7,7 @@ status: Ongoing
 role: PhD Student
 stub: University
 ranking: 1
-outbound: ./publications
+outbound: ../publications
 ---
 {% include JB/setup %}
 
