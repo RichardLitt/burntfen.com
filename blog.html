@@ -10,6 +10,15 @@ group: navigation
 
 <hr />
 
+<p class="p-margin"><b>Recent posts:</b></p>
+
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate_short %}
+
+<p class="p-margin">For a full list, see <a href="#all-posts">the complete list of posts</a>.</p>
+
+<hr />
+
 {% for post in site.posts limit:5 %}
 
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -22,7 +31,7 @@ group: navigation
   <hr class="post-divider"/>
 {% endfor %}
 
-<h1>List of posts</h1>
+<h1 id="all-posts">List of posts</h1>
 
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}

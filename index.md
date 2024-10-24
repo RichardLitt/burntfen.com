@@ -8,7 +8,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
 <div class="wrapper">
   <div id="contact" >
     <div class="container">
-      <div class="row col-sm-8 col-sm-offset-2 speak">
+      <div class="row col-sm-10 col-sm-offset-2 speak">
 
         <p class="name">Richard Littauer.</p>
 
@@ -25,8 +25,10 @@ tagline: My personal website, where I list all of my main projects and occasiona
           </span>
           <button class="btn btn-subscribe" type="submit" value="Subscribe">Receive rare letters</button>
         </form> -->
-
-        <!-- <p>Blog:</p> -->
+        <p>PhD Student.<br />
+        Executive Director.<br />
+        OSS Community Organizer.<br />
+        Linguist. Classicist. Conlanger.</p>
 
         <div class="posts">
           {% assign posts = site.posts | where: "public", true %}
@@ -37,8 +39,6 @@ tagline: My personal website, where I list all of my main projects and occasiona
         </div>
 
         <div class='social-media'>
-          <a href="https://github.com/RichardLitt" rel="me"><i class="fa fa-github"></i></a>
-          <a href="https://instagram.com/richlittv3/"><i class="fa fa-instagram"></i></a>
           <a href="mailto:richard@burntfen.com"><i class="fa fa-envelope"></i></a>
         </div>
       </div>
