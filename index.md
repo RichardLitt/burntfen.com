@@ -55,7 +55,7 @@ tagline: My personal website, where I list all of my main projects and occasiona
           <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
             <div class="img-container">
               <a href="{{ project.url }}">
-                <img src="assets/img/project/{{ project.picture-small }}" class="card-image"/>
+                <img src="assets/img/project/{{ project.picture-small }}" alt="{{ project.title }}" class="card-image"/>
               </a>
             </div>
             <a class="project-title" href="{{ project.url }}">
