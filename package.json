@@ -27,6 +27,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
     "imagemin-pngcrush": "^6.0.0",
-    "imagemin-pngquant": "^8.0.0"
+    "imagemin-pngquant": "^8.0.0",
+    "node-fetch": "^2.6.1"
   }
 }
