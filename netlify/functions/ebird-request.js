@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
     try {
         const response = await fetch(apiUrl, {
             headers: {
-                'X-eBirdApiToken': process.env.EBIRD_API_KEY,
+                'x-ebirdapitoken': process.env.EBIRD_API_TOKEN,
             },
         });
 
