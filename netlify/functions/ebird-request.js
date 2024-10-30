@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
             return { statusCode: response.status, body: 'Error fetching data from eBird API' };
         }
 
-        const data = await response.json();
+        const data = await response.text();
         return {
             statusCode: 200,
             body: data,
