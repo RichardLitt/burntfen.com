@@ -25,5 +25,6 @@ I regularly speak at meetups and conferences about code, open source, and resear
   - Interdisciplinary Open Practices Workshop, Burlington, VT, October 28, 2023. Keynote: A rose by any other $variable.
   - SeaGL, Seattle, November 3, 2023. Title: [Using FLOSS to plan your daily exercise by birding!](https://osem.seagl.org/conferences/seagl2023/program/proposals/1003) [Recording](https://www.youtube.com/live/9-mCsIonljc?si=v1UPT6wME9ahbq1X&t=4868)
   - Evergreen Annual Conference, Remote, April 23, 2024. Keynote: What is sustainable open source.
+  - KiwiPycon, Pōneke Wellington, Aotearoa New Zealand, July 24, 2024. Title: [Using iNaturalist, eBird, and Python to become a community scientist](https://www.youtube.com/watch?v=-KkQEzmOOBY).
 
 I also have given dozens of academic talks about linguistics: for a list of publications, go [here](/projects/publications/).
