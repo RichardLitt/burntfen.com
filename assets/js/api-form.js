@@ -13,7 +13,8 @@ document.getElementById('api-form').addEventListener('submit', function(event) {
         })
         .then(data => {
             const apiResponseDiv = document.getElementById('api-response');
-            apiResponseDiv.innerHTML = `<p>API Response: ${data}</p>`;
+            apiResponseDiv.innerHTML = `<p>API Response:</p>
+${data}`;
         })
         .catch(error => {
             console.error('Error:', error);
