@@ -9,7 +9,7 @@ document.getElementById('api-form').addEventListener('submit', function(event) {
             if (!response.ok) {
                 throw new Error('Error fetching data from Netlify function');
             }
-            return response.json();
+            return response.text();
         })
         .then(data => {
             const apiResponseDiv = document.getElementById('api-response');
