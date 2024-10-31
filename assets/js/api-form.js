@@ -14,7 +14,7 @@ document.getElementById('api-form').addEventListener('submit', function(event) {
         .then(data => {
             const apiResponseDiv = document.getElementById('api-response');
             apiResponseDiv.innerHTML = `<p>API Response:</p>
-${data}`;
+${data.replace(/(?:\r\n|\r|\n)/g, '<br />')}`;
         })
         .catch(error => {
             console.error('Error:', error);
