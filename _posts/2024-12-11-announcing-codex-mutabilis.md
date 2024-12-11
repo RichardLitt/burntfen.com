@@ -13,7 +13,9 @@ In [my last post](./2024-12-03-applying-for-issn), I talked about applying for a
 
 Unfortunately, I heard back fairly swiftly from the National Library of New Zealand: No, I can't have an ISSN for burntfen.com. The reason is that personal blogs are not suitable for ISSNs, according to the [ISSN's own website](https://www.issn.org/understanding-the-issn/assignment-rules/the-issn-for-electronic-media/). This is interesting, as Jessamyn West followed this blog and [got one for her website](https://librarian.net/). But I was stymied for a few seconds - what can I do, instead? How do I make a blog that would be considered valid?
 
-An day later, and [Codex Mutabilis](https://codexmutabilis.com/) was live. It's a Jekyll blog running on GitHub Pages, with a new domain and an about page that makes clear that it isn't a personal website, and is made exclusively for publishing scientific names for the ICZN. Because it's a GitHub Pages website, there's even an easy process for people to submit new names if they wanted, by making a pull request. After talking to Jessamyn on Mastodon for a bit, she agreed to join the editorial board (as long as there was no work involved, which is fair!). So, we now have an independent, new, microjournal.
+An day later, and [Codex Mutabilis](https://codexmutabilis.com/) was live. A day later, the NZ library gave it an ISSN! Excellent.
+
+Codex Mutabilis is a Jekyll blog running on GitHub Pages, with a new domain and an about page that makes clear that it isn't a personal website, and is made exclusively for publishing scientific names for the ICZN. Because it's a GitHub Pages website, there's even an easy process for people to submit new names if they wanted, by making a pull request. After talking to Jessamyn on Mastodon for a bit, she agreed to join the editorial board (as long as there was no work involved, which is fair!). So, we now have an independent, new, microjournal.
 
 This is pretty cool!
 
