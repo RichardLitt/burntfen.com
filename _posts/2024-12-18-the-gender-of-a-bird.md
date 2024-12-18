@@ -49,6 +49,6 @@ Ok, so *Crypturellus* is masculine according to the Code, because it is not from
 
 On to the next name.
 
-This is the work which I am doing in between other work, because I like it. But all of the sleuthing above does nothing and goes nowhere, because it's not worth publishing, and it's not worth posting about. It's interesting _to me_, though, but that's all. It also takes far more time to write up than to actually do. The stuff that is more interesting comes when the conclusions I come up with mean that people have been reading the Code wrong. And I'd like to share those, but I'm not sur ehow to, until I finally publish the thing.
+This is the work which I am doing in between other work, because I like it. But all of the sleuthing above does nothing and goes nowhere, because it's not worth publishing, and it's not worth posting about. It's interesting _to me_, though, but that's all. It also takes far more time to write up than to actually do. The stuff that is more interesting comes when the conclusions I come up with mean that people have been reading the Code wrong. And I'd like to share those, but I'm not sure how to, until I finally publish the thing.
 
 If anyone has ideas on how to publish or share that without sniping myself, let me know.
