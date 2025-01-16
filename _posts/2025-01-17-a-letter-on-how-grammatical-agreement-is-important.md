@@ -71,9 +71,9 @@ I think about that interaction a lot. What is it that turns something that is di
 
 The answer to the second question is, of course, that we do. Even if the work is seen as silly or useless or annoying by some, I don't see it that way. And each small publication is me learning more about a system, so that I can go on to see if I can influence it in other ways - perhaps through eventually changing the code, or by pointing out issues that I notice that others who don't have my background don't. That's all science, and it's all part of what makes *Homo sapiens* into *sapiens*. 
 
-If you're interesting in this stuff, I'd be really happy to hear from you. I'm a member of a  community of taxonomists who want a decolonialised, trans-friendly, non-exclusionary, and non-Eurocentric world. 
+If you're interesting in this stuff, I'd be really happy to hear from you. I'm a member of a community of taxonomists who want a decolonialised, trans-friendly, non-exclusionary, and non-Eurocentric world. Fixing the Code is part of that work.
 
-it me up if you'd be keen on joining our discussions. 
+Hit me up if you'd be keen on joining our discussions. 
 
 
 
