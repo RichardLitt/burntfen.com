@@ -17,6 +17,6 @@ And I found nothing. Not a single recording on XenoCanto or on iNaturalist. No o
 
 So, [I uploaded it](https://www.inaturalist.org/observations/260566754), and then wrote a short note about it for The Wētā, the bulletin from the Entomological Society of New Zealand. It was published today.
 
-https://weta.ento.org.nz/index.php/weta/article/view/434
+[Read it here](https://weta.ento.org.nz/index.php/weta/article/view/434).
 
 While this is editorially and not peer-reviewed, it is my first publication on an insect, which is pretty cool! I have intentionally not included a photo of the Wētā here, as I know some people who follow me here have arachnophobia, and this isn't that far off.
