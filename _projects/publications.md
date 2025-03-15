@@ -22,7 +22,9 @@ As well as the below, I occasionally review articles for journals, most notably 
 
 #### Journal Articles
 
-* Richard Littauer (2025). Corrections for grammatical agreement in Ophiodermatidae. Zootaxa 5569 (2), 400-400. https://doi.org/10.11646/zootaxa.5569.2.11
+* Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis 72(1)*: 49–50. [https://doi.org/10.63172/777144pbjhsf](https://doi.org/10.63172/777144pbjhsf)
+* Richard Littauer (2025). First revision of karoro *Larus dominicanus antipodum* (Bruch, 1853). *Notornis 72(1)*: 51–53. [https://doi.org/10.63172/093633lrrwbq](https://doi.org/10.63172/093633lrrwbq)
+* Richard Littauer (2025). Corrections for grammatical agreement in Ophiodermatidae. Zootaxa 5569 (2), 400-400. [https://doi.org/10.11646/zootaxa.5569.2.11](https://doi.org/10.11646/zootaxa.5569.2.11)
 * Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://dx.doi.org/10.5334/jors.85). In: Journal of Open Research Software, 4: e7. DOI: http://dx.doi.org/10.5334/jors.85. [bib](https://www.burntfen.com/publications/bib/wssspe2.bib)
 * Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](https://www.burntfen.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [Online](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](https://www.burntfen.com/publications/bib/LittDebut.bib)
 * Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). [_Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_](http://ijdc.net/index.php/ijdc/article/download/222/291). In: _International Journal of Data Curation_, Vol. 7:2, pp. 92-100. [doi:10.2218/ijdc.v7i2.232](http://ijdc.net/index.php/ijdc/article/view/222) [bib](https://www.burntfen.com/publications/bib/LittIJDC.bib) [slides](https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)
@@ -36,7 +38,6 @@ As well as the below, I occasionally review articles for journals, most notably 
 
 * Richard Littauer (2013). _Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., Potentials of Language Documentation: Methods, Analyses, and Utilization. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press._ In: _LINGUIST List_, 24.2604. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=12670360) [bib](https://www.burntfen.com/publications/bib/LittLinguist2013.bib)
 * Richard Littauer (2012). _Review of H. Schiffman & B. Spooner, eds., Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill._ In: _LINGUIST List_, 23.3183. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=4553348) [bib](https://www.burntfen.com/publications/bib/LittLinguist.bib)
-
 
 #### Peer-reviewed Proceedings
 
@@ -59,7 +60,7 @@ As well as the below, I occasionally review articles for journals, most notably 
 
 #### Posters
 
-_An incomplete list._
+A very incomplete list. I used to present a lot of posters when I was younger and wanted to go to conferences more.
 
 * Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
 
