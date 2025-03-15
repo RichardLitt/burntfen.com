@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "bundle exec jekyll serve",
+    "serve": "npm start",
     "images": "gulp images && gulp project-img"
   },
   "repository": {
