@@ -6,6 +6,12 @@
     margin: 100px auto;
   }
 }
+.press {
+  img.card-image {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 .projects {
   .project {
     min-height: 400px;
