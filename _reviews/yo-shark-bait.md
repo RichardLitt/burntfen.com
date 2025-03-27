@@ -16,6 +16,8 @@ At 250 pages, the book covers the story of Rory Phelps, a preteen fisherman some
 
 *Yo, Shark Bait* won the Tom Fitzgibbon award for New Zealand youth literature, which kind of makes sense, in that it is, at least, an interesting story. I don't know how I would feel about reading it at the intended age - I don't think it's made for 36 year old Americans. For me, I mainly felt bad for Rory. He didn't have the emotional awareness to let people know that it's OK to not be into your thing all of the time, and he didn't have the emotional safety to reach out to anyone - including his sister, his parents, his friends, or his love interest, literally any of them - to say, "Hey, I kind of fell into the ocean and I am a bit scared about sharks at the moment?" The entire book is basically him dealing wit PTSD on his own. I became angry at his father and sister for not realizing that things might be hard for him.
 
-His dad's idea of helping was to bring home a baby dogtooth shark and then show it to Rory and then to leave Rory next to the tank with it for a bit while doing another chore. Like, dude, have some compassion for your son. 
+His dad's idea of helping was to bring home a baby dogtooth shark and then show it to Rory and then to leave Rory next to the tank with it for a bit while doing another chore. Like, dude, have some compassion for your son.
+
+Also, maybe we shouldn't be fishing for sharks?! There wasn't a single mention of the fact that sharks are globally in peril, and that we need to stop overfishing the ocean. Not once. The book came out a while ago, so it may just have aged poorly.
 
 Some plots can basically be solved by people talking to each other about their feelings. This book was one of those, not including the poaching operation, where law enforcement was probably the best idea (if not, perhaps, community support groups for people who need to poach as a living?). But, all things considered, I wasn't expecting much from this book.
