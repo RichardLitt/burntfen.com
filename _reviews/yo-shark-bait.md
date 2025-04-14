@@ -8,8 +8,6 @@ date: "2025-03-28"
 ---
 {% include JB/setup %}
 
-
-
 I read this book in a couple of wind-down sessions before sleep. I had bought it because the image of a boy crying on a cover, combined with a large pectoral fin of a shark, only added to the illustrious title: "Yo, Shark Bait!" just sort of screamed out at me from the shelves as the sort of bad book that would be fun to have in the guest bedroom, where we have a collection of titles of dubious nature.
 
 At 250 pages, the book covers the story of Rory Phelps, a preteen fisherman somewhere in the North Island of New Zealand. Rory has a really bad time when he falls into the ocean by accident after catching a shark on his line. When the school principle assigns him the job of organizing the fishing competition, he doesn't want to - he doesn't want to be associated with fishing again. But he can't help it, because it's how other people identify him, and no one seems to pick up on queues that maybe he recently had a stressful experience and that he doesn't want to be involved. As part of the chum in the waters for the plot, the author threw in a local TV fishing personal, a fish smuggling operation, someone getting hit on the head by a gun and then shot at, police, and a nascent love interest. 
