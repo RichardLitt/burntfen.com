@@ -5,7 +5,7 @@ description: "How to add highlights"
 category: academia
 tags: [research, academia, latex]
 date: 2025-05-11-15-59
-public: true
+public: false
 ---
 {% include JB/setup %}
 
