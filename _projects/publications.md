@@ -22,6 +22,7 @@ As well as the below, I occasionally review articles for journals, most notably 
 
 #### Journal Articles
 
+* Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). The Wilson Journal of Ornithology: 1--3. [10.1080/15594491.2025.2498780](https://doi.org/10.1080/15594491.2025.2498780) [bib](../publications/bib/Littauer2025Bewicks.bib) [Paper](../publications/Renaming a bill type for Tundra Swan Cygnus columbianus.pdf)
 * Richard Littauer (2025). Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code. *Zootaxa 5618(2)*: 287-288. [https://doi.org/10.11646/zootaxa.5618.2.8](https://doi.org/10.11646/zootaxa.5618.2.8)
 * Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis 72(1)*: 49–50. [https://doi.org/10.63172/777144pbjhsf](https://doi.org/10.63172/777144pbjhsf)
 * Richard Littauer (2025). First revision of karoro *Larus dominicanus antipodum* (Bruch, 1853). *Notornis 72(1)*: 51–53. [https://doi.org/10.63172/093633lrrwbq](https://doi.org/10.63172/093633lrrwbq)
@@ -32,7 +33,7 @@ As well as the below, I occasionally review articles for journals, most notably 
 
 #### Book Chapters
 
-* Richard littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02
+* Richard Littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02
 * Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., [_The People's Web Meets NLP: Collaboratively Constructed Language Resources,_](http://www.springer.com/education+%26+language/linguistics/book/978-3-642-35084-9) pp. 315-348. Springer. [bib](https://www.burntfen.com/publications/bib/ChiarcosLOD.bib)
 
 #### Book Reviews
