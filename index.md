@@ -27,7 +27,6 @@ tagline: My personal website, where I list all of my main projects and occasiona
         </form> -->
         <p>PhD Student.<br />
         Open sourceror.<br />
-        Executive Director.<br />
         Community Organizer.<br />
         Conlanger.</p>
 
