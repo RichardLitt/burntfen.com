@@ -7,8 +7,10 @@ picture-small: nomadasfuck-200.png
 status: Ongoing
 stub: "Interview website"
 role: "Creator"
-outbound: https://nomadasfuck.com
+outbound: https://nomadasfuck.netlify.app/
 ---
 {% include JB/setup %}
 
-[Nomad as Fuck](http://nomadasfuck.com) is a project I run, highlighting awesome nomads and talking about some of their stories. I've been lucky enough to know a lot of nomads and to travel a lot, so this is my way of highlighting the ecosystem and talking about nomadism more, just like [Antinomadic](../antinomadic/).
+[Nomad as Fuck](https://nomadasfuck.netlify.app/) is a project I run, highlighting awesome nomads and talking about some of their stories. I've been lucky enough to know a lot of nomads and to travel a lot, so this is my way of highlighting the ecosystem and talking about nomadism more, just like [Antinomadic](../antinomadic/).
+
+This used to be at nomadasfuck.com, but paying for domain names is onerous for past projects. I've now archived it and am hosting it only on Netlify.
