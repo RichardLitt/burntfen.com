@@ -22,19 +22,23 @@ As well as the below, I occasionally review articles for journals, most notably 
 
 #### Journal Articles
 
-* Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). The Wilson Journal of Ornithology: 1--3. [10.1080/15594491.2025.2498780](https://doi.org/10.1080/15594491.2025.2498780) [bib](../../publications/bib/Littauer2025Bewicks.bib) [Paper](../../publications/Renaming a bill type for Tundra Swan Cygnus columbianus.pdf)
-* Richard Littauer (2025). Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code. *Zootaxa 5618(2)*: 287-288. [https://doi.org/10.11646/zootaxa.5618.2.8](https://doi.org/10.11646/zootaxa.5618.2.8)
-* Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis 72(1)*: 49–50. [https://doi.org/10.63172/777144pbjhsf](https://doi.org/10.63172/777144pbjhsf)
-* Richard Littauer (2025). First revision of karoro *Larus dominicanus antipodum* (Bruch, 1853). *Notornis 72(1)*: 51–53. [https://doi.org/10.63172/093633lrrwbq](https://doi.org/10.63172/093633lrrwbq)
-* Richard Littauer (2025). Corrections for grammatical agreement in Ophiodermatidae. Zootaxa 5569 (2), 400-400. [https://doi.org/10.11646/zootaxa.5569.2.11](https://doi.org/10.11646/zootaxa.5569.2.11)
 * Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://dx.doi.org/10.5334/jors.85). In: Journal of Open Research Software, 4: e7. DOI: http://dx.doi.org/10.5334/jors.85. [bib](https://www.burntfen.com/publications/bib/wssspe2.bib)
 * Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](https://www.burntfen.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [Online](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](https://www.burntfen.com/publications/bib/LittDebut.bib)
 * Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). [_Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_](http://ijdc.net/index.php/ijdc/article/download/222/291). In: _International Journal of Data Curation_, Vol. 7:2, pp. 92-100. [doi:10.2218/ijdc.v7i2.232](http://ijdc.net/index.php/ijdc/article/view/222) [bib](https://www.burntfen.com/publications/bib/LittIJDC.bib) [slides](https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)
 
 #### Book Chapters
 
-* Richard Littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02
+* Richard Littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In: Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02 [bib](../../publications/bib/Littauer2025Botw.bib)
 * Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., [_The People's Web Meets NLP: Collaboratively Constructed Language Resources,_](http://www.springer.com/education+%26+language/linguistics/book/978-3-642-35084-9) pp. 315-348. Springer. [bib](https://www.burntfen.com/publications/bib/ChiarcosLOD.bib)
+
+#### Short Notes and Correspondence
+
+* Richard Littauer (2025). *Helobdella serendipitous* Saglam et al., 2018 is the available name (Annelida: Hirudinida). *Zootaxa 5673(4)*: 598–598. [https://doi.org/10.11646/zootaxa.5673.4.8](https://doi.org/10.11646/zootaxa.5673.4.8) [bib](../../publications/bib/Littauer2025ZootaxaHelobdella.bib)
+* Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). The Wilson Journal of Ornithology: 1--3. [10.1080/15594491.2025.2498780](https://doi.org/10.1080/15594491.2025.2498780) [bib](../../publications/bib/Littauer2025Bewicks.bib) [Paper](../../publications/Renaming a bill type for Tundra Swan Cygnus columbianus.pdf)
+* Richard Littauer (2025). Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code. *Zootaxa 5618(2)*: 287-288. [https://doi.org/10.11646/zootaxa.5618.2.8](https://doi.org/10.11646/zootaxa.5618.2.8) [bib](../../publications/bib/Littauer2025ZootaxaNotonectidae.bib)
+* Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis 72(1)*: 49–50. [https://doi.org/10.63172/777144pbjhsf](https://doi.org/10.63172/777144pbjhsf) [bib](../../publications/bib/Littauer2025NotornisLopdell.bib)
+* Richard Littauer (2025). First revision of karoro *Larus dominicanus antipodum* (Bruch, 1853). *Notornis 72(1)*: 51–53. [https://doi.org/10.63172/093633lrrwbq](https://doi.org/10.63172/093633lrrwbq) [bib](../../publications/bib/Littauer2025NotornisKaroro.bib)
+* Richard Littauer (2025). Corrections for grammatical agreement in Ophiodermatidae. *Zootaxa 5569(2)*: 400-400. [https://doi.org/10.11646/zootaxa.5569.2.11](https://doi.org/10.11646/zootaxa.5569.2.11) [bib](../../publications/bib/Littauer2025ZootaxaOphiodermatidae.bib)
 
 #### Book Reviews
 
