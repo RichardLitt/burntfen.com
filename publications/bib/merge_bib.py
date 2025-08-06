@@ -44,6 +44,7 @@ def extract_unique_bib_entries(directory):
     """Extracts all unique BibTeX entries from valid .bib files."""
     all_entries = {}
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
+    parser.expect_multiple_parse = True
 
     for file in os.listdir(directory):
         if file.endswith(".bib") and file != OUTPUT_FILE:
