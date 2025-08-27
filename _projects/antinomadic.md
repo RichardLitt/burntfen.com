@@ -7,7 +7,7 @@ picture-small: antinomadic-200.png
 status: 2015-2017
 stub: Writing journal
 role: Founder and writer
-outbound: http://antinomadic.com
+outbound: https://richardlitt.github.io/antinomadic/
 ---
 {% include JB/setup %}
 
