@@ -3,7 +3,7 @@ layout: project
 title: "Gnome"
 picture: gnome.png
 picture-small: gnome-200.png
-status: 2024--2025
+status: 2024-2025
 role: Interim Executive Director
 stub: GNOME
 ranking: 5
