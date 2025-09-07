@@ -38,6 +38,21 @@ Building Tools for Community Science Datasets to Model Bird Populations and High
 Community science platforms have enabled the creation of global observational datasets which afford unprecedented insights into natural biodiversity.
 The heterogeneous nature of the data presents significant challenges for standardisation, quality assurance, quality control, and workflow management. The goal of my research is to build tools that enable researchers to use these datasets with higher degrees of certainty, to develop workflows to allow for standardised, reproducible processing of the data, and to use case studies that offer meaning- ful insights into how community science can be used to understand epidemiol- ogy and population demographics, in order to inform public policy. I focus, in particular, on bird populations in Aoteaora New Zealand and Oceania, and on predicting the oncoming significant threat posed by Highly Pathogenic Avian Influenza (HPAI).
 
+## Societies
+
+I try to be active in various academic societies. I'd be happy to talk to you about anything to do with:
+
+* BirdsNZ
+* Wellington Botanical Society
+* Royal Society Te Apārangi
+* SNAP
+* Te Herenga Waka Victoria University of Wellington Student Association
+* IEEE
+* The Carpentries
+* Entomological Society of New Zealand
+* Undergraduate Linguistics Association of Britain (ULAB)
+* Linguistics Society of America (LSA)
+
 ## Talks
 
 I frequently give talks about my work. You can find my most recent presentations [here](https://github.com/RichardLitt/talks).

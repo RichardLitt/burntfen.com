@@ -4,7 +4,7 @@ const changed = require('gulp-changed')
 const imagemin = require('gulp-imagemin')
 const rename = require('gulp-rename')
 const pngcrush = require('imagemin-pngcrush')
-const imageResize = require('gulp-image-resize');
+const imageResize = require('gulp-image-resize')
 
 var paths = {
   js: ['src/js/**/*.js', '!src/js/**/*.min.js'],
@@ -36,8 +36,9 @@ gulp.task('project-img', function () {
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{removeViewBox: false}],
-      use: [pngcrush()]
-    }))
+      use: [pngcrush()]},
+      {verbose: true}
+    ))
     .pipe(imagemin([
       imagemin.jpegtran({progressive: true}),
       imagemin.optipng({optimizationLevel: 3})

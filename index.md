@@ -9,27 +9,18 @@ tagline: My personal website, where I list all of my main projects and occasiona
   <div id="contact" >
     <div class="container">
       <div class="row col-sm-10 col-sm-offset-2 speak">
-
         <p class="name">Richard Littauer.</p>
-
-<!--         <form class="tlemailform" action="https://tinyletter.com/richlitt" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/richlitt', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-          <span class="input input--madoka">
-              <input type="hidden" value="1" name="embed" />
-              <input class="input__field input__field--madoka" name="email" type="text" id="tlemail" />
-              <label class="input__label input__label--madoka" for="tlemail">
-              <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
-              <path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
-              </svg>
-              <span class="input__label-content input__label-content--madoka">Email</span>
-          </label>
-          </span>
-          <button class="btn btn-subscribe" type="submit" value="Subscribe">Receive rare letters</button>
-        </form> -->
-        <p>PhD Student.<br />
-        Open sourceror.<br />
-        Community Organizer.<br />
-        Conlanger.</p>
-
+        <div class="identity">
+          <p class="identity-links">
+            <a href="./projects/phd" class="social-media">PhD Student.</a>
+          </p>
+          <p class="identity-links">
+            Open sourceror.
+          </p>
+          <p class="identity-links">
+            <a href="./conlanger" class="social-media">Conlanger.</a>
+          </p>
+        </div>
         <div class="posts">
           <a class="more" href="/blog">Recent blog posts</a>
           {% assign posts = site.posts | where: "public", true %}
@@ -38,9 +29,8 @@ tagline: My personal website, where I list all of my main projects and occasiona
           {% endfor %}
           <a class="more" href="/blog">More posts &rarr;</a>
         </div>
-
-        <div class='social-media'>
-          <a href="./2023-05-30/socials">Reach me.</a>
+        <div class='social-media-wrapper'>
+          <a href="./2023-05-30/socials" class="social-media">Contact or follow me.</a>
         </div>
       </div>
     </div>

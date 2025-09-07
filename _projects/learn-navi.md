@@ -7,6 +7,7 @@ picture-small: learn-navi-200.png
 status: 2009-2011
 stub: Conlang Community
 role: Lexicographer
+conlang: true
 outbound: http://learnnavi.org
 ---
 {% include JB/setup %}

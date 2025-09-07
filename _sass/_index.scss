@@ -31,26 +31,20 @@ $leftPadding: 15px;
     color: #666;
   }
 
-  .social-media {
-    margin: 3% 0;
+  a.social-media {
     text-decoration-line: underline;
     text-decoration-style: dashed;
     text-decoration-thickness: 10%;
-    a {
-      padding: 0 20px 0 0;
-      color: #FFF;
-      font-size: 26px;
-
-      &:hover, &:visited {
-        text-decoration: none;
-        color:white;
-      }
-      &:hover {
-        color: red;
-      }
+    font-size: 26px;
+    color: #FFF !important;
+    &:hover, &:visited {
+      text-decoration: none;
+      color:white;
+    }
+    &:hover {
+      color: red;
     }
   }
-
 
   .posts, .newsletter {
     // list-style: url('/assets/img/fern.svg');
@@ -91,14 +85,13 @@ $leftPadding: 15px;
       }
       p {
         &.name {
-          font-size: 30px;
+          font-size: 40px;
+          margin-bottom: 60px;
         }
         font-size:26px;
         line-height:30px;
-        padding-bottom:30px;
 
         >a {
-          font-weight:200;
           color:#219FFF;
         }
       }
@@ -112,10 +105,6 @@ $leftPadding: 15px;
       margin: 0px;
     }
 
-    #contact .speak {
-      padding: 100px 30px;
-    }
-
     .social-media {
       margin: 20px 0;
       a {
@@ -124,3 +113,13 @@ $leftPadding: 15px;
     }
   }
 }
+
+div.identity {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  p.identity-links {
+    margin: 5px 0;
+    padding-bottom: 0px;
+  }
+}
+

@@ -5,8 +5,9 @@ ranking: 25
 picture: llarriesh.png
 picture-small: llarriesh-200.png
 status: 2010
-stub: Constructed Language
-role: Creator
+stub: Conlang
+conlang: true
+role: Language Creator
 outbound: http://llama.conlang.org
 ---
 {% include JB/setup %}
