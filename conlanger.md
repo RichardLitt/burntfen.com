@@ -19,7 +19,7 @@ I'm a member of the [Language Creation Society](https://conlang.org/), and suppo
 <div class="other-projects">
   <div class="row col-xs-12">
     <hr />
-    <h1 class="section-title">Other Projects</h1>
+    <h1 class="section-title">Conlang Projects</h1>
   </div>
   <div class="row projects">
     {% assign projects = site.projects | where: "conlang", true | sort: 'ranking' %}
