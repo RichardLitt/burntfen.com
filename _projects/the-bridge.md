@@ -3,7 +3,7 @@ layout: project
 title: "The Bridge"
 picture: the-bridge.png
 picture-small: the-bridge-200.png
-status: Ongoing
+status: 2020-2024
 role: Columnist
 stub: Local Newspaper
 ranking: 6
