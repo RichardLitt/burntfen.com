@@ -32,7 +32,9 @@
 <hr />
 
 #### Short Notes
+* Richard Littauer (2025). On the correct spelling of *Pycnocraspedum rowleyense* Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae). *Zootaxa 5692(1)*: 200–200. [https://doi.org/10.11646/zootaxa.5692.1.12](https://doi.org/10.11646/zootaxa.5692.1.12) [Paper](https://doi.org/10.11646/zootaxa.5692.1.12)
 * Richard Littauer (2025). Nomenclatural corrections for gender of species-group names for two Solomon Island birds. Emu – Austral Ornithology: 1--3. [https://doi.org/10.1080/01584197.2025.2551298](https://doi.org/10.1080/01584197.2025.2551298) [bib](../../publications/bib/Littauer2025Emu.bib) [Paper](https://doi.org/10.1080/01584197.2025.2551298)
+* Richard Littauer (2025). *Psacodromeus rectus* Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name. *Zootaxa 5691(1)*: 150–150. [https://doi.org/10.11646/zootaxa.5691.1.10](https://doi.org/10.11646/zootaxa.5691.1.10) [Paper](https://doi.org/10.11646/zootaxa.5691.1.10)
 * Richard Littauer (2025). *Helobdella serendipitous* Saglam et al., 2018 is the available name (Annelida: Hirudinida). *Zootaxa 5673(4)*: 598–598. [https://doi.org/10.11646/zootaxa.5673.4.8](https://doi.org/10.11646/zootaxa.5673.4.8) [bib](../../publications/bib/Littauer2025ZootaxaHelobdella.bib)
 * Richard Littauer (2025). Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code. *Zootaxa 5618(2)*: 287-288. [https://doi.org/10.11646/zootaxa.5618.2.8](https://doi.org/10.11646/zootaxa.5618.2.8) [bib](../../publications/bib/Littauer2025ZootaxaNotonectidae.bib)
 * Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis 72(1)*: 49–50. [https://doi.org/10.63172/777144pbjhsf](https://doi.org/10.63172/777144pbjhsf) [bib](../../publications/bib/Littauer2025NotornisLopdell.bib)
