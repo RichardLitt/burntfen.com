@@ -22,6 +22,9 @@
 #### Book Chapters
 * Richard Littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In: Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02 [bib](../../publications/bib/Littauer2025Botw.bib)
 
+#### Journal Articles
+* Richard Littauer (2025). The Sooty Shearwater as Melville’s Inscrutable Haglet. Leviathan: The Journal of Melville Studies 27(2): 90–101. https://doi.org/10.1353/lvn.2025.a970199
+
 #### Short Notes
 * Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). The Wilson Journal of Ornithology: 1--3. [10.1080/15594491.2025.2498780](https://doi.org/10.1080/15594491.2025.2498780) [bib](../../publications/bib/Littauer2025Bewicks.bib) [Paper](../../publications/Renaming a bill type for Tundra Swan Cygnus columbianus.pdf)
 
