@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Visiting Burnt Fen"
-description: "Where I tell the story of thename"
+description: "Where I tell the story of the name"
 category: blog
 tags: [blog, travel]
 date: 2025-10-23-21-00
