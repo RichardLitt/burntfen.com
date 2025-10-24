@@ -21,6 +21,8 @@ Joining this learned Society is another way for me to signal who I am, to myself
 
 To be a fellow, one needs to apply and then be voted into the society by the Fellowship Committee. I am happy that they approved of my application, which I sent in with referential help from my advisor Kris Bubendorfer and my mentor from the Royal Society Te Apārangi, [Neil Birrell](https://profiles.auckland.ac.nz/n-birrell). It feels good to feel welcome (and no, I don't know the acceptance rates).
 
+Really: I am incredibly grateful to the society for approving my application. I didn't expect that. I'm grateful to those who've helped me get to the point where this is possible, too. Not just people who've listened to me natter on about nomenclature for the last year, although they are certainly the most patient.
+
 One of the fun things about being a member is that I get to use the [post-nominals](https://en.wikipedia.org/wiki/Post-nominal_letters) 'FLS'. I'm also a member of the Royal Society Te Apārangi (although not a fellow), which means that my full title is properly Richard Littauer MA (Hons) MSc FLS MRSNZ. Which is pretty wordy, to be honest.
 
 I have a few qualms about this process. Am I being elitist by joining a learned society? I'm unsure. I'm far more privileged than most - but does application and inclusion itself lend itself to elitism? Another one - how are the funds of the society disbursed, and is it worth the annual fee? I don't know yet. Is there ever a proper place to say, "Richard Littauer FLS"? I guess my CV. Otherwise, no idea. If you have thoughts on any of these, or other questions, I'd love to hear them.
