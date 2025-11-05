@@ -2,6 +2,7 @@
 layout: index
 title: Richard Littauer
 tagline: My personal website, where I list all of my main projects and occasionally blog.
+homepage: true
 ---
 {% include JB/setup %}
 
