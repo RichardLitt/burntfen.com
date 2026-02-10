@@ -10,6 +10,7 @@
 
 #### Proceedings
 
+* Richard Littauer (2026). <a href="https://www.burntfen.com/publications/2026Kiwi.pdf">Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology.</a> In: Littauer, R and Ganesan, D. (Eds) _Kiwi PyCon 2025 Academic Track Proceedings_, 4–5. [bib](https://www.burntfen.com/publications/bib/Littauer2026Kiwi.bib) [Recording](https://www.youtube.com/watch?v=kr8BP7eBCsI)
 * Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). <a href="https://www.burntfen.com/publications/LittIDCC.pdf">Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices.</a> In 7th International Digital Curation Conference Proceedings, Bristol, 7-9 December, 2011. [bib](https://www.burntfen.com/publications/bib/LittIDCC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)
 
 #### Book Contributions
@@ -49,7 +50,6 @@
 
 ### Linguistics
 <hr />
-
 
 #### Journal Articles
 * Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](https://www.burntfen.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [Online](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](https://www.burntfen.com/publications/bib/LittDebut.bib)
