@@ -19,7 +19,7 @@ The time commitment balooned to a year and a half, due to changes in our constit
 
 I was grateful for the help and support I encountered being on this board, and for the friendship and care of those involved. We didn't always agree - it's a board - but it was well worth the effort.
 
-During my tenure, I attended not a single Wellington meetup. I wish I could say this was intentional, but the truth is that I live just far away that driving into Wellington is difficult, and because someone in my house is immunocompromised, we mask everywhere. Going into a meetup at night is never on my list of things I want to do. It's difficult. I wish masking were easier, but it's not for me.
+During my tenure, I attended not a single Wellington meetup. I wish I could say I didn't know about it, but the truth is that I live just far away that driving into Wellington is difficult, and because someone in my house is immunocompromised, we mask everywhere. Going into a meetup at night is never on my list of things I want to do. It's difficult. I wish masking were easier, but it's not for me.
 
 PythonNZ isn't just about the meetups - Kiwi Pycon is great, by itself. It's also about the wider community and the Discord and so on. I felt honoured to have been voted in and to have been able to serve.
 
