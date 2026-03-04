@@ -6,7 +6,7 @@ picture-small: Python_New_Zealand_Logo_Square.svg
 status: Ongoing
 role: Member
 stub: PythonNZ
-ranking: 3
+ranking: 5
 outbound: https://python.nz/
 ---
 {% include JB/setup %}
