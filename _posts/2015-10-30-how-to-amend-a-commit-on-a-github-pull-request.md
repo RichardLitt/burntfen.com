@@ -4,7 +4,8 @@ title: "How to amend a commit on a GitHub Pull Request"
 description: "Or how I learned to stop being afraid and love the force push"
 category: code
 tags: [git, code, force push]
-date: 2015-10-30 13:18:00
+date: 2015-10-30 13:18:00 -05:00
+published_time: 2015-10-30 13:18:00 -05:00
 ---
 {% include JB/setup %}
 

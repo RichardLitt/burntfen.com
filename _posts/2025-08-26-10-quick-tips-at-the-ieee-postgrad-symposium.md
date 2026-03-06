@@ -5,6 +5,7 @@ description: "A talk"
 category: talks
 tags: [talks]
 date: 2025-08-26 11:26:00 +12:00
+published_time: 2025-08-26 11:26:00 +12:00
 public: true
 ---
 {% include JB/setup %}

@@ -5,6 +5,7 @@ description: "R. Littauer, FLS"
 category: blog
 tags: [blog, societies, academia, research, natural history]
 date: 2025-10-24 14:57:00 +13:00
+published_time: 2025-10-24 14:57:00 +13:00
 public: true
 ---
 {% include JB/setup %}

@@ -4,7 +4,8 @@ title: "Hosting NodeSchool in Bali and Chiang Mai"
 description: ""
 category: 
 tags: [code, nodeschool]
-date: 2015-05-03 15:41:00
+date: 2015-05-03 15:41:00 -05:00
+published_time: 2015-05-03 15:41:00 -05:00
 ---
 {% include JB/setup %}
 

@@ -5,6 +5,7 @@ description: "Where I talk about eBird reviewing in St. Helena, Ascension, and T
 category:
 tags: ["birds", "birding", "ebird"]
 date: 2024-07-05 08:01:00 +12:00
+published_time: 2024-07-05 08:01:00 +12:00
 public: true
 ---
 {% include JB/setup %}

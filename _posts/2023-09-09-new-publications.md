@@ -4,7 +4,8 @@ title: "New publications"
 description: "A small update on NAS, ACM, and AFO activities of mine"
 category: research
 tags: [research]
-date: 2023-09-09 16:11:00
+date: 2023-09-09 16:11:00 +13:00
+published_time: 2023-09-09 16:11:00 +13:00
 public: true
 ---
 {% include JB/setup %}

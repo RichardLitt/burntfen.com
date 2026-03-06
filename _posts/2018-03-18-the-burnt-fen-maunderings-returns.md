@@ -4,7 +4,8 @@ title: "The Burnt Fen Maunderings Returns"
 description: "Comics on wood"
 category: art
 tags: [art, comics]
-date: 2018-03-18 15:32:00
+date: 2018-03-18 15:32:00 -05:00
+published_time: 2018-03-18 15:32:00 -05:00
 ---
 {% include JB/setup %}
 

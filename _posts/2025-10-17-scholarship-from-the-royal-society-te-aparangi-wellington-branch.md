@@ -5,6 +5,7 @@ description: "I've won an award."
 category: phd
 tags: [updates, life, phd]
 date: 2025-10-17 17:34:00 +13:00
+published_time: 2025-10-17 17:34:00 +13:00
 public: true
 ---
 {% include JB/setup %}

@@ -5,6 +5,7 @@ description: "An essay on my newest publication"
 category: science
 tags: [blog, science, iczn, code]
 date: 2025-01-17 07:59:00 +13:00
+published_time: 2025-01-17 07:59:00 +13:00
 public: true
 ---
 {% include JB/setup %}

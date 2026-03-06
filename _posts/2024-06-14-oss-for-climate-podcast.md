@@ -4,7 +4,8 @@ title: "OSS for Climate Podcast"
 description: ""
 category:
 tags: []
-date: 2024-06-14 07:50:00
+date: 2024-06-14 07:50:00 +12:00
+published_time: 2024-06-14 07:50:00 +12:00
 public: true
 ---
 {% include JB/setup %}

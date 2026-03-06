@@ -5,6 +5,7 @@ description: "Where I tell the story of the name"
 category: blog
 tags: [blog, travel]
 date: 2025-10-23 21:00:00 +13:00
+published_time: 2025-10-23 21:00:00 +13:00
 public: true
 ---
 {% include JB/setup %}

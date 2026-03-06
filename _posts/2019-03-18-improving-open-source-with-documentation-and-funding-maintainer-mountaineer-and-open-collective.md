@@ -4,7 +4,8 @@ title: "Improving Open Source with Documentation and Funding: Maintainer Mountai
 description: "An announcement about our collaboration"
 category: maintainer
 tags: [open source, code, open collective, community, maintainer]
-date: 2019-03-18 10:37:00
+date: 2019-03-18 10:37:00 -05:00
+published_time: 2019-03-18 10:37:00 -05:00
 ---
 {% include JB/setup %}
 

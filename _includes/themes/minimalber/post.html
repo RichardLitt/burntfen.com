@@ -7,7 +7,11 @@
 </div>
 
 <div class="col-md-12 post">
+  {% if page.published_time %}
+  <p class="published"><i>Published on <span class="date" data-timestamp="{{ page.published_time | date_to_xmlschema }}">{{ page.published_time | date: "%B %-d, %Y at %-I:%M %p" }}</span></i></p>
+  {% else %}
   <p class="published"><i>Published on <span class="date" data-timestamp="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span></i></p>
+  {% endif %}
   {{ content }}
   <hr>
   <div class="pagination">

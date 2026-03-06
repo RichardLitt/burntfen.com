@@ -4,7 +4,8 @@ title: "Getting Online At Cafes That Need To Redirect You"
 description: "How to find a non SSL site"
 category: internet
 tags: [writing, internet, code]
-date: 2017-04-06 13:18:00
+date: 2017-04-06 13:18:00 -05:00
+published_time: 2017-04-06 13:18:00 -05:00
 ---
 {% include JB/setup %}
 

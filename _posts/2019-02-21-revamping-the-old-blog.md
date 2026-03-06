@@ -4,7 +4,8 @@ title: "Revamping the old blog"
 description: "Starting this thing up again"
 category: "meta"
 tags: [meta]
-date: 2019-02-21 03:38:00
+date: 2019-02-21 03:38:00 -05:00
+published_time: 2019-02-21 03:38:00 -05:00
 public: true
 ---
 {% include JB/setup %}
