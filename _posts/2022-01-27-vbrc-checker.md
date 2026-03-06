@@ -4,7 +4,7 @@ title: "VBRC checker"
 description: "A tool to help people spot birds that should be reported to the Vermont Bird Records Committee"
 category: birding
 tags: [birding, birds]
-date: 2022-01-27-21-23
+date: 2022-01-27 21:23:00
 public: true
 ---
 {% include JB/setup %}

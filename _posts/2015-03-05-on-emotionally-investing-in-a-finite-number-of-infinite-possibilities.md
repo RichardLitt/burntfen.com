@@ -4,7 +4,7 @@ title: "On emotionally investing in a finite number of infinite possibilities"
 description: "Thoughts"
 category: thoughts
 tags: [thoughts]
-date: 2015-03-05-16-11
+date: 2015-03-05 16:11:00
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,7 @@ title: "Postgraduate Student Association Time"
 description: "Oh no I am now an executive officer again"
 category: updates
 tags: [postgrad, politics, university, academia, unions]
-date: 2025-10-22-21-20
+date: 2025-10-22 21:20:00
 public: true
 ---
 {% include JB/setup %}

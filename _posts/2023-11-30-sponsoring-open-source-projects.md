@@ -4,7 +4,7 @@ title: "Sponsoring Open Source Projects"
 description: "Buy people a coffee people"
 category:
 tags: [open source]
-date: 2023-11-30-11-37
+date: 2023-11-30 11:37:00
 public: true
 ---
 {% include JB/setup %}

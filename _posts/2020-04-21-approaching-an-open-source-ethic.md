@@ -4,7 +4,7 @@ title: "Approaching an Open Source Ethic"
 description: "Some thoughts regarding Aldo Leopold and Open Source"
 category: blog
 tags: [open source, writing, reading, books]
-date: 2020-04-21-16-21
+date: 2020-04-21 16:21:00
 public: true
 ---
 {% include JB/setup %}

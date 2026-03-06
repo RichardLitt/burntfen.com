@@ -4,7 +4,7 @@ title: "Renaming racist terms in science"
 description: "About a new publication renaming a bill type for Tundra Swans"
 category: research
 tags: [publications, racism, science, academia, research, swans]
-date: 2025-05-16-13-38
+date: 2025-05-16 13:38:00
 public: true
 ---
 {% include JB/setup %}

@@ -4,7 +4,7 @@ title: "How to create a literary press"
 description: "Or, how I learned to not be afraid and love Beowulf"
 category: projects
 tags: [projects, poetry]
-date: 2015-10-15-16-50
+date: 2015-10-15 16:50:00
 ---
 {% include JB/setup %}
 

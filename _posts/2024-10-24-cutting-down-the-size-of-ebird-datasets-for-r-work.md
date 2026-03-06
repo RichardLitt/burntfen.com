@@ -4,7 +4,7 @@ title: "Cutting down the size of eBird datasets for R work"
 description: "Or, how to use ChatGPT to help me figure out basics in R, like how to save a file and then source it..."
 category: coding
 tags: ["R", "coding", "code", "ebird", "science"]
-date: 2024-10-24-21-48
+date: 2024-10-24 21:48:00
 public: false
 picture: "assets/img/posts/Screenshot 2024-10-24 at 22.09.22.png"
 ---

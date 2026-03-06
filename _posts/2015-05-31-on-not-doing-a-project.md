@@ -4,7 +4,7 @@ title: "On not doing a project"
 description: "Or how learned to not build a coworking website"
 category: journal
 tags: [projects, writing]
-date: 2015-05-31-12-43
+date: 2015-05-31 12:43:00
 ---
 {% include JB/setup %}
 

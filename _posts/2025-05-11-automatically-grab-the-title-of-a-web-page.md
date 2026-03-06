@@ -4,7 +4,7 @@ title: "Automatically grab the title of a web page"
 description: "A new Alfred workflow, and a new TextExpander bibtext clipping"
 category: coding
 tags: [coding, productivity, academia, wikipedia]
-date: 2025-05-11-16-51
+date: 2025-05-11 16:51:00
 public: true
 ---
 {% include JB/setup %}

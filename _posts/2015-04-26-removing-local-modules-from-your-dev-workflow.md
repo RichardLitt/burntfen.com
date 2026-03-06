@@ -4,7 +4,7 @@ title: "Removing local npm modules from your development workflow"
 description: "Or how I refactored and started publishing all of my modules"
 category: coding
 tags: [coding, beagle]
-date: 2015-04-26-18-48
+date: 2015-04-26 18:48:00
 ---
 {% include JB/setup %}
 

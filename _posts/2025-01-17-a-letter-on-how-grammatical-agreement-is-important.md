@@ -4,7 +4,7 @@ title: "A new article on renaming brittle stars, and why scientific names are im
 description: "An essay on my newest publication"
 category: science
 tags: [blog, science, iczn, code]
-date: 2025-01-17-07-59
+date: 2025-01-17 07:59:00
 public: true
 ---
 {% include JB/setup %}

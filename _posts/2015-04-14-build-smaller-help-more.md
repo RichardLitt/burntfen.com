@@ -4,7 +4,7 @@ title: "Build smaller, help more"
 description: "Why I built my taxi driver a website"
 category: projects
 tags: [thoughts, projects, development, websites]
-date: 2015-04-14-12-45
+date: 2015-04-14 12:45:00
 ---
 {% include JB/setup %}
 

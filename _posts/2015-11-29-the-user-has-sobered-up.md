@@ -4,7 +4,7 @@ title: "The user has sobered up"
 description: "Closing the User Is Drunk"
 category: thoughts
 tags: [drinking, the user is drunk, projects, blog]
-date: 2015-11-29-12-33
+date: 2015-11-29 12:33:00
 ---
 {% include JB/setup %}
 

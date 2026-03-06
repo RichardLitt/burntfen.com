@@ -4,7 +4,7 @@ title: "Wētā in the Wētā"
 description: "A new publication on Wētā sounds"
 category: research
 tags: [research, publication]
-date: 2025-02-24-21-40
+date: 2025-02-24 21:40:00
 public: true
 ---
 {% include JB/setup %}

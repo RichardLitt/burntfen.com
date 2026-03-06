@@ -4,7 +4,7 @@ title: "French toast recipe"
 description: “From my morning”
 category:
 tags: [food]
-date: 2023-11-29-17-41
+date: 2023-11-29 17:41:00
 public: false
 ---
 {% include JB/setup %}
