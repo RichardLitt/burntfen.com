@@ -4,7 +4,7 @@ title: "Nomenclatural corrections for gender of species group names for two Solo
 description: "A new publication"
 category: research
 tags: [research, publication]
-date: 2025-10-19 11:39:00
+date: 2025-10-19 11:39:00 +13:00
 public: true
 ---
 {% include JB/setup %}

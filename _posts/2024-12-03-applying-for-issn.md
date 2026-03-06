@@ -4,7 +4,7 @@ title: "Applying for ISSN"
 description: "In order to publish things related to the ICZN"
 category: blog
 tags: [blog, iczn, science]
-date: 2024-12-03 15:58:00
+date: 2024-12-03 15:58:00 +13:00
 public: true
 ---
 {% include JB/setup %}

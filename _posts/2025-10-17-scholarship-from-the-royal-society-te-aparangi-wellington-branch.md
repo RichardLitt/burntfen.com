@@ -4,7 +4,7 @@ title: "PhD Scholarship from the Royal Society Te Aparāngi Wellington Branch"
 description: "I've won an award."
 category: phd
 tags: [updates, life, phd]
-date: 2025-10-17 17:34:00
+date: 2025-10-17 17:34:00 +13:00
 public: true
 ---
 {% include JB/setup %}

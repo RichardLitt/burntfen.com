@@ -24,7 +24,7 @@ group: navigation
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
   <div class="post">
-    <p class="published"><i>Published on <span class="date">{{ post.date | date_to_long_string }}</span></i></p>
+    <p class="published"><i>Published on <span class="date" data-timestamp="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span></i></p>
     {{ post.content }}
   </div>
 

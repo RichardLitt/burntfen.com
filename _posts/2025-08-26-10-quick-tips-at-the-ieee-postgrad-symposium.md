@@ -4,7 +4,7 @@ title: "10 Quick Tips at the IEEE Postgrad Symposium"
 description: "A talk"
 category: talks
 tags: [talks]
-date: 2025-08-26 11:26:00
+date: 2025-08-26 11:26:00 +12:00
 public: true
 ---
 {% include JB/setup %}

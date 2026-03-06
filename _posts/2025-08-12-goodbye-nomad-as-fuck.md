@@ -4,7 +4,7 @@ title: "Goodbye, Nomad as Fuck"
 description: "A farewell to a project"
 category: blog
 tags: [nomadism]
-date: 2025-08-12 18:55:00
+date: 2025-08-12 18:55:00 +12:00
 public: true
 ---
 {% include JB/setup %}

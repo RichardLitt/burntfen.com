@@ -4,7 +4,7 @@ title: "Formatting bibtex entries"
 description: "How I keep my personal bib files in order"
 category: research
 tags: [publishing, research, publications, bibtex, latex, ai]
-date: 2025-10-21 21:10:00
+date: 2025-10-21 21:10:00 +13:00
 public: true
 ---
 {% include JB/setup %}

@@ -4,7 +4,7 @@ title: "PythonNZ Committee: 2024 2026"
 description: "So long, thanks for all the fish"
 category: projects
 tags: [python, nonprofits, closing]
-date: 2026-03-04 20:36:00
+date: 2026-03-04 20:36:00 +12:00
 public: true
 ---
 {% include JB/setup %}

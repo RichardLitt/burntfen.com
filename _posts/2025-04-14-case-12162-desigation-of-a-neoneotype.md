@@ -4,7 +4,7 @@ title: "Case 12162: Desigation of a neoneotype"
 description: "Or, where I have some fun with a short story"
 category: fiction
 tags: [fiction]
-date: 2025-04-14 18:28:00
+date: 2025-04-14 18:28:00 +12:00
 public: true
 ---
 {% include JB/setup %}

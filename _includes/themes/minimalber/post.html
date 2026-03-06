@@ -7,7 +7,7 @@
 </div>
 
 <div class="col-md-12 post">
-  <p class="published"><i>Published on <span class="date">{{ page.date | date_to_long_string }}</span></i></p>
+  <p class="published"><i>Published on <span class="date" data-timestamp="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span></i></p>
   {{ content }}
   <hr>
   <div class="pagination">

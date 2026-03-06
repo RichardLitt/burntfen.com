@@ -4,7 +4,7 @@ title: "Books I haven't read yet"
 description: "A list that I want to keep updated"
 category: books
 tags: [books]
-date: 2025-05-09 13:29:00
+date: 2025-05-09 13:29:00 +12:00
 public: false
 ---
 {% include JB/setup %}
