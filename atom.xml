@@ -16,7 +16,8 @@ group : navigation
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts %}
+ {% assign posts = site.posts | where: "public", true %}
+ {% for post in posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.production_url }}{{ post.url }}"/>
