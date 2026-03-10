@@ -18,6 +18,9 @@
 * Richard Littauer (2026). <a href="https://www.burntfen.com/publications/2026Kiwi.pdf">Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology.</a> In: Littauer, R and Ganesan, D. (Eds) _Kiwi PyCon 2025 Academic Track Proceedings_, 4–5. [bib](https://www.burntfen.com/publications/bib/Littauer2026Kiwi.bib) [Recording](https://www.youtube.com/watch?v=kr8BP7eBCsI)
 * Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). <a href="https://www.burntfen.com/publications/LittIDCC.pdf">Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices.</a> In 7th International Digital Curation Conference Proceedings, Bristol, 7-9 December, 2011. [bib](https://www.burntfen.com/publications/bib/LittIDCC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)
 
+#### Non-peer Reviewed Reports
+* Littauer, R., Augspurger, T., Stinson, A., Vogler-Finck, P. J. C., Nesbitt, A., & Harris, C. (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology (1.0). Zenodo. [https://doi.org/10.5281/zenodo.17459416](https://doi.org/10.5281/zenodo.17459416) [Paper](../../publications/2026OFAOST.pdf) [bib](../../publications/bib/2025OFAOST.bib)
+
 #### Book Contributions
 
 * National Academies of Sciences, Engineering, and Medicine. (2021). <a href="https://nap.nationalacademies.org/catalog/26308/developing-a-toolkit-for-fostering-open-science-practices-proceedings-of">Developing a toolkit for fostering open science practices: Proceedings of a workshop.</a>
@@ -41,6 +44,7 @@
 <hr />
 
 #### Short Notes
+* Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: Evenhuis, Neal L. and Pape, Thomas (Eds.) *Systema Dipterorum Nomenclatural Notes. VI.* Bishop Museum Occasional Papers 176: 1–3. [bib](../../publications/bib/Littauer2026SDNN.bib)
 * Richard Littauer (2025). On the correct spelling of *Pycnocraspedum rowleyense* Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae). *Zootaxa 5692(1)*: 200–200. [https://doi.org/10.11646/zootaxa.5692.1.12](https://doi.org/10.11646/zootaxa.5692.1.12) [Paper](https://doi.org/10.11646/zootaxa.5692.1.12)
 * Richard Littauer (2025). Nomenclatural corrections for gender of species-group names for two Solomon Island birds. Emu – Austral Ornithology: 1--3. [https://doi.org/10.1080/01584197.2025.2551298](https://doi.org/10.1080/01584197.2025.2551298) [bib](../../publications/bib/Littauer2025Emu.bib) [Paper](https://doi.org/10.1080/01584197.2025.2551298)
 * Richard Littauer (2025). *Psacodromeus rectus* Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name. *Zootaxa 5691(1)*: 150–150. [https://doi.org/10.11646/zootaxa.5691.1.10](https://doi.org/10.11646/zootaxa.5691.1.10) [Paper](https://doi.org/10.11646/zootaxa.5691.1.10)
