@@ -42,10 +42,13 @@
 #   image: nock.png
 #   project: Maintainer Mountaineer
 
-- client: Ok Grow!
-  image: okgrow.png
-  project: Maintainer Mountaineer
+#- client: Ok Grow!
+#  image: okgrow.png
+#  project: Maintainer Mountaineer
 
+- client: Johns Hopkins University
+  image: jhu.svg
+  project: Burnt Fen Creative
 
 - client: Protocol Labs
   image: protocol labs.png
