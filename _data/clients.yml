@@ -38,9 +38,9 @@
   image: mud_wtr.png
   project: The User Is Drunk
 
-- client: Nock
-  image: nock.png
-  project: Maintainer Mountaineer
+# - client: Nock
+#   image: nock.png
+#   project: Maintainer Mountaineer
 
 - client: Ok Grow!
   image: okgrow.png
