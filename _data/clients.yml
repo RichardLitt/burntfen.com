@@ -1,3 +1,7 @@
+- client: Bad Wolf
+  image: bad_wolf.png
+  project: Burnt Fen Creative
+
 - client: Gilt
   image: gilt.png
   project: The User Is Drunk
@@ -9,6 +13,10 @@
 - client: Gizmodo
   image: gizmodo.png
   project: The User Is Drunk
+
+- client: GNOME
+  image: gnome.svg
+  project: Burnt Fen Creative
 
 - client: Haja Networks
   image: haja.png
@@ -26,6 +34,10 @@
   image: hubspotlogo.png
   project: The User Is Drunk
 
+- client: Johns Hopkins University
+  image: jhu.svg
+  project: Burnt Fen Creative
+
 #- client: Mellow Pages Library
 #  image: mellow-pages-library logo.png
 #  project: Burnt Fen Creative
@@ -38,17 +50,13 @@
   image: mud_wtr.png
   project: The User Is Drunk
 
-# - client: Nock
-#   image: nock.png
-#   project: Maintainer Mountaineer
+- client: Nock
+  image: nock.png
+  project: Maintainer Mountaineer
 
-#- client: Ok Grow!
-#  image: okgrow.png
-#  project: Maintainer Mountaineer
-
-- client: Johns Hopkins University
-  image: jhu.svg
-  project: Burnt Fen Creative
+- client: Ok Grow!
+  image: okgrow.png
+  project: Maintainer Mountaineer
 
 - client: Protocol Labs
   image: protocol labs.png
@@ -57,6 +65,10 @@
 - client: Read The Docs
   image: rtd.png
   project: Maintainer Mountaineer
+
+- client: Research Software Alliance
+  image: resa-logo.svg
+  project: Burnt Fen Creative
 
 - client: Sears
   image: sears.png
@@ -74,10 +86,10 @@
   image: storj.png
   project: Maintainer Mountaineer
 
-- client: VWO
-  image: vwo.png
-  project: The User Is Drunk
-
 - client: The Zcash Foundation
   image: zcash.png
   project: Burnt Fen Creative
+
+- client: VWO
+  image: vwo.png
+  project: The User Is Drunk
