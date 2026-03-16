@@ -4,11 +4,11 @@ title: "PGSA"
 picture: pgsa.png
 picture-small: pgsa-200.png
 status: Ongoing
-role: Executive
+role: Representative
 stub: Student Association
-ranking: 4
+ranking: 6
 outbound: https://www.vuwpgsa.ac.nz/
 ---
 {% include JB/setup %}
 
-I am on the executive committee for the Postgraduate Student Association (PGSA) at Te Herenga Waka Victoria University of Wellington. I'd already been helping out in my first year as an advisor, and I was very pleased that someone else stepped up to be the president of PGSA. PGSA largely does events and some advocacy. I help where I can.
+I was on the executive committee for the Postgraduate Student Association (PGSA) at Te Herenga Waka Victoria University of Wellington. I'd already been helping out in my first year as a general member, and in my second year I stepped up as first an exec during the AGM, and then as the Interim Secretary. I helped shepherd in the new constitution, organized some events, and steer the association during a rocky period. PGSA largely does events and some advocacy. I still help where I can as a representative on some boards, like for the school of Science and Engineering, and on the Faculty of Graduate Research.
