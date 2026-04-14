@@ -44,6 +44,7 @@
 <hr />
 
 #### Short Notes
+* Richard Littauer (2026). _Lathrobium sapaense_ Tokareva \& Bekchiev, 2025 is the available name (Staphylinidae: Paederinae). _Zootaxa 5792 (1)_: 200–200. [https://doi.org/10.11646/zootaxa.5792.1.12](https://doi.org/10.11646/zootaxa.5792.1.12)
 * Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: Evenhuis, Neal L. and Pape, Thomas (Eds.) *Systema Dipterorum Nomenclatural Notes. VI.* Bishop Museum Occasional Papers 176: 1–3. [bib](../../publications/bib/Littauer2026SDNN.bib)
 * Richard Littauer (2025). On the correct spelling of *Pycnocraspedum rowleyense* Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae). *Zootaxa 5692(1)*: 200–200. [https://doi.org/10.11646/zootaxa.5692.1.12](https://doi.org/10.11646/zootaxa.5692.1.12) [Paper](https://doi.org/10.11646/zootaxa.5692.1.12)
 * Richard Littauer (2025). Nomenclatural corrections for gender of species-group names for two Solomon Island birds. Emu – Austral Ornithology: 1--3. [https://doi.org/10.1080/01584197.2025.2551298](https://doi.org/10.1080/01584197.2025.2551298) [bib](../../publications/bib/Littauer2025Emu.bib) [Paper](https://doi.org/10.1080/01584197.2025.2551298)
