@@ -29,4 +29,4 @@ This paper is so short it doesn't have an abstract. And, because I paid the $25 
 > 
 > The available name is _Lathrobium sapaense_ Tokareva & Bekchiev, 2025
 
-You can read the paper here: https://doi.org/10.11646/zootaxa.5792.1.12
+You can read the paper here: [https://doi.org/10.11646/zootaxa.5792.1.12](https://doi.org/10.11646/zootaxa.5792.1.12)

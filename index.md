@@ -26,7 +26,7 @@ homepage: true
           <a class="more" href="/blog">Recent blog posts</a>
           {% assign posts = site.posts | where: "public", true %}
           {% for post in posts limit:5 %}
-          <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}<span class="date">{{post.date | date: "%b %d, '%y"}}</span></a></li>
+          <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}<span class="date">{{post.date | date: "%b %d, '%y"}}</span></a></li>
           {% endfor %}
           <a class="more" href="/blog">More posts &rarr;</a>
         </div>

@@ -32,7 +32,7 @@ Usage:
       <ul>
     {% endif %}
 
-    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>{% if post.tags.size > 0 %} (<i>{{post.tags | join: ", "}}</i>){% endif %}</li>
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>{% if post.tags.size > 0 %} (<i>{{post.tags | join: ", "}}</i>){% endif %}</li>
 
     {% if forloop.last %}
       </ul>

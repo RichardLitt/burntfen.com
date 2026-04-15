@@ -21,7 +21,7 @@ group: navigation
 
 {% for post in site.posts limit:5 %}
 
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2><a href="{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></h2>
 
   <div class="post">
     <p class="published"><i>Published on <span class="date" data-timestamp="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</span></i></p>
