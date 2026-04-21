@@ -32,7 +32,8 @@ $secondaryColor: #219FFF;
 }
 
 .input__field:focus {
-	outline: none;
+	outline: 2px solid #005fcc;
+	outline-offset: 2px;
 }
 
 .input__label {
