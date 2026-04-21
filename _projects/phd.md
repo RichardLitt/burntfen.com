@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /phd
 layout: project
 title: "PhD"
 picture: vic.jpg
