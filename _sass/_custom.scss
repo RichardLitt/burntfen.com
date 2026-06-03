@@ -166,7 +166,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   &:hover {
-    color: red;
+    color: #c00;
   }
   &:focus {
     outline: 0;
@@ -269,8 +269,8 @@ img.art {
   padding: 10px 20px;
   margin-top: 30px;
   &:hover {
-    color: red;
-    border-color: red;
+    color: #c00;
+    border-color: #c00;
   }
 }
 
