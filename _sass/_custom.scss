@@ -169,7 +169,8 @@ a {
     color: red;
   }
   &:focus {
-    outline: 0;
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
   }
 }
 
