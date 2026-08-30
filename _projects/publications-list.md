@@ -39,6 +39,9 @@ Journal of Ornithology, 138:3, 504-514, DOI: 10.1080/15594491.2026.2616578 [Pape
 #### Short Notes
 * Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). The Wilson Journal of Ornithology: 1--3. [10.1080/15594491.2025.2498780](https://doi.org/10.1080/15594491.2025.2498780) [bib](../../publications/bib/Littauer2025Bewicks.bib) [Paper](../../publications/Renaming a bill type for Tundra Swan Cygnus columbianus.pdf)
 
+#### Abstracts / Talks
+* Richard Littauer (2026). Large-scale NLP detection of vocal mimicry in Australian community science bird observations. _World Ecoacoustics Congress 2026_. August 17--20, 2026, Cairns / Gimuy, Australia. https://doi.org/10.5281/zenodo.22169693 [bib](../../publications/bib/Littauer2026WEC.bib)
+
 #### Posters
 * Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
 
