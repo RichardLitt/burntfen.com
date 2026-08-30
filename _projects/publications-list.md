@@ -11,7 +11,7 @@
 * Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://dx.doi.org/10.5334/jors.85). In: Journal of Open Research Software, 4: e7. DOI: http://dx.doi.org/10.5334/jors.85. [bib](https://www.burntfen.com/publications/bib/wssspe2.bib)
 
 #### Book Chapters
-* Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., [_The People's Web Meets NLP: Collaboratively Constructed Language Resources,_](http://www.springer.com/education+%26+language/linguistics/book/978-3-642-35084-9) pp. 315-348. Springer. [bib](https://www.burntfen.com/publications/bib/ChiarcosLOD.bib)
+* Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., _The People's Web Meets NLP: Collaboratively Constructed Language Resources,_ pp. 315-348. Springer. [doi:10.1007/978-3-642-35085-6](https://doi.org/10.1007/978-3-642-35085-6) [bib](https://www.burntfen.com/publications/bib/ChiarcosLOD.bib)
 
 #### Proceedings
 
@@ -32,6 +32,8 @@
 * Richard Littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In: Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02 [bib](../../publications/bib/Littauer2025Botw.bib)
 
 #### Journal Articles
+* Richard Littauer, Sam Darmstadt, William M. Kirsch & Davyd H. Betchkal (2026). Community-science sourced evidence of vocal mimicry in _Perisoreus_ jays. The Wilson
+Journal of Ornithology, 138:3, 504-514, DOI: 10.1080/15594491.2026.2616578 [Paper](../../publications/Littauer2026WJOPerisoreus.pdf) [bib](../../publications/bib/Littauer2026WJOPerisoreus.bib)
 * Richard Littauer (2025). The Sooty Shearwater as Melville’s Inscrutable Haglet. Leviathan: The Journal of Melville Studies 27(2): 90–101. https://doi.org/10.1353/lvn.2025.a970199
 
 #### Short Notes
@@ -62,7 +64,7 @@
 <hr />
 
 #### Journal Articles
-* Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](https://www.burntfen.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [Online](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](https://www.burntfen.com/publications/bib/LittDebut.bib)
+* Richard Littauer (2012). [Replicating Oliphant's Saussurean Simulations](https://www.burntfen.com/publications/LittDebut.pdf). _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [https://doi.org/10.5281/zenodo.22169034](doi:10.5281/zenodo.22169034) [bib](https://www.burntfen.com/publications/bib/LittDebut.bib)
 
 #### Book Reviews
 * Richard Littauer (2013). _Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., Potentials of Language Documentation: Methods, Analyses, and Utilization. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press._ In: _LINGUIST List_, 24.2604. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=12670360) [bib](https://www.burntfen.com/publications/bib/LittLinguist2013.bib)
