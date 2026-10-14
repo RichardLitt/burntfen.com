@@ -30,3 +30,63 @@
     }
   }
 }
+
+// Publications page: filterable list
+#publication-filters {
+  margin: 20px 0 10px;
+  .tag-group {
+    margin-top: 10px;
+  }
+  .tag-group-label {
+    display: inline-block;
+    min-width: 50px;
+    font-weight: bold;
+  }
+}
+
+#publication-count {
+  margin-top: 10px;
+  color: #666;
+}
+
+.pub-tag {
+  display: inline-block;
+  margin: 2px 2px;
+  padding: 1px 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 0;
+  &:hover,
+  &:focus {
+    color: red;
+    border-color: red;
+  }
+  &.active {
+    color: #fff;
+    background: #000;
+    border-color: #000;
+  }
+}
+
+#publication-list {
+  ul {
+    padding-left: 20px;
+  }
+  .publication {
+    margin-bottom: 12px;
+  }
+  .publication-tags {
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+.pub-clear {
+  padding: 0;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
