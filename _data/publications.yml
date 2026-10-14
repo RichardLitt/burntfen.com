@@ -4,6 +4,8 @@
 # Fields:
 #   year, type, topics   - `type` and each topic become filter tags on the page
 #   peer_reviewed        - true adds the "Peer Reviewed" tag, which is on by default
+#   status               - optional: "In Review" or "In Press"; becomes a tag. In-review
+#                          entries use `year: In Review` and sit at the top.
 #   title                - plain text, no markdown; used in the "email me" subject line
 #   citation             - authors (year). title. venue. No links; those go below.
 #   doi                  - bare DOI, e.g. 10.11646/zootaxa.5792.1.12
@@ -13,6 +15,222 @@
 #                          (papers only; not talks, posters, software, data or edited volumes).
 #   slides, recording    - optional
 # Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Amendments to the 6th edition (2024) of the Checklist of the Birds of New Zealand"
+  citation: |-
+    Colin Miskelly, Richard Littauer, Pascale Lubbe, Nicolas Rawlence, Alan Tennyson. Amendments to the 6th edition (2024) of the Checklist of the Birds of New Zealand. *Notornis*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  status: In Review
+  title: "When should newly-breeding bird species be considered resident in Aotearoa/New Zealand?"
+  citation: |-
+    Colin M. Miskelly, Peter J. de Lange, Rodney A. Hitchmough, Richard Littauer, Troy D. Makan, Nicolas J. Rawlence, Hugh A. Robertson, Alan J.D. Tennyson. When should newly-breeding bird species be considered resident in Aotearoa/New Zealand?. *Notornis*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  status: In Review
+  title: "Katherine Mansfield’s Prelude may reference a Laughing Owl Ninox albifacies"
+  citation: |-
+    Richard Littauer. Katherine Mansfield’s *Prelude* may reference a Laughing Owl *Ninox albifacies*. *Notornis*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Botany]
+  peer_reviewed: false
+  status: In Review
+  title: "First community science documentation of Liparophyllum gunnii Hook.f. (Menyanthaceae) from the Greater Wellington region, with a note on Abrotanella Cass. (Asteraceae)"
+  citation: |-
+    Richard Littauer, Archer Lamason, Melissa Hutchison. First community science documentation of *Liparophyllum gunnii* Hook.f. (Menyanthaceae) from the Greater Wellington region, with a note on *Abrotanella* Cass. (Asteraceae). *Perspectives in Biodiversity*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Entomology]
+  peer_reviewed: false
+  status: In Review
+  title: "A first record on a community science platform of Halyomorpha halys (Stål, 1855) (Heteroptera, Pentatomidae) from Iceland"
+  citation: |-
+    Richard Littauer. A first record on a community science platform of *Halyomorpha halys* (Stål, 1855) (Heteroptera, Pentatomidae) from Iceland. *Perspectives in Biosecurity*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "The Code should allow external evidence for errors in human names"
+  citation: |-
+    Richard Littauer. The Code should allow external evidence for errors in human names. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Lectotype designations for Kākā Nestor meridionalis (Gmelin, 1788) and Kererū Hemiphaga novaeseelandiae (Gmelin, 1789)"
+  citation: |-
+    Richard Littauer. Lectotype designations for Kākā *Nestor meridionalis* (Gmelin, 1788) and Kererū *Hemiphaga novaeseelandiae* (Gmelin, 1789). *Notornis*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Pygoscelis papua taeniatus (Peale, 1849) is the valid name of the Eastern Gentoo Penguin (Aves: Sphenisciformes)"
+  citation: |-
+    Richard Littauer. *Pygoscelis papua taeniatus* (Peale, 1849) is the valid name of the Eastern Gentoo Penguin (Aves: Sphenisciformes). *Notornis*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  status: In Review
+  title: "Variable Oystercatcher nest usurpation by Kelp Gull"
+  citation: |-
+    Richard Littauer. Variable Oystercatcher nest usurpation by Kelp Gull. *Australasian Bird Research*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Case – Oligosoma Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names"
+  citation: |-
+    Richard Littauer. Case [unnumbered] – *Oligosoma* Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Open Science, Open Source]
+  peer_reviewed: false
+  status: In Review
+  title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
+  citation: |-
+    Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre Vogler-Finck, Andrew Nesbitt, Chris Harris, Abdul Salam Issahaku. Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. *Cambridge Forum on Technology and Global Affairs*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "On the correct name of Triozidus ceratophora Li, 2005 (Hemiptera: Psylloidea: Triozidae)"
+  citation: |-
+    Richard Littauer. On the correct name of *Triozidus ceratophora* Li, 2005 (Hemiptera: Psylloidea: Triozidae). *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Flat spiders: corrections for grammatical agreement for -platys genera (Arachnida)"
+  citation: |-
+    Richard Littauer. Flat spiders: corrections for grammatical agreement for *-platys* genera (Arachnida). *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Punk and Emo have masculine grammatical gender and are not nonbinary"
+  citation: |-
+    Richard Littauer. *Punk* and *Emo* have masculine grammatical gender and are not nonbinary. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Journal Article
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "First Revisers for four species and a genus in Aves"
+  citation: |-
+    Richard Littauer. First Revisers for four species and a genus in Aves. *Zootaxa*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Passer domestica (Linnaeus, 1758) is the available name for House Sparrow"
+  citation: |-
+    Richard Littauer. *Passer domestica* (Linnaeus, 1758) is the available name for House Sparrow. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "On the authorship of Neotis heuglinii, Sula dactylatra melanops, and Lanius somalicus from von Heuglin & Hartlaub 1859 (Aves)"
+  citation: |-
+    Richard Littauer. On the authorship of *Neotis heuglinii*, *Sula dactylatra melanops*, and *Lanius somalicus* from von Heuglin & Hartlaub 1859 (Aves). *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
+
+- year: In Review
+  type: Short Note
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Numenius arquatus (Linnaeus, 1758) is the available name for Eurasian Curlew"
+  citation: |-
+    Richard Littauer. *Numenius arquatus* (Linnaeus, 1758) is the available name for Eurasian Curlew. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib:
 
 - year: 2026
   type: Journal Article
@@ -278,6 +496,7 @@
   pdf: /publications/2026Kiwi.pdf
   bib: /publications/bib/Littauer2026Kiwi.bib
   recording: https://www.youtube.com/watch?v=kr8BP7eBCsI
+  slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
 
 - year: 2026
   type: Journal Article
@@ -295,6 +514,7 @@
   type: Journal Article
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
+  status: In Press
   title: "A new name is not needed for Hesperia zachaeus Plötz, 1883, nec Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae)"
   citation: |-
     Shinichi Nakahara, Richard Littauer, John V. Calhoun (2026). A new name is not needed for *Hesperia zachaeus* Plötz, 1883, *nec* Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae). *Zootaxa*. In press.
@@ -306,6 +526,7 @@
   type: Journal Article
   topics: [Research Software, Open Source]
   peer_reviewed: true
+  status: In Press
   title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
   citation: |-
     Warrick Ball, Patrick Diehl, Daniel S. Katz, Richard Littauer, Kyle E. Niemeyer, Arfon M. Smith (2026). The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI. *ECEASST*. In press.
@@ -411,6 +632,7 @@
   doi: 10.5281/zenodo.19546736
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
 
 - year: 2025
   type: Report
@@ -433,6 +655,7 @@
   doi: 10.5281/zenodo.17269478
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/Making%20collaborative%20papers.pdf
 
 - year: 2025
   type: Short Note
@@ -499,6 +722,7 @@
   doi: 10.5281/zenodo.15589702
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.05.31%20-%20BirdsNZ%20-%20Taxonomy.pdf
 
 - year: 2025
   type: Journal Article
@@ -665,6 +889,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.08.29%20-%20New%20Historians%20-%20Ludente%20lingua.pdf
 
 - year: 2025
   type: Presentation
@@ -676,6 +901,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/SeaGL%202025.pdf
 
 - year: 2025
   type: Presentation
@@ -698,6 +924,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/2025-08-05%20OSS%20UN%20Sustainability%20Presentation.pdf
 
 - year: 2024
   type: Short Note
@@ -751,8 +978,9 @@
   citation: |-
     Richard Littauer, Tobias Augspurger, Andrew Nesbitt (2024). From Core to A'Tuin: Citing Software All The Way Down the Stack. *US-RSE 2024*, Albuquerque, NM, October 17, 2024.
   doi:
-  pdf: https://github.com/RichardLitt/talks/blob/master/From%20Core%20to%20A'Tuin_%20Citing%20Software%20All%20The%20Way%20Down%20The%20Stack.pdf
+  pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/From%20Core%20to%20A%27Tuin_%20Citing%20Software%20All%20The%20Way%20Down%20The%20Stack.pdf
 
 - year: 2024
   type: Presentation
@@ -776,6 +1004,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/Evergreen%20Keynote%20What%20is%20Sustainable%20Open%20Source.pptx
 
 - year: 2023
   type: Report
@@ -799,6 +1028,7 @@
   url: https://osem.seagl.org/conferences/seagl2023/program/proposals/1003
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/Using%20FLOSS%20to%20plan%20your%20daily%20exercise%20by%20birding%21.pptx
 
 - year: 2023
   type: Presentation
@@ -810,6 +1040,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/A%20rose%20by%20any%20other%20%24variable.pptx
 
 - year: 2023
   type: Presentation
@@ -866,18 +1097,6 @@
     Richard Littauer (2022). Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software. *Seattle GNU/Linux Conference 2022*, Seattle, WA, November 4, 2022.
   doi:
   url: https://osem.seagl.org/conferences/seagl2021/program/proposals/844
-  pdf:
-  bib:
-
-- year: 2021
-  type: Book Contribution
-  topics: [Open Science]
-  peer_reviewed: true
-  title: "Developing a toolkit for fostering open science practices: Proceedings of a workshop"
-  citation: |-
-    National Academies of Sciences, Engineering, and Medicine. (2021). *Developing a toolkit for fostering open science practices: Proceedings of a workshop.*
-  doi:
-  url: https://nap.nationalacademies.org/catalog/26308/developing-a-toolkit-for-fostering-open-science-practices-proceedings-of
   pdf:
   bib:
 
@@ -948,6 +1167,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/tree/main/standard-readme-dc
 
 - year: 2016
   type: Presentation
@@ -959,6 +1179,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/name-your-contributors.pdf
 
 - year: 2015
   type: Presentation
@@ -970,6 +1191,7 @@
   doi:
   pdf:
   bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/git%20yolo.pdf
 
 - year: 2014
   type: Proceedings
