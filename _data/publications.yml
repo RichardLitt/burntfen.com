@@ -1265,6 +1265,18 @@
   slides: https://github.com/RichardLitt/talks/blob/main/nvc.pdf
 
 - year: 2017
+  type: Popular Article
+  topics: [Botany, Linguistics, Literary Studies]
+  peer_reviewed: false
+  title: "Imagined Botany in Fantasy: A Rose by Any Other Name…"
+  citation: |-
+    Richard Littauer (2017). Imagined Botany in Fantasy: A Rose by Any Other Name… *Tor.com*, November 14, 2017.
+  doi:
+  url: https://web.archive.org/web/20171114203329/https://www.tor.com/2017/11/14/imagined-botany-in-fantasy-a-rose-by-any-other-name/
+  pdf:
+  bib:
+
+- year: 2017
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
