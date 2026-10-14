@@ -9,6 +9,10 @@
 <div id="publication-filters">
 <label for="publication-search" class="sr-only">Search publications</label>
 <input type="search" id="publication-search" class="form-control" placeholder="Search by title, author, journal, year…">
+<div class="tag-group" role="group" aria-label="Filter by review status">
+<span class="tag-group-label">Show</span>
+<button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+</div>
 <div class="tag-group" role="group" aria-label="Filter by topic">
 <span class="tag-group-label">Topic</span>
 {%- for topic in topics %}
@@ -21,7 +25,7 @@
 <button type="button" class="pub-tag" data-tag="{{ type | slugify }}" aria-pressed="false">{{ type }}</button>
 {%- endfor %}
 </div>
-<p id="publication-count" aria-live="polite">Showing all {{ publications.size }} publications.</p>
+<p id="publication-count" aria-live="polite">Showing all {{ publications.size }} publications and outputs.</p>
 </div>
 
 <div id="publication-list">
@@ -31,9 +35,18 @@
 <h3>{{ group.name }}</h3>
 <ul>
 {%- for pub in group.items %}
-<li class="publication" data-tags="{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
+<li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
 {{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+{%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
+{%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
+{%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
+{%- if pub.bib %} <a href="{{ pub.bib }}">bib</a>{% endif %}
+{%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
+{%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
 <span class="publication-tags">
+{%- if pub.peer_reviewed %}
+<button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+{%- endif %}
 <button type="button" class="pub-tag" data-tag="{{ pub.type | slugify }}" aria-pressed="false">{{ pub.type }}</button>
 {%- for topic in pub.topics %}
 <button type="button" class="pub-tag" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
@@ -49,10 +62,3 @@
 <p id="publication-empty" hidden>No publications match. <button type="button" class="pub-clear">Clear filters</button></p>
 
 <script src="/assets/js/publications.js"></script>
-
-### Other contributions
-<hr />
-
-I also frequently facilitate discussions. Some of those are listed here:
-
-* Moderator of a Panel on the role of Open Source in Open Science, June 27-29, 2023 at the <a href="https://acm-rep.github.io/2023/">2023 ACM Conference on Reproducibility and Replicability</a>.

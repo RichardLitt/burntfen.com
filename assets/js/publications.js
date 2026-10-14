@@ -3,7 +3,8 @@
   var count = document.getElementById('publication-count');
   var empty = document.getElementById('publication-empty');
   var items = document.querySelectorAll('#publication-list .publication');
-  var active = {};
+  // Start with only peer-reviewed work shown; the full list is one click away.
+  var active = { 'peer-reviewed': true };
 
   function update() {
     var query = search.value.trim().toLowerCase();
@@ -25,8 +26,8 @@
       button.setAttribute('aria-pressed', on);
     });
     count.textContent = (tags.length || query)
-      ? 'Showing ' + shown + ' of ' + items.length + ' publications.'
-      : 'Showing all ' + items.length + ' publications.';
+      ? 'Showing ' + shown + ' of ' + items.length + ' publications and outputs.'
+      : 'Showing all ' + items.length + ' publications and outputs.';
     empty.hidden = shown > 0;
   }
 
@@ -43,4 +44,5 @@
     update();
   });
   search.addEventListener('input', update);
+  update();
 })();
