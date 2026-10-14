@@ -4,7 +4,8 @@
   var empty = document.getElementById('publication-empty');
   var items = document.querySelectorAll('#publication-list .publication');
   // Start with only peer-reviewed work shown; the full list is one click away.
-  var active = { 'peer-reviewed': true };
+  var DEFAULT_TAGS = ['peer-reviewed'];
+  var active = {};
 
   // Lowercase and strip diacritics, so "kakapo" finds "kākāpō".
   function fold(text) {
@@ -48,6 +49,32 @@
     empty.hidden = shown > 0;
   }
 
+  // Filters live in the URL, e.g. ?tags=ornithology,journal-article&q=kakapo,
+  // so a filtered view can be linked to and the back button undoes a click.
+  // No `tags` parameter means the default view; `tags=` (empty) means no filters.
+  function readURL() {
+    var params = new URLSearchParams(window.location.search);
+    var tags = params.get('tags');
+    active = {};
+    (tags === null ? DEFAULT_TAGS : tags.split(',')).forEach(function (tag) {
+      if (tag) active[tag] = true;
+    });
+    search.value = params.get('q') || '';
+  }
+
+  function writeURL(push) {
+    var tags = Object.keys(active).sort();
+    var parts = [];
+    if (tags.join(',') !== DEFAULT_TAGS.join(',')) {
+      parts.push('tags=' + tags.map(encodeURIComponent).join(','));
+    }
+    var query = search.value.trim();
+    if (query) parts.push('q=' + encodeURIComponent(query));
+    var url = window.location.pathname + (parts.length ? '?' + parts.join('&') : '') + window.location.hash;
+    if (url === window.location.pathname + window.location.search + window.location.hash) return;
+    window.history[push ? 'pushState' : 'replaceState'](null, '', url);
+  }
+
   document.addEventListener('click', function (event) {
     var button = event.target.closest('.pub-tag, .pub-clear');
     if (!button) return;
@@ -59,7 +86,16 @@
       if (active[tag]) delete active[tag]; else active[tag] = true;
     }
     update();
+    writeURL(true);
   });
-  search.addEventListener('input', update);
+  search.addEventListener('input', function () {
+    update();
+    writeURL(false);
+  });
+  window.addEventListener('popstate', function () {
+    readURL();
+    update();
+  });
+  readURL();
   update();
 })();
