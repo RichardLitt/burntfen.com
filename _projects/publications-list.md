@@ -1,12 +1,16 @@
 {% assign publications = site.data.publications -%}
 {% assign topics = publications | map: "topics" | join: "|" | split: "|" | uniq | sort -%}
 {% assign types = publications | map: "type" | uniq | sort -%}
+{% assign statuses = publications | map: "status" | compact | uniq -%}
 <div id="publication-filters">
 <label for="publication-search" class="sr-only">Search publications</label>
 <input type="search" id="publication-search" class="form-control" placeholder="Search by title, author, journal, year…">
 <div class="tag-group" role="group" aria-label="Filter by review status">
 <span class="tag-group-label">Show</span>
 <button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+{%- for status in statuses %}
+<button type="button" class="pub-tag" data-tag="{{ status | slugify }}" aria-pressed="false">{{ status }}</button>
+{%- endfor %}
 </div>
 <div class="tag-group" role="group" aria-label="Filter by topic">
 <span class="tag-group-label">Topic</span>
@@ -30,7 +34,7 @@
 <h3>{{ group.name }}</h3>
 <ul>
 {%- for pub in group.items %}
-<li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
+<li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
 <div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 {%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
 {%- assign open_doi = false %}
@@ -51,6 +55,9 @@
 <div class="publication-tags">
 {%- if pub.peer_reviewed %}
 <button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+{%- endif %}
+{%- if pub.status %}
+<button type="button" class="pub-tag" data-tag="{{ pub.status | slugify }}" aria-pressed="false">{{ pub.status }}</button>
 {%- endif %}
 <button type="button" class="pub-tag" data-tag="{{ pub.type | slugify }}" aria-pressed="false">{{ pub.type }}</button>
 {%- for topic in pub.topics %}
