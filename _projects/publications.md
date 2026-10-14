@@ -14,7 +14,7 @@ redirect_from:
 ---
 {% include JB/setup %}
 
-Most of my academic publications can be found on [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Here is a complete list.
+Most of my academic publications can be found on [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Here is a list.
 
 To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information, at once, if you're really keen.
 
