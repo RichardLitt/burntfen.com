@@ -1,0 +1,46 @@
+(function () {
+  var search = document.getElementById('publication-search');
+  var count = document.getElementById('publication-count');
+  var empty = document.getElementById('publication-empty');
+  var items = document.querySelectorAll('#publication-list .publication');
+  var active = {};
+
+  function update() {
+    var query = search.value.trim().toLowerCase();
+    var tags = Object.keys(active);
+    var shown = 0;
+    items.forEach(function (item) {
+      var itemTags = item.getAttribute('data-tags').split(' ');
+      var match = tags.every(function (t) { return itemTags.indexOf(t) !== -1; }) &&
+        (!query || item.textContent.toLowerCase().indexOf(query) !== -1);
+      item.hidden = !match;
+      if (match) shown++;
+    });
+    document.querySelectorAll('.publication-year').forEach(function (year) {
+      year.hidden = !year.querySelector('.publication:not([hidden])');
+    });
+    document.querySelectorAll('.pub-tag').forEach(function (button) {
+      var on = !!active[button.getAttribute('data-tag')];
+      button.classList.toggle('active', on);
+      button.setAttribute('aria-pressed', on);
+    });
+    count.textContent = (tags.length || query)
+      ? 'Showing ' + shown + ' of ' + items.length + ' publications.'
+      : 'Showing all ' + items.length + ' publications.';
+    empty.hidden = shown > 0;
+  }
+
+  document.addEventListener('click', function (event) {
+    var button = event.target.closest('.pub-tag, .pub-clear');
+    if (!button) return;
+    if (button.classList.contains('pub-clear')) {
+      active = {};
+      search.value = '';
+    } else {
+      var tag = button.getAttribute('data-tag');
+      if (active[tag]) delete active[tag]; else active[tag] = true;
+    }
+    update();
+  });
+  search.addEventListener('input', update);
+})();
