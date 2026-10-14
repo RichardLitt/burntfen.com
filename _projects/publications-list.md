@@ -53,12 +53,13 @@
 {%- assign is_paper = false %}
 {%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
 {%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
-{%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.recording or request %}
+{%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.poster or pub.recording or request %}
 <div class="publication-links">
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
 {%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
 {%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
+{%- if pub.poster %} <a href="{{ pub.poster }}">poster</a>{% endif %}
 {%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
 {%- if request %} <a href="mailto:{{ site.author.email }}?subject={{ "Request for Paper: " | append: pub.title | url_encode | replace: "+", "%20" }}">email me</a>{% endif %}
 </div>
@@ -99,7 +100,7 @@
 {%- for pub in published %}
 {%- assign pub_types = pub.type | join: "|" | split: "|" %}
 {%- assign schema_type = "CreativeWork" %}
-{%- if pub_types contains "Journal Article" or pub_types contains "Short Note" or pub_types contains "Proceedings" or pub_types contains "Book Review" %}{% assign schema_type = "ScholarlyArticle" %}
+{%- if pub_types contains "Journal Article" or pub_types contains "Short Note" or pub_types contains "Conference Paper" or pub_types contains "Book Review" %}{% assign schema_type = "ScholarlyArticle" %}
 {%- elsif pub_types contains "Book Chapter" %}{% assign schema_type = "Chapter" %}
 {%- elsif pub_types contains "Thesis" %}{% assign schema_type = "Thesis" %}
 {%- elsif pub_types contains "Report" %}{% assign schema_type = "Report" %}
