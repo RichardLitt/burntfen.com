@@ -6,8 +6,13 @@
   // Start with only peer-reviewed work shown; the full list is one click away.
   var active = { 'peer-reviewed': true };
 
+  // Lowercase and strip diacritics, so "kakapo" finds "kākāpō".
+  function fold(text) {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
   function update() {
-    var query = search.value.trim().toLowerCase();
+    var query = fold(search.value.trim());
     var tags = Object.keys(active);
     var shown = 0;
     // Tags carried by at least one visible item: any other filter would empty the list.
@@ -15,7 +20,7 @@
     items.forEach(function (item) {
       var itemTags = item.getAttribute('data-tags').split(' ');
       var match = tags.every(function (t) { return itemTags.indexOf(t) !== -1; }) &&
-        (!query || item.textContent.toLowerCase().indexOf(query) !== -1);
+        (!query || fold(item.textContent).indexOf(query) !== -1);
       item.hidden = !match;
       if (match) {
         shown++;
