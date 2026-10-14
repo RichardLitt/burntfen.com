@@ -1,8 +1,3 @@
-### External links
-
-- [ORCID](https://orcid.org/0000-0001-5428-7535)
-- [Google Scholar](https://scholar.google.com/citations?user=X2UD62YAAAAJ&hl=en&authuser=1)
-
 {% assign publications = site.data.publications -%}
 {% assign topics = publications | map: "topics" | join: "|" | split: "|" | uniq | sort -%}
 {% assign types = publications | map: "type" | uniq | sort -%}
@@ -38,13 +33,18 @@
 <li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
 <div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 {%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
-{%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.recording %}
+{%- assign open_doi = false %}
+{%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
+{%- assign request = false %}
+{%- unless pub.pdf or open_doi %}{% assign request = true %}{% endunless %}
+{%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.recording or request %}
 <div class="publication-links">
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
-{%- if pub.bib %} <a href="{{ pub.bib }}">bib</a>{% endif %}
+{%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
 {%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
 {%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
+{%- if request %} <a href="mailto:{{ site.author.email }}?subject={{ "Request for Paper: " | append: pub.title | url_encode | replace: "+", "%20" }}">email me</a>{% endif %}
 </div>
 {%- endif %}
 <div class="publication-tags">
