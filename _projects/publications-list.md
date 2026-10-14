@@ -37,7 +37,14 @@
 {%- comment %} `type` may be a single type or a list of them {% endcomment %}
 {%- assign pub_types = pub.type | join: "|" | split: "|" %}
 <li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{% for t in pub_types %}{{ t | slugify }} {% endfor %}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
-<div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+{%- comment %} Bold my name when there's more than one author {% endcomment %}
+{%- assign authors = pub.citation | split: " (2" | first %}
+{%- assign opening = pub.citation | slice: 0, 18 %}
+{%- assign citation = pub.citation %}
+{%- if authors contains "Richard Littauer" and opening != "Richard Littauer (" and opening != "Richard Littauer. " %}
+{%- assign citation = citation | replace_first: "Richard Littauer", "**Richard Littauer**" %}
+{%- endif %}
+<div class="publication-citation">{{ citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 {%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
 {%- assign open_doi = false %}
 {%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
@@ -80,3 +87,45 @@
 <p id="publication-empty" hidden>No publications match. <button type="button" class="pub-clear">Clear filters</button></p>
 
 <script src="/assets/js/publications.js"></script>
+
+{%- comment %} schema.org metadata for search engines. Work still in review is left out. {% endcomment %}
+{%- assign published = publications | where_exp: "pub", "pub.year != 'In Review'" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Publications and research outputs by Richard Littauer",
+  "itemListElement": [
+{%- for pub in published %}
+{%- assign pub_types = pub.type | join: "|" | split: "|" %}
+{%- assign schema_type = "CreativeWork" %}
+{%- if pub_types contains "Journal Article" or pub_types contains "Short Note" or pub_types contains "Proceedings" or pub_types contains "Book Review" %}{% assign schema_type = "ScholarlyArticle" %}
+{%- elsif pub_types contains "Book Chapter" %}{% assign schema_type = "Chapter" %}
+{%- elsif pub_types contains "Thesis" %}{% assign schema_type = "Thesis" %}
+{%- elsif pub_types contains "Report" %}{% assign schema_type = "Report" %}
+{%- elsif pub_types contains "Software" %}{% assign schema_type = "SoftwareSourceCode" %}
+{%- elsif pub_types contains "Data" %}{% assign schema_type = "Dataset" %}
+{%- elsif pub_types contains "Popular Article" %}{% assign schema_type = "Article" %}
+{%- elsif pub_types contains "Presentation" or pub_types contains "Poster" %}{% assign schema_type = "PresentationDigitalDocument" %}
+{%- endif %}
+{%- assign author_names = pub.citation | split: " (2" | first | remove: ", et al." | remove: " et al." | remove: ", eds." | replace: " & ", ", " | split: ", " %}
+{%- capture link %}{% if pub.doi %}https://doi.org/{{ pub.doi }}{% elsif pub.url %}{{ pub.url }}{% elsif pub.pdf %}{{ site.production_url }}{{ pub.pdf }}{% endif %}{% endcapture %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": {{ schema_type | jsonify }},
+        "name": {{ pub.title | jsonify }},
+        "datePublished": "{{ pub.year }}",
+        "author": [{% for name in author_names %}{"@type": "Person", "name": {{ name | strip | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        "keywords": {{ pub.topics | join: ", " | jsonify }}
+        {%- if pub.doi %},
+        "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ pub.doi | jsonify }}}{% endif %}
+        {%- if link != "" %},
+        "url": {{ link | jsonify }}{% endif %}
+      }
+    }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+  ]
+}
+</script>
