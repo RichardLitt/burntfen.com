@@ -288,9 +288,9 @@
   bib: /publications/bib/Rubin2026PyConAU.bib
 
 - year: 2026
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Using Local VLMs for Data Extraction"
   citation: |-
     Richard Littauer (2026). Using Local VLMs for Data Extraction. *Aotearoa New Zealand Research Software Conference (NZRS 2026)*, 7 September, 2026. Online.
@@ -332,9 +332,9 @@
   bib: /publications/bib/Littauer2026WEC.bib
 
 - year: 2026
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Research Software Engineering in the Age of Generative AI"
   citation: |-
     Richard Littauer, Michelle Barker, Sandra Gesing (2026). Research Software Engineering in the Age of Generative AI. *Research Software Asia Australia 2026*, 26 August, 2026.
@@ -464,9 +464,9 @@
   bib: /publications/bib/Littauer2026LathrobiumSapaense.bib
 
 - year: 2026
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software, Open Science]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
   citation: |-
     Daniel S. Katz, Warrick Ball, Patrick Diehl, Richard Littauer, Kyle Niemeyer, Arfon Smith (2026). The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI. *6th Conference for Research Software Engineering in Germany (deRSE26)*, Stuttgart, Germany.
@@ -579,9 +579,9 @@
   bib:
 
 - year: 2026
-  type: Poster
+  type: [Abstract, Poster]
   topics: [Ornithology]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "An Update on New Zealand Beach Patrols"
   citation: |-
     Richard Littauer (2026). An Update on New Zealand Beach Patrols. *Pacific Seabird Group 2026*, February 23–27, 2026.
@@ -646,20 +646,21 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
 
 - year: 2025
-  type: Report
+  type: Presentation
   topics: [Research Software]
   peer_reviewed: false
   title: "Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions"
   citation: |-
-    Michelle Barker, Richard Littauer (2025). Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions. Zenodo.
+    Michelle Barker, Richard Littauer (2025). Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions. *NZ RSE Conference*, 23 September, 2025. Online.
   doi: 10.5281/zenodo.18429386
   pdf:
   bib: /publications/bib/Barker2025InstitutionalPolicy.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/Slides-NZ-RSE-Sept-2025.pdf
 
 - year: 2025
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Write all the things? The process of collaboratively writing papers #RSAA25"
   citation: |-
     Richard Littauer (2025). Write all the things? The process of collaboratively writing papers. *Research Software Asia Australia Conference (RSAA25)*, 19 September, 2025.
@@ -724,9 +725,9 @@
   bib: /publications/bib/Littauer2025Bewicks.bib
 
 - year: 2025
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Ornithology, Taxonomic Nomenclature]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "What's in a name: Understanding scientific names for our birds, according to the ICZN Code"
   citation: |-
     Richard Littauer (2025). What's in a name: Understanding scientific names for our birds, according to the ICZN Code. *85th Birds NZ Conference*, 2 June, 2025, Auckland, NZ.
@@ -880,9 +881,9 @@
   bib: /publications/bib/2026OFAOST.bib
 
 - year: 2025
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Quick tips for making your software outlive your job"
   citation: |-
     Richard Littauer, Ian McInerney, Clare Dillon, Daniel S. Katz (2025). Quick tips for making your software outlive your job. *RSE Conference 2025 (RSECon25)*, Warwick, UK.
@@ -891,9 +892,9 @@
   bib: /publications/bib/Littauer2025QuickTips.bib
 
 - year: 2025
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Taxonomic Nomenclature, Linguistics]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Lūdente linguā: Language Use and Performance in Zoological Nomenclature"
   citation: |-
     Richard Littauer (2025). Lūdente linguā: Language Use and Performance in Zoological Nomenclature. *New Historians' Conference 2025*, 29–30 August, 2025, Wellington, NZ.
@@ -903,9 +904,9 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.08.29%20-%20New%20Historians%20-%20Ludente%20lingua.pdf
 
 - year: 2025
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Taxonomic Nomenclature, Open Science]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Words, words, words, you fishmonger: Using Wikidata to Reconcile Taxonomies"
   citation: |-
     Richard Littauer (2025). Words, words, words, you fishmonger: Using Wikidata to Reconcile Taxonomies. *Seattle GNU/Linux Conference (SeaGL) 2025*, November 8, 2025, Seattle, WA (remote).
@@ -936,6 +937,31 @@
   pdf:
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/2025-08-05%20OSS%20UN%20Sustainability%20Presentation.pdf
+
+- year: 2025
+  type: Presentation
+  topics: [Research Software]
+  peer_reviewed: false
+  title: "10 quick tips for making your software outlive your job"
+  citation: |-
+    Richard Littauer (2025). 10 quick tips for making your software outlive your job. *2025 IEEE New Zealand Central Section Postgraduate Symposium*, Te Herenga Waka Victoria University of Wellington, Wellington, NZ, August 25, 2025.
+  doi:
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/IEEE%20Presentation_%2010%20quick%20tips%20for%20making%20your%20software%20outlive%20your%20job.pdf
+
+- year: 2025
+  type: Presentation
+  topics: [Open Science]
+  peer_reviewed: false
+  title: "OpenRefine"
+  citation: |-
+    Richard Littauer (2025). OpenRefine. *WikiCon Aotearoa 2025*, Ōtautahi Christchurch, NZ, May 17, 2025.
+  doi:
+  url: https://en.wikipedia.org/wiki/Wikipedia:WikiCon_Aotearoa/Christchurch_2025
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/WikiCon%20%E2%80%93%20OpenRefine%20Presentation.pdf
 
 - year: 2024
   type: Software
@@ -993,9 +1019,9 @@
   bib: /publications/bib/Bakhshi20242ndInternational.bib
 
 - year: 2024
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software, Open Source]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "From Core to A'Tuin: Citing Software All The Way Down the Stack"
   citation: |-
     Richard Littauer, Tobias Augspurger, Andrew Nesbitt (2024). From Core to A'Tuin: Citing Software All The Way Down the Stack. *US-RSE 2024*, Albuquerque, NM, October 17, 2024.
@@ -1005,9 +1031,9 @@
   slides: https://github.com/RichardLitt/talks/blob/main/From%20Core%20to%20A%27Tuin_%20Citing%20Software%20All%20The%20Way%20Down%20The%20Stack.pdf
 
 - year: 2024
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Ornithology]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Using iNaturalist, eBird, and Python to become a community scientist"
   citation: |-
     Richard Littauer (2024). Using iNaturalist, eBird, and Python to become a community scientist. *Kiwi PyCon*, Wellington, NZ, July 24, 2024.
@@ -1028,6 +1054,18 @@
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/Evergreen%20Keynote%20What%20is%20Sustainable%20Open%20Source.pptx
 
+- year: 2024
+  type: Presentation
+  topics: [Ornithology, Open Source]
+  peer_reviewed: false
+  title: "eBird Seamounts"
+  citation: |-
+    Richard Littauer (2024). eBird Seamounts. Lightning talk, *GUADEC 2024*, Denver, CO, July 23, 2024.
+  doi:
+  pdf:
+  bib:
+  recording: https://www.youtube.com/watch?v=0oRa8bnNUjk&t=2410s
+
 - year: 2023
   type: Report
   topics: [Open Science, Research Software]
@@ -1040,9 +1078,9 @@
   bib: /publications/bib/Choudhury2023GuideSet.bib
 
 - year: 2023
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Ornithology, Open Source]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Using FLOSS to plan your daily exercise by birding!"
   citation: |-
     Richard Littauer (2023). Using FLOSS to plan your daily exercise by birding! *Seattle GNU/Linux Conference 2023*, Seattle, WA, November 3, 2023.
@@ -1051,6 +1089,7 @@
   pdf:
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/Using%20FLOSS%20to%20plan%20your%20daily%20exercise%20by%20birding%21.pptx
+  recording: https://www.youtube.com/live/9-mCsIonljc?si=v1UPT6wME9ahbq1X&t=4868
 
 - year: 2023
   type: Presentation
@@ -1111,26 +1150,26 @@
   bib: /publications/bib/LittauerAFOBewicks.bib
 
 - year: 2022
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Ornithology, Open Source]
-  peer_reviewed: false
-  title: "Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software"
+  peer_reviewed: true
+  title: "Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution"
   citation: |-
-    Richard Littauer (2022). Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software. *Seattle GNU/Linux Conference 2022*, Seattle, WA, November 4, 2022.
+    Richard Littauer (2022). Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution. *Seattle GNU/Linux Conference 2022*, Seattle, WA, November 4, 2022.
   doi:
-  url: https://osem.seagl.org/conferences/seagl2021/program/proposals/844
+  url: https://osem.seagl.org/conferences/seagl2022/program/proposals/915
   pdf:
   bib:
 
 - year: 2021
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Ornithology, Open Source]
-  peer_reviewed: false
-  title: "Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution"
+  peer_reviewed: true
+  title: "Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software"
   citation: |-
-    Richard Littauer (2021). Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution. *Seattle GNU/Linux Conference 2021*, Seattle, WA, November 6, 2021.
+    Richard Littauer (2021). Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software. *Seattle GNU/Linux Conference 2021*, Seattle, WA, November 6, 2021.
   doi:
-  url: https://osem.seagl.org/conferences/seagl2022/program/proposals/915
+  url: https://osem.seagl.org/conferences/seagl2021/program/proposals/844
   pdf:
   bib:
 
@@ -1145,6 +1184,42 @@
   pdf:
   bib:
   recording: https://www.youtube.com/watch?v=dgjLV39q1lY
+
+- year: 2018
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "NVC over MVC"
+  citation: |-
+    Richard Littauer (2018). NVC over MVC. *Open Source Montréal*, Montréal, QC.
+  doi:
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/nvc.pdf
+
+- year: 2017
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "Hacking the Git protocol"
+  citation: |-
+    Richard Littauer (2017). Hacking the Git protocol. *PolyHack Toronto*, Toronto, ON, August 29, 2017.
+  doi:
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/Toronto%20PolyHack%20Git.key
+
+- year: 2017
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "bootstrapping your flipflops"
+  citation: |-
+    Richard Littauer (2017). bootstrapping your flipflops. *Aerolab and Hacker Paradise*, January 31, 2017.
+  doi:
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/bootstrapping%20your%20flipflops.pdf
 
 - year: 2016
   type: Proceedings
@@ -1203,6 +1278,18 @@
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/name-your-contributors.pdf
 
+- year: 2016
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "Nomadism"
+  citation: |-
+    Richard Littauer (2016). Nomadism. *Hacker Paradise*, June 30, 2016, and January 14, 2017.
+  doi:
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/nomadism.key
+
 - year: 2015
   type: Presentation
   topics: [Open Source]
@@ -1214,6 +1301,7 @@
   pdf:
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/git%20yolo.pdf
+  recording: https://www.youtube.com/watch?v=_KY9ltbdoK4
 
 - year: 2014
   type: Proceedings
@@ -1424,9 +1512,9 @@
   bib:
 
 - year: 2012
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Linguistics]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Constructing Corpora for Low Resource Languages from Social Media"
   citation: |-
     Richard Littauer (2012). Constructing Corpora for Low Resource Languages from Social Media. *51st Students' Conference of Linguistics (StuTS)*, Stuttgart, Germany, May 16–20, 2012.
@@ -1460,9 +1548,9 @@
   slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2011
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Linguistics, Open Science]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Towards Open Methods: Using Scientific Workflows in Linguistics"
   citation: |-
     Richard Littauer (2011). Towards Open Methods: Using Scientific Workflows in Linguistics. *Open Linguistics Workshop*, Open Knowledge Conference, Berlin, Germany, June 30, 2011.
@@ -1483,9 +1571,9 @@
   bib:
 
 - year: 2011
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Linguistics]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "The Evolution of Speech Segmentation: A Computer Model"
   citation: |-
     Richard Littauer (2011). The Evolution of Speech Segmentation: A Computer Model. *Linguistics and English Language Undergraduate Conference 2011*, Edinburgh University, UK, April 28, 2011.
