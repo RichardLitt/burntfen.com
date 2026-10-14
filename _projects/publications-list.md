@@ -36,10 +36,10 @@
 <ul>
 {%- for pub in group.items %}
 <li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
-<div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
-{%- if pub.doi or pub.url or pub.pdf or pub.bib or pub.slides or pub.recording %}
+<div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+{%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
+{%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.recording %}
 <div class="publication-links">
-{%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
 {%- if pub.bib %} <a href="{{ pub.bib }}">bib</a>{% endif %}
