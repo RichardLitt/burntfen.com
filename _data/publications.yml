@@ -233,6 +233,17 @@
   bib:
 
 - year: 2026
+  type: Data
+  topics: [Taxonomic Nomenclature, Open Science]
+  peer_reviewed: false
+  title: "TAXACOM 1992–2025 Backup"
+  citation: |-
+    TAXACOM (2026). TAXACOM 1992–2025 Backup. Zenodo. Archive of the TAXACOM global taxonomy mailing list, deposited by Richard Littauer.
+  doi: 10.5281/zenodo.23352321
+  pdf:
+  bib: /publications/bib/Taxacom2026Backup.bib
+
+- year: 2026
   type: Journal Article
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
@@ -244,12 +255,12 @@
   bib: /publications/bib/Littauer2026NeotypeDesignation.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
+  type: Journal Article
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "No agreement required: a further note on kākāpō Strigops nomenclature"
   citation: |-
-    Richard Littauer (2026). No agreement required: a further note on kākāpō *Strigops* nomenclature. *Notornis* 73(4): 315.
+    Richard Littauer (2026). No agreement required: a further note on kākāpō *Strigops* nomenclature. *Notornis* 73(4): 315–320.
   doi: 10.63172/051543jdlmdl
   pdf:
   bib: /publications/bib/Littauer2026NoAgreement.bib
@@ -260,7 +271,7 @@
   peer_reviewed: true
   title: "Subspecific identity of channel-billed cuckoos (Scythrops novaehollandiae) vagrant to Aotearoa New Zealand"
   citation: |-
-    Richard Littauer (2026). Subspecific identity of channel-billed cuckoos (*Scythrops novaehollandiae*) vagrant to Aotearoa New Zealand. *Notornis* 73(4): 327.
+    Richard Littauer (2026). Subspecific identity of channel-billed cuckoos (*Scythrops novaehollandiae*) vagrant to Aotearoa New Zealand. *Notornis* 73(4): 327–331.
   doi: 10.63172/397288zycfgk
   pdf:
   bib: /publications/bib/Littauer2026SubspecificIdentity.bib
@@ -293,7 +304,7 @@
   peer_reviewed: true
   title: "Community-science sourced evidence of vocal mimicry in Perisoreus jays"
   citation: |-
-    Richard Littauer, Sam Darmstadt, William M. Kirsch & Davyd H. Betchkal (2026). Community-science sourced evidence of vocal mimicry in *Perisoreus* jays. *The Wilson Journal of Ornithology*, 138(3): 504-514.
+    Richard Littauer, Sam Darmstadt, William M. Kirsch & Davyd H. Betchkal (2026). Community-science sourced evidence of vocal mimicry in *Perisoreus* jays. *The Wilson Journal of Ornithology* 138(3): 504–514.
   doi: 10.1080/15594491.2026.2616578
   pdf: /publications/Littauer2026WJOPerisoreus.pdf
   bib: /publications/bib/Littauer2026WJOPerisoreus.bib
@@ -315,7 +326,7 @@
   peer_reviewed: true
   title: "Large-scale NLP detection of vocal mimicry in Australian community science bird observations"
   citation: |-
-    Richard Littauer (2026). Large-scale NLP detection of vocal mimicry in Australian community science bird observations. *World Ecoacoustics Congress 2026* Abstract Booklet, 58–58. August 17–20, 2026, Cairns / Gimuy, Australia.
+    Richard Littauer (2026). Large-scale NLP detection of vocal mimicry in Australian community science bird observations. *World Ecoacoustics Congress 2026 Abstract Booklet*, p. 58. August 17–20, 2026, Cairns / Gimuy, Australia.
   doi: 10.5281/zenodo.22169692
   pdf:
   bib: /publications/bib/Littauer2026WEC.bib
@@ -469,7 +480,7 @@
   peer_reviewed: true
   title: "On the spelling of Eupelecotheca celer Townsend, 1919 (Tachinidae, Exoristinae)"
   citation: |-
-    Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: Evenhuis, Neal L. and Pape, Thomas (Eds.) *Systema Dipterorum Nomenclatural Notes. VI.* Bishop Museum Occasional Papers 176: 1–3.
+    Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: N. L. Evenhuis, T. Pape, eds., *Systema Dipterorum Nomenclatural Notes. VI.* *Bishop Museum Occasional Papers* 176: 1–3.
   doi:
   pdf: https://hbs.bishopmuseum.org/sd/pdf/op176p1-3.pdf
   bib: /publications/bib/Littauer2026SDNN.bib
@@ -491,7 +502,7 @@
   peer_reviewed: true
   title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
   citation: |-
-    Richard Littauer (2026). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. In: Littauer, R and Ganesan, D. (Eds) *Kiwi PyCon 2025 Academic Track Proceedings*, 4–5.
+    Richard Littauer (2026). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. In: R. Littauer, D. Ganesan, eds., *Kiwi PyCon 2025 Academic Track Proceedings*, pp. 4–5.
   doi: 10.5281/zenodo.18597028
   pdf: /publications/2026Kiwi.pdf
   bib: /publications/bib/Littauer2026Kiwi.bib
@@ -584,7 +595,7 @@
   peer_reviewed: true
   title: "Tristan Moorhen (Gallinula nesiotis), version 2.0"
   citation: |-
-    Richard Littauer (2025). Tristan Moorhen (*Gallinula nesiotis*), version 2.0. In: *Birds of the World* (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA.
+    Richard Littauer (2025). Tristan Moorhen (*Gallinula nesiotis*), version 2.0. In: G. M. Kirwan, N. D. Sly, eds., *Birds of the World*. Cornell Lab of Ornithology, Ithaca, NY, USA.
   doi: 10.2173/bow.trimoo2.02
   pdf:
   bib: /publications/bib/Littauer2025Botw.bib
@@ -774,7 +785,7 @@
   peer_reviewed: false
   title: "Audio observation of a Wellington Tree Wētā Hemideina crassidens defence stridulation"
   citation: |-
-    Richard Littauer (2025). Audio observation of a Wellington Tree Wētā *Hemideina crassidens* defence stridulation. *The Wētā*, 58: 55–57.
+    Richard Littauer (2025). Audio observation of a Wellington Tree Wētā *Hemideina crassidens* defence stridulation. *The Wētā* 58: 55–57.
   doi:
   url: https://weta.ento.org.nz/index.php/weta/article/view/436/420
   pdf:
@@ -863,7 +874,7 @@
   peer_reviewed: false
   title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
   citation: |-
-    Littauer, R., Augspurger, T., Stinson, A., Vogler-Finck, P. J. C., Nesbitt, A., & Harris, C. (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology (1.0). Zenodo.
+    Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre J. C. Vogler-Finck, Andrew Nesbitt, Chris Harris (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology (1.0). Zenodo.
   doi: 10.5281/zenodo.17459415
   pdf: /publications/2026OFAOST.pdf
   bib: /publications/bib/2026OFAOST.bib
@@ -925,6 +936,17 @@
   pdf:
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/2025-08-05%20OSS%20UN%20Sustainability%20Presentation.pdf
+
+- year: 2024
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "standard-readme"
+  citation: |-
+    Richard Littauer, et al. (2024). standard-readme. Zenodo.
+  doi: 10.5281/zenodo.11164867
+  pdf:
+  bib: /publications/bib/Littauer2024StandardReadme.bib
 
 - year: 2024
   type: Short Note
@@ -1071,7 +1093,7 @@
   peer_reviewed: true
   title: "On Tocharian Exceptionality to the centum-satem Isogloss"
   citation: |-
-    Richard Littauer (2022). *On Tocharian Exceptionality to the* centum-satem *Isogloss*. In: C. Wilson, ed., *Undergraduate Linguistics Association of Britain 2012 Proceedings*. Bristol, UK: online.
+    Richard Littauer (2022). On Tocharian Exceptionality to the *centum-satem* Isogloss. In: C. Wilson, ed., *Undergraduate Linguistics Association of Britain 2012 Proceedings*, pp. 18–25. Bristol, UK: online.
   doi: 10.5281/zenodo.6969558
   pdf: /publications/LittULAB.pdf
   bib: /publications/bib/LittULAB.bib
@@ -1082,7 +1104,7 @@
   peer_reviewed: true
   title: "A Proposal for Renaming Bill Types of Bewick's Swans"
   citation: |-
-    Littauer, Richard (2022). A Proposal for Renaming Bill Types of Bewick's Swans. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022.
+    Richard Littauer (2022). A Proposal for Renaming Bill Types of Bewick's Swans. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022.
   doi:
   url: https://afonet.org/uploads/2022_AFO100_Abstracts.pdf
   pdf: /publications/LittauerAFOBewicks.pdf
@@ -1130,7 +1152,7 @@
   peer_reviewed: true
   title: "Open Source Code Serving Endangered Languages"
   citation: |-
-    Richard Littauer, Hugh Paterson III (2016). Open Source Code Serving Endangered Languages. In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, Eveline Wandl-Vogt, eds., *Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop*. Portorož, Slovenia, 23 May, 2016.
+    Richard Littauer, Hugh Paterson III (2016). Open Source Code Serving Endangered Languages. In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, E. Wandl-Vogt, eds., *Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop*, pp. 86–88. Portorož, Slovenia, 23 May, 2016.
   doi:
   pdf: https://github.com/RichardLitt/endangered-languages/raw/master/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf
   bib: /publications/bib/CCURL.bib
@@ -1141,7 +1163,7 @@
   peer_reviewed: true
   title: "Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)"
   citation: |-
-    Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). *Journal of Open Research Software*, 4(1): e7.
+    Daniel S. Katz, Sou-Cheng T. Choi, Nancy Wilkins-Diehr, Neil Chue Hong, Colin C. Venters, James Howison, Frank Seinstra, Matthew Jones, Karen A. Cranston, Thomas L. Clune, Miguel de Val-Borro, Richard Littauer (2016). Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). *Journal of Open Research Software* 4(1): e7.
   doi: 10.5334/jors.85
   pdf:
   bib: /publications/bib/wssspe2.bib
@@ -1199,7 +1221,7 @@
   peer_reviewed: true
   title: "From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research"
   citation: |-
-    Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp. 121-132. Tokyo, Japan: Evolang 9 Organizing Committee.
+    Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp. 121–132. Tokyo, Japan: Evolang 9 Organizing Committee.
   doi:
   url: http://kyoto.evolang.org/sites/default/files/student_volume.pdf
   pdf:
@@ -1211,7 +1233,7 @@
   peer_reviewed: true
   title: "Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments"
   citation: |-
-    Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments. In: I. Gurevych and J. Kim, eds., *The People's Web Meets NLP: Collaboratively Constructed Language Resources*, pp. 315-348. Springer.
+    Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments. In: I. Gurevych and J. Kim, eds., *The People's Web Meets NLP: Collaboratively Constructed Language Resources*, pp. 315–348. Springer.
   doi: 10.1007/978-3-642-35085-6_12
   pdf:
   bib: /publications/bib/ChiarcosLOD.bib
@@ -1222,7 +1244,7 @@
   peer_reviewed: true
   title: "Linguistic Resources Enhanced with Geospatial Information"
   citation: |-
-    Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). Linguistic Resources Enhanced with Geospatial Information. In: C. Chiarcos, P. Cimiano, T. Declerck, J. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53-58. Pisa, Italy: Association for Computational Linguistics.
+    Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). Linguistic Resources Enhanced with Geospatial Information. In: C. Chiarcos, P. Cimiano, T. Declerck, J. P. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53–58. Pisa, Italy: Association for Computational Linguistics.
   doi:
   url: https://aclanthology.org/W13-5508/
   pdf:
@@ -1234,7 +1256,7 @@
   peer_reviewed: false
   title: "Review of Potentials of Language Documentation: Methods, Analyses, and Utilization"
   citation: |-
-    Richard Littauer (2013). Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., *Potentials of Language Documentation: Methods, Analyses, and Utilization*. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press. *LINGUIST List*, 24.2604.
+    Richard Littauer (2013). Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., *Potentials of Language Documentation: Methods, Analyses, and Utilization*. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press. *LINGUIST List* 24.2604.
   doi:
   url: https://linguistlist.org/issues/24/2604/
   pdf:
@@ -1281,7 +1303,7 @@
   peer_reviewed: true
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices"
   citation: |-
-    Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Data Curation*, 7(2): 92-100.
+    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Data Curation* 7(2): 92–100.
   doi: 10.2218/ijdc.v7i2.232
   pdf: http://ijdc.net/index.php/ijdc/article/download/222/291
   bib: /publications/bib/LittIJDC.bib
@@ -1293,7 +1315,7 @@
   peer_reviewed: true
   title: "Replicating Oliphant's Saussurean Simulations"
   citation: |-
-    Richard Littauer (2012). Replicating Oliphant's Saussurean Simulations. *Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies*, 3(1).
+    Richard Littauer (2012). Replicating Oliphant's Saussurean Simulations. *Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies* 3(1).
   doi: 10.5281/zenodo.22169033
   pdf: /publications/LittDebut.pdf
   bib: /publications/bib/LittDebut.bib
@@ -1304,7 +1326,7 @@
   peer_reviewed: false
   title: "Review of Language Policy and Language Conflict in Afghanistan and Its Neighbors"
   citation: |-
-    Richard Littauer (2012). Review of H. Schiffman & B. Spooner, eds., *Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice*. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill. *LINGUIST List*, 23.3813.
+    Richard Littauer (2012). Review of H. Schiffman & B. Spooner, eds., *Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice*. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill. *LINGUIST List* 23.3813.
   doi:
   url: https://linguistlist.org/issues/23/3813/
   pdf:
@@ -1316,7 +1338,7 @@
   peer_reviewed: true
   title: "Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet"
   citation: |-
-    Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet. In: Jan Christoph Meister, ed., *Digital Humanities 2012 Conference Abstracts*, pp. 268-269, University of Hamburg, July 16-22. Hamburg: Hamburg University Press.
+    Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet. In: J. C. Meister, ed., *Digital Humanities 2012 Conference Abstracts*, pp. 268–269, University of Hamburg, July 16–22. Hamburg: Hamburg University Press.
   doi:
   pdf: /publications/LittDH.pdf
   bib: /publications/bib/LittDH.bib
@@ -1327,8 +1349,8 @@
   peer_reviewed: true
   title: "The Open Linguistics Working Group"
   citation: |-
-    Christian Chiarcos, Sebastian Hellmann, Sebastian Nordhoff, Steven Moran, Richard Littauer, Judith Eckle-Kohler, Iryna Gurevych, Silvana Hartmann, Michael Matuschek, Christian M. Meyer (2012). The Open Linguistics Working Group. In Calzolari, N., Choukri, K., Declerck, T., Doğan, M.U., Maegaard, B., Mariani, J., Odijk, J., and Piperidis, S., eds., *Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12)*. Istanbul, Turkey, 23-25 May, 2012. European Language Resources Association (ELRA).
-  doi:
+    Christian Chiarcos, Sebastian Hellmann, Sebastian Nordhoff, Steven Moran, Richard Littauer, Judith Eckle-Kohler, Iryna Gurevych, Silvana Hartmann, Michael Matuschek, Christian M. Meyer (2012). The Open Linguistics Working Group. In: N. Calzolari, K. Choukri, T. Declerck, M. U. Doğan, B. Maegaard, J. Mariani, J. Odijk, S. Piperidis, eds., *Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC'12)*, pp. 3603–3610. Istanbul, Turkey, 23–25 May, 2012. European Language Resources Association (ELRA).
+  doi: 10.63317/4zgv9goq5odq
   pdf: /publications/OKFLREC.pdf
   bib: /publications/bib/OKFLREC.bib
 
@@ -1338,7 +1360,7 @@
   peer_reviewed: true
   title: "Visualising Typological Relationships: Plotting WALS with Heat Maps"
   citation: |-
-    Richard Littauer, Rory Turnbull, Alexis Palmer (2012). Visualising Typological Relationships: Plotting WALS with Heat Maps. In *Proceedings of the European Association of Computational Linguistics 2012 Workshop on the Visualization of Linguistic Patterns*, pp. 30–34. Avignon, France, 23-24 April, 2012.
+    Richard Littauer, Rory Turnbull, Alexis Palmer (2012). Visualising Typological Relationships: Plotting WALS with Heat Maps. In: *Proceedings of the European Association of Computational Linguistics 2012 Workshop on the Visualization of Linguistic Patterns*, pp. 30–34. Avignon, France, 23–24 April, 2012.
   doi:
   url: https://aclanthology.org/W12-0205/
   pdf: /publications/LittEACL.pdf
@@ -1351,7 +1373,7 @@
   peer_reviewed: true
   title: "The Evolution of Morphological Agreement"
   citation: |-
-    Richard Littauer (2012). The Evolution of Morphological Agreement. In Scott-Phillips, T.C. and Tamariz, M. and Cartmill, E.A. and Hurford, J.R., eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pages 484-485, Singapore, 2012. World Scientific.
+    Richard Littauer (2012). The Evolution of Morphological Agreement. In: T. C. Scott-Phillips, M. Tamariz, E. A. Cartmill, J. R. Hurford, eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pp. 484–485. Singapore: World Scientific.
   doi: 10.1142/9789814401500_0092
   pdf: /publications/LittEvoA.pdf
   bib: /publications/bib/LittEvoA.bib
@@ -1360,9 +1382,9 @@
   type: [Proceedings, Abstract, Poster]
   topics: [Linguistics]
   peer_reviewed: true
-  title: "Re-dating the Loss of Laryngeal Air Sacs in Homo Sapiens"
+  title: "Re-dating the Loss of Laryngeal Air Sacs in Homo sapiens"
   citation: |-
-    Richard Littauer (2012). Re-dating the Loss of Laryngeal Air Sacs in *Homo Sapiens*. In Scott-Phillips, T.C. and Tamariz, M. and Cartmill, E.A. and Hurford, J.R., eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pages 486-487, Singapore. World Scientific.
+    Richard Littauer (2012). Re-dating the Loss of Laryngeal Air Sacs in *Homo sapiens*. In: T. C. Scott-Phillips, M. Tamariz, E. A. Cartmill, J. R. Hurford, eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pp. 486–487. Singapore: World Scientific.
   doi: 10.1142/9789814401500_0093
   pdf: /publications/LittEvoB.pdf
   bib: /publications/bib/LittEvoB.bib
@@ -1373,7 +1395,7 @@
   peer_reviewed: true
   title: "A Reanalysis of Anatomical Changes for Language"
   citation: |-
-    Littauer, Richard (2012). A Reanalysis of Anatomical Changes for Language. In: O. Ozbak, T. Soultatis, S. Kampouri and A. Menkabu, eds., *Language at the University of Essex (LangUE) 2011 Proceedings*, 25–30. Department of Language and Linguistics, University of Essex.
+    Richard Littauer (2012). A Reanalysis of Anatomical Changes for Language. In: O. Ozbak, T. Soultatis, S. Kampouri and A. Menkabu, eds., *Language at the University of Essex (LangUE) 2011 Proceedings*, pp. 25–30. Department of Language and Linguistics, University of Essex.
   doi:
   pdf: /publications/LittEssex.pdf
   bib: /publications/bib/LittEssex.bib
@@ -1385,7 +1407,7 @@
   peer_reviewed: true
   title: "Crowd sourcing the classroom: Interactive applications in higher learning"
   citation: |-
-    Richard Littauer, Antonia Scheidel, Marc Schulder, Sibel Ciddi (2012). Crowd sourcing the classroom: Interactive applications in higher learning. In Gómez Chova, L., Candel Torres, I., López Martínez, A., eds. *Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)*, pp. 1473-1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED).
+    Richard Littauer, Antonia Scheidel, Marc Schulder, Sibel Ciddi (2012). Crowd sourcing the classroom: Interactive applications in higher learning. In: L. Gómez Chova, I. Candel Torres, A. López Martínez, eds., *Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)*, pp. 1473–1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED).
   doi:
   pdf: /publications/LittEdulearn.pdf
   bib: /publications/bib/LittEdulearn.bib
@@ -1431,7 +1453,7 @@
   peer_reviewed: true
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
   citation: |-
-    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. In *7th International Digital Curation Conference Proceedings*, Bristol, 7-9 December, 2011.
+    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. In: *7th International Digital Curation Conference Proceedings*, Bristol, 7–9 December, 2011.
   doi:
   pdf: /publications/LittIDCC.pdf
   bib: /publications/bib/LittIDCC.bib
