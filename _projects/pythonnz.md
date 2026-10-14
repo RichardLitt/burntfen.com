@@ -5,7 +5,7 @@ picture: Python_New_Zealand_Logo_Square.svg
 picture-small: Python_New_Zealand_Logo_Square.svg
 status: Ongoing
 role: Member
-stub: PythonNZ
+stub: Python community in Aotearoa
 ranking: 5
 outbound: https://python.nz/
 ---
