@@ -1380,6 +1380,18 @@
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/nomadism.key
 
+- year: 2016
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "Multiformats"
+  citation: |-
+    Richard Littauer (2016). Multiformats. *Decentralized Web Montreal*, Montréal, QC, March 20, 2016.
+  doi:
+  pdf:
+  bib:
+  slides: https://github.com/RichardLitt/talks/blob/main/multiformats.key
+
 - year: 2015
   type: Presentation
   topics: [Open Source]
