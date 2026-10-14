@@ -36,7 +36,8 @@
 {%- assign open_doi = false %}
 {%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
 {%- assign request = false %}
-{%- unless pub.pdf or open_doi %}{% assign request = true %}{% endunless %}
+{%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume" | split: "," %}
+{%- unless pub.pdf or open_doi or not_a_paper contains pub.type %}{% assign request = true %}{% endunless %}
 {%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.recording or request %}
 <div class="publication-links">
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
