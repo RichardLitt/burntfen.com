@@ -36,14 +36,18 @@
 <ul>
 {%- for pub in group.items %}
 <li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
-{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+<div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
+{%- if pub.doi or pub.url or pub.pdf or pub.bib or pub.slides or pub.recording %}
+<div class="publication-links">
 {%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
 {%- if pub.bib %} <a href="{{ pub.bib }}">bib</a>{% endif %}
 {%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
 {%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
-<span class="publication-tags">
+</div>
+{%- endif %}
+<div class="publication-tags">
 {%- if pub.peer_reviewed %}
 <button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
 {%- endif %}
@@ -51,7 +55,7 @@
 {%- for topic in pub.topics %}
 <button type="button" class="pub-tag" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
 {%- endfor %}
-</span>
+</div>
 </li>
 {%- endfor %}
 </ul>

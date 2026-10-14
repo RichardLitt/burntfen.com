@@ -80,13 +80,25 @@
 
 #publication-list {
   ul {
-    padding-left: 20px;
+    padding-left: 0;
+    list-style: none;
   }
   .publication {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
+  }
+  // Links and tags hang under the citation so the citations stand out.
+  .publication-links,
+  .publication-tags {
+    padding-left: 24px;
+  }
+  .publication-links {
+    margin-top: 2px;
+    font-size: 14px;
+    a {
+      margin-right: 10px;
+    }
   }
   .publication-tags {
-    display: block;
     margin-top: 4px;
   }
 }
