@@ -10,12 +10,24 @@
     var query = search.value.trim().toLowerCase();
     var tags = Object.keys(active);
     var shown = 0;
+    // Tags carried by at least one visible item: any other filter would empty the list.
+    var available = {};
     items.forEach(function (item) {
       var itemTags = item.getAttribute('data-tags').split(' ');
       var match = tags.every(function (t) { return itemTags.indexOf(t) !== -1; }) &&
         (!query || item.textContent.toLowerCase().indexOf(query) !== -1);
       item.hidden = !match;
-      if (match) shown++;
+      if (match) {
+        shown++;
+        itemTags.forEach(function (t) { available[t] = true; });
+      }
+    });
+    document.querySelectorAll('#publication-filters .pub-tag').forEach(function (button) {
+      var tag = button.getAttribute('data-tag');
+      button.hidden = !active[tag] && !available[tag];
+    });
+    document.querySelectorAll('#publication-filters .tag-group').forEach(function (group) {
+      group.hidden = !group.querySelector('.pub-tag:not([hidden])');
     });
     document.querySelectorAll('.publication-year').forEach(function (year) {
       year.hidden = !year.querySelector('.publication:not([hidden])');
