@@ -77,8 +77,18 @@
   background: #eee;
   border: 1px solid transparent;
   border-radius: 0;
-  &:hover,
+  // Only show red for a real pointer hover or keyboard focus; a clicked or
+  // tapped tag keeps focus, and shouldn't stay red after it's toggled off.
+  @media (hover: hover) {
+    &:hover {
+      color: red;
+      border-color: red;
+    }
+  }
   &:focus {
+    outline: none;
+  }
+  &:focus-visible {
     color: red;
     border-color: red;
   }
