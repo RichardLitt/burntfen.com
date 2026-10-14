@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Gnome"
+title: "GNOME"
 picture: gnome.png
 picture-small: gnome-200.png
 status: 2024-2025
