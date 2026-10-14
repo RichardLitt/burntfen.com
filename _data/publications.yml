@@ -1264,6 +1264,17 @@
   bib:
   slides: https://github.com/RichardLitt/talks/blob/main/nvc.pdf
 
+- year: 2018
+  type: Thesis
+  topics: [Linguistics, Open Source]
+  peer_reviewed: false
+  title: "Open Source Code and Endangered Languages"
+  citation: |-
+    Richard Littauer (2018). Open Source Code and Endangered Languages. MSc dissertation, Language Science and Technology, Universität des Saarlandes, Saarbrücken, Germany. Supervisors: Alexis Palmer and Dietrich Klakow.
+  doi:
+  pdf:
+  bib:
+
 - year: 2017
   type: Popular Article
   topics: [Botany, Linguistics, Literary Studies]
@@ -1661,6 +1672,17 @@
   bib:
   slides: http://www.slideshare.net/RichLitt/the-evolution-of-speech-segmentation-a-computer-simulation
 
+- year: 2011
+  type: Thesis
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "The Evolution of Speech Segmentation: A Computer Model"
+  citation: |-
+    Richard Littauer (2011). The Evolution of Speech Segmentation: A Computer Model. MA (Hons) dissertation, Linguistics, University of Edinburgh, UK. Supervisor: Kenny Smith.
+  doi:
+  pdf:
+  bib:
+
 - year: 2010
   type: Presentation
   topics: [Linguistics]
@@ -1672,3 +1694,25 @@
   pdf:
   bib:
   recording: http://www.youtube.com/playlist?list=PLC63D005AEEA69981
+
+- year: 2009
+  type: Popular Article
+  topics: [Arts]
+  peer_reviewed: false
+  title: "Kaspian Shore"
+  citation: |-
+    Richard Littauer (2009). Kaspian Shore. Artist profile. *Chaos Magazine*, Issue 2, Spring 2009.
+  doi:
+  pdf:
+  bib:
+
+- year: 2008
+  type: Popular Article
+  topics: [Arts]
+  peer_reviewed: false
+  title: "Emma Sailor"
+  citation: |-
+    Richard Littauer (2008). Emma Sailor. Artist profile. *Chaos Magazine*, Issue 1, Winter 2008.
+  doi:
+  pdf:
+  bib:
