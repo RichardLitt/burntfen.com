@@ -1,6 +1,6 @@
 {% assign publications = site.data.publications -%}
 {% assign topics = publications | map: "topics" | join: "|" | split: "|" | uniq | sort -%}
-{% assign types = publications | map: "type" | uniq | sort -%}
+{% assign types = publications | map: "type" | join: "|" | split: "|" | uniq | sort -%}
 {% assign statuses = publications | map: "status" | compact | uniq -%}
 <div id="publication-filters">
 <label for="publication-search" class="sr-only">Search publications</label>
@@ -34,14 +34,18 @@
 <h3>{{ group.name }}</h3>
 <ul>
 {%- for pub in group.items %}
-<li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{{ pub.type | slugify }}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
+{%- comment %} `type` may be a single type or a list of them {% endcomment %}
+{%- assign pub_types = pub.type | join: "|" | split: "|" %}
+<li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{% for t in pub_types %}{{ t | slugify }} {% endfor %}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
 <div class="publication-citation">{{ pub.citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 {%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
 {%- assign open_doi = false %}
 {%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
 {%- assign request = false %}
 {%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume" | split: "," %}
-{%- unless pub.pdf or open_doi or not_a_paper contains pub.type %}{% assign request = true %}{% endunless %}
+{%- assign is_paper = false %}
+{%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
+{%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
 {%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.recording or request %}
 <div class="publication-links">
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
@@ -59,7 +63,9 @@
 {%- if pub.status %}
 <button type="button" class="pub-tag" data-tag="{{ pub.status | slugify }}" aria-pressed="false">{{ pub.status }}</button>
 {%- endif %}
-<button type="button" class="pub-tag" data-tag="{{ pub.type | slugify }}" aria-pressed="false">{{ pub.type }}</button>
+{%- for t in pub_types %}
+<button type="button" class="pub-tag" data-tag="{{ t | slugify }}" aria-pressed="false">{{ t }}</button>
+{%- endfor %}
 {%- for topic in pub.topics %}
 <button type="button" class="pub-tag" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
 {%- endfor %}
