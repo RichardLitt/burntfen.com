@@ -2,7 +2,7 @@
 # Rendered by _projects/publications-list.md.
 #
 # Fields:
-#   year, type, topics   - `type` and each topic become filter tags on the page
+#   year, type, topics   - `type` (one type or a list) and each topic become filter tags
 #   peer_reviewed        - true adds the "Peer Reviewed" tag, which is on by default
 #   status               - optional: "In Review" or "In Press"; becomes a tag. In-review
 #                          entries use `year: In Review` and sit at the top.
@@ -42,7 +42,7 @@
 
 - year: In Review
   type: Journal Article
-  topics: [Ornithology]
+  topics: [Ornithology, Literary Studies]
   peer_reviewed: false
   status: In Review
   title: "Katherine Mansfield’s Prelude may reference a Laughing Owl Ninox albifacies"
@@ -77,7 +77,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -125,7 +125,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -149,7 +149,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -161,7 +161,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -173,7 +173,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -197,7 +197,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -209,7 +209,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -221,7 +221,7 @@
   bib:
 
 - year: In Review
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -244,7 +244,7 @@
   bib: /publications/bib/Littauer2026NeotypeDesignation.bib
 
 - year: 2026
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "No agreement required: a further note on kākāpō Strigops nomenclature"
@@ -310,7 +310,7 @@
   bib: /publications/bib/Meluso2026NHB.bib
 
 - year: 2026
-  type: Abstract
+  type: [Abstract, Presentation]
   topics: [Ornithology]
   peer_reviewed: true
   title: "Large-scale NLP detection of vocal mimicry in Australian community science bird observations"
@@ -442,7 +442,7 @@
   bib: /publications/bib/Sun2026BeyondAdoption.bib
 
 - year: 2026
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Lathrobium sapaense Tokareva & Bekchiev, 2025 is the available name (Staphylinidae: Paederinae)"
@@ -464,7 +464,7 @@
   bib: /publications/bib/Katz2026JournalOpen.bib
 
 - year: 2026
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "On the spelling of Eupelecotheca celer Townsend, 1919 (Tachinidae, Exoristinae)"
@@ -486,7 +486,7 @@
   bib: /publications/bib/Littauer2026KiwiPyCon.bib
 
 - year: 2026
-  type: Proceedings
+  type: [Proceedings, Presentation]
   topics: [Open Science]
   peer_reviewed: true
   title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
@@ -535,7 +535,7 @@
   bib:
 
 - year: 2026
-  type: Presentation
+  type: [Presentation, Abstract]
   topics: [Open Science, Open Source]
   peer_reviewed: true
   title: "Open practices across science, software, education and other domains"
@@ -590,7 +590,7 @@
   bib: /publications/bib/Littauer2025Botw.bib
 
 - year: 2025
-  type: Abstract
+  type: [Abstract, Presentation]
   topics: [Open Science]
   peer_reviewed: false
   title: "Wiki Loves iNaturalist: How Wikimedians Integrate iNaturalist Content on Wikipedia, Wikidata, and Wikimedia Commons"
@@ -623,7 +623,7 @@
   bib: /publications/bib/Littauer2025FirstReviser.bib
 
 - year: 2025
-  type: Proceedings
+  type: [Proceedings, Presentation]
   topics: [Taxonomic Nomenclature, Open Science]
   peer_reviewed: true
   title: "Codex Mutabilis: Preserving the Reasons for Changes in Scientific Names"
@@ -658,7 +658,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/Making%20collaborative%20papers.pdf
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "On the correct spelling of Pycnocraspedum rowleyense Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae)"
@@ -669,7 +669,7 @@
   bib: /publications/bib/Littauer2025ZootaxaPycnocraspedum.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "Nomenclatural corrections for gender of species-group names for two Solomon Island birds"
@@ -680,7 +680,7 @@
   bib: /publications/bib/Littauer2025Emu.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Psacodromeus rectus Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name"
@@ -691,7 +691,7 @@
   bib: /publications/bib/Littauer2025ZootaxaPsacodromeus.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Helobdella serendipitous Saglam et al., 2018 is the available name (Annelida: Hirudinida)"
@@ -702,7 +702,7 @@
   bib: /publications/bib/Littauer2025ZootaxaHelobdella.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Ornithology]
   peer_reviewed: true
   title: "Renaming a bill type for Tundra Swan (Cygnus columbianus)"
@@ -726,7 +726,7 @@
 
 - year: 2025
   type: Journal Article
-  topics: [Ornithology]
+  topics: [Ornithology, Literary Studies]
   peer_reviewed: true
   title: "The Sooty Shearwater as Melville’s Inscrutable Haglet"
   citation: |-
@@ -736,7 +736,7 @@
   bib: /publications/bib/Littauer2025Melville.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code"
@@ -769,7 +769,7 @@
   bib: /publications/bib/Stegen2025BuildingCorpora.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Entomology]
   peer_reviewed: false
   title: "Audio observation of a Wellington Tree Wētā Hemideina crassidens defence stridulation"
@@ -792,7 +792,7 @@
   bib: /publications/bib/Littauer202510Quick.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "A nomenclatural issue related to Lopdells’ penguin Archaeospheniscus lopdelli"
@@ -814,7 +814,7 @@
   bib: /publications/bib/Littauer2025NaupliusJoeropsididae.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "First revision of karoro Larus dominicanus antipodum (Bruch, 1853)"
@@ -836,7 +836,7 @@
   bib: /publications/bib/Littauer2025HarmonizingCommunity.bib
 
 - year: 2025
-  type: Short Note
+  type: [Short Note, Journal Article]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Corrections for grammatical agreement in Ophiodermatidae"
@@ -1077,7 +1077,7 @@
   bib: /publications/bib/LittULAB.bib
 
 - year: 2022
-  type: Poster
+  type: [Abstract, Poster]
   topics: [Ornithology]
   peer_reviewed: true
   title: "A Proposal for Renaming Bill Types of Bewick's Swans"
@@ -1311,7 +1311,7 @@
   bib: /publications/bib/LittLinguist.bib
 
 - year: 2012
-  type: Proceedings
+  type: [Proceedings, Abstract, Presentation]
   topics: [Linguistics, Open Science]
   peer_reviewed: true
   title: "Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet"
@@ -1346,7 +1346,7 @@
   slides: https://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
-  type: Proceedings
+  type: [Proceedings, Abstract, Presentation]
   topics: [Linguistics]
   peer_reviewed: true
   title: "The Evolution of Morphological Agreement"
@@ -1357,7 +1357,7 @@
   bib: /publications/bib/LittEvoA.bib
 
 - year: 2012
-  type: Proceedings
+  type: [Proceedings, Abstract, Poster]
   topics: [Linguistics]
   peer_reviewed: true
   title: "Re-dating the Loss of Laryngeal Air Sacs in Homo Sapiens"
