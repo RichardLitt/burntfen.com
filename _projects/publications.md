@@ -4,6 +4,7 @@ title: "Publications"
 ranking: 5
 picture: publications.png
 picture-small: publications-200.png
+hide_picture: true
 status: Ongoing
 stub: "Academic Research"
 role: Researcher
