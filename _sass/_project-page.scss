@@ -31,6 +31,24 @@
   }
 }
 
+// Publications page: quieter links than the site default
+.publications-page {
+  p a,
+  li a,
+  .publication-citation a,
+  .publication-links a {
+    color: #666;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    &:hover,
+    &:focus {
+      color: red;
+      text-decoration-color: red;
+    }
+  }
+}
+
 // Publications page: filterable list
 #publication-filters {
   margin: 20px 0 10px;
