@@ -365,17 +365,6 @@
   bib: /publications/bib/Littauer2026DataSources.bib
 
 - year: 2026
-  type: Report
-  topics: [Open Science, Research Software]
-  peer_reviewed: false
-  title: "A Definition of an Academic OSPO"
-  citation: |-
-    Jeffrey Young, Lorena A. Barba, Sayeed Choudhury, Ciara Flanagan, David Lippert, Richard Littauer (2026). A Definition of an Academic OSPO. Te Herenga Waka—Victoria University of Wellington.
-  doi: 10.25455/wgtn.32691375
-  pdf:
-  bib: /publications/bib/Young2026DefinitionAcademic.bib
-
-- year: 2026
   type: Software
   topics: [Linguistics, Open Science]
   peer_reviewed: false
@@ -1066,6 +1055,17 @@
   bib:
   recording: https://www.youtube.com/watch?v=0oRa8bnNUjk&t=2410s
 
+- year: 2024
+  type: Report
+  topics: [Open Science, Research Software]
+  peer_reviewed: false
+  title: "A Definition of an Academic OSPO"
+  citation: |-
+    Jeffrey Young, Lorena A. Barba, Sayeed Choudhury, Ciara Flanagan, David Lippert, Richard Littauer (2024). A Definition of an Academic OSPO. Zenodo.
+  doi: 10.5281/zenodo.13910682
+  pdf:
+  bib: /publications/bib/Young2024DefinitionAcademic.bib
+
 - year: 2023
   type: Report
   topics: [Open Science, Research Software]
@@ -1126,6 +1126,28 @@
   pdf:
   bib:
 
+- year: 2023
+  type: Software
+  topics: [Ornithology, Open Source]
+  peer_reviewed: false
+  title: "Vesper"
+  citation: |-
+    Harold Mills, Alex Hirzel, Richard Littauer (2023). Vesper (v0.4.14). Zenodo.
+  doi: 10.5281/zenodo.1020572
+  pdf:
+  bib: /publications/bib/Mills2023Vesper.bib
+
+- year: 2023
+  type: Software
+  topics: [Linguistics, Open Source]
+  peer_reviewed: false
+  title: "clld: a toolkit for cross-linguistic databases"
+  citation: |-
+    Robert Forkel, Sebastian Bank, Christoph Rzymski, Hans-Jörg Bibiko, Tarik Havighorst, Florian Matter, Michael Yoshitaka Erlewine, Richard Littauer (2023). clld: a toolkit for cross-linguistic databases. Zenodo.
+  doi: 10.5281/zenodo.592412
+  pdf:
+  bib: /publications/bib/Forkel2023ClldToolkit.bib
+
 - year: 2022
   type: Proceedings
   topics: [Linguistics]
@@ -1184,6 +1206,39 @@
   pdf:
   bib:
   recording: https://www.youtube.com/watch?v=dgjLV39q1lY
+
+- year: 2019
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "java-ipfs-http-client"
+  citation: |-
+    Ian Preston, Chuck LeDuc Díaz, Grégoire Jeanmart, Richard Littauer, et al. (2019). java-ipfs-http-client. Zenodo.
+  doi: 10.5281/zenodo.3240412
+  pdf:
+  bib: /publications/bib/Preston2019Javaipfshttpclient.bib
+
+- year: 2019
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "ipfs"
+  citation: |-
+    Juan Benet, Richard Littauer, David Dias, et al. (2019). ipfs. Archive copy of the repository, June 5, 2019. Zenodo.
+  doi: 10.5281/zenodo.3239191
+  pdf:
+  bib: /publications/bib/Benet2019Ipfs.bib
+
+- year: 2019
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "IPFS specs"
+  citation: |-
+    David Dias, Juan Benet, Mildred Ki'Lya, Richard Littauer, et al. (2019). IPFS specs. Archive copy of the repository, June 5, 2019. Zenodo.
+  doi: 10.5281/zenodo.3239189
+  pdf:
+  bib: /publications/bib/Dias2019IPFSSpecs.bib
 
 - year: 2018
   type: Popular Article
