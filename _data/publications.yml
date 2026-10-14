@@ -578,6 +578,18 @@
   pdf:
   bib: /publications/bib/Littauer2026UpdateNew.bib
 
+- year: 2026
+  type: Software
+  topics: [Ornithology]
+  peer_reviewed: false
+  title: "Mimicry in Australian Birds: eBird Analysis"
+  citation: |-
+    Richard Littauer (2026). Mimicry in Australian Birds: eBird Analysis (v1.0.0). GitHub.
+  doi:
+  url: https://github.com/RichardLitt/mimicry-australia
+  pdf:
+  bib: /publications/bib/Littauer2026MimicryAustralian.bib
+
 - year: 2025
   type: Book Chapter
   topics: [Ornithology]
@@ -952,6 +964,18 @@
   bib: /publications/bib/Littauer2025OpenRefine.bib
   slides: https://github.com/RichardLitt/talks/blob/main/WikiCon%20%E2%80%93%20OpenRefine%20Presentation.pdf
 
+- year: 2025
+  type: Software
+  topics: [Open Source, Research Software]
+  peer_reviewed: false
+  title: "Open-source software project documents"
+  citation: |-
+    Daniel S. Katz, Megan Forbes, Leah Silen, Shane Curcuru, Michael Hucka, Yuan Tang, Bill Branan, Richard Littauer (2025). Open-source software project documents. GitHub.
+  doi:
+  url: https://github.com/corsa-center/oss-documents
+  pdf:
+  bib: /publications/bib/Katz2025OpensourceSoftware.bib
+
 - year: 2024
   type: Software
   topics: [Open Source]
@@ -1147,6 +1171,18 @@
   doi: 10.5281/zenodo.592412
   pdf:
   bib: /publications/bib/Forkel2023ClldToolkit.bib
+
+- year: 2023
+  type: Software
+  topics: [Open Science, Research Software]
+  peer_reviewed: false
+  title: "dependency-cite"
+  citation: |-
+    Richard Littauer (2023). dependency-cite. GitHub.
+  doi:
+  url: https://github.com/RichardLitt/dependency-cite
+  pdf:
+  bib: /publications/bib/Littauer2023Dependencycite.bib
 
 - year: 2022
   type: Conference Paper
