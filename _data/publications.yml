@@ -12,7 +12,7 @@
 #   url                  - landing page, when there's no DOI or it adds something
 #   pdf, bib             - paths under /publications/ or full URLs. Entries with no pdf
 #                          and no Zenodo/arXiv DOI get an "email me" link instead
-#                          (papers only; not talks, posters, software, data or edited volumes).
+#                          (papers only; not talks, posters, software, data, edited volumes or popular articles).
 #   slides, recording    - optional
 # Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
 
@@ -1184,6 +1184,18 @@
   pdf:
   bib:
   recording: https://www.youtube.com/watch?v=dgjLV39q1lY
+
+- year: 2018
+  type: Popular Article
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Old and New Tongues: Constructed Languages and The Wheel of Time"
+  citation: |-
+    Richard Littauer (2018). Old and New Tongues: Constructed Languages and The Wheel of Time. *Tor.com* (now *Reactor*), March 19, 2018.
+  doi:
+  url: https://reactormag.com/old-and-new-tongues-constructed-languages-and-the-wheel-of-time/
+  pdf:
+  bib:
 
 - year: 2018
   type: Presentation
