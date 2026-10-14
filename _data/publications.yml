@@ -646,9 +646,9 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
 
 - year: 2025
-  type: Presentation
+  type: [Abstract, Presentation]
   topics: [Research Software]
-  peer_reviewed: false
+  peer_reviewed: true
   title: "Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions"
   citation: |-
     Michelle Barker, Richard Littauer (2025). Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions. *NZ RSE Conference*, 23 September, 2025. Online.
@@ -730,7 +730,7 @@
   peer_reviewed: true
   title: "What's in a name: Understanding scientific names for our birds, according to the ICZN Code"
   citation: |-
-    Richard Littauer (2025). What's in a name: Understanding scientific names for our birds, according to the ICZN Code. *85th Birds NZ Conference*, 2 June, 2025, Auckland, NZ.
+    Richard Littauer (2025). What's in a name: Understanding scientific names for our birds, according to the ICZN Code. *85th Birds NZ Conference*, 1 June, 2025, Auckland, NZ.
   doi: 10.5281/zenodo.15589701
   pdf:
   bib: /publications/bib/Littauer2025WhatsName.bib
@@ -1046,9 +1046,9 @@
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
-  title: "Sustaining Open Source ecosystems for libraries and the sciences"
+  title: "What is sustainable open source?"
   citation: |-
-    Richard Littauer (2024). Sustaining Open Source ecosystems for libraries and the sciences. Keynote, *Evergreen International Conference*, April 22, 2024.
+    Richard Littauer (2024). What is sustainable open source? Keynote, *Evergreen International Conference*, April 23, 2024. Online.
   doi:
   pdf:
   bib:
