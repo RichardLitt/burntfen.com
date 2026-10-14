@@ -23,32 +23,3 @@
 
 </div> <!-- Close wrapper -->
 
-<div class="container other-projects">
-  <div class="row col-xs-12">
-    <hr />
-    <h1 class="section-title">Other Projects</h1>
-  </div>
-  <div class="row projects">
-    {% assign projects = site.projects | sort: 'ranking' %}
-    {% for project in projects %}
-      {% if page.id == project.id %}
-        {% continue %}
-      {% endif %}
-        <div class="project col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3">
-          <div class="img-container">
-            <a href="{{ project.url }}">
-              <img src="../../assets/img/project/{{ project.picture-small }}" alt="{{ project.title }} logo" class="card-image"/>
-            </a>
-          </div>
-          <a class="project-title" href="{{ project.url }}">
-            <h4>
-              {{ project.title }}
-            </h4>
-            <p>{{ project.stub}}<br />
-            {{ project.role }} <span class="status">{{ project.status }}</span></p>
-          </a>
-        </div>
-      <div class="clearfix visible-sm-block"></div>
-    {% endfor %}
-  </div>
-</div>
