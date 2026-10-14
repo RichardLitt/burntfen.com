@@ -12,7 +12,7 @@
 #   url                  - landing page, when there's no DOI or it adds something
 #   pdf, bib             - paths under /publications/ or full URLs. Entries with no pdf
 #                          and no Zenodo/arXiv DOI get an "email me" link instead
-#                          (papers only; not talks, posters, software, data, edited volumes or popular articles).
+#                          (papers only; not talks, posters, software, data, edited volumes, popular articles or creative writing).
 #   slides, recording    - optional
 # Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
 
@@ -1405,6 +1405,18 @@
   pdf:
   bib: /publications/bib/LittEvoC.bib
 
+- year: 2014
+  type: Creative Writing
+  topics: [Arts]
+  peer_reviewed: false
+  title: "Bushwick Artist Cannot Attend Own Launch Event as he Mistakenly Scheduled Trip to Hamptons Simultaneously"
+  citation: |-
+    Richard Littauer (2014). Bushwick Artist Cannot Attend Own Launch Event as he Mistakenly Scheduled Trip to Hamptons Simultaneously. Satire. *Burning Bushwick*, April 27, 2014.
+  doi:
+  url: https://web.archive.org/web/20160731233356/http://burningbushwick.com/bushwick-artist-cannot-attend-own-launch-event-as-he-mistakenly-scheduled-trip-to-hamptons-simultaneously/
+  pdf:
+  bib:
+
 - year: 2013
   type: Book Chapter
   topics: [Open Science, Linguistics]
@@ -1624,6 +1636,18 @@
   pdf:
   bib:
   slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
+
+- year: 2012
+  type: Creative Writing
+  topics: [Arts]
+  peer_reviewed: false
+  title: "import_soul.py"
+  citation: |-
+    Richard Littauer (2012). import_soul.py. Poem. In: I. Bertran, ed., *code {poems}*.
+  doi:
+  url: http://www.code-poems.com/
+  pdf:
+  bib:
 
 - year: 2011
   type: Proceedings

@@ -49,7 +49,7 @@
 {%- assign open_doi = false %}
 {%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
 {%- assign request = false %}
-{%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume,Popular Article" | split: "," %}
+{%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume,Popular Article,Creative Writing" | split: "," %}
 {%- assign is_paper = false %}
 {%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
 {%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
