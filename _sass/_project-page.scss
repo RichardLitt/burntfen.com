@@ -65,10 +65,17 @@
     border-color: red;
   }
   &.active {
-    color: #fff;
-    background: #000;
-    border-color: #000;
+    color: #000;
+    background: #d4d4d4;
+    border-color: #888;
   }
+}
+
+// Tags inside each entry only hint that they're selected,
+// so a filter doesn't light up every row of the list.
+#publication-list .pub-tag.active {
+  background: #eee;
+  border-color: #888;
 }
 
 #publication-list {
