@@ -30,3 +30,112 @@
     }
   }
 }
+
+// Publications page: quieter links than the site default
+.publications-page {
+  p a,
+  li a,
+  .publication-citation a,
+  .publication-links a {
+    color: #666;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    &:hover,
+    &:focus {
+      color: red;
+      text-decoration-color: red;
+    }
+  }
+}
+
+// Publications page: filterable list
+#publication-filters {
+  margin: 20px 0 10px;
+  .tag-group {
+    margin-top: 10px;
+  }
+  .tag-group-label {
+    display: inline-block;
+    min-width: 50px;
+    font-weight: bold;
+  }
+}
+
+#publication-count {
+  margin-top: 10px;
+  color: #666;
+}
+
+.pub-tag {
+  display: inline-block;
+  margin: 2px 2px;
+  padding: 1px 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #333;
+  background: #eee;
+  border: 1px solid transparent;
+  border-radius: 0;
+  // Only show red for a real pointer hover or keyboard focus; a clicked or
+  // tapped tag keeps focus, and shouldn't stay red after it's toggled off.
+  @media (hover: hover) {
+    &:hover {
+      color: red;
+      border-color: red;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    color: red;
+    border-color: red;
+  }
+  &.active {
+    color: #000;
+    background: #d4d4d4;
+    border-color: #888;
+  }  &[hidden] {
+    display: none;
+  }
+}
+
+// Tags inside each entry only hint that they're selected,
+// so a filter doesn't light up every row of the list.
+#publication-list .pub-tag.active {
+  background: #eee;
+  border-color: #888;
+}
+
+#publication-list {
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  .publication {
+    margin-bottom: 16px;
+  }
+  // Links and tags hang under the citation so the citations stand out.
+  .publication-links,
+  .publication-tags {
+    padding-left: 24px;
+  }
+  .publication-links {
+    margin-top: 2px;
+    font-size: 14px;
+    a {
+      margin-right: 10px;
+    }
+  }
+  .publication-tags {
+    margin-top: 4px;
+  }
+}
+
+.pub-clear {
+  padding: 0;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}

@@ -1,19 +1,19 @@
-<div id="project-page">
+<div id="project-page"{% if page.page_class %} class="{{ page.page_class }}"{% endif %}>
   <a href="{{ page.outbound }}" class="project-page-title">
     <h1>{{ page.title }}</h1>
   </a>
 
-  <div class="col-sm-4">
+  {% unless page.hide_picture %}<div class="col-sm-4">
     <a href="{{ page.outbound }}">
       <img class="project-image" alt="{{ page.title }} logo" src="../../assets/img/project/{{ page.picture }}" />
     </a>
-  </div>
-  <div class="col-sm-8">
+  </div>{% endunless %}
+  <div class="{% if page.hide_picture %}col-sm-12{% else %}col-sm-8{% endif %}">
     <h4>{{ page.stub}}</h4>
     <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
     {{ content }}
 
-    {% if page.outbound %}<p>
+    {% if page.outbound and page.hide_button != true %}<p>
       <a href="{{ page.outbound }}" class="btn btn-check-it-out" role="button">
         Check it out
       </a>

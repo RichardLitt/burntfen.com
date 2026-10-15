@@ -36,7 +36,7 @@ def tidy_bib_file(path, extra_args=None):
         "--remove-empty-fields",
         "--sort=key"
     ]
-    cmd = have_bibtex_tidy() + args + [path]
+    cmd = have_bibtex_tidy() + [path] + args  # bibtex-tidy 1.15 wants the file first
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.PIPE,
                        stderr=subprocess.PIPE, text=True)

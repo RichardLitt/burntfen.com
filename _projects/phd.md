@@ -69,4 +69,4 @@ I frequently give talks about my work. You can find my most recent presentations
 
 ## My Publications
 
-{% include_relative publications-list.md %}
+See [everything I've published or presented during my PhD](/projects/publications/?tags=during-phd), or [my full list of publications](/projects/publications/).
