@@ -1198,6 +1198,18 @@
   pdf:
   bib: /publications/bib/Littauer2023Dependencycite.bib
 
+- year: 2023
+  type: Popular Article
+  topics: []
+  peer_reviewed: false
+  title: "How I Name What I See"
+  citation: |-
+    Richard Littauer (2023). The Way I See It: How I Name What I See. *The Bridge* (Montpelier, VT), March 2023.
+  doi:
+  url: https://montpelierbridge.org/2023/03/the-way-i-see-it-how-i-name-what-i-see/
+  pdf:
+  bib: /publications/bib/Littauer2023HowI.bib
+
 - year: 2022
   type: Conference Paper
   topics: [Linguistics]
@@ -1233,6 +1245,42 @@
   pdf:
   bib: /publications/bib/Littauer2022GullsDo.bib
 
+- year: 2022
+  type: Popular Article
+  topics: []
+  peer_reviewed: false
+  title: "The Cannons on the Lawn"
+  citation: |-
+    Richard Littauer (2022). The Way I See It: The Cannons on the Lawn. *The Bridge* (Montpelier, VT), November 2022.
+  doi:
+  url: https://montpelierbridge.org/2022/11/the-way-i-see-it-the-cannons-on-the-lawn/
+  pdf:
+  bib: /publications/bib/Littauer2022CannonsLawn.bib
+
+- year: 2022
+  type: Popular Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  title: "Growing Roots Through Wings"
+  citation: |-
+    Richard Littauer (2022). The Way I See It: Growing Roots Through Wings. *The Bridge* (Montpelier, VT), July 2022.
+  doi:
+  url: https://montpelierbridge.org/2022/07/the-way-i-see-it-growing-roots-through-wings/
+  pdf:
+  bib: /publications/bib/Littauer2022GrowingRoots.bib
+
+- year: 2022
+  type: Popular Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  title: "More Than Meets The Eye: A Birder's Journey"
+  citation: |-
+    Richard Littauer (2022). The Way I See It: More Than Meets The Eye: A Birder's Journey. *The Bridge* (Montpelier, VT), March 2022.
+  doi:
+  url: https://montpelierbridge.org/2022/03/the-way-i-see-it-more-than-meets-the-eye-a-birders-journey/
+  pdf:
+  bib: /publications/bib/Littauer2022MoreThan.bib
+
 - year: 2021
   type: Presentation
   topics: [Ornithology, Open Source]
@@ -1244,6 +1292,7 @@
   url: https://osem.seagl.org/conferences/seagl2021/program/proposals/844
   pdf:
   bib: /publications/bib/Littauer2021BirdsStarlight.bib
+  recording: https://archive.org/details/SeaGL2021-Richard_Littauer-Birds_by_Starlight
 
 - year: 2021
   type: Presentation
