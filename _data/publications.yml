@@ -29,8 +29,8 @@
   bib: /publications/bib/LittauerInReviewKatherineMansfields.bib
 
 - year: In Review
-  type: [Short Note, Journal Article]
-  topics: [Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Invertebrates]
   peer_reviewed: false
   status: In Review
   title: "A first record on a community science platform of Halyomorpha halys (Stål, 1855) (Heteroptera, Pentatomidae) from Iceland"
@@ -41,7 +41,7 @@
   bib: /publications/bib/LittauerInReviewFirstRecord.bib
 
 - year: In Review
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -89,7 +89,7 @@
   bib: /publications/bib/LittauerInReviewVariableOystercatcher.bib
 
 - year: In Review
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -101,7 +101,7 @@
   bib: /publications/bib/LittauerInReviewCaseOligosoma.bib
 
 - year: In Review
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -113,8 +113,8 @@
   bib: /publications/bib/LittauerInReviewCorrectName.bib
 
 - year: In Review
-  type: [Short Note, Journal Article]
-  topics: [Entomology, Taxonomic Nomenclature]
+  type: [Journal Article, Short Note]
+  topics: [Invertebrates, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
   title: "Flat spiders: corrections for grammatical agreement for -platys genera (Arachnida)"
@@ -125,7 +125,7 @@
   bib: /publications/bib/LittauerInReviewFlatSpiders.bib
 
 - year: In Review
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -186,7 +186,7 @@
 
 - year: 2026
   type: Data
-  topics: [Taxonomic Nomenclature, Community Science]
+  topics: [Taxonomic Nomenclature, Community Science, Open Data]
   peer_reviewed: false
   title: "TAXACOM 1992–2025 Backup"
   citation: |-
@@ -196,7 +196,7 @@
   bib: /publications/bib/Taxacom2026Backup.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Neotype designation for Red-winged Blackbird (Agelaius phoeniceus)"
@@ -218,7 +218,7 @@
   bib: /publications/bib/Littauer2026NoAgreement.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Ornithology]
   peer_reviewed: true
   title: "Subspecific identity of channel-billed cuckoos (Scythrops novaehollandiae) vagrant to Aotearoa New Zealand"
@@ -241,7 +241,7 @@
 
 - year: 2026
   type: Presentation
-  topics: [Open Source, Research Software]
+  topics: [Open Source, Research Software, AI]
   peer_reviewed: true
   title: "Using Local VLMs for Data Extraction"
   citation: |-
@@ -251,8 +251,8 @@
   bib: /publications/bib/Littauer2026UsingLocal.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
-  topics: [Ornithology, Community Science]
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Community Science, Bioacoustics]
   peer_reviewed: true
   title: "Community-science sourced evidence of vocal mimicry in Perisoreus jays"
   citation: |-
@@ -263,7 +263,7 @@
 
 - year: 2026
   type: [Journal Article, Full Paper]
-  topics: [Community Science, Open Source]
+  topics: [Community Science, Open Source, Open Data]
   peer_reviewed: true
   title: "Open practices across science, software, education and other domains"
   citation: |-
@@ -274,8 +274,8 @@
   bib: /publications/bib/Meluso2026NHB.bib
 
 - year: 2026
-  type: [Presentation]
-  topics: [Ornithology]
+  type: Presentation
+  topics: [Ornithology, Bioacoustics, AI]
   peer_reviewed: true
   title: "Large-scale NLP detection of vocal mimicry in Australian community science bird observations"
   citation: |-
@@ -286,7 +286,7 @@
 
 - year: 2026
   type: Presentation
-  topics: [Research Software]
+  topics: [Research Software, AI]
   peer_reviewed: true
   title: "Research Software Engineering in the Age of Generative AI"
   citation: |-
@@ -330,7 +330,7 @@
 
 - year: 2026
   type: Report
-  topics: [Research Software]
+  topics: [Research Software, AI]
   peer_reviewed: false
   title: "Research Software Engineering in the Age of Generative AI: Building a Community Vision"
   citation: |-
@@ -341,7 +341,7 @@
 
 - year: 2026
   type: Report
-  topics: [Research Software]
+  topics: [Research Software, AI]
   peer_reviewed: false
   title: "Research Software in an Age of AI-Assisted Development: Reflections from Edinburgh"
   citation: |-
@@ -351,7 +351,7 @@
   bib: /publications/bib/Katz2026ResearchSoftware.bib
 
 - year: 2026
-  type: [Short Note,Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Correction of the original spelling of Hydrobates matsudairae (Kuroda, 1922) (Aves: Procellariiformes: Hydrobatidae)"
@@ -373,8 +373,8 @@
   bib: /publications/bib/Littauer2026Standardreadmepreset.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Cryptamorpha desjardinsii (Guérin-Méneville, 1844) is the available name (Coleoptera: Silvanidae)"
   citation: |-
@@ -385,7 +385,7 @@
 
 - year: 2026
   type: Conference Paper
-  topics: [Community Science, Open Source, Research Software]
+  topics: [Community Science, Open Source, Research Software, OSS Policy]
   peer_reviewed: true
   title: "Beyond Adoption: Examining the Evolution and Impact of Code of Conduct on Open Source Communities"
   citation: |-
@@ -395,7 +395,7 @@
   bib: /publications/bib/Sun2026BeyondAdoption.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Lathrobium sapaense Tokareva & Bekchiev, 2025 is the available name (Staphylinidae: Paederinae)"
@@ -417,8 +417,8 @@
   bib: /publications/bib/Katz2026JournalOpen.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "On the spelling of Eupelecotheca celer Townsend, 1919 (Tachinidae, Exoristinae)"
   citation: |-
@@ -464,8 +464,8 @@
   bib: /publications/bib/Littauer2026OregonDarkeyed.bib
 
 - year: 2026
-  type: [Short Note, Journal Article]
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   status: In Press
   title: "A new name is not needed for Hesperia zachaeus Plötz, 1883, nec Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae)"
@@ -489,7 +489,7 @@
 
 - year: 2026
   type: Conference Paper
-  topics: [Ornithology, Open Source, Research Software, Community Science]
+  topics: [Ornithology, Open Source, Research Software, Community Science, AI]
   peer_reviewed: true
   title: "Community Science: Prediction to Arrival, Modeling H5N1 in New Zealand"
   citation: |-
@@ -500,7 +500,7 @@
 
 - year: 2026
   type: Conference Paper
-  topics: [Open Source, Research Software, Ornithology]
+  topics: [Open Source, Research Software, Ornithology, AI, Open Data]
   peer_reviewed: true
   title: "Data Rescue for Historic Scientific Literature: Automatically Extracting and Cross-Validating Published Records"
   citation: |-
@@ -544,8 +544,8 @@
   bib: /publications/bib/Littauer2025Botw.bib
 
 - year: 2025
-  type: [Presentation]
-  topics: [Community Science, Research Software]
+  type: Presentation
+  topics: [Community Science, Research Software, Open Data]
   peer_reviewed: false
   title: "Wiki Loves iNaturalist: How Wikimedians Integrate iNaturalist Content on Wikipedia, Wikidata, and Wikimedia Commons"
   citation: |-
@@ -556,7 +556,7 @@
 
 - year: 2025
   type: [Journal Article, Full Paper]
-  topics: [Taxonomic Nomenclature, Entomology]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Corrections for grammatical agreement for species in Chelaner Emery, 1914 (Hymenoptera: Formicidae)"
   citation: |-
@@ -566,8 +566,8 @@
   bib: /publications/bib/Littauer2025ZootaxaChelaner.bib
 
 - year: 2025
-  type: Short Note
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: false
   title: "First Reviser for Rhopalum succineicollarum Tsuneki, 1952"
   citation: |-
@@ -591,7 +591,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Research Software]
+  topics: [Research Software, OSS Policy]
   peer_reviewed: true
   title: "Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions"
   citation: |-
@@ -614,7 +614,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/Making%20collaborative%20papers.pdf
 
 - year: 2025
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "On the correct spelling of Pycnocraspedum rowleyense Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae)"
@@ -625,7 +625,7 @@
   bib: /publications/bib/Littauer2025ZootaxaPycnocraspedum.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "Nomenclatural corrections for gender of species-group names for two Solomon Island birds"
@@ -636,8 +636,8 @@
   bib: /publications/bib/Littauer2025Emu.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Psacodromeus rectus Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name"
   citation: |-
@@ -647,7 +647,7 @@
   bib: /publications/bib/Littauer2025ZootaxaPsacodromeus.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Helobdella serendipitous Saglam et al., 2018 is the available name (Annelida: Hirudinida)"
@@ -658,7 +658,7 @@
   bib: /publications/bib/Littauer2025ZootaxaHelobdella.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Ornithology]
   peer_reviewed: true
   title: "Renaming a bill type for Tundra Swan (Cygnus columbianus)"
@@ -692,8 +692,8 @@
   bib: /publications/bib/Littauer2025Melville.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code"
   citation: |-
@@ -704,7 +704,7 @@
 
 - year: 2025
   type: Report
-  topics: [Research Software, Open Source]
+  topics: [Research Software, Open Source, OSS Policy]
   peer_reviewed: false
   title: "eResearch NZ / eRangahau Aotearoa – The Case for Open Source in the Science System of Aotearoa"
   citation: |-
@@ -725,8 +725,8 @@
   bib: /publications/bib/Stegen2025BuildingCorpora.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
-  topics: [Entomology, Community Science]
+  type: [Journal Article, Short Note]
+  topics: [Invertebrates, Community Science, Bioacoustics]
   peer_reviewed: false
   title: "Audio observation of a Wellington Tree Wētā Hemideina crassidens defence stridulation"
   citation: |-
@@ -748,7 +748,7 @@
   bib: /publications/bib/Littauer202510Quick.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "A nomenclatural issue related to Lopdells’ penguin Archaeospheniscus lopdelli"
@@ -760,7 +760,7 @@
 
 - year: 2025
   type: [Journal Article, Short Note]
-  topics: [Taxonomic Nomenclature]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Corrections for grammatical agreement in Joeropsididae (Malacostraca: Isopoda)"
   citation: |-
@@ -770,7 +770,7 @@
   bib: /publications/bib/Littauer2025NaupliusJoeropsididae.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "First revision of karoro Larus dominicanus antipodum (Bruch, 1853)"
@@ -792,8 +792,8 @@
   bib: /publications/bib/Littauer2025HarmonizingCommunity.bib
 
 - year: 2025
-  type: [Short Note, Journal Article]
-  topics: [Taxonomic Nomenclature]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Corrections for grammatical agreement in Ophiodermatidae"
   citation: |-
@@ -849,7 +849,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Taxonomic Nomenclature, Community Science,Ornithology, Research Software]
+  topics: [Taxonomic Nomenclature, Community Science, Ornithology, Research Software, Open Data]
   peer_reviewed: true
   title: "Words, words, words, you fishmonger: Using Wikidata to Reconcile Taxonomies"
   citation: |-
@@ -872,7 +872,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Open Source, Research Software]
+  topics: [Open Source, Research Software, OSS Policy]
   peer_reviewed: false
   title: "Open Source Sustainability"
   citation: |-
@@ -896,7 +896,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Community Science, Research Software]
+  topics: [Community Science, Research Software, Open Data]
   peer_reviewed: false
   title: "OpenRefine"
   citation: |-
@@ -920,8 +920,8 @@
   bib: /publications/bib/Katz2025OpensourceSoftware.bib
 
 - year: 2024
-  type: Short Note
-  topics: [Taxonomic Nomenclature, Entomology]
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: false
   title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
   citation: |-
@@ -943,7 +943,7 @@
   bib: /publications/bib/Littauer2024StandardReadme.bib
 
 - year: 2024
-  type: Short Note
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   title: "Prunum boreale (A. E. Verrill, 1884) is changed to P. borealis"
@@ -956,7 +956,7 @@
 
 - year: 2024
   type: Preprint
-  topics: [Research Software]
+  topics: [Research Software, AI]
   peer_reviewed: false
   title: "Research software is critical to the future of AI-driven research"
   citation: |-
@@ -978,7 +978,7 @@
 
 - year: 2024
   type: Report
-  topics: [Research Software]
+  topics: [Research Software, OSS Policy]
   peer_reviewed: false
   title: "2nd International Research Software Funders Workshop Summary"
   citation: |-
@@ -1013,7 +1013,7 @@
 
 - year: 2024
   type: Presentation
-  topics: [Open Source]
+  topics: [Open Source, OSS Policy]
   peer_reviewed: false
   title: "What is sustainable open source?"
   citation: |-
@@ -1037,7 +1037,7 @@
 
 - year: 2024
   type: Report
-  topics: [Research Software, Open Source]
+  topics: [Research Software, Open Source, OSS Policy]
   peer_reviewed: false
   title: "A Definition of an Academic OSPO"
   citation: |-
@@ -1048,7 +1048,7 @@
 
 - year: 2023
   type: Report
-  topics: [Open Source, Research Software]
+  topics: [Open Source, Research Software, OSS Policy]
   peer_reviewed: false
   title: "Guide to Set Up a University Open Source Program Office"
   citation: |-
@@ -1085,7 +1085,7 @@
 
 - year: 2023
   type: Presentation
-  topics: [Open Source]
+  topics: [Open Source, OSS Policy]
   peer_reviewed: false
   title: "Where does \"sustaining\" open source fall down?"
   citation: |-
@@ -1097,7 +1097,7 @@
 
 - year: 2023
   type: Presentation
-  topics: [Research Software, Open Source]
+  topics: [Research Software, Open Source, OSS Policy]
   peer_reviewed: false
   title: "SustainOSS and Open Source Program Offices"
   citation: |-
@@ -1108,7 +1108,7 @@
 
 - year: 2023
   type: Software
-  topics: [Ornithology, Open Source]
+  topics: [Ornithology, Open Source, Bioacoustics]
   peer_reviewed: false
   title: "Vesper"
   citation: |-
@@ -1176,7 +1176,7 @@
   bib: /publications/bib/LittULAB.bib
 
 - year: 2022
-  type: [Poster]
+  type: Poster
   topics: [Ornithology]
   peer_reviewed: true
   title: "A Proposal for Renaming Bill Types of Bewick's Swans"
@@ -1237,7 +1237,7 @@
 
 - year: 2021
   type: Presentation
-  topics: [Ornithology, Open Source]
+  topics: [Ornithology, Open Source, Bioacoustics]
   peer_reviewed: true
   title: "Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software"
   citation: |-
@@ -1497,7 +1497,7 @@
 
 - year: 2014
   type: Conference Paper
-  topics: [Linguistics, Community Science]
+  topics: [Linguistics, Community Science, Language Evolution]
   peer_reviewed: true
   title: "From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research"
   citation: |-
@@ -1508,7 +1508,7 @@
 
 - year: 2013
   type: Book Chapter
-  topics: [Linguistics, Research Software, Community Science]
+  topics: [Linguistics, Research Software, Community Science, Open Data]
   peer_reviewed: true
   title: "Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments"
   citation: |-
@@ -1519,7 +1519,7 @@
 
 - year: 2013
   type: Conference Paper
-  topics: [Linguistics]
+  topics: [Linguistics, Open Data]
   peer_reviewed: true
   title: "Linguistic Resources Enhanced with Geospatial Information"
   citation: |-
@@ -1543,7 +1543,7 @@
 
 - year: 2013
   type: Report
-  topics: [Community Science]
+  topics: [Community Science, Open Data]
   peer_reviewed: false
   title: "Data Management Guide for Public Participation in Scientific Research"
   citation: |-
@@ -1589,7 +1589,7 @@
 
 - year: 2012
   type: [Journal Article, Full Paper]
-  topics: [Linguistics, Open Source]
+  topics: [Linguistics, Open Source, Language Evolution]
   peer_reviewed: true
   title: "Replicating Oliphant's Saussurean Simulations"
   citation: |-
@@ -1648,7 +1648,7 @@
 
 - year: 2012
   type: [Conference Paper, Presentation]
-  topics: [Linguistics]
+  topics: [Linguistics, Language Evolution]
   peer_reviewed: true
   title: "The Evolution of Morphological Agreement"
   citation: |-
@@ -1659,7 +1659,7 @@
 
 - year: 2012
   type: [Conference Paper, Poster]
-  topics: [Linguistics]
+  topics: [Linguistics, Language Evolution]
   peer_reviewed: true
   title: "Re-dating the Loss of Laryngeal Air Sacs in Homo sapiens"
   citation: |-
@@ -1670,7 +1670,7 @@
 
 - year: 2012
   type: Conference Paper
-  topics: [Linguistics]
+  topics: [Linguistics, Language Evolution]
   peer_reviewed: true
   title: "A Reanalysis of Anatomical Changes for Language"
   citation: |-
@@ -1774,7 +1774,7 @@
 
 - year: 2011
   type: Poster
-  topics: [Linguistics]
+  topics: [Linguistics, Language Evolution]
   peer_reviewed: false
   title: "Re-Dating the Loss of Laryngeal Air Sacs in Homo sapiens"
   citation: |-
@@ -1785,7 +1785,7 @@
 
 - year: 2011
   type: Presentation
-  topics: [Linguistics, Open Source, Research Software]
+  topics: [Linguistics, Open Source, Research Software, Language Evolution]
   peer_reviewed: true
   title: "The Evolution of Speech Segmentation: A Computer Model"
   citation: |-
@@ -1797,7 +1797,7 @@
 
 - year: 2011
   type: Thesis
-  topics: [Linguistics, Open Source, Research Software]
+  topics: [Linguistics, Open Source, Research Software, Language Evolution]
   peer_reviewed: false
   title: "The Evolution of Speech Segmentation: A Computer Model"
   citation: |-
