@@ -1675,6 +1675,17 @@
   slides: http://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
+  type: Poster
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study"
+  citation: |-
+    Richard Littauer (2012). Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study. Research proposal poster presented at the Research Unit Quantitative Historical Linguistics, Marburg, Germany.
+  doi:
+  pdf: /publications/Littauer2012UsingDemographic.pdf
+  bib: /publications/bib/Littauer2012UsingDemographic.bib
+
+- year: 2012
   date: "2012-10-23"
   type: [Journal Article, Full Paper]
   topics: [Community Science, Open Source, Research Software]
