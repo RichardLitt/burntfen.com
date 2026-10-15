@@ -16,7 +16,7 @@
 <div class="tag-group" role="group" aria-label="Filter by topic">
 <span class="tag-group-label">Topic</span>
 {%- for topic in topics %}
-<button type="button" class="pub-tag" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
+<button type="button" class="pub-tag topic topic-{{ topic | slugify }}" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
 {%- endfor %}
 </div>
 <div class="tag-group" role="group" aria-label="Filter by type">
@@ -81,7 +81,7 @@
 <button type="button" class="pub-tag" data-tag="{{ t | slugify }}" aria-pressed="false">{{ t }}</button>
 {%- endfor %}
 {%- for topic in pub.topics %}
-<button type="button" class="pub-tag" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
+<button type="button" class="pub-tag topic topic-{{ topic | slugify }}" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
 {%- endfor %}
 </div>
 </li>
