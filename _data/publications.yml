@@ -29,8 +29,8 @@
   bib: /publications/bib/LittauerInReviewKatherineMansfields.bib
 
 - year: In Review
-  type: Journal Article
-  topics: [Short Note, Entomology]
+  type: [Short Note, Journal Article]
+  topics: [Entomology]
   peer_reviewed: false
   status: In Review
   title: "A first record on a community science platform of Halyomorpha halys (Stål, 1855) (Heteroptera, Pentatomidae) from Iceland"
@@ -196,8 +196,8 @@
   bib: /publications/bib/Taxacom2026Backup.bib
 
 - year: 2026
-  type: Journal Article
-  topics: [Short Note, Ornithology, Taxonomic Nomenclature]
+  type: [Short Note, Journal Article]
+  topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Neotype designation for Red-winged Blackbird (Agelaius phoeniceus)"
   citation: |-
@@ -218,8 +218,8 @@
   bib: /publications/bib/Littauer2026NoAgreement.bib
 
 - year: 2026
-  type: Journal Article
-  topics: [Short Note, Ornithology]
+  type: [Short Note, Journal Article]
+  topics: [Ornithology]
   peer_reviewed: true
   title: "Subspecific identity of channel-billed cuckoos (Scythrops novaehollandiae) vagrant to Aotearoa New Zealand"
   citation: |-
