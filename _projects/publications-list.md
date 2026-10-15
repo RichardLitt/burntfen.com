@@ -26,6 +26,7 @@
 {%- endfor %}
 </div>
 <p id="publication-count" aria-live="polite">Showing all {{ publications.size }} publications and outputs.</p>
+<p id="publication-hint">Click tags to narrow the list. Shift- or ⌘-click to add a tag as an alternative instead.</p>
 </div>
 
 <div id="publication-list">

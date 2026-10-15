@@ -67,6 +67,16 @@
   color: #666;
 }
 
+#publication-hint {
+  margin-top: -5px;
+  font-size: 13px;
+  color: #666;
+  // Touch screens have no modifier keys to hold.
+  @media (hover: none) {
+    display: none;
+  }
+}
+
 .pub-tag {
   display: inline-block;
   margin: 2px 2px;
@@ -77,6 +87,8 @@
   background: #eee;
   border: 1px solid transparent;
   border-radius: 0;
+  // Shift-clicking would otherwise select the text between tags.
+  user-select: none;
   // Only show red for a real pointer hover or keyboard focus; a clicked or
   // tapped tag keeps focus, and shouldn't stay red after it's toggled off.
   @media (hover: hover) {
