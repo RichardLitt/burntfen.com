@@ -34,7 +34,11 @@
 <section class="publication-year">
 <h3>{{ group.name }}</h3>
 <ul>
-{%- for pub in group.items %}
+{%- comment %} Newest first by date; undated entries follow in file order {% endcomment %}
+{%- assign dated = group.items | where_exp: "pub", "pub.date" | sort: "date" | reverse %}
+{%- assign undated = group.items | where_exp: "pub", "pub.date == nil" %}
+{%- assign items = dated | concat: undated %}
+{%- for pub in items %}
 {%- comment %} `type` may be a single type or a list of them {% endcomment %}
 {%- assign pub_types = pub.type | join: "|" | split: "|" %}
 {%- comment %} My PhD started in 2024; anything since then, or still in review, counts as "During PhD" {% endcomment %}
@@ -123,7 +127,7 @@
       "item": {
         "@type": {{ schema_type | jsonify }},
         "name": {{ pub.title | jsonify }},
-        "datePublished": "{{ pub.year }}",
+        "datePublished": "{{ pub.date | default: pub.year }}",
         "author": [{% for name in author_names %}{"@type": "Person", "name": {{ name | strip | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
         "keywords": {{ pub.topics | join: ", " | jsonify }}
         {%- if pub.doi %},

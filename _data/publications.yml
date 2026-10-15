@@ -185,6 +185,7 @@
   bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
 
 - year: 2026
+  date: "2026-10-13"
   type: Data
   topics: [Taxonomic Nomenclature, Community Science, Open Data]
   peer_reviewed: false
@@ -196,6 +197,7 @@
   bib: /publications/bib/Taxacom2026Backup.bib
 
 - year: 2026
+  date: "2026-10-13"
   type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
@@ -207,6 +209,7 @@
   bib: /publications/bib/Littauer2026NeotypeDesignation.bib
 
 - year: 2026
+  date: "2026-10-08"
   type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
@@ -218,6 +221,7 @@
   bib: /publications/bib/Littauer2026NoAgreement.bib
 
 - year: 2026
+  date: "2026-10-08"
   type: [Journal Article, Short Note]
   topics: [Ornithology]
   peer_reviewed: true
@@ -229,6 +233,7 @@
   bib: /publications/bib/Littauer2026SubspecificIdentity.bib
 
 - year: 2026
+  date: "2026-09-16"
   type: Edited Volume
   topics: [Open Source, Research Software]
   peer_reviewed: false
@@ -240,6 +245,7 @@
   bib: /publications/bib/Rubin2026PyConAU.bib
 
 - year: 2026
+  date: "2026-09-07"
   type: Presentation
   topics: [Open Source, Research Software, AI]
   peer_reviewed: true
@@ -251,6 +257,7 @@
   bib: /publications/bib/Littauer2026UsingLocal.bib
 
 - year: 2026
+  date: "2026-02-12"
   type: [Journal Article, Short Note]
   topics: [Ornithology, Community Science, Bioacoustics]
   peer_reviewed: true
@@ -262,6 +269,7 @@
   bib: /publications/bib/Littauer2026WJOPerisoreus.bib
 
 - year: 2026
+  date: "2026-08-10"
   type: [Journal Article, Full Paper]
   topics: [Community Science, Open Source, Open Data]
   peer_reviewed: true
@@ -274,6 +282,7 @@
   bib: /publications/bib/Meluso2026NHB.bib
 
 - year: 2026
+  date: "2026-08-17"
   type: Presentation
   topics: [Ornithology, Bioacoustics, AI]
   peer_reviewed: true
@@ -285,6 +294,7 @@
   bib: /publications/bib/Littauer2026WEC.bib
 
 - year: 2026
+  date: "2026-08-26"
   type: Presentation
   topics: [Research Software, AI]
   peer_reviewed: true
@@ -296,6 +306,7 @@
   bib: /publications/bib/Littauer2026ResearchSoftware.bib
 
 - year: 2026
+  date: "2026-08-24"
   type: Data
   topics: [Research Software, Open Source]
   peer_reviewed: false
@@ -307,6 +318,7 @@
   bib: /publications/bib/TheJournalOfOpenSourceSoftware2026AnalysisJOSS.bib
 
 - year: 2026
+  date: "2026-08-05"
   type: Data
   topics: [Ornithology, Community Science, Open Source]
   peer_reviewed: false
@@ -318,6 +330,7 @@
   bib: /publications/bib/Littauer2026DataSources.bib
 
 - year: 2026
+  date: "2026-06-04"
   type: Software
   topics: [Linguistics, Community Science, Open Source, Research Software]
   peer_reviewed: false
@@ -329,6 +342,7 @@
   bib: /publications/bib/Littauer2026OpenSource.bib
 
 - year: 2026
+  date: "2026-05-28"
   type: Report
   topics: [Research Software, AI]
   peer_reviewed: false
@@ -340,6 +354,7 @@
   bib: /publications/bib/Barker2026ResearchSoftware.bib
 
 - year: 2026
+  date: "2026-05-27"
   type: Report
   topics: [Research Software, AI]
   peer_reviewed: false
@@ -351,6 +366,7 @@
   bib: /publications/bib/Katz2026ResearchSoftware.bib
 
 - year: 2026
+  date: "2026-05-11"
   type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
@@ -362,6 +378,7 @@
   bib: /publications/bib/Littauer2026CorrectionOriginal.bib
 
 - year: 2026
+  date: "2026-05-02"
   type: Software
   topics: [Research Software, Open Source]
   peer_reviewed: false
@@ -373,6 +390,7 @@
   bib: /publications/bib/Littauer2026Standardreadmepreset.bib
 
 - year: 2026
+  date: "2026-04-13"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
@@ -384,6 +402,7 @@
   bib: /publications/bib/Littauer2026CryptamorphaDesjardinsii.bib
 
 - year: 2026
+  date: "2026-04-12"
   type: Conference Paper
   topics: [Community Science, Open Source, Research Software, OSS Policy]
   peer_reviewed: true
@@ -395,6 +414,7 @@
   bib: /publications/bib/Sun2026BeyondAdoption.bib
 
 - year: 2026
+  date: "2026-04-10"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
@@ -406,6 +426,7 @@
   bib: /publications/bib/Littauer2026LathrobiumSapaense.bib
 
 - year: 2026
+  date: "2026-03-03"
   type: Presentation
   topics: [Research Software, Community Science, Open Source, AI]
   peer_reviewed: true
@@ -428,6 +449,7 @@
   bib: /publications/bib/Littauer2026SDNN.bib
 
 - year: 2026
+  date: "2026-02-10"
   type: Edited Volume
   topics: [Open Source, Research Software]
   peer_reviewed: false
@@ -439,6 +461,7 @@
   bib: /publications/bib/Littauer2026KiwiPyCon.bib
 
 - year: 2026
+  date: "2026-02-10"
   type: [Conference Paper, Presentation]
   topics: [Community Science, Research Software, Open Source]
   peer_reviewed: true
@@ -452,6 +475,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
 
 - year: 2026
+  date: "2026-04-30"
   type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
@@ -510,6 +534,7 @@
   bib: /publications/bib/Littauer2026DataRescue.bib
 
 - year: 2026
+  date: "2026-02-23"
   type: [Poster, Presentation]
   topics: [Ornithology]
   peer_reviewed: true
@@ -533,6 +558,7 @@
   bib: /publications/bib/Allwardt2025VOLTTRONVersion.bib
 
 - year: 2025
+  date: "2025-01-31"
   type: Book Chapter
   topics: [Ornithology]
   peer_reviewed: true
@@ -544,6 +570,7 @@
   bib: /publications/bib/Littauer2025Botw.bib
 
 - year: 2025
+  date: "2025-12-05"
   type: Presentation
   topics: [Community Science, Research Software, Open Data]
   peer_reviewed: false
@@ -555,6 +582,7 @@
   bib: /publications/bib/Lubiana2025WikiLoves.bib
 
 - year: 2025
+  date: "2025-11-25"
   type: [Journal Article, Full Paper]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
@@ -566,6 +594,7 @@
   bib: /publications/bib/Littauer2025ZootaxaChelaner.bib
 
 - year: 2025
+  date: "2025-11-02"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: false
@@ -578,6 +607,7 @@
   bib: /publications/bib/Littauer2025FirstReviser.bib
 
 - year: 2025
+  date: "2025-11"
   type: [Conference Paper, Presentation]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
@@ -590,6 +620,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
 
 - year: 2025
+  date: "2025-09-23"
   type: Presentation
   topics: [Research Software, OSS Policy]
   peer_reviewed: true
@@ -602,6 +633,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/Slides-NZ-RSE-Sept-2025.pdf
 
 - year: 2025
+  date: "2025-09-19"
   type: Presentation
   topics: [Research Software]
   peer_reviewed: true
@@ -614,6 +646,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/Making%20collaborative%20papers.pdf
 
 - year: 2025
+  date: "2025-09-11"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
@@ -625,6 +658,7 @@
   bib: /publications/bib/Littauer2025ZootaxaPycnocraspedum.bib
 
 - year: 2025
+  date: "2025-07-03"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
@@ -636,6 +670,7 @@
   bib: /publications/bib/Littauer2025Emu.bib
 
 - year: 2025
+  date: "2025-09-08"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
@@ -647,6 +682,7 @@
   bib: /publications/bib/Littauer2025ZootaxaPsacodromeus.bib
 
 - year: 2025
+  date: "2025-08-07"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
@@ -658,6 +694,7 @@
   bib: /publications/bib/Littauer2025ZootaxaHelobdella.bib
 
 - year: 2025
+  date: "2025-05-15"
   type: [Journal Article, Short Note]
   topics: [Ornithology]
   peer_reviewed: true
@@ -669,6 +706,7 @@
   bib: /publications/bib/Littauer2025Bewicks.bib
 
 - year: 2025
+  date: "2025-06-01"
   type: Presentation
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
@@ -681,6 +719,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.05.31%20-%20BirdsNZ%20-%20Taxonomy.pdf
 
 - year: 2025
+  date: "2025-06"
   type: [Journal Article, Full Paper]
   topics: [Ornithology, Literary Studies]
   peer_reviewed: true
@@ -692,6 +731,7 @@
   bib: /publications/bib/Littauer2025Melville.bib
 
 - year: 2025
+  date: "2025-04-02"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
@@ -703,6 +743,7 @@
   bib: /publications/bib/Littauer2025ZootaxaNotonectidae.bib
 
 - year: 2025
+  date: "2025-03-25"
   type: Report
   topics: [Research Software, Open Source, OSS Policy]
   peer_reviewed: false
@@ -714,6 +755,7 @@
   bib: /publications/bib/Duckles2025EResearchNZ.bib
 
 - year: 2025
+  date: "2025-03-11"
   type: Presentation
   topics: [Linguistics, Community Science, Research Software]
   peer_reviewed: false
@@ -748,6 +790,7 @@
   bib: /publications/bib/Littauer202510Quick.bib
 
 - year: 2025
+  date: "2025-03-05"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
@@ -770,6 +813,7 @@
   bib: /publications/bib/Littauer2025NaupliusJoeropsididae.bib
 
 - year: 2025
+  date: "2025-03-05"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
@@ -781,6 +825,7 @@
   bib: /publications/bib/Littauer2025NotornisKaroro.bib
 
 - year: 2025
+  date: "2025-11-17"
   type: [Conference Paper, Presentation]
   topics: [Ornithology, Community Science, Research Software]
   peer_reviewed: true
@@ -792,6 +837,7 @@
   bib: /publications/bib/Littauer2025HarmonizingCommunity.bib
 
 - year: 2025
+  date: "2025-01-14"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
@@ -803,6 +849,7 @@
   bib: /publications/bib/Littauer2025ZootaxaOphiodermatidae.bib
 
 - year: 2025
+  date: "2025-06-10"
   type: Data
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
@@ -814,6 +861,7 @@
   bib: /publications/bib/Christidis2025AviListGlobal.bib
 
 - year: 2025
+  date: "2025-10-27"
   type: Report
   topics: [Community Science, Open Source, Research Software]
   peer_reviewed: false
@@ -825,6 +873,7 @@
   bib: /publications/bib/2026OFAOST.bib
 
 - year: 2025
+  date: "2025-09"
   type: Presentation
   topics: [Research Software]
   peer_reviewed: true
@@ -836,6 +885,7 @@
   bib: /publications/bib/Littauer2025QuickTips.bib
 
 - year: 2025
+  date: "2025-08-29"
   type: Presentation
   topics: [Taxonomic Nomenclature, Linguistics, Ornithology]
   peer_reviewed: true
@@ -848,6 +898,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.08.29%20-%20New%20Historians%20-%20Ludente%20lingua.pdf
 
 - year: 2025
+  date: "2025-11-08"
   type: Presentation
   topics: [Taxonomic Nomenclature, Community Science, Ornithology, Research Software, Open Data]
   peer_reviewed: true
@@ -871,6 +922,7 @@
   bib: /publications/bib/Littauer2025MappingOpen.bib
 
 - year: 2025
+  date: "2025-08-05"
   type: Presentation
   topics: [Open Source, Research Software, OSS Policy]
   peer_reviewed: false
@@ -883,6 +935,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/2025-08-05%20OSS%20UN%20Sustainability%20Presentation.pdf
 
 - year: 2025
+  date: "2025-08-25"
   type: Presentation
   topics: [Research Software]
   peer_reviewed: false
@@ -895,6 +948,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/IEEE%20Presentation_%2010%20quick%20tips%20for%20making%20your%20software%20outlive%20your%20job.pdf
 
 - year: 2025
+  date: "2025-05-17"
   type: Presentation
   topics: [Community Science, Research Software, Open Data]
   peer_reviewed: false
@@ -920,6 +974,7 @@
   bib: /publications/bib/Katz2025OpensourceSoftware.bib
 
 - year: 2024
+  date: "2024-12-05"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: false
@@ -932,6 +987,7 @@
   bib: /publications/bib/Littauer2024PorrhommaBoreale.bib
 
 - year: 2024
+  date: "2024-05-09"
   type: Software
   topics: [Open Source]
   peer_reviewed: false
@@ -943,6 +999,7 @@
   bib: /publications/bib/Littauer2024StandardReadme.bib
 
 - year: 2024
+  date: "2024-12-04"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: false
@@ -955,6 +1012,7 @@
   bib: /publications/bib/Littauer2024PrunumBoreale.bib
 
 - year: 2024
+  date: "2024-08-22"
   type: Preprint
   topics: [Research Software, AI]
   peer_reviewed: false
@@ -966,6 +1024,7 @@
   bib: /publications/bib/Barker2024ResearchSoftware.bib
 
 - year: 2024
+  date: "2024-06-14"
   type: Software
   topics: [Research Software, Open Source]
   peer_reviewed: false
@@ -977,6 +1036,7 @@
   bib: /publications/bib/Littauer2024Doiregex.bib
 
 - year: 2024
+  date: "2024-01-22"
   type: Report
   topics: [Research Software, OSS Policy]
   peer_reviewed: false
@@ -988,6 +1048,7 @@
   bib: /publications/bib/Bakhshi20242ndInternational.bib
 
 - year: 2024
+  date: "2024-10-17"
   type: Presentation
   topics: [Research Software, Open Source, Community Science]
   peer_reviewed: true
@@ -1000,6 +1061,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/From%20Core%20to%20A%27Tuin_%20Citing%20Software%20All%20The%20Way%20Down%20The%20Stack.pdf
 
 - year: 2024
+  date: "2024-07-24"
   type: Presentation
   topics: [Ornithology, Community Science, Open Source, Research Software]
   peer_reviewed: true
@@ -1012,6 +1074,7 @@
   recording: https://www.youtube.com/watch?v=-KkQEzmOOBY
 
 - year: 2024
+  date: "2024-04-23"
   type: Presentation
   topics: [Open Source, OSS Policy]
   peer_reviewed: false
@@ -1024,6 +1087,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/Evergreen%20Keynote%20What%20is%20Sustainable%20Open%20Source.pptx
 
 - year: 2024
+  date: "2024-07-23"
   type: Presentation
   topics: [Ornithology, Open Source]
   peer_reviewed: false
@@ -1036,6 +1100,7 @@
   recording: https://www.youtube.com/watch?v=0oRa8bnNUjk&t=2410s
 
 - year: 2024
+  date: "2024-10-11"
   type: Report
   topics: [Research Software, Open Source, OSS Policy]
   peer_reviewed: false
@@ -1047,6 +1112,7 @@
   bib: /publications/bib/Young2024DefinitionAcademic.bib
 
 - year: 2023
+  date: "2023-03-22"
   type: Report
   topics: [Open Source, Research Software, OSS Policy]
   peer_reviewed: false
@@ -1058,6 +1124,7 @@
   bib: /publications/bib/Choudhury2023GuideSet.bib
 
 - year: 2023
+  date: "2023-11-03"
   type: Presentation
   topics: [Ornithology, Open Source]
   peer_reviewed: true
@@ -1072,6 +1139,7 @@
   recording: https://www.youtube.com/live/9-mCsIonljc?si=v1UPT6wME9ahbq1X&t=4868
 
 - year: 2023
+  date: "2023-10-28"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1084,6 +1152,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/A%20rose%20by%20any%20other%20%24variable.pptx
 
 - year: 2023
+  date: "2023-07-14"
   type: Presentation
   topics: [Open Source, OSS Policy]
   peer_reviewed: false
@@ -1096,6 +1165,7 @@
   bib: /publications/bib/Littauer2023WhereDoes.bib
 
 - year: 2023
+  date: "2023-02-08"
   type: Presentation
   topics: [Research Software, Open Source, OSS Policy]
   peer_reviewed: false
@@ -1107,6 +1177,7 @@
   bib: /publications/bib/Littauer2023SustainOSSOpen.bib
 
 - year: 2023
+  date: "2023-05-11"
   type: Software
   topics: [Ornithology, Open Source, Bioacoustics]
   peer_reviewed: false
@@ -1118,6 +1189,7 @@
   bib: /publications/bib/Mills2023Vesper.bib
 
 - year: 2023
+  date: "2023-01-18"
   type: Software
   topics: [Linguistics, Open Source]
   peer_reviewed: false
@@ -1141,6 +1213,7 @@
   bib: /publications/bib/Littauer2023Dependencycite.bib
 
 - year: 2023
+  date: "2023-03"
   type: Popular Article
   topics: [Ornithology, Taxonomic Nomenclature, Botany]
   peer_reviewed: false
@@ -1165,6 +1238,7 @@
   bib: /publications/bib/Littauer2023Nameyourcontributors.bib
 
 - year: 2022
+  date: "2022-08-06"
   type: Conference Paper
   topics: [Linguistics]
   peer_reviewed: true
@@ -1176,6 +1250,7 @@
   bib: /publications/bib/LittULAB.bib
 
 - year: 2022
+  date: "2022-10-11"
   type: Poster
   topics: [Ornithology]
   peer_reviewed: true
@@ -1188,6 +1263,7 @@
   bib: /publications/bib/LittauerAFOBewicks.bib
 
 - year: 2022
+  date: "2022-11-04"
   type: Presentation
   topics: [Ornithology, Open Source]
   peer_reviewed: true
@@ -1200,6 +1276,7 @@
   bib: /publications/bib/Littauer2022GullsDo.bib
 
 - year: 2022
+  date: "2022-11"
   type: Popular Article
   topics: []
   peer_reviewed: false
@@ -1212,6 +1289,7 @@
   bib: /publications/bib/Littauer2022CannonsLawn.bib
 
 - year: 2022
+  date: "2022-07"
   type: Popular Article
   topics: [Ornithology]
   peer_reviewed: false
@@ -1224,6 +1302,7 @@
   bib: /publications/bib/Littauer2022GrowingRoots.bib
 
 - year: 2022
+  date: "2022-03"
   type: Popular Article
   topics: [Ornithology]
   peer_reviewed: false
@@ -1236,6 +1315,7 @@
   bib: /publications/bib/Littauer2022MoreThan.bib
 
 - year: 2021
+  date: "2021-11-06"
   type: Presentation
   topics: [Ornithology, Open Source, Bioacoustics]
   peer_reviewed: true
@@ -1249,6 +1329,7 @@
   recording: https://archive.org/details/SeaGL2021-Richard_Littauer-Birds_by_Starlight
 
 - year: 2021
+  date: "2021-03-03"
   type: Presentation
   topics: [Ornithology]
   peer_reviewed: false
@@ -1261,6 +1342,7 @@
   recording: https://www.youtube.com/watch?v=dgjLV39q1lY
 
 - year: 2019
+  date: "2019-06-06"
   type: Software
   topics: [Open Source]
   peer_reviewed: false
@@ -1272,6 +1354,7 @@
   bib: /publications/bib/Preston2019Javaipfshttpclient.bib
 
 - year: 2019
+  date: "2019-06-05"
   type: Software
   topics: [Open Source]
   peer_reviewed: false
@@ -1283,6 +1366,7 @@
   bib: /publications/bib/Benet2019Ipfs.bib
 
 - year: 2019
+  date: "2019-06-05"
   type: Software
   topics: [Open Source]
   peer_reviewed: false
@@ -1294,6 +1378,7 @@
   bib: /publications/bib/Dias2019IPFSSpecs.bib
 
 - year: 2018
+  date: "2018-03-19"
   type: Popular Article
   topics: [Linguistics, Literary Studies]
   peer_reviewed: false
@@ -1318,6 +1403,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/nvc.pdf
 
 - year: 2018
+  date: "2018-06"
   type: Thesis
   topics: [Linguistics, Open Source, Research Software]
   peer_reviewed: false
@@ -1330,6 +1416,7 @@
   bib: /publications/bib/Littauer2018OpenSource.bib
 
 - year: 2017
+  date: "2017-11-14"
   type: Popular Article
   topics: [Botany, Linguistics, Literary Studies]
   peer_reviewed: false
@@ -1342,6 +1429,7 @@
   bib: /publications/bib/Littauer2017ImaginedBotany.bib
 
 - year: 2017
+  date: "2017-08-29"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1354,6 +1442,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/Toronto%20PolyHack%20Git.key
 
 - year: 2017
+  date: "2017-01-31"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1378,6 +1467,7 @@
   bib: /publications/bib/Littauer2017NaviEnglishDictionary.bib
 
 - year: 2016
+  date: "2016-05-23"
   type: Conference Paper
   topics: [Linguistics, Research Software, Open Source]
   peer_reviewed: true
@@ -1389,6 +1479,7 @@
   bib: /publications/bib/CCURL.bib
 
 - year: 2016
+  date: "2016-02-22"
   type: [Journal Article, Full Paper]
   topics: [Community Science, Research Software, Open Source]
   peer_reviewed: true
@@ -1400,6 +1491,7 @@
   bib: /publications/bib/wssspe2.bib
 
 - year: 2016
+  date: "2016-11-13"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1411,6 +1503,7 @@
   bib: /publications/bib/Littauer2016WhyStandardize.bib
 
 - year: 2016
+  date: "2016-10-26"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1423,6 +1516,7 @@
   slides: https://github.com/RichardLitt/talks/tree/main/standard-readme-dc
 
 - year: 2016
+  date: "2016-03-03"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1435,6 +1529,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/name-your-contributors.pdf
 
 - year: 2016
+  date: "2016-06-30"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1447,6 +1542,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/nomadism.key
 
 - year: 2016
+  date: "2016-03-20"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1471,6 +1567,7 @@
   bib: /publications/bib/Littauer2016DothrakiLanguage.bib
 
 - year: 2015
+  date: "2015-11-19"
   type: Presentation
   topics: [Open Source]
   peer_reviewed: false
@@ -1553,6 +1650,7 @@
   bib: /publications/bib/Wiggins2013DataManagement.bib
 
 - year: 2013
+  date: "2013-04-06"
   type: Presentation
   topics: [Linguistics, Arts, Literary Studies]
   peer_reviewed: false
@@ -1564,6 +1662,7 @@
   bib: /publications/bib/Littauer2013VenezDecouvrir.bib
 
 - year: 2013
+  date: "2013-02-08"
   type: Presentation
   topics: [Linguistics, Open Source]
   peer_reviewed: false
@@ -1576,6 +1675,7 @@
   slides: http://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
+  date: "2012-10-23"
   type: [Journal Article, Full Paper]
   topics: [Community Science, Open Source, Research Software]
   peer_reviewed: true
@@ -1611,6 +1711,7 @@
   bib: /publications/bib/LittLinguist.bib
 
 - year: 2012
+  date: "2012-07"
   type: [Conference Paper, Presentation]
   topics: [Linguistics, Community Science]
   peer_reviewed: true
@@ -1622,6 +1723,7 @@
   bib: /publications/bib/LittDH.bib
 
 - year: 2012
+  date: "2012-05-23"
   type: [Conference Paper, Poster]
   topics: [Linguistics, Community Science, Open Source, Research Software]
   peer_reviewed: true
@@ -1634,6 +1736,7 @@
   poster: /publications/OKFLRECposter.pdf
 
 - year: 2012
+  date: "2012-04-23"
   type: Conference Paper
   topics: [Linguistics, Open Source]
   peer_reviewed: true
@@ -1647,6 +1750,7 @@
   slides: https://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
+  date: "2012-02"
   type: [Conference Paper, Presentation]
   topics: [Linguistics, Language Evolution]
   peer_reviewed: true
@@ -1658,6 +1762,7 @@
   bib: /publications/bib/LittEvoA.bib
 
 - year: 2012
+  date: "2012-02"
   type: [Conference Paper, Poster]
   topics: [Linguistics, Language Evolution]
   peer_reviewed: true
@@ -1681,6 +1786,7 @@
   slides: http://www.slideshare.net/RichLitt/a-reanalysis-of-anatomical-changes-for-language
 
 - year: 2012
+  date: "2012-07"
   type: Conference Paper
   peer_reviewed: true
   title: "Crowd sourcing the classroom: Interactive applications in higher learning"
@@ -1691,6 +1797,7 @@
   bib: /publications/bib/LittEdulearn.bib
 
 - year: 2012
+  date: "2012-05-01"
   type: Conference Paper
   topics: [Linguistics, Open Source]
   peer_reviewed: true
@@ -1702,6 +1809,7 @@
   bib: /publications/bib/Varju2012UsingClojure.bib
 
 - year: 2012
+  date: "2012-05-16"
   type: Presentation
   topics: [Linguistics]
   peer_reviewed: true
@@ -1714,6 +1822,7 @@
   slides: http://www.slideshare.net/RichLitt/building-corpora-from-social-media
 
 - year: 2012
+  date: "2012-04-04"
   type: Presentation
   topics: [Community Science, Research Software, Open Source]
   peer_reviewed: false
@@ -1738,6 +1847,7 @@
   bib: /publications/bib/Littauer2012Importsoulpy.bib
 
 - year: 2011
+  date: "2011-10-18"
   type: Poster
   topics: [Community Science, Research Software, Open Source]
   peer_reviewed: false
@@ -1749,6 +1859,7 @@
   bib: /publications/bib/Littauer2011TrendsUse.bib
 
 - year: 2011
+  date: "2011-12-07"
   type: Conference Paper
   topics: [Community Science, Research Software, Open Source]
   peer_reviewed: true
@@ -1761,6 +1872,7 @@
   slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2011
+  date: "2011-06-30"
   type: Presentation
   topics: [Linguistics, Community Science, Open Source, Research Software]
   peer_reviewed: true
@@ -1773,6 +1885,7 @@
   slides: http://www.slideshare.net/RichLitt/towards-open-methods-using-scientific-workflows-in-linguistics
 
 - year: 2011
+  date: "2011-06-10"
   type: Poster
   topics: [Linguistics, Language Evolution]
   peer_reviewed: false
@@ -1784,6 +1897,7 @@
   bib: /publications/bib/Littauer2011ReDatingLoss.bib
 
 - year: 2011
+  date: "2011-04-28"
   type: Presentation
   topics: [Linguistics, Open Source, Research Software, Language Evolution]
   peer_reviewed: true
@@ -1807,6 +1921,7 @@
   bib: /publications/bib/Littauer2011EvolutionSpeech2.bib
 
 - year: 2010
+  date: "2010-10-06"
   type: Presentation
   topics: [Linguistics, Arts, Literary Studies]
   peer_reviewed: false
