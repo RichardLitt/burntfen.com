@@ -62,9 +62,10 @@
 {%- assign is_paper = false %}
 {%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
 {%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
-{%- if pub.url or pub.pdf or pub.preprint or pub.bib or pub.slides or pub.poster or pub.recording or request %}
+{%- capture abstract_id %}abstract-{{ group.name | slugify }}-{{ forloop.index }}{% endcapture %}
+{%- if pub.url or pub.pdf or pub.preprint or pub.bib or pub.slides or pub.poster or pub.recording or request or pub.abstract %}
 <div class="publication-links">
-{%- comment %} PDF first, then the link, then everything else; bibtex always last {% endcomment %}
+{%- comment %} PDF first, then the link, then everything else; bibtex, then the abstract toggle, last {% endcomment %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.preprint %} <a href="{{ pub.preprint }}">preprint</a>{% endif %}
@@ -73,7 +74,11 @@
 {%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
 {%- if request %} <a href="mailto:{{ site.author.email }}?subject={{ "Request for Paper: " | append: pub.title | url_encode | replace: "+", "%20" }}">email me</a>{% endif %}
 {%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
+{%- if pub.abstract %} <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="{{ abstract_id }}">abstract <span class="pub-abstract-arrow" aria-hidden="true">▾</span></button>{% endif %}
 </div>
+{%- endif %}
+{%- if pub.abstract %}
+<div class="publication-abstract" id="{{ abstract_id }}" hidden>{{ pub.abstract | markdownify }}</div>
 {%- endif %}
 <div class="publication-tags">
 {%- if pub.peer_reviewed %}
