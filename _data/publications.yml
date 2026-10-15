@@ -206,6 +206,8 @@
   title: "Neotype designation for Red-winged Blackbird (Agelaius phoeniceus)"
   citation: |-
     Richard Littauer (2026). Neotype designation for Red-winged Blackbird (*Agelaius phoeniceus*). *The Wilson Journal of Ornithology*.
+  abstract: |-
+    Mearns (1911) and Howell and Van Rossem (1928) attempted to restrict the type locality of the Red-winged Blackbird *Agelaius phoeniceus* (Linnaeus, 1766) and the nominate subspecies to Charleston, South Carolina, USA, using Mearns’ (1911) unfounded statement that Linnaeus based his description only on M. Catesby’s work. A taxon’s type locality can only be the location where the syntypes were described or collected. Linnaeus referenced other authors than Catesby in his original description, resulting in a much broader type locality, covering the range of multiple currently recognized subspecies. No valid designation of a lectotype or neotype was made by Mearns (1911) or Howell and Van Rossem (1928), or any later author. No known syntypes of *A. phoeniceus* are extant. In order to promote stability in the nomenclature, I designate a neotype for *Agelaius phoeniceus*, collected originally by E. Mearns in 1911 in Charleston, South Carolina, and now stored at Smithsonian Institution, National Museum of Natural History.
   doi: 10.1080/15594491.2026.2737543
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/15594491.2026.2737543
   bib: /publications/bib/Littauer2026NeotypeDesignation.bib
@@ -286,6 +288,8 @@
   title: "Open practices across science, software, education and other domains"
   citation: |-
     John Meluso, Cassandra Chambers, Richard Littauer, Nerea Llamas, Elizabeth Long Lingo, Marlene Mhangami, Beck Pitt, Violetta Splitter, Huajin Wang (2026). Open practices across science, software, education and other domains. *Nature Human Behaviour*: 1–13.
+  abstract: |-
+    Open practices are actions people perform to influence transparency (who can see information), inclusion (who can voice perspectives) and decision rights (who can make decisions). Open practices have grown popular across domains, including open science, open-source software and open education, in hopes of spurring innovation and broadening participation. But which open practices best enable groups and organizations to achieve these ambitious goals, and why? This Perspective distils seven successful practices from across these domains that can help groups to define goals, allocate power, share information and set norms. These practices, such as documenting power structures and adopting a code of conduct, hold potential to support groups and organizations seeking to address great challenges through openness. However, delivering on that potential will depend on how well groups share lessons across domains, tailor these practices and sustain the people and platforms that carry them.
   doi: 10.1038/s41562-026-02526-0
   preprint: https://doi.org/10.2139/ssrn.4821969
   pdf: https://www.nature.com/articles/s41562-026-02526-0.pdf
@@ -745,6 +749,8 @@
   title: "Nomenclatural corrections for gender of species-group names for two Solomon Island birds"
   citation: |-
     Richard Littauer (2025). Nomenclatural corrections for gender of species-group names for two Solomon Island birds. *Emu – Austral Ornithology* 125(3): 261–263.
+  abstract: |-
+    The Solomon Islands is home to 65 endemic species of birds and a total of 335 species. The scientific names of two of these species need to be corrected according to Article 31 of the International Code of Zoological Nomenclature, which mandates how scientific names are formed. The species-group names in *Ceyx gentiana* and *Zosterops tetiparia* are corrected here for their gender.
   doi: 10.1080/01584197.2025.2551298
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01584197.2025.2551298
   bib: /publications/bib/Littauer2025Emu.bib
@@ -781,6 +787,8 @@
   title: "Renaming a bill type for Tundra Swan (Cygnus columbianus)"
   citation: |-
     Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). *The Wilson Journal of Ornithology* 137(3): 493–495.
+  abstract: |-
+    A subspecies of Tundra Swan, the Bewick’s Swan (*Cygnus columbianus bewickii*) has patterns of yellow areas on its bill. The schema for identifying individual bill-types includes a term which is known to be offensive, used for bills which are predominantly black. Following other movements to decolonialize and reject antiquated and offensive terms, I suggest that we rename this term going forward.
   doi: 10.1080/15594491.2025.2498780
   pdf: /publications/Littauer2025RenamingBill.pdf
   bib: /publications/bib/Littauer2025RenamingBill.bib
@@ -1125,6 +1133,12 @@
   title: "Research software is critical to the future of AI-driven research"
   citation: |-
     Michelle Barker, Kim Hartley, Daniel S. Katz, Richard Littauer, Qian Zhang, Shurui Zhou, Jyoti Bhogal (2024). Research software is critical to the future of AI-driven research. Front Matter.
+  abstract: |-
+    This position paper provides a statement on the criticality of research software in artificial intelligence (AI)-driven research and makes recommendations for stakeholders on how to consider research software in their AI goals. This is needed to ensure that the focus on technological infrastructure to support AI acceleration includes research software and its personnel as a vital part of that infrastructure. This paper discusses both research software that supports generative AI, which is now being explored today as a tool to enable new research, as well as more traditional machine learning, which has demonstrated impact in research in most disciplines (particularly in the last decade).
+
+    This paper begins by providing definitions for key terms and demonstrating the importance of research software in AI-driven research. The paper then explores the need for AI strategies to recognise research software as key building blocks of AI-driven research, and to include this element alongside a focus on computing systems, data, and models. The fact that AI is dependent on software (i.e., data preparation and model training are performed by software, models are implemented in software) is not always adequately considered. Alongside this high level need for incorporation of research software in AI strategies, the challenges inherent in software dependencies also need consideration, as research software requires continual maintenance, updating, bug fixes, etc. Consequently, the broader challenges in enabling ongoing support for research software used for any type of research are equally relevant to AI-driven research and presented here.
+
+    There is also a need to better support the people who develop and maintain the research software that enables AI-driven research. Because human skills, training, and career paths often feature in AI strategies, it is imperative that stakeholders facilitate practices that support and recognise research software personnel. And while the research community is exploring how to leverage AI to improve how research software is developed and maintained, this is also affecting how research software practices should be taught. The paper also illustrates how some countries are operationalising AI strategies that could support the critical element of research software, and have the potential to do so by building on existing investments in research software.
   doi: 10.59350/rkf19-fe204
   pdf:
   bib: /publications/bib/Barker2024ResearchSoftware.bib
@@ -1361,6 +1375,8 @@
   title: "On Tocharian Exceptionality to the centum-satem Isogloss"
   citation: |-
     Richard Littauer (2022). On Tocharian Exceptionality to the *centum-satem* Isogloss. In: C. Wilson, ed., *Undergraduate Linguistics Association of Britain 2012 Proceedings*, pp. 18–25. Bristol, UK: online.
+  abstract: |-
+    I argue that there may have been pressures inhibiting phonological change in Tocharian, particularly in relation to the centum/satem Indo-European split. Firstly, if the overall complexity of language strata may change over time (Sampson, 2009), syntactic, morphological, and lexical changes may have inhibited a change in the phonemic inventory of the language. Secondly, I examine the historical evidence for other languages in historical Central Asia in order to show that contact languages may have also horizontally influenced the centum nature of Tocharian. Thirdly, I posit that the merge of the PIE dorsal consonants may have been influenced by the decline in the general use, domain, and range of Tocharian, which would be in line with recent research correlating small phonemic inventories with small language communities (Hay & Bauer, 2007). Tocharian therefore may not have been susceptible to a weak dialect wave, or to a possible early branching of IE. This paper takes a new perspective on the history and development of Tocharian, and in turn on the nature of the ‘textbook’ isogloss example.
   doi: 10.5281/zenodo.6969558
   pdf: /publications/Littauer2022TocharianExceptionality.pdf
   bib: /publications/bib/Littauer2022TocharianExceptionality.bib
@@ -1526,6 +1542,10 @@
   title: "Open Source Code and Low Resource Languages"
   citation: |-
     Richard Littauer (2018). Open Source Code and Low Resource Languages. MSc dissertation, Language Science and Technology, Universität des Saarlandes, Saarbrücken, Germany. Supervisors: Alexis Palmer and Dietrich Klakow.
+  abstract: |-
+    Of the roughly seven thousand languages currently spoken, fewer than fifty have a significant digital presence. In order for a language to be used digitally and to survive in the long term, its speakers may need to develop computational resources: orthographical scripts, dictionaries, grammars, spell checkers, parsers, and more. Instead of depending on large providers, researchers and communities can leverage the open source code methodology as a means of bootstrapping digital language development. In this thesis, I discuss the state of the field for low resource languages, what open source licensing means and how it can help language communities. I provide two case studies, looking in detail at Gaelic and Naskapi, and I describe a decentralised, crowd-sourced database I have developed to catalogue open source code which can be used for low resource languages. Looking to the future, I suggest steps for developing and using code going forwards.
+
+    My specific contributions in this thesis include not only the first published analysis of the state of the field for open source code specifically regarding low resource languages, and an exposition of the only database of solely open source resources, but also independent fieldwork on Naskapi that pertains to its current digital presence on the web. I also outline how language technologists can change their processes to help make their work more effectual in the long term.
   doi:
   url: https://github.com/RichardLitt/thesis
   pdf: https://github.com/RichardLitt/thesis/blob/master/thesis.pdf
@@ -1590,6 +1610,8 @@
   title: "Open Source Code Serving Endangered Languages"
   citation: |-
     Richard Littauer, Hugh Paterson III (2016). Open Source Code Serving Endangered Languages. In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, E. Wandl-Vogt, eds., *Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop*, pp. 86–88. Portorož, Slovenia, 23 May, 2016.
+  abstract: |-
+    We present a database of open source code that can be used by low-resource language communities and developers to build digital resources. Our database is also useful to software developers working with those communities and to researchers looking to describe the state of the field when seeking funding for development projects.
   doi:
   pdf: https://github.com/RichardLitt/low-resource-languages/raw/main/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf
   bib: /publications/bib/Littauer2016OpenSource.bib
@@ -1602,6 +1624,8 @@
   title: "Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)"
   citation: |-
     Daniel S. Katz, Sou-Cheng T. Choi, Nancy Wilkins-Diehr, Neil Chue Hong, Colin C. Venters, James Howison, Frank Seinstra, Matthew Jones, Karen A. Cranston, Thomas L. Clune, Miguel de Val-Borro, Richard Littauer (2016). Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). *Journal of Open Research Software* 4(1): e7.
+  abstract: |-
+    This technical report records and discusses the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). The report includes a description of the alternative, experimental submission and review process, two workshop keynote presentations, a series of lightning talks, a discussion on sustainability, and five discussions from the topic areas of exploring sustainability; software development experiences; credit & incentives; reproducibility & reuse & sharing; and code testing & code review. For each topic, the report includes a list of tangible actions that were proposed and that would lead to potential change. The workshop recognized that reliance on scientific software is pervasive in all areas of world-leading research today. The workshop participants then proceeded to explore different perspectives on the concept of sustainability. Key enablers and barriers of sustainable scientific software were identified from their experiences. In addition, recommendations with new requirements such as software credit files and software prize frameworks were outlined for improving practices in sustainable software engineering. There was also broad consensus that formal training in software development or engineering was rare among the practitioners. Significant strides need to be made in building a sense of community via training in software and technical practices, on increasing their size and scope, and on better integrating them directly into graduate education programs. Finally, journals can define and publish policies to improve reproducibility, whereas reviewers can insist that authors provide sufficient information and access to data and software to allow them reproduce the results in the paper. Hence a list of criteria is compiled for journals to provide to reviewers so as to make it easier to review software submitted for publication as a “Software Paper.”
   doi: 10.5334/jors.85
   pdf: https://storage.googleapis.com/jnl-up-j-jors-files/journals/1/articles/85/submission/proof/85-1-923-2-10-20160222.pdf
   bib: /publications/bib/Katz2016ReportSecond.bib
@@ -1749,6 +1773,8 @@
   title: "Linguistic Resources Enhanced with Geospatial Information"
   citation: |-
     Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). Linguistic Resources Enhanced with Geospatial Information. In: C. Chiarcos, P. Cimiano, T. Declerck, J. P. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53–58. Pisa, Italy: Association for Computational Linguistics.
+  abstract: |-
+    In this short report on language data and RDF tools, we describe the transformation process that we undertook to convert spreadsheet data about a group of endangered languages and where they are spoken in West Africa into an RDF triple store. We use RDF tools to organize and visualize these data on a world map, accessible through a web browser. The functionality we develop allows researchers to see where these languages are spoken and to query the language data. This type of development not only showcases the power of RDF, but it provides a powerful tool for linguists trying the solve the mysteries of the genealogical relatedness of the Dogon languages.
   doi:
   url: https://aclanthology.org/W13-5508/
   pdf: https://aclanthology.org/W13-5508.pdf
