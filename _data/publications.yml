@@ -13,7 +13,7 @@
 #   pdf, bib             - paths under /publications/ or full URLs. Entries with no pdf
 #                          and no Zenodo/arXiv DOI get an "email me" link instead
 #                          (papers only; not talks, posters, software, data, edited volumes, popular articles or creative writing).
-#   slides, poster, recording - optional
+#   slides, poster, recording, preprint - optional
 # Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
 
 - year: In Review
@@ -317,6 +317,7 @@
   citation: |-
     John Meluso, Cassandra Chambers, Richard Littauer, Nerea Llamas, Elizabeth Long Lingo, Marlene Mhangami, Beck Pitt, Violetta Splitter, Huajin Wang (2026). Open practices across science, software, education and other domains. *Nature Human Behaviour*: 1–13.
   doi: 10.1038/s41562-026-02526-0
+  preprint: https://doi.org/10.2139/ssrn.4821969
   pdf:
   bib: /publications/bib/Meluso2026NHB.bib
 
@@ -1210,6 +1211,18 @@
   pdf:
   bib: /publications/bib/Littauer2023HowI.bib
 
+- year: 2023
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "name-your-contributors"
+  citation: |-
+    Richard Littauer, Thomas Getgood, Maximilian Berkmann (2023). name-your-contributors (v3.10.0). GitHub.
+  doi:
+  url: https://github.com/mntnr/name-your-contributors
+  pdf:
+  bib: /publications/bib/Littauer2023Nameyourcontributors.bib
+
 - year: 2022
   type: Conference Paper
   topics: [Linguistics]
@@ -1410,6 +1423,18 @@
   bib: /publications/bib/Littauer2017BootstrappingFlipflops.bib
   slides: https://github.com/RichardLitt/talks/blob/main/bootstrapping%20your%20flipflops.pdf
 
+- year: 2017
+  type: Dictionary
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Na'vi–English Dictionary"
+  citation: |-
+    Richard Littauer, et al. (2017). Na'vi–English Dictionary. LearnNavi.org.
+  doi:
+  url: http://learnnavi.org
+  pdf:
+  bib: /publications/bib/Littauer2017NaviEnglishDictionary.bib
+
 - year: 2016
   type: Conference Paper
   topics: [Linguistics, Open Science]
@@ -1491,6 +1516,18 @@
   bib: /publications/bib/Littauer2016Multiformats.bib
   slides: https://github.com/RichardLitt/talks/blob/main/multiformats.key
 
+- year: 2016
+  type: Dictionary
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "The Dothraki Language Dictionary"
+  citation: |-
+    Richard Littauer (2016). The Dothraki Language Dictionary. Dothraki.org.
+  doi:
+  url: https://dothraki.org
+  pdf:
+  bib: /publications/bib/Littauer2016DothrakiLanguage.bib
+
 - year: 2015
   type: Presentation
   topics: [Open Source]
@@ -1503,6 +1540,18 @@
   bib: /publications/bib/Littauer2015GitYolo.bib
   slides: https://github.com/RichardLitt/talks/blob/main/git%20yolo.pdf
   recording: https://www.youtube.com/watch?v=_KY9ltbdoK4
+
+- year: 2015
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "The Open Source Protocol"
+  citation: |-
+    Richard Littauer (2015). The Open Source Protocol. Specification.
+  doi:
+  url: https://github.com/RichardLitt/open-source-protocol
+  pdf:
+  bib: /publications/bib/Littauer2015OpenSource.bib
 
 - year: 2014
   type: Conference Paper
@@ -1604,7 +1653,7 @@
   peer_reviewed: true
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices"
   citation: |-
-    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Data Curation* 7(2): 92–100.
+    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Digital Curation* 7(2): 92–100.
   doi: 10.2218/ijdc.v7i2.232
   pdf: http://ijdc.net/index.php/ijdc/article/download/222/291
   bib: /publications/bib/LittIJDC.bib
