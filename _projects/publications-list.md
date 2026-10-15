@@ -8,6 +8,7 @@
 <div class="tag-group" role="group" aria-label="Filter by review status">
 <span class="tag-group-label">Show</span>
 <button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+<button type="button" class="pub-tag" data-tag="during-phd" aria-pressed="false">During PhD</button>
 {%- for status in statuses %}
 <button type="button" class="pub-tag" data-tag="{{ status | slugify }}" aria-pressed="false">{{ status }}</button>
 {%- endfor %}
@@ -36,7 +37,10 @@
 {%- for pub in group.items %}
 {%- comment %} `type` may be a single type or a list of them {% endcomment %}
 {%- assign pub_types = pub.type | join: "|" | split: "|" %}
-<li class="publication" data-tags="{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{% for t in pub_types %}{{ t | slugify }} {% endfor %}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
+{%- comment %} My PhD started in 2024; anything since then, or still in review, counts as "During PhD" {% endcomment %}
+{%- assign during_phd = false %}
+{%- if pub.year == "In Review" %}{% assign during_phd = true %}{% elsif pub.year >= 2024 %}{% assign during_phd = true %}{% endif %}
+<li class="publication" data-tags="{% if during_phd %}during-phd {% endif %}{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{% for t in pub_types %}{{ t | slugify }} {% endfor %}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
 {%- comment %} Bold my name when there's more than one author {% endcomment %}
 {%- assign authors = pub.citation | split: " (2" | first %}
 {%- assign opening = pub.citation | slice: 0, 18 %}
@@ -49,14 +53,15 @@
 {%- assign open_doi = false %}
 {%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
 {%- assign request = false %}
-{%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume,Popular Article,Creative Writing" | split: "," %}
+{%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume,Popular Article,Creative Writing,Dictionary" | split: "," %}
 {%- assign is_paper = false %}
 {%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
 {%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
-{%- if pub.url or pub.pdf or pub.bib or pub.slides or pub.poster or pub.recording or request %}
+{%- if pub.url or pub.pdf or pub.preprint or pub.bib or pub.slides or pub.poster or pub.recording or request %}
 <div class="publication-links">
 {%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
+{%- if pub.preprint %} <a href="{{ pub.preprint }}">preprint</a>{% endif %}
 {%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
 {%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
 {%- if pub.poster %} <a href="{{ pub.poster }}">poster</a>{% endif %}
