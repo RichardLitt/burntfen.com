@@ -452,7 +452,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
 
 - year: 2026
-  type: [Journal Article, Full Paper]
+  type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "The Oregon Dark-eyed Junco should be called Junco hyemalis oregana"
@@ -759,7 +759,7 @@
   bib: /publications/bib/Littauer2025NotornisLopdell.bib
 
 - year: 2025
-  type: [Journal Article, Full Paper]
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Corrections for grammatical agreement in Joeropsididae (Malacostraca: Isopoda)"
