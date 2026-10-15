@@ -13,7 +13,7 @@
     <p class="role"><i>{{ page.role }}</i> {{ page.status }}</p>
     {{ content }}
 
-    {% if page.outbound %}<p>
+    {% if page.outbound and page.hide_button != true %}<p>
       <a href="{{ page.outbound }}" class="btn btn-check-it-out" role="button">
         Check it out
       </a>
