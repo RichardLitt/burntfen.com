@@ -579,18 +579,6 @@
   pdf:
   bib: /publications/bib/Littauer2026UpdateNew.bib
 
-- year: 2026
-  type: Software
-  topics: [Ornithology]
-  peer_reviewed: false
-  title: "Mimicry in Australian Birds: eBird Analysis"
-  citation: |-
-    Richard Littauer (2026). Mimicry in Australian Birds: eBird Analysis (v1.0.0). GitHub.
-  doi:
-  url: https://github.com/RichardLitt/mimicry-australia
-  pdf:
-  bib: /publications/bib/Littauer2026MimicryAustralian.bib
-
 - year: 2025
   type: Software
   topics: [Open Source]
@@ -1574,7 +1562,6 @@
   citation: |-
     Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp. 121–132. Tokyo, Japan: Evolang 9 Organizing Committee.
   doi:
-  url: http://kyoto.evolang.org/sites/default/files/student_volume.pdf
   pdf:
   bib: /publications/bib/LittEvoC.bib
 
@@ -1644,7 +1631,6 @@
   citation: |-
     Richard Littauer (2013). Venez Découvrir et parler le Na'vi [Come discover and speak Na'vi]. *Festival Frontières*, Thionville, France, April 6, 2013. Invited talk.
   doi:
-  url: http://www.festivalfrontieres.fr/invites/Richard-Littaeur_16.html
   pdf:
   bib: /publications/bib/Littauer2013VenezDecouvrir.bib
 
