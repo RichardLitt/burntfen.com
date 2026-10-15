@@ -17,7 +17,7 @@
 # Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
 
 - year: In Review
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Literary Studies]
   peer_reviewed: false
   status: In Review
@@ -53,7 +53,7 @@
   bib: /publications/bib/LittauerInReviewCodeShould.bib
 
 - year: In Review
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -65,7 +65,7 @@
   bib: /publications/bib/LittauerInReviewLectotypeDesignations.bib
 
 - year: In Review
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -77,7 +77,7 @@
   bib: /publications/bib/LittauerInReviewPygoscelisPapua.bib
 
 - year: In Review
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology]
   peer_reviewed: false
   status: In Review
@@ -137,7 +137,7 @@
   bib: /publications/bib/LittauerInReviewPunkEmo.bib
 
 - year: In Review
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -149,7 +149,7 @@
   bib: /publications/bib/LittauerInReviewFirstRevisers.bib
 
 - year: In Review
-  type: [Journal Article]
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -161,7 +161,7 @@
   bib: /publications/bib/LittauerInReviewPasserDomestica.bib
 
 - year: In Review
-  type: [Journal Article]
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -173,7 +173,7 @@
   bib: /publications/bib/LittauerInReviewAuthorshipNeotis.bib
 
 - year: In Review
-  type: [Journal Article]
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
@@ -207,7 +207,7 @@
   bib: /publications/bib/Littauer2026NeotypeDesignation.bib
 
 - year: 2026
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "No agreement required: a further note on kākāpō Strigops nomenclature"
@@ -262,7 +262,7 @@
   bib: /publications/bib/Littauer2026WJOPerisoreus.bib
 
 - year: 2026
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Open Science, Open Source]
   peer_reviewed: true
   title: "Open practices across science, software, education and other domains"
@@ -452,7 +452,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
 
 - year: 2026
-  type: Journal Article
+  type: [Journal Article, Short Note]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: true
   title: "The Oregon Dark-eyed Junco should be called Junco hyemalis oregana"
@@ -476,7 +476,7 @@
   bib: /publications/bib/Nakahara2026NewName.bib
 
 - year: 2026
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Research Software, Open Source]
   peer_reviewed: true
   status: In Press
@@ -555,7 +555,7 @@
   bib: /publications/bib/Lubiana2025WikiLoves.bib
 
 - year: 2025
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Taxonomic Nomenclature, Entomology]
   peer_reviewed: true
   title: "Corrections for grammatical agreement for species in Chelaner Emery, 1914 (Hymenoptera: Formicidae)"
@@ -681,7 +681,7 @@
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.05.31%20-%20BirdsNZ%20-%20Taxonomy.pdf
 
 - year: 2025
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Literary Studies]
   peer_reviewed: true
   title: "The Sooty Shearwater as Melville’s Inscrutable Haglet"
@@ -759,7 +759,7 @@
   bib: /publications/bib/Littauer2025NotornisLopdell.bib
 
 - year: 2025
-  type: Journal Article
+  type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature]
   peer_reviewed: true
   title: "Corrections for grammatical agreement in Joeropsididae (Malacostraca: Isopoda)"
@@ -1389,7 +1389,7 @@
   bib: /publications/bib/CCURL.bib
 
 - year: 2016
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Open Science]
   peer_reviewed: true
   title: "Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)"
@@ -1588,7 +1588,7 @@
   slides: http://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Open Science]
   peer_reviewed: true
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices"
@@ -1600,7 +1600,7 @@
   slides: https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2012
-  type: Journal Article
+  type: [Journal Article, Full Paper]
   topics: [Linguistics, Open Science, Open Source]
   peer_reviewed: true
   title: "Replicating Oliphant's Saussurean Simulations"

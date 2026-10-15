@@ -101,6 +101,37 @@
   }
 }
 
+// Topic tags each get their own muted colour; types and the Show row stay grey.
+// Chosen to stay distinguishable with deuteranopia: the smallest CIEDE2000
+// difference between any two, under a Machado (2009) deuteranopia simulation
+// and with normal vision, is 10.6. All keep #333 text above WCAG AA (4.5:1).
+$topic-colors: (
+  arts: #bcbda7,
+  botany: #c3a869,
+  education: #99f4fd,
+  entomology: #eed190,
+  linguistics: #60a0da,
+  literary-studies: #c5b8c3,
+  open-science: #39aaae,
+  open-source: #84a199,
+  ornithology: #76a779,
+  research-software: #65d0fd,
+  taxonomic-nomenclature: #f7eecf
+);
+@each $topic, $color in $topic-colors {
+  .pub-tag.topic-#{$topic},
+  #publication-filters .pub-tag.topic-#{$topic}.active,
+  #publication-list .pub-tag.topic-#{$topic}.active {
+    background: $color;
+  }
+}
+// A selected topic keeps its colour and gets a solid outline, which reads
+// regardless of colour vision.
+#publication-filters .pub-tag.topic.active {
+  border-color: #333;
+  box-shadow: inset 0 0 0 1px #333;
+}
+
 // Tags inside each entry only hint that they're selected,
 // so a filter doesn't light up every row of the list.
 #publication-list .pub-tag.active {
