@@ -21,7 +21,9 @@ const rename = require('gulp-rename')
 const imageResize = require('gulp-image-resize')
 
 const paths = {
-  js: ['src/js/**/*.js', '!src/js/**/*.min.js'],
+  // Skip sources that ship with their own .min.js (copied by js-copy): minifying
+  // them too writes the same output file twice, which corrupted bootstrap.min.js.
+  js: ['src/js/**/*.js', '!src/js/**/*.min.js', '!src/js/bootstrap.js'],
   jsMin: ['src/js/**/*.min.js'],
   img: ['src/img/**/*.png', 'src/img/**/*.jpg'],
   imgDest: 'assets/img',
