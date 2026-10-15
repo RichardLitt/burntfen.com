@@ -1476,7 +1476,7 @@
     Richard Littauer, Hugh Paterson III (2016). Open Source Code Serving Endangered Languages. In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, E. Wandl-Vogt, eds., *Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop*, pp. 86–88. Portorož, Slovenia, 23 May, 2016.
   doi:
   pdf: https://github.com/RichardLitt/low-resource-languages/raw/main/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf
-  bib: /publications/bib/CCURL.bib
+  bib: /publications/bib/Littauer2016OpenSource.bib
 
 - year: 2016
   date: "2016-02-22"
@@ -1488,7 +1488,7 @@
     Daniel S. Katz, Sou-Cheng T. Choi, Nancy Wilkins-Diehr, Neil Chue Hong, Colin C. Venters, James Howison, Frank Seinstra, Matthew Jones, Karen A. Cranston, Thomas L. Clune, Miguel de Val-Borro, Richard Littauer (2016). Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). *Journal of Open Research Software* 4(1): e7.
   doi: 10.5334/jors.85
   pdf: https://storage.googleapis.com/jnl-up-j-jors-files/journals/1/articles/85/submission/proof/85-1-923-2-10-20160222.pdf
-  bib: /publications/bib/wssspe2.bib
+  bib: /publications/bib/Katz2016ReportSecond.bib
 
 - year: 2016
   date: "2016-11-13"
@@ -1624,7 +1624,7 @@
     Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments. In: I. Gurevych and J. Kim, eds., *The People's Web Meets NLP: Collaboratively Constructed Language Resources*, pp. 315–348. Springer.
   doi: 10.1007/978-3-642-35085-6_12
   pdf:
-  bib: /publications/bib/ChiarcosLOD.bib
+  bib: /publications/bib/Chiarcos2013BuildingLinked.bib
 
 - year: 2013
   type: Conference Paper
@@ -1636,7 +1636,7 @@
   doi:
   url: https://aclanthology.org/W13-5508/
   pdf: https://aclanthology.org/W13-5508.pdf
-  bib: /publications/bib/LittLDL.bib
+  bib: /publications/bib/Littauer2013LinguisticResources.bib
 
 - year: 2013
   type: Book Review
@@ -1648,7 +1648,7 @@
   doi:
   url: https://linguistlist.org/issues/24/2604/
   pdf:
-  bib: /publications/bib/LittLinguist2013.bib
+  bib: /publications/bib/Littauer2013ReviewPotentials.bib
 
 - year: 2013
   type: Report
@@ -1696,7 +1696,7 @@
     Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Digital Curation* 7(2): 92–100.
   doi: 10.2218/ijdc.v7i2.232
   pdf: https://ijdc.net/index.php/ijdc/article/download/222/281
-  bib: /publications/bib/LittIJDC.bib
+  bib: /publications/bib/Littauer2012TrendsUse2.bib
   slides: https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2012
@@ -1720,7 +1720,7 @@
   doi:
   url: https://linguistlist.org/issues/23/3813/
   pdf:
-  bib: /publications/bib/LittLinguist.bib
+  bib: /publications/bib/Littauer2012ReviewLanguage.bib
 
 - year: 2012
   date: "2012-07"
