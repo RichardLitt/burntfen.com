@@ -615,7 +615,7 @@
   citation: |-
     Richard Littauer, Jessamyn West (2025). Codex Mutabilis: Preserving the Reasons for Changes in Scientific Names. Short paper, *iPRES 2025*.
   doi: 10.5281/zenodo.19546736
-  pdf:
+  pdf: https://zenodo.org/records/19546737
   bib: /publications/bib/Littauer2025CodexMutabilis.bib
   slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
 
@@ -833,7 +833,7 @@
   citation: |-
     Richard Littauer, Kris Bubendorfer (2025). Harmonizing Community Science Datasets to Model Highly Pathogenic Avian Influenza (HPAI) in Birds in the Subantarctic. *AIEES 2025 Workshop, Pacific Rim International Conference on Artificial Intelligence (PRICAI)*. Wellington, NZ, 17–21 November, 2025.
   doi: 10.48550/arXiv.2512.07907
-  pdf:
+  pdf: https://arxiv.org/abs/2512.07907
   bib: /publications/bib/Littauer2025HarmonizingCommunity.bib
 
 - year: 2025
