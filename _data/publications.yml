@@ -1506,18 +1506,6 @@
   pdf:
   bib: /publications/bib/LittEvoC.bib
 
-- year: 2014
-  type: Creative Writing
-  topics: [Arts]
-  peer_reviewed: false
-  title: "Bushwick Artist Cannot Attend Own Launch Event as he Mistakenly Scheduled Trip to Hamptons Simultaneously"
-  citation: |-
-    Richard Littauer (2014). Bushwick Artist Cannot Attend Own Launch Event as he Mistakenly Scheduled Trip to Hamptons Simultaneously. Satire. *Burning Bushwick*, April 27, 2014.
-  doi:
-  url: https://web.archive.org/web/20160731233356/http://burningbushwick.com/bushwick-artist-cannot-attend-own-launch-event-as-he-mistakenly-scheduled-trip-to-hamptons-simultaneously/
-  pdf:
-  bib: /publications/bib/Littauer2014BushwickArtist.bib
-
 - year: 2013
   type: Book Chapter
   topics: [Open Science, Linguistics]
