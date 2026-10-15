@@ -18,30 +18,6 @@
 
 - year: In Review
   type: Journal Article
-  topics: [Ornithology, Taxonomic Nomenclature]
-  peer_reviewed: false
-  status: In Review
-  title: "Amendments to the 6th edition (2024) of the Checklist of the Birds of New Zealand"
-  citation: |-
-    Colin Miskelly, Richard Littauer, Pascale Lubbe, Nicolas Rawlence, Alan Tennyson. Amendments to the 6th edition (2024) of the Checklist of the Birds of New Zealand. *Notornis*. In review.
-  doi:
-  pdf:
-  bib: /publications/bib/MiskellyInReviewAmendments6th.bib
-
-- year: In Review
-  type: Journal Article
-  topics: [Ornithology]
-  peer_reviewed: false
-  status: In Review
-  title: "When should newly-breeding bird species be considered resident in Aotearoa/New Zealand?"
-  citation: |-
-    Colin M. Miskelly, Peter J. de Lange, Rodney A. Hitchmough, Richard Littauer, Troy D. Makan, Nicolas J. Rawlence, Hugh A. Robertson, Alan J.D. Tennyson. When should newly-breeding bird species be considered resident in Aotearoa/New Zealand?. *Notornis*. In review.
-  doi:
-  pdf:
-  bib: /publications/bib/MiskellyInReviewWhenShould.bib
-
-- year: In Review
-  type: Journal Article
   topics: [Ornithology, Literary Studies]
   peer_reviewed: false
   status: In Review
@@ -51,18 +27,6 @@
   doi:
   pdf:
   bib: /publications/bib/LittauerInReviewKatherineMansfields.bib
-
-- year: In Review
-  type: Journal Article
-  topics: [Botany]
-  peer_reviewed: false
-  status: In Review
-  title: "First community science documentation of Liparophyllum gunnii Hook.f. (Menyanthaceae) from the Greater Wellington region, with a note on Abrotanella Cass. (Asteraceae)"
-  citation: |-
-    Richard Littauer, Archer Lamason, Melissa Hutchison. First community science documentation of *Liparophyllum gunnii* Hook.f. (Menyanthaceae) from the Greater Wellington region, with a note on *Abrotanella* Cass. (Asteraceae). *Perspectives in Biodiversity*. In review.
-  doi:
-  pdf:
-  bib: /publications/bib/LittauerInReviewFirstCommunity.bib
 
 - year: In Review
   type: Journal Article
@@ -135,18 +99,6 @@
   doi:
   pdf:
   bib: /publications/bib/LittauerInReviewCaseOligosoma.bib
-
-- year: In Review
-  type: Journal Article
-  topics: [Open Science, Open Source]
-  peer_reviewed: false
-  status: In Review
-  title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
-  citation: |-
-    Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre Vogler-Finck, Andrew Nesbitt, Chris Harris, Abdul Salam Issahaku. Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. *Cambridge Forum on Technology and Global Affairs*. In review.
-  doi:
-  pdf:
-  bib: /publications/bib/LittauerInReviewMappingOpen.bib
 
 - year: In Review
   type: [Short Note, Journal Article]
