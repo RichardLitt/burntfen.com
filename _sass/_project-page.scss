@@ -177,6 +177,45 @@ $topic-colors: (
       margin-right: 10px;
     }
   }
+  // Looks like the links beside it (see .publications-page above), but it's a
+  // button: it toggles, it doesn't go anywhere.
+  .pub-abstract-toggle {
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-weight: 600;
+    color: #666;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    cursor: pointer;
+    &:hover,
+    &:focus-visible {
+      color: red;
+      text-decoration-color: red;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  // inline-block keeps the underline off the arrow
+  .pub-abstract-arrow {
+    display: inline-block;
+  }
+  .publication-abstract {
+    margin: 6px 0 0 24px;
+    padding-left: 10px;
+    max-width: 50em;
+    border-left: 2px solid #ddd;
+    font-size: 14px;
+    color: #333;
+    p {
+      margin: 0 0 6px;
+    }
+    &[hidden] {
+      display: none;
+    }
+  }
   .publication-tags {
     margin-top: 4px;
   }

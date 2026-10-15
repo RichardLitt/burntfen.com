@@ -130,6 +130,17 @@
     window.history[push ? 'pushState' : 'replaceState'](null, '', url);
   }
 
+  // "abstract ▾" shows or hides the entry's abstract, between its links and tags.
+  document.addEventListener('click', function (event) {
+    var toggle = event.target.closest('.pub-abstract-toggle');
+    if (!toggle) return;
+    var abstract = document.getElementById(toggle.getAttribute('aria-controls'));
+    var open = abstract.hidden;
+    abstract.hidden = !open;
+    toggle.setAttribute('aria-expanded', open);
+    toggle.querySelector('.pub-abstract-arrow').textContent = open ? '▴' : '▾';
+  });
+
   document.addEventListener('click', function (event) {
     var button = event.target.closest('.pub-tag, .pub-clear');
     if (!button) return;
