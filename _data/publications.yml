@@ -629,8 +629,9 @@
   peer_reviewed: false
   title: "First Reviser for Rhopalum succineicollarum Tsuneki, 1952"
   citation: |-
-    Richard Littauer (2025). First Reviser for *Rhopalum succineicollarum* Tsuneki, 1952. Zenodo.
+    Richard Littauer (2025). First Reviser for *Rhopalum succineicollarum* Tsuneki, 1952. *Codex Mutabilis*, November 2, 2025.
   doi: 10.5281/zenodo.17504393
+  url: https://codexmutabilis.com/fr/2025/11/02/first-revision-of-rhopalum-succineicollarum-tsuneki-1952.html
   pdf:
   bib: /publications/bib/Littauer2025FirstReviser.bib
 
@@ -977,6 +978,18 @@
   bib: /publications/bib/Katz2025OpensourceSoftware.bib
 
 - year: 2024
+  type: Short Note
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
+  citation: |-
+    Richard Littauer (2024). *Porrhomma boreale* (Banks, 1899) is changed to *P. borealis*. *Codex Mutabilis*, December 5, 2024.
+  doi:
+  url: https://codexmutabilis.com/substantive/2024/12/05/porrhomma-boreale-banks-1899-is-changed-to-p-borealis.html
+  pdf:
+  bib: /publications/bib/Littauer2024PorrhommaBoreale.bib
+
+- year: 2024
   type: Software
   topics: [Open Source]
   peer_reviewed: false
@@ -993,8 +1006,9 @@
   peer_reviewed: false
   title: "Prunum boreale (A. E. Verrill, 1884) is changed to P. borealis"
   citation: |-
-    Richard Littauer (2024). *Prunum boreale* (A. E. Verrill, 1884) is changed to *P. borealis*. Zenodo.
+    Richard Littauer (2024). *Prunum boreale* (A. E. Verrill, 1884) is changed to *P. borealis*. *Codex Mutabilis*, December 4, 2024.
   doi: 10.5281/zenodo.14377607
+  url: https://codexmutabilis.com/substantive/2024/12/04/prunum-boreale-a-e-verrill-1884-p-borealis.html
   pdf:
   bib: /publications/bib/Littauer2024PrunumBoreale.bib
 
