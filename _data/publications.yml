@@ -186,7 +186,7 @@
 
 - year: 2026
   type: Data
-  topics: [Taxonomic Nomenclature, Open Science]
+  topics: [Taxonomic Nomenclature, Community Science]
   peer_reviewed: false
   title: "TAXACOM 1992–2025 Backup"
   citation: |-
@@ -230,7 +230,7 @@
 
 - year: 2026
   type: Edited Volume
-  topics: [Open Source, Open Science, Research Software]
+  topics: [Open Source, Research Software]
   peer_reviewed: false
   title: "PyCon AU 2026 Academic Proceedings"
   citation: |-
@@ -241,7 +241,7 @@
 
 - year: 2026
   type: Presentation
-  topics: [Open Source, Open Science, Research Software]
+  topics: [Open Source, Research Software]
   peer_reviewed: true
   title: "Using Local VLMs for Data Extraction"
   citation: |-
@@ -252,7 +252,7 @@
 
 - year: 2026
   type: [Short Note, Journal Article]
-  topics: [Ornithology, Open Science]
+  topics: [Ornithology, Community Science]
   peer_reviewed: true
   title: "Community-science sourced evidence of vocal mimicry in Perisoreus jays"
   citation: |-
@@ -263,7 +263,7 @@
 
 - year: 2026
   type: [Journal Article, Full Paper]
-  topics: [Open Science, Open Source]
+  topics: [Community Science, Open Source]
   peer_reviewed: true
   title: "Open practices across science, software, education and other domains"
   citation: |-
@@ -308,7 +308,7 @@
 
 - year: 2026
   type: Data
-  topics: [Ornithology, Open Science, Open Source]
+  topics: [Ornithology, Community Science, Open Source]
   peer_reviewed: false
   title: "Data sources for HPAI study on Skua, Kāhu, and Kārearea"
   citation: |-
@@ -319,7 +319,7 @@
 
 - year: 2026
   type: Software
-  topics: [Linguistics, Open Science, Open Source]
+  topics: [Linguistics, Community Science, Open Source, Research Software]
   peer_reviewed: false
   title: "Open Source Code Serving Endangered Languages"
   citation: |-
@@ -385,7 +385,7 @@
 
 - year: 2026
   type: Conference Paper
-  topics: [Open Science, Open Source]
+  topics: [Community Science, Open Source, Research Software]
   peer_reviewed: true
   title: "Beyond Adoption: Examining the Evolution and Impact of Code of Conduct on Open Source Communities"
   citation: |-
@@ -407,7 +407,7 @@
 
 - year: 2026
   type: Presentation
-  topics: [Research Software, Open Science, Open Source]
+  topics: [Research Software, Community Science, Open Source]
   peer_reviewed: true
   title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
   citation: |-
@@ -429,7 +429,7 @@
 
 - year: 2026
   type: Edited Volume
-  topics: [Open Science, Open Source]
+  topics: [Open Source, Research Software]
   peer_reviewed: false
   title: "Kiwi PyCon 2025 Academic Track Proceedings"
   citation: |-
@@ -440,7 +440,7 @@
 
 - year: 2026
   type: [Conference Paper, Presentation]
-  topics: [Open Science, Open Source]
+  topics: [Community Science, Research Software, Open Source]
   peer_reviewed: true
   title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
   citation: |-
@@ -489,7 +489,7 @@
 
 - year: 2026
   type: Conference Paper
-  topics: [Ornithology, Open Science, Open Source, Research Software]
+  topics: [Ornithology, Open Source, Research Software, Community Science]
   peer_reviewed: true
   title: "Community Science: Prediction to Arrival, Modeling H5N1 in New Zealand"
   citation: |-
@@ -500,7 +500,7 @@
 
 - year: 2026
   type: Conference Paper
-  topics: [Open Science, Open Source, Research Software, Ornithology]
+  topics: [Open Source, Research Software, Ornithology]
   peer_reviewed: true
   title: "Data Rescue for Historic Scientific Literature: Automatically Extracting and Cross-Validating Published Records"
   citation: |-
@@ -545,7 +545,7 @@
 
 - year: 2025
   type: [Presentation]
-  topics: [Open Science]
+  topics: [Community Science, Research Software]
   peer_reviewed: false
   title: "Wiki Loves iNaturalist: How Wikimedians Integrate iNaturalist Content on Wikipedia, Wikidata, and Wikimedia Commons"
   citation: |-
@@ -579,7 +579,7 @@
 
 - year: 2025
   type: [Conference Paper, Presentation]
-  topics: [Taxonomic Nomenclature, Open Science, Ornithology]
+  topics: [Taxonomic Nomenclature, Ornithology]
   peer_reviewed: true
   title: "Codex Mutabilis: Preserving the Reasons for Changes in Scientific Names"
   citation: |-
@@ -603,7 +603,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Research Software, Open Science]
+  topics: [Research Software]
   peer_reviewed: true
   title: "Write all the things? The process of collaboratively writing papers #RSAA25"
   citation: |-
@@ -704,7 +704,7 @@
 
 - year: 2025
   type: Report
-  topics: [Open Science, Research Software, Open Source]
+  topics: [Research Software, Open Source]
   peer_reviewed: false
   title: "eResearch NZ / eRangahau Aotearoa – The Case for Open Source in the Science System of Aotearoa"
   citation: |-
@@ -715,7 +715,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Linguistics, Open Science, Research Software]
+  topics: [Linguistics, Community Science, Research Software]
   peer_reviewed: false
   title: "Building Corpora for Low Resource Languages Using Social Networks"
   citation: |-
@@ -726,7 +726,7 @@
 
 - year: 2025
   type: [Short Note, Journal Article]
-  topics: [Entomology, Open Science]
+  topics: [Entomology, Community Science]
   peer_reviewed: false
   title: "Audio observation of a Wellington Tree Wētā Hemideina crassidens defence stridulation"
   citation: |-
@@ -738,7 +738,7 @@
 
 - year: 2025
   type: Preprint
-  topics: [Research Software, Open Science, Open Source]
+  topics: [Research Software, Open Source]
   peer_reviewed: false
   title: "10 quick tips for making your software outlive your job"
   citation: |-
@@ -782,7 +782,7 @@
 
 - year: 2025
   type: [Conference Paper, Presentation]
-  topics: [Ornithology, Open Science, Research Software]
+  topics: [Ornithology, Community Science, Research Software]
   peer_reviewed: true
   title: "Harmonizing Community Science Datasets to Model Highly Pathogenic Avian Influenza (HPAI) in Birds in the Subantarctic"
   citation: |-
@@ -815,7 +815,7 @@
 
 - year: 2025
   type: Report
-  topics: [Open Science]
+  topics: [Community Science, Open Source, Research Software]
   peer_reviewed: false
   title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
   citation: |-
@@ -849,7 +849,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Taxonomic Nomenclature, Open Science, Ornithology]
+  topics: [Taxonomic Nomenclature, Community Science,Ornithology, Research Software]
   peer_reviewed: true
   title: "Words, words, words, you fishmonger: Using Wikidata to Reconcile Taxonomies"
   citation: |-
@@ -861,7 +861,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Open Science, Open Source]
+  topics: [Community Science, Open Source, Research Software]
   peer_reviewed: false
   title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
   citation: |-
@@ -872,7 +872,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Open Source, Open Science]
+  topics: [Open Source, Research Software]
   peer_reviewed: false
   title: "Open Source Sustainability"
   citation: |-
@@ -896,7 +896,7 @@
 
 - year: 2025
   type: Presentation
-  topics: [Open Science]
+  topics: [Community Science, Research Software]
   peer_reviewed: false
   title: "OpenRefine"
   citation: |-
@@ -989,7 +989,7 @@
 
 - year: 2024
   type: Presentation
-  topics: [Research Software, Open Source, Open Science]
+  topics: [Research Software, Open Source, Community Science]
   peer_reviewed: true
   title: "From Core to A'Tuin: Citing Software All The Way Down the Stack"
   citation: |-
@@ -1001,7 +1001,7 @@
 
 - year: 2024
   type: Presentation
-  topics: [Ornithology, Open Science]
+  topics: [Ornithology, Community Science, Open Source, Research Software]
   peer_reviewed: true
   title: "Using iNaturalist, eBird, and Python to become a community scientist"
   citation: |-
@@ -1037,7 +1037,7 @@
 
 - year: 2024
   type: Report
-  topics: [Open Science, Research Software]
+  topics: [Research Software, Open Source]
   peer_reviewed: false
   title: "A Definition of an Academic OSPO"
   citation: |-
@@ -1048,7 +1048,7 @@
 
 - year: 2023
   type: Report
-  topics: [Open Science, Research Software]
+  topics: [Open Source, Research Software]
   peer_reviewed: false
   title: "Guide to Set Up a University Open Source Program Office"
   citation: |-
@@ -1130,7 +1130,7 @@
 
 - year: 2023
   type: Software
-  topics: [Open Science, Research Software]
+  topics: [Open Source, Research Software]
   peer_reviewed: false
   title: "dependency-cite"
   citation: |-
@@ -1319,7 +1319,7 @@
 
 - year: 2018
   type: Thesis
-  topics: [Linguistics, Open Source, Open Science]
+  topics: [Linguistics, Open Source, Research Software]
   peer_reviewed: false
   title: "Open Source Code and Low Resource Languages"
   citation: |-
@@ -1379,7 +1379,7 @@
 
 - year: 2016
   type: Conference Paper
-  topics: [Linguistics, Open Science]
+  topics: [Linguistics, Research Software, Open Source]
   peer_reviewed: true
   title: "Open Source Code Serving Endangered Languages"
   citation: |-
@@ -1390,7 +1390,7 @@
 
 - year: 2016
   type: [Journal Article, Full Paper]
-  topics: [Open Science]
+  topics: [Community Science, Research Software, Open Source]
   peer_reviewed: true
   title: "Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)"
   citation: |-
@@ -1497,7 +1497,7 @@
 
 - year: 2014
   type: Conference Paper
-  topics: [Linguistics, Open Science]
+  topics: [Linguistics, Community Science]
   peer_reviewed: true
   title: "From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research"
   citation: |-
@@ -1508,7 +1508,7 @@
 
 - year: 2013
   type: Book Chapter
-  topics: [Open Science, Linguistics]
+  topics: [Linguistics, Research Software, Community Science]
   peer_reviewed: true
   title: "Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments"
   citation: |-
@@ -1543,7 +1543,7 @@
 
 - year: 2013
   type: Report
-  topics: [Open Science]
+  topics: [Community Science]
   peer_reviewed: false
   title: "Data Management Guide for Public Participation in Scientific Research"
   citation: |-
@@ -1565,7 +1565,7 @@
 
 - year: 2013
   type: Presentation
-  topics: [Linguistics, Open Source, Open Science]
+  topics: [Linguistics, Open Source]
   peer_reviewed: false
   title: "Visualising Typological Relationships: Plotting WALS with Heat Maps"
   citation: |-
@@ -1577,7 +1577,7 @@
 
 - year: 2012
   type: [Journal Article, Full Paper]
-  topics: [Open Science]
+  topics: [Community Science, Open Source, Research Software]
   peer_reviewed: true
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices"
   citation: |-
@@ -1589,7 +1589,7 @@
 
 - year: 2012
   type: [Journal Article, Full Paper]
-  topics: [Linguistics, Open Science, Open Source]
+  topics: [Linguistics, Open Source]
   peer_reviewed: true
   title: "Replicating Oliphant's Saussurean Simulations"
   citation: |-
@@ -1612,7 +1612,7 @@
 
 - year: 2012
   type: [Conference Paper, Presentation]
-  topics: [Linguistics, Open Science]
+  topics: [Linguistics, Community Science]
   peer_reviewed: true
   title: "Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet"
   citation: |-
@@ -1623,7 +1623,7 @@
 
 - year: 2012
   type: [Conference Paper, Poster]
-  topics: [Linguistics, Open Science]
+  topics: [Linguistics, Community Science, Open Source, Research Software]
   peer_reviewed: true
   title: "The Open Linguistics Working Group"
   citation: |-
@@ -1635,7 +1635,7 @@
 
 - year: 2012
   type: Conference Paper
-  topics: [Linguistics, Open Science, Open Source]
+  topics: [Linguistics, Open Source]
   peer_reviewed: true
   title: "Visualising Typological Relationships: Plotting WALS with Heat Maps"
   citation: |-
@@ -1682,7 +1682,6 @@
 
 - year: 2012
   type: Conference Paper
-  topics: [Education]
   peer_reviewed: true
   title: "Crowd sourcing the classroom: Interactive applications in higher learning"
   citation: |-
@@ -1716,7 +1715,7 @@
 
 - year: 2012
   type: Presentation
-  topics: [Open Science]
+  topics: [Community Science, Research Software, Open Source]
   peer_reviewed: false
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
   citation: |-
@@ -1740,7 +1739,7 @@
 
 - year: 2011
   type: Poster
-  topics: [Open Science]
+  topics: [Community Science, Research Software, Open Source]
   peer_reviewed: false
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
   citation: |-
@@ -1751,7 +1750,7 @@
 
 - year: 2011
   type: Conference Paper
-  topics: [Open Science]
+  topics: [Community Science, Research Software, Open Source]
   peer_reviewed: true
   title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
   citation: |-
@@ -1763,7 +1762,7 @@
 
 - year: 2011
   type: Presentation
-  topics: [Linguistics, Open Science]
+  topics: [Linguistics, Community Science, Open Source, Research Software]
   peer_reviewed: true
   title: "Towards Open Methods: Using Scientific Workflows in Linguistics"
   citation: |-
@@ -1786,7 +1785,7 @@
 
 - year: 2011
   type: Presentation
-  topics: [Linguistics, Open Source, Research Software, Open Science]
+  topics: [Linguistics, Open Source, Research Software]
   peer_reviewed: true
   title: "The Evolution of Speech Segmentation: A Computer Model"
   citation: |-
@@ -1798,7 +1797,7 @@
 
 - year: 2011
   type: Thesis
-  topics: [Linguistics, Open Source, Research Software, Open Science]
+  topics: [Linguistics, Open Source, Research Software]
   peer_reviewed: false
   title: "The Evolution of Speech Segmentation: A Computer Model"
   citation: |-
