@@ -32,7 +32,7 @@ This panel was on reproducibility at CROSS, the Center for Research in Open Sour
 
 Last August I presented a poster at AFO, the Association of Field Ornithologists. This is a different field entirely than open source, but birds are something I care passionately about, and I was excited to dip my toes into the water of ornithological research. While working on a list of subspecies of birds in the Northeast for a book I am slowly working on, I found a term in the literature that I thought could be updated, as our language has changed since the 60s and it is now considered racist. Short of making a full paper, I figured a poster was also citable by others and can be used to update the term in the wider literature.
 
-* Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
+* Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/Littauer2022ProposalRenaming.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/Littauer2022ProposalRenaming.bib)
 
 You can check out the poster about Bewick's Swans by clicking on the link above.
 
