@@ -1604,6 +1604,18 @@
   bib: /publications/bib/Littauer2014SavannahCloud.bib
 
 - year: 2013
+  date: "2013-04-03"
+  type: Poster
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study"
+  citation: |-
+    Richard Littauer (2013). Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study. Research proposal poster presented at the Quantitative Historical Linguistics Research Unit, Marburger Haus, Hirschegg, Kleinwalsertal, Austria, April 3, 2013.
+  doi:
+  pdf: /publications/Littauer2013UsingDemographic.pdf
+  bib: /publications/bib/Littauer2013UsingDemographic.bib
+
+- year: 2013
   type: Book Chapter
   topics: [Linguistics, Research Software, Community Science, Open Data]
   peer_reviewed: true
@@ -1673,18 +1685,6 @@
   pdf:
   bib: /publications/bib/Littauer2013VisualisingTypological.bib
   slides: http://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
-
-- year: 2012
-  date: "2012-05-15"
-  type: Poster
-  topics: [Linguistics]
-  peer_reviewed: false
-  title: "Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study"
-  citation: |-
-    Richard Littauer (2012). Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study. Research proposal poster presented at the Research Unit Quantitative Historical Linguistics, Marburg, Germany, May 15, 2012.
-  doi:
-  pdf: /publications/Littauer2012UsingDemographic.pdf
-  bib: /publications/bib/Littauer2012UsingDemographic.bib
 
 - year: 2012
   date: "2012-10-23"
