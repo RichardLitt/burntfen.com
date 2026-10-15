@@ -274,7 +274,7 @@
   bib: /publications/bib/Meluso2026NHB.bib
 
 - year: 2026
-  type: [Abstract, Presentation]
+  type: [Presentation]
   topics: [Ornithology]
   peer_reviewed: true
   title: "Large-scale NLP detection of vocal mimicry in Australian community science bird observations"
@@ -555,7 +555,7 @@
   bib: /publications/bib/Littauer2025Botw.bib
 
 - year: 2025
-  type: [Abstract, Presentation]
+  type: [Presentation]
   topics: [Open Science]
   peer_reviewed: false
   title: "Wiki Loves iNaturalist: How Wikimedians Integrate iNaturalist Content on Wikipedia, Wikidata, and Wikimedia Commons"
@@ -1187,7 +1187,7 @@
   bib: /publications/bib/LittULAB.bib
 
 - year: 2022
-  type: [Abstract, Poster]
+  type: [Poster]
   topics: [Ornithology]
   peer_reviewed: true
   title: "A Proposal for Renaming Bill Types of Bewick's Swans"
@@ -1634,7 +1634,7 @@
   bib: /publications/bib/LittLinguist.bib
 
 - year: 2012
-  type: [Conference Paper, Abstract, Presentation]
+  type: [Conference Paper, Presentation]
   topics: [Linguistics, Open Science]
   peer_reviewed: true
   title: "Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet"
@@ -1670,7 +1670,7 @@
   slides: https://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
-  type: [Conference Paper, Abstract, Presentation]
+  type: [Conference Paper, Presentation]
   topics: [Linguistics]
   peer_reviewed: true
   title: "The Evolution of Morphological Agreement"
@@ -1681,7 +1681,7 @@
   bib: /publications/bib/LittEvoA.bib
 
 - year: 2012
-  type: [Conference Paper, Abstract, Poster]
+  type: [Conference Paper, Poster]
   topics: [Linguistics]
   peer_reviewed: true
   title: "Re-dating the Loss of Laryngeal Air Sacs in Homo sapiens"
