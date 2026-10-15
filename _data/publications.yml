@@ -592,6 +592,18 @@
   bib: /publications/bib/Littauer2026MimicryAustralian.bib
 
 - year: 2025
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "VOLTTRON Version 9"
+  citation: |-
+    Craig Allwardt, Chandrika Sivaramakrishnan, Shwetha Niddodi, Jereme Haack, Mark Bonicillo, Robert Lutes, Richard Littauer, et al. (2025). VOLTTRON Version 9. Pacific Northwest National Laboratory (PNNL), Richland, WA. US Department of Energy software.
+  doi: 10.11578/dc.20250219.1
+  url: https://github.com/VOLTTRON/volttron
+  pdf:
+  bib: /publications/bib/Allwardt2025VOLTTRONVersion.bib
+
+- year: 2025
   type: Book Chapter
   topics: [Ornithology]
   peer_reviewed: true
@@ -1380,11 +1392,12 @@
   type: Thesis
   topics: [Linguistics, Open Source]
   peer_reviewed: false
-  title: "Open Source Code and Endangered Languages"
+  title: "Open Source Code and Low Resource Languages"
   citation: |-
-    Richard Littauer (2018). Open Source Code and Endangered Languages. MSc dissertation, Language Science and Technology, Universität des Saarlandes, Saarbrücken, Germany. Supervisors: Alexis Palmer and Dietrich Klakow.
+    Richard Littauer (2018). Open Source Code and Low Resource Languages. MSc dissertation, Language Science and Technology, Universität des Saarlandes, Saarbrücken, Germany. Supervisors: Alexis Palmer and Dietrich Klakow.
   doi:
-  pdf:
+  url: https://github.com/RichardLitt/thesis
+  pdf: https://github.com/RichardLitt/thesis/blob/master/thesis.pdf
   bib: /publications/bib/Littauer2018OpenSource.bib
 
 - year: 2017
