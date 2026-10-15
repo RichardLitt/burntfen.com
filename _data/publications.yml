@@ -488,17 +488,6 @@
   bib: /publications/bib/Ball2026JournalOpen.bib
 
 - year: 2026
-  type: Presentation
-  topics: [Open Science, Open Source]
-  peer_reviewed: true
-  title: "Open practices across science, software, education and other domains"
-  citation: |-
-    John Meluso, Cassandra R. Chambers, Richard Littauer, Nerea Llamas, Elizabeth Long Lingo, Marlene Mhangami, Beck Pitt, Violetta Splitter, Huajin Wang (2026). Open practices across science, software, education and other domains. *2026 ACM Collective Intelligence Conference and the 2026 ACM Conference on Human-AI Complementarity and Alignment*.
-  doi:
-  pdf:
-  bib: /publications/bib/Meluso2026OpenPractices.bib
-
-- year: 2026
   type: Conference Paper
   topics: [Ornithology, Open Science, Open Source, Research Software]
   peer_reviewed: true
