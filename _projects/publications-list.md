@@ -1,5 +1,5 @@
 {% assign publications = site.data.publications -%}
-{% assign topics = publications | map: "topics" | join: "|" | split: "|" | uniq | sort -%}
+{% assign topics = publications | map: "topics" | join: "|" | split: "|" | where_exp: "topic", "topic != ''" | uniq | sort -%}
 {% assign types = publications | map: "type" | join: "|" | split: "|" | uniq | sort -%}
 {% assign statuses = publications | map: "status" | compact | uniq -%}
 <div id="publication-filters">
