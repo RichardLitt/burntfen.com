@@ -59,14 +59,15 @@
 {%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
 {%- if pub.url or pub.pdf or pub.preprint or pub.bib or pub.slides or pub.poster or pub.recording or request %}
 <div class="publication-links">
-{%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
+{%- comment %} PDF first, then the link, then everything else; bibtex always last {% endcomment %}
 {%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
+{%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
 {%- if pub.preprint %} <a href="{{ pub.preprint }}">preprint</a>{% endif %}
-{%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
 {%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
 {%- if pub.poster %} <a href="{{ pub.poster }}">poster</a>{% endif %}
 {%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
 {%- if request %} <a href="mailto:{{ site.author.email }}?subject={{ "Request for Paper: " | append: pub.title | url_encode | replace: "+", "%20" }}">email me</a>{% endif %}
+{%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
 </div>
 {%- endif %}
 <div class="publication-tags">
