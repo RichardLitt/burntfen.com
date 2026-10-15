@@ -1456,7 +1456,7 @@
   citation: |-
     Richard Littauer, Hugh Paterson III (2016). Open Source Code Serving Endangered Languages. In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, E. Wandl-Vogt, eds., *Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop*, pp. 86–88. Portorož, Slovenia, 23 May, 2016.
   doi:
-  pdf: https://github.com/RichardLitt/endangered-languages/raw/master/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf
+  pdf: https://github.com/RichardLitt/low-resource-languages/raw/main/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf
   bib: /publications/bib/CCURL.bib
 
 - year: 2016
@@ -1668,7 +1668,7 @@
   citation: |-
     Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Digital Curation* 7(2): 92–100.
   doi: 10.2218/ijdc.v7i2.232
-  pdf: http://ijdc.net/index.php/ijdc/article/download/222/291
+  pdf: https://ijdc.net/index.php/ijdc/article/download/222/281
   bib: /publications/bib/LittIJDC.bib
   slides: https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
