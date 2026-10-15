@@ -265,8 +265,8 @@
   citation: |-
     Richard Littauer, Sam Darmstadt, William M. Kirsch & Davyd H. Betchkal (2026). Community-science sourced evidence of vocal mimicry in *Perisoreus* jays. *The Wilson Journal of Ornithology* 138(3): 504–514.
   doi: 10.1080/15594491.2026.2616578
-  pdf: /publications/Littauer2026WJOPerisoreus.pdf
-  bib: /publications/bib/Littauer2026WJOPerisoreus.bib
+  pdf: /publications/Littauer2026CommunityScience.pdf
+  bib: /publications/bib/Littauer2026CommunityScience.bib
 
 - year: 2026
   date: "2026-08-10"
@@ -469,8 +469,8 @@
   citation: |-
     Richard Littauer (2026). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. In: R. Littauer, D. Ganesan, eds., *Kiwi PyCon 2025 Academic Track Proceedings*, pp. 4–5.
   doi: 10.5281/zenodo.18597028
-  pdf: /publications/2026Kiwi.pdf
-  bib: /publications/bib/Littauer2026Kiwi.bib
+  pdf: /publications/Littauer2026MappingOpen.pdf
+  bib: /publications/bib/Littauer2026MappingOpen.bib
   recording: https://www.youtube.com/watch?v=kr8BP7eBCsI
   slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
 
@@ -702,8 +702,8 @@
   citation: |-
     Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). *The Wilson Journal of Ornithology* 137(3): 493–495.
   doi: 10.1080/15594491.2025.2498780
-  pdf: /publications/Renaming%20a%20bill%20type%20for%20Tundra%20Swan%20Cygnus%20columbianus.pdf
-  bib: /publications/bib/Littauer2025Bewicks.bib
+  pdf: /publications/Littauer2025RenamingBill.pdf
+  bib: /publications/bib/Littauer2025RenamingBill.bib
 
 - year: 2025
   date: "2025-06-01"
@@ -869,8 +869,8 @@
   citation: |-
     Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre J. C. Vogler-Finck, Andrew Nesbitt, Chris Harris (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology (1.0). Zenodo.
   doi: 10.5281/zenodo.17459415
-  pdf: /publications/2026OFAOST.pdf
-  bib: /publications/bib/2026OFAOST.bib
+  pdf: /publications/Littauer2025MappingOpen2.pdf
+  bib: /publications/bib/Littauer2025MappingOpen2.bib
 
 - year: 2025
   date: "2025-09"
@@ -1246,8 +1246,8 @@
   citation: |-
     Richard Littauer (2022). On Tocharian Exceptionality to the *centum-satem* Isogloss. In: C. Wilson, ed., *Undergraduate Linguistics Association of Britain 2012 Proceedings*, pp. 18–25. Bristol, UK: online.
   doi: 10.5281/zenodo.6969558
-  pdf: /publications/LittULAB.pdf
-  bib: /publications/bib/LittULAB.bib
+  pdf: /publications/Littauer2022TocharianExceptionality.pdf
+  bib: /publications/bib/Littauer2022TocharianExceptionality.bib
 
 - year: 2022
   date: "2022-10-11"
@@ -1259,8 +1259,8 @@
     Richard Littauer (2022). A Proposal for Renaming Bill Types of Bewick's Swans. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022.
   doi:
   url: https://afonet.org/uploads/2022_AFO100_Abstracts.pdf
-  pdf: /publications/LittauerAFOBewicks.pdf
-  bib: /publications/bib/LittauerAFOBewicks.bib
+  pdf: /publications/Littauer2022ProposalRenaming.pdf
+  bib: /publications/bib/Littauer2022ProposalRenaming.bib
 
 - year: 2022
   date: "2022-11-04"
@@ -1600,8 +1600,8 @@
   citation: |-
     Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp. 121–132. Tokyo, Japan: Evolang 9 Organizing Committee.
   doi:
-  pdf:
-  bib: /publications/bib/LittEvoC.bib
+  pdf: /publications/Littauer2014SavannahCloud.pdf
+  bib: /publications/bib/Littauer2014SavannahCloud.bib
 
 - year: 2013
   type: Book Chapter
@@ -1695,8 +1695,8 @@
   citation: |-
     Richard Littauer (2012). Replicating Oliphant's Saussurean Simulations. *Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies* 3(1).
   doi: 10.5281/zenodo.22169033
-  pdf: /publications/LittDebut.pdf
-  bib: /publications/bib/LittDebut.bib
+  pdf: /publications/Littauer2012ReplicatingOliphants.pdf
+  bib: /publications/bib/Littauer2012ReplicatingOliphants.bib
 
 - year: 2012
   type: Book Review
@@ -1719,8 +1719,8 @@
   citation: |-
     Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet. In: J. C. Meister, ed., *Digital Humanities 2012 Conference Abstracts*, pp. 268–269, University of Hamburg, July 16–22. Hamburg: Hamburg University Press.
   doi:
-  pdf: /publications/LittDH.pdf
-  bib: /publications/bib/LittDH.bib
+  pdf: /publications/Littauer2012AcademicResearch.pdf
+  bib: /publications/bib/Littauer2012AcademicResearch.bib
 
 - year: 2012
   date: "2012-05-23"
@@ -1731,9 +1731,9 @@
   citation: |-
     Christian Chiarcos, Sebastian Hellmann, Sebastian Nordhoff, Steven Moran, Richard Littauer, Judith Eckle-Kohler, Iryna Gurevych, Silvana Hartmann, Michael Matuschek, Christian M. Meyer (2012). The Open Linguistics Working Group. In: N. Calzolari, K. Choukri, T. Declerck, M. U. Doğan, B. Maegaard, J. Mariani, J. Odijk, S. Piperidis, eds., *Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC'12)*, pp. 3603–3610. Istanbul, Turkey, 23–25 May, 2012. European Language Resources Association (ELRA).
   doi: 10.63317/4zgv9goq5odq
-  pdf: /publications/OKFLREC.pdf
-  bib: /publications/bib/OKFLREC.bib
-  poster: /publications/OKFLRECposter.pdf
+  pdf: /publications/Chiarcos2012OpenLinguistics.pdf
+  bib: /publications/bib/Chiarcos2012OpenLinguistics.bib
+  poster: /publications/Chiarcos2012OpenLinguistics-poster.pdf
 
 - year: 2012
   date: "2012-04-23"
@@ -1745,8 +1745,8 @@
     Richard Littauer, Rory Turnbull, Alexis Palmer (2012). Visualising Typological Relationships: Plotting WALS with Heat Maps. In: *Proceedings of the European Association of Computational Linguistics 2012 Workshop on the Visualization of Linguistic Patterns*, pp. 30–34. Avignon, France, 23–24 April, 2012.
   doi:
   url: https://aclanthology.org/W12-0205/
-  pdf: /publications/LittEACL.pdf
-  bib: /publications/bib/LittEACL.bib
+  pdf: /publications/Littauer2012VisualisingTypological.pdf
+  bib: /publications/bib/Littauer2012VisualisingTypological.bib
   slides: https://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
 
 - year: 2012
@@ -1758,8 +1758,8 @@
   citation: |-
     Richard Littauer (2012). The Evolution of Morphological Agreement. In: T. C. Scott-Phillips, M. Tamariz, E. A. Cartmill, J. R. Hurford, eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pp. 484–485. Singapore: World Scientific.
   doi: 10.1142/9789814401500_0092
-  pdf: /publications/LittEvoA.pdf
-  bib: /publications/bib/LittEvoA.bib
+  pdf: /publications/Littauer2012EvolutionMorphological.pdf
+  bib: /publications/bib/Littauer2012EvolutionMorphological.bib
 
 - year: 2012
   date: "2012-02"
@@ -1770,8 +1770,8 @@
   citation: |-
     Richard Littauer (2012). Re-dating the Loss of Laryngeal Air Sacs in *Homo sapiens*. In: T. C. Scott-Phillips, M. Tamariz, E. A. Cartmill, J. R. Hurford, eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pp. 486–487. Singapore: World Scientific.
   doi: 10.1142/9789814401500_0093
-  pdf: /publications/LittEvoB.pdf
-  bib: /publications/bib/LittEvoB.bib
+  pdf: /publications/Littauer2012RedatingLoss.pdf
+  bib: /publications/bib/Littauer2012RedatingLoss.bib
 
 - year: 2012
   type: Conference Paper
@@ -1781,8 +1781,8 @@
   citation: |-
     Richard Littauer (2012). A Reanalysis of Anatomical Changes for Language. In: O. Ozbak, T. Soultatis, S. Kampouri and A. Menkabu, eds., *Language at the University of Essex (LangUE) 2011 Proceedings*, pp. 25–30. Department of Language and Linguistics, University of Essex.
   doi:
-  pdf: /publications/LittEssex.pdf
-  bib: /publications/bib/LittEssex.bib
+  pdf: /publications/Littauer2012ReanalysisAnatomical.pdf
+  bib: /publications/bib/Littauer2012ReanalysisAnatomical.bib
   slides: http://www.slideshare.net/RichLitt/a-reanalysis-of-anatomical-changes-for-language
 
 - year: 2012
@@ -1793,8 +1793,8 @@
   citation: |-
     Richard Littauer, Antonia Scheidel, Marc Schulder, Sibel Ciddi (2012). Crowd sourcing the classroom: Interactive applications in higher learning. In: L. Gómez Chova, I. Candel Torres, A. López Martínez, eds., *Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)*, pp. 1473–1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED).
   doi:
-  pdf: /publications/LittEdulearn.pdf
-  bib: /publications/bib/LittEdulearn.bib
+  pdf: /publications/Littauer2012CrowdSourcing.pdf
+  bib: /publications/bib/Littauer2012CrowdSourcing.bib
 
 - year: 2012
   date: "2012-05-01"
@@ -1805,7 +1805,7 @@
   citation: |-
     Zoltán Varjú, Richard Littauer, Peteris Erins (2012). Using Clojure in Linguistic Computing. *Proceedings of ELS 2012: 5th European Lisp Symposium*, Zadar, Croatia, 30 April–1 May, 2012.
   doi:
-  pdf: /publications/other/VarjuELS.pdf
+  pdf: /publications/Varju2012UsingClojure.pdf
   bib: /publications/bib/Varju2012UsingClojure.bib
 
 - year: 2012
@@ -1867,8 +1867,8 @@
   citation: |-
     Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. In: *7th International Digital Curation Conference Proceedings*, Bristol, 7–9 December, 2011.
   doi:
-  pdf: /publications/LittIDCC.pdf
-  bib: /publications/bib/LittIDCC.bib
+  pdf: /publications/Littauer2011TrendsUse2.pdf
+  bib: /publications/bib/Littauer2011TrendsUse2.bib
   slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2011

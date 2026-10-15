@@ -8,7 +8,7 @@ tags: [research, publication]
 {% include JB/setup %}
 
 My coauthors, Antonia Scheidel, Marc Schulder, and Sibel Ciddi, and I
-all have a new paper out recently in the 4th International Conference on Education and New Learning Technologies in Barcelona. It's called __Crowd sourcing the classroom: Interactive applications in higher learning__, and it is available for download [here](https://www.burntfen.com/publications/LittEdulearn.pdf), with the appropriate [bib file](https://www.burntfen.com/publications/bib/LittEdulearn.bib).
+all have a new paper out recently in the 4th International Conference on Education and New Learning Technologies in Barcelona. It's called __Crowd sourcing the classroom: Interactive applications in higher learning__, and it is available for download [here](https://www.burntfen.com/publications/Littauer2012CrowdSourcing.pdf), with the appropriate [bib file](https://www.burntfen.com/publications/bib/Littauer2012CrowdSourcing.bib).
 
 Abstract
 --------
