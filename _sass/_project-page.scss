@@ -102,25 +102,25 @@
 }
 
 // Topic tags each get their own muted colour; types and the Show row stay grey.
-// Chosen to stay distinguishable with deuteranopia: the smallest CIEDE2000
-// difference between any two, under a Machado (2009) deuteranopia simulation
-// and with normal vision, is 6.6 (the first ten alone are 10.6; fifteen muted
-// colours can't all stay that far apart). All keep #333 text above WCAG AA
-// (4.5:1).
+// Chosen to stay distinguishable with deuteranopia, by CIEDE2000 difference
+// under a Machado (2009) deuteranopia simulation and with normal vision.
+// Topics that share two or more entries are at least 9.3 apart; topics that
+// rarely meet (e.g. Bioacoustics and Research Software) are allowed closer,
+// down to 5.2. All keep #333 text above WCAG AA (4.5:1).
 $topic-colors: (
-  ai: #d5b4e2,
+  ai: #e1d4b8,
   arts: #bcbda7,
-  bioacoustics: #6aaec1,
+  bioacoustics: #67bbff,
   botany: #c3a869,
   community-science: #99f4fd,
   invertebrates: #eed190,
-  language-evolution: #f5fdb9,
+  language-evolution: #c5bd5d,
   linguistics: #60a0da,
   literary-studies: #c5b8c3,
-  open-data: #c3d9ab,
+  open-data: #b5cf92,
   open-source: #84a199,
   ornithology: #76a779,
-  oss-policy: #d48796,
+  oss-policy: #5ab0cc,
   research-software: #65d0fd,
   taxonomic-nomenclature: #f7eecf
 );

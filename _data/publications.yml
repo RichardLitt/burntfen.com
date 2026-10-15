@@ -407,7 +407,7 @@
 
 - year: 2026
   type: Presentation
-  topics: [Research Software, Community Science, Open Source]
+  topics: [Research Software, Community Science, Open Source, AI]
   peer_reviewed: true
   title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
   citation: |-
@@ -477,7 +477,7 @@
 
 - year: 2026
   type: [Journal Article, Full Paper]
-  topics: [Research Software, Open Source]
+  topics: [Research Software, Open Source, AI]
   peer_reviewed: true
   status: In Press
   title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
@@ -648,7 +648,7 @@
 
 - year: 2025
   type: [Journal Article, Short Note]
-  topics: [Taxonomic Nomenclature]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: true
   title: "Helobdella serendipitous Saglam et al., 2018 is the available name (Annelida: Hirudinida)"
   citation: |-
@@ -944,7 +944,7 @@
 
 - year: 2024
   type: [Journal Article, Short Note]
-  topics: [Taxonomic Nomenclature]
+  topics: [Taxonomic Nomenclature, Invertebrates]
   peer_reviewed: false
   title: "Prunum boreale (A. E. Verrill, 1884) is changed to P. borealis"
   citation: |-
