@@ -71,7 +71,7 @@
   margin-top: -5px;
   font-size: 13px;
   color: #666;
-  // Touch screens have no modifier keys to hold.
+  // Touch screens have no Shift key to hold.
   @media (hover: none) {
     display: none;
   }

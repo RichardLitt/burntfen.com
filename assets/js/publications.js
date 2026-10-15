@@ -5,13 +5,16 @@
   var items = document.querySelectorAll('#publication-list .publication');
   // The selection is a list of clauses. An item must match every clause (AND),
   // and a clause matches if the item has any of its tags (OR). A plain click
-  // adds a tag as its own clause; Shift-, ⌘- or Ctrl-click adds it to the most
-  // recent clause from the same row (Show, Topic or Type) instead.
+  // adds a tag as its own clause; Shift-click adds it to the most recent clause
+  // from the same row (Show, Topic or Type) instead. Shift because, on a button,
+  // it has no browser behaviour of its own: Ctrl-click is right-click on a Mac,
+  // and ⌘ only exists on Macs.
   // Start with only peer-reviewed work shown; the full list is one click away.
   var DEFAULT = 'peer-reviewed';
   var clauses = [];
-  // While a modifier key is held, show the tags an OR click could add.
-  var modifierHeld = false;
+  var filters = document.getElementById('publication-filters');
+  // While Shift is held over the filters, show the tags a Shift-click could add.
+  var shiftHeld = false;
 
   // Lowercase and strip diacritics, so "kakapo" finds "kākāpō".
   function fold(text) {
@@ -35,7 +38,7 @@
     return button ? groups.indexOf(button.closest('.tag-group')) : -1;
   }
 
-  // The latest clause from a row, which a modifier-click there joins; -1 if none.
+  // The latest clause from a row, which a Shift-click there joins; -1 if none.
   function latestClauseIn(group) {
     for (var i = clauses.length - 1; i >= 0; i--) {
       if (groupOf(clauses[i][0]) === group) return i;
@@ -52,11 +55,11 @@
     var query = fold(search.value.trim());
     var shown = 0;
     // Per row, the tags carried by an item that clicking could still reach. With a
-    // modifier held that's any tag that could join the row's latest clause;
+    // Shift held that's any tag that could join the row's latest clause;
     // otherwise only tags that narrow the list without emptying it.
     var available = groups.map(function () { return {}; });
     var narrowBy = groups.map(function (group, g) {
-      var skip = modifierHeld ? latestClauseIn(g) : -1;
+      var skip = shiftHeld ? latestClauseIn(g) : -1;
       return clauses.filter(function (clause, i) { return i !== skip; });
     });
     items.forEach(function (item) {
@@ -135,7 +138,7 @@
       search.value = '';
     } else {
       var tag = button.getAttribute('data-tag');
-      var or = event.shiftKey || event.metaKey || event.ctrlKey;
+      var or = event.shiftKey;
       if (isActive(tag)) {
         clauses = clauses.map(function (clause) {
           return clause.filter(function (t) { return t !== tag; });
@@ -153,21 +156,31 @@
     update();
     writeURL(false);
   });
-  // Typing capitals in the search box shouldn't flash the hidden tags.
-  function trackModifier(event) {
-    var held = (event.shiftKey || event.metaKey || event.ctrlKey) && event.target !== search;
-    if (held !== modifierHeld) {
-      modifierHeld = held;
+  function setShiftHeld(held) {
+    if (held !== shiftHeld) {
+      shiftHeld = held;
       update();
     }
   }
-  document.addEventListener('keydown', trackModifier);
-  document.addEventListener('keyup', trackModifier);
+  // Only Shift on its own, with the pointer over the filters, reveals tags, so
+  // Shift+Tab, typing capitals and keyboard shortcuts don't make buttons flash.
+  var pointerOverFilters = false;
+  filters.addEventListener('mouseenter', function (event) {
+    pointerOverFilters = true;
+    setShiftHeld(event.shiftKey);
+  });
+  filters.addEventListener('mouseleave', function () {
+    pointerOverFilters = false;
+    setShiftHeld(false);
+  });
+  document.addEventListener('keydown', function (event) {
+    setShiftHeld(event.key === 'Shift' && pointerOverFilters && event.target !== search);
+  });
+  document.addEventListener('keyup', function (event) {
+    if (event.key === 'Shift') setShiftHeld(false);
+  });
   window.addEventListener('blur', function () {
-    if (modifierHeld) {
-      modifierHeld = false;
-      update();
-    }
+    setShiftHeld(false);
   });
   window.addEventListener('popstate', function () {
     readURL();
