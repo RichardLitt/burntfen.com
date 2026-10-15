@@ -101,6 +101,30 @@
   }
 }
 
+// Topic tags each get their own muted colour; types and the Show row stay grey.
+$topic-colors: (
+  arts: #f2dcea,
+  botany: #e3eecf,
+  education: #e4e4f5,
+  entomology: #f2e1cc,
+  linguistics: #d9e4f2,
+  literary-studies: #e8dcf0,
+  open-science: #d3ebe7,
+  open-source: #ecdfd8,
+  ornithology: #d8eadb,
+  research-software: #f3dcdc,
+  taxonomic-nomenclature: #efe7c8
+);
+@each $topic, $color in $topic-colors {
+  .pub-tag.topic-#{$topic},
+  #publication-list .pub-tag.topic-#{$topic}.active {
+    background: $color;
+  }
+  #publication-filters .pub-tag.topic-#{$topic}.active {
+    background: darken($color, 12%);
+  }
+}
+
 // Tags inside each entry only hint that they're selected,
 // so a filter doesn't light up every row of the list.
 #publication-list .pub-tag.active {
