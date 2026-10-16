@@ -54,7 +54,7 @@
 {%- assign citation = citation | replace_first: "Richard Littauer", "**Richard Littauer**" %}
 {%- endif %}
 <div class="publication-citation">{{ citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
-{%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
+{%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>{% endif %}</div>
 {%- assign open_doi = false %}
 {%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
 {%- assign request = false %}
