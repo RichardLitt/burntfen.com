@@ -1152,6 +1152,18 @@
   bib: /publications/bib/Littauer2024Doiregex.bib
 
 - year: 2024
+  date: "2024-02-08"
+  type: Presentation
+  topics: [Research Software, Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "SustainOSS and University OSPOs"
+  citation: |-
+    Richard Littauer (2024). SustainOSS and University OSPOs. *eResearch NZ 2024*, Wellington, NZ, 8 Feb 2024.
+  doi: 10.6084/m9.figshare.25345879
+  pdf:
+  bib: /publications/bib/Littauer2024SustainOSSUniversity.bib
+
+- year: 2024
   date: "2024-01-22"
   type: Report
   topics: [Research Software, OSS Policy]
@@ -1289,18 +1301,6 @@
   url: https://2023.fossy.us/schedule/presentation/78/
   pdf:
   bib: /publications/bib/Littauer2023WhereDoes.bib
-
-- year: 2023
-  date: "2023-02-08"
-  type: Presentation
-  topics: [Research Software, Open Source, OSS Policy]
-  peer_reviewed: false
-  title: "SustainOSS and Open Source Program Offices"
-  citation: |-
-    Richard Littauer (2023). SustainOSS and Open Source Program Offices. *eResearch NZ*, Wellington, NZ, 8 Feb 2023.
-  doi:
-  pdf:
-  bib: /publications/bib/Littauer2023SustainOSSOpen.bib
 
 - year: 2023
   date: "2023-05-11"
