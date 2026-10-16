@@ -13,7 +13,7 @@ DOI_RESOLVER = "https://doi.org/"
 OUTPUT_FILE = "publications.bib"
 
 HEADERS = {
-    "User-Agent": "BibValidator/1.0 (mailto:you@example.com)",
+    "User-Agent": "BibValidator/1.0 (mailto:richard.littauer@gmail.com)",
     "Accept": "application/json, text/html;q=0.9"
 }
 
