@@ -188,6 +188,19 @@
   bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
 
 - year: 2026
+  date: "2026-10-16"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: false
+  title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
+  citation: |-
+    Richard Littauer (2026). *Porrhomma boreale* (Banks, 1899) is changed to *P. borealis*. *Codex Mutabilis*, 16 Oct 2026.
+  doi: 10.5281/zenodo.23413292
+  url: https://codexmutabilis.com/substantive/2024/12/05/porrhomma-boreale-banks-1899-is-changed-to-p-borealis.html
+  pdf:
+  bib: /publications/bib/Littauer2026PorrhommaBoreale.bib
+
+- year: 2026
   date: "2026-10-13"
   type: Data
   topics: [Taxonomic Nomenclature, Community Science, Open Data]
@@ -1100,19 +1113,6 @@
   url: https://github.com/corsa-center/oss-documents
   pdf:
   bib: /publications/bib/Katz2025OpensourceSoftware.bib
-
-- year: 2024
-  date: "2024-12-05"
-  type: [Journal Article, Short Note]
-  topics: [Taxonomic Nomenclature, Invertebrates]
-  peer_reviewed: false
-  title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
-  citation: |-
-    Richard Littauer (2024). *Porrhomma boreale* (Banks, 1899) is changed to *P. borealis*. *Codex Mutabilis*, 5 Dec 2024.
-  doi: 10.5281/zenodo.23413292
-  url: https://codexmutabilis.com/substantive/2024/12/05/porrhomma-boreale-banks-1899-is-changed-to-p-borealis.html
-  pdf:
-  bib: /publications/bib/Littauer2024PorrhommaBoreale.bib
 
 - year: 2024
   date: "2024-05-09"
