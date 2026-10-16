@@ -47,6 +47,10 @@
       text-decoration-color: red;
     }
   }
+  // DOIs show as full https://doi.org/ URLs; let them wrap on narrow screens
+  .publication-citation a {
+    overflow-wrap: anywhere;
+  }
 }
 
 // Publications page: filterable list
