@@ -602,6 +602,18 @@
   bib: /publications/bib/Littauer2026DataRescue.bib
 
 - year: 2026
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "What is good open source?"
+  citation: |-
+    Richard Littauer (2026). What is good open source? Guest lecture, ENG 401, Te Herenga Waka Victoria University of Wellington, Wellington, NZ.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2026WhatGood.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2026%20VUW%20ENG401%20Open%20Source%20Lecture.pdf
+
+- year: 2026
   date: "2026-02-23"
   type: [Poster, Presentation]
   topics: [Ornithology]
