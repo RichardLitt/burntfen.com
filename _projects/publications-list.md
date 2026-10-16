@@ -1,101 +1,148 @@
-### External links
+{% assign publications = site.data.publications -%}
+{% assign topics = publications | map: "topics" | join: "|" | split: "|" | where_exp: "topic", "topic != ''" | uniq | sort -%}
+{% assign types = publications | map: "type" | join: "|" | split: "|" | uniq | sort -%}
+{% assign statuses = publications | map: "status" | compact | uniq -%}
+<div id="publication-filters">
+<label for="publication-search" class="sr-only">Search publications</label>
+<input type="search" id="publication-search" class="form-control" placeholder="Search by title, author, journal, year…">
+<div class="tag-group" role="group" aria-label="Filter by review status">
+<span class="tag-group-label">Show</span>
+<button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+<button type="button" class="pub-tag" data-tag="during-phd" aria-pressed="false">During PhD</button>
+{%- for status in statuses %}
+<button type="button" class="pub-tag" data-tag="{{ status | slugify }}" aria-pressed="false">{{ status }}</button>
+{%- endfor %}
+</div>
+<div class="tag-group" role="group" aria-label="Filter by topic">
+<span class="tag-group-label">Topic</span>
+{%- for topic in topics %}
+<button type="button" class="pub-tag topic topic-{{ topic | slugify }}" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
+{%- endfor %}
+</div>
+<div class="tag-group" role="group" aria-label="Filter by type">
+<span class="tag-group-label">Type</span>
+{%- for type in types %}
+<button type="button" class="pub-tag" data-tag="{{ type | slugify }}" aria-pressed="false">{{ type }}</button>
+{%- endfor %}
+</div>
+<p id="publication-count" aria-live="polite">Showing all {{ publications.size }} publications and outputs.</p>
+<p id="publication-hint">Click tags to narrow the list. Shift-click to add a tag as an alternative instead.</p>
+</div>
 
-- [Google Scholar](https://scholar.google.com/citations?user=X2UD62YAAAAJ&hl=en&authuser=1)
-- [ORCiD](https://orcid.org/0000-0001-5428-7535)
+<div id="publication-list">
+{%- assign by_year = publications | group_by: "year" %}
+{%- for group in by_year %}
+<section class="publication-year">
+<h3>{{ group.name }}</h3>
+<ul>
+{%- comment %} Newest first by date; undated entries follow in file order {% endcomment %}
+{%- assign dated = group.items | where_exp: "pub", "pub.date" | sort: "date" | reverse %}
+{%- assign undated = group.items | where_exp: "pub", "pub.date == nil" %}
+{%- assign items = dated | concat: undated %}
+{%- for pub in items %}
+{%- comment %} `type` may be a single type or a list of them {% endcomment %}
+{%- assign pub_types = pub.type | join: "|" | split: "|" %}
+{%- comment %} My PhD started in 2024; anything since then, or still in review, counts as "During PhD" {% endcomment %}
+{%- assign during_phd = false %}
+{%- if pub.year == "In Review" %}{% assign during_phd = true %}{% elsif pub.year >= 2024 %}{% assign during_phd = true %}{% endif %}
+<li class="publication" data-tags="{% if during_phd %}during-phd {% endif %}{% if pub.peer_reviewed %}peer-reviewed {% endif %}{% if pub.status %}{{ pub.status | slugify }} {% endif %}{% for t in pub_types %}{{ t | slugify }} {% endfor %}{% for topic in pub.topics %} {{ topic | slugify }}{% endfor %}">
+{%- comment %} Bold my name when there's more than one author {% endcomment %}
+{%- assign authors = pub.citation | split: " (2" | first %}
+{%- assign opening = pub.citation | slice: 0, 18 %}
+{%- assign citation = pub.citation %}
+{%- if authors contains "Richard Littauer" and opening != "Richard Littauer (" and opening != "Richard Littauer. " %}
+{%- assign citation = citation | replace_first: "Richard Littauer", "**Richard Littauer**" %}
+{%- endif %}
+<div class="publication-citation">{{ citation | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+{%- if pub.doi %} <a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a>{% endif %}</div>
+{%- assign open_doi = false %}
+{%- if pub.doi contains "10.5281/zenodo" or pub.doi contains "10.48550/arXiv" %}{% assign open_doi = true %}{% endif %}
+{%- assign request = false %}
+{%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume,Popular Article,Creative Writing,Dictionary" | split: "," %}
+{%- assign is_paper = false %}
+{%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
+{%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
+{%- capture abstract_id %}abstract-{{ group.name | slugify }}-{{ forloop.index }}{% endcapture %}
+{%- if pub.url or pub.pdf or pub.preprint or pub.bib or pub.slides or pub.poster or pub.recording or request or pub.abstract %}
+<div class="publication-links">
+{%- comment %} PDF first, then the link, then everything else; bibtex, then the abstract toggle, last {% endcomment %}
+{%- if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
+{%- if pub.url %} <a href="{{ pub.url }}">Link</a>{% endif %}
+{%- if pub.preprint %} <a href="{{ pub.preprint }}">preprint</a>{% endif %}
+{%- if pub.slides %} <a href="{{ pub.slides }}">slides</a>{% endif %}
+{%- if pub.poster %} <a href="{{ pub.poster }}">poster</a>{% endif %}
+{%- if pub.recording %} <a href="{{ pub.recording }}">recording</a>{% endif %}
+{%- if request %} <a href="mailto:{{ site.author.email }}?subject={{ "Request for Paper: " | append: pub.title | url_encode | replace: "+", "%20" }}">email me</a>{% endif %}
+{%- if pub.bib %} <a href="{{ pub.bib }}">bibtex</a>{% endif %}
+{%- if pub.abstract %} <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="{{ abstract_id }}">abstract <span class="pub-abstract-arrow" aria-hidden="true">▾</span></button>{% endif %}
+</div>
+{%- endif %}
+{%- if pub.abstract %}
+<div class="publication-abstract" id="{{ abstract_id }}" hidden>{{ pub.abstract | markdownify }}</div>
+{%- endif %}
+<div class="publication-tags">
+{%- if pub.peer_reviewed %}
+<button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+{%- endif %}
+{%- if pub.status %}
+<button type="button" class="pub-tag" data-tag="{{ pub.status | slugify }}" aria-pressed="false">{{ pub.status }}</button>
+{%- endif %}
+{%- for t in pub_types %}
+<button type="button" class="pub-tag" data-tag="{{ t | slugify }}" aria-pressed="false">{{ t }}</button>
+{%- endfor %}
+{%- for topic in pub.topics %}
+<button type="button" class="pub-tag topic topic-{{ topic | slugify }}" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
+{%- endfor %}
+</div>
+</li>
+{%- endfor %}
+</ul>
+</section>
+{%- endfor %}
+</div>
 
-### Open Science
-<hr />
+<p id="publication-empty" hidden>No publications match. <button type="button" class="pub-clear">Clear filters</button></p>
 
-#### Journal Articles
-* Richard Littauer, Karthik Ram, Bertram Ludäscher, Bill Michener, Rebecca Koskela (2012). [_Trends in use of scientific workflows: Insights from a public repository and guidelines for best practices_](http://ijdc.net/index.php/ijdc/article/download/222/291). In: _International Journal of Data Curation_, Vol. 7:2, pp. 92-100. [doi:10.2218/ijdc.v7i2.232](http://ijdc.net/index.php/ijdc/article/view/222) [bib](https://www.burntfen.com/publications/bib/LittIJDC.bib) [slides](https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)
-* Katz, D S, Choi, S-C T, Wilkins-Diehr, N, Chue Hong, N, Venters, C C, Howison, J, Seinstra, F, Jones, M, Cranston, K A, Clune, T L, de Val-Borro, M and Littauer, R (2016). [Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)](http://dx.doi.org/10.5334/jors.85). In: Journal of Open Research Software, 4: e7. DOI: http://dx.doi.org/10.5334/jors.85. [bib](https://www.burntfen.com/publications/bib/wssspe2.bib)
+<script src="/assets/js/publications.js"></script>
 
-#### Book Chapters
-* Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). _Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments_. In: I. Ivenych and J. Kim, eds., [_The People's Web Meets NLP: Collaboratively Constructed Language Resources,_](http://www.springer.com/education+%26+language/linguistics/book/978-3-642-35084-9) pp. 315-348. Springer. [bib](https://www.burntfen.com/publications/bib/ChiarcosLOD.bib)
-
-#### Proceedings
-
-* Richard Littauer (2026). <a href="https://www.burntfen.com/publications/2026Kiwi.pdf">Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology.</a> In: Littauer, R and Ganesan, D. (Eds) _Kiwi PyCon 2025 Academic Track Proceedings_, 4–5. [bib](https://www.burntfen.com/publications/bib/Littauer2026Kiwi.bib) [Recording](https://www.youtube.com/watch?v=kr8BP7eBCsI)
-* Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). <a href="https://www.burntfen.com/publications/LittIDCC.pdf">Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices.</a> In 7th International Digital Curation Conference Proceedings, Bristol, 7-9 December, 2011. [bib](https://www.burntfen.com/publications/bib/LittIDCC.bib) [slides](http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices)
-
-#### Non-peer Reviewed Reports
-* Littauer, R., Augspurger, T., Stinson, A., Vogler-Finck, P. J. C., Nesbitt, A., & Harris, C. (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology (1.0). Zenodo. [https://doi.org/10.5281/zenodo.17459416](https://doi.org/10.5281/zenodo.17459416) [Paper](../../publications/2026OFAOST.pdf) [bib](../../publications/bib/2025OFAOST.bib)
-
-#### Book Contributions
-
-* National Academies of Sciences, Engineering, and Medicine. (2021). <a href="https://nap.nationalacademies.org/catalog/26308/developing-a-toolkit-for-fostering-open-science-practices-proceedings-of">Developing a toolkit for fostering open science practices: Proceedings of a workshop.</a>
-
-### Ornithology
-<hr />
-
-#### Book Chapters
-* Richard Littauer (2025). Tristan Moorhen (Gallinula nesiotis), version 2.0. In: Birds of the World (G. M. Kirwan and N. D. Sly, Editors). Cornell Lab of Ornithology, Ithaca, NY, USA. https://doi.org/10.2173/bow.trimoo2.02 [bib](../../publications/bib/Littauer2025Botw.bib)
-
-#### Journal Articles
-* Richard Littauer (2025). The Sooty Shearwater as Melville’s Inscrutable Haglet. Leviathan: The Journal of Melville Studies 27(2): 90–101. https://doi.org/10.1353/lvn.2025.a970199
-
-#### Short Notes
-* Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). The Wilson Journal of Ornithology: 1--3. [10.1080/15594491.2025.2498780](https://doi.org/10.1080/15594491.2025.2498780) [bib](../../publications/bib/Littauer2025Bewicks.bib) [Paper](../../publications/Renaming a bill type for Tundra Swan Cygnus columbianus.pdf)
-
-#### Posters
-* Littauer, Richard (2022). <a href="https://www.burntfen.com/publications/LittauerAFOBewicks.pdf">A Proposal for Renaming Bill Types of Bewick's Swans</a>. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, October 11, 2022. [bib](https://www.burntfen.com/publications/bib/LittauerAFOBewicks.bib)
-
-### Taxonomic Nomenclature
-<hr />
-
-#### Short Notes
-* Richard Littauer (2026). _Lathrobium sapaense_ Tokareva \& Bekchiev, 2025 is the available name (Staphylinidae: Paederinae). _Zootaxa 5792 (1)_: 200–200. [https://doi.org/10.11646/zootaxa.5792.1.12](https://doi.org/10.11646/zootaxa.5792.1.12)
-* Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: Evenhuis, Neal L. and Pape, Thomas (Eds.) *Systema Dipterorum Nomenclatural Notes. VI.* Bishop Museum Occasional Papers 176: 1–3. [bib](../../publications/bib/Littauer2026SDNN.bib)
-* Richard Littauer (2025). On the correct spelling of *Pycnocraspedum rowleyense* Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae). *Zootaxa 5692(1)*: 200–200. [https://doi.org/10.11646/zootaxa.5692.1.12](https://doi.org/10.11646/zootaxa.5692.1.12) [Paper](https://doi.org/10.11646/zootaxa.5692.1.12)
-* Richard Littauer (2025). Nomenclatural corrections for gender of species-group names for two Solomon Island birds. Emu – Austral Ornithology: 1--3. [https://doi.org/10.1080/01584197.2025.2551298](https://doi.org/10.1080/01584197.2025.2551298) [bib](../../publications/bib/Littauer2025Emu.bib) [Paper](https://doi.org/10.1080/01584197.2025.2551298)
-* Richard Littauer (2025). *Psacodromeus rectus* Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name. *Zootaxa 5691(1)*: 150–150. [https://doi.org/10.11646/zootaxa.5691.1.10](https://doi.org/10.11646/zootaxa.5691.1.10) [Paper](https://doi.org/10.11646/zootaxa.5691.1.10)
-* Richard Littauer (2025). *Helobdella serendipitous* Saglam et al., 2018 is the available name (Annelida: Hirudinida). *Zootaxa 5673(4)*: 598–598. [https://doi.org/10.11646/zootaxa.5673.4.8](https://doi.org/10.11646/zootaxa.5673.4.8) [bib](../../publications/bib/Littauer2025ZootaxaHelobdella.bib)
-* Richard Littauer (2025). Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code. *Zootaxa 5618(2)*: 287-288. [https://doi.org/10.11646/zootaxa.5618.2.8](https://doi.org/10.11646/zootaxa.5618.2.8) [bib](../../publications/bib/Littauer2025ZootaxaNotonectidae.bib)
-* Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis 72(1)*: 49–50. [https://doi.org/10.63172/777144pbjhsf](https://doi.org/10.63172/777144pbjhsf) [bib](../../publications/bib/Littauer2025NotornisLopdell.bib)
-* Richard Littauer (2025). First revision of karoro *Larus dominicanus antipodum* (Bruch, 1853). *Notornis 72(1)*: 51–53. [https://doi.org/10.63172/093633lrrwbq](https://doi.org/10.63172/093633lrrwbq) [bib](../../publications/bib/Littauer2025NotornisKaroro.bib)
-* Richard Littauer (2025). Corrections for grammatical agreement in Ophiodermatidae. *Zootaxa 5569(2)*: 400-400. [https://doi.org/10.11646/zootaxa.5569.2.11](https://doi.org/10.11646/zootaxa.5569.2.11) [bib](../../publications/bib/Littauer2025ZootaxaOphiodermatidae.bib)
-
-#### Data
-* AviList Core Team (2025). AviList: The Global Avian Checklist, v2025. https://doi.org/10.2173/avilist.v2025
-
-### Linguistics
-<hr />
-
-#### Journal Articles
-* Richard Littauer (2012). [_Replicating Oliphant's Saussurean Simulations_](https://www.burntfen.com/publications/LittDebut.pdf). In: Canning, J., ed., _Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies_, 3(1). [Online](http://www.studyinglanguages.ac.uk/student\_voices/debut\_autumn\_2012): LLAS. [bib](https://www.burntfen.com/publications/bib/LittDebut.bib)
-
-#### Book Reviews
-* Richard Littauer (2013). _Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., Potentials of Language Documentation: Methods, Analyses, and Utilization. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press._ In: _LINGUIST List_, 24.2604. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=12670360) [bib](https://www.burntfen.com/publications/bib/LittLinguist2013.bib)
-* Richard Littauer (2012). _Review of H. Schiffman & B. Spooner, eds., Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill._ In: _LINGUIST List_, 23.3183. [URL](http://linguistlist.org/pubs/reviews/get-review.cfm?SubID=4553348) [bib](https://www.burntfen.com/publications/bib/LittLinguist.bib)
-
-#### Proceedings
-
-* Richard Littauer (2022). *On Tocharian Exceptionality to the* centum-satem *Isogloss*. In: C. Wilson, ed., *Undergraduate Linguistics Association of Britain 2012 Proceedings*. Bristol, UK: online. [bib](https://www.burntfen.com/publications/bib/LittULAB.bib)
-* Richard Littauer, Hugh Paterson III (2016). [Open Source Code Serving Endangered Languages](https://github.com/RichardLitt/endangered-languages/raw/master/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf). In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, Eveline Wandl-Vogt, eds., In Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop. Portorož, Slovenia, 23 May, 2012. [bib](https://www.burntfen.com/publications/bib/CCURL.bib)
-* Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). *From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research*. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp.121-132. Tokyo, Japan: Evolang 9 Organizing Committee. [bib](https://www.burntfen.com/publications/bib/LittEvoC.bib)
-* Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). [Linguistic Resources Enhanced with Geospatial Information](http://www.aclweb.org/anthology/W13-5508). In: C. Chiarcos, P. Cimiano, T. Declerck, J. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53-58. Pisa, Italy: Association for Computational Linguistics. [bib](https://www.burntfen.com/publications/bib/LittLDL.bib)
-* Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). [Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet](https://www.burntfen.com/publications/LittDH.pdf). In: Jan Christoph Meister, ed., _Digital Humanities 2012 Conference Abstracts_, pp. 268-269, University of Hamburg, July 16-22. Hamburg: Hamburg University Press. [Bib](https://www.burntfen.com/publications/bib/LittDH.bib)
-* Christian Chiarcos, Sebastian Hellmann, Sebastian Nordhoff, Steven Moran, Richard Littauer, Judith Eckle-Kohler, Iryna Gurevych, Silvana Hartmann, Michael Matuschek, Christian M. Meyer (2012). [The Open Linguistics Working Group](https://www.burntfen.com/publications/OKFLREC.pdf). In Calzolari, N., Choukri, K., Declerck, T., Doğan, M.U., Maegaard, B., Mariani, J., Odijk, J., and Piperidis, S., eds., _Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12)_. Istanbul, Turkey, 23-25 May, 2012. European Language Resources Association (ELRA). [bib](https://www.burntfen.com/publications/bib/OKFLREC.bib)
-* Richard Littauer, Rory Turnbull, Alexis Palmer (2012). [Visualising Typological Relationships: Plotting WALS with Heat Maps](https://www.burntfen.com/publications/LittEACL.pdf). In Proceedings of the European Association of Computational Linguistics 2012 Workshop on the Visualization of Linguistic Patterns. Avignon, France, 23-24 April, 2012. [bib](https://www.burntfen.com/publications/bib/LittEACL.bib) [slides](https://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps)
-* Richard Littauer (2012). <a href="https://www.burntfen.com/publications/LittEvoA.pdf">The Evolution of Morphological Agreement</a>. In Scott-Phillips, T.C. and Tamariz, M. and Cartmill, E.A. and Hurford, J.R., eds., _The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)_, pages 484-485, Singapore, 2012. World Scientific. [bib](https://www.burntfen.com/publications/bib/LittEvoa.bib)
-* Richard Littauer (2012). <a href="https://www.burntfen.com/publications/LittEvoB.pdf">Re-dating the Loss of Laryngeal Air Sacs in <em>Homo Sapiens</em></a>. In Scott-Phillips, T.C. and Tamariz, M. and Cartmill, E.A. and Hurford, J.R., eds., _The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)_, pages 486-487, Singapore. World Scientific. [bib](https://www.burntfen.com/publications/bib/LittEvob.bib)
-* Littauer, Richard (2012). <a href="https://www.burntfen.com/publications/LittEssex.docx">A Reanalysis of Anatomical Changes for Language</a>. In 6th Language at the University of Essex PG Conference Proceedings, Essex, 15-16 June, 2011. [bib](https://www.burntfen.com/publications/bib/LittEssex.bib) [slides](http://www.slideshare.net/RichLitt/a-reanalysis-of-anatomical-changes-for-language)
-
-
-### Other fields
-<hr />
-
-#### Peer-reviewed Proceedings
-
-* Richard Littauer, Antonia Scheidel, Marc Schulder, Sibel Ciddi (2012). [Crowd sourcing the classroom: Interactive applications in higher learning](https://www.burntfen.com/publications/LittEdulearn.pdf). In Gómez Chova, L., Candel Torres, I., López Martínez, A., eds. _Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)_, pp. 1473-1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED). [bib](https://www.burntfen.com/publications/bib/LittEdulearn.bib)
-
-#### Non-Peer-reviewed Publications
-
-* Richard Littauer (2025). Audio observation of a Wellington Tree Wētā *Hemideina crassidens* defense stridulation. *The Wētā*, 58, pp. 55-57. [Link](https://weta.ento.org.nz/index.php/weta/article/view/434). [bib](https://www.burntfen.com/publications/bib/LittWeta.bib)
-
-### Other contributions
-<hr />
-
-I also frequently facilitate discussions. Some of those are listed here:
-
-* Moderator of a Panel on the role of Open Source in Open Science, June 27-29, 2023 at the <a href="https://acm-rep.github.io/2023/">2023 ACM Conference on Reproducibility and Replicability</a>.
+{%- comment %} schema.org metadata for search engines. Work still in review is left out. {% endcomment %}
+{%- assign published = publications | where_exp: "pub", "pub.year != 'In Review'" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Publications and research outputs by Richard Littauer",
+  "itemListElement": [
+{%- for pub in published %}
+{%- assign pub_types = pub.type | join: "|" | split: "|" %}
+{%- assign schema_type = "CreativeWork" %}
+{%- if pub_types contains "Journal Article" or pub_types contains "Short Note" or pub_types contains "Conference Paper" or pub_types contains "Book Review" %}{% assign schema_type = "ScholarlyArticle" %}
+{%- elsif pub_types contains "Book Chapter" %}{% assign schema_type = "Chapter" %}
+{%- elsif pub_types contains "Thesis" %}{% assign schema_type = "Thesis" %}
+{%- elsif pub_types contains "Report" %}{% assign schema_type = "Report" %}
+{%- elsif pub_types contains "Software" %}{% assign schema_type = "SoftwareSourceCode" %}
+{%- elsif pub_types contains "Data" %}{% assign schema_type = "Dataset" %}
+{%- elsif pub_types contains "Popular Article" %}{% assign schema_type = "Article" %}
+{%- elsif pub_types contains "Presentation" or pub_types contains "Poster" %}{% assign schema_type = "PresentationDigitalDocument" %}
+{%- endif %}
+{%- assign author_names = pub.citation | split: " (2" | first | remove: ", et al." | remove: " et al." | remove: ", eds." | replace: " & ", ", " | split: ", " %}
+{%- capture link %}{% if pub.doi %}https://doi.org/{{ pub.doi }}{% elsif pub.url %}{{ pub.url }}{% elsif pub.pdf %}{{ site.production_url }}{{ pub.pdf }}{% endif %}{% endcapture %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": {{ schema_type | jsonify }},
+        "name": {{ pub.title | jsonify }},
+        "datePublished": "{{ pub.date | default: pub.year }}",
+        "author": [{% for name in author_names %}{"@type": "Person", "name": {{ name | strip | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        "keywords": {{ pub.topics | join: ", " | jsonify }}
+        {%- if pub.doi %},
+        "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ pub.doi | jsonify }}}{% endif %}
+        {%- if link != "" %},
+        "url": {{ link | jsonify }}{% endif %}
+      }
+    }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+  ]
+}
+</script>

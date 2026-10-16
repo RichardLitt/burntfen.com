@@ -4,20 +4,24 @@ title: "Publications"
 ranking: 5
 picture: publications.png
 picture-small: publications-200.png
+hide_picture: true
+hide_button: true
+description: "Publications, talks, software and other research by Richard Littauer, in ornithology, taxonomic nomenclature, open science and linguistics."
+page_class: publications-page
 status: Ongoing
 stub: "Academic Research"
 role: Researcher
-outbound: "http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ"
+outbound: "https://orcid.org/0000-0001-5428-7535"
 redirect_from:
   - /publications
   - /publications/
 ---
 {% include JB/setup %}
 
-Most of my academic publications can be found on [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Here is a complete list.
+Most of my academic publications can be found on [ORCID](https://orcid.org/0000-0001-5428-7535) and [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Below is a list of my publications, along with other research outputs like talks, reports, data and software. Only peer-reviewed work is shown at first; click **Peer Reviewed** to turn that filter off and see everything.
 
-These are preprints, so it is possible that a paper may not be on the web yet, but either was accepted or is in the process of being published at the moment. To help you cite them, I've added a bibtex file, and the slides from presentations, for each - here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information, at once, if you're really keen.
+Every entry has a bibtex file, and talks have slides where I have them. Here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information at once, if you're really keen.
 
-As well as the below, I occasionally review articles for journals, most notably for [JOSS](https://joss.theoj.org/), [SIGUL](http://www.elra.info/en/sig/sigul/), and [CCURL](http://sltu-ccurl-2020.ilc.cnr.it/).
+I'm a Topic Editor for the [*Journal of Open Source Software*](https://joss.theoj.org/) (JOSS), and an Associate Editor for [*Avian Systematics*](https://www.avespress.com/avian-systematics) and [*Zoological Bibliography*](https://www.avespress.com/zoological-bibliography). I'm the editor and founder of [*Codex Mutabilis*](https://codexmutabilis.com/) and [*Wordhoard Press*](https://wordhoardpress.com), which publishes original work in Old English and other extinct Germanic languages. I've reviewed for journals including *Avian Research*, *Language Policy and Language Planning*, *Literary & Linguistic Computing*, *Language Dynamics and Change*, *Début*, and JOSS; for conferences including RSAA, US-RSE, [SIGUL](http://www.elra.info/en/sig/sigul/), [SLTU-CCURL](http://sltu-ccurl-2020.ilc.cnr.it/), and ULAB; and for grants from the Alfred P. Sloan Foundation, Schmidt Futures, and the NSF. I've reviewed code for the [U.S. Geological Survey](https://www.usgs.gov/products/software/software-management/types-software-review).
 
 {% include_relative publications-list.md %}

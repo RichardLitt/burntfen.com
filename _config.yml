@@ -120,7 +120,7 @@ JB :
     provider : google
     # I set this manually
     google :
-        tracking_id : 'UA-4124866-15'
+        tracking_id : 'G-TC08D6MGEK'  # Google Analytics 4
     #getclicky :
       #site_id :
     #mixpanel :

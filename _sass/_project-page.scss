@@ -9,11 +9,13 @@
     font-size: 18px;
     font-weight: 200;
   }
-  a.project-page-title {
-    h1 {
-      margin-left: 15px;
+  h1.project-page-title {
+    margin-left: 15px;
+    a {
+      font-weight: inherit; // keep the h1's weight, not the site-wide link weight
     }
-    &:hover {
+    a:hover,
+    a:focus {
       text-decoration: none;
     }
   }
@@ -29,4 +31,201 @@
       max-width: 300px;
     }
   }
+}
+
+// Publications page: quieter links than the site default
+.publications-page {
+  p a,
+  li a,
+  .publication-citation a,
+  .publication-links a {
+    color: #666;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    &:hover,
+    &:focus {
+      color: red;
+      text-decoration-color: red;
+    }
+  }
+}
+
+// Publications page: filterable list
+#publication-filters {
+  margin: 20px 0 10px;
+  .tag-group {
+    margin-top: 10px;
+  }
+  .tag-group-label {
+    display: inline-block;
+    min-width: 50px;
+    font-weight: bold;
+  }
+}
+
+#publication-count {
+  margin-top: 10px;
+  color: #666;
+}
+
+#publication-hint {
+  margin-top: -5px;
+  font-size: 13px;
+  color: #666;
+  // Touch screens have no Shift key to hold.
+  @media (hover: none) {
+    display: none;
+  }
+}
+
+.pub-tag {
+  display: inline-block;
+  margin: 2px 2px;
+  padding: 1px 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #333;
+  background: #eee;
+  border: 1px solid transparent;
+  border-radius: 0;
+  // Shift-clicking would otherwise select the text between tags.
+  user-select: none;
+  // Only show red for a real pointer hover or keyboard focus; a clicked or
+  // tapped tag keeps focus, and shouldn't stay red after it's toggled off.
+  @media (hover: hover) {
+    &:hover {
+      color: red;
+      border-color: red;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    color: red;
+    border-color: red;
+  }
+  &.active {
+    color: #000;
+    background: #d4d4d4;
+    border-color: #888;
+  }  &[hidden] {
+    display: none;
+  }
+}
+
+// Topic tags each get their own muted colour; types and the Show row stay grey.
+// Chosen to stay distinguishable with deuteranopia, by CIEDE2000 difference
+// under a Machado (2009) deuteranopia simulation and with normal vision.
+// Topics that share two or more entries are at least 9.3 apart; topics that
+// rarely meet (e.g. Bioacoustics and Research Software) are allowed closer,
+// down to 5.2. All keep #333 text above WCAG AA (4.5:1).
+$topic-colors: (
+  ai: #e1d4b8,
+  arts: #bcbda7,
+  bioacoustics: #67bbff,
+  botany: #c3a869,
+  community-science: #99f4fd,
+  invertebrates: #eed190,
+  language-evolution: #c5bd5d,
+  linguistics: #60a0da,
+  literary-studies: #c5b8c3,
+  open-data: #b5cf92,
+  open-source: #84a199,
+  ornithology: #76a779,
+  oss-policy: #5ab0cc,
+  research-software: #65d0fd,
+  taxonomic-nomenclature: #f7eecf
+);
+@each $topic, $color in $topic-colors {
+  .pub-tag.topic-#{$topic},
+  #publication-filters .pub-tag.topic-#{$topic}.active,
+  #publication-list .pub-tag.topic-#{$topic}.active {
+    background: $color;
+  }
+}
+// A selected filter (topics keep their colour) gets a solid outline, which
+// reads regardless of colour vision.
+#publication-filters .pub-tag.active {
+  border-color: #333;
+  box-shadow: inset 0 0 0 1px #333;
+}
+
+// Tags inside each entry only hint that they're selected,
+// so a filter doesn't light up every row of the list.
+#publication-list .pub-tag.active {
+  background: #eee;
+  border-color: #888;
+}
+
+#publication-list {
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  .publication {
+    margin-bottom: 16px;
+  }
+  // Links and tags hang under the citation so the citations stand out.
+  .publication-links,
+  .publication-tags {
+    padding-left: 24px;
+  }
+  .publication-links {
+    margin-top: 2px;
+    font-size: 14px;
+    a {
+      margin-right: 10px;
+    }
+  }
+  // Looks like the links beside it (see .publications-page above), but it's a
+  // button: it toggles, it doesn't go anywhere.
+  .pub-abstract-toggle {
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-weight: 600;
+    color: #666;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    cursor: pointer;
+    &:hover,
+    &:focus-visible {
+      color: red;
+      text-decoration-color: red;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  // inline-block keeps the underline off the arrow
+  .pub-abstract-arrow {
+    display: inline-block;
+  }
+  .publication-abstract {
+    margin: 6px 0 0 24px;
+    padding-left: 10px;
+    max-width: 50em;
+    border-left: 2px solid #ddd;
+    font-size: 14px;
+    color: #333;
+    p {
+      margin: 0 0 6px;
+    }
+    &[hidden] {
+      display: none;
+    }
+  }
+  .publication-tags {
+    margin-top: 4px;
+  }
+}
+
+.pub-clear {
+  padding: 0;
+  background: none;
+  border: none;
+  text-decoration: underline;
 }

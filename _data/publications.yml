@@ -1,0 +1,2122 @@
+# Publications and other research outputs, newest first.
+# Rendered by _projects/publications-list.md.
+#
+# Fields:
+#   year, type, topics   - `type` (one type or a list) and each topic become filter tags
+#   peer_reviewed        - true adds the "Peer Reviewed" tag, which is on by default
+#   status               - optional: "In Review" or "In Press"; becomes a tag. In-review
+#                          entries use `year: In Review` and sit at the top.
+#   title                - plain text, no markdown; used in the "email me" subject line
+#   citation             - authors (year). title. venue. No links; those go below.
+#   abstract             - optional, Markdown (*italics* for taxon names). Adds an "abstract" toggle
+#                          after the links that shows it above the tags.
+#   doi                  - bare DOI, e.g. 10.11646/zootaxa.5792.1.12
+#   url                  - landing page, when there's no DOI or it adds something
+#   pdf, bib             - paths under /publications/ or full URLs. Entries with no pdf
+#                          and no Zenodo/arXiv DOI get an "email me" link instead
+#                          (papers only; not talks, posters, software, data, edited volumes, popular articles or creative writing).
+#   slides, poster, recording, preprint - optional
+# Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Literary Studies]
+  peer_reviewed: false
+  status: In Review
+  title: "Katherine Mansfield’s Prelude may reference a Laughing Owl Ninox albifacies"
+  citation: |-
+    Richard Littauer. Katherine Mansfield’s *Prelude* may reference a Laughing Owl *Ninox albifacies*. *Notornis*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewKatherineMansfields.bib
+
+- year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Invertebrates]
+  peer_reviewed: false
+  status: In Review
+  title: "A first record on a community science platform of Halyomorpha halys (Stål, 1855) (Heteroptera, Pentatomidae) from Iceland"
+  citation: |-
+    Richard Littauer. A first record on a community science platform of *Halyomorpha halys* (Stål, 1855) (Heteroptera, Pentatomidae) from Iceland. *Perspectives in Biosecurity*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewFirstRecord.bib
+
+- year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "The Code should allow external evidence for errors in human names"
+  citation: |-
+    Richard Littauer. The Code should allow external evidence for errors in human names. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewCodeShould.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Lectotype designations for Kākā Nestor meridionalis (Gmelin, 1788) and Kererū Hemiphaga novaeseelandiae (Gmelin, 1789)"
+  citation: |-
+    Richard Littauer. Lectotype designations for Kākā *Nestor meridionalis* (Gmelin, 1788) and Kererū *Hemiphaga novaeseelandiae* (Gmelin, 1789). *Notornis*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewLectotypeDesignations.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Pygoscelis papua taeniatus (Peale, 1849) is the valid name of the Eastern Gentoo Penguin (Aves: Sphenisciformes)"
+  citation: |-
+    Richard Littauer. *Pygoscelis papua taeniatus* (Peale, 1849) is the valid name of the Eastern Gentoo Penguin (Aves: Sphenisciformes). *Notornis*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewPygoscelisPapua.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology]
+  peer_reviewed: false
+  status: In Review
+  title: "Variable Oystercatcher nest usurpation by Kelp Gull"
+  citation: |-
+    Richard Littauer. Variable Oystercatcher nest usurpation by Kelp Gull. *Australasian Bird Research*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewVariableOystercatcher.bib
+
+- year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Case – Oligosoma Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names"
+  citation: |-
+    Richard Littauer. Case [unnumbered] – *Oligosoma* Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewCaseOligosoma.bib
+
+- year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "On the correct name of Triozidus ceratophora Li, 2005 (Hemiptera: Psylloidea: Triozidae)"
+  citation: |-
+    Richard Littauer. On the correct name of *Triozidus ceratophora* Li, 2005 (Hemiptera: Psylloidea: Triozidae). *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewCorrectName.bib
+
+- year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Invertebrates, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Flat spiders: corrections for grammatical agreement for -platys genera (Arachnida)"
+  citation: |-
+    Richard Littauer. Flat spiders: corrections for grammatical agreement for *-platys* genera (Arachnida). *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewFlatSpiders.bib
+
+- year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Punk and Emo have masculine grammatical gender and are not nonbinary"
+  citation: |-
+    Richard Littauer. *Punk* and *Emo* have masculine grammatical gender and are not nonbinary. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewPunkEmo.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "First Revisers for four species and a genus in Aves"
+  citation: |-
+    Richard Littauer. First Revisers for four species and a genus in Aves. *Zootaxa*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewFirstRevisers.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Passer domestica (Linnaeus, 1758) is the available name for House Sparrow"
+  citation: |-
+    Richard Littauer. *Passer domestica* (Linnaeus, 1758) is the available name for House Sparrow. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewPasserDomestica.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "On the authorship of Neotis heuglinii, Sula dactylatra melanops, and Lanius somalicus from von Heuglin & Hartlaub 1859 (Aves)"
+  citation: |-
+    Richard Littauer. On the authorship of *Neotis heuglinii*, *Sula dactylatra melanops*, and *Lanius somalicus* from von Heuglin & Hartlaub 1859 (Aves). *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewAuthorshipNeotis.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Numenius arquatus (Linnaeus, 1758) is the available name for Eurasian Curlew"
+  citation: |-
+    Richard Littauer. *Numenius arquatus* (Linnaeus, 1758) is the available name for Eurasian Curlew. *Bulletin of Zoological Nomenclature*. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
+
+- year: 2026
+  date: "2026-10-13"
+  type: Data
+  topics: [Taxonomic Nomenclature, Community Science, Open Data]
+  peer_reviewed: false
+  title: "TAXACOM 1992–2025 Backup"
+  citation: |-
+    TAXACOM (2026). TAXACOM 1992–2025 Backup. Zenodo. Archive of the TAXACOM global taxonomy mailing list, deposited by Richard Littauer.
+  doi: 10.5281/zenodo.23352321
+  pdf:
+  bib: /publications/bib/Taxacom2026Backup.bib
+
+- year: 2026
+  date: "2026-10-13"
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "Neotype designation for Red-winged Blackbird (Agelaius phoeniceus)"
+  citation: |-
+    Richard Littauer (2026). Neotype designation for Red-winged Blackbird (*Agelaius phoeniceus*). *The Wilson Journal of Ornithology*.
+  abstract: |-
+    Mearns (1911) and Howell and Van Rossem (1928) attempted to restrict the type locality of the Red-winged Blackbird *Agelaius phoeniceus* (Linnaeus, 1766) and the nominate subspecies to Charleston, South Carolina, USA, using Mearns’ (1911) unfounded statement that Linnaeus based his description only on M. Catesby’s work. A taxon’s type locality can only be the location where the syntypes were described or collected. Linnaeus referenced other authors than Catesby in his original description, resulting in a much broader type locality, covering the range of multiple currently recognized subspecies. No valid designation of a lectotype or neotype was made by Mearns (1911) or Howell and Van Rossem (1928), or any later author. No known syntypes of *A. phoeniceus* are extant. In order to promote stability in the nomenclature, I designate a neotype for *Agelaius phoeniceus*, collected originally by E. Mearns in 1911 in Charleston, South Carolina, and now stored at Smithsonian Institution, National Museum of Natural History.
+  doi: 10.1080/15594491.2026.2737543
+  pdf: https://www.tandfonline.com/doi/pdf/10.1080/15594491.2026.2737543
+  bib: /publications/bib/Littauer2026NeotypeDesignation.bib
+
+- year: 2026
+  date: "2026-10-08"
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "No agreement required: a further note on kākāpō Strigops nomenclature"
+  citation: |-
+    Richard Littauer (2026). No agreement required: a further note on kākāpō *Strigops* nomenclature. *Notornis* 73(4): 315–320.
+  abstract: |-
+    The kākāpō *Strigops habroptilus* Gray, 1845 has a complicated nomenclatural history. This paper sheds light on the correct spelling of three specific names in the genus, and the gender of the generic name, as interpreted through the International Code of Zoological Nomenclature. In short: *Strigops* Gray, 1845 is feminine, as ruled by the Commission in Declaration 26; *Strigops habroptilus* Gray, 1845 and *Strigops insulaborealis* Worthy et al., 2026 are the correct spellings of the specific names, as nouns in apposition, through Article 31.2 and also through the application of the Glossary; and *Strigops habroptilus innominata* Mathews & Iredale, 1913 is the correct spelling of that currently unrecognised name. An updated entry for each taxon for the Checklist of the birds of New Zealand is also provided.
+  doi: 10.63172/051543jdlmdl
+  pdf: https://www.birdsnz.org.nz/wp-content/uploads/2026/10/Littauer_734_315-320.pdf
+  bib: /publications/bib/Littauer2026NoAgreement.bib
+
+- year: 2026
+  date: "2026-10-08"
+  type: [Journal Article, Short Note]
+  topics: [Ornithology]
+  peer_reviewed: true
+  title: "Subspecific identity of channel-billed cuckoos (Scythrops novaehollandiae) vagrant to Aotearoa New Zealand"
+  citation: |-
+    Richard Littauer (2026). Subspecific identity of channel-billed cuckoos (*Scythrops novaehollandiae*) vagrant to Aotearoa New Zealand. *Notornis* 73(4): 327–331.
+  abstract: |-
+    The channel-billed cuckoo *Scythrops novaehollandiae* is an occasional vagrant to Aotearoa New Zealand, with eight confirmed records. There are three described subspecies: the nominate form from Australia; *S. n. fordi* from Sulawesi; and *S. n. schoddei* from the Bismarck Archipelago. No previous studies have identified the subspecific identity of any channel-billed cuckoos in New Zealand. I compare published measurements with my own measurements of museum specimens, and conclude that two of the New Zealand vagrant specimens are identifiable as the Australian subspecies, *S. n. novaehollandiae* (as expected, given geographical proximity), while other records are indeterminate. I suggest that this name be added to the official Checklist. I also briefly present some incidental nomenclatural comments for this species.
+  doi: 10.63172/397288zycfgk
+  pdf: https://www.birdsnz.org.nz/wp-content/uploads/2026/10/Littauer_734_327-331.pdf
+  bib: /publications/bib/Littauer2026SubspecificIdentity.bib
+
+- year: 2026
+  date: "2026-09-16"
+  type: Edited Volume
+  topics: [Open Source, Research Software]
+  peer_reviewed: false
+  title: "PyCon AU 2026 Academic Proceedings"
+  citation: |-
+    Alan Rubin, Richard Littauer, eds. (2026). *PyCon AU 2026 Academic Proceedings*. Zenodo.
+  doi: 10.5281/zenodo.22784194
+  pdf:
+  bib: /publications/bib/Rubin2026PyConAU.bib
+
+- year: 2026
+  date: "2026-09-07"
+  type: Presentation
+  topics: [Open Source, Research Software, AI]
+  peer_reviewed: true
+  title: "Using Local VLMs for Data Extraction"
+  citation: |-
+    Richard Littauer (2026). Using Local VLMs for Data Extraction. *Aotearoa New Zealand Research Software Conference (NZRS 2026)*, 7 Sep 2026. Online.
+  abstract: |-
+    Global LLMs are readily available for research software engineering work, and researchers with a limited budget can easily use web interfaces to do complex tasks. However, most LLM providers are international corporations which can ignore or sidestep regional regulations or ethical concerns around sensitive data usage. For some RSEs, this blocks the usage of LLMs for development work. In this presentation, I will discuss why I used open source LLMs with open weights on a local grid provided by my institution to extract data from 65 years worth of PDFs from academic journals published in Aotearoa New Zealand. I focus on five main points that affect RSE work and researchers in Aotearoa New Zealand: Te Tiriti, funds, licensing, copyright, and reproducibility.
+  doi: 10.5281/zenodo.22559441
+  pdf:
+  bib: /publications/bib/Littauer2026UsingLocal.bib
+
+- year: 2026
+  date: "2026-02-12"
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Community Science, Bioacoustics]
+  peer_reviewed: true
+  title: "Community-science sourced evidence of vocal mimicry in Perisoreus jays"
+  citation: |-
+    Richard Littauer, Sam Darmstadt, William M. Kirsch & Davyd H. Betchkal (2026). Community-science sourced evidence of vocal mimicry in *Perisoreus* jays. *The Wilson Journal of Ornithology* 138(3): 504–514.
+  abstract: |-
+    Avian vocal mimicry is a well-documented behavior in passerines. However, for many species, detailed data on the diversity of mimicry behavior remains scarce. Additionally, it is unclear whether closely related species exhibit similar mimicry behaviors. One group of mimics is the *Perisoreus* jays: the Canada Jay (*P. canadensis*), Siberian Jay (*P. infaustus*), and Sichuan Jay (*P. internigrans*). To characterize mimicry behavior in this genus, we conducted a systematic analysis of over 450,000 community-sourced observations of *Perisoreus* jays from eBird, Macaulay Library, iNaturalist, and Xeno-Canto. We found a total of 244 observations of mimicry for species in this genus and identified 40 model species mimicked by the Canada Jay (31 of which were not documented previously), 20 model species mimicked by the Siberian Jay (16 of which were not documented previously), and no model species mimicked by the Sichuan Jay (although two were documented previously), alongside 121 recordings of mimicry events. Our findings suggest that vocal mimicry in *Perisoreus* jays is more extensive and diverse than previously documented. This study highlights the value of community science data in documenting rare or understudied behaviors and calls for further research on the significance of vocal mimicry, particularly among closely related species.
+  doi: 10.1080/15594491.2026.2616578
+  pdf: /publications/Littauer2026CommunityScience.pdf
+  bib: /publications/bib/Littauer2026CommunityScience.bib
+
+- year: 2026
+  date: "2026-08-10"
+  type: [Journal Article, Full Paper]
+  topics: [Community Science, Open Source, Open Data, OSS Policy, Research Software]
+  peer_reviewed: true
+  title: "Open practices across science, software, education and other domains"
+  citation: |-
+    John Meluso, Cassandra Chambers, Richard Littauer, Nerea Llamas, Elizabeth Long Lingo, Marlene Mhangami, Beck Pitt, Violetta Splitter, Huajin Wang (2026). Open practices across science, software, education and other domains. *Nature Human Behaviour*: 1–13.
+  abstract: |-
+    Open practices are actions people perform to influence transparency (who can see information), inclusion (who can voice perspectives) and decision rights (who can make decisions). Open practices have grown popular across domains, including open science, open-source software and open education, in hopes of spurring innovation and broadening participation. But which open practices best enable groups and organizations to achieve these ambitious goals, and why? This Perspective distils seven successful practices from across these domains that can help groups to define goals, allocate power, share information and set norms. These practices, such as documenting power structures and adopting a code of conduct, hold potential to support groups and organizations seeking to address great challenges through openness. However, delivering on that potential will depend on how well groups share lessons across domains, tailor these practices and sustain the people and platforms that carry them.
+  doi: 10.1038/s41562-026-02526-0
+  preprint: https://doi.org/10.2139/ssrn.4821969
+  pdf: https://www.nature.com/articles/s41562-026-02526-0.pdf
+  bib: /publications/bib/Meluso2026NHB.bib
+
+- year: 2026
+  date: "2026-08-17"
+  type: Presentation
+  topics: [Ornithology, Bioacoustics, AI]
+  peer_reviewed: true
+  title: "Large-scale NLP detection of vocal mimicry in Australian community science bird observations"
+  citation: |-
+    Richard Littauer (2026). Large-scale NLP detection of vocal mimicry in Australian community science bird observations. *World Ecoacoustics Congress 2026 Abstract Booklet*, p. 58. 17–20 Aug 2026, Cairns / Gimuy, Australia.
+  abstract: |-
+    Introduction. Avian vocal mimicry is well documented for Australia's birds. However, studies normally focus on individual species or genera. Community science platforms such as eBird present an opportunity to crowd-source text comments mentioning mimicry at scale. Here, we present a natural language processing (NLP) approach for mining mimicry-related observations from the Australian eBird dataset, based on the methods from Littauer et al. (2026).
+
+    Methods. We developed a basic regex detection system applied to species-level and checklist comments from the entire Australian eBird dataset (69 million rows. We used a core bucket of terms unambiguously describing vocal mimicry (using the terms "mimic" and "imitate") and a larger bucket of broader acoustic similarity language (e.g. "sounds like," "reminiscent of"). To reduce false positives for species totals, checklist-level matches were excluded, and manual validation was performed for all core-tier observations from species with <10 occurrences.
+
+    Results. We identified 6,864 observations referencing mimicry across 689 species. Restricting to the validated core bucket yielded 2,312 confirmed mimicry observations from 111 species. The most frequently documented mimics were: Superb Lyrebird *Menura novaehollandiae* (579 observations), European Starling *Sturnus vulgaris* (220), Olive-backed Oriole *Oriolus sagittatus* (200), Singing Bushlark *Mirafra javanica* (142), Spangled Drongo *Dicrurus bracteatus* (92). Observations with the highest densities were in New South Wales, Victoria, and Queensland.
+
+    Conclusions. These results demonstrate that NLP-based mining of community science text can recover substantial behavioural signal from unstructured observer notes. Future work will focus on cleaning the data, building species relation matrices, and characterising model species. This study highlights both the promise and the validation challenges inherent in large-scale behavioural data mining from community science platforms.
+  doi: 10.5281/zenodo.22169692
+  pdf:
+  bib: /publications/bib/Littauer2026WEC.bib
+
+- year: 2026
+  date: "2026-08-26"
+  type: Presentation
+  topics: [Research Software, AI]
+  peer_reviewed: true
+  title: "Research Software Engineering in the Age of Generative AI"
+  citation: |-
+    Richard Littauer, Michelle Barker, Sandra Gesing (2026). Research Software Engineering in the Age of Generative AI. *Research Software Asia Australia 2026*, 26 Aug 2026.
+  doi: 10.5281/zenodo.22106478
+  pdf:
+  bib: /publications/bib/Littauer2026ResearchSoftware.bib
+
+- year: 2026
+  date: "2026-08-24"
+  type: Data
+  topics: [Research Software, Open Source]
+  peer_reviewed: false
+  title: "Analysis of JOSS data and statistics"
+  citation: |-
+    The Journal of Open Source Software (JOSS), Charlotte Soneson, Richard Littauer (2026). Analysis of JOSS data and statistics. Zenodo.
+  doi: 10.5281/zenodo.21496776
+  pdf:
+  bib: /publications/bib/TheJournalOfOpenSourceSoftware2026AnalysisJOSS.bib
+
+- year: 2026
+  date: "2026-08-05"
+  type: Data
+  topics: [Ornithology, Community Science, Open Source]
+  peer_reviewed: false
+  title: "Data sources for HPAI study on Skua, Kāhu, and Kārearea"
+  citation: |-
+    Richard Littauer (2026). Data sources for HPAI study on Skua, Kāhu, and Kārearea. Zenodo.
+  doi: 10.5281/zenodo.21813562
+  pdf:
+  bib: /publications/bib/Littauer2026DataSources.bib
+
+- year: 2026
+  date: "2026-06-04"
+  type: Software
+  topics: [Linguistics, Community Science, Open Source, Research Software]
+  peer_reviewed: false
+  title: "Open Source Code Serving Endangered Languages"
+  citation: |-
+    Richard Littauer, Hugh Paterson III (2026). Open Source Code Serving Endangered Languages. Zenodo.
+  doi: 10.5281/zenodo.11164851
+  pdf:
+  bib: /publications/bib/Littauer2026OpenSource.bib
+
+- year: 2026
+  date: "2026-05-28"
+  type: Report
+  topics: [Research Software, AI]
+  peer_reviewed: false
+  title: "Research Software Engineering in the Age of Generative AI: Building a Community Vision"
+  citation: |-
+    Michelle Barker, Daniel S. Katz, Kim Hartley, Samantha Ahern, Neil Chue Hong, Ian Cosden, Ryan Daniels, Stephan Druskat, Anshu Dubey, Yael Elmatad, Cunliang Geng, Sandra Gesing, Robert Haines, James Hetherington, Toby Hodges, James Howison, Kamilla Kopec-Harding, Richard Littauer, Christina Maimone, Vani Mandava, Rohan Marwaha, Elle O'Brien, Adrian Price-Whelan, Karthik Ram, Joseph Shingleton, Sue Smith, Nathan TeBlunthuis, Anelda Van der Walt, Steve Van Tuyl, Ben van Werkhoven, Kirstie Whitaker, Greg Wilson, Sherry Wu, Yo Yehudi (2026). Research Software Engineering in the Age of Generative AI: Building a Community Vision. Zenodo.
+  abstract: |-
+    The Research Software Engineering in the Age of Generative AI: Building a Community Vision workshop, held in March in Edinburgh, UK, brought together participants to explore how Generative AI may reshape the research software ecosystem, and to help inform a broader community vision for the future of the field.
+
+    Before the workshop, attendees contributed to a draft vision statement that workshop organisers used to identify areas of agreement and difference. A version of this, published as Research Software in an Age of AI-Assisted Development: Reflections from Edinburgh, is intended to provide principles that will guide the community during this time of rapid change. In the workshop, the participants also discussed emerging practices, identified opportunities and risks, and proposed a range of high-impact pilot activities to support the safe, reproducible, and effective use of AI in research software and workflows. The areas focused on included:
+
+    Suggesting policies and narratives for research-performing institutions
+
+    Developing a framework to discover, document and address costs, benefits, and risks
+
+    Understanding future incentives around publishing, preserving and crediting software
+
+    Verifying and validating research software
+
+    Defining pathways for the evolution of the research software engineers (RSE) role
+
+    Identifying and developing necessary training
+
+    Developing a playbook for RSE managers and open-source software project leaders
+
+    Making GenAI accessible to all
+
+    Collaborating together across people, community, and disciplines, not just with AI
+
+    Across these areas, participants identified 46 different activities, ranging from writing sprints and community-of-practice activities that could begin soon, to longer-term research studies to investigate how verification practices, collaboration patterns, and training needs are changing as AI tools become embedded in research workflows. These projects shared a common focus on community-maintained practices, actionable guidance, and sustained coordination.
+  doi: 10.5281/zenodo.20320883
+  pdf:
+  bib: /publications/bib/Barker2026ResearchSoftware.bib
+
+- year: 2026
+  date: "2026-05-27"
+  type: Report
+  topics: [Research Software, AI]
+  peer_reviewed: false
+  title: "Research Software in an Age of AI-Assisted Development: Reflections from Edinburgh"
+  citation: |-
+    Daniel S. Katz, Samantha Ahern, Michelle Barker, Ian Cosden, Stephen Druskat, Anshu Dubey, Yael Elmatad, Cunliang Geng, Sandra Gesing, Carole Goble, Robert Haines, Kim Hartley, James Hetherington, Toby Hodges, Richard Littauer, Christina Maimone, Vani Mandava, Elle O'Brien, Adrian Price-Whelan, Karthik Ram, Joseph Shingleton, Sue Smith, Nathan TeBlunthius, Anelda Van der Walt, Ben van Werkhove, Kirstie Whitaker, Sherry Wu (2026). Research Software in an Age of AI-Assisted Development: Reflections from Edinburgh. Zenodo.
+  doi: 10.5281/zenodo.20321133
+  pdf:
+  bib: /publications/bib/Katz2026ResearchSoftware.bib
+
+- year: 2026
+  date: "2026-05-11"
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "Correction of the original spelling of Hydrobates matsudairae (Kuroda, 1922) (Aves: Procellariiformes: Hydrobatidae)"
+  citation: |-
+    Richard Littauer (2026). Correction of the original spelling of *Hydrobates matsudairae* (Kuroda, 1922) (Aves: Procellariiformes: Hydrobatidae). *Zootaxa* 5807(2): 390–394.
+  doi: 10.11646/zootaxa.5807.2.7
+  pdf: https://mapress.com/zt/article/download/zootaxa.5807.2.7/59031
+  bib: /publications/bib/Littauer2026CorrectionOriginal.bib
+
+- year: 2026
+  date: "2026-05-02"
+  type: Software
+  topics: [Research Software, Open Source]
+  peer_reviewed: false
+  title: "standard-readme-preset"
+  citation: |-
+    Richard Littauer, Titus Wormer, Jesús Leganés-Combarro, Dieter Geerts, Tom Pansino (2026). standard-readme-preset. Zenodo.
+  doi: 10.5281/zenodo.19969818
+  pdf:
+  bib: /publications/bib/Littauer2026Standardreadmepreset.bib
+
+- year: 2026
+  date: "2026-04-13"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Cryptamorpha desjardinsii (Guérin-Méneville, 1844) is the available name (Coleoptera: Silvanidae)"
+  citation: |-
+    Richard Littauer (2026). *Cryptamorpha desjardinsii* (Guérin-Méneville, 1844) is the available name (Coleoptera: Silvanidae). *Zootaxa* 5792(2): 397–400.
+  doi: 10.11646/zootaxa.5792.2.12
+  pdf:
+  bib: /publications/bib/Littauer2026CryptamorphaDesjardinsii.bib
+
+- year: 2026
+  date: "2026-04-12"
+  type: Conference Paper
+  topics: [Community Science, Open Source, Research Software, OSS Policy]
+  peer_reviewed: true
+  title: "Beyond Adoption: Examining the Evolution and Impact of Code of Conduct on Open Source Communities"
+  citation: |-
+    Jiayi Sun, Hongbo Fang, Junming Zhang, Jiakai Shi, Ruitao Lai, Anita Ihuman, Richard Littauer, Shurui Zhou (2026). Beyond Adoption: Examining the Evolution and Impact of Code of Conduct on Open Source Communities. In: *Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering (ICSE)*, pp. 2376–2388.
+  doi: 10.1145/3744916.3773268
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3744916.3773268
+  bib: /publications/bib/Sun2026BeyondAdoption.bib
+
+- year: 2026
+  date: "2026-04-10"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "Lathrobium sapaense Tokareva & Bekchiev, 2025 is the available name (Staphylinidae: Paederinae)"
+  citation: |-
+    Richard Littauer (2026). *Lathrobium sapaense* Tokareva & Bekchiev, 2025 is the available name (Staphylinidae: Paederinae). *Zootaxa* 5792(1): 200–200.
+  doi: 10.11646/zootaxa.5792.1.12
+  pdf: https://mapress.com/zt/article/download/zootaxa.5792.1.12/58789
+  bib: /publications/bib/Littauer2026LathrobiumSapaense.bib
+
+- year: 2026
+  date: "2026-03-03"
+  type: Presentation
+  topics: [Research Software, Community Science, Open Source, AI]
+  peer_reviewed: true
+  title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
+  citation: |-
+    Daniel S. Katz, Warrick Ball, Patrick Diehl, Richard Littauer, Kyle Niemeyer, Arfon Smith (2026). The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI. *6th Conference for Research Software Engineering in Germany (deRSE26)*, Stuttgart, Germany.
+  abstract: |-
+    The Journal of Open Source Software (JOSS; https://joss.theoj.org) publishes short articles describing open-source research software, with over 3200 papers/software packages published since 2016. In this talk, we aim to showcase JOSS as an open source community and platform, to encourage its use by RSEs, and to discuss how JOSS considers GenAI contributions.
+
+    JOSS's platform is hosted on GitHub and incorporates scholarly community elements and open-source software that we have developed and adapted. The JOSS review process is open, iterative and includes both the submitted paper and the submitted software itself, thereby encouraging good software practice. The first aim of this talk is to discuss JOSS as an open-source community and platform.
+
+    JOSS has published articles authored by RSEs and is one avenue through which to recognise RSE contributions to research software in formal research literature. This talk's second aim is to improve RSEs' awareness of JOSS for their research software projects and encourage them to engage with platforms like JOSS as authors, reviewers or even editors.
+
+    We will also discuss how generative AI (GenAI) is changing what JOSS publishes. From the start, JOSS's goal was to create a relatively simple way for developers of research software to be credited for the work using the scholarly publishing system. Our initial submission criterion was simply that we only reviewed and published what we defined as research software, not more general open-source software. Five years ago, we introduced a second criterion, "substantial scholarly effort", to ensure that we published only meaningful contributions to research software, since other avenues such as Zenodo allowed for publishing any contributions, and we wanted to align a JOSS publication with similar amounts of work in other journals. Our benchmark at the time – at least roughly three months of developer time – offered a practical, human-centered proxy for effort. For that era, it served us well.
+
+    Today, the landscape is fundamentally different. Where generating code once took three months, in some cases this can now be accomplished in three days – or even three hours – with generative AI tools. With AI agents increasingly capable of producing entire codebases and documentation from natural language prompts, the marginal cost of research software generation is being reduced, although the quality of the generated work may vary widely. On the positive side, this may enable people from previously underrepresented backgrounds to create new software tools. But it also poses a fundamental challenge: how do we evaluate what constitutes credit-worthy, publishable research software contributions? The third aim of the talk is to share some of JOSS's thinking about how to respond to GenAI and get feedback from the deRSE attendees.
+  doi: 10.5281/zenodo.18849549
+  pdf:
+  bib: /publications/bib/Katz2026JournalOpen.bib
+
+- year: 2026
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "On the spelling of Eupelecotheca celer Townsend, 1919 (Tachinidae, Exoristinae)"
+  citation: |-
+    Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: N. L. Evenhuis, T. Pape, eds., *Systema Dipterorum Nomenclatural Notes. VI.* *Bishop Museum Occasional Papers* 176: 1–3.
+  doi:
+  pdf: https://hbs.bishopmuseum.org/sd/pdf/op176p1-3.pdf
+  bib: /publications/bib/Littauer2026SDNN.bib
+
+- year: 2026
+  date: "2026-02-10"
+  type: Edited Volume
+  topics: [Open Source, Research Software]
+  peer_reviewed: false
+  title: "Kiwi PyCon 2025 Academic Track Proceedings"
+  citation: |-
+    Richard Littauer, Devi Ganesan, eds. (2026). *Kiwi PyCon 2025 Academic Track Proceedings*. Zenodo.
+  doi: 10.5281/zenodo.18516793
+  pdf:
+  bib: /publications/bib/Littauer2026KiwiPyCon.bib
+
+- year: 2026
+  date: "2026-02-10"
+  type: [Conference Paper, Presentation]
+  topics: [Community Science, Research Software, Open Source]
+  peer_reviewed: true
+  title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
+  citation: |-
+    Richard Littauer (2026). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. In: R. Littauer, D. Ganesan, eds., *Kiwi PyCon 2025 Academic Track Proceedings*, pp. 4–5.
+  abstract: |-
+    The climate crisis poses a severe threat to the natural systems that support modern civilization, disrupting essential cycles that provide freshwater, fertile soils, and stable weather patterns. These disruptions are projected to lead to widespread biodiversity loss and to upset local and global economies (IPBES 2019). To ensure that the scientific basis of these projections is transparent and credible, researchers globally are increasingly making climate data and models openly available. This openness supports informed decision-making and helps safeguard sustainable development from being compromised by short-term political or economic agendas.
+
+    Despite this progress in open science, the broader application of open source software and open data in climate and sustainability-related technologies remains limited. National governments, international organizations, academia, industry, and civil society have all played roles in both contributing to the crisis and proposing solutions. However, fragmented, proprietary approaches persist. Open source offers a powerful alternative—lowering costs, enhancing verifiability, and enabling collaboration across disciplines and sectors.
+
+    In this talk, I'll introduce OpenSustain.tech, the most comprehensive dataset of over 2,500 open source projects directly addressing the climate crisis (Augspurger et al. 2023). I'll detail the transparent methodology used to curate this collection, including human expert review across multiple fields, and talk a bit about the network of transitive dependencies among these projects, extending previous work in mapping the climate-focused open source ecosystem.
+
+    I'll talk about which projects are written in Python, and discuss which projects seem to be most relevant to the climate crisis. Finally, I'll discuss the strategic importance of open source and Python in advancing climate solutions.
+  doi: 10.5281/zenodo.18597028
+  pdf: /publications/Littauer2026MappingOpen.pdf
+  bib: /publications/bib/Littauer2026MappingOpen.bib
+  recording: https://www.youtube.com/watch?v=kr8BP7eBCsI
+  slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
+
+- year: 2026
+  date: "2026-04-30"
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "The Oregon Dark-eyed Junco should be called Junco hyemalis oregana"
+  citation: |-
+    Richard Littauer (2026). The Oregon Dark-eyed Junco should be called *Junco hyemalis oregana*. *Western Birds* 57(2): 159–163.
+  abstract: |-
+    John Kirk Townsend introduced the Oregon *Junco* to science as *Fringilla oregana*, but since 1856 it has been classified in the genus *Junco* as *Junco oreganus*, *Junco oregonus*, *Junco hyemalis oreganus*, or *Junco hyemalis oregonus*. The change of spelling to *oregonus* is not justified under the current International Code of Zoological Nomenclature, and since 1901 *oreganus* has been used universally. Under the code’s articles 31 and 34 adjectival species-group names (both species and subspecies) must agree in grammatical gender with the genus with which they are combined. Under Article 30, *Junco* is masculine, whereas *Fringilla* is feminine. If *oregana* is an adjective, as it has generally been construed, it needed to be changed to *oreganus* to agree with *Junco*. But the termination “-a” is ambiguous, and in ambiguous cases the code prescribes that the word be construed as a noun in apposition that remains unchanged regardless of the gender of the genus in which the species or subspecies is classified. This case parallels other similar examples that have been treated inconsistently in recent literature. A comprehensive review of such cases at the level of both species and subspecies is needed.
+  doi: 10.21199/WB57.2.5
+  url: https://journal.westernfieldornithologists.org/index.php/westernbirds/article/view/2014
+  pdf: https://journal.westernfieldornithologists.org/index.php/westernbirds/article/download/2014/1892
+  bib: /publications/bib/Littauer2026OregonDarkeyed.bib
+
+- year: 2026
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  status: In Press
+  title: "A new name is not needed for Hesperia zachaeus Plötz, 1883, nec Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae)"
+  citation: |-
+    Shinichi Nakahara, Richard Littauer, John V. Calhoun (2026). A new name is not needed for *Hesperia zachaeus* Plötz, 1883, *nec* Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae). *Zootaxa*. In press.
+  doi:
+  pdf:
+  bib: /publications/bib/Nakahara2026NewName.bib
+
+- year: 2026
+  type: [Journal Article, Full Paper]
+  topics: [Research Software, Open Source, AI]
+  peer_reviewed: true
+  status: In Press
+  title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
+  citation: |-
+    Warrick Ball, Patrick Diehl, Daniel S. Katz, Richard Littauer, Kyle E. Niemeyer, Arfon M. Smith (2026). The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI. *ECEASST*. In press.
+  doi:
+  pdf:
+  bib: /publications/bib/Ball2026JournalOpen.bib
+
+- year: 2026
+  type: Conference Paper
+  topics: [Ornithology, Open Source, Research Software, Community Science, AI]
+  peer_reviewed: true
+  title: "Community Science: Prediction to Arrival, Modeling H5N1 in New Zealand"
+  citation: |-
+    Kris Bubendorfer, Richard Littauer (2026). Community Science: Prediction to Arrival, Modeling H5N1 in New Zealand. *22nd IEEE International eScience Conference (eScience’26)*. Invited paper.
+  doi:
+  pdf:
+  bib: /publications/bib/Bubendorfer2026CommunityScience.bib
+
+- year: 2026
+  type: Conference Paper
+  topics: [Open Source, Research Software, Ornithology, AI, Open Data]
+  peer_reviewed: true
+  title: "Data Rescue for Historic Scientific Literature: Automatically Extracting and Cross-Validating Published Records"
+  citation: |-
+    Richard Littauer, Kris Bubendorfer, Markus Luczak-Roesch (2026). Data Rescue for Historic Scientific Literature: Automatically Extracting and Cross-Validating Published Records. *22nd IEEE International eScience Conference (eScience’26)*. Short paper.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2026DataRescue.bib
+
+- year: 2026
+  date: "2026-02-23"
+  type: [Poster, Presentation]
+  topics: [Ornithology]
+  peer_reviewed: true
+  title: "An Update on New Zealand Beach Patrols"
+  citation: |-
+    Richard Littauer (2026). An Update on New Zealand Beach Patrols. *Pacific Seabird Group 2026*, 23–27 Feb 2026.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2026UpdateNew.bib
+
+- year: 2025
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "VOLTTRON Version 9"
+  citation: |-
+    Craig Allwardt, Chandrika Sivaramakrishnan, Shwetha Niddodi, Jereme Haack, Mark Bonicillo, Robert Lutes, Richard Littauer, et al. (2025). VOLTTRON Version 9. Pacific Northwest National Laboratory (PNNL), Richland, WA. US Department of Energy software.
+  doi: 10.11578/dc.20250219.1
+  url: https://github.com/VOLTTRON/volttron
+  pdf:
+  bib: /publications/bib/Allwardt2025VOLTTRONVersion.bib
+
+- year: 2025
+  date: "2025-01-31"
+  type: Book Chapter
+  topics: [Ornithology]
+  peer_reviewed: true
+  title: "Tristan Moorhen (Gallinula nesiotis), version 2.0"
+  citation: |-
+    Richard Littauer (2025). Tristan Moorhen (*Gallinula nesiotis*), version 2.0. In: G. M. Kirwan, N. D. Sly, eds., *Birds of the World*. Cornell Lab of Ornithology, Ithaca, NY, USA.
+  doi: 10.2173/bow.trimoo2.02
+  pdf:
+  bib: /publications/bib/Littauer2025Botw.bib
+
+- year: 2025
+  date: "2025-12-05"
+  type: Presentation
+  topics: [Community Science, Research Software, Open Data]
+  peer_reviewed: true
+  title: "Wiki Loves iNaturalist: How Wikimedians Integrate iNaturalist Content on Wikipedia, Wikidata, and Wikimedia Commons"
+  citation: |-
+    Tiago Lubiana, Richard Littauer, Siobhan Leachman, Jan Ainali, Manoj Karingamadathil, Andra Waagmeester, Heidi Meudt, Dario Taraborelli (2025). Wiki Loves iNaturalist: How Wikimedians Integrate iNaturalist Content on Wikipedia, Wikidata, and Wikimedia Commons. *Biodiversity Information Science and Standards* 9: e181155.
+  abstract: |-
+    With over 50 million observations per year, iNaturalist is one of the world's most successful citizen science projects, uniting millions of people worldwide in observing, sharing, and identifying nature (Mason et al. 2025). iNaturalist and Wikipedia have much in common: they are both collaborative, large-scale, open infrastructures made by volunteer communities with long-reaching impact on human knowledge. Wikipedia and its sister projects, Wikimedia Commons and Wikidata, also influence biodiversity research worldwide via their numerous, widely-accessed entries on nature topics (Lubiana 2025).
+
+    While contributions to both projects are primarily made by individual volunteers, a community of iNaturalist contributors that first convened at Wikimania 2018, a Wikimedia conference in Cape Town, South Africa, started WikiProject Biodiversity. The coordinated contributors facilitate content flow in three main ways: by directly adding content to iNaturalist and sharing it on Wikimedia projects, by supporting the development of tools, and by promoting campaigns and outreach activities (for example, by participating at Living Data 2025, in Bogotá, Colombia). To enable the seamless upload of iNaturalist images to Wikimedia Commons (which in turn enables their reuse on Wikipedia and other Wikimedia projects), this volunteer community has developed a diverse set of open source tools, detailed in Table 1. These volunteer-driven tools are released under open source licenses, making it possible for anyone to join, contribute and expand on the work.
+
+    While there is no formal content partnership between iNaturalist and the Wikimedia Foundation, the volunteer community that connects the two platforms follows a similar pattern as GLAM
+
+    (Galleries, Libraries, Archives and Museums) partnerships in Wikimedia. This ensures that iNaturalist content on Wikimedia enjoys a wealth of resources for tracking and reporting impact, including statistics for uploads and page views. Using Wikimedia's open Commons Impact Metrics API, we can identify over 220,000 images on Wikimedia Commons sourced from iNaturalist. A fourth of those images (around 53,000) are reused to illustrate content on Wikimedia projects (such as English Wikipedia). On average, iNaturalist images receive around 27 million monthly views across Wikimedia platforms (as of August 2025). When these images make it to the English Wikipedia main page, views may go as high as 196 million in one month, which was the count for May 2025 (Fig. 1).
+
+    iNaturalist content also finds its way into the Wikimedia ecosystem via Wikidata, a collaboratively edited multilingual knowledge graph, which also has members engaged with biodiversity informatics (Groom and Paul 2020, von Mering et al. 2025). Wikidata currently holds five kinds of iNaturalist identifiers: place, taxon and user IDs enrich information on Wikidata, while photo and observation IDs contribute to structured metadata on Commons. This infrastructure supports and enriches iNaturalist itself, as the platform relies on Wikidata links to select Wikipedia content as the default description of taxon pages.
+
+    To sum up, we invite the reader to join the community of iNaturalist contributors and Wikimedians: there are a countless ways that biodiversity lovers can join and support this work (von Mering et al. 2025, Meudt and Leachman 2025). By uploading iNaturalist photos, joining WikiProject Biodiversity, and licensing your photos as CC0, CC-BY or CC-BY-SA, you will be joining a welcoming community, and helping to expand the free (as in freedom) biodiversity knowledge on the internet.
+  doi: 10.3897/biss.9.181155
+  pdf: https://biss.pensoft.net/article/181155/download/pdf/
+  bib: /publications/bib/Lubiana2025WikiLoves.bib
+
+- year: 2025
+  date: "2025-11-25"
+  type: [Journal Article, Full Paper]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Corrections for grammatical agreement for species in Chelaner Emery, 1914 (Hymenoptera: Formicidae)"
+  citation: |-
+    Richard Littauer (2025). Corrections for grammatical agreement for species in *Chelaner* Emery, 1914 (Hymenoptera: Formicidae). *Zootaxa* 5723(2): 268–280.
+  abstract: |-
+    This paper provides a list of mandatory corrections for grammatical agreement under Articles 31 and 34 of the Code for the southern ant genus *Chelaner* Emery, 1914, together with notes on the treatment for every species in the genus. *Chelaner* has masculine gender and all adjectival species names combined with it must also be masculine. The species-group names corrected are: *C. antarcticus*, *C. anthracinus*, *C. aper dubius*, *C. bicornis*, *C. bifidus*, *C. bihamatus*, *C. burchera*, *C. centralis*, *C. crinitus*, *C. croceiventre*, *C. durokoppinensis*, *C. edentatus*, *C. elegantulus*, *C. falcatus*, *C. flavoniger*, *C. forcipatus*, *C. gilberti medioruber*, *C. insularis*, *C. kiliani obscurellus*, *C. lacunosus*, *C. longinodis*, *C. majeri*, *C. melleus*, *C. nightcapensis*, *C. parantarcticus*, *C. petiolatus*, *C. punctulatus*, *C. rapaensis*, *C. ravenshoensis*, *C. rubriceps*, *C. rubriceps cinctum*, *C. rubriceps extreminiger*, *C. rubriceps ruber*, *C. rubriceps sanguinolentus*, *C. rufoniger*, *C. sculpturatus*, *C. sublamellatus*, *C. tambourinensis*, and *C. tambourinensis howensis*.
+  doi: 10.11646/zootaxa.5723.2.6
+  pdf:
+  bib: /publications/bib/Littauer2025ZootaxaChelaner.bib
+
+- year: 2025
+  date: "2025-11-02"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: false
+  title: "First Reviser for Rhopalum succineicollarum Tsuneki, 1952"
+  citation: |-
+    Richard Littauer (2025). First Reviser for *Rhopalum succineicollarum* Tsuneki, 1952. *Codex Mutabilis*, 2 Nov 2025.
+  doi: 10.5281/zenodo.17504393
+  url: https://codexmutabilis.com/fr/2025/11/02/first-revision-of-rhopalum-succineicollarum-tsuneki-1952.html
+  pdf:
+  bib: /publications/bib/Littauer2025FirstReviser.bib
+
+- year: 2025
+  date: "2025-11"
+  type: [Conference Paper, Presentation]
+  topics: [Taxonomic Nomenclature, Ornithology]
+  peer_reviewed: true
+  title: "Codex Mutabilis: Preserving the Reasons for Changes in Scientific Names"
+  citation: |-
+    Richard Littauer, Jessamyn West (2025). Codex Mutabilis: Preserving the Reasons for Changes in Scientific Names. Short paper, *iPRES 2025*.
+  abstract: |-
+    Digital preservation infrastructures often prioritize the stability of content and metadata. In taxonomy, species names are formed according to the Articles listed in the International Code of Zoological Nomenclature. The reasons for these changes are rarely recorded in detail or made machine-readable. This paper examines this preservation gap. Here, we cover issues in the Code by looking at approaches to recording nomenclatural changes related to the Kakapō *Strigops habroptilus*. As a potential solution, we present Codex Mutabilis, a digital journal with a publication model that documents ICZN-mandated name changes with full textual justification, persistent identifiers, and archival infrastructure. We argue that this model offers a blueprint for preserving interpretive metadata in the sciences.
+  doi: 10.5281/zenodo.19546736
+  pdf: https://zenodo.org/records/19546737
+  bib: /publications/bib/Littauer2025CodexMutabilis.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
+
+- year: 2025
+  date: "2025-09-23"
+  type: Presentation
+  topics: [Research Software, OSS Policy]
+  peer_reviewed: true
+  title: "Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions"
+  citation: |-
+    Michelle Barker, Richard Littauer (2025). Institutional Policy Pathways for Supporting Research Software: Global Trends, Local Actions. *Aotearoa New Zealand Research Software Conference (NZRS 2025)*, 23 Sep 2025. Online.
+  doi: 10.5281/zenodo.18429386
+  pdf:
+  bib: /publications/bib/Barker2025InstitutionalPolicy.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/Slides-NZ-RSE-Sept-2025.pdf
+
+- year: 2025
+  date: "2025-09-19"
+  type: Presentation
+  topics: [Research Software]
+  peer_reviewed: true
+  title: "Write all the things? The process of collaboratively writing papers #RSAA25"
+  citation: |-
+    Richard Littauer (2025). Write all the things? The process of collaboratively writing papers. *Research Software Asia Australia Conference (RSAA25)*, 19 Sep 2025.
+  abstract: |-
+    Over the past few months, I have written two papers with a large amount of authors. The first was the notes from a conference workshop on OSS held at eResearchNZ, which I published on Zenodo. The second was a Ten Simple Rules article which I submitted to PLOS Computational Biology, and prepublished on arxiv.org. In this lightning talk, I’ll briefly go over how the process went, what I did to be inclusive, and how you can help others improve your papers by inviting them in, too. I’ll also cover some gotyas that hit me and made the process harder than expected.
+  doi: 10.5281/zenodo.17269477
+  pdf:
+  bib: /publications/bib/Littauer2025WriteAll.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/Making%20collaborative%20papers.pdf
+
+- year: 2025
+  date: "2025-09-11"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "On the correct spelling of Pycnocraspedum rowleyense Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae)"
+  citation: |-
+    Richard Littauer (2025). On the correct spelling of *Pycnocraspedum rowleyense* Schwarzhans, Psomadakis & Nielsen, 2025 (Ophidiidae). *Zootaxa* 5692(1): 200–200.
+  doi: 10.11646/zootaxa.5692.1.12
+  pdf: https://mapress.com/zt/article/download/zootaxa.5692.1.12/57203
+  bib: /publications/bib/Littauer2025ZootaxaPycnocraspedum.bib
+
+- year: 2025
+  date: "2025-07-03"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Ornithology]
+  peer_reviewed: true
+  title: "Nomenclatural corrections for gender of species-group names for two Solomon Island birds"
+  citation: |-
+    Richard Littauer (2025). Nomenclatural corrections for gender of species-group names for two Solomon Island birds. *Emu – Austral Ornithology* 125(3): 261–263.
+  abstract: |-
+    The Solomon Islands is home to 65 endemic species of birds and a total of 335 species. The scientific names of two of these species need to be corrected according to Article 31 of the International Code of Zoological Nomenclature, which mandates how scientific names are formed. The species-group names in *Ceyx gentiana* and *Zosterops tetiparia* are corrected here for their gender.
+  doi: 10.1080/01584197.2025.2551298
+  pdf: https://www.tandfonline.com/doi/pdf/10.1080/01584197.2025.2551298
+  bib: /publications/bib/Littauer2025Emu.bib
+
+- year: 2025
+  date: "2025-09-08"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Psacodromeus rectus Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name"
+  citation: |-
+    Richard Littauer (2025). *Psacodromeus rectus* Lee, Nam & Park, 2024 (Coleoptera: Adephaga: Trachypachidae) is the available name. *Zootaxa* 5691(1): 150–150.
+  doi: 10.11646/zootaxa.5691.1.10
+  pdf:
+  bib: /publications/bib/Littauer2025ZootaxaPsacodromeus.bib
+
+- year: 2025
+  date: "2025-08-07"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Helobdella serendipitous Saglam et al., 2018 is the available name (Annelida: Hirudinida)"
+  citation: |-
+    Richard Littauer (2025). *Helobdella serendipitous* Saglam et al., 2018 is the available name (Annelida: Hirudinida). *Zootaxa* 5673(4): 598–598.
+  doi: 10.11646/zootaxa.5673.4.8
+  pdf: https://mapress.com/zt/article/download/zootaxa.5673.4.8/56966
+  bib: /publications/bib/Littauer2025ZootaxaHelobdella.bib
+
+- year: 2025
+  date: "2025-05-15"
+  type: [Journal Article, Short Note]
+  topics: [Ornithology]
+  peer_reviewed: true
+  title: "Renaming a bill type for Tundra Swan (Cygnus columbianus)"
+  citation: |-
+    Richard Littauer (2025). Renaming a bill type for Tundra Swan (*Cygnus columbianus*). *The Wilson Journal of Ornithology* 137(3): 493–495.
+  abstract: |-
+    A subspecies of Tundra Swan, the Bewick’s Swan (*Cygnus columbianus bewickii*) has patterns of yellow areas on its bill. The schema for identifying individual bill-types includes a term which is known to be offensive, used for bills which are predominantly black. Following other movements to decolonialize and reject antiquated and offensive terms, I suggest that we rename this term going forward.
+  doi: 10.1080/15594491.2025.2498780
+  pdf: /publications/Littauer2025RenamingBill.pdf
+  bib: /publications/bib/Littauer2025RenamingBill.bib
+
+- year: 2025
+  date: "2025-06-01"
+  type: Presentation
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: true
+  title: "What's in a name: Understanding scientific names for our birds, according to the ICZN Code"
+  citation: |-
+    Richard Littauer (2025). What's in a name: Understanding scientific names for our birds, according to the ICZN Code. *85th Birds NZ Conference*, 1 Jun 2025, Auckland, NZ.
+  doi: 10.5281/zenodo.15589701
+  pdf:
+  bib: /publications/bib/Littauer2025WhatsName.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.05.31%20-%20BirdsNZ%20-%20Taxonomy.pdf
+
+- year: 2025
+  date: "2025-06"
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Literary Studies]
+  peer_reviewed: true
+  title: "The Sooty Shearwater as Melville’s Inscrutable Haglet"
+  citation: |-
+    Richard Littauer (2025). The Sooty Shearwater as Melville’s Inscrutable Haglet. *Leviathan: The Journal of Melville Studies* 27(2): 90–101.
+  abstract: |-
+    Herman Melville’s poem “The Haglets” concerns a doomed ship visited by three, eerie birds. The specific identity of the birds is unclear. Previous research has identified the birds as either Great Shearwaters (*Puffinus gravis*), or simply generic shearwaters. Below, I cover the historical use of the word haglet. I argue that the Sooty Shearwater (*Ardenna grisea*) is the bird that Melville most likely had in mind when writing the poem, based on its range, color, vocalizations, Melville’s experience with pelagic birds, and the implications of the English and Latin names for this bird.
+  doi: 10.1353/lvn.2025.a970199
+  pdf:
+  bib: /publications/bib/Littauer2025Melville.bib
+
+- year: 2025
+  date: "2025-04-02"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code"
+  citation: |-
+    Richard Littauer (2025). Corrections for agreement in gender in Notonectidae (Hemiptera: Heteroptera) under Article 31 of the Code. *Zootaxa* 5618(2): 287–288.
+  doi: 10.11646/zootaxa.5618.2.8
+  pdf: https://mapress.com/zt/article/download/zootaxa.5618.2.8/55999
+  bib: /publications/bib/Littauer2025ZootaxaNotonectidae.bib
+
+- year: 2025
+  date: "2025-03-25"
+  type: Report
+  topics: [Research Software, Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "eResearch NZ / eRangahau Aotearoa – The Case for Open Source in the Science System of Aotearoa"
+  citation: |-
+    Jonah Duckles, Richard Littauer, Michael Black, Augustus Ellerm, David Eyers, Megan Gee, Alice Harang (2025). eResearch NZ / eRangahau Aotearoa – The Case for Open Source in the Science System of Aotearoa. *eResearch NZ / eRangahau Aotearoa 2025*, Ōtautahi Christchurch. Zenodo.
+  abstract: |-
+    At the 2025 eResearch NZ / eRangahau Aotearoa conference in Christchurch, Jonah Duckles and Richard Littauer held a birds-of-a-feather (BoF) workshop on “The Case for Open Source in Aotearoa (a continuing conversation)”. This was a follow-up to the BoF at the eResearch NZ 2024 conference. The format was a one-hour discussion. Participants passed the mic around, and discussed: (1) The barriers to open source adoption in Aotearoa New Zealand; (2) The opportunities for future growth; and (3) The immediate things a researcher can do to support Open Source Software (OSS) in New Zealand. Here, we share the main points that were covered in this discussion.
+  doi: 10.5281/zenodo.15080978
+  pdf:
+  bib: /publications/bib/Duckles2025EResearchNZ.bib
+
+- year: 2025
+  date: "2025-03-11"
+  type: Presentation
+  topics: [Linguistics, Community Science, Research Software]
+  peer_reviewed: false
+  title: "Building Corpora for Low Resource Languages Using Social Networks"
+  citation: |-
+    Oliver Stegen, Richard Littauer (2025). Building Corpora for Low Resource Languages Using Social Networks. Zenodo.
+  abstract: |-
+    Corpus creation, for archival and linguistic analysis, can be expedited using social media and computational methods. We present various ways of gathering and sorting corpora from Facebook, discuss legal, privacy, and storage aspects of automatic data collection, and showcase examples of corpora created using these methods.
+  doi: 10.5281/zenodo.15003424
+  pdf:
+  bib: /publications/bib/Stegen2025BuildingCorpora.bib
+
+- year: 2025
+  type: [Journal Article, Short Note]
+  topics: [Invertebrates, Community Science, Bioacoustics]
+  peer_reviewed: false
+  title: "Audio observation of a Wellington Tree Wētā Hemideina crassidens defence stridulation"
+  citation: |-
+    Richard Littauer (2025). Audio observation of a Wellington Tree Wētā *Hemideina crassidens* defence stridulation. *The Wētā* 58: 55–57.
+  doi:
+  url: https://weta.ento.org.nz/index.php/weta/article/view/436/420
+  pdf:
+  bib: /publications/bib/Littauer2025Weta.bib
+
+- year: 2025
+  type: Preprint
+  topics: [Research Software, Open Source]
+  peer_reviewed: false
+  title: "10 quick tips for making your software outlive your job"
+  citation: |-
+    Richard Littauer, Greg Wilson, Jan Ainali, Eman Abdullah AlOmar, Sylwester Arabas, Yanina Bellini Saibene, Kris Bubendorfer, Kaylea Champion, Clare Dillon, Jouni Helske, Pieter Huybrechts, Daniel S. Katz, Chang Liao, David Lippert, Fang Liu, Pierre Marshall, Daniel R. McCloy, Ian McInerney, Mohamed Wiem Mkaouer, Priyanka Ojha, Christoph Treude, Ethan P. White (2025). 10 quick tips for making your software outlive your job. arXiv.
+  abstract: |-
+    Loss of key personnel has always been a risk for research software projects. Key members of the team may have to step away due to illness or burnout, to care for a family member, from a loss of financial support, or because their career is going in a new direction. Today, though, political and financial changes are putting large numbers of researchers out of work simultaneously, potentially leaving large amounts of research software abandoned. This article presents ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job -- whether in the course of voluntary career moves or researcher mobility, but particularly in cases of involuntary departure due to political or institutional changes.
+  doi: 10.48550/arXiv.2505.06484
+  pdf:
+  bib: /publications/bib/Littauer202510Quick.bib
+
+- year: 2025
+  date: "2025-03-05"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Ornithology]
+  peer_reviewed: true
+  title: "A nomenclatural issue related to Lopdells’ penguin Archaeospheniscus lopdelli"
+  citation: |-
+    Richard Littauer (2025). A nomenclatural issue related to Lopdells’ penguin *Archaeospheniscus lopdelli*. *Notornis* 72(1): 49–50.
+  doi: 10.63172/777144pbjhsf
+  pdf: https://www.birdsnz.org.nz/wp-content/uploads/2025/03/Shortnote_Littauer__Penguin_721_49-50.pdf
+  bib: /publications/bib/Littauer2025NotornisLopdell.bib
+
+- year: 2025
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Corrections for grammatical agreement in Joeropsididae (Malacostraca: Isopoda)"
+  citation: |-
+    Richard Littauer (2025). Corrections for grammatical agreement in Joeropsididae (Malacostraca: Isopoda). *Nauplius* 33: e20250581.
+  abstract: |-
+    Joeropsididae Nordenstam, 1933 contains three genera: *Joeropsis* Koehler, 1885, *Rugojoeropsis* Just, 2001, and *Scaphojoeropsis* Just, 2001. Each of their generic names ends in the Latin transliteration of the feminine Greek word ὄψῐς (opsis). Combined species-group names must agree in gender with the genus-group name according to the International Code of Zoological Nomenclature (1999) Article 31.2. An updated list of the species names in Joeropsididae is provided accordingly. Eight species names are corrected for gender: *Joeropsis bifasciata* Kensley, 1984a, *Joeropsis denticulata* Kim, Kim and Yoon, 2022, *Joeropsis indica* Müller, 1991, *Joeropsis integra* Kensley, 1984b, *Joeropsis intermedia* Nordenstam, 1933, *Joeropsis limbata* Kensley, 2003, *Joeropsis minuta* Müller, 1989, and *Joeropsis personata* Kensley, 1984.
+  doi: 10.1590/2358-2936e20250581
+  pdf: https://www.scielo.br/scielo.php?script=sci_pdf&pid=S0104-64972025000100404&lng=en&tlng=en
+  bib: /publications/bib/Littauer2025NaupliusJoeropsididae.bib
+
+- year: 2025
+  date: "2025-03-05"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Ornithology]
+  peer_reviewed: true
+  title: "First revision of karoro Larus dominicanus antipodum (Bruch, 1853)"
+  citation: |-
+    Richard Littauer (2025). First revision of karoro *Larus dominicanus antipodum* (Bruch, 1853). *Notornis* 72(1): 51–53.
+  doi: 10.63172/093633lrrwbq
+  pdf: https://www.birdsnz.org.nz/wp-content/uploads/2025/03/Shortnote_Littauer__Karoro_721_51-53.pdf
+  bib: /publications/bib/Littauer2025NotornisKaroro.bib
+
+- year: 2025
+  date: "2025-11-17"
+  type: [Conference Paper, Presentation]
+  topics: [Ornithology, Community Science, Research Software]
+  peer_reviewed: true
+  title: "Harmonizing Community Science Datasets to Model Highly Pathogenic Avian Influenza (HPAI) in Birds in the Subantarctic"
+  citation: |-
+    Richard Littauer, Kris Bubendorfer (2025). Harmonizing Community Science Datasets to Model Highly Pathogenic Avian Influenza (HPAI) in Birds in the Subantarctic. *AIEES 2025 Workshop, Pacific Rim International Conference on Artificial Intelligence (PRICAI)*. Wellington, NZ, 17–21 Nov 2025.
+  abstract: |-
+    Community science observational datasets are useful in epidemiology and ecology for modeling species distributions, but the heterogeneous nature of the data presents significant challenges for standardization, data quality assurance and control, and workflow management. In this paper, we present a data workflow for cleaning and harmonizing multiple community science datasets, which we implement in a case study using eBird, iNaturalist, GBIF, and other datasets to model the impact of highly pathogenic avian influenza in populations of birds in the subantarctic. We predict population sizes for several species where the demographics are not known, and we present novel estimates for potential mortality rates from HPAI for those species, based on a novel aggregated dataset of mortality rates in the subantarctic.
+  doi: 10.48550/arXiv.2512.07907
+  pdf: https://arxiv.org/abs/2512.07907
+  bib: /publications/bib/Littauer2025HarmonizingCommunity.bib
+
+- year: 2025
+  date: "2025-01-14"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "Corrections for grammatical agreement in Ophiodermatidae"
+  citation: |-
+    Richard Littauer (2025). Corrections for grammatical agreement in Ophiodermatidae. *Zootaxa* 5569(2): 400–400.
+  doi: 10.11646/zootaxa.5569.2.11
+  pdf: https://mapress.com/zt/article/download/zootaxa.5569.2.11/55379
+  bib: /publications/bib/Littauer2025ZootaxaOphiodermatidae.bib
+
+- year: 2025
+  date: "2025-06-10"
+  type: Data
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  title: "AviList: The Global Avian Checklist, v2025"
+  citation: |-
+    AviList Core Team (2025). AviList: The Global Avian Checklist, v2025.
+  doi: 10.2173/avilist.v2025
+  pdf:
+  bib: /publications/bib/Christidis2025AviListGlobal.bib
+
+- year: 2025
+  date: "2025-10-27"
+  type: Report
+  topics: [Community Science, Open Source, Research Software]
+  peer_reviewed: false
+  title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
+  citation: |-
+    Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre J. C. Vogler-Finck, Andrew Nesbitt, Chris Harris (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology (1.0). Zenodo.
+  abstract: |-
+    The climate crisis poses a severe threat to the natural systems that support modern civilization, disrupting essential cycles that provide freshwater, fertile soils, and stable weather patterns. These disruptions are projected to lead to widespread biodiversity loss and to upset local and global economies. To ensure that the scientific basis of these projections is transparent and credible, researchers globally are increasingly making climate data and models openly available following best practices from the open science, software, and data communities. This openness supports informed decision-making and helps safeguard sustainable development from being compromised by short-term political or economic agendas.
+
+    Despite this progress in open science, the broader application of open source software and open data in climate and sustainability-related technologies remains limited. National governments, international organizations, academia, industry, and civil society have all played roles in both contributing to the crisis and proposing solutions. However, fragmented, proprietary approaches persist. Open source offers a powerful alternative: lowering costs, enhancing verifiability, and enabling collaboration across disciplines and sectors.
+
+    In this paper, we introduce OpenSustain.tech, the most comprehensive dataset of over 2,500 open source projects directly addressing the climate crisis. We detail the transparent methodology used to curate this collection, including human expert review across multiple fields. We further analyze the network of transitive dependencies among these projects, extending previous work in mapping the climate-focused open source ecosystem.
+
+    Finally, we discuss the strategic importance of open source in advancing climate solutions, including its potential economic and societal value. By building shared digital infrastructure, we argue that open source can play a foundational role in climate mitigation, adaptation, and sustainable development.
+  doi: 10.5281/zenodo.17459415
+  pdf: /publications/Littauer2025MappingOpen2.pdf
+  bib: /publications/bib/Littauer2025MappingOpen2.bib
+
+- year: 2025
+  date: "2025-09-09"
+  type: Presentation
+  topics: [Research Software]
+  peer_reviewed: true
+  title: "Quick tips for making your software outlive your job"
+  citation: |-
+    Richard Littauer, Ian McInerney, Clare Dillon, Daniel S. Katz (2025). Quick tips for making your software outlive your job. *RSE Conference 2025 (RSECon25)*, 9 Sep 2025, Warwick, UK.
+  abstract: |-
+    Loss of key personnel has always been a risk for research software projects. Key members of a team may have to step away due to a change in national or university funding, due to illness or burnout, or because they are simply changing jobs. Today, political and financial changes are putting large numbers of researchers out of work simultaneously, both in the UK and abroad, potentially leaving large amounts of research software abandoned and destabilising necessary digital research infrastructure. We present ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job, for any reason. These techniques, methods, and best practices were collectively sourced from researchers from dozens of universities across the globe, and are now being improved upon in a ReSA Task Force. The tips shown here will enable individual researchers and labs to position their work in a way that makes it more sustainable and usable going forward, resulting in a more resilient research software ecosystem.
+  doi: 10.5281/zenodo.17968168
+  pdf:
+  bib: /publications/bib/Littauer2025QuickTips.bib
+
+- year: 2025
+  date: "2025-08-29"
+  type: Presentation
+  topics: [Taxonomic Nomenclature, Linguistics, Ornithology]
+  peer_reviewed: true
+  title: "Lūdente linguā: Language Use and Performance in Zoological Nomenclature"
+  citation: |-
+    Richard Littauer (2025). Lūdente linguā: Language Use and Performance in Zoological Nomenclature. *New Historians' Conference 2025*, 29–30 Aug 2025, Wellington, NZ.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2025LudenteLingua.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.08.29%20-%20New%20Historians%20-%20Ludente%20lingua.pdf
+
+- year: 2025
+  date: "2025-11-08"
+  type: Presentation
+  topics: [Taxonomic Nomenclature, Community Science, Ornithology, Research Software, Open Data]
+  peer_reviewed: true
+  title: "Words, words, words, you fishmonger: Using Wikidata to Reconcile Taxonomies"
+  citation: |-
+    Richard Littauer (2025). Words, words, words, you fishmonger: Using Wikidata to Reconcile Taxonomies. *Seattle GNU/Linux Conference (SeaGL) 2025*, 8 Nov 2025, Seattle, WA (remote).
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2025WordsWords.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/SeaGL%202025.pdf
+
+- year: 2025
+  type: Presentation
+  topics: [Community Science, Open Source, Research Software]
+  peer_reviewed: false
+  title: "Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology"
+  citation: |-
+    Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre Vogler-Finck, Andrew Nesbitt, Chris Harris (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. *OpenForum Assembly Symposium 2025*, Rio de Janeiro, Brazil, 18–19 Nov 2025. Invited talk.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2025MappingOpen.bib
+
+- year: 2025
+  date: "2025-08-05"
+  type: Presentation
+  topics: [Open Source, Research Software, OSS Policy]
+  peer_reviewed: false
+  title: "Open Source Sustainability"
+  citation: |-
+    Richard Littauer (2025). Open Source Sustainability. *Takahuri Sustainability Seminar Series*, Te Herenga Waka Victoria University of Wellington, 5 Aug 2025.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2025OpenSource.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2025-08-05%20OSS%20UN%20Sustainability%20Presentation.pdf
+
+- year: 2025
+  date: "2025-08-25"
+  type: Presentation
+  topics: [Research Software]
+  peer_reviewed: false
+  title: "10 quick tips for making your software outlive your job"
+  citation: |-
+    Richard Littauer (2025). 10 quick tips for making your software outlive your job. *2025 IEEE New Zealand Central Section Postgraduate Symposium*, Te Herenga Waka Victoria University of Wellington, Wellington, NZ, 25 Aug 2025.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer202510Quick2.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/IEEE%20Presentation_%2010%20quick%20tips%20for%20making%20your%20software%20outlive%20your%20job.pdf
+
+- year: 2025
+  date: "2025-05-17"
+  type: Presentation
+  topics: [Community Science, Research Software, Open Data]
+  peer_reviewed: false
+  title: "OpenRefine"
+  citation: |-
+    Richard Littauer (2025). OpenRefine. *WikiCon Aotearoa 2025*, Ōtautahi Christchurch, NZ, 17 May 2025.
+  doi:
+  url: https://en.wikipedia.org/wiki/Wikipedia:WikiCon_Aotearoa/Christchurch_2025
+  pdf:
+  bib: /publications/bib/Littauer2025OpenRefine.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/WikiCon%20%E2%80%93%20OpenRefine%20Presentation.pdf
+
+- year: 2025
+  type: Software
+  topics: [Open Source, Research Software]
+  peer_reviewed: false
+  title: "Open-source software project documents"
+  citation: |-
+    Daniel S. Katz, Megan Forbes, Leah Silen, Shane Curcuru, Michael Hucka, Yuan Tang, Bill Branan, Richard Littauer (2025). Open-source software project documents. GitHub.
+  doi:
+  url: https://github.com/corsa-center/oss-documents
+  pdf:
+  bib: /publications/bib/Katz2025OpensourceSoftware.bib
+
+- year: 2024
+  date: "2024-12-05"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: false
+  title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
+  citation: |-
+    Richard Littauer (2024). *Porrhomma boreale* (Banks, 1899) is changed to *P. borealis*. *Codex Mutabilis*, 5 Dec 2024.
+  doi:
+  url: https://codexmutabilis.com/substantive/2024/12/05/porrhomma-boreale-banks-1899-is-changed-to-p-borealis.html
+  pdf:
+  bib: /publications/bib/Littauer2024PorrhommaBoreale.bib
+
+- year: 2024
+  date: "2024-05-09"
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "standard-readme"
+  citation: |-
+    Richard Littauer, et al. (2024). standard-readme. Zenodo.
+  doi: 10.5281/zenodo.11164867
+  pdf:
+  bib: /publications/bib/Littauer2024StandardReadme.bib
+
+- year: 2024
+  date: "2024-12-04"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: false
+  title: "Prunum boreale (A. E. Verrill, 1884) is changed to P. borealis"
+  citation: |-
+    Richard Littauer (2024). *Prunum boreale* (A. E. Verrill, 1884) is changed to *P. borealis*. *Codex Mutabilis*, 4 Dec 2024.
+  doi: 10.5281/zenodo.14377607
+  url: https://codexmutabilis.com/substantive/2024/12/04/prunum-boreale-a-e-verrill-1884-p-borealis.html
+  pdf:
+  bib: /publications/bib/Littauer2024PrunumBoreale.bib
+
+- year: 2024
+  date: "2024-08-22"
+  type: Preprint
+  topics: [Research Software, AI]
+  peer_reviewed: false
+  title: "Research software is critical to the future of AI-driven research"
+  citation: |-
+    Michelle Barker, Kim Hartley, Daniel S. Katz, Richard Littauer, Qian Zhang, Shurui Zhou, Jyoti Bhogal (2024). Research software is critical to the future of AI-driven research. Front Matter.
+  abstract: |-
+    This position paper provides a statement on the criticality of research software in artificial intelligence (AI)-driven research and makes recommendations for stakeholders on how to consider research software in their AI goals. This is needed to ensure that the focus on technological infrastructure to support AI acceleration includes research software and its personnel as a vital part of that infrastructure. This paper discusses both research software that supports generative AI, which is now being explored today as a tool to enable new research, as well as more traditional machine learning, which has demonstrated impact in research in most disciplines (particularly in the last decade).
+
+    This paper begins by providing definitions for key terms and demonstrating the importance of research software in AI-driven research. The paper then explores the need for AI strategies to recognise research software as key building blocks of AI-driven research, and to include this element alongside a focus on computing systems, data, and models. The fact that AI is dependent on software (i.e., data preparation and model training are performed by software, models are implemented in software) is not always adequately considered. Alongside this high level need for incorporation of research software in AI strategies, the challenges inherent in software dependencies also need consideration, as research software requires continual maintenance, updating, bug fixes, etc. Consequently, the broader challenges in enabling ongoing support for research software used for any type of research are equally relevant to AI-driven research and presented here.
+
+    There is also a need to better support the people who develop and maintain the research software that enables AI-driven research. Because human skills, training, and career paths often feature in AI strategies, it is imperative that stakeholders facilitate practices that support and recognise research software personnel. And while the research community is exploring how to leverage AI to improve how research software is developed and maintained, this is also affecting how research software practices should be taught. The paper also illustrates how some countries are operationalising AI strategies that could support the critical element of research software, and have the potential to do so by building on existing investments in research software.
+  doi: 10.59350/rkf19-fe204
+  pdf:
+  bib: /publications/bib/Barker2024ResearchSoftware.bib
+
+- year: 2024
+  date: "2024-06-14"
+  type: Software
+  topics: [Research Software, Open Source]
+  peer_reviewed: false
+  title: "doi-regex"
+  citation: |-
+    Richard Littauer, Katrin Leinweber, Chris Wilkinson, Karl Becker, et al. (2024). doi-regex. Zenodo.
+  doi: 10.5281/zenodo.11164917
+  pdf:
+  bib: /publications/bib/Littauer2024Doiregex.bib
+
+- year: 2024
+  date: "2024-02-08"
+  type: Presentation
+  topics: [Research Software, Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "SustainOSS and University OSPOs"
+  citation: |-
+    Richard Littauer (2024). SustainOSS and University OSPOs. *eResearch NZ 2024*, Wellington, NZ, 8 Feb 2024.
+  doi: 10.6084/m9.figshare.25345879
+  pdf:
+  bib: /publications/bib/Littauer2024SustainOSSUniversity.bib
+
+- year: 2024
+  date: "2024-01-22"
+  type: Report
+  topics: [Research Software, OSS Policy]
+  peer_reviewed: false
+  title: "2nd International Research Software Funders Workshop Summary"
+  citation: |-
+    Rena Bakhshi, Michelle Barker, Ishwar Chandramouliswaran, Neil Chue Hong, Carole Goble, Brian Corrie, Fares Dhane, Christopher Erdmann, Richard Gunn, Kim Hartley, Daniel S. Katz, Fabio Kon, Mark Leggott, Richard Littauer, JB Poline, Malvika Sharan, Andrew Treloar, Qian Zhang, Shurui Zhou (2024). 2nd International Research Software Funders Workshop Summary. Zenodo.
+  abstract: |-
+    This report summarizes the 2nd International Research Software Funders Workshop, including its discussions and suggestions. From September 18-20, 2023, the Digital Research Alliance of Canada (the Alliance) and the Research Software Alliance (ReSA) co-convened this hybrid workshop, which brought together 50 representatives from more than 35 organizations from across the globe – including funders and organizations that support research software – to collaborate in Montreal, Canada, and online.
+
+    People are at the heart of research software sustainability and funders can lead the way by investing in the people who develop and maintain research software. That is why the workshop theme was “Investing in People: Anticipating the Future of Research Software”. The event aimed to set the future agenda for government, philanthropic, and industry funders to support sustainable research software and communities.
+
+    During the three-day workshop, experts explored how research software funders can facilitate capacity building through funder practices; research software platforms, infrastructure, and communities; and new initiatives. Moreover, Version 1.0 of the Amsterdam Declaration on Funding Research Software Sustainability (ADORE.software) was released and is now available for signing. The recommendations in ADORE.software informed the structure of the workshop’s breakout sessions, with a focus on research software practice; research software ecosystem; research software personnel; and research software ethics.
+  doi: 10.5281/zenodo.10552115
+  pdf:
+  bib: /publications/bib/Bakhshi20242ndInternational.bib
+
+- year: 2024
+  date: "2024-10-17"
+  type: Presentation
+  topics: [Research Software, Open Source, Community Science]
+  peer_reviewed: true
+  title: "From Core to A'Tuin: Citing Software All The Way Down the Stack"
+  citation: |-
+    Richard Littauer, Tobias Augspurger, Andrew Nesbitt (2024). From Core to A'Tuin: Citing Software All The Way Down the Stack. *US-RSE 2024*, Albuquerque, NM, 17 Oct 2024.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2024CoreATuin.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/From%20Core%20to%20A%27Tuin_%20Citing%20Software%20All%20The%20Way%20Down%20The%20Stack.pdf
+
+- year: 2024
+  date: "2024-07-24"
+  type: Presentation
+  topics: [Ornithology, Community Science, Open Source, Research Software]
+  peer_reviewed: true
+  title: "Using iNaturalist, eBird, and Python to become a community scientist"
+  citation: |-
+    Richard Littauer (2024). Using iNaturalist, eBird, and Python to become a community scientist. *Kiwi PyCon*, Wellington, NZ, 24 Jul 2024.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2024UsingINaturalist.bib
+  recording: https://www.youtube.com/watch?v=-KkQEzmOOBY
+
+- year: 2024
+  date: "2024-04-23"
+  type: Presentation
+  topics: [Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "What is sustainable open source?"
+  citation: |-
+    Richard Littauer (2024). What is sustainable open source? Keynote, *Evergreen International Conference*, 23 Apr 2024. Online.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2024WhatSustainable.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/Evergreen%20Keynote%20What%20is%20Sustainable%20Open%20Source.pptx
+
+- year: 2024
+  date: "2024-07-23"
+  type: Presentation
+  topics: [Ornithology, Open Source]
+  peer_reviewed: false
+  title: "eBird Seamounts"
+  citation: |-
+    Richard Littauer (2024). eBird Seamounts. Lightning talk, *GUADEC 2024*, Denver, CO, 23 Jul 2024.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2024EBirdSeamounts.bib
+  recording: https://www.youtube.com/watch?v=0oRa8bnNUjk&t=2410s
+
+- year: 2024
+  date: "2024-10-11"
+  type: Report
+  topics: [Research Software, Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "A Definition of an Academic OSPO"
+  citation: |-
+    Jeffrey Young, Lorena A. Barba, Sayeed Choudhury, Ciara Flanagan, David Lippert, Richard Littauer (2024). A Definition of an Academic OSPO. Zenodo.
+  abstract: |-
+    As open source software continues to grow in importance in academic settings; universities and other academic institutions are looking to enhance their open source capabilities by establishing academic OSPOs. This article provides a short overview of the current findings of a sub-committee of CURIOSS members who are collaborating to develop, refine and expand upon the definition of an academic OSPO.
+  doi: 10.5281/zenodo.13910682
+  pdf:
+  bib: /publications/bib/Young2024DefinitionAcademic.bib
+
+- year: 2023
+  date: "2023-03-22"
+  type: Report
+  topics: [Open Source, Research Software, OSS Policy]
+  peer_reviewed: false
+  title: "Guide to Set Up a University Open Source Program Office"
+  citation: |-
+    Sayeed Choudhury, OSPO++ (2023). Guide to Set Up a University Open Source Program Office. Zenodo.
+  abstract: |-
+    As open source software becomes more prevalent in academia; universities, and academic institutions are seeking to build and support open source capacity, including the creation of an open source programs office (OSPO). This guide is intended to provide recommendations and resources for individuals or institutions seeking to establish an OSPO in the university context.
+  doi: 10.5281/zenodo.13898364
+  pdf:
+  bib: /publications/bib/Choudhury2023GuideSet.bib
+
+- year: 2023
+  date: "2023-11-03"
+  type: Presentation
+  topics: [Ornithology, Open Source]
+  peer_reviewed: true
+  title: "Using FLOSS to plan your daily exercise by birding!"
+  citation: |-
+    Richard Littauer (2023). Using FLOSS to plan your daily exercise by birding! *Seattle GNU/Linux Conference 2023*, Seattle, WA, 3 Nov 2023.
+  doi:
+  url: https://osem.seagl.org/conferences/seagl2023/program/proposals/1003
+  pdf:
+  bib: /publications/bib/Littauer2023UsingFLOSS.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/Using%20FLOSS%20to%20plan%20your%20daily%20exercise%20by%20birding%21.pptx
+  recording: https://www.youtube.com/live/9-mCsIonljc?si=v1UPT6wME9ahbq1X&t=4868
+
+- year: 2023
+  date: "2023-10-28"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "A rose by any other $variable: A paean to intentional language usage when discussing open source"
+  citation: |-
+    Richard Littauer (2023). A rose by any other $variable: A paean to intentional language usage when discussing open source. Keynote, *Interdisciplinary Open Practices Workshop*, Burlington, VT, 28 Oct 2023.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2023RoseAny.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/A%20rose%20by%20any%20other%20%24variable.pptx
+
+- year: 2023
+  date: "2023-07-14"
+  type: Presentation
+  topics: [Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "Where does \"sustaining\" open source fall down?"
+  citation: |-
+    Richard Littauer (2023). Where does "sustaining" open source fall down? *Free and Open Source Software Yearly (FOSSY)*, Portland, OR, 14 Jul 2023.
+  doi:
+  url: https://2023.fossy.us/schedule/presentation/78/
+  pdf:
+  bib: /publications/bib/Littauer2023WhereDoes.bib
+
+- year: 2023
+  date: "2023-05-11"
+  type: Software
+  topics: [Ornithology, Open Source, Bioacoustics]
+  peer_reviewed: false
+  title: "Vesper"
+  citation: |-
+    Harold Mills, Alex Hirzel, Richard Littauer (2023). Vesper (v0.4.14). Zenodo.
+  doi: 10.5281/zenodo.1020572
+  pdf:
+  bib: /publications/bib/Mills2023Vesper.bib
+
+- year: 2023
+  date: "2023-01-18"
+  type: Software
+  topics: [Linguistics, Open Source]
+  peer_reviewed: false
+  title: "clld: a toolkit for cross-linguistic databases"
+  citation: |-
+    Robert Forkel, Sebastian Bank, Christoph Rzymski, Hans-Jörg Bibiko, Tarik Havighorst, Florian Matter, Michael Yoshitaka Erlewine, Richard Littauer (2023). clld: a toolkit for cross-linguistic databases. Zenodo.
+  doi: 10.5281/zenodo.592412
+  pdf:
+  bib: /publications/bib/Forkel2023ClldToolkit.bib
+
+- year: 2023
+  type: Software
+  topics: [Open Source, Research Software]
+  peer_reviewed: false
+  title: "dependency-cite"
+  citation: |-
+    Richard Littauer (2023). dependency-cite. GitHub.
+  doi:
+  url: https://github.com/RichardLitt/dependency-cite
+  pdf:
+  bib: /publications/bib/Littauer2023Dependencycite.bib
+
+- year: 2023
+  date: "2023-03"
+  type: Popular Article
+  topics: [Ornithology, Taxonomic Nomenclature, Botany]
+  peer_reviewed: false
+  title: "How I Name What I See"
+  citation: |-
+    Richard Littauer (2023). The Way I See It: How I Name What I See. *The Bridge* (Montpelier, VT), Mar 2023.
+  doi:
+  url: https://montpelierbridge.org/2023/03/the-way-i-see-it-how-i-name-what-i-see/
+  pdf:
+  bib: /publications/bib/Littauer2023HowI.bib
+
+- year: 2023
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "name-your-contributors"
+  citation: |-
+    Richard Littauer, Thomas Getgood, Maximilian Berkmann (2023). name-your-contributors (v3.10.0). GitHub.
+  doi:
+  url: https://github.com/mntnr/name-your-contributors
+  pdf:
+  bib: /publications/bib/Littauer2023Nameyourcontributors.bib
+
+- year: 2022
+  date: "2022-08-06"
+  type: Conference Paper
+  topics: [Linguistics]
+  peer_reviewed: true
+  title: "On Tocharian Exceptionality to the centum-satem Isogloss"
+  citation: |-
+    Richard Littauer (2022). On Tocharian Exceptionality to the *centum-satem* Isogloss. In: C. Wilson, ed., *Undergraduate Linguistics Association of Britain 2012 Proceedings*, pp. 18–25. Bristol, UK: online.
+  abstract: |-
+    I argue that there may have been pressures inhibiting phonological change in Tocharian, particularly in relation to the centum/satem Indo-European split. Firstly, if the overall complexity of language strata may change over time (Sampson, 2009), syntactic, morphological, and lexical changes may have inhibited a change in the phonemic inventory of the language. Secondly, I examine the historical evidence for other languages in historical Central Asia in order to show that contact languages may have also horizontally influenced the centum nature of Tocharian. Thirdly, I posit that the merge of the PIE dorsal consonants may have been influenced by the decline in the general use, domain, and range of Tocharian, which would be in line with recent research correlating small phonemic inventories with small language communities (Hay & Bauer, 2007). Tocharian therefore may not have been susceptible to a weak dialect wave, or to a possible early branching of IE. This paper takes a new perspective on the history and development of Tocharian, and in turn on the nature of the ‘textbook’ isogloss example.
+  doi: 10.5281/zenodo.6969558
+  pdf: /publications/Littauer2022TocharianExceptionality.pdf
+  bib: /publications/bib/Littauer2022TocharianExceptionality.bib
+
+- year: 2022
+  date: "2022-10-11"
+  type: Poster
+  topics: [Ornithology]
+  peer_reviewed: true
+  title: "A Proposal for Renaming Bill Types of Bewick's Swans"
+  citation: |-
+    Richard Littauer (2022). A Proposal for Renaming Bill Types of Bewick's Swans. Poster presented at the Centennial Meeting of the Association of Field Ornithologists, Plymouth, MA, 11 Oct 2022.
+  doi:
+  url: https://afonet.org/uploads/2022_AFO100_Abstracts.pdf
+  pdf: /publications/Littauer2022ProposalRenaming.pdf
+  bib: /publications/bib/Littauer2022ProposalRenaming.bib
+
+- year: 2022
+  date: "2022-11-04"
+  type: Presentation
+  topics: [Ornithology, Open Source]
+  peer_reviewed: true
+  title: "Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution"
+  citation: |-
+    Richard Littauer (2022). Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution. *Seattle GNU/Linux Conference 2022*, Seattle, WA, 4 Nov 2022.
+  doi:
+  url: https://osem.seagl.org/conferences/seagl2022/program/proposals/915
+  pdf:
+  bib: /publications/bib/Littauer2022GullsDo.bib
+
+- year: 2022
+  date: "2022-11"
+  type: Popular Article
+  topics: []
+  peer_reviewed: false
+  title: "The Cannons on the Lawn"
+  citation: |-
+    Richard Littauer (2022). The Way I See It: The Cannons on the Lawn. *The Bridge* (Montpelier, VT), Nov 2022.
+  doi:
+  url: https://montpelierbridge.org/2022/11/the-way-i-see-it-the-cannons-on-the-lawn/
+  pdf:
+  bib: /publications/bib/Littauer2022CannonsLawn.bib
+
+- year: 2022
+  date: "2022-07"
+  type: Popular Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  title: "Growing Roots Through Wings"
+  citation: |-
+    Richard Littauer (2022). The Way I See It: Growing Roots Through Wings. *The Bridge* (Montpelier, VT), Jul 2022.
+  doi:
+  url: https://montpelierbridge.org/2022/07/the-way-i-see-it-growing-roots-through-wings/
+  pdf:
+  bib: /publications/bib/Littauer2022GrowingRoots.bib
+
+- year: 2022
+  date: "2022-03"
+  type: Popular Article
+  topics: [Ornithology]
+  peer_reviewed: false
+  title: "More Than Meets The Eye: A Birder's Journey"
+  citation: |-
+    Richard Littauer (2022). The Way I See It: More Than Meets The Eye: A Birder's Journey. *The Bridge* (Montpelier, VT), Mar 2022.
+  doi:
+  url: https://montpelierbridge.org/2022/03/the-way-i-see-it-more-than-meets-the-eye-a-birders-journey/
+  pdf:
+  bib: /publications/bib/Littauer2022MoreThan.bib
+
+- year: 2021
+  date: "2021-11-06"
+  type: Presentation
+  topics: [Ornithology, Open Source, Bioacoustics]
+  peer_reviewed: true
+  title: "Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software"
+  citation: |-
+    Richard Littauer (2021). Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software. *Seattle GNU/Linux Conference 2021*, Seattle, WA, 6 Nov 2021.
+  doi:
+  url: https://osem.seagl.org/conferences/seagl2021/program/proposals/844
+  pdf:
+  bib: /publications/bib/Littauer2021BirdsStarlight.bib
+  recording: https://archive.org/details/SeaGL2021-Richard_Littauer-Birds_by_Starlight
+
+- year: 2021
+  date: "2021-03-03"
+  type: Presentation
+  topics: [Ornithology]
+  peer_reviewed: false
+  title: "What's in a Name? Learning to see and identify bird subspecies"
+  citation: |-
+    Richard Littauer (2021). What's in a Name? Learning to see and identify bird subspecies. *Green Mountain Audubon Society and North Branch Nature Center*, Montpelier, VT, 3 Mar 2021. Invited talk.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2021WhatsName.bib
+  recording: https://www.youtube.com/watch?v=dgjLV39q1lY
+
+- year: 2019
+  date: "2019-06-06"
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "java-ipfs-http-client"
+  citation: |-
+    Ian Preston, Chuck LeDuc Díaz, Grégoire Jeanmart, Richard Littauer, et al. (2019). java-ipfs-http-client. Zenodo.
+  doi: 10.5281/zenodo.3240412
+  pdf:
+  bib: /publications/bib/Preston2019Javaipfshttpclient.bib
+
+- year: 2019
+  date: "2019-06-05"
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "ipfs"
+  citation: |-
+    Juan Benet, Richard Littauer, David Dias, et al. (2019). ipfs. Archive copy of the repository, 5 Jun 2019. Zenodo.
+  doi: 10.5281/zenodo.3239191
+  pdf:
+  bib: /publications/bib/Benet2019Ipfs.bib
+
+- year: 2019
+  date: "2019-06-05"
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "IPFS specs"
+  citation: |-
+    David Dias, Juan Benet, Mildred Ki'Lya, Richard Littauer, et al. (2019). IPFS specs. Archive copy of the repository, 5 Jun 2019. Zenodo.
+  doi: 10.5281/zenodo.3239189
+  pdf:
+  bib: /publications/bib/Dias2019IPFSSpecs.bib
+
+- year: 2018
+  date: "2018-03-19"
+  type: Popular Article
+  topics: [Linguistics, Literary Studies]
+  peer_reviewed: false
+  title: "Old and New Tongues: Constructed Languages and The Wheel of Time"
+  citation: |-
+    Richard Littauer (2018). Old and New Tongues: Constructed Languages and The Wheel of Time. *Tor.com* (now *Reactor*), 19 Mar 2018.
+  doi:
+  url: https://reactormag.com/old-and-new-tongues-constructed-languages-and-the-wheel-of-time/
+  pdf:
+  bib: /publications/bib/Littauer2018OldNew.bib
+
+- year: 2018
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "NVC over MVC"
+  citation: |-
+    Richard Littauer (2018). NVC over MVC. *Open Source Montréal*, Montréal, QC.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2018NVCOver.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/nvc.pdf
+
+- year: 2018
+  date: "2018-06"
+  type: Thesis
+  topics: [Linguistics, Open Source, Research Software]
+  peer_reviewed: false
+  title: "Open Source Code and Low Resource Languages"
+  citation: |-
+    Richard Littauer (2018). Open Source Code and Low Resource Languages. MSc dissertation, Language Science and Technology, Universität des Saarlandes, Saarbrücken, Germany. Supervisors: Alexis Palmer and Dietrich Klakow.
+  abstract: |-
+    Of the roughly seven thousand languages currently spoken, fewer than fifty have a significant digital presence. In order for a language to be used digitally and to survive in the long term, its speakers may need to develop computational resources: orthographical scripts, dictionaries, grammars, spell checkers, parsers, and more. Instead of depending on large providers, researchers and communities can leverage the open source code methodology as a means of bootstrapping digital language development. In this thesis, I discuss the state of the field for low resource languages, what open source licensing means and how it can help language communities. I provide two case studies, looking in detail at Gaelic and Naskapi, and I describe a decentralised, crowd-sourced database I have developed to catalogue open source code which can be used for low resource languages. Looking to the future, I suggest steps for developing and using code going forwards.
+
+    My specific contributions in this thesis include not only the first published analysis of the state of the field for open source code specifically regarding low resource languages, and an exposition of the only database of solely open source resources, but also independent fieldwork on Naskapi that pertains to its current digital presence on the web. I also outline how language technologists can change their processes to help make their work more effectual in the long term.
+  doi:
+  url: https://github.com/RichardLitt/thesis
+  pdf: https://github.com/RichardLitt/thesis/blob/master/thesis.pdf
+  bib: /publications/bib/Littauer2018OpenSource.bib
+
+- year: 2017
+  date: "2017-11-14"
+  type: Popular Article
+  topics: [Botany, Linguistics, Literary Studies]
+  peer_reviewed: false
+  title: "Imagined Botany in Fantasy: A Rose by Any Other Name…"
+  citation: |-
+    Richard Littauer (2017). Imagined Botany in Fantasy: A Rose by Any Other Name… *Tor.com*, 14 Nov 2017.
+  doi:
+  url: https://web.archive.org/web/20171114203329/https://www.tor.com/2017/11/14/imagined-botany-in-fantasy-a-rose-by-any-other-name/
+  pdf:
+  bib: /publications/bib/Littauer2017ImaginedBotany.bib
+
+- year: 2017
+  date: "2017-08-29"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "Hacking the Git protocol"
+  citation: |-
+    Richard Littauer (2017). Hacking the Git protocol. *PolyHack Toronto*, Toronto, ON, 29 Aug 2017.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2017HackingGit.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/Toronto%20PolyHack%20Git.key
+
+- year: 2017
+  date: "2017-01-31"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "bootstrapping your flipflops"
+  citation: |-
+    Richard Littauer (2017). bootstrapping your flipflops. *Aerolab and Hacker Paradise*, 31 Jan 2017.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2017BootstrappingFlipflops.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/bootstrapping%20your%20flipflops.pdf
+
+- year: 2017
+  type: Dictionary
+  topics: [Linguistics, Literary Studies, Arts]
+  peer_reviewed: false
+  title: "Na'vi–English Dictionary"
+  citation: |-
+    Richard Littauer, et al. (2017). Na'vi–English Dictionary. LearnNavi.org.
+  doi:
+  url: http://learnnavi.org
+  pdf:
+  bib: /publications/bib/Littauer2017NaviEnglishDictionary.bib
+
+- year: 2016
+  date: "2016-05-23"
+  type: Conference Paper
+  topics: [Linguistics, Research Software, Open Source]
+  peer_reviewed: true
+  title: "Open Source Code Serving Endangered Languages"
+  citation: |-
+    Richard Littauer, Hugh Paterson III (2016). Open Source Code Serving Endangered Languages. In: C. Soria, L. Pretorius, T. Declerck, J. Mariani, K. Scannell, E. Wandl-Vogt, eds., *Proceedings of LREC 2016 Collaboration and Computing for Under-Resourced Languages: Towards an Alliance for Digital Language Diversity (CCURL) Workshop*, pp. 86–88. Portorož, Slovenia, 23 May 2016.
+  abstract: |-
+    We present a database of open source code that can be used by low-resource language communities and developers to build digital resources. Our database is also useful to software developers working with those communities and to researchers looking to describe the state of the field when seeking funding for development projects.
+  doi:
+  pdf: https://github.com/RichardLitt/low-resource-languages/raw/main/paper/Open%20Source%20Code%20Serving%20Endangered%20Languages.pdf
+  bib: /publications/bib/Littauer2016OpenSource.bib
+
+- year: 2016
+  date: "2016-02-22"
+  type: [Journal Article, Full Paper]
+  topics: [Community Science, Research Software, Open Source]
+  peer_reviewed: true
+  title: "Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2)"
+  citation: |-
+    Daniel S. Katz, Sou-Cheng T. Choi, Nancy Wilkins-Diehr, Neil Chue Hong, Colin C. Venters, James Howison, Frank Seinstra, Matthew Jones, Karen A. Cranston, Thomas L. Clune, Miguel de Val-Borro, Richard Littauer (2016). Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). *Journal of Open Research Software* 4(1): e7.
+  abstract: |-
+    This technical report records and discusses the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). The report includes a description of the alternative, experimental submission and review process, two workshop keynote presentations, a series of lightning talks, a discussion on sustainability, and five discussions from the topic areas of exploring sustainability; software development experiences; credit & incentives; reproducibility & reuse & sharing; and code testing & code review. For each topic, the report includes a list of tangible actions that were proposed and that would lead to potential change. The workshop recognized that reliance on scientific software is pervasive in all areas of world-leading research today. The workshop participants then proceeded to explore different perspectives on the concept of sustainability. Key enablers and barriers of sustainable scientific software were identified from their experiences. In addition, recommendations with new requirements such as software credit files and software prize frameworks were outlined for improving practices in sustainable software engineering. There was also broad consensus that formal training in software development or engineering was rare among the practitioners. Significant strides need to be made in building a sense of community via training in software and technical practices, on increasing their size and scope, and on better integrating them directly into graduate education programs. Finally, journals can define and publish policies to improve reproducibility, whereas reviewers can insist that authors provide sufficient information and access to data and software to allow them reproduce the results in the paper. Hence a list of criteria is compiled for journals to provide to reviewers so as to make it easier to review software submitted for publication as a “Software Paper.”
+  doi: 10.5334/jors.85
+  pdf: https://storage.googleapis.com/jnl-up-j-jors-files/journals/1/articles/85/submission/proof/85-1-923-2-10-20160222.pdf
+  bib: /publications/bib/Katz2016ReportSecond.bib
+
+- year: 2016
+  date: "2016-11-13"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: true
+  title: "Why to Standardize your READMEs"
+  citation: |-
+    Richard Littauer (2016). Why to Standardize your READMEs. *NodeFest Japan*, Tokyo, 13 Nov 2016, and *JSMontreal*, Montreal, 11 Apr 2017.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2016WhyStandardize.bib
+
+- year: 2016
+  date: "2016-10-26"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: true
+  title: "Standardizing READMEs for Great Good"
+  citation: |-
+    Richard Littauer (2016). Standardizing READMEs for Great Good. *NodeLive*, Washington DC, 26 Oct 2016.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2016StandardizingREADMEs.bib
+  slides: https://github.com/RichardLitt/talks/tree/main/standard-readme-dc
+
+- year: 2016
+  date: "2016-03-03"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "$ name-your-contributors"
+  citation: |-
+    Richard Littauer (2016). $ name-your-contributors. *BostonJS*, 3 Mar 2016.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2016Nameyourcontributors.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/name-your-contributors.pdf
+
+- year: 2016
+  date: "2016-06-30"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "Nomadism"
+  citation: |-
+    Richard Littauer (2016). Nomadism. *Hacker Paradise*, 30 Jun 2016, and 14 Jan 2017.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2016Nomadism.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/nomadism.key
+
+- year: 2016
+  date: "2016-03-20"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "Multiformats"
+  citation: |-
+    Richard Littauer (2016). Multiformats. *Decentralized Web Montreal*, Montréal, QC, 20 Mar 2016.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2016Multiformats.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/multiformats.key
+
+- year: 2016
+  type: Dictionary
+  topics: [Linguistics, Literary Studies, Arts]
+  peer_reviewed: false
+  title: "The Dothraki Language Dictionary"
+  citation: |-
+    Richard Littauer (2016). The Dothraki Language Dictionary. Dothraki.org.
+  doi:
+  url: https://dothraki.org
+  pdf:
+  bib: /publications/bib/Littauer2016DothrakiLanguage.bib
+
+- year: 2015
+  date: "2015-11-19"
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "$ git yolo"
+  citation: |-
+    Richard Littauer (2015). $ git yolo. *BrooklynJS*, 19 Nov 2015, and *ArcticJS*, 20 Jan 2016.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2015GitYolo.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/git%20yolo.pdf
+  recording: https://www.youtube.com/watch?v=_KY9ltbdoK4
+
+- year: 2015
+  type: Software
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "The Open Source Protocol"
+  citation: |-
+    Richard Littauer (2015). The Open Source Protocol. Specification.
+  doi:
+  url: https://github.com/RichardLitt/open-source-protocol
+  pdf:
+  bib: /publications/bib/Littauer2015OpenSource.bib
+
+- year: 2014
+  type: Conference Paper
+  topics: [Linguistics, Community Science, Language Evolution]
+  peer_reviewed: true
+  title: "From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research"
+  citation: |-
+    Richard Littauer, Sean G. Roberts, James Winters, Rachael Bailes, Michael Pleyer, Hannah Little (2014). From the Savannah to the Cloud: Blogging Evolutionary Linguistics Research. In: L. McCrohon, B. Thompson, T. Verhoef, H. Yamauchi, eds., *The Past, Present and Future of Language Evolution Research: Student Volume of the 9th International Conference on the Evolution of Language*, pp. 121–132. Tokyo, Japan: Evolang 9 Organizing Committee.
+  doi:
+  pdf: /publications/Littauer2014SavannahCloud.pdf
+  bib: /publications/bib/Littauer2014SavannahCloud.bib
+
+- year: 2013
+  date: "2013-04-03"
+  type: Poster
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study"
+  citation: |-
+    Richard Littauer (2013). Using Demographic Data with Bayesian Phylogenies: A Japanese Case Study. Research proposal poster presented at the Quantitative Historical Linguistics Research Unit, Marburger Haus, Hirschegg, Kleinwalsertal, Austria, 3 Apr 2013.
+  doi:
+  pdf: /publications/Littauer2013UsingDemographic.pdf
+  bib: /publications/bib/Littauer2013UsingDemographic.bib
+
+- year: 2013
+  type: Book Chapter
+  topics: [Linguistics, Research Software, Community Science, Open Data]
+  peer_reviewed: true
+  title: "Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments"
+  citation: |-
+    Christian Chiarcos, Steven Moran, Pablo N. Mendes, Sebastian Nordhoff, Richard Littauer (2013). Building a Linked Open Data Cloud of Linguistic Resources: Motivations and Developments. In: I. Gurevych and J. Kim, eds., *The People's Web Meets NLP: Collaboratively Constructed Language Resources*, pp. 315–348. Springer.
+  doi: 10.1007/978-3-642-35085-6_12
+  pdf:
+  bib: /publications/bib/Chiarcos2013BuildingLinked.bib
+
+- year: 2013
+  type: Conference Paper
+  topics: [Linguistics, Open Data]
+  peer_reviewed: true
+  title: "Linguistic Resources Enhanced with Geospatial Information"
+  citation: |-
+    Richard Littauer, Boris Villazon-Terrazas, Steven Moran (2013). Linguistic Resources Enhanced with Geospatial Information. In: C. Chiarcos, P. Cimiano, T. Declerck, J. P. McCrae, eds., *Proceedings of the 2nd Workshop on Linked Data in Linguistics (LDL-2013): Representing and linking lexicons, terminologies and other language data*, pp. 53–58. Pisa, Italy: Association for Computational Linguistics.
+  abstract: |-
+    In this short report on language data and RDF tools, we describe the transformation process that we undertook to convert spreadsheet data about a group of endangered languages and where they are spoken in West Africa into an RDF triple store. We use RDF tools to organize and visualize these data on a world map, accessible through a web browser. The functionality we develop allows researchers to see where these languages are spoken and to query the language data. This type of development not only showcases the power of RDF, but it provides a powerful tool for linguists trying the solve the mysteries of the genealogical relatedness of the Dogon languages.
+  doi:
+  url: https://aclanthology.org/W13-5508/
+  pdf: https://aclanthology.org/W13-5508.pdf
+  bib: /publications/bib/Littauer2013LinguisticResources.bib
+
+- year: 2013
+  type: Book Review
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Review of Potentials of Language Documentation: Methods, Analyses, and Utilization"
+  citation: |-
+    Richard Littauer (2013). Review of F. Seifart, G. Haig, N. Himmelmann, D. Jung, A. Margetts, & P. Trilsbeek, eds., *Potentials of Language Documentation: Methods, Analyses, and Utilization*. In: Language Documentation & Conservation Special Publication No. 3. Online: University of Hawai'i Press. *LINGUIST List* 24.2604.
+  doi:
+  url: https://linguistlist.org/issues/24/2604/
+  pdf:
+  bib: /publications/bib/Littauer2013ReviewPotentials.bib
+
+- year: 2013
+  type: Report
+  topics: [Community Science, Open Data]
+  peer_reviewed: false
+  title: "Data Management Guide for Public Participation in Scientific Research"
+  citation: |-
+    Andrea Wiggins, Rick Bonney, Eric Graham, Sandra Henderson, Steve Kelling, Richard Littauer, Gretchen LeBuhn, Kelly Lotts, William Michener, Greg Newman, Eric Russell, Robert Stevenson, Jake Weltzin (2013). Data Management Guide for Public Participation in Scientific Research. *DataONE Working Group*: Albuquerque, NM.
+  doi:
+  pdf:
+  bib: /publications/bib/Wiggins2013DataManagement.bib
+
+- year: 2013
+  date: "2013-04-06"
+  type: Presentation
+  topics: [Linguistics, Arts, Literary Studies]
+  peer_reviewed: false
+  title: "Venez Découvrir et parler le Na'vi [Come discover and speak Na'vi]"
+  citation: |-
+    Richard Littauer (2013). Venez Découvrir et parler le Na'vi [Come discover and speak Na'vi]. *Festival Frontières*, Thionville, France, 6 Apr 2013. Invited talk.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2013VenezDecouvrir.bib
+
+- year: 2013
+  date: "2013-02-08"
+  type: Presentation
+  topics: [Linguistics, Open Source]
+  peer_reviewed: false
+  title: "Visualising Typological Relationships: Plotting WALS with Heat Maps"
+  citation: |-
+    Richard Littauer (2013). Visualising Typological Relationships: Plotting WALS with Heat Maps. *Linguistics Circle, University of Malta*, Malta, 8 Feb 2013. Invited talk.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2013VisualisingTypological.bib
+  slides: http://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
+
+- year: 2012
+  date: "2012-10-23"
+  type: [Journal Article, Full Paper]
+  topics: [Community Science, Open Source, Research Software]
+  peer_reviewed: true
+  title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices"
+  citation: |-
+    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Recommendations for Best Practices. *International Journal of Digital Curation* 7(2): 92–100.
+  abstract: |-
+    Scientific workflows are typically used to automate the processing, analysis and management of scientific data. Most scientific workflow programs provide a user-friendly graphical user interface that enables scientists to more easily create and visualize complex workflows that may be comprised of dozens of processing and analytical steps. Furthermore, many workflows provide mechanisms for tracing provenance and methodologies that foster reproducible science. Despite their potential for enabling science, few studies have examined how the process of creating, executing, and sharing workflows can be improved. In order to promote open discourse and access to scientific methods as well as data, we analyzed a wide variety of workflow systems and publicly available workflows on the public repository myExperiment. It is hoped that understanding the usage of workflows and developing a set of recommended best practices will lead to increased contribution of workflows to the public domain.
+  doi: 10.2218/ijdc.v7i2.232
+  pdf: https://ijdc.net/index.php/ijdc/article/download/222/281
+  bib: /publications/bib/Littauer2012TrendsUse2.bib
+  slides: https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
+
+- year: 2012
+  type: [Journal Article, Full Paper]
+  topics: [Linguistics, Open Source, Language Evolution]
+  peer_reviewed: true
+  title: "Replicating Oliphant's Saussurean Simulations"
+  citation: |-
+    Richard Littauer (2012). Replicating Oliphant's Saussurean Simulations. *Début: The Undergraduate Journal of Languages, Linguistics, and Area Studies* 3(1).
+  abstract: |-
+    "A Saussurean communication system exists when an entire communicating population uses a single language that maps states unambiguously onto symbols and then back into the original states" (Oliphant 1996: 31) Oliphant constructed simulations in order to illuminate the conditions necessary for the evolution and maintenance of such Saussurean systems. I replicate his first two simulations that involved direct pressure for good transmission. I go on to produce a third, novel simulation, which looks at gradations of reward for successful communication, in order to ensure that the first two simulations are not guilty of begging the question. I then further describe the benefits of communication to the sender and the receiver in evolutionary game theory, theoretically discussing reciprocal altruism and spatial organisation. Finally, I explore some theories involving indirect pressure on transmission, which would explain the generation and maintenance of optimal Saussurean communication systems.
+  doi: 10.5281/zenodo.22169033
+  pdf: /publications/Littauer2012ReplicatingOliphants.pdf
+  bib: /publications/bib/Littauer2012ReplicatingOliphants.bib
+
+- year: 2012
+  type: Book Review
+  topics: [Linguistics]
+  peer_reviewed: false
+  title: "Review of Language Policy and Language Conflict in Afghanistan and Its Neighbors"
+  citation: |-
+    Richard Littauer (2012). Review of H. Schiffman & B. Spooner, eds., *Language Policy and Language Conflict in Afghanistan and Its Neighbors: The Changing Politics of Language Choice*. In: Brill's Studies in South and Southwest Asian Languages. Leiden: Brill. *LINGUIST List* 23.3813.
+  doi:
+  url: https://linguistlist.org/issues/23/3813/
+  pdf:
+  bib: /publications/bib/Littauer2012ReviewLanguage.bib
+
+- year: 2012
+  date: "2012-07"
+  type: [Conference Paper, Presentation]
+  topics: [Linguistics, Community Science]
+  peer_reviewed: true
+  title: "Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet"
+  citation: |-
+    Richard Littauer, James Winters, Seán G. Roberts, Hannah Little, Michael Pleyer, Bill Benzon (2012). Academic Research in the Blogosphere: Adapting to New Risks and Opportunities on the Internet. In: J. C. Meister, ed., *Digital Humanities 2012 Conference Abstracts*, pp. 268–269, University of Hamburg, 16–22 Jul. Hamburg: Hamburg University Press.
+  doi:
+  pdf: /publications/Littauer2012AcademicResearch.pdf
+  bib: /publications/bib/Littauer2012AcademicResearch.bib
+
+- year: 2012
+  date: "2012-05-23"
+  type: [Conference Paper, Poster]
+  topics: [Linguistics, Community Science, Open Source, Research Software]
+  peer_reviewed: true
+  title: "The Open Linguistics Working Group"
+  citation: |-
+    Christian Chiarcos, Sebastian Hellmann, Sebastian Nordhoff, Steven Moran, Richard Littauer, Judith Eckle-Kohler, Iryna Gurevych, Silvana Hartmann, Michael Matuschek, Christian M. Meyer (2012). The Open Linguistics Working Group. In: N. Calzolari, K. Choukri, T. Declerck, M. U. Doğan, B. Maegaard, J. Mariani, J. Odijk, S. Piperidis, eds., *Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC'12)*, pp. 3603–3610. Istanbul, Turkey, 23–25 May 2012. European Language Resources Association (ELRA).
+  abstract: |-
+    This paper describes the Open Linguistics Working Group (OWLG) of the Open Knowledge Foundation (OKFN). The OWLG is an initiative concerned with linguistic data by scholars from diverse fields, including linguistics, NLP, and information science. The primary goal of the working group is to promote the idea of open linguistic resources, to develop means for their representation and to encourage the exchange of ideas across different disciplines. This paper summarizes the progress of the working group, goals that have been identified, problems that we are going to address, and recent activities and ongoing developments. Here, we put particular emphasis on the development of a Linked Open Data (sub-)cloud of linguistic resources that is currently being pursued by several OWLG members.
+  doi: 10.63317/4zgv9goq5odq
+  pdf: /publications/Chiarcos2012OpenLinguistics.pdf
+  bib: /publications/bib/Chiarcos2012OpenLinguistics.bib
+  poster: /publications/Chiarcos2012OpenLinguistics-poster.pdf
+
+- year: 2012
+  date: "2012-04-23"
+  type: Conference Paper
+  topics: [Linguistics, Open Source]
+  peer_reviewed: true
+  title: "Visualising Typological Relationships: Plotting WALS with Heat Maps"
+  citation: |-
+    Richard Littauer, Rory Turnbull, Alexis Palmer (2012). Visualising Typological Relationships: Plotting WALS with Heat Maps. In: *Proceedings of the European Association of Computational Linguistics 2012 Workshop on the Visualization of Linguistic Patterns*, pp. 30–34. Avignon, France, 23–24 Apr 2012.
+  abstract: |-
+    This paper presents a novel way of visualising relationships between languages. The key feature of the visualisation is that it brings geographic, phylogenetic, and linguistic data together into a single image, allowing a new visual perspective on linguistic typology. The data presented here is extracted from the World Atlas of Language Structures (WALS) (Dryer and Haspelmath, 2011). After pruning due to low coverage of WALS, we filter the typological data by geographical proximity in order to ascertain areal typological effects. The data are displayed in heat maps which reflect the strength of similarity between languages for different linguistic features. Finally, the heat maps are annotated for language family membership. The images so produced allow a multi-faceted perspective on the data which we hope will facilitate the interpretation of results and perhaps illuminate new areas of research in linguistic typology.
+  doi:
+  url: https://aclanthology.org/W12-0205/
+  pdf: /publications/Littauer2012VisualisingTypological.pdf
+  bib: /publications/bib/Littauer2012VisualisingTypological.bib
+  slides: https://www.slideshare.net/RichLitt/visualising-typological-relationships-plotting-wals-with-heat-maps
+
+- year: 2012
+  date: "2012-02"
+  type: [Conference Paper, Presentation]
+  topics: [Linguistics, Language Evolution]
+  peer_reviewed: true
+  title: "The Evolution of Morphological Agreement"
+  citation: |-
+    Richard Littauer (2012). The Evolution of Morphological Agreement. In: T. C. Scott-Phillips, M. Tamariz, E. A. Cartmill, J. R. Hurford, eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pp. 484–485. Singapore: World Scientific.
+  doi: 10.1142/9789814401500_0092
+  pdf: /publications/Littauer2012EvolutionMorphological.pdf
+  bib: /publications/bib/Littauer2012EvolutionMorphological.bib
+
+- year: 2012
+  date: "2012-02"
+  type: [Conference Paper, Poster]
+  topics: [Linguistics, Language Evolution]
+  peer_reviewed: true
+  title: "Re-dating the Loss of Laryngeal Air Sacs in Homo sapiens"
+  citation: |-
+    Richard Littauer (2012). Re-dating the Loss of Laryngeal Air Sacs in *Homo sapiens*. In: T. C. Scott-Phillips, M. Tamariz, E. A. Cartmill, J. R. Hurford, eds., *The Evolution of Language: Proceedings of the 9th International Conference (EVOLANG9)*, pp. 486–487. Singapore: World Scientific.
+  doi: 10.1142/9789814401500_0093
+  pdf: /publications/Littauer2012RedatingLoss.pdf
+  bib: /publications/bib/Littauer2012RedatingLoss.bib
+
+- year: 2012
+  type: Conference Paper
+  topics: [Linguistics, Language Evolution]
+  peer_reviewed: true
+  title: "A Reanalysis of Anatomical Changes for Language"
+  citation: |-
+    Richard Littauer (2012). A Reanalysis of Anatomical Changes for Language. In: O. Ozbak, T. Soultatis, S. Kampouri and A. Menkabu, eds., *Language at the University of Essex (LangUE) 2011 Proceedings*, pp. 25–30. Department of Language and Linguistics, University of Essex.
+  abstract: |-
+    Laryngeal air sacs occur in many different species of primates. In the case of *Homo sapiens*, their presence has been lost. This has been argued to have occurred before *Homo heidelbergensis*, due to a loss of the bulla in the hyoid bone from *Australopithecus afarensis* (Martinez, 2008), at a range of 500kya to 3.3mya. (de Boer, to appear). Justifications for the loss of laryngeal air sacs include infection, the ability to modify breathing patterns and the reduction of a need for an antihyperventilating device (Hewitt et al, 2002), and linguistic selection against air sacs as they are disadvantageous for subtle, timed, and distinct sounds. (de Boer, to appear). Further, it has been suggested that the loss goes against the significant correlation of air sac retention to evolutionary growth in body mass (Hewitt et al., 2002). I argue that the loss of air sacs may have occurred more recently than 3.3mya, as the loss of the bulla in the hyoid does not exclude the possibility of airs sacs, as laryngeal air sacs can herniate between two muscles regularly in other species (Frey et al., 2007), and as vestigial air sacs in *Homo sapiens* indicate a shorter evolutionary timescale. Further, I argue that *Homo sapiens* was not an exception to the smaller body weight and loss correlation, as a size reduction in *Homo sapiens* from *Homo heidelbergensis* was not accounted for in the previous synchronic study. It is hoped that these arguments will shed light on the anatomical pre-adaptations or adaptations for language use in hominins.
+  doi:
+  pdf: /publications/Littauer2012ReanalysisAnatomical.pdf
+  bib: /publications/bib/Littauer2012ReanalysisAnatomical.bib
+  slides: http://www.slideshare.net/RichLitt/a-reanalysis-of-anatomical-changes-for-language
+
+- year: 2012
+  date: "2012-07"
+  type: Conference Paper
+  peer_reviewed: true
+  title: "Crowd sourcing the classroom: Interactive applications in higher learning"
+  citation: |-
+    Richard Littauer, Antonia Scheidel, Marc Schulder, Sibel Ciddi (2012). Crowd sourcing the classroom: Interactive applications in higher learning. In: L. Gómez Chova, I. Candel Torres, A. López Martínez, eds., *Proceedings of the 4th International Conference on Education and New Learning Technologies (EDULEARN12)*, pp. 1473–1481, Barcelona, Spain. International Association of Technology, Education and Development (IATED).
+  abstract: |-
+    The traditional university classroom paradigm frequently leads to fragmented knowledge dispersal; each student creates, collates, and curates their own notes individually. Here, we present a more holistic approach to student participation, based on experience from a student-initiated experiment using interactive applications in higher education. We explore several methods to help university students work collaboratively: Simultaneous note-taking using an online, interactive notepad; centralised information storage using a dedicated wiki; student-run centralised storage in the cloud; and communication management using a dedicated email list. In this paper, we elaborate on these points, and draw upon relevant previous literature, as well as our experience with implementing this system in several classes with diverse subjects in a graduate level Computational Linguistics degree. We also suggest future avenues to explore, such as slide-and-note integration.
+  doi:
+  pdf: /publications/Littauer2012CrowdSourcing.pdf
+  bib: /publications/bib/Littauer2012CrowdSourcing.bib
+
+- year: 2012
+  date: "2012-05-01"
+  type: Conference Paper
+  topics: [Linguistics, Open Source]
+  peer_reviewed: true
+  title: "Using Clojure in Linguistic Computing"
+  citation: |-
+    Zoltán Varjú, Richard Littauer, Peteris Erins (2012). Using Clojure in Linguistic Computing. *Proceedings of ELS 2012: 5th European Lisp Symposium*, Zadar, Croatia, 30 Apr–1 May 2012.
+  abstract: |-
+    Due to recent developments in the humanities and the social sciences more and more scholars are turning towards computing. Although there are accessible and well designed toolkits to get into computing, taking the step from surface knowledge of programming to tackling non-trivial issues is difficult and time intensive. Even those researchers with some computing background may face problems when they want to deepen their knowledge and start serious projects, especially when participating with a team of programmers is not an option. We think using Clojure for linguistic computing answers these concerns. Here, we examine the existing resources and explain why Clojure can help in both educating and researching. We also present two mini case studies as examples of Clojure’s interoperability and use.
+  doi:
+  pdf: /publications/Varju2012UsingClojure.pdf
+  bib: /publications/bib/Varju2012UsingClojure.bib
+
+- year: 2012
+  date: "2012-05-16"
+  type: Presentation
+  topics: [Linguistics]
+  peer_reviewed: true
+  title: "Constructing Corpora for Low Resource Languages from Social Media"
+  citation: |-
+    Richard Littauer (2012). Constructing Corpora for Low Resource Languages from Social Media. *51st Students' Conference of Linguistics (StuTS)*, Stuttgart, Germany, 16–20 May 2012.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2012ConstructingCorpora.bib
+  slides: http://www.slideshare.net/RichLitt/building-corpora-from-social-media
+
+- year: 2012
+  date: "2012-04-04"
+  type: Presentation
+  topics: [Community Science, Research Software, Open Source]
+  peer_reviewed: false
+  title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
+  citation: |-
+    Richard Littauer (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. *MPI for Psycholinguistics*, Nijmegen, 4 Apr 2012. Invited talk.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2012TrendsUse.bib
+  slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
+
+- year: 2012
+  type: Creative Writing
+  topics: [Arts]
+  peer_reviewed: false
+  title: "import_soul.py"
+  citation: |-
+    Richard Littauer (2012). import_soul.py. Poem. In: I. Bertran, ed., *code {poems}*.
+  doi:
+  url: http://www.code-poems.com/
+  pdf:
+  bib: /publications/bib/Littauer2012Importsoulpy.bib
+
+- year: 2011
+  date: "2011-10-18"
+  type: Poster
+  topics: [Community Science, Research Software, Open Source]
+  peer_reviewed: false
+  title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
+  citation: |-
+    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. *DataONE All Hands Meeting*, Albuquerque, NM, 18 Oct 2011.
+  doi:
+  pdf: /publications/Littauer2011TrendsUse.pdf
+  bib: /publications/bib/Littauer2011TrendsUse.bib
+
+- year: 2011
+  date: "2011-12-07"
+  type: Conference Paper
+  topics: [Community Science, Research Software, Open Source]
+  peer_reviewed: true
+  title: "Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices"
+  citation: |-
+    Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. In: *7th International Digital Curation Conference Proceedings*, Bristol, 7–9 Dec 2011.
+  abstract: |-
+    Scientific workflows are typically used to automate the processing, analysis, and management of scientific data. Most scientific workflow programs provide a user-friendly graphical user interface that enables scientists to more easily create and visualize complex workflows that may be comprised of dozens of processing and analytical steps. Furthermore, many workflows provide mechanisms for tracing provenance and methodologies that foster reproducible science. Despite their potential for enabling science, few studies have examined how the process of creating, executing, and sharing workflows can be improved. In order to promote open discourse and access to scientific methods as well as data, we analyzed a wide variety of workflow systems and publicly available workflows on the public repository myExperiment. It is hoped that understanding the usage of workflows and developing a set of recommended best practices will lead to increased contribution of workflows to the public domain.
+  doi:
+  pdf: /publications/Littauer2011TrendsUse2.pdf
+  bib: /publications/bib/Littauer2011TrendsUse2.bib
+  slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
+
+- year: 2011
+  date: "2011-06-30"
+  type: Presentation
+  topics: [Linguistics, Community Science, Open Source, Research Software]
+  peer_reviewed: true
+  title: "Towards Open Methods: Using Scientific Workflows in Linguistics"
+  citation: |-
+    Richard Littauer (2011). Towards Open Methods: Using Scientific Workflows in Linguistics. *Open Linguistics Workshop*, Open Knowledge Conference, Berlin, Germany, 30 Jun 2011.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2011TowardsOpen.bib
+  slides: http://www.slideshare.net/RichLitt/towards-open-methods-using-scientific-workflows-in-linguistics
+
+- year: 2011
+  date: "2011-06-10"
+  type: Poster
+  topics: [Linguistics, Language Evolution]
+  peer_reviewed: false
+  title: "Re-Dating the Loss of Laryngeal Air Sacs in Homo sapiens"
+  citation: |-
+    Richard Littauer (2011). Re-Dating the Loss of Laryngeal Air Sacs in *Homo sapiens*. Language at Edinburgh Lunch, Edinburgh University, UK, 10 Jun 2011.
+  doi:
+  pdf: /publications/Littauer2011ReDatingLoss.pdf
+  bib: /publications/bib/Littauer2011ReDatingLoss.bib
+
+- year: 2011
+  date: "2011-04-28"
+  type: Presentation
+  topics: [Linguistics, Open Source, Research Software, Language Evolution]
+  peer_reviewed: true
+  title: "The Evolution of Speech Segmentation: A Computer Model"
+  citation: |-
+    Richard Littauer (2011). The Evolution of Speech Segmentation: A Computer Model. *Linguistics and English Language Undergraduate Conference 2011*, Edinburgh University, UK, 28 Apr 2011.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2011EvolutionSpeech.bib
+  slides: http://www.slideshare.net/RichLitt/the-evolution-of-speech-segmentation-a-computer-simulation
+
+- year: 2011
+  type: Thesis
+  topics: [Linguistics, Open Source, Research Software, Language Evolution]
+  peer_reviewed: false
+  title: "The Evolution of Speech Segmentation: A Computer Model"
+  citation: |-
+    Richard Littauer (2011). The Evolution of Speech Segmentation: A Computer Model. MA (Hons) dissertation, Linguistics, University of Edinburgh, UK. Supervisor: Kenny Smith.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2011EvolutionSpeech2.bib
+
+- year: 2010
+  date: "2010-10-06"
+  type: Presentation
+  topics: [Linguistics, Arts, Literary Studies]
+  peer_reviewed: false
+  title: "Constructed Languages and their Uses: Na'vi, Dothraki, and Llárriésh"
+  citation: |-
+    Richard Littauer (2010). Constructed Languages and their Uses: Na'vi, Dothraki, and Llárriésh. *Soap Vox Lecture Series, E.U. Linguistics & English Language Society*, UK, 6 Oct 2010. Invited talk.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2010ConstructedLanguages.bib
+  recording: http://www.youtube.com/playlist?list=PLC63D005AEEA69981
+
+- year: 2009
+  type: Popular Article
+  topics: [Arts]
+  peer_reviewed: false
+  title: "Kaspian Shore"
+  citation: |-
+    Richard Littauer (2009). Kaspian Shore. Artist profile. *Chaos Magazine*, Issue 2, Spring 2009.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2009KaspianShore.bib
+
+- year: 2008
+  type: Popular Article
+  topics: [Arts]
+  peer_reviewed: false
+  title: "Emma Sailor"
+  citation: |-
+    Richard Littauer (2008). Emma Sailor. Artist profile. *Chaos Magazine*, Issue 1, Winter 2008.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2008EmmaSailor.bib

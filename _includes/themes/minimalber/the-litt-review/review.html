@@ -14,7 +14,7 @@
     <div class="col-sm-12">
       {% if page.picture %}
         {% if page.outbound %}<a href="{{ page.outbound }}">{% endif %}
-          <img class="project-image" style="float:right; width:20%;" src="../../assets/img/review/{{ page.picture }}" />
+          <img class="project-image" style="float:right; width:20%;" src="../../assets/img/review/{{ page.picture }}" alt="{{ page.title }} cover" />
           {% if page.outbound %}</a>{% endif %}
       {% endif %}
       {{ content }}
