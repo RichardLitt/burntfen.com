@@ -3,6 +3,7 @@ import sys
 import subprocess
 import shutil
 import time
+import re
 import requests
 import bibtexparser
 
@@ -44,10 +45,22 @@ def tidy_bib_file(path, extra_args=None):
         print(f"bibtex-tidy failed on {path}:\n{e.stderr}", file=sys.stderr)
         sys.exit(1)
 
+URL_FIELD = re.compile(r'^(\s*url\s*=\s*\{)\s*(\S+?)\s*\}', re.MULTILINE)
+
+def unwrap_urls(path):
+    """Put each url value back on one line; --wrap moves long ones onto their own line."""
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    fixed = URL_FIELD.sub(r'\1\2}', text)
+    if fixed != text:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(fixed)
+
 def tidy_all_bib_files(directory):
     for file in os.listdir(directory):
         if file.endswith(".bib") and file != OUTPUT_FILE:
             tidy_bib_file(os.path.join(directory, file))
+            unwrap_urls(os.path.join(directory, file))
 
 # ---------------------------------------------------------------------------
 # 1) DOI VALIDATION (Crossref → DataCite → doi.org)
@@ -153,7 +166,10 @@ def save_sorted_bib(entries):
     db = bibtexparser.bibdatabase.BibDatabase()
     db.entries = entries
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
-        out.write(bibtexparser.dumps(db).strip() + "\n")
+        writer = bibtexparser.bwriter.BibTexWriter()
+        writer.order_entries_by = None  # keep the year/title order; the default re-sorts by key
+        out.write(bibtexparser.dumps(db, writer).strip() + "\n")
+    unwrap_urls(OUTPUT_FILE)
 
 # ---------------------------------------------------------------------------
 # 4) Orchestration
