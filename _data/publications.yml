@@ -5,7 +5,8 @@
 #   year, type, topics   - `type` (one type or a list) and each topic become filter tags
 #   peer_reviewed        - true adds the "Peer Reviewed" tag, which is on by default
 #   status               - optional: "In Review" or "In Press"; becomes a tag. In-review
-#                          entries use `year: In Review` and sit at the top.
+#                          entries use `year: In Review` and sit at the top; in-press entries
+#                          sit at the top of their year.
 #   title                - plain text, no markdown; used in the "email me" subject line
 #   citation             - authors (year). title. venue. No links; those go below.
 #   abstract             - optional, Markdown (*italics* for taxon names). Adds an "abstract" toggle
@@ -580,6 +581,7 @@
   bib: /publications/bib/Ball2026JournalOpen.bib
 
 - year: 2026
+  date: "2026-10-01"
   type: Conference Paper
   topics: [Ornithology, Open Source, Research Software, Community Science, AI]
   peer_reviewed: true
@@ -591,6 +593,7 @@
   bib: /publications/bib/Bubendorfer2026CommunityScience.bib
 
 - year: 2026
+  date: "2026-10-02"
   type: Conference Paper
   topics: [Open Source, Research Software, Ornithology, AI, Open Data]
   peer_reviewed: true
