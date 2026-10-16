@@ -188,6 +188,23 @@
   bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
 
 - year: 2026
+  date: "2026-10-16"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: false
+  title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
+  citation: |-
+    Richard Littauer (2026). *Porrhomma boreale* (Banks, 1899) is changed to *P. borealis*. *Codex Mutabilis*, 16 Oct 2026.
+  abstract: |-
+    [*Porrhomma boreale* (Banks, 1899)](https://wsc.nmbe.ch/species/17349) was made available as *Gongylidium borealis*, Banks 1899. *Borealis* is only an adjective in Classical Latin, but it was substantivized as a noun in Medieval Latin, according to the [Mittellateinisches Wörterbuch](https://mlat.uzh.ch/dictionaries). The ICZN notes in the [Glossary](https://code.iczn.org/formation-and-treatment-of-names/article-30-gender-of-genus-group-names?frame=1) that Latin “includes both ancient and mediaeval Latin”. Banks did not make any statement indicating that *borealis* was to be considered as an adjective or a noun, nor that it was derived from a non-Latin or non-Greek word. According to ICZN 31.2.2, the species name must be considered as a noun in apposition to the genus, and the original spelling is to be retained.
+
+    *Porrhomma borealis* (Banks, 1899) is the correct name.
+  doi: 10.5281/zenodo.23413292
+  url: https://codexmutabilis.com/substantive/2024/12/05/porrhomma-boreale-banks-1899-is-changed-to-p-borealis.html
+  pdf:
+  bib: /publications/bib/Littauer2026PorrhommaBoreale.bib
+
+- year: 2026
   date: "2026-10-13"
   type: Data
   topics: [Taxonomic Nomenclature, Community Science, Open Data]
@@ -698,6 +715,14 @@
   title: "First Reviser for Rhopalum succineicollarum Tsuneki, 1952"
   citation: |-
     Richard Littauer (2025). First Reviser for *Rhopalum succineicollarum* Tsuneki, 1952. *Codex Mutabilis*, 2 Nov 2025.
+  abstract: |-
+    *Rhopalum succineicollarum* Tsuneki, 1952 was made available according to the International Code of Zoological Nomenclature (ICZN 1999; henceforth “the Code”) in a publication that included the spellings *succineicollarum* (pg. 115, 116, 120), *succineicolle* or *suecineicolle* (pg. 116), and *succinei collearum* [sic] (pg. 117). A synonymy and citation record is provided in Leclercq (2010). Tsuneki consistently used *succineicollare* in subsequent publications, but this form is not a valid mandatory emendation of *collarum*, *collearum*, or *colle* according to the rules of Latin grammar. Tsuneki cannot be considered his own First Reviser according to Article 24.2.4 of the Code.
+
+    Haneda (2008) may have served as a First Reviser, as according to Leclercq (2010) the form *succineicollarum* was used in this work. However, this work is not accessible online, and I could not verify whether Haneda (2008) cited all forms of the original name in Tsuneki (1952). Hashimoto and Nakanishi (1999) also use *succineicollarum*, but do not act as First Revisers.
+
+    Acting as First Reviser, I select *Rhopalum succineicollarum* Tsuneki, 1952 as the available name. *Rhopalum succineicolle*, *Rhopalum suecineicolle*, *Rhopalum succineicollearum*, and *Rhopalum succineicollare* are all incorrect spellings and therefore unavailable according to Art. 24.2.3. If they are considered subsequent spellings, both Haneda (2008) and Hashimoto and Nakanishi (1999) preclude the possibility of *Rhopalum succineicollare* being a correct original spelling according to Art. 33.3.1. If they are to be considered incorrect original spellings, they have no separate availability and cannot enter into homonymy or be used as a substitute name according to Art. 32.4.
+
+    If Haneda (2008) proves to have been a First Reviser, this revision is to be considered nullified according to Art. 24.2.5 and an update will be published accordingly upon notice.
   doi: 10.5281/zenodo.17504393
   url: https://codexmutabilis.com/fr/2025/11/02/first-revision-of-rhopalum-succineicollarum-tsuneki-1952.html
   pdf:
@@ -1102,19 +1127,6 @@
   bib: /publications/bib/Katz2025OpensourceSoftware.bib
 
 - year: 2024
-  date: "2024-12-05"
-  type: [Journal Article, Short Note]
-  topics: [Taxonomic Nomenclature, Invertebrates]
-  peer_reviewed: false
-  title: "Porrhomma boreale (Banks, 1899) is changed to P. borealis"
-  citation: |-
-    Richard Littauer (2024). *Porrhomma boreale* (Banks, 1899) is changed to *P. borealis*. *Codex Mutabilis*, 5 Dec 2024.
-  doi:
-  url: https://codexmutabilis.com/substantive/2024/12/05/porrhomma-boreale-banks-1899-is-changed-to-p-borealis.html
-  pdf:
-  bib: /publications/bib/Littauer2024PorrhommaBoreale.bib
-
-- year: 2024
   date: "2024-05-09"
   type: Software
   topics: [Open Source]
@@ -1134,6 +1146,10 @@
   title: "Prunum boreale (A. E. Verrill, 1884) is changed to P. borealis"
   citation: |-
     Richard Littauer (2024). *Prunum boreale* (A. E. Verrill, 1884) is changed to *P. borealis*. *Codex Mutabilis*, 4 Dec 2024.
+  abstract: |-
+    [*Prunum boreale* (A. E. Verrill, 1884)](https://www.marinespecies.org/aphia.php?p=taxdetails&id=160011) was made available as *Marginella borealis*, A. E. Verrill 1884. *Borealis* is only an adjective in Classical Latin, but it was substantivized as a noun in Medieval Latin, according to the [Mittellateinisches Wörterbuch](https://mlat.uzh.ch/dictionaries). The ICZN notes in the [Glossary](https://code.iczn.org/formation-and-treatment-of-names/article-30-gender-of-genus-group-names?frame=1) that Latin “includes both ancient and mediaeval Latin”. Verrill did not make any statement indicating that *borealis* was to be considered as an adjective or a noun, nor that it was derived from a non-Latin or non-Greek word. According to ICZN 31.2.2, the species name must be considered as a noun in apposition to the genus, and the original spelling is to be retained.
+
+    *Prunum borealis* (A. E. Verrill, 1884) is the correct name.
   doi: 10.5281/zenodo.14377607
   url: https://codexmutabilis.com/substantive/2024/12/04/prunum-boreale-a-e-verrill-1884-p-borealis.html
   pdf:
