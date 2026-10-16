@@ -294,7 +294,7 @@
   doi: 10.1038/s41562-026-02526-0
   preprint: https://doi.org/10.2139/ssrn.4821969
   pdf: https://www.nature.com/articles/s41562-026-02526-0.pdf
-  bib: /publications/bib/Meluso2026NHB.bib
+  bib: /publications/bib/Meluso2026OpenPractices.bib
 
 - year: 2026
   date: "2026-08-17"
@@ -314,7 +314,7 @@
     Conclusions. These results demonstrate that NLP-based mining of community science text can recover substantial behavioural signal from unstructured observer notes. Future work will focus on cleaning the data, building species relation matrices, and characterising model species. This study highlights both the promise and the validation challenges inherent in large-scale behavioural data mining from community science platforms.
   doi: 10.5281/zenodo.22169692
   pdf:
-  bib: /publications/bib/Littauer2026WEC.bib
+  bib: /publications/bib/Littauer2026LargescaleNLP.bib
   slides: https://github.com/RichardLitt/talks/blob/main/2026.08.17%20World%20Ecoacoustics%20Congress%202026%20Large-scale%20NLP%20detection%20of%20vocal%20mimicry%20in%20Australian%20community%20science%20bird%20observations.pdf
 
 - year: 2026
@@ -504,7 +504,7 @@
     Richard Littauer (2026). On the spelling of *Eupelecotheca celer* Townsend, 1919 (Tachinidae, Exoristinae). In: N. L. Evenhuis, T. Pape, eds., *Systema Dipterorum Nomenclatural Notes. VI.* *Bishop Museum Occasional Papers* 176: 1–3.
   doi:
   pdf: https://hbs.bishopmuseum.org/sd/pdf/op176p1-3.pdf
-  bib: /publications/bib/Littauer2026SDNN.bib
+  bib: /publications/bib/Littauer2026Eupelecotheca.bib
 
 - year: 2026
   date: "2026-02-10"
