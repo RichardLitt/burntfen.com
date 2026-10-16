@@ -897,7 +897,7 @@
     Loss of key personnel has always been a risk for research software projects. Key members of the team may have to step away due to illness or burnout, to care for a family member, from a loss of financial support, or because their career is going in a new direction. Today, though, political and financial changes are putting large numbers of researchers out of work simultaneously, potentially leaving large amounts of research software abandoned. This article presents ten tips to help researchers ensure that the software they have built will continue to be usable after they have left their present job -- whether in the course of voluntary career moves or researcher mobility, but particularly in cases of involuntary departure due to political or institutional changes.
   doi: 10.48550/arXiv.2505.06484
   pdf:
-  bib: /publications/bib/Littauer202510Quick.bib
+  bib: /publications/bib/Littauer202510QuickArXiv.bib
 
 - year: 2025
   date: "2025-03-05"
@@ -992,7 +992,7 @@
     Finally, we discuss the strategic importance of open source in advancing climate solutions, including its potential economic and societal value. By building shared digital infrastructure, we argue that open source can play a foundational role in climate mitigation, adaptation, and sustainable development.
   doi: 10.5281/zenodo.17459415
   pdf: /publications/Littauer2025MappingOpen2.pdf
-  bib: /publications/bib/Littauer2025MappingOpen2.bib
+  bib: /publications/bib/Littauer2025MappingOpenZenodo.bib
 
 - year: 2025
   date: "2025-09-09"
@@ -1043,7 +1043,7 @@
     Richard Littauer, Tobias Augspurger, Alex Stinson, Pierre Vogler-Finck, Andrew Nesbitt, Chris Harris (2025). Mapping the Open Source Ecosystem for Climate Science and Sustainable Technology. *OpenForum Assembly Symposium 2025*, Rio de Janeiro, Brazil, 18–19 Nov 2025. Invited talk.
   doi:
   pdf:
-  bib: /publications/bib/Littauer2025MappingOpen.bib
+  bib: /publications/bib/Littauer2025MappingOpenOpenForum.bib
   slides: https://github.com/RichardLitt/talks/blob/main/2025.11.18%20OpenForum%20Assembly%20Symposium%202025%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology.pdf
 
 - year: 2025
@@ -1069,7 +1069,7 @@
     Richard Littauer (2025). 10 quick tips for making your software outlive your job. *2025 IEEE New Zealand Central Section Postgraduate Symposium*, Te Herenga Waka Victoria University of Wellington, Wellington, NZ, 25 Aug 2025.
   doi:
   pdf:
-  bib: /publications/bib/Littauer202510Quick2.bib
+  bib: /publications/bib/Littauer202510QuickIEEE.bib
   slides: https://github.com/RichardLitt/talks/blob/main/2025.08.25%20IEEE%20NZ%20Central%20Postgraduate%20Symposium%2010%20quick%20tips%20for%20making%20your%20software%20outlive%20your%20job.pdf
 
 - year: 2025
@@ -1855,7 +1855,7 @@
     Scientific workflows are typically used to automate the processing, analysis and management of scientific data. Most scientific workflow programs provide a user-friendly graphical user interface that enables scientists to more easily create and visualize complex workflows that may be comprised of dozens of processing and analytical steps. Furthermore, many workflows provide mechanisms for tracing provenance and methodologies that foster reproducible science. Despite their potential for enabling science, few studies have examined how the process of creating, executing, and sharing workflows can be improved. In order to promote open discourse and access to scientific methods as well as data, we analyzed a wide variety of workflow systems and publicly available workflows on the public repository myExperiment. It is hoped that understanding the usage of workflows and developing a set of recommended best practices will lead to increased contribution of workflows to the public domain.
   doi: 10.2218/ijdc.v7i2.232
   pdf: https://ijdc.net/index.php/ijdc/article/download/222/281
-  bib: /publications/bib/Littauer2012TrendsUse2.bib
+  bib: /publications/bib/Littauer2012TrendsUseIJDC.bib
   slides: https://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2012
@@ -2014,7 +2014,7 @@
     Richard Littauer (2012). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. *MPI for Psycholinguistics*, Nijmegen, 4 Apr 2012. Invited talk.
   doi:
   pdf:
-  bib: /publications/bib/Littauer2012TrendsUse.bib
+  bib: /publications/bib/Littauer2012TrendsUseMPI.bib
   slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2012
@@ -2039,7 +2039,7 @@
     Richard Littauer, Karthik Ram, Bertram Ludäscher, William Michener, Rebecca Koskela (2011). Trends in Use of Scientific Workflows: Insights from a Public Repository and Guidelines for Best Practices. *DataONE All Hands Meeting*, Albuquerque, NM, 18 Oct 2011.
   doi:
   pdf: /publications/Littauer2011TrendsUse.pdf
-  bib: /publications/bib/Littauer2011TrendsUse.bib
+  bib: /publications/bib/Littauer2011TrendsUseDataONE.bib
 
 - year: 2011
   date: "2011-12-07"
@@ -2053,7 +2053,7 @@
     Scientific workflows are typically used to automate the processing, analysis, and management of scientific data. Most scientific workflow programs provide a user-friendly graphical user interface that enables scientists to more easily create and visualize complex workflows that may be comprised of dozens of processing and analytical steps. Furthermore, many workflows provide mechanisms for tracing provenance and methodologies that foster reproducible science. Despite their potential for enabling science, few studies have examined how the process of creating, executing, and sharing workflows can be improved. In order to promote open discourse and access to scientific methods as well as data, we analyzed a wide variety of workflow systems and publicly available workflows on the public repository myExperiment. It is hoped that understanding the usage of workflows and developing a set of recommended best practices will lead to increased contribution of workflows to the public domain.
   doi:
   pdf: /publications/Littauer2011TrendsUse2.pdf
-  bib: /publications/bib/Littauer2011TrendsUse2.bib
+  bib: /publications/bib/Littauer2011TrendsUseIDCC.bib
   slides: http://www.slideshare.net/RichLitt/trends-in-use-of-scientific-workflows-insights-from-a-public-repository-and-recommendations-for-best-practices
 
 - year: 2011
@@ -2091,7 +2091,7 @@
     Richard Littauer (2011). The Evolution of Speech Segmentation: A Computer Model. *Linguistics and English Language Undergraduate Conference 2011*, Edinburgh University, UK, 28 Apr 2011.
   doi:
   pdf:
-  bib: /publications/bib/Littauer2011EvolutionSpeech.bib
+  bib: /publications/bib/Littauer2011EvolutionSpeechLEL.bib
   slides: http://www.slideshare.net/RichLitt/the-evolution-of-speech-segmentation-a-computer-simulation
 
 - year: 2011
@@ -2103,7 +2103,7 @@
     Richard Littauer (2011). The Evolution of Speech Segmentation: A Computer Model. MA (Hons) dissertation, Linguistics, University of Edinburgh, UK. Supervisor: Kenny Smith.
   doi:
   pdf:
-  bib: /publications/bib/Littauer2011EvolutionSpeech2.bib
+  bib: /publications/bib/Littauer2011EvolutionSpeechEdinburgh.bib
 
 - year: 2010
   date: "2010-10-06"
