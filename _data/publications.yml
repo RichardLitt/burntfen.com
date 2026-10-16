@@ -265,6 +265,7 @@
   doi: 10.5281/zenodo.22559441
   pdf:
   bib: /publications/bib/Littauer2026UsingLocal.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2026.09.07%20NZRS%202026%20Using%20Local%20VLMs%20for%20Data%20Extraction.pdf
 
 - year: 2026
   date: "2026-02-12"
@@ -314,6 +315,7 @@
   doi: 10.5281/zenodo.22169692
   pdf:
   bib: /publications/bib/Littauer2026WEC.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2026.08.17%20World%20Ecoacoustics%20Congress%202026%20Large-scale%20NLP%20detection%20of%20vocal%20mimicry%20in%20Australian%20community%20science%20bird%20observations.pdf
 
 - year: 2026
   date: "2026-08-26"
@@ -536,7 +538,7 @@
   pdf: /publications/Littauer2026MappingOpen.pdf
   bib: /publications/bib/Littauer2026MappingOpen.bib
   recording: https://www.youtube.com/watch?v=kr8BP7eBCsI
-  slides: https://github.com/RichardLitt/talks/blob/main/KiwiPycon%202025%20-%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology%20Slides.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.11.22%20Kiwi%20PyCon%202025%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology.pdf
 
 - year: 2026
   date: "2026-04-30"
@@ -598,6 +600,18 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2026DataRescue.bib
+
+- year: 2026
+  type: Presentation
+  topics: [Open Source]
+  peer_reviewed: false
+  title: "What is good open source?"
+  citation: |-
+    Richard Littauer (2026). What is good open source? Guest lecture, ENG 401, Te Herenga Waka Victoria University of Wellington, Wellington, NZ.
+  doi:
+  pdf:
+  bib: /publications/bib/Littauer2026WhatGood.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2026%20VUW%20ENG401%20Open%20Source%20Lecture.pdf
 
 - year: 2026
   date: "2026-02-23"
@@ -699,7 +713,7 @@
   doi: 10.5281/zenodo.19546736
   pdf: https://zenodo.org/records/19546737
   bib: /publications/bib/Littauer2025CodexMutabilis.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/Codex%20Mutabilis%20presentation.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.11.05%20iPRES%202025%20Codex%20Mutabilis%20Preserving%20the%20Reasons%20for%20Changes%20in%20Scientific%20Names.pdf
 
 - year: 2025
   date: "2025-09-23"
@@ -712,7 +726,7 @@
   doi: 10.5281/zenodo.18429386
   pdf:
   bib: /publications/bib/Barker2025InstitutionalPolicy.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/Slides-NZ-RSE-Sept-2025.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.09.23%20NZ%20RSE%20Conference%20Institutional%20Policy%20Pathways%20for%20Supporting%20Research%20Software%20Global%20Trends%20Local%20Actions.pdf
 
 - year: 2025
   date: "2025-09-19"
@@ -727,7 +741,7 @@
   doi: 10.5281/zenodo.17269477
   pdf:
   bib: /publications/bib/Littauer2025WriteAll.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/Making%20collaborative%20papers.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.09.19%20RSAA25%20Write%20all%20the%20things%20The%20process%20of%20collaboratively%20writing%20papers.pdf
 
 - year: 2025
   date: "2025-09-11"
@@ -804,7 +818,7 @@
   doi: 10.5281/zenodo.15589701
   pdf:
   bib: /publications/bib/Littauer2025WhatsName.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.05.31%20-%20BirdsNZ%20-%20Taxonomy.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.06.01%2085th%20Birds%20NZ%20Conference%20Whats%20in%20a%20name%20Understanding%20scientific%20names%20for%20our%20birds%20according%20to%20the%20ICZN%20Code.pdf
 
 - year: 2025
   date: "2025-06"
@@ -1005,7 +1019,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2025LudenteLingua.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.08.29%20-%20New%20Historians%20-%20Ludente%20lingua.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/taxonomy/2025.08.29%20New%20Historians%20Conference%202025%20Ludente%20lingua%20Language%20Use%20and%20Performance%20in%20Zoological%20Nomenclature.pdf
 
 - year: 2025
   date: "2025-11-08"
@@ -1018,7 +1032,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2025WordsWords.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/SeaGL%202025.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.11.08%20SeaGL%202025%20Words%20words%20words%20you%20fishmonger%20Using%20Wikidata%20to%20Reconcile%20Taxonomies.pdf
 
 - year: 2025
   type: Presentation
@@ -1030,6 +1044,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2025MappingOpen.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.11.18%20OpenForum%20Assembly%20Symposium%202025%20Mapping%20the%20Open%20Source%20Ecosystem%20for%20Climate%20Science%20and%20Sustainable%20Technology.pdf
 
 - year: 2025
   date: "2025-08-05"
@@ -1042,7 +1057,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2025OpenSource.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/2025-08-05%20OSS%20UN%20Sustainability%20Presentation.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.08.05%20Takahuri%20Sustainability%20Seminar%20Series%20Open%20Source%20Sustainability.pdf
 
 - year: 2025
   date: "2025-08-25"
@@ -1055,7 +1070,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer202510Quick2.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/IEEE%20Presentation_%2010%20quick%20tips%20for%20making%20your%20software%20outlive%20your%20job.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.08.25%20IEEE%20NZ%20Central%20Postgraduate%20Symposium%2010%20quick%20tips%20for%20making%20your%20software%20outlive%20your%20job.pdf
 
 - year: 2025
   date: "2025-05-17"
@@ -1069,7 +1084,7 @@
   url: https://en.wikipedia.org/wiki/Wikipedia:WikiCon_Aotearoa/Christchurch_2025
   pdf:
   bib: /publications/bib/Littauer2025OpenRefine.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/WikiCon%20%E2%80%93%20OpenRefine%20Presentation.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2025.05.17%20WikiCon%20Aotearoa%202025%20OpenRefine.pdf
 
 - year: 2025
   type: Software
@@ -1162,6 +1177,7 @@
   doi: 10.6084/m9.figshare.25345879
   pdf:
   bib: /publications/bib/Littauer2024SustainOSSUniversity.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2024.02.08%20eResearch%20NZ%202024%20SustainOSS%20and%20University%20OSPOs.pptx
 
 - year: 2024
   date: "2024-01-22"
@@ -1192,7 +1208,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2024CoreATuin.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/From%20Core%20to%20A%27Tuin_%20Citing%20Software%20All%20The%20Way%20Down%20The%20Stack.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2024.10.17%20US-RSE%202024%20From%20Core%20to%20A%27Tuin%20Citing%20Software%20All%20The%20Way%20Down%20the%20Stack.pdf
 
 - year: 2024
   date: "2024-07-24"
@@ -1205,6 +1221,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2024UsingINaturalist.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2024.07.24%20Kiwi%20PyCon%20Using%20iNaturalist%2C%20eBird%2C%20and%20Python%20to%20become%20a%20community%20scientist.pdf
   recording: https://www.youtube.com/watch?v=-KkQEzmOOBY
 
 - year: 2024
@@ -1218,7 +1235,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2024WhatSustainable.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/Evergreen%20Keynote%20What%20is%20Sustainable%20Open%20Source.pptx
+  slides: https://github.com/RichardLitt/talks/blob/main/2024.04.23%20Evergreen%20International%20Conference%20What%20is%20sustainable%20open%20source.pptx
 
 - year: 2024
   date: "2024-07-23"
@@ -1231,6 +1248,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2024EBirdSeamounts.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2024.07.23%20GUADEC%202024%20eBird%20Seamounts.odp
   recording: https://www.youtube.com/watch?v=0oRa8bnNUjk&t=2410s
 
 - year: 2024
@@ -1273,7 +1291,7 @@
   url: https://osem.seagl.org/conferences/seagl2023/program/proposals/1003
   pdf:
   bib: /publications/bib/Littauer2023UsingFLOSS.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/Using%20FLOSS%20to%20plan%20your%20daily%20exercise%20by%20birding%21.pptx
+  slides: https://github.com/RichardLitt/talks/blob/main/2023.11.03%20SeaGL%202023%20Using%20FLOSS%20to%20plan%20your%20daily%20exercise%20by%20birding%21.pptx
   recording: https://www.youtube.com/live/9-mCsIonljc?si=v1UPT6wME9ahbq1X&t=4868
 
 - year: 2023
@@ -1287,7 +1305,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2023RoseAny.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/A%20rose%20by%20any%20other%20%24variable.pptx
+  slides: https://github.com/RichardLitt/talks/blob/main/2023.10.28%20Interdisciplinary%20Open%20Practices%20Workshop%20A%20rose%20by%20any%20other%20%24variable.pptx
 
 - year: 2023
   date: "2023-07-14"
@@ -1301,6 +1319,7 @@
   url: https://2023.fossy.us/schedule/presentation/78/
   pdf:
   bib: /publications/bib/Littauer2023WhereDoes.bib
+  slides: https://github.com/RichardLitt/talks/blob/main/2023.07.14%20FOSSY%20Where%20does%20sustaining%20open%20source%20fall%20down.pptx
 
 - year: 2023
   date: "2023-05-11"
@@ -1528,7 +1547,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2018NVCOver.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/nvc.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2018%20Open%20Source%20Montreal%20NVC%20over%20MVC.pdf
 
 - year: 2018
   date: "2018-06"
@@ -1571,7 +1590,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2017HackingGit.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/Toronto%20PolyHack%20Git.key
+  slides: https://github.com/RichardLitt/talks/blob/main/2017.08.29%20PolyHack%20Toronto%20Hacking%20the%20Git%20protocol.key
 
 - year: 2017
   date: "2017-01-31"
@@ -1584,7 +1603,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2017BootstrappingFlipflops.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/bootstrapping%20your%20flipflops.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2017.01.31%20Aerolab%20and%20Hacker%20Paradise%20bootstrapping%20your%20flipflops.pdf
 
 - year: 2017
   type: Dictionary
@@ -1662,7 +1681,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2016Nameyourcontributors.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/name-your-contributors.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2016.03.03%20BostonJS%20name-your-contributors.pdf
 
 - year: 2016
   date: "2016-06-30"
@@ -1675,7 +1694,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2016Nomadism.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/nomadism.key
+  slides: https://github.com/RichardLitt/talks/blob/main/2016.06.30%20Hacker%20Paradise%20Nomadism.key
 
 - year: 2016
   date: "2016-03-20"
@@ -1688,7 +1707,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2016Multiformats.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/multiformats.key
+  slides: https://github.com/RichardLitt/talks/blob/main/2016.03.20%20Decentralized%20Web%20Montreal%20Multiformats.key
 
 - year: 2016
   type: Dictionary
@@ -1713,7 +1732,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2015GitYolo.bib
-  slides: https://github.com/RichardLitt/talks/blob/main/git%20yolo.pdf
+  slides: https://github.com/RichardLitt/talks/blob/main/2015.11.19%20BrooklynJS%20git%20yolo.pdf
   recording: https://www.youtube.com/watch?v=_KY9ltbdoK4
 
 - year: 2015
