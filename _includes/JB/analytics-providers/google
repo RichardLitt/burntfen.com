@@ -1,11 +1,3 @@
-<script src="{{ HOME_PATH }}assets/js/googleAnalytics.min.js"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TC08D6MGEK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TC08D6MGEK');
-</script>
+<!-- Google tag (gtag.js). The setup is in assets/js/gtag.js, not inline, so the CSP allows it. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.JB.analytics.google.tracking_id }}"></script>
+<script src="{{ HOME_PATH }}assets/js/gtag.js"></script>
