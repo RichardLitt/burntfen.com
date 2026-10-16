@@ -35,10 +35,12 @@
 <section class="publication-year">
 <h3>{{ group.name }}</h3>
 <ul>
-{%- comment %} Newest first by date; undated entries follow in file order {% endcomment %}
-{%- assign dated = group.items | where_exp: "pub", "pub.date" | sort: "date" | reverse %}
-{%- assign undated = group.items | where_exp: "pub", "pub.date == nil" %}
-{%- assign items = dated | concat: undated %}
+{%- comment %} In-press entries first, as they're the most recent; then newest first by date; undated entries follow in file order {% endcomment %}
+{%- assign in_press = group.items | where: "status", "In Press" %}
+{%- assign published = group.items | where_exp: "pub", "pub.status != 'In Press'" %}
+{%- assign dated = published | where_exp: "pub", "pub.date" | sort: "date" | reverse %}
+{%- assign undated = published | where_exp: "pub", "pub.date == nil" %}
+{%- assign items = in_press | concat: dated | concat: undated %}
 {%- for pub in items %}
 {%- comment %} `type` may be a single type or a list of them {% endcomment %}
 {%- assign pub_types = pub.type | join: "|" | split: "|" %}
