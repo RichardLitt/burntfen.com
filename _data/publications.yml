@@ -13,7 +13,7 @@
 #                          after the links that shows it above the tags.
 #   doi                  - bare DOI, e.g. 10.11646/zootaxa.5792.1.12
 #   url                  - landing page, when there's no DOI or it adds something
-#   pdf, bib             - paths under /publications/ or full URLs. Entries with no pdf
+#   pdf, bib             - paths under /publications/ or full URLs. Entries with no pdf, no preprint
 #                          and no Zenodo/arXiv DOI get an "email me" link instead
 #                          (papers only; not talks, posters, software, data, edited volumes, popular articles or creative writing).
 #   slides, poster, recording, preprint - optional
@@ -608,6 +608,7 @@
   doi:
   pdf:
   bib: /publications/bib/Bubendorfer2026CommunityScience.bib
+  preprint: /publications/Bubendorfer2026CommunityScience-preprint.pdf
 
 - year: 2026
   date: "2026-10-02"
@@ -620,6 +621,7 @@
   doi:
   pdf:
   bib: /publications/bib/Littauer2026DataRescue.bib
+  preprint: /publications/Littauer2026DataRescue-preprint.pdf
 
 - year: 2026
   type: Presentation

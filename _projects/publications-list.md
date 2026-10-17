@@ -63,7 +63,7 @@
 {%- assign not_a_paper = "Presentation,Poster,Software,Data,Edited Volume,Popular Article,Creative Writing,Dictionary" | split: "," %}
 {%- assign is_paper = false %}
 {%- for t in pub_types %}{% unless not_a_paper contains t %}{% assign is_paper = true %}{% endunless %}{% endfor %}
-{%- unless pub.pdf or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
+{%- unless pub.pdf or pub.preprint or open_doi %}{% if is_paper %}{% assign request = true %}{% endif %}{% endunless %}
 {%- capture abstract_id %}abstract-{{ group.name | slugify }}-{{ forloop.index }}{% endcapture %}
 {%- if pub.url or pub.pdf or pub.preprint or pub.bib or pub.slides or pub.poster or pub.recording or request or pub.abstract %}
 <div class="publication-links">
