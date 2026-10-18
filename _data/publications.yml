@@ -1971,6 +1971,7 @@
   bib: /publications/bib/Littauer2012RedatingLoss.bib
 
 - year: 2012
+  date: "2012-04"
   type: Conference Paper
   topics: [Linguistics, Language Evolution]
   peer_reviewed: true
@@ -1979,7 +1980,7 @@
     Richard Littauer (2012). A Reanalysis of Anatomical Changes for Language. In: O. Ozbak, T. Soultatis, S. Kampouri and A. Menkabu, eds., *Language at the University of Essex (LangUE) 2011 Proceedings*, pp. 25–30. Department of Language and Linguistics, University of Essex.
   abstract: |-
     Laryngeal air sacs occur in many different species of primates. In the case of *Homo sapiens*, their presence has been lost. This has been argued to have occurred before *Homo heidelbergensis*, due to a loss of the bulla in the hyoid bone from *Australopithecus afarensis* (Martinez, 2008), at a range of 500kya to 3.3mya. (de Boer, to appear). Justifications for the loss of laryngeal air sacs include infection, the ability to modify breathing patterns and the reduction of a need for an antihyperventilating device (Hewitt et al, 2002), and linguistic selection against air sacs as they are disadvantageous for subtle, timed, and distinct sounds. (de Boer, to appear). Further, it has been suggested that the loss goes against the significant correlation of air sac retention to evolutionary growth in body mass (Hewitt et al., 2002). I argue that the loss of air sacs may have occurred more recently than 3.3mya, as the loss of the bulla in the hyoid does not exclude the possibility of airs sacs, as laryngeal air sacs can herniate between two muscles regularly in other species (Frey et al., 2007), and as vestigial air sacs in *Homo sapiens* indicate a shorter evolutionary timescale. Further, I argue that *Homo sapiens* was not an exception to the smaller body weight and loss correlation, as a size reduction in *Homo sapiens* from *Homo heidelbergensis* was not accounted for in the previous synchronic study. It is hoped that these arguments will shed light on the anatomical pre-adaptations or adaptations for language use in hominins.
-  doi:
+  doi: 10.5281/zenodo.23458839
   pdf: /publications/Littauer2012ReanalysisAnatomical.pdf
   bib: /publications/bib/Littauer2012ReanalysisAnatomical.bib
   slides: http://www.slideshare.net/RichLitt/a-reanalysis-of-anatomical-changes-for-language
