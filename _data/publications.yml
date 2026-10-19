@@ -1485,14 +1485,12 @@
   type: Report
   topics: [Open Source, OSS Policy]
   peer_reviewed: false
-  title: "Sustain in 2021: Event Report"
+  title: "Sustain in 2021"
   citation: |-
-    Richard Littauer, Benjamin Nickolls, John Hill, Martin Wright (2021). Sustain in 2021: Event Report. Sustain.
-  abstract: |-
-    Sustain is a community exploring, documenting and working to answer a single question: how do we maintain open source software? This report summarises discussions from the Sustain community's events and working groups, covering using open source software, building and maintaining open source communities, sustaining projects financially, and evolving open source software, including governance, documentation, burnout, business models, dependency funding, academia, ethics, open source in Africa, and environmentalism.
+    Richard Littauer, Benjamin Nickolls, John Hill, Martin Wright (2021). Sustain in 2021. Sustain.
   doi:
   url: https://sustainoss.org/assets/pdf/Sustain-In-2021-Event-Report.pdf
-  pdf:
+  pdf: /publications/Littauer2021SustainIn.pdf
   bib: /publications/bib/Littauer2021SustainIn.bib
 
 - year: 2021
