@@ -1846,8 +1846,10 @@
   title: "Data Management Guide for Public Participation in Scientific Research"
   citation: |-
     Andrea Wiggins, Rick Bonney, Eric Graham, Sandra Henderson, Steve Kelling, Richard Littauer, Gretchen LeBuhn, Kelly Lotts, William Michener, Greg Newman, Eric Russell, Robert Stevenson, Jake Weltzin (2013). Data Management Guide for Public Participation in Scientific Research. *DataONE Working Group*: Albuquerque, NM.
+  abstract: |-
+    This guide provides a step-by-step introduction to the data management life cycle. It includes examples from citizen science projects and links to best practices and tools to help project organizers optimize the quality, usability, and accessibility of their project data. Many benefits result from following best practices to manage the data life cycle for a citizen science project. Organizers spend less time on data management and more time on project goals by investing in data management plans and practices. Better data management makes data easier to find, use, analyze, share, and reuse. In the long term, following good data management practices means that citizen science data can contribute to decision-making, policies, and research beyond the project’s original scope.
   doi:
-  pdf:
+  pdf: /publications/Wiggins2013DataManagement.pdf
   bib: /publications/bib/Wiggins2013DataManagement.bib
 
 - year: 2013
