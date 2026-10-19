@@ -1481,6 +1481,19 @@
   bib: /publications/bib/Littauer2022MoreThan.bib
 
 - year: 2021
+  date: "2021-12"
+  type: Report
+  topics: [Open Source, OSS Policy]
+  peer_reviewed: false
+  title: "Sustain in 2021"
+  citation: |-
+    Richard Littauer, Benjamin Nickolls, John Hill, Martin Wright (2021). Sustain in 2021. Sustain.
+  doi:
+  url: https://sustainoss.org/assets/pdf/Sustain-In-2021-Event-Report.pdf
+  pdf: /publications/Littauer2021SustainIn.pdf
+  bib: /publications/bib/Littauer2021SustainIn.bib
+
+- year: 2021
   date: "2021-11-06"
   type: Presentation
   topics: [Ornithology, Open Source, Bioacoustics]
