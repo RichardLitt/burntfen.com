@@ -362,7 +362,7 @@
 - year: 2026
   date: "2026-08-05"
   type: Data
-  topics: [Ornithology, Community Science, Open Source]
+  topics: [AI, Ornithology, Community Science, Open Source]
   peer_reviewed: false
   title: "Data sources for HPAI study on Skua, Kāhu, and Kārearea"
   citation: |-
@@ -967,7 +967,7 @@
 - year: 2025
   date: "2025-11-17"
   type: [Conference Paper, Presentation]
-  topics: [Ornithology, Community Science, Research Software]
+  topics: [AI, Ornithology, Community Science, Research Software]
   peer_reviewed: true
   title: "Harmonizing Community Science Datasets to Model Highly Pathogenic Avian Influenza (HPAI) in Birds in the Subantarctic"
   citation: |-
