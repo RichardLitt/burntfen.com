@@ -1,5 +1,5 @@
 {% assign publications = site.data.publications -%}
-{% assign topics = publications | map: "topics" | join: "|" | split: "|" | where_exp: "topic", "topic != ''" | uniq | sort -%}
+{% assign topics = publications | map: "topics" | join: "|" | split: "|" | where_exp: "topic", "topic != ''" | uniq | sort_natural -%}
 {% assign types = publications | map: "type" | join: "|" | split: "|" | uniq | sort -%}
 {% assign statuses = publications | map: "status" | compact | uniq -%}
 <div id="publication-filters">
@@ -92,7 +92,9 @@
 {%- for t in pub_types %}
 <button type="button" class="pub-tag" data-tag="{{ t | slugify }}" aria-pressed="false">{{ t }}</button>
 {%- endfor %}
-{%- for topic in pub.topics %}
+{%- comment %} Topics always appear in alphabetical order {% endcomment %}
+{%- assign pub_topics = pub.topics | sort_natural %}
+{%- for topic in pub_topics %}
 <button type="button" class="pub-tag topic topic-{{ topic | slugify }}" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
 {%- endfor %}
 </div>
