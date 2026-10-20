@@ -1,16 +1,15 @@
 {% assign publications = site.data.publications -%}
-{% assign topics = publications | map: "topics" | join: "|" | split: "|" | where_exp: "topic", "topic != ''" | uniq | sort -%}
-{% assign types = publications | map: "type" | join: "|" | split: "|" | uniq | sort -%}
-{% assign statuses = publications | map: "status" | compact | uniq -%}
+{% assign topics = publications | map: "topics" | join: "|" | split: "|" | where_exp: "topic", "topic != ''" | uniq | sort_natural -%}
+{% assign types = publications | map: "type" | join: "|" | split: "|" | uniq | sort_natural -%}
+{% assign statuses = publications | map: "status" | compact | uniq | join: "|" -%}
+{% assign shows = "Peer Reviewed|During PhD|" | append: statuses | split: "|" | sort_natural -%}
 <div id="publication-filters">
 <label for="publication-search" class="sr-only">Search publications</label>
 <input type="search" id="publication-search" class="form-control" placeholder="Search by title, author, journal, year…">
 <div class="tag-group" role="group" aria-label="Filter by review status">
 <span class="tag-group-label">Show</span>
-<button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
-<button type="button" class="pub-tag" data-tag="during-phd" aria-pressed="false">During PhD</button>
-{%- for status in statuses %}
-<button type="button" class="pub-tag" data-tag="{{ status | slugify }}" aria-pressed="false">{{ status }}</button>
+{%- for show in shows %}
+<button type="button" class="pub-tag" data-tag="{{ show | slugify }}" aria-pressed="false">{{ show }}</button>
 {%- endfor %}
 </div>
 <div class="tag-group" role="group" aria-label="Filter by topic">
@@ -82,18 +81,17 @@
 {%- if pub.abstract %}
 <div class="publication-abstract" id="{{ abstract_id }}" hidden>{{ pub.abstract | markdownify }}</div>
 {%- endif %}
+{%- comment %} Tags always appear in alphabetical order; each entry is "Label::kind" so topics keep their colours {% endcomment %}
+{%- capture pub_tags %}{% if pub.peer_reviewed %}Peer Reviewed::other|{% endif %}{% if pub.status %}{{ pub.status }}::other|{% endif %}{% for t in pub_types %}{{ t }}::other|{% endfor %}{% for topic in pub.topics %}{{ topic }}::topic|{% endfor %}{% endcapture %}
+{%- assign pub_tags = pub_tags | split: "|" | sort_natural %}
 <div class="publication-tags">
-{%- if pub.peer_reviewed %}
-<button type="button" class="pub-tag" data-tag="peer-reviewed" aria-pressed="false">Peer Reviewed</button>
+{%- for entry in pub_tags %}
+{%- assign tag = entry | split: "::" %}
+{%- if tag[1] == "topic" %}
+<button type="button" class="pub-tag topic topic-{{ tag[0] | slugify }}" data-tag="{{ tag[0] | slugify }}" aria-pressed="false">{{ tag[0] }}</button>
+{%- else %}
+<button type="button" class="pub-tag" data-tag="{{ tag[0] | slugify }}" aria-pressed="false">{{ tag[0] }}</button>
 {%- endif %}
-{%- if pub.status %}
-<button type="button" class="pub-tag" data-tag="{{ pub.status | slugify }}" aria-pressed="false">{{ pub.status }}</button>
-{%- endif %}
-{%- for t in pub_types %}
-<button type="button" class="pub-tag" data-tag="{{ t | slugify }}" aria-pressed="false">{{ t }}</button>
-{%- endfor %}
-{%- for topic in pub.topics %}
-<button type="button" class="pub-tag topic topic-{{ topic | slugify }}" data-tag="{{ topic | slugify }}" aria-pressed="false">{{ topic }}</button>
 {%- endfor %}
 </div>
 </li>
