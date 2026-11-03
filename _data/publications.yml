@@ -188,6 +188,27 @@
   bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
 
 - year: 2026
+  date: "2026-11-02"
+  type: [Journal Article, Full Paper]
+  topics: [Research Software, Open Source, AI]
+  peer_reviewed: true
+  title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
+  citation: |-
+    Warrick Ball, Patrick Diehl, Daniel S. Katz, Richard Littauer, Kyle E. Niemeyer, Arfon Smith, Charlotte Soneson (2026). The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI. *Electronic Communications of the EASST* 86(1).
+  abstract: |-
+    The Journal of Open Source Software (JOSS) is a community-driven publishing platform for research software, having published over 3,500 articles since its inception in 2016. Built on an open infrastructure hosted on GitHub, JOSS integrates elements of scholarly communication with open-source development practices. Its review process is transparent and iterative, evaluating both the submitted manuscript and the associated software, thereby promoting reproducibility and high-quality software engineering practices.
+
+    JOSS provides an important mechanism for recognizing the contributions of Research Software Engineers (RSEs) within the formal scholarly record. By offering a lightweight publication model tailored to research software, it enables authors to receive credit for software development while also fostering community participation through roles such as authors, reviewers, and editors.
+
+    As the research software landscape evolves, generative AI (GenAI) introduces both opportunities and challenges for platforms like JOSS. Advances in AI-assisted code generation significantly reduce the time required to develop software, complicating traditional notions of "substantial scholarly effort," a criterion introduced by JOSS to ensure meaningful contributions. While these tools may broaden participation and lower barriers to entry, they also raise critical questions about how to assess originality, effort, and scientific value in submitted work.
+
+    This paper presents an overview of JOSS as an open-source publishing platform, examines its role in supporting RSE recognition, and discusses emerging considerations for evaluating research software in the era of generative AI. We outline current thinking within the JOSS community and highlight the need for ongoing dialogue to adapt publication criteria to a rapidly changing technological landscape.
+  doi: 10.14279/eceasst.v86.1.2818
+  url: https://eceasst.org/index.php/eceasst/article/view/2818
+  pdf: /publications/Ball2026JournalOpen.pdf
+  bib: /publications/bib/Ball2026JournalOpen.bib
+
+- year: 2026
   date: "2026-10-16"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
@@ -584,18 +605,6 @@
   doi:
   pdf:
   bib: /publications/bib/Nakahara2026NewName.bib
-
-- year: 2026
-  type: [Journal Article, Full Paper]
-  topics: [Research Software, Open Source, AI]
-  peer_reviewed: true
-  status: In Press
-  title: "The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI"
-  citation: |-
-    Warrick Ball, Patrick Diehl, Daniel S. Katz, Richard Littauer, Kyle E. Niemeyer, Arfon M. Smith (2026). The Journal of Open Source Software (JOSS): An open community and platform providing credit to software developers in the time of GenAI. *ECEASST*. In press.
-  doi:
-  pdf:
-  bib: /publications/bib/Ball2026JournalOpen.bib
 
 - year: 2026
   date: "2026-10-01"
