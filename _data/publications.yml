@@ -188,6 +188,19 @@
   bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
 
 - year: 2026
+  date: "2026-11-04"
+  type: [Journal Article, Short Note]
+  topics: [Taxonomic Nomenclature, Invertebrates]
+  peer_reviewed: true
+  title: "A new name is not needed for Hesperia zachaeus Plötz, 1883, nec Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae)"
+  citation: |-
+    Shinichi Nakahara, Richard Littauer, John V. Calhoun (2026). A new name is not needed for *Hesperia zachaeus* Plötz, 1883, *nec* Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae). *Zootaxa* 5897(5): 598–600.
+  doi: 10.11646/zootaxa.5897.5.12
+  url: https://mapress.com/zt/article/view/zootaxa.5897.5.12
+  pdf:
+  bib: /publications/bib/Nakahara2026NewName.bib
+
+- year: 2026
   date: "2026-11-02"
   type: [Journal Article, Full Paper]
   topics: [Research Software, Open Source, AI]
@@ -593,18 +606,6 @@
   url: https://journal.westernfieldornithologists.org/index.php/westernbirds/article/view/2014
   pdf: https://journal.westernfieldornithologists.org/index.php/westernbirds/article/download/2014/1892
   bib: /publications/bib/Littauer2026OregonDarkeyed.bib
-
-- year: 2026
-  type: [Journal Article, Short Note]
-  topics: [Taxonomic Nomenclature, Invertebrates]
-  peer_reviewed: true
-  status: In Press
-  title: "A new name is not needed for Hesperia zachaeus Plötz, 1883, nec Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae)"
-  citation: |-
-    Shinichi Nakahara, Richard Littauer, John V. Calhoun (2026). A new name is not needed for *Hesperia zachaeus* Plötz, 1883, *nec* Fabricius, 1798 (Lepidoptera: Riodinidae, Hesperiidae). *Zootaxa*. In press.
-  doi:
-  pdf:
-  bib: /publications/bib/Nakahara2026NewName.bib
 
 - year: 2026
   date: "2026-10-01"
