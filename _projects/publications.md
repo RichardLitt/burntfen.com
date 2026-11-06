@@ -18,7 +18,7 @@ redirect_from:
 ---
 {% include JB/setup %}
 
-Most of my academic publications can be found on [ORCID](https://orcid.org/0000-0001-5428-7535) and [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ). Below is a list of my publications, along with other research outputs like talks, reports, data and software. Only peer-reviewed work is shown at first; click **Peer Reviewed** to turn that filter off and see everything.
+Below is a list of my publications, along with other research outputs like talks, reports, data and software. Only peer-reviewed work is shown at first; click **Peer Reviewed** to turn that filter off and see everything. You can also see my work on [ORCID](https://orcid.org/0000-0001-5428-7535), [Google Scholar](http://scholar.google.com/citations?hl=en&amp;user=X2UD62YAAAAJ), and my [Elements profile](https://people.wgtn.ac.nz/Richard.Littauer/about).
 
 Every entry has a bibtex file, and talks have slides where I have them. Here is all of the [bibtex](https://www.burntfen.com/publications/bib/publications.bib) information at once, if you're really keen.
 
