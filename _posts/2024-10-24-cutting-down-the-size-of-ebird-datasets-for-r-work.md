@@ -7,7 +7,7 @@ tags: ["R", "coding", "code", "ebird", "science"]
 date: 2024-10-24 21:48:00 +13:00
 published_time: 2024-10-24 21:48:00 +13:00
 public: false
-picture: "assets/img/posts/Screenshot 2024-10-24 at 22.09.22.png"
+picture: ebird-datasets-foliage.png
 ---
 {% include JB/setup %}
 
