@@ -1,0 +1,13 @@
+#subscribe button {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-left: 0.75em;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
