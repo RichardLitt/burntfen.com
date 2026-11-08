@@ -22,7 +22,7 @@ description: "A short pop-up email list and blog for how I am doing and what I a
   {% assign entry_id = entry.date | date: "%Y-%m-%d" %}
   <article class="daily-note" id="{{ entry_id }}">
     <h2><a href="#{{ entry_id }}">{{ entry.title }}</a></h2>
-    <p><i>{{ entry.date | date_to_long_string }}</i></p>
+    <p>{% include daily-day.html date=entry.date %}<br /><i>{{ entry.date | date_to_long_string }}</i></p>
     {{ entry.content }}
   </article>
 

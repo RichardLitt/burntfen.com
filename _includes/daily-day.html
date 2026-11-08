@@ -1,0 +1,4 @@
+{%- assign first_day = "2026-10-27" | date: "%s" -%}
+{%- assign this_day = include.date | date: "%Y-%m-%d" | date: "%s" -%}
+{%- assign day_number = this_day | minus: first_day | divided_by: 86400 | plus: 1 -%}
+Day {{ day_number }} of 75

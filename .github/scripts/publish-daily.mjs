@@ -106,7 +106,7 @@ async function sendEmail(entry) {
     const content = entry.html
         .replace(/(href|src)="\//g, `$1="${SITE_URL}/`)
         .replace(/<a /g, '<a style="color: #2450c8; font-weight: bold" ');
-    const values = { date, archive_url: archive, unsubscribe_url: unsubscribe };
+    const values = { date, day: entry.day, archive_url: archive, unsubscribe_url: unsubscribe };
     const html = renderTemplate('_email.html', { ...values, content });
     const text = renderTemplate('_email.txt', { ...values, content: markdownSource(entry) });
 
