@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{% assign entries = site.daily | reverse %}
+[
+{% for entry in entries limit:14 %}
+  {
+    "id": {{ entry.date | date: "%Y-%m-%d" | jsonify }},
+    "path": {{ entry.relative_path | jsonify }},
+    "title": {{ entry.title | jsonify }},
+    "send": {% if entry.send == false %}false{% else %}true{% endif %},
+    "html": {{ entry.content | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

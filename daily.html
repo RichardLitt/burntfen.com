@@ -1,0 +1,27 @@
+---
+layout: page
+title: Daily
+header: Daily
+description: "What I got done each day, in under 300 words."
+---
+{% include JB/setup %}
+
+<p>What I got done each day, in under 300 words.</p>
+
+{% include daily-subscribe.html %}
+
+<hr />
+
+{% assign entries = site.daily | reverse %}
+{% for entry in entries %}
+  {% assign entry_id = entry.date | date: "%Y-%m-%d" %}
+  <article id="{{ entry_id }}">
+    <h2><a href="#{{ entry_id }}">{{ entry.title }}</a></h2>
+    <div class="post">
+      <p class="published"><i><span class="date">{{ entry.date | date_to_long_string }}</span></i></p>
+      {{ entry.content }}
+    </div>
+  </article>
+
+  <hr class="post-divider"/>
+{% endfor %}
