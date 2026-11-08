@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /daily.json
+permalink: /notesfromchina.json
 ---
 {% assign entries = site.daily | reverse %}
 [

@@ -1,2 +1,17 @@
 [build.environment]
   TZ='Pacific/Auckland'
+
+[[redirects]]
+  from = "/daily"
+  to = "/notesfromchina"
+  status = 301
+
+[[redirects]]
+  from = "/daily.html"
+  to = "/notesfromchina"
+  status = 301
+
+[[redirects]]
+  from = "/daily.json"
+  to = "/notesfromchina.json"
+  status = 301
