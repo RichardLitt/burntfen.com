@@ -12,6 +12,7 @@ permalink: /daily.json
     "title": {{ entry.title | jsonify }},
     "day": {{ day | strip | jsonify }},
     "send": {% if entry.send == false %}false{% else %}true{% endif %},
+    "social": {% if entry.social == false %}false{% else %}true{% endif %},
     "html": {{ entry.content | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}

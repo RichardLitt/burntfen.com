@@ -9,6 +9,7 @@ const MAILGUN_DOMAIN = 'mg.burntfen.com';
 const LIST_ADDRESS = `daily@${MAILGUN_DOMAIN}`;
 const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
+const SOCIAL_LINK = 'burntfen.com/daily';
 const BLUESKY_API = 'https://bsky.social/xrpc';
 
 const MAX_AGE_HOURS = 48;
@@ -89,9 +90,19 @@ function renderTemplate(name, values) {
     });
 }
 
+function splitGraphemes(text) {
+    return [...new Intl.Segmenter('en', { granularity: 'grapheme' }).segment(text)].map((s) => s.segment);
+}
+
 function shorten(text, maxGraphemes) {
-    const graphemes = [...new Intl.Segmenter('en', { granularity: 'grapheme' }).segment(text)].map((s) => s.segment);
+    const graphemes = splitGraphemes(text);
     return graphemes.length <= maxGraphemes ? text : `${graphemes.slice(0, maxGraphemes - 1).join('').trimEnd()}…`;
+}
+
+// "Day 13/75: The title", with only the title shortened if it won't fit.
+function socialLead(entry, maxGraphemes) {
+    const prefix = `${entry.day.replace(' of ', '/')}: `;
+    return `${prefix}${shorten(entry.title, maxGraphemes - splitGraphemes(prefix).length)}`;
 }
 
 async function checkResponse(label, response) {
@@ -137,19 +148,17 @@ async function sendEmail(entry) {
 }
 
 function blueskyRecord(entry) {
-    const url = entryUrl(entry);
-    const title = shorten(entry.title, BLUESKY_MAX_GRAPHEMES - [...new Intl.Segmenter('en', { granularity: 'grapheme' }).segment(` ${url}`)].length);
-    const prefix = `${title} `;
+    const prefix = `${socialLead(entry, BLUESKY_MAX_GRAPHEMES - splitGraphemes(` ${SOCIAL_LINK}`).length)} `;
     const byteStart = Buffer.byteLength(prefix);
     return {
         $type: 'app.bsky.feed.post',
-        text: `${prefix}${url}`,
+        text: `${prefix}${SOCIAL_LINK}`,
         createdAt: new Date().toISOString(),
         langs: ['en'],
         facets: [
             {
-                index: { byteStart, byteEnd: byteStart + Buffer.byteLength(url) },
-                features: [{ $type: 'app.bsky.richtext.facet#link', uri: url }],
+                index: { byteStart, byteEnd: byteStart + Buffer.byteLength(SOCIAL_LINK) },
+                features: [{ $type: 'app.bsky.richtext.facet#link', uri: entryUrl(entry) }],
             },
         ],
     };
@@ -178,7 +187,8 @@ async function postToBluesky(entry) {
 }
 
 async function postToMastodon(entry) {
-    const status = `${shorten(entry.title, MASTODON_MAX_CHARS - MASTODON_LINK_COST)} ${entryUrl(entry)}`;
+    // Mastodon only links URLs with a scheme, and hides the scheme when displaying them.
+    const status = `${socialLead(entry, MASTODON_MAX_CHARS - MASTODON_LINK_COST)} https://${SOCIAL_LINK}`;
     if (DRY_RUN) return console.log(`[dry run] mastodon: ${status}`);
 
     const instance = requireEnv('MASTODON_INSTANCE').replace(/^https?:\/\//, '').replace(/\/+$/, '');
@@ -234,7 +244,9 @@ async function main() {
             failures.push(`${path}: not sent`);
             continue;
         }
-        for (const channel of CHANNELS) {
+        const channels = !ENTRY && !entry.social ? CHANNELS.filter((channel) => channel === 'email') : CHANNELS;
+        if (channels.length < CHANNELS.length) console.log(`${path}: social is false, so skipping social posts`);
+        for (const channel of channels) {
             try {
                 await SENDERS[channel](entry);
                 console.log(`${path}: ${channel} done`);

@@ -154,7 +154,8 @@ task :review do
   end
 end # task :page
 
-# Usage: rake daily title="A Title" [date="2012-02-09"]
+# Usage: rake daily title="A Title" [date="2012-02-09"] [-q|--quiet]
+# With -q or --quiet, the entry won't be posted to Bluesky or Mastodon.
 desc "Begin a new daily log entry in #{CONFIG['daily']}"
 task :daily do
   mkdir_p CONFIG['daily']
@@ -168,6 +169,7 @@ task :daily do
     entry.puts "---"
     entry.puts "title: \"#{title.gsub('"', '\\"')}\""
     entry.puts "date: #{date_time}"
+    entry.puts "social: false" if Rake::FileUtilsExt.verbose_flag == false
     entry.puts "---"
     entry.puts ""
   end
