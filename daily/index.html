@@ -20,13 +20,11 @@ description: "A short pop-up email list and blog for how I am doing and what I a
 {% assign entries = site.daily | reverse %}
 {% for entry in entries %}
   {% assign entry_id = entry.date | date: "%Y-%m-%d" %}
-  <article id="{{ entry_id }}">
+  <article class="daily-note" id="{{ entry_id }}">
     <h2><a href="#{{ entry_id }}">{{ entry.title }}</a></h2>
-    <div class="post">
-      <p class="published"><i><span class="date">{{ entry.date | date_to_long_string }}</span></i></p>
-      {{ entry.content }}
-    </div>
+    <p><i>{{ entry.date | date_to_long_string }}</i></p>
+    {{ entry.content }}
   </article>
 
-  <hr class="post-divider"/>
+  <hr />
 {% endfor %}
