@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /daily.json
+---
+{% assign entries = site.daily | reverse %}
+[
+{% for entry in entries limit:14 %}
+  {% capture day %}{% include daily-day.html date=entry.date %}{% endcapture %}
+  {
+    "id": {{ entry.date | date: "%Y-%m-%d" | jsonify }},
+    "path": {{ entry.relative_path | jsonify }},
+    "title": {{ entry.title | jsonify }},
+    "day": {{ day | strip | jsonify }},
+    "send": {% if entry.send == false %}false{% else %}true{% endif %},
+    "social": {% if entry.social == false %}false{% else %}true{% endif %},
+    "html": {{ entry.content | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

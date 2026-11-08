@@ -1,0 +1,9 @@
+<form id="subscribe" action="/.netlify/functions/daily-subscribe" method="post">
+  <p><label for="daily-email">Receive an email a day, until January 9th:</label></p>
+  <input type="email" name="email" id="daily-email" placeholder="email address" autocomplete="email" required>
+  <!-- Left empty by people; bots that fill it in are ignored. -->
+  <div hidden aria-hidden="true">
+    <input type="text" name="website" tabindex="-1" autocomplete="off" value="">
+  </div>
+  <button type="submit">Subscribe</button>
+</form>

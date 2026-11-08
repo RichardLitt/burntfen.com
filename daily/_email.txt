@@ -1,0 +1,14 @@
+Notes from China
+{{day}}
+{{date}}
+
+{{content}}
+
+--
+You are subscribed to Richard Littauer's Notes from China.
+https://www.burntfen.com
+
+This newsletter will end and you will be unsubscribed on January 9th.
+
+Archived: {{archive_url}}
+Unsubscribe: {{unsubscribe_url}}

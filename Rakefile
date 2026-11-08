@@ -12,6 +12,7 @@ CONFIG = {
   'posts' => File.join(SOURCE, "_posts"),
   'projects' => File.join(SOURCE, "_projects"),
   'reviews' => File.join(SOURCE, "_reviews"),
+  'daily' => File.join(SOURCE, "_daily"),
   'drafts' => File.join(SOURCE, "_drafts"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
@@ -152,6 +153,27 @@ task :review do
     review.puts ""
   end
 end # task :page
+
+# Usage: rake daily title="A Title" [date="2012-02-09"]
+# Change social to false in the entry to skip posting to Bluesky and Mastodon.
+desc "Begin a new daily log entry in #{CONFIG['daily']}"
+task :daily do
+  mkdir_p CONFIG['daily']
+  title = ENV["title"] || "untitled"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  date, date_time = RakeHelper.date_time
+  filename = RakeHelper.check_filename('daily', "#{date}-#{slug}.#{CONFIG['post_ext']}")
+
+  puts "Creating new daily entry: #{filename}"
+  open(filename, 'w') do |entry|
+    entry.puts "---"
+    entry.puts "title: \"#{title.gsub('"', '\\"')}\""
+    entry.puts "date: #{date_time}"
+    entry.puts "social: true"
+    entry.puts "---"
+    entry.puts ""
+  end
+end # task :daily
 
 desc "Launch preview environment"
 task :preview do
