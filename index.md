@@ -31,7 +31,7 @@ homepage: true
           <a class="more" href="/blog">More posts &rarr;</a>
         </div>
         <div class='email-list'>
-          Pop up email list: <a href="./daily" class="social-media">Notes from China</a>
+          Pop up email list: <a href="./notesfromchina" class="social-media">Notes from China</a>
         </div>
         <div class='social-media-wrapper'>
           <a href="./2023-05-30/socials" class="social-media">Contact or follow me.</a>

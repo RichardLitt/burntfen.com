@@ -9,7 +9,11 @@ const MAILGUN_DOMAIN = 'mg.burntfen.com';
 const LIST_ADDRESS = `daily@${MAILGUN_DOMAIN}`;
 const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
-const SOCIAL_LINK = 'burntfen.com/daily';
+// The newsletter's folder name and URL. Also set in netlify/lib/daily.js.
+const SLUG = 'notesfromchina';
+const PAGE_URL = `${SITE_URL}/${SLUG}`;
+const ENTRIES_URL = `${PAGE_URL}.json`;
+const SOCIAL_LINK = `burntfen.com/${SLUG}`;
 const BLUESKY_API = 'https://bsky.social/xrpc';
 
 const MAX_AGE_HOURS = 48;
@@ -50,21 +54,21 @@ function isTooOld(path) {
 
 async function waitForEntries(paths) {
     const deadline = Date.now() + POLL_TIMEOUT_MS;
-    console.log(`Looking for ${paths.join(', ')} at ${SITE_URL}/daily.json`);
+    console.log(`Looking for ${paths.join(', ')} at ${ENTRIES_URL}`);
     for (;;) {
         try {
-            const response = await fetch(`${SITE_URL}/daily.json?t=${Date.now()}`, { cache: 'no-store' });
+            const response = await fetch(`${ENTRIES_URL}?t=${Date.now()}`, { cache: 'no-store' });
             if (response.ok) {
                 const published = await response.json();
                 if (paths.every((path) => published.some((entry) => entry.path === path))) return published;
-                console.log('Still waiting: not in daily.json yet');
+                console.log(`Still waiting: not in ${ENTRIES_URL} yet`);
             } else {
-                console.log(`Still waiting: daily.json returned ${response.status}`);
+                console.log(`Still waiting: ${ENTRIES_URL} returned ${response.status}`);
             }
         } catch (error) {
             console.log(`Still waiting: ${error.message}`);
         }
-        if (Date.now() > deadline) throw new Error(`Timed out waiting for ${paths.join(', ')} to appear in daily.json`);
+        if (Date.now() > deadline) throw new Error(`Timed out waiting for ${paths.join(', ')} to appear in ${ENTRIES_URL}`);
         await new Promise((resolve) => setTimeout(resolve, POLL_INTERVAL_MS));
     }
 }
@@ -76,7 +80,7 @@ function checkEntry(entry, published) {
 }
 
 function entryUrl(entry) {
-    return `${SITE_URL}/daily#${entry.id}`;
+    return `${PAGE_URL}#${entry.id}`;
 }
 
 function markdownSource(entry) {
@@ -84,7 +88,7 @@ function markdownSource(entry) {
 }
 
 function renderTemplate(name, values) {
-    return readFileSync(new URL(`../../daily/${name}`, import.meta.url), 'utf8').replace(/\{\{(\w+)\}\}/g, (placeholder, key) => {
+    return readFileSync(new URL(`../../${SLUG}/${name}`, import.meta.url), 'utf8').replace(/\{\{(\w+)\}\}/g, (placeholder, key) => {
         if (!(key in values)) throw new Error(`Unknown placeholder ${placeholder} in ${name}`);
         return values[key];
     });
@@ -111,8 +115,8 @@ async function checkResponse(label, response) {
 }
 
 async function sendEmail(entry) {
-    const archive = `${SITE_URL}/daily`;
-    const unsubscribe = TEST_TO ? `${SITE_URL}/daily#unsubscribe-placeholder` : '%mailing_list_unsubscribe_url%';
+    const archive = PAGE_URL;
+    const unsubscribe = TEST_TO ? `${PAGE_URL}#unsubscribe-placeholder` : '%mailing_list_unsubscribe_url%';
     const date = new Date(`${entry.id}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
     const content = entry.html
         .replace(/(href|src)="\//g, `$1="${SITE_URL}/`)

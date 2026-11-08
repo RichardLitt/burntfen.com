@@ -6,6 +6,7 @@ const LIST_ADDRESS = `daily@${DOMAIN}`;
 const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
 const SERIES_NAME = 'Notes from China';
+const SLUG = 'notesfromchina';
 const API_BASE = process.env.MAILGUN_API_BASE || 'https://api.mailgun.net';
 const TOKEN_LIFETIME_SECONDS = 7 * 24 * 60 * 60;
 
@@ -67,7 +68,7 @@ function htmlPage(statusCode, title, body) {
 <body style="font-family: Georgia, serif; max-width: 32em; margin: 4em auto; padding: 0 1em; line-height: 1.5">
 <h1>${escapeHtml(title)}</h1>
 ${body}
-<p><a href="/daily">Back to ${SERIES_NAME}</a></p>
+<p><a href="/${SLUG}">Back to ${SERIES_NAME}</a></p>
 </body>`,
     };
 }
