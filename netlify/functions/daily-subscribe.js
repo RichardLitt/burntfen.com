@@ -1,4 +1,4 @@
-const { DOMAIN, FROM, REPLY_TO, createToken, mailgun, siteUrl, parseForm, htmlPage } = require('../lib/daily');
+const { DOMAIN, FROM, REPLY_TO, SERIES_NAME, createToken, mailgun, siteUrl, parseForm, htmlPage } = require('../lib/daily');
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -27,8 +27,8 @@ exports.handler = async (event) => {
             from: FROM,
             to: email,
             'h:Reply-To': REPLY_TO,
-            subject: "Confirm your subscription to Richard's daily log",
-            text: `Someone, hopefully you, asked to get Richard Littauer's daily log by email.\n\nTo confirm, open this link and press the button:\n\n${link}\n\nIf this wasn't you, ignore this email and nothing will happen.\n`,
+            subject: `Confirm your subscription to ${SERIES_NAME}`,
+            text: `Someone, hopefully you, asked to get Richard Littauer's ${SERIES_NAME} by email.\n\nTo confirm, open this link and press the button:\n\n${link}\n\nIf this wasn't you, ignore this email and nothing will happen.\n`,
             'o:tracking': 'no',
         });
     } catch (error) {

@@ -9,6 +9,9 @@ const MAILGUN_DOMAIN = 'mg.burntfen.com';
 const LIST_ADDRESS = `daily@${MAILGUN_DOMAIN}`;
 const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
+const SERIES_NAME = '75 Missives from the Middle Kingdom';
+const AUTHOR_NAME = 'Richard Littauer';
+const AUTHOR_URL = 'https://www.burntfen.com';
 const BLUESKY_API = 'https://bsky.social/xrpc';
 
 const MAX_AGE_HOURS = 48;
@@ -93,15 +96,27 @@ async function checkResponse(label, response) {
 }
 
 async function sendEmail(entry) {
-    const url = entryUrl(entry);
+    const archive = `${SITE_URL}/daily`;
     const unsubscribe = TEST_TO ? `${SITE_URL}/daily#unsubscribe-placeholder` : '%mailing_list_unsubscribe_url%';
-    const content = entry.html.replace(/(href|src)="\//g, `$1="${SITE_URL}/`);
-    const html = `<div style="max-width: 36em; font-family: Georgia, serif; font-size: 17px; line-height: 1.5; color: #222">
+    const date = new Date(`${entry.id}T12:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const content = entry.html
+        .replace(/(href|src)="\//g, `$1="${SITE_URL}/`)
+        .replace(/<a /g, '<a style="color: #2450c8; font-weight: bold" ');
+    const rule = (top, bottom) => `<hr style="width: 20%; margin: ${top} auto ${bottom} 0; border: 0; border-top: 1px solid #ddd">`;
+    const footerLink = 'style="color: #333; font-weight: bold"';
+    const html = `<div style="max-width: 36em; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6; color: #222">
+<p style="margin: 0 0 1em; font-weight: bold; letter-spacing: 0.25em; color: #111">${SERIES_NAME.toUpperCase()}</p>
+<p style="margin: 0; font-size: 15px; color: #999">${date}</p>
+${rule('2em', '2em')}
 ${content}
-<hr style="border: 0; border-top: 1px solid #ddd; margin: 2em 0 1em">
-<p style="font-size: 13px; color: #666">Also at <a href="${url}">burntfen.com/daily</a>. Reply to reach me directly. <a href="${unsubscribe}">Unsubscribe</a>.</p>
+${rule('1.5em', '2em')}
+<div style="font-size: 15px; color: #333">
+<p style="margin: 0 0 1em">You are subscribed to <a ${footerLink} href="${AUTHOR_URL}">${AUTHOR_NAME}</a>'s <i>${SERIES_NAME}</i>.</p>
+<p style="margin: 0 0 1em">Archived <a ${footerLink} href="${archive}">here</a></p>
+<p style="margin: 0"><a ${footerLink} href="${unsubscribe}">Unsubscribe</a></p>
+</div>
 </div>`;
-    const text = `${markdownSource(entry)}\n\n--\nAlso at ${url}\nReply to reach me directly.\nUnsubscribe: ${unsubscribe}\n`;
+    const text = `${SERIES_NAME.toUpperCase()}\n${date}\n\n${markdownSource(entry)}\n\n--\nYou are subscribed to ${AUTHOR_NAME}'s ${SERIES_NAME}.\n${AUTHOR_URL}\n\nArchived: ${archive}\nUnsubscribe: ${unsubscribe}\n`;
 
     const fields = {
         from: FROM,
@@ -116,7 +131,7 @@ ${content}
     };
     if (!TEST_TO) fields['h:List-Unsubscribe'] = `<${unsubscribe}>`;
 
-    if (DRY_RUN) return console.log(`[dry run] email to ${fields.to}: ${fields.subject}\n${text}`);
+    if (DRY_RUN) return console.log(`[dry run] email to ${fields.to}: ${fields.subject}\n${text}\n${html}`);
 
     const key = Buffer.from(`api:${requireEnv('MAILGUN_API_KEY')}`).toString('base64');
     await checkResponse(

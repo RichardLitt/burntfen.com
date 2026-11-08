@@ -1,7 +1,7 @@
-const { LIST_ADDRESS, isValidToken, mailgun, parseForm, escapeHtml, htmlPage } = require('../lib/daily');
+const { LIST_ADDRESS, SERIES_NAME, isValidToken, mailgun, parseForm, escapeHtml, htmlPage } = require('../lib/daily');
 
 const invalidLink = () =>
-    htmlPage(400, 'That link is not valid', '<p>It may have expired. You can subscribe again from the daily log.</p>');
+    htmlPage(400, 'That link is not valid', '<p>It may have expired. You can subscribe again from the page below.</p>');
 
 // GET only shows a button, because mail scanners open links in emails. Only the
 // POST from that button adds someone to the list.
@@ -16,7 +16,7 @@ exports.handler = async (event) => {
         return htmlPage(
             200,
             'Confirm your subscription',
-            `<p>Send the daily log to ${escapeHtml(token.email)}?</p>
+            `<p>Send <i>${SERIES_NAME}</i> to ${escapeHtml(token.email)}?</p>
 <form method="post">
 ${hidden}
 <button type="submit">Confirm</button>
@@ -42,5 +42,5 @@ ${hidden}
         return htmlPage(502, 'Something went wrong', '<p>Your subscription did not go through. Please try the link again later.</p>');
     }
 
-    return htmlPage(200, "You're subscribed", '<p>The next daily log will land in your inbox. Every email has an unsubscribe link.</p>');
+    return htmlPage(200, "You're subscribed", '<p>The next missive will land in your inbox. Every email has an unsubscribe link.</p>');
 };
