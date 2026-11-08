@@ -9,9 +9,6 @@ const MAILGUN_DOMAIN = 'mg.burntfen.com';
 const LIST_ADDRESS = `daily@${MAILGUN_DOMAIN}`;
 const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
-const SERIES_NAME = '75 Missives from the Middle Kingdom';
-const AUTHOR_NAME = 'Richard Littauer';
-const AUTHOR_URL = 'https://www.burntfen.com';
 const BLUESKY_API = 'https://bsky.social/xrpc';
 
 const MAX_AGE_HOURS = 48;
@@ -85,6 +82,13 @@ function markdownSource(entry) {
     return readFileSync(entry.path, 'utf8').replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '').trim();
 }
 
+function renderTemplate(name, values) {
+    return readFileSync(new URL(`../../daily/${name}`, import.meta.url), 'utf8').replace(/\{\{(\w+)\}\}/g, (placeholder, key) => {
+        if (!(key in values)) throw new Error(`Unknown placeholder ${placeholder} in ${name}`);
+        return values[key];
+    });
+}
+
 function shorten(text, maxGraphemes) {
     const graphemes = [...new Intl.Segmenter('en', { granularity: 'grapheme' }).segment(text)].map((s) => s.segment);
     return graphemes.length <= maxGraphemes ? text : `${graphemes.slice(0, maxGraphemes - 1).join('').trimEnd()}…`;
@@ -102,21 +106,9 @@ async function sendEmail(entry) {
     const content = entry.html
         .replace(/(href|src)="\//g, `$1="${SITE_URL}/`)
         .replace(/<a /g, '<a style="color: #2450c8; font-weight: bold" ');
-    const rule = (top, bottom) => `<hr style="width: 20%; margin: ${top} auto ${bottom} 0; border: 0; border-top: 1px solid #ddd">`;
-    const footerLink = 'style="color: #333; font-weight: bold"';
-    const html = `<div style="max-width: 36em; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6; color: #222">
-<p style="margin: 0 0 1em; font-weight: bold; letter-spacing: 0.25em; color: #111">${SERIES_NAME.toUpperCase()}</p>
-<p style="margin: 0; font-size: 15px; color: #999">${date}</p>
-${rule('2em', '2em')}
-${content}
-${rule('1.5em', '2em')}
-<div style="font-size: 15px; color: #333">
-<p style="margin: 0 0 1em">You are subscribed to <a ${footerLink} href="${AUTHOR_URL}">${AUTHOR_NAME}</a>'s <i>${SERIES_NAME}</i>.</p>
-<p style="margin: 0 0 1em">Archived <a ${footerLink} href="${archive}">here</a></p>
-<p style="margin: 0"><a ${footerLink} href="${unsubscribe}">Unsubscribe</a></p>
-</div>
-</div>`;
-    const text = `${SERIES_NAME.toUpperCase()}\n${date}\n\n${markdownSource(entry)}\n\n--\nYou are subscribed to ${AUTHOR_NAME}'s ${SERIES_NAME}.\n${AUTHOR_URL}\n\nArchived: ${archive}\nUnsubscribe: ${unsubscribe}\n`;
+    const values = { date, archive_url: archive, unsubscribe_url: unsubscribe };
+    const html = renderTemplate('_email.html', { ...values, content });
+    const text = renderTemplate('_email.txt', { ...values, content: markdownSource(entry) });
 
     const fields = {
         from: FROM,

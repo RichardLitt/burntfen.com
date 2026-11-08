@@ -1,0 +1,11 @@
+NOTES FROM CHINA
+{{date}}
+
+{{content}}
+
+--
+You are subscribed to Richard Littauer's Notes from China.
+https://www.burntfen.com
+
+Archived: {{archive_url}}
+Unsubscribe: {{unsubscribe_url}}

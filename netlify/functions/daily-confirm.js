@@ -42,5 +42,5 @@ ${hidden}
         return htmlPage(502, 'Something went wrong', '<p>Your subscription did not go through. Please try the link again later.</p>');
     }
 
-    return htmlPage(200, "You're subscribed", '<p>The next missive will land in your inbox. Every email has an unsubscribe link.</p>');
+    return htmlPage(200, "You're subscribed", '<p>The next note will land in your inbox. Every email has an unsubscribe link.</p>');
 };

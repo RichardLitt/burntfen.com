@@ -5,7 +5,7 @@ const DOMAIN = 'mg.burntfen.com';
 const LIST_ADDRESS = `daily@${DOMAIN}`;
 const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
-const SERIES_NAME = '75 Missives from the Middle Kingdom';
+const SERIES_NAME = 'Notes from China';
 const API_BASE = process.env.MAILGUN_API_BASE || 'https://api.mailgun.net';
 const TOKEN_LIFETIME_SECONDS = 7 * 24 * 60 * 60;
 

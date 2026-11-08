@@ -1,0 +1,30 @@
+---
+layout: page
+title: Notes from China
+header: Notes from China
+permalink: /daily.html
+description: "A short pop-up email list and blog for how I am doing and what I am focusing on. It'll end when I leave China in early January."
+---
+{% include JB/setup %}
+
+<p>This is a mailing list and a blog. It is an experiment on whether sending a daily update out into the world helps with the act fo creation.</p>
+
+<p>I am also currently on a Teaching Fellowship in Xiamen, China. This list serves as an update on what I am doing with my time here. The goal is for me to send out a roughly 300 word email a day on what I am doing and how I am doing it.</p>
+
+{% include daily-subscribe.html %}
+
+<hr />
+
+{% assign entries = site.daily | reverse %}
+{% for entry in entries %}
+  {% assign entry_id = entry.date | date: "%Y-%m-%d" %}
+  <article id="{{ entry_id }}">
+    <h2><a href="#{{ entry_id }}">{{ entry.title }}</a></h2>
+    <div class="post">
+      <p class="published"><i><span class="date">{{ entry.date | date_to_long_string }}</span></i></p>
+      {{ entry.content }}
+    </div>
+  </article>
+
+  <hr class="post-divider"/>
+{% endfor %}
