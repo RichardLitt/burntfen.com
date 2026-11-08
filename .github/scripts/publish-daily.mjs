@@ -11,7 +11,6 @@ const FROM = `Richard Littauer <${LIST_ADDRESS}>`;
 const REPLY_TO = 'richard@burntfen.com';
 const BLUESKY_API = 'https://bsky.social/xrpc';
 
-const MAX_WORDS = 300;
 const MAX_AGE_HOURS = 48;
 const POLL_INTERVAL_MS = Number(process.env.POLL_INTERVAL_MS || 20_000);
 const POLL_TIMEOUT_MS = Number(process.env.POLL_TIMEOUT_MS || 10 * 60_000);
@@ -65,13 +64,7 @@ async function waitForEntries(paths) {
     }
 }
 
-function wordCount(html) {
-    return html.replace(/<[^>]+>/g, ' ').trim().split(/\s+/).filter(Boolean).length;
-}
-
 function checkEntry(entry, published) {
-    const words = wordCount(entry.html);
-    if (words > MAX_WORDS) throw new Error(`${entry.path}: ${words} words is over the ${MAX_WORDS} word limit`);
     if (published.filter((other) => other.id === entry.id).length > 1) {
         throw new Error(`${entry.path}: there is more than one entry for ${entry.id}`);
     }
