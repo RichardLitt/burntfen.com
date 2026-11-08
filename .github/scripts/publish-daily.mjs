@@ -1,7 +1,7 @@
 // Sends new daily log entries to the email list, Bluesky and Mastodon.
 // See .github/workflows/publish-daily.yml. Set DRY_RUN=1 to print instead of send.
 import { execFileSync } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const SITE_URL = process.env.SITE_URL || 'https://www.burntfen.com';
 const MAILGUN_API = process.env.MAILGUN_API_BASE || 'https://api.mailgun.net';
@@ -49,12 +49,16 @@ function isTooOld(path) {
 
 async function waitForEntries(paths) {
     const deadline = Date.now() + POLL_TIMEOUT_MS;
+    console.log(`Looking for ${paths.join(', ')} at ${SITE_URL}/daily.json`);
     for (;;) {
         try {
             const response = await fetch(`${SITE_URL}/daily.json?t=${Date.now()}`, { cache: 'no-store' });
             if (response.ok) {
                 const published = await response.json();
                 if (paths.every((path) => published.some((entry) => entry.path === path))) return published;
+                console.log('Still waiting: not in daily.json yet');
+            } else {
+                console.log(`Still waiting: daily.json returned ${response.status}`);
             }
         } catch (error) {
             console.log(`Still waiting: ${error.message}`);
@@ -196,6 +200,7 @@ async function main() {
 
     let paths;
     if (ENTRY) {
+        if (!existsSync(ENTRY)) throw new Error(`No such file: ${ENTRY}`);
         paths = [ENTRY];
     } else {
         paths = newEntryPaths().filter((path) => {
