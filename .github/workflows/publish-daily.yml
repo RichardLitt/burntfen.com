@@ -3,7 +3,8 @@
 #
 # Do not use "Re-run jobs" on this workflow: it would send to everyone again, so
 # the script refuses. To retry a channel that failed, use "Run workflow" and name
-# only that channel.
+# only that channel. A manual run ignores the entry's send and social settings;
+# tick "force" to also send when another entry has the same date.
 name: Publish daily log
 
 on:
@@ -22,6 +23,10 @@ on:
       test_to:
         description: "Email only this address, and skip the list and social posts"
         required: false
+      force:
+        description: "Send even if another entry has the same date"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -45,6 +50,7 @@ jobs:
           ENTRY: ${{ inputs.entry }}
           CHANNELS: ${{ inputs.channels }}
           TEST_TO: ${{ inputs.test_to }}
+          FORCE: ${{ inputs.force }}
           MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
