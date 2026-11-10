@@ -27,6 +27,8 @@ const MASTODON_LINK_COST = 24;
 const DRY_RUN = Boolean(process.env.DRY_RUN);
 const ENTRY = process.env.ENTRY;
 const TEST_TO = process.env.TEST_TO;
+// Set by the "force" checkbox: send even if another entry has the same date.
+const FORCE = process.env.FORCE === 'true';
 const CHANNELS = TEST_TO ? ['email'] : (process.env.CHANNELS || 'email,bluesky,mastodon').split(',').map((c) => c.trim());
 
 function requireEnv(name) {
@@ -75,7 +77,9 @@ async function waitForEntries(paths) {
 
 function checkEntry(entry, published) {
     if (published.filter((other) => other.id === entry.id).length > 1) {
-        throw new Error(`${entry.path}: there is more than one entry for ${entry.id}`);
+        const message = `${entry.path}: there is more than one entry for ${entry.id}`;
+        if (!FORCE) throw new Error(`${message}. To send it anyway, use "Run workflow" with this entry and tick "force".`);
+        console.log(`${message}, sending anyway because force is set`);
     }
 }
 
@@ -203,7 +207,7 @@ async function postToMastodon(entry) {
             headers: {
                 Authorization: `Bearer ${requireEnv('MASTODON_TOKEN')}`,
                 'Content-Type': 'application/json',
-                'Idempotency-Key': `daily-${entry.id}`,
+                'Idempotency-Key': `daily-${entry.path}`,
             },
             body: JSON.stringify({ status, visibility: 'public' }),
         })
