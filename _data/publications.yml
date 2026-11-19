@@ -188,6 +188,30 @@
   bib: /publications/bib/LittauerInReviewNumeniusArquatus.bib
 
 - year: 2026
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: true
+  status: In Press
+  title: "Amendments to the 6th edition (2024) of the Checklist of the Birds of New Zealand"
+  citation: |-
+    Colin M. Miskelly, Richard Littauer, Pascale Lubbe, Nicolas J. Rawlence, Alan J.D. Tennyson (2026). Amendments to the 6th edition (2024) of the Checklist of the Birds of New Zealand. *Notornis*. In press.
+  doi:
+  pdf:
+  bib: /publications/bib/MiskellyInPressAmendments.bib
+
+- year: 2026
+  type: [Journal Article, Short Note]
+  topics: [Ornithology]
+  peer_reviewed: true
+  status: In Press
+  title: "When should newly-breeding bird species be considered resident in Aotearoa/New Zealand?"
+  citation: |-
+    Colin M. Miskelly, Peter J. de Lange, Richard Littauer, Troy D. Makan, Nicolas J. Rawlence, Hugh A. Robertson, Alan J.D. Tennyson (2026). When should newly-breeding bird species be considered resident in Aotearoa/New Zealand? *Notornis*. In press.
+  doi:
+  pdf:
+  bib: /publications/bib/MiskellyInPressNewlyBreeding.bib
+
+- year: 2026
   date: "2026-11-04"
   type: [Journal Article, Short Note]
   topics: [Taxonomic Nomenclature, Invertebrates]
