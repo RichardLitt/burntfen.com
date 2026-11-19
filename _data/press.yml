@@ -87,6 +87,12 @@
 - source: "Heart Breakfast (Bath)"
   hide: true
 
+- source: "Chao News (潮新闻)"
+  hide: true
+  date: "November 15, 2026"
+  title: "初中生“堵截”硅谷大牛求约饭？开源社联创陈阳点赞杭州开源生态：这届年轻人太勇敢"
+  url: https://tidenews.com.cn/news.html?id=3615429
+
 - source: "Seven Days"
   url: https://www.sevendaysvt.com/vermont/theater-review-as-you-like-it-plainfield-little-theatre/Content\?oid\=29689871
   title: "Theater review: 'As You Like It,' Plainfield Little Theatre"
