@@ -21,6 +21,18 @@
 
 - year: In Review
   type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "Case [unnumbered] – Status of epithetic correction: Rallus hodgeni Scarlett, 1955 or Rallus hodgenorum Olson, 1986?"
+  citation: |-
+    Richard Littauer. Case [unnumbered] – Status of epithetic correction: *Rallus hodgeni* Scarlett, 1955 or *Rallus hodgenorum* Olson, 1986? In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewHodgenorum.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
   topics: [Ornithology, Literary Studies]
   peer_reviewed: false
   status: In Review
@@ -96,7 +108,7 @@
   topics: [Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
-  title: "Case – Oligosoma Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names"
+  title: "Case [unnumbered] – Oligosoma Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names"
   citation: |-
     Richard Littauer. Case [unnumbered] – *Oligosoma* Girard, 1857 (Scincidae): proposed determination of neuter gender, and determination of parts-of-speech of two species-group names. In review.
   doi:
