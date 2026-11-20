@@ -24,6 +24,18 @@
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
   status: In Review
+  title: "Saxicola capratus (Linnaeus, 1766) is the available name (Aves: Muscicapidae)"
+  citation: |-
+    Richard Littauer. *Saxicola capratus* (Linnaeus, 1766) is the available name (Aves: Muscicapidae). In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewSaxicolaCapratus.bib
+
+- year: In Review
+  type: [Journal Article, Full Paper]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
   title: "Case [unnumbered] – Status of epithetic correction: Rallus hodgeni Scarlett, 1955 or Rallus hodgenorum Olson, 1986?"
   citation: |-
     Richard Littauer. Case [unnumbered] – Status of epithetic correction: *Rallus hodgeni* Scarlett, 1955 or *Rallus hodgenorum* Olson, 1986? In review.
