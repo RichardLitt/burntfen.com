@@ -20,6 +20,18 @@
 # Leave doi/pdf/bib empty rather than deleting them, so gaps are easy to spot.
 
 - year: In Review
+  type: [Journal Article, Short Note]
+  topics: [Ornithology, Taxonomic Nomenclature]
+  peer_reviewed: false
+  status: In Review
+  title: "The type species fixation of Agelaius Vieillot, 1816"
+  citation: |-
+    Richard Littauer. The type species fixation of *Agelaius* Vieillot, 1816. In review.
+  doi:
+  pdf:
+  bib: /publications/bib/LittauerInReviewTypeSpecies.bib
+
+- year: In Review
   type: [Journal Article, Full Paper]
   topics: [Ornithology, Taxonomic Nomenclature]
   peer_reviewed: false
